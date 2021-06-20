@@ -1,0 +1,487 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Contact Form 7",wp-contact-form-7,"Contact Form 7"
+Contact,wp-contact-form-7,Contact
+"Edit Contact Form",wp-contact-form-7,"Edit Contact Form"
+"Contact Forms",wp-contact-form-7,"Contact Forms"
+"Add New Contact Form",wp-contact-form-7,"Add New Contact Form"
+"Add New",wp-contact-form-7,"Add New"
+"Integration with Other Services",wp-contact-form-7,"Integration with Other Services"
+Integration,wp-contact-form-7,Integration
+"The changes you made will be lost if you navigate away from this page.",wp-contact-form-7,"The changes you made will be lost if you navigate away from this page."
+"How to resolve?",wp-contact-form-7,"How to resolve?"
+"1 configuration error detected",wp-contact-form-7,"1 configuration error detected"
+"%d configuration errors detected",wp-contact-form-7,"%d configuration errors detected"
+"1 configuration error detected in this tab panel",wp-contact-form-7,"1 configuration error detected in this tab panel"
+"%d configuration errors detected in this tab panel",wp-contact-form-7,"%d configuration errors detected in this tab panel"
+"(configuration error)",wp-contact-form-7,"(configuration error)"
+"You are not allowed to edit this item.",wp-contact-form-7,"You are not allowed to edit this item."
+"You are not allowed to edit this item.",wp-contact-form-7,"You are not allowed to edit this item."
+"You are not allowed to delete this item.",wp-contact-form-7,"You are not allowed to delete this item."
+"Error in deleting.",wp-contact-form-7,"Error in deleting."
+"Contact Forms",wp-contact-form-7,"Contact Forms"
+"Add New",wp-contact-form-7,"Add New"
+"Search results for &#8220;%s&#8221;",wp-contact-form-7,"Search results for &#8220;%s&#8221;"
+"Search Contact Forms",wp-contact-form-7,"Search Contact Forms"
+"Integration with Other Services",wp-contact-form-7,"Integration with Other Services"
+"Contact form created.",wp-contact-form-7,"Contact form created."
+"Contact form saved.",wp-contact-form-7,"Contact form saved."
+"Contact form deleted.",wp-contact-form-7,"Contact form deleted."
+"There was an error saving the contact form.",wp-contact-form-7,"There was an error saving the contact form."
+"Configuration validation completed. No invalid contact form was found.",wp-contact-form-7,"Configuration validation completed. No invalid contact form was found."
+Settings,wp-contact-form-7,Settings
+"<strong>Contact Form 7 %1$s requires WordPress %2$s or higher.</strong> Please <a href=""%3$s"">update WordPress</a> first.",wp-contact-form-7,"<strong>Contact Form 7 %1$s requires WordPress %2$s or higher.</strong> Please <a href=""%3$s"">update WordPress</a> first."
+"You are not allowed to edit this contact form.",wp-contact-form-7,"You are not allowed to edit this contact form."
+Save,wp-contact-form-7,Save
+"Add New Contact Form",wp-contact-form-7,"Add New Contact Form"
+"Edit Contact Form",wp-contact-form-7,"Edit Contact Form"
+"Add New",wp-contact-form-7,"Add New"
+"Enter title here",wp-contact-form-7,"Enter title here"
+"Copy this shortcode and paste it into your post, page, or text widget content:",wp-contact-form-7,"Copy this shortcode and paste it into your post, page, or text widget content:"
+"You can also use this old-style shortcode:",wp-contact-form-7,"You can also use this old-style shortcode:"
+Status,wp-contact-form-7,Status
+Save,wp-contact-form-7,Save
+Duplicate,wp-contact-form-7,Duplicate
+Delete,wp-contact-form-7,Delete
+"You are about to delete this contact form.\n  'Cancel' to stop, 'OK' to delete.",wp-contact-form-7,"You are about to delete this contact form.\n  'Cancel' to stop, 'OK' to delete."
+"Do you need help?",wp-contact-form-7,"Do you need help?"
+"Here are some available options to help solve your problems.",wp-contact-form-7,"Here are some available options to help solve your problems."
+"%1$s and %2$s",wp-contact-form-7,"%1$s and %2$s"
+https://contactform7.com/faq/,wp-contact-form-7,https://contactform7.com/faq/
+FAQ,wp-contact-form-7,FAQ
+https://contactform7.com/docs/,wp-contact-form-7,https://contactform7.com/docs/
+docs,wp-contact-form-7,docs
+https://wordpress.org/support/plugin/contact-form-7/,wp-contact-form-7,https://wordpress.org/support/plugin/contact-form-7/
+"Support forums",wp-contact-form-7,"Support forums"
+https://contactform7.com/custom-development/,wp-contact-form-7,https://contactform7.com/custom-development/
+"Professional services",wp-contact-form-7,"Professional services"
+"%1$s %2$s keys switch panels",wp-contact-form-7,"%1$s %2$s keys switch panels"
+"(left and right arrow)",wp-contact-form-7,"(left and right arrow)"
+Form,wp-contact-form-7,Form
+Mail,wp-contact-form-7,Mail
+Messages,wp-contact-form-7,Messages
+"Additional Settings (%d)",wp-contact-form-7,"Additional Settings (%d)"
+"Additional Settings",wp-contact-form-7,"Additional Settings"
+Title,wp-contact-form-7,Title
+Shortcode,wp-contact-form-7,Shortcode
+Author,wp-contact-form-7,Author
+Date,wp-contact-form-7,Date
+Delete,wp-contact-form-7,Delete
+"Edit &#8220;%s&#8221;",wp-contact-form-7,"Edit &#8220;%s&#8221;"
+Edit,wp-contact-form-7,Edit
+Duplicate,wp-contact-form-7,Duplicate
+"%1$s at %2$s",wp-contact-form-7,"%1$s at %2$s"
+Y/m/d,wp-contact-form-7,Y/m/d
+"g:i a",wp-contact-form-7,"g:i a"
+"Validate Contact Form 7 Configuration",wp-contact-form-7,"Validate Contact Form 7 Configuration"
+"Misconfiguration leads to mail delivery failure or other troubles. Validate your contact forms now.",wp-contact-form-7,"Misconfiguration leads to mail delivery failure or other troubles. Validate your contact forms now."
+"You are not allowed to validate configuration.",wp-contact-form-7,"You are not allowed to validate configuration."
+"Validate Configuration",wp-contact-form-7,"Validate Configuration"
+https://contactform7.com/configuration-validator-faq/,wp-contact-form-7,https://contactform7.com/configuration-validator-faq/
+"FAQ about Configuration Validator",wp-contact-form-7,"FAQ about Configuration Validator"
+https://contactform7.com/editing-form-template/,wp-contact-form-7,https://contactform7.com/editing-form-template/
+"Editing form template",wp-contact-form-7,"Editing form template"
+"You can edit the form template here. For details, see %s.",wp-contact-form-7,"You can edit the form template here. For details, see %s."
+Form,wp-contact-form-7,Form
+"Mail (2)",wp-contact-form-7,"Mail (2)"
+"Use Mail (2)",wp-contact-form-7,"Use Mail (2)"
+Mail,wp-contact-form-7,Mail
+"Mail (2) is an additional mail template often used as an autoresponder.",wp-contact-form-7,"Mail (2) is an additional mail template often used as an autoresponder."
+https://contactform7.com/setting-up-mail/,wp-contact-form-7,https://contactform7.com/setting-up-mail/
+"Setting up mail",wp-contact-form-7,"Setting up mail"
+"You can edit the mail template here. For details, see %s.",wp-contact-form-7,"You can edit the mail template here. For details, see %s."
+"In the following fields, you can use these mail-tags:",wp-contact-form-7,"In the following fields, you can use these mail-tags:"
+To,wp-contact-form-7,To
+From,wp-contact-form-7,From
+Subject,wp-contact-form-7,Subject
+"Additional headers",wp-contact-form-7,"Additional headers"
+"Message body",wp-contact-form-7,"Message body"
+"Exclude lines with blank mail-tags from output",wp-contact-form-7,"Exclude lines with blank mail-tags from output"
+"Use HTML content type",wp-contact-form-7,"Use HTML content type"
+"File attachments",wp-contact-form-7,"File attachments"
+https://contactform7.com/editing-messages/,wp-contact-form-7,https://contactform7.com/editing-messages/
+"Editing messages",wp-contact-form-7,"Editing messages"
+"You can edit messages used in various situations here. For details, see %s.",wp-contact-form-7,"You can edit messages used in various situations here. For details, see %s."
+Messages,wp-contact-form-7,Messages
+https://contactform7.com/additional-settings/,wp-contact-form-7,https://contactform7.com/additional-settings/
+"Additional settings",wp-contact-form-7,"Additional settings"
+"You can add customization code snippets here. For details, see %s.",wp-contact-form-7,"You can add customization code snippets here. For details, see %s."
+"Additional Settings",wp-contact-form-7,"Additional Settings"
+Overview,wp-contact-form-7,Overview
+"Available Actions",wp-contact-form-7,"Available Actions"
+Overview,wp-contact-form-7,Overview
+Form-tags,wp-contact-form-7,Form-tags
+Mail-tags,wp-contact-form-7,Mail-tags
+Overview,wp-contact-form-7,Overview
+"On this screen, you can manage contact forms provided by Contact Form 7. You can manage an unlimited number of contact forms. Each contact form has a unique ID and Contact Form 7 shortcode ([contact-form-7 ...]). To insert a contact form into a post or a text widget, insert the shortcode into the target.",wp-contact-form-7,"On this screen, you can manage contact forms provided by Contact Form 7. You can manage an unlimited number of contact forms. Each contact form has a unique ID and Contact Form 7 shortcode ([contact-form-7 ...]). To insert a contact form into a post or a text widget, insert the shortcode into the target."
+"Hovering over a row in the contact forms list will display action links that allow you to manage your contact form. You can perform the following actions:",wp-contact-form-7,"Hovering over a row in the contact forms list will display action links that allow you to manage your contact form. You can perform the following actions:"
+"<strong>Edit</strong> - Navigates to the editing screen for that contact form. You can also reach that screen by clicking on the contact form title.",wp-contact-form-7,"<strong>Edit</strong> - Navigates to the editing screen for that contact form. You can also reach that screen by clicking on the contact form title."
+"<strong>Duplicate</strong> - Clones that contact form. A cloned contact form inherits all content from the original, but has a different ID.",wp-contact-form-7,"<strong>Duplicate</strong> - Clones that contact form. A cloned contact form inherits all content from the original, but has a different ID."
+"On this screen, you can edit a contact form. A contact form is comprised of the following components:",wp-contact-form-7,"On this screen, you can edit a contact form. A contact form is comprised of the following components:"
+"<strong>Title</strong> is the title of a contact form. This title is only used for labeling a contact form, and can be edited.",wp-contact-form-7,"<strong>Title</strong> is the title of a contact form. This title is only used for labeling a contact form, and can be edited."
+"<strong>Form</strong> is a content of HTML form. You can use arbitrary HTML, which is allowed inside a form element. You can also use Contact Form 7&#8217;s form-tags here.",wp-contact-form-7,"<strong>Form</strong> is a content of HTML form. You can use arbitrary HTML, which is allowed inside a form element. You can also use Contact Form 7&#8217;s form-tags here."
+"<strong>Mail</strong> manages a mail template (headers and message body) that this contact form will send when users submit it. You can use Contact Form 7&#8217;s mail-tags here.",wp-contact-form-7,"<strong>Mail</strong> manages a mail template (headers and message body) that this contact form will send when users submit it. You can use Contact Form 7&#8217;s mail-tags here."
+"<strong>Mail (2)</strong> is an additional mail template that works similar to Mail. Mail (2) is different in that it is sent only when Mail has been sent successfully.",wp-contact-form-7,"<strong>Mail (2)</strong> is an additional mail template that works similar to Mail. Mail (2) is different in that it is sent only when Mail has been sent successfully."
+"In <strong>Messages</strong>, you can edit various types of messages used for this contact form. These messages are relatively short messages, like a validation error message you see when you leave a required field blank.",wp-contact-form-7,"In <strong>Messages</strong>, you can edit various types of messages used for this contact form. These messages are relatively short messages, like a validation error message you see when you leave a required field blank."
+"<strong>Additional Settings</strong> provides a place where you can customize the behavior of this contact form by adding code snippets.",wp-contact-form-7,"<strong>Additional Settings</strong> provides a place where you can customize the behavior of this contact form by adding code snippets."
+"A form-tag is a short code enclosed in square brackets used in a form content. A form-tag generally represents an input field, and its components can be separated into four parts: type, name, options, and values. Contact Form 7 supports several types of form-tags including text fields, number fields, date fields, checkboxes, radio buttons, menus, file-uploading fields, CAPTCHAs, and quiz fields.",wp-contact-form-7,"A form-tag is a short code enclosed in square brackets used in a form content. A form-tag generally represents an input field, and its components can be separated into four parts: type, name, options, and values. Contact Form 7 supports several types of form-tags including text fields, number fields, date fields, checkboxes, radio buttons, menus, file-uploading fields, CAPTCHAs, and quiz fields."
+"While form-tags have a comparatively complex syntax, you don&#8217;t need to know the syntax to add form-tags because you can use the straightforward tag generator (<strong>Generate Tag</strong> button on this screen).",wp-contact-form-7,"While form-tags have a comparatively complex syntax, you don&#8217;t need to know the syntax to add form-tags because you can use the straightforward tag generator (<strong>Generate Tag</strong> button on this screen)."
+"A mail-tag is also a short code enclosed in square brackets that you can use in every Mail and Mail (2) field. A mail-tag represents a user input value through an input field of a corresponding form-tag.",wp-contact-form-7,"A mail-tag is also a short code enclosed in square brackets that you can use in every Mail and Mail (2) field. A mail-tag represents a user input value through an input field of a corresponding form-tag."
+"There are also special mail-tags that have specific names, but don&#8217;t have corresponding form-tags. They are used to represent meta information of form submissions like the submitter&#8217;s IP address or the URL of the page.",wp-contact-form-7,"There are also special mail-tags that have specific names, but don&#8217;t have corresponding form-tags. They are used to represent meta information of form submissions like the submitter&#8217;s IP address or the URL of the page."
+"On this screen, you can manage services that are available through Contact Form 7. Using API will allow you to collaborate with any services that are available.",wp-contact-form-7,"On this screen, you can manage services that are available through Contact Form 7. Using API will allow you to collaborate with any services that are available."
+"You may need to first sign up for an account with the service that you plan to use. When you do so, you would need to authorize Contact Form 7 to access the service with your account.",wp-contact-form-7,"You may need to first sign up for an account with the service that you plan to use. When you do so, you would need to authorize Contact Form 7 to access the service with your account."
+"Any information you provide will not be shared with service providers without your authorization.",wp-contact-form-7,"Any information you provide will not be shared with service providers without your authorization."
+"For more information:",wp-contact-form-7,"For more information:"
+https://contactform7.com/docs/,wp-contact-form-7,https://contactform7.com/docs/
+Docs,wp-contact-form-7,Docs
+https://contactform7.com/faq/,wp-contact-form-7,https://contactform7.com/faq/
+FAQ,wp-contact-form-7,FAQ
+https://contactform7.com/support/,wp-contact-form-7,https://contactform7.com/support/
+Support,wp-contact-form-7,Support
+"Form-tag Generator: %s",wp-contact-form-7,"Form-tag Generator: %s"
+Dismiss,wp-contact-form-7,Dismiss
+"Getting spammed? You have protection.",wp-contact-form-7,"Getting spammed? You have protection."
+"Spammers target everything; your contact forms aren&#8217;t an exception. Before you get spammed, protect your contact forms with the powerful anti-spam features Contact Form 7 provides.",wp-contact-form-7,"Spammers target everything; your contact forms aren&#8217;t an exception. Before you get spammed, protect your contact forms with the powerful anti-spam features Contact Form 7 provides."
+"Contact Form 7 supports spam-filtering with %1$s. Intelligent %2$s blocks annoying spambots. Plus, using %3$s, you can block messages containing specified keywords or those sent from specified IP addresses.",wp-contact-form-7,"Contact Form 7 supports spam-filtering with %1$s. Intelligent %2$s blocks annoying spambots. Plus, using %3$s, you can block messages containing specified keywords or those sent from specified IP addresses."
+https://contactform7.com/spam-filtering-with-akismet/,wp-contact-form-7,https://contactform7.com/spam-filtering-with-akismet/
+Akismet,wp-contact-form-7,Akismet
+https://contactform7.com/recaptcha/,wp-contact-form-7,https://contactform7.com/recaptcha/
+reCAPTCHA,wp-contact-form-7,reCAPTCHA
+https://contactform7.com/comment-blacklist/,wp-contact-form-7,https://contactform7.com/comment-blacklist/
+"disallowed list",wp-contact-form-7,"disallowed list"
+"Contact Form 7 needs your support.",wp-contact-form-7,"Contact Form 7 needs your support."
+"It is hard to continue development and support for this plugin without contributions from users like you.",wp-contact-form-7,"It is hard to continue development and support for this plugin without contributions from users like you."
+"If you enjoy using Contact Form 7 and find it useful, please consider %s.",wp-contact-form-7,"If you enjoy using Contact Form 7 and find it useful, please consider %s."
+https://contactform7.com/donate/,wp-contact-form-7,https://contactform7.com/donate/
+"making a donation",wp-contact-form-7,"making a donation"
+"Your donation will help encourage and support the plugin&#8217;s continued development and better user support.",wp-contact-form-7,"Your donation will help encourage and support the plugin&#8217;s continued development and better user support."
+"Before you cry over spilt mail&#8230;",wp-contact-form-7,"Before you cry over spilt mail&#8230;"
+"Contact Form 7 doesn&#8217;t store submitted messages anywhere. Therefore, you may lose important messages forever if your mail server has issues or you make a mistake in mail configuration.",wp-contact-form-7,"Contact Form 7 doesn&#8217;t store submitted messages anywhere. Therefore, you may lose important messages forever if your mail server has issues or you make a mistake in mail configuration."
+"Install a message storage plugin before this happens to you. %s saves all messages through contact forms into the database. Flamingo is a free WordPress plugin created by the same author as Contact Form 7.",wp-contact-form-7,"Install a message storage plugin before this happens to you. %s saves all messages through contact forms into the database. Flamingo is a free WordPress plugin created by the same author as Contact Form 7."
+https://contactform7.com/save-submitted-messages-with-flamingo/,wp-contact-form-7,https://contactform7.com/save-submitted-messages-with-flamingo/
+Flamingo,wp-contact-form-7,Flamingo
+https://contactform7.com/configuration-errors/,wp-contact-form-7,https://contactform7.com/configuration-errors/
+"There is a possible empty field.",wp-contact-form-7,"There is a possible empty field."
+"Invalid mailbox syntax is used.",wp-contact-form-7,"Invalid mailbox syntax is used."
+"Sender email address does not belong to the site domain.",wp-contact-form-7,"Sender email address does not belong to the site domain."
+"HTML tags are used in a message.",wp-contact-form-7,"HTML tags are used in a message."
+"Multiple form controls are in a single label element.",wp-contact-form-7,"Multiple form controls are in a single label element."
+"There are invalid mail header fields.",wp-contact-form-7,"There are invalid mail header fields."
+"Deprecated settings are used.",wp-contact-form-7,"Deprecated settings are used."
+"Unavailable names (%names%) are used for form controls.",wp-contact-form-7,"Unavailable names (%names%) are used for form controls."
+"Unavailable HTML elements are used in the form template.",wp-contact-form-7,"Unavailable HTML elements are used in the form template."
+"Invalid mailbox syntax is used in the %name% field.",wp-contact-form-7,"Invalid mailbox syntax is used in the %name% field."
+"The total size of attachment files is too large.",wp-contact-form-7,"The total size of attachment files is too large."
+"Attachment file does not exist at %path%.",wp-contact-form-7,"Attachment file does not exist at %path%."
+"It is not allowed to use files outside the wp-content directory.",wp-contact-form-7,"It is not allowed to use files outside the wp-content directory."
+"Not Found",wp-contact-form-7,"Not Found"
+(optional),wp-contact-form-7,(optional)
+"Your name",wp-contact-form-7,"Your name"
+"Your email",wp-contact-form-7,"Your email"
+Subject,wp-contact-form-7,Subject
+"Your message",wp-contact-form-7,"Your message"
+Submit,wp-contact-form-7,Submit
+"From: %s",wp-contact-form-7,"From: %s"
+"Subject: %s",wp-contact-form-7,"Subject: %s"
+"Message Body:",wp-contact-form-7,"Message Body:"
+"This e-mail was sent from a contact form on %1$s (%2$s)",wp-contact-form-7,"This e-mail was sent from a contact form on %1$s (%2$s)"
+"Message Body:",wp-contact-form-7,"Message Body:"
+"This e-mail was sent from a contact form on %1$s (%2$s)",wp-contact-form-7,"This e-mail was sent from a contact form on %1$s (%2$s)"
+"Sender's message was sent successfully",wp-contact-form-7,"Sender's message was sent successfully"
+"Thank you for your message. It has been sent.",wp-contact-form-7,"Thank you for your message. It has been sent."
+"Sender's message failed to send",wp-contact-form-7,"Sender's message failed to send"
+"There was an error trying to send your message. Please try again later.",wp-contact-form-7,"There was an error trying to send your message. Please try again later."
+"Validation errors occurred",wp-contact-form-7,"Validation errors occurred"
+"One or more fields have an error. Please check and try again.",wp-contact-form-7,"One or more fields have an error. Please check and try again."
+"Submission was referred to as spam",wp-contact-form-7,"Submission was referred to as spam"
+"There was an error trying to send your message. Please try again later.",wp-contact-form-7,"There was an error trying to send your message. Please try again later."
+"There are terms that the sender must accept",wp-contact-form-7,"There are terms that the sender must accept"
+"You must accept the terms and conditions before sending your message.",wp-contact-form-7,"You must accept the terms and conditions before sending your message."
+"There is a field that the sender must fill in",wp-contact-form-7,"There is a field that the sender must fill in"
+"The field is required.",wp-contact-form-7,"The field is required."
+"There is a field with input that is longer than the maximum allowed length",wp-contact-form-7,"There is a field with input that is longer than the maximum allowed length"
+"The field is too long.",wp-contact-form-7,"The field is too long."
+"There is a field with input that is shorter than the minimum allowed length",wp-contact-form-7,"There is a field with input that is shorter than the minimum allowed length"
+"The field is too short.",wp-contact-form-7,"The field is too short."
+"Contact Forms",wp-contact-form-7,"Contact Forms"
+"Contact Form",wp-contact-form-7,"Contact Form"
+Untitled,wp-contact-form-7,Untitled
+"<code>%1$s</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>%2$s</code> method instead.",wp-contact-form-7,"<code>%1$s</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>%2$s</code> method instead."
+Untitled,wp-contact-form-7,Untitled
+"This contact form is available only for logged in users.",wp-contact-form-7,"This contact form is available only for logged in users."
+"This contact form is available only for logged in users.",wp-contact-form-7,"This contact form is available only for logged in users."
+"%1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead.",wp-contact-form-7,"%1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead."
+"%1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead.",wp-contact-form-7,"%1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead."
+"(This message was added in Contact Form 7 version %s.)",wp-contact-form-7,"(This message was added in Contact Form 7 version %s.)"
+"%1$s was called incorrectly. %2$s %3$s",wp-contact-form-7,"%1$s was called incorrectly. %2$s %3$s"
+"HTTP Response: %1$s %2$s %3$s from %4$s",wp-contact-form-7,"HTTP Response: %1$s %2$s %3$s from %4$s"
+"You are not allowed to access contact forms.",wp-contact-form-7,"You are not allowed to access contact forms."
+"You are not allowed to create a contact form.",wp-contact-form-7,"You are not allowed to create a contact form."
+"You are not allowed to access the requested contact form.",wp-contact-form-7,"You are not allowed to access the requested contact form."
+"You are not allowed to access the requested contact form.",wp-contact-form-7,"You are not allowed to access the requested contact form."
+"You are not allowed to access the requested contact form.",wp-contact-form-7,"You are not allowed to access the requested contact form."
+"Cannot create existing contact form.",wp-contact-form-7,"Cannot create existing contact form."
+"There was an error saving the contact form.",wp-contact-form-7,"There was an error saving the contact form."
+"The requested contact form was not found.",wp-contact-form-7,"The requested contact form was not found."
+"The requested contact form was not found.",wp-contact-form-7,"The requested contact form was not found."
+"There was an error saving the contact form.",wp-contact-form-7,"There was an error saving the contact form."
+"The requested contact form was not found.",wp-contact-form-7,"The requested contact form was not found."
+"There was an error deleting the contact form.",wp-contact-form-7,"There was an error deleting the contact form."
+"The requested contact form was not found.",wp-contact-form-7,"The requested contact form was not found."
+"The requested contact form was not found.",wp-contact-form-7,"The requested contact form was not found."
+"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class.",wp-contact-form-7,"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class."
+"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class.",wp-contact-form-7,"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class."
+"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class.",wp-contact-form-7,"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class."
+"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class.",wp-contact-form-7,"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class."
+"Sending mail has been aborted.",wp-contact-form-7,"Sending mail has been aborted."
+"User-Agent string is unnaturally short.",wp-contact-form-7,"User-Agent string is unnaturally short."
+"Submitted nonce is invalid.",wp-contact-form-7,"Submitted nonce is invalid."
+"Contact form %d",wp-contact-form-7,"Contact form %d"
+Consented,wp-contact-form-7,Consented
+"Not consented",wp-contact-form-7,"Not consented"
+acceptance,wp-contact-form-7,acceptance
+"Generate a form-tag for an acceptance checkbox. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for an acceptance checkbox. For more details, see %s."
+https://contactform7.com/acceptance-checkbox/,wp-contact-form-7,https://contactform7.com/acceptance-checkbox/
+"Acceptance checkbox",wp-contact-form-7,"Acceptance checkbox"
+Name,wp-contact-form-7,Name
+Condition,wp-contact-form-7,Condition
+Options,wp-contact-form-7,Options
+Options,wp-contact-form-7,Options
+"Make this checkbox optional",wp-contact-form-7,"Make this checkbox optional"
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"Akismet returns a spam response.",wp-contact-form-7,"Akismet returns a spam response."
+checkboxes,wp-contact-form-7,checkboxes
+"radio buttons",wp-contact-form-7,"radio buttons"
+"Generate a form-tag for a group of checkboxes. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a group of checkboxes. For more details, see %s."
+"Generate a form-tag for a group of radio buttons. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a group of radio buttons. For more details, see %s."
+https://contactform7.com/checkboxes-radio-buttons-and-menus/,wp-contact-form-7,https://contactform7.com/checkboxes-radio-buttons-and-menus/
+"Checkboxes, radio buttons and menus",wp-contact-form-7,"Checkboxes, radio buttons and menus"
+"Field type",wp-contact-form-7,"Field type"
+"Field type",wp-contact-form-7,"Field type"
+"Required field",wp-contact-form-7,"Required field"
+Name,wp-contact-form-7,Name
+Options,wp-contact-form-7,Options
+Options,wp-contact-form-7,Options
+"One option per line.",wp-contact-form-7,"One option per line."
+"Put a label first, a checkbox last",wp-contact-form-7,"Put a label first, a checkbox last"
+"Wrap each item with label element",wp-contact-form-7,"Wrap each item with label element"
+"Make checkboxes exclusive",wp-contact-form-7,"Make checkboxes exclusive"
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab.",wp-contact-form-7,"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+"Email marketing",wp-contact-form-7,"Email marketing"
+"Constant Contact",wp-contact-form-7,"Constant Contact"
+"Connection established.",wp-contact-form-7,"Connection established."
+Error,wp-contact-form-7,Error
+"Failed to establish connection. Please double-check your configuration.",wp-contact-form-7,"Failed to establish connection. Please double-check your configuration."
+"Configuration updated.",wp-contact-form-7,"Configuration updated."
+"The Constant Contact integration module allows you to send contact data collected through your contact forms to the Constant Contact API. You can create reliable email subscription services in a few easy steps. For details, see %s.",wp-contact-form-7,"The Constant Contact integration module allows you to send contact data collected through your contact forms to the Constant Contact API. You can create reliable email subscription services in a few easy steps. For details, see %s."
+https://contactform7.com/constant-contact-integration/,wp-contact-form-7,https://contactform7.com/constant-contact-integration/
+"Constant Contact integration",wp-contact-form-7,"Constant Contact integration"
+"This site is connected to the Constant Contact API.",wp-contact-form-7,"This site is connected to the Constant Contact API."
+"Setup Integration",wp-contact-form-7,"Setup Integration"
+"API Key",wp-contact-form-7,"API Key"
+"App Secret",wp-contact-form-7,"App Secret"
+"Redirect URI",wp-contact-form-7,"Redirect URI"
+"Set this URL as the redirect URI.",wp-contact-form-7,"Set this URL as the redirect URI."
+"Connect to the Constant Contact API",wp-contact-form-7,"Connect to the Constant Contact API"
+"Select lists to which newly added contacts are to belong.",wp-contact-form-7,"Select lists to which newly added contacts are to belong."
+"Date format that the sender entered is invalid",wp-contact-form-7,"Date format that the sender entered is invalid"
+"The date format is incorrect.",wp-contact-form-7,"The date format is incorrect."
+"Date is earlier than minimum limit",wp-contact-form-7,"Date is earlier than minimum limit"
+"The date is before the earliest one allowed.",wp-contact-form-7,"The date is before the earliest one allowed."
+"Date is later than maximum limit",wp-contact-form-7,"Date is later than maximum limit"
+"The date is after the latest one allowed.",wp-contact-form-7,"The date is after the latest one allowed."
+date,wp-contact-form-7,date
+"Generate a form-tag for a date input field. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a date input field. For more details, see %s."
+https://contactform7.com/date-field/,wp-contact-form-7,https://contactform7.com/date-field/
+"Date field",wp-contact-form-7,"Date field"
+"Field type",wp-contact-form-7,"Field type"
+"Field type",wp-contact-form-7,"Field type"
+"Required field",wp-contact-form-7,"Required field"
+Name,wp-contact-form-7,Name
+"Default value",wp-contact-form-7,"Default value"
+"Use this text as the placeholder of the field",wp-contact-form-7,"Use this text as the placeholder of the field"
+Range,wp-contact-form-7,Range
+Range,wp-contact-form-7,Range
+Min,wp-contact-form-7,Min
+Max,wp-contact-form-7,Max
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab.",wp-contact-form-7,"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+"Disallowed words are used.",wp-contact-form-7,"Disallowed words are used."
+"Disallowed words (%s) are used.",wp-contact-form-7,"Disallowed words (%s) are used."
+"Uploading a file fails for any reason",wp-contact-form-7,"Uploading a file fails for any reason"
+"There was an unknown error uploading the file.",wp-contact-form-7,"There was an unknown error uploading the file."
+"Uploaded file is not allowed for file type",wp-contact-form-7,"Uploaded file is not allowed for file type"
+"You are not allowed to upload files of this type.",wp-contact-form-7,"You are not allowed to upload files of this type."
+"Uploaded file is too large",wp-contact-form-7,"Uploaded file is too large"
+"The file is too big.",wp-contact-form-7,"The file is too big."
+"Uploading a file fails for PHP error",wp-contact-form-7,"Uploading a file fails for PHP error"
+"There was an error uploading the file.",wp-contact-form-7,"There was an error uploading the file."
+file,wp-contact-form-7,file
+"Generate a form-tag for a file uploading field. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a file uploading field. For more details, see %s."
+https://contactform7.com/file-uploading-and-attachment/,wp-contact-form-7,https://contactform7.com/file-uploading-and-attachment/
+"File uploading and attachment",wp-contact-form-7,"File uploading and attachment"
+"Field type",wp-contact-form-7,"Field type"
+"Field type",wp-contact-form-7,"Field type"
+"Required field",wp-contact-form-7,"Required field"
+Name,wp-contact-form-7,Name
+"File size limit (bytes)",wp-contact-form-7,"File size limit (bytes)"
+"Acceptable file types",wp-contact-form-7,"Acceptable file types"
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"To attach the file uploaded through this field to mail, you need to insert the corresponding mail-tag (%s) into the File Attachments field on the Mail tab.",wp-contact-form-7,"To attach the file uploaded through this field to mail, you need to insert the corresponding mail-tag (%s) into the File Attachments field on the Mail tab."
+"This contact form contains file uploading fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually.",wp-contact-form-7,"This contact form contains file uploading fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+"Contact Form 7",wp-contact-form-7,"Contact Form 7"
+"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class.",wp-contact-form-7,"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class."
+"Number format that the sender entered is invalid",wp-contact-form-7,"Number format that the sender entered is invalid"
+"The number format is invalid.",wp-contact-form-7,"The number format is invalid."
+"Number is smaller than minimum limit",wp-contact-form-7,"Number is smaller than minimum limit"
+"The number is smaller than the minimum allowed.",wp-contact-form-7,"The number is smaller than the minimum allowed."
+"Number is larger than maximum limit",wp-contact-form-7,"Number is larger than maximum limit"
+"The number is larger than the maximum allowed.",wp-contact-form-7,"The number is larger than the maximum allowed."
+number,wp-contact-form-7,number
+"Generate a form-tag for a field for numeric value input. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a field for numeric value input. For more details, see %s."
+https://contactform7.com/number-fields/,wp-contact-form-7,https://contactform7.com/number-fields/
+"Number fields",wp-contact-form-7,"Number fields"
+"Field type",wp-contact-form-7,"Field type"
+"Field type",wp-contact-form-7,"Field type"
+Spinbox,wp-contact-form-7,Spinbox
+Slider,wp-contact-form-7,Slider
+"Required field",wp-contact-form-7,"Required field"
+Name,wp-contact-form-7,Name
+"Default value",wp-contact-form-7,"Default value"
+"Use this text as the placeholder of the field",wp-contact-form-7,"Use this text as the placeholder of the field"
+Range,wp-contact-form-7,Range
+Range,wp-contact-form-7,Range
+Min,wp-contact-form-7,Min
+Max,wp-contact-form-7,Max
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab.",wp-contact-form-7,"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+"Sender doesn't enter the correct answer to the quiz",wp-contact-form-7,"Sender doesn't enter the correct answer to the quiz"
+"The answer to the quiz is incorrect.",wp-contact-form-7,"The answer to the quiz is incorrect."
+quiz,wp-contact-form-7,quiz
+"Generate a form-tag for a question-answer pair. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a question-answer pair. For more details, see %s."
+https://contactform7.com/quiz/,wp-contact-form-7,https://contactform7.com/quiz/
+Quiz,wp-contact-form-7,Quiz
+Name,wp-contact-form-7,Name
+"Questions and answers",wp-contact-form-7,"Questions and answers"
+"Questions and answers",wp-contact-form-7,"Questions and answers"
+"One pipe-separated question-answer pair (e.g. The capital of Brazil?|Rio) per line.",wp-contact-form-7,"One pipe-separated question-answer pair (e.g. The capital of Brazil?|Rio) per line."
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"To use CAPTCHA, you need %s plugin installed.",wp-contact-form-7,"To use CAPTCHA, you need %s plugin installed."
+"The code that sender entered does not match the CAPTCHA",wp-contact-form-7,"The code that sender entered does not match the CAPTCHA"
+"Your entered code is incorrect.",wp-contact-form-7,"Your entered code is incorrect."
+"CAPTCHA (Really Simple CAPTCHA)",wp-contact-form-7,"CAPTCHA (Really Simple CAPTCHA)"
+"To use CAPTCHA, you first need to install and activate %s plugin.",wp-contact-form-7,"To use CAPTCHA, you first need to install and activate %s plugin."
+"Generate form-tags for a CAPTCHA image and corresponding response input field. For more details, see %s.",wp-contact-form-7,"Generate form-tags for a CAPTCHA image and corresponding response input field. For more details, see %s."
+https://contactform7.com/captcha/,wp-contact-form-7,https://contactform7.com/captcha/
+CAPTCHA,wp-contact-form-7,CAPTCHA
+Name,wp-contact-form-7,Name
+"Image settings",wp-contact-form-7,"Image settings"
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Input field settings",wp-contact-form-7,"Input field settings"
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"This contact form contains CAPTCHA fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually.",wp-contact-form-7,"This contact form contains CAPTCHA fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+"This contact form contains CAPTCHA fields, but the necessary libraries (GD and FreeType) are not available on your server.",wp-contact-form-7,"This contact form contains CAPTCHA fields, but the necessary libraries (GD and FreeType) are not available on your server."
+CAPTCHA,wp-contact-form-7,CAPTCHA
+"reCAPTCHA response token is empty.",wp-contact-form-7,"reCAPTCHA response token is empty."
+"reCAPTCHA score (%1$.2f) is lower than the threshold (%2$.2f).",wp-contact-form-7,"reCAPTCHA score (%1$.2f) is lower than the threshold (%2$.2f)."
+"API keys for reCAPTCHA v3 are different from those for v2; keys for v2 don&#8217;t work with the v3 API. You need to register your sites again to get new keys for v3. For details, see %s.",wp-contact-form-7,"API keys for reCAPTCHA v3 are different from those for v2; keys for v2 don&#8217;t work with the v3 API. You need to register your sites again to get new keys for v3. For details, see %s."
+https://contactform7.com/recaptcha/,wp-contact-form-7,https://contactform7.com/recaptcha/
+"reCAPTCHA (v3)",wp-contact-form-7,"reCAPTCHA (v3)"
+reCAPTCHA,wp-contact-form-7,reCAPTCHA
+Error,wp-contact-form-7,Error
+"Invalid key values.",wp-contact-form-7,"Invalid key values."
+"Settings saved.",wp-contact-form-7,"Settings saved."
+"reCAPTCHA protects you against spam and other types of automated abuse. With Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive form submissions by spam bots. For details, see %s.",wp-contact-form-7,"reCAPTCHA protects you against spam and other types of automated abuse. With Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive form submissions by spam bots. For details, see %s."
+https://contactform7.com/recaptcha/,wp-contact-form-7,https://contactform7.com/recaptcha/
+"reCAPTCHA (v3)",wp-contact-form-7,"reCAPTCHA (v3)"
+"reCAPTCHA is active on this site.",wp-contact-form-7,"reCAPTCHA is active on this site."
+"Setup Integration",wp-contact-form-7,"Setup Integration"
+"Site Key",wp-contact-form-7,"Site Key"
+"Secret Key",wp-contact-form-7,"Secret Key"
+"Save Changes",wp-contact-form-7,"Save Changes"
+"drop-down menu",wp-contact-form-7,"drop-down menu"
+"Generate a form-tag for a drop-down menu. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a drop-down menu. For more details, see %s."
+https://contactform7.com/checkboxes-radio-buttons-and-menus/,wp-contact-form-7,https://contactform7.com/checkboxes-radio-buttons-and-menus/
+"Checkboxes, radio buttons and menus",wp-contact-form-7,"Checkboxes, radio buttons and menus"
+"Field type",wp-contact-form-7,"Field type"
+"Field type",wp-contact-form-7,"Field type"
+"Required field",wp-contact-form-7,"Required field"
+Name,wp-contact-form-7,Name
+Options,wp-contact-form-7,Options
+Options,wp-contact-form-7,Options
+"One option per line.",wp-contact-form-7,"One option per line."
+"Allow multiple selections",wp-contact-form-7,"Allow multiple selections"
+"Insert a blank item as the first option",wp-contact-form-7,"Insert a blank item as the first option"
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab.",wp-contact-form-7,"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+Send,wp-contact-form-7,Send
+submit,wp-contact-form-7,submit
+"Generate a form-tag for a submit button. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a submit button. For more details, see %s."
+https://contactform7.com/submit-button/,wp-contact-form-7,https://contactform7.com/submit-button/
+"Submit button",wp-contact-form-7,"Submit button"
+Label,wp-contact-form-7,Label
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"Email address that the sender entered is invalid",wp-contact-form-7,"Email address that the sender entered is invalid"
+"The e-mail address entered is invalid.",wp-contact-form-7,"The e-mail address entered is invalid."
+"URL that the sender entered is invalid",wp-contact-form-7,"URL that the sender entered is invalid"
+"The URL is invalid.",wp-contact-form-7,"The URL is invalid."
+"Telephone number that the sender entered is invalid",wp-contact-form-7,"Telephone number that the sender entered is invalid"
+"The telephone number is invalid.",wp-contact-form-7,"The telephone number is invalid."
+text,wp-contact-form-7,text
+email,wp-contact-form-7,email
+URL,wp-contact-form-7,URL
+tel,wp-contact-form-7,tel
+"Generate a form-tag for a single-line plain text input field. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a single-line plain text input field. For more details, see %s."
+"Generate a form-tag for a single-line email address input field. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a single-line email address input field. For more details, see %s."
+"Generate a form-tag for a single-line URL input field. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a single-line URL input field. For more details, see %s."
+"Generate a form-tag for a single-line telephone number input field. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a single-line telephone number input field. For more details, see %s."
+https://contactform7.com/text-fields/,wp-contact-form-7,https://contactform7.com/text-fields/
+"Text fields",wp-contact-form-7,"Text fields"
+"Field type",wp-contact-form-7,"Field type"
+"Field type",wp-contact-form-7,"Field type"
+"Required field",wp-contact-form-7,"Required field"
+Name,wp-contact-form-7,Name
+"Default value",wp-contact-form-7,"Default value"
+"Use this text as the placeholder of the field",wp-contact-form-7,"Use this text as the placeholder of the field"
+Akismet,wp-contact-form-7,Akismet
+Akismet,wp-contact-form-7,Akismet
+"This field requires author's name",wp-contact-form-7,"This field requires author's name"
+"This field requires author's email address",wp-contact-form-7,"This field requires author's email address"
+"This field requires author's URL",wp-contact-form-7,"This field requires author's URL"
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab.",wp-contact-form-7,"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+"text area",wp-contact-form-7,"text area"
+"Generate a form-tag for a multi-line text input field. For more details, see %s.",wp-contact-form-7,"Generate a form-tag for a multi-line text input field. For more details, see %s."
+https://contactform7.com/text-fields/,wp-contact-form-7,https://contactform7.com/text-fields/
+"Text fields",wp-contact-form-7,"Text fields"
+"Field type",wp-contact-form-7,"Field type"
+"Field type",wp-contact-form-7,"Field type"
+"Required field",wp-contact-form-7,"Required field"
+Name,wp-contact-form-7,Name
+"Default value",wp-contact-form-7,"Default value"
+"Use this text as the placeholder of the field",wp-contact-form-7,"Use this text as the placeholder of the field"
+"Id attribute",wp-contact-form-7,"Id attribute"
+"Class attribute",wp-contact-form-7,"Class attribute"
+"Insert Tag",wp-contact-form-7,"Insert Tag"
+"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab.",wp-contact-form-7,"To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."

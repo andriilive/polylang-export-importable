@@ -1,0 +1,187 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"[Data]');
+        }
+        if (is_array($data) && count($data) > 0)
+        {
+          $dataType = $this->getDataType($data);
+          if ($dataType == 1)  // singular
+          {
+              $this->data[] = print_r($data, true);
+          }
+          if ($dataType == 2) //array
+          {
+            foreach($data as $index => $item)
+            {
+              if (is_object($item) || is_array($item))
+              {
+                $this->data[] = print_r($item, true);
+              }
+            }
+          }
+        } // if
+        elseif (! is_array($data)) // this leaves out empty default arrays
+        {
+           $this->data[] = print_r($data, true);
+        }
+    }
+
+    public function getData()
+    {
+      return array('time' => $this->time, 'level' => $this->level, 'message' => $this->message, 'data' => $this->data, 'caller' => $this->caller);
+    }
+
+    /** Test Data Array for possible values
+    *
+    * Data can be a collection of several debug vars, a single var, or just an normal array. Test if array has single types,
+    * which is a sign the array is not a collection.
+    */
+    protected function getDataType($data)
+    {
+        $single_type = array('integer",regenerate-thumbnails-advanced,"[Data]');
+        }
+        if (is_array($data) && count($data) > 0)
+        {
+          $dataType = $this->getDataType($data);
+          if ($dataType == 1)  // singular
+          {
+              $this->data[] = print_r($data, true);
+          }
+          if ($dataType == 2) //array
+          {
+            foreach($data as $index => $item)
+            {
+              if (is_object($item) || is_array($item))
+              {
+                $this->data[] = print_r($item, true);
+              }
+            }
+          }
+        } // if
+        elseif (! is_array($data)) // this leaves out empty default arrays
+        {
+           $this->data[] = print_r($data, true);
+        }
+    }
+
+    public function getData()
+    {
+      return array('time' => $this->time, 'level' => $this->level, 'message' => $this->message, 'data' => $this->data, 'caller' => $this->caller);
+    }
+
+    /** Test Data Array for possible values
+    *
+    * Data can be a collection of several debug vars, a single var, or just an normal array. Test if array has single types,
+    * which is a sign the array is not a collection.
+    */
+    protected function getDataType($data)
+    {
+        $single_type = array('integer"
+"See Details",regenerate-thumbnails-advanced,"See Details"
+"Hide Details",regenerate-thumbnails-advanced,"Hide Details"
+"Image thumbnails regenerated",regenerate-thumbnails-advanced,"Image thumbnails regenerated"
+"Unknown Error occured",regenerate-thumbnails-advanced,"Unknown Error occured"
+"Site error, Invalid Nonce",regenerate-thumbnails-advanced,"Site error, Invalid Nonce"
+"Preparing Images and Thumbnails",regenerate-thumbnails-advanced,"Preparing Images and Thumbnails"
+"Prepared %s items",regenerate-thumbnails-advanced,"Prepared %s items"
+"Preparing failed",regenerate-thumbnails-advanced,"Preparing failed"
+"No images found for this period and/or settings or none uploaded",regenerate-thumbnails-advanced,"No images found for this period and/or settings or none uploaded"
+"<b>%s</b> is missing or not an image file",regenerate-thumbnails-advanced,"<b>%s</b> is missing or not an image file"
+"<b>%s</b> skipped. MimeType is an image, but reports non-displayable",regenerate-thumbnails-advanced,"<b>%s</b> skipped. MimeType is an image, but reports non-displayable"
+"<b>%s</b> failed on metadata. Possible issue with image",regenerate-thumbnails-advanced,"<b>%s</b> failed on metadata. Possible issue with image"
+"Process stopped on request",regenerate-thumbnails-advanced,"Process stopped on request"
+No,regenerate-thumbnails-advanced,No
+Yes,regenerate-thumbnails-advanced,Yes
+"Left top",regenerate-thumbnails-advanced,"Left top"
+"Left center",regenerate-thumbnails-advanced,"Left center"
+"Left bottom",regenerate-thumbnails-advanced,"Left bottom"
+"Center top",regenerate-thumbnails-advanced,"Center top"
+"Center center",regenerate-thumbnails-advanced,"Center center"
+"Center bottom",regenerate-thumbnails-advanced,"Center bottom"
+"Right top",regenerate-thumbnails-advanced,"Right top"
+"Right center",regenerate-thumbnails-advanced,"Right center"
+"Right bottom",regenerate-thumbnails-advanced,"Right bottom"
+"Don\'t redo existing",regenerate-thumbnails-advanced,"Don\'t redo existing"
+"Regenerate Thumbnails",regenerate-thumbnails-advanced,"Regenerate Thumbnails"
+"Incorrect nonce",regenerate-thumbnails-advanced,"Incorrect nonce"
+"No Attachment ID found, not regenerating",regenerate-thumbnails-advanced,"No Attachment ID found, not regenerating"
+"Are you sure you want to delete this image size?",regenerate-thumbnails-advanced,"Are you sure you want to delete this image size?"
+"This will stop the regeneration process. You want to stop?",regenerate-thumbnails-advanced,"This will stop the regeneration process. You want to stop?"
+"Interrupted process resumed",regenerate-thumbnails-advanced,"Interrupted process resumed"
+"New Process started",regenerate-thumbnails-advanced,"New Process started"
+"Process finished",regenerate-thumbnails-advanced,"Process finished"
+"A fatal error occured!",regenerate-thumbnails-advanced,"A fatal error occured!"
+"Regenerate Thumbnails",regenerate-thumbnails-advanced,"Regenerate Thumbnails"
+Settings,regenerate-thumbnails-advanced,Settings
+"Regenerate Thumbnails",regenerate-thumbnails-advanced,"Regenerate Thumbnails"
+"Regenerate Thumbnails",regenerate-thumbnails-advanced,"Regenerate Thumbnails"
+"Regenerate Thumbnails",regenerate-thumbnails-advanced,"Regenerate Thumbnails"
+"Regenerate Thumbnails",regenerate-thumbnails-advanced,"Regenerate Thumbnails"
+"Regenerate Thumbnails",regenerate-thumbnails-advanced,"Regenerate Thumbnails"
+"Regenerate Thumbnails Advanced",regenerate-thumbnails-advanced,"Regenerate Thumbnails Advanced"
+"Regenerate Options",regenerate-thumbnails-advanced,"Regenerate Options"
+Settings,regenerate-thumbnails-advanced,Settings
+"ARE YOU CONCERNED WITH YOUR SITE SPEED? Allow ShortPixel specialists to find the solution for you.",regenerate-thumbnails-advanced,"ARE YOU CONCERNED WITH YOUR SITE SPEED? Allow ShortPixel specialists to find the solution for you."
+"Find Out More",regenerate-thumbnails-advanced,"Find Out More"
+"Last Regenerated Image:",regenerate-thumbnails-advanced,"Last Regenerated Image:"
+"Pause Process",regenerate-thumbnails-advanced,"Pause Process"
+"Resume Process",regenerate-thumbnails-advanced,"Resume Process"
+"Stop Process",regenerate-thumbnails-advanced,"Stop Process"
+"Starting Process",regenerate-thumbnails-advanced,"Starting Process"
+"Please wait...",regenerate-thumbnails-advanced,"Please wait..."
+"Process is paused",regenerate-thumbnails-advanced,"Process is paused"
+"Click Resume Process to continue",regenerate-thumbnails-advanced,"Click Resume Process to continue"
+"Process is pausing, please wait",regenerate-thumbnails-advanced,"Process is pausing, please wait"
+"This can take a few seconds",regenerate-thumbnails-advanced,"This can take a few seconds"
+Done!,regenerate-thumbnails-advanced,Done!
+"Regenerate Thumbnails Advanced is done with your task",regenerate-thumbnails-advanced,"Regenerate Thumbnails Advanced is done with your task"
+"Thumbnails successfully regenerated. <strong>Go to %s ShortPixel Bulk page %s to optimize the updated thumbnails.</strong>",regenerate-thumbnails-advanced,"Thumbnails successfully regenerated. <strong>Go to %s ShortPixel Bulk page %s to optimize the updated thumbnails.</strong>"
+"%s Activate ShortPixel %s to optimize your newly generated thumbnails.",regenerate-thumbnails-advanced,"%s Activate ShortPixel %s to optimize your newly generated thumbnails."
+"Optimize your images with ShortPixel, get +50% credits!",regenerate-thumbnails-advanced,"Optimize your images with ShortPixel, get +50% credits!"
+"Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Regenerate Thumbnails Advanced user! Forever!",regenerate-thumbnails-advanced,"Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Regenerate Thumbnails Advanced user! Forever!"
+"More info",regenerate-thumbnails-advanced,"More info"
+"Regenerate period:",regenerate-thumbnails-advanced,"Regenerate period:"
+All,regenerate-thumbnails-advanced,All
+"Past Day",regenerate-thumbnails-advanced,"Past Day"
+"Past Week",regenerate-thumbnails-advanced,"Past Week"
+"Past Month",regenerate-thumbnails-advanced,"Past Month"
+"Past 3 Months",regenerate-thumbnails-advanced,"Past 3 Months"
+"Past 6 Months",regenerate-thumbnails-advanced,"Past 6 Months"
+"Past Year",regenerate-thumbnails-advanced,"Past Year"
+"Advanced options",regenerate-thumbnails-advanced,"Advanced options"
+"Clean unknown metadata",regenerate-thumbnails-advanced,"Clean unknown metadata"
+"Clean old metadata not defined in system sizes. Use after removing plugins / themes with old definitions. Will not remove thumbnails from disk",regenerate-thumbnails-advanced,"Clean old metadata not defined in system sizes. Use after removing plugins / themes with old definitions. Will not remove thumbnails from disk"
+"Delete Unselected Thumbnails",regenerate-thumbnails-advanced,"Delete Unselected Thumbnails"
+"Delete thumbnails and metadata not selected in the settings. Will delete thumbnails from disk - be sure they are not in use.  ",regenerate-thumbnails-advanced,"Delete thumbnails and metadata not selected in the settings. Will delete thumbnails from disk - be sure they are not in use.  "
+"Not selected thumbnails will be removed from your site. Check your settings if this is intentional.'); ?></p>
+
+      <p class='small'><?php _e('Regenerate Thumbnails Advanced will not prevent new media uploads from generating removed sizes",regenerate-thumbnails-advanced,"Not selected thumbnails will be removed from your site. Check your settings if this is intentional.'); ?></p>
+
+      <p class='small'><?php _e('Regenerate Thumbnails Advanced will not prevent new media uploads from generating removed sizes"
+"Remove non-existent images",regenerate-thumbnails-advanced,"Remove non-existent images"
+"If the main image does not exist, removes this image, thumbnails and metadata",regenerate-thumbnails-advanced,"If the main image does not exist, removes this image, thumbnails and metadata"
+"For removing images that are gone on disk, but still in media library",regenerate-thumbnails-advanced,"For removing images that are gone on disk, but still in media library"
+Regenerate,regenerate-thumbnails-advanced,Regenerate
+"Save your settings first",regenerate-thumbnails-advanced,"Save your settings first"
+"Image Sizes",regenerate-thumbnails-advanced,"Image Sizes"
+"Add New Size",regenerate-thumbnails-advanced,"Add New Size"
+"Public Name",regenerate-thumbnails-advanced,"Public Name"
+"Max. Width",regenerate-thumbnails-advanced,"Max. Width"
+"Max. Height",regenerate-thumbnails-advanced,"Max. Height"
+Cropping,regenerate-thumbnails-advanced,Cropping
+"Image Size Name",regenerate-thumbnails-advanced,"Image Size Name"
+Name,regenerate-thumbnails-advanced,Name
+Width,regenerate-thumbnails-advanced,Width
+Height,regenerate-thumbnails-advanced,Height
+"Image Size name",regenerate-thumbnails-advanced,"Image Size name"
+Name,regenerate-thumbnails-advanced,Name
+Width,regenerate-thumbnails-advanced,Width
+Height,regenerate-thumbnails-advanced,Height
+"Image Size name",regenerate-thumbnails-advanced,"Image Size name"
+"Regenerate these thumbnails:",regenerate-thumbnails-advanced,"Regenerate these thumbnails:"
+"Select All",regenerate-thumbnails-advanced,"Select All"
+"Deselect All",regenerate-thumbnails-advanced,"Deselect All"
+"Select the thumbnails you want to regenerate. ",regenerate-thumbnails-advanced,"Select the thumbnails you want to regenerate. "
+"%s Don\'t redo existing %s  - prevent regenerating images that already have these sizes as a thumbnail file. ",regenerate-thumbnails-advanced,"%s Don\'t redo existing %s  - prevent regenerating images that already have these sizes as a thumbnail file. "
+"Default JPEG Quality",regenerate-thumbnails-advanced,"Default JPEG Quality"
+"Save Settings",regenerate-thumbnails-advanced,"Save Settings"
+Saving,regenerate-thumbnails-advanced,Saving

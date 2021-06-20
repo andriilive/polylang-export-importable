@@ -1,0 +1,66 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Something went wrong.",class-coblocks,"Something went wrong."
+"Something went wrong.",class-coblocks,"Something went wrong."
+"Review CoBlocks on WordPress.org",class-coblocks,"Review CoBlocks on WordPress.org"
+"Leave a Review",class-coblocks,"Leave a Review"
+"Block Patterns",class-coblocks,"Block Patterns"
+Description,class-coblocks,Description
+"Pattern Type",class-coblocks,"Pattern Type"
+"Pattern Category",class-coblocks,"Pattern Category"
+"Close Gallery",class-coblocks,"Close Gallery"
+Previous,class-coblocks,Previous
+Next,class-coblocks,Next
+"Form submission from [%1$s]",class-coblocks,"Form submission from [%1$s]"
+"Your message was sent:",class-coblocks,"Your message was sent:"
+"Google reCaptcha site key for form spam protection",class-coblocks,"Google reCaptcha site key for form spam protection"
+"Google reCaptcha secret key for form spam protection",class-coblocks,"Google reCaptcha secret key for form spam protection"
+Name,class-coblocks,Name
+First,class-coblocks,First
+Last,class-coblocks,Last
+Email,class-coblocks,Email
+Message,class-coblocks,Message
+Text,class-coblocks,Text
+Date,class-coblocks,Date
+Phone,class-coblocks,Phone
+"Choose one",class-coblocks,"Choose one"
+Select,class-coblocks,Select
+Select,class-coblocks,Select
+"Please select at least one checkbox.",class-coblocks,"Please select at least one checkbox."
+Website,class-coblocks,Website
+Hidden,class-coblocks,Hidden
+Submit,class-coblocks,Submit
+name,class-coblocks,name
+email,class-coblocks,email
+"Google Map API key for map rendering",class-coblocks,"Google Map API key for map rendering"
+"Setting use to disable or enable layout selector controls across the site.",class-coblocks,"Setting use to disable or enable layout selector controls across the site."
+"Setting use to disable or enable typography controls across the site.",class-coblocks,"Setting use to disable or enable typography controls across the site."
+"Setting use to disable or enable custom color controls across the site.",class-coblocks,"Setting use to disable or enable custom color controls across the site."
+"Setting use to disable or enable all color controls across the site.",class-coblocks,"Setting use to disable or enable all color controls across the site."
+"Setting use to disable or enable gradient controls and presets across the site.",class-coblocks,"Setting use to disable or enable gradient controls and presets across the site."
+"Setting use to disable or enable animation controls across the site.",class-coblocks,"Setting use to disable or enable animation controls across the site."
+"An error has occurred, check for calendar privileges to make sure it is public or try again later.",class-coblocks,"An error has occurred, check for calendar privileges to make sure it is public or try again later."
+"RSS error:",class-coblocks,"RSS error:"
+"An error has occurred, which probably means the feed is down. Try again later.",class-coblocks,"An error has occurred, which probably means the feed is down. Try again later."
+"RSS error:",class-coblocks,"RSS error:"
+"An error has occurred, which probably means the feed is down. Try again later.",class-coblocks,"An error has occurred, which probably means the feed is down. Try again later."
+"Share on Facebook",class-coblocks,"Share on Facebook"
+"Share on Twitter",class-coblocks,"Share on Twitter"
+"Share on Pinterest",class-coblocks,"Share on Pinterest"
+"Share on Linkedin",class-coblocks,"Share on Linkedin"
+"Share via Email",class-coblocks,"Share via Email"
+"Share on Tumblr",class-coblocks,"Share on Tumblr"
+"Share on Google",class-coblocks,"Share on Google"
+"Share on Reddit",class-coblocks,"Share on Reddit"
+Facebook,class-coblocks,Facebook
+Twitter,class-coblocks,Twitter
+Instagram,class-coblocks,Instagram
+Pinterest,class-coblocks,Pinterest
+Linkedin,class-coblocks,Linkedin
+YouTube,class-coblocks,YouTube
+Yelp,class-coblocks,Yelp
+Houzz,class-coblocks,Houzz
+"Most Used",class-coblocks,"Most Used"
+About,class-coblocks,About
+Contact,class-coblocks,Contact
+Home,class-coblocks,Home
+Portfolio,class-coblocks,Portfolio

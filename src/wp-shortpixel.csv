@@ -1,0 +1,2063 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"[Data]');
+        }
+        if (is_array($data) && count($data) > 0)
+        {
+          $dataType = $this->getDataType($data);
+          if ($dataType == 1)  // singular
+          {
+              $this->data[] = print_r($data, true);
+          }
+          if ($dataType == 2) //array
+          {
+            foreach($data as $index => $item)
+            {
+              if (is_object($item) || is_array($item))
+              {
+                $this->data[] = print_r($item, true);
+              }
+            }
+          }
+        } // if
+        elseif (! is_array($data)) // this leaves out empty default arrays
+        {
+           $this->data[] = print_r($data, true);
+        }
+    }
+
+    public function getData()
+    {
+      return array('time' => $this->time, 'level' => $this->level, 'message' => $this->message, 'data' => $this->data, 'caller' => $this->caller);
+    }
+
+    /** Test Data Array for possible values
+    *
+    * Data can be a collection of several debug vars, a single var, or just an normal array. Test if array has single types,
+    * which is a sign the array is not a collection.
+    */
+    protected function getDataType($data)
+    {
+        $single_type = array('integer",wp-shortpixel,"[Data]');
+        }
+        if (is_array($data) && count($data) > 0)
+        {
+          $dataType = $this->getDataType($data);
+          if ($dataType == 1)  // singular
+          {
+              $this->data[] = print_r($data, true);
+          }
+          if ($dataType == 2) //array
+          {
+            foreach($data as $index => $item)
+            {
+              if (is_object($item) || is_array($item))
+              {
+                $this->data[] = print_r($item, true);
+              }
+            }
+          }
+        } // if
+        elseif (! is_array($data)) // this leaves out empty default arrays
+        {
+           $this->data[] = print_r($data, true);
+        }
+    }
+
+    public function getData()
+    {
+      return array('time' => $this->time, 'level' => $this->level, 'message' => $this->message, 'data' => $this->data, 'caller' => $this->caller);
+    }
+
+    /** Test Data Array for possible values
+    *
+    * Data can be a collection of several debug vars, a single var, or just an normal array. Test if array has single types,
+    * which is a sign the array is not a collection.
+    */
+    protected function getDataType($data)
+    {
+        $single_type = array('integer"
+"See Details",wp-shortpixel,"See Details"
+"Hide Details",wp-shortpixel,"Hide Details"
+"It seems you are using NextGen Gallery. You can optimize your galleries with ShortPixel, but this is currently not enabled. To enable, %sgo to settings and enable%s it!",wp-shortpixel,"It seems you are using NextGen Gallery. You can optimize your galleries with ShortPixel, but this is currently not enabled. To enable, %sgo to settings and enable%s it!"
+"Action needed. Please <a href='https://shortpixel.com/wp-apikey' target='_blank'>get your API key</a> to activate your ShortPixel plugin.",wp-shortpixel,"Action needed. Please <a href='https://shortpixel.com/wp-apikey' target='_blank'>get your API key</a> to activate your ShortPixel plugin."
+"Your image gallery is not optimized. It takes 2 minutes to <a href='https://shortpixel.com/wp-apikey' target='_blank'>get your API key</a> and activate your ShortPixel plugin.",wp-shortpixel,"Your image gallery is not optimized. It takes 2 minutes to <a href='https://shortpixel.com/wp-apikey' target='_blank'>get your API key</a> and activate your ShortPixel plugin."
+"ShortPixel is not able to write to the uploads folder so it cannot optimize images, please check permissions (tried to create the file %s/.shortpixel-q-1).",wp-shortpixel,"ShortPixel is not able to write to the uploads folder so it cannot optimize images, please check permissions (tried to create the file %s/.shortpixel-q-1)."
+"<h4>Version 5.0</h4> Warning, Version 5 is a major update. It\'s strongly recommend to backup your site and proceed with caution. Please report issues via our support channels",wp-shortpixel,"<h4>Version 5.0</h4> Warning, Version 5 is a major update. It\'s strongly recommend to backup your site and proceed with caution. Please report issues via our support channels"
+"In order to start the optimization process, you need to validate your API Key in the '
+              . '<a href=""options-general.php?page=wp-shortpixel-settings"">ShortPixel Settings</a> page in your WordPress Admin.",wp-shortpixel,"In order to start the optimization process, you need to validate your API Key in the '
+              . '<a href=""options-general.php?page=wp-shortpixel-settings"">ShortPixel Settings</a> page in your WordPress Admin."
+"If you don’t have an API Key, you can get one delivered to your inbox, for free.",wp-shortpixel,"If you don’t have an API Key, you can get one delivered to your inbox, for free."
+"Please <a href=""https://shortpixel.com/wp-apikey"" target=""_blank"">sign up to get your API key.</a>",wp-shortpixel,"Please <a href=""https://shortpixel.com/wp-apikey"" target=""_blank"">sign up to get your API key.</a>"
+"The following plugins are not compatible with ShortPixel and may lead to unexpected results: ",wp-shortpixel,"The following plugins are not compatible with ShortPixel and may lead to unexpected results: "
+"<p>ShortPixel found thumbnails which are not registered in the metadata but present alongside the other thumbnails. These thumbnails could be created and needed by some plugin or by the theme. Let ShortPixel optimize them as well?</p>",wp-shortpixel,"<p>ShortPixel found thumbnails which are not registered in the metadata but present alongside the other thumbnails. These thumbnails could be created and needed by some plugin or by the theme. Let ShortPixel optimize them as well?</p>"
+"For example, the image",wp-shortpixel,"For example, the image"
+"You currently have <strong>%d images and thumbnails to optimize</strong> but you only have <strong>%d images</strong> available in your current plan.""
+            . "" You might need to upgrade your plan in order to have all your images optimized.",wp-shortpixel,"You currently have <strong>%d images and thumbnails to optimize</strong> but you only have <strong>%d images</strong> available in your current plan.""
+            . "" You might need to upgrade your plan in order to have all your images optimized."
+"Show me the best available options",wp-shortpixel,"Show me the best available options"
+"You are adding an average of <strong>%d images and thumbnails every month</strong> to your Media Library and you have <strong>a plan of %d images/month</strong>.""
+            . "" You might need to upgrade your plan in order to have all your images optimized.",wp-shortpixel,"You are adding an average of <strong>%d images and thumbnails every month</strong> to your Media Library and you have <strong>a plan of %d images/month</strong>.""
+            . "" You might need to upgrade your plan in order to have all your images optimized."
+"Show me the best available options",wp-shortpixel,"Show me the best available options"
+"Average image<br>reduction so far:",wp-shortpixel,"Average image<br>reduction so far:"
+"Quota Exceeded",wp-shortpixel,"Quota Exceeded"
+"You have no available image credits. If you just bought a package, please note that sometimes it takes a few minutes for the payment confirmation to be sent to us by the payment processor.",wp-shortpixel,"You have no available image credits. If you just bought a package, please note that sometimes it takes a few minutes for the payment confirmation to be sent to us by the payment processor."
+"The plugin has optimized <strong>%s images</strong> and stopped because it reached the available quota limit.",wp-shortpixel,"The plugin has optimized <strong>%s images</strong> and stopped because it reached the available quota limit."
+"<strong> %s images and %s thumbnails</strong> are not yet optimized by ShortPixel.",wp-shortpixel,"<strong> %s images and %s thumbnails</strong> are not yet optimized by ShortPixel."
+"Show me the best available options",wp-shortpixel,"Show me the best available options"
+"Go to my account and select a plan",wp-shortpixel,"Go to my account and select a plan"
+Upgrade,wp-shortpixel,Upgrade
+"Confirm New Credits",wp-shortpixel,"Confirm New Credits"
+"Get more image credits by referring ShortPixel to your friends!",wp-shortpixel,"Get more image credits by referring ShortPixel to your friends!"
+"Check your account",wp-shortpixel,"Check your account"
+"for your unique referral link. For each user that joins, you will receive +100 additional image credits/month.",wp-shortpixel,"for your unique referral link. For each user that joins, you will receive +100 additional image credits/month."
+"Upgrade your ShortPixel account",wp-shortpixel,"Upgrade your ShortPixel account"
+"Shortpixel needs to ask permission to load the help functionality');
+       $message .= ""<div><button type='button' id='sp-helpscout-disallow' class='button button-primary' >"" . __('No, I don\'t need help",wp-shortpixel,"Shortpixel needs to ask permission to load the help functionality');
+       $message .= ""<div><button type='button' id='sp-helpscout-disallow' class='button button-primary' >"" . __('No, I don\'t need help"
+"Yes, load the help widget",wp-shortpixel,"Yes, load the help widget"
+"Shortpixel uses third party services Helpscout and Quriobot to access our help easier. By giving permission you agree to opt-in and load these service on ShortPixel related pages",wp-shortpixel,"Shortpixel uses third party services Helpscout and Quriobot to access our help easier. By giving permission you agree to opt-in and load these service on ShortPixel related pages"
+"Optimization N/A",wp-shortpixel,"Optimization N/A"
+"Image does not exist.",wp-shortpixel,"Image does not exist."
+"Invalid API Key. <a href=""options-general.php?page=wp-shortpixel-settings"">Check your Settings</a>",wp-shortpixel,"Invalid API Key. <a href=""options-general.php?page=wp-shortpixel-settings"">Check your Settings</a>"
+"Quota Exceeded",wp-shortpixel,"Quota Exceeded"
+"Optimize now",wp-shortpixel,"Optimize now"
+Cleanup&Retry,wp-shortpixel,Cleanup&Retry
+"Restore Image from Backup",wp-shortpixel,"Restore Image from Backup"
+Cleanup,wp-shortpixel,Cleanup
+Retry,wp-shortpixel,Retry
+"Reduced by",wp-shortpixel,"Reduced by"
+"Type: ",wp-shortpixel,"Type: "
+"Bonus processing",wp-shortpixel,"Bonus processing"
+"+%s of %s thumbnails optimized",wp-shortpixel,"+%s of %s thumbnails optimized"
+"+ %s thumbnails optimized",wp-shortpixel,"+ %s thumbnails optimized"
+"+%s Retina images optimized",wp-shortpixel,"+%s Retina images optimized"
+" WebP images",wp-shortpixel," WebP images"
+"EXIF kept",wp-shortpixel,"EXIF kept"
+"EXIF removed",wp-shortpixel,"EXIF removed"
+"Converted from PNG",wp-shortpixel,"Converted from PNG"
+"Optimized on",wp-shortpixel,"Optimized on"
+" WebP images",wp-shortpixel," WebP images"
+kept,wp-shortpixel,kept
+removed,wp-shortpixel,removed
+"Converted from PNG",wp-shortpixel,"Converted from PNG"
+"Optimized on",wp-shortpixel,"Optimized on"
+"To optimize:",wp-shortpixel,"To optimize:"
+"Excluded thumbnails:",wp-shortpixel,"Excluded thumbnails:"
+"Missing thumbnails:",wp-shortpixel,"Missing thumbnails:"
+URL,wp-shortpixel,URL
+"File'), get_attached_file($this->post_id));
+          $debugInfo[] = array(__('Status'), $this->imageModel->getMeta()->getStatus() );
+
+          $debugInfo[] = array(__('WPML Duplicates'), json_encode(\ShortPixelMetaFacade::getWPMLDuplicates($this->post_id)) );
+          $debugInfo['shortpixeldata'] = array(__('Data'), $this->data);
+          $debugInfo['wpmetadata'] = array(__('Meta'), $meta );
+          if ($imageFile->hasBackup())
+          {
+            $backupFile = $imageFile->getBackupFile();
+            $debugInfo[] = array(__('Backup Folder'), $this->shortPixel->getBackupFolderAny($this->imageModel->getFile()->getFullPath(), $sizes));
+            $debugInfo[] = array(__('Backup File'), (string) $backupFile . '(' . \ShortPixelTools::formatBytes($backupFile->getFileSize()) . ')' );
+          }
+          else {
+            $debugInfo[] =  array(__(""No Backup Available""), '');
+          }
+          if ($or = $imageObj->has_original())
+          {
+             $debugInfo[] = array(__('Original File'), $or->getFullPath()  . '(' . \ShortPixelTools::formatBytes($or->getFileSize()) . ')');
+             $orbackup = $or->getBackupFile();
+             if ($orbackup)
+              $debugInfo[] = array(__('Backup'), $orbackup->getFullPath() . '(' . \ShortPixelTools::formatBytes($orbackup->getFileSize()) . ')');
+          }
+
+
+
+          if (! isset($meta['sizes']) )
+          {
+             $debugInfo[] = array('',  __('Thumbnails were not generated",wp-shortpixel,"File'), get_attached_file($this->post_id));
+          $debugInfo[] = array(__('Status'), $this->imageModel->getMeta()->getStatus() );
+
+          $debugInfo[] = array(__('WPML Duplicates'), json_encode(\ShortPixelMetaFacade::getWPMLDuplicates($this->post_id)) );
+          $debugInfo['shortpixeldata'] = array(__('Data'), $this->data);
+          $debugInfo['wpmetadata'] = array(__('Meta'), $meta );
+          if ($imageFile->hasBackup())
+          {
+            $backupFile = $imageFile->getBackupFile();
+            $debugInfo[] = array(__('Backup Folder'), $this->shortPixel->getBackupFolderAny($this->imageModel->getFile()->getFullPath(), $sizes));
+            $debugInfo[] = array(__('Backup File'), (string) $backupFile . '(' . \ShortPixelTools::formatBytes($backupFile->getFileSize()) . ')' );
+          }
+          else {
+            $debugInfo[] =  array(__(""No Backup Available""), '');
+          }
+          if ($or = $imageObj->has_original())
+          {
+             $debugInfo[] = array(__('Original File'), $or->getFullPath()  . '(' . \ShortPixelTools::formatBytes($or->getFileSize()) . ')');
+             $orbackup = $or->getBackupFile();
+             if ($orbackup)
+              $debugInfo[] = array(__('Backup'), $orbackup->getFullPath() . '(' . \ShortPixelTools::formatBytes($orbackup->getFileSize()) . ')');
+          }
+
+
+
+          if (! isset($meta['sizes']) )
+          {
+             $debugInfo[] = array('',  __('Thumbnails were not generated"
+"Please deactivate the ShortPixel Image Optimizer\'s
+                <a href=""options-general.php?page=wp-shortpixel-settings&part=adv-settings"">Deliver WebP using PICTURE tag</a>
+                option when the ShortPixel Adaptive Images plugin is active.",wp-shortpixel,"Please deactivate the ShortPixel Image Optimizer\'s
+                <a href=""options-general.php?page=wp-shortpixel-settings&part=adv-settings"">Deliver WebP using PICTURE tag</a>
+                option when the ShortPixel Adaptive Images plugin is active."
+"Could not be added, directory not found: ' . $path ,'shortpixel-image-optimiser'));
+          return false;
+       }
+       elseif (! $directory->isSubFolderOf($rootDir) && $directory->getPath() != $rootDir->getPath() )
+       {
+          Notices::addError( sprintf(__('The %s folder cannot be processed as it\'s not inside the root path of your website (%s).",wp-shortpixel,"Could not be added, directory not found: ' . $path ,'shortpixel-image-optimiser'));
+          return false;
+       }
+       elseif (! $directory->isSubFolderOf($rootDir) && $directory->getPath() != $rootDir->getPath() )
+       {
+          Notices::addError( sprintf(__('The %s folder cannot be processed as it\'s not inside the root path of your website (%s)."
+"This folder contains the ShortPixel Backups. Please select a different folder.",wp-shortpixel,"This folder contains the ShortPixel Backups. Please select a different folder."
+"This folder contains Media Library images. To optimize Media Library images please go to <a href=""upload.php?mode=list"">Media Library list view</a> or to <a href=""upload.php?page=wp-short-pixel-bulk"">ShortPixel Bulk page</a>.",wp-shortpixel,"This folder contains Media Library images. To optimize Media Library images please go to <a href=""upload.php?mode=list"">Media Library list view</a> or to <a href=""upload.php?page=wp-short-pixel-bulk"">ShortPixel Bulk page</a>."
+"Folder %s is not writeable. Please check permissions and try again.",wp-shortpixel,"Folder %s is not writeable. Please check permissions and try again."
+"The key you provided has %s characters. The API key should have 20 characters, letters and numbers only.",wp-shortpixel,"The key you provided has %s characters. The API key should have 20 characters, letters and numbers only."
+"Folder added successfully.",wp-shortpixel,"Folder added successfully."
+"Optimize now",wp-shortpixel,"Optimize now"
+Retry,wp-shortpixel,Retry
+"Re-optimize lossless",wp-shortpixel,"Re-optimize lossless"
+"Re-optimize lossy",wp-shortpixel,"Re-optimize lossy"
+"Re-optimize glossy",wp-shortpixel,"Re-optimize glossy"
+"Extend Quota",wp-shortpixel,"Extend Quota"
+"Extend Quota",wp-shortpixel,"Extend Quota"
+"Restore Backup",wp-shortpixel,"Restore Backup"
+Compare,wp-shortpixel,Compare
+View,wp-shortpixel,View
+"Invalid API Key",wp-shortpixel,"Invalid API Key"
+"Check your Settings",wp-shortpixel,"Check your Settings"
+Thumbnails,wp-shortpixel,Thumbnails
+Name,wp-shortpixel,Name
+Folder,wp-shortpixel,Folder
+Type,wp-shortpixel,Type
+Date,wp-shortpixel,Date
+Status,wp-shortpixel,Status
+Actions,wp-shortpixel,Actions
+"Some images were missing. They have been removed from the Custom Media overview : %s %s'),
+                '<BR>', implode('<BR>', $removed)));
+          }
+
+          return $items;
+      }
+
+      protected function getItemFolders($items)
+      {
+         $folderArray = array();
+         $otherMedia = new OtherMediaController();
+
+         foreach ($items as $item)
+         {
+            $folder_id = $item->folder_id;
+            if (! isset($folderArray[$folder_id]))
+            {
+              $folderArray[$folder_id] = $otherMedia->getFolderByID($folder_id);
+            }
+         }
+
+         return $folderArray;
+      }
+
+      /* Check which folders are in result, and load them. */
+      protected function loadFolders($items)
+      {
+         $folderArray = array();
+         $otherMedia = new OtherMediaController();
+
+         foreach($items as $item)
+         {
+            $folder_id = $item->folder_id;
+            if (! isset($folderArray[$folder_id]))
+            {
+                $folderArray[$folder_id]  = $otherMedia->getFolderByID($folder_id);
+            }
+         }
+
+         return $folderArray;
+
+      }
+
+      protected function getFilter() {
+          $filter = array();
+          if(isset($_GET[""s""]) && strlen($_GET[""s""])) {
+              $filter['path'] = (object)array(""operator"" => ""like",wp-shortpixel,"Some images were missing. They have been removed from the Custom Media overview : %s %s'),
+                '<BR>', implode('<BR>', $removed)));
+          }
+
+          return $items;
+      }
+
+      protected function getItemFolders($items)
+      {
+         $folderArray = array();
+         $otherMedia = new OtherMediaController();
+
+         foreach ($items as $item)
+         {
+            $folder_id = $item->folder_id;
+            if (! isset($folderArray[$folder_id]))
+            {
+              $folderArray[$folder_id] = $otherMedia->getFolderByID($folder_id);
+            }
+         }
+
+         return $folderArray;
+      }
+
+      /* Check which folders are in result, and load them. */
+      protected function loadFolders($items)
+      {
+         $folderArray = array();
+         $otherMedia = new OtherMediaController();
+
+         foreach($items as $item)
+         {
+            $folder_id = $item->folder_id;
+            if (! isset($folderArray[$folder_id]))
+            {
+                $folderArray[$folder_id]  = $otherMedia->getFolderByID($folder_id);
+            }
+         }
+
+         return $folderArray;
+
+      }
+
+      protected function getFilter() {
+          $filter = array();
+          if(isset($_GET[""s""]) && strlen($_GET[""s""])) {
+              $filter['path'] = (object)array(""operator"" => ""like"
+"File Successfully restored",wp-shortpixel,"File Successfully restored"
+"Other media folders fully refreshed and updated",wp-shortpixel,"Other media folders fully refreshed and updated"
+"%d Items",wp-shortpixel,"%d Items"
+"First page' ),
+                        '&laquo;'
+                    );
+                }
+
+            if ( $disable_prev ) {
+                $page_links[] = '<span class=""tablenav-pages-navspan button disabled"" aria-hidden=""true"">&lsaquo;</span>';
+            } else {
+                $page_links[] = sprintf(
+                    ""<a class='prev-page button' href='%s'><span class='screen-reader-text'>%s</span><span aria-hidden='true'>%s</span></a>"",
+                    esc_url( add_query_arg( 'paged', max( 1, $current - 1 ), $current_url ) ),
+                    __( 'Previous page' ),
+                    '&lsaquo;'
+                );
+            }
+
+            $html_current_page = sprintf(
+                ""%s<input class='current-page' id='current-page-selector' type='text' name='paged' value='%s' size='%d' aria-describedby='table-paging' /><span class='tablenav-paging-text'>",wp-shortpixel,"First page' ),
+                        '&laquo;'
+                    );
+                }
+
+            if ( $disable_prev ) {
+                $page_links[] = '<span class=""tablenav-pages-navspan button disabled"" aria-hidden=""true"">&lsaquo;</span>';
+            } else {
+                $page_links[] = sprintf(
+                    ""<a class='prev-page button' href='%s'><span class='screen-reader-text'>%s</span><span aria-hidden='true'>%s</span></a>"",
+                    esc_url( add_query_arg( 'paged', max( 1, $current - 1 ), $current_url ) ),
+                    __( 'Previous page' ),
+                    '&lsaquo;'
+                );
+            }
+
+            $html_current_page = sprintf(
+                ""%s<input class='current-page' id='current-page-selector' type='text' name='paged' value='%s' size='%d' aria-describedby='table-paging' /><span class='tablenav-paging-text'>"
+"Next page' ),
+                    '&rsaquo;'
+                );
+            }
+
+            if ( $disable_last ) {
+                $page_links[] = '<span class=""tablenav-pages-navspan button disabled"" aria-hidden=""true"">&raquo;</span>';
+            } else {
+                $page_links[] = sprintf(
+                    ""<a class='last-page button' href='%s'><span class='screen-reader-text'>%s</span><span aria-hidden='true'>%s</span></a>"",
+                    esc_url( add_query_arg( 'paged', $pages, $current_url ) ),
+                    __( 'Last page' ),
+                    '&raquo;'
+                );
+            }
+
+            $output .= ""\n<span class='pagination-links'>"" . join( ""\n"", $page_links ) . '</span>';
+            $output .= ""</form>"";
+
+
+          return $output;
+      }
+
+      /** Actions to list under the Image row */
+      protected function getRowActions($item, $file)
+      {
+          $thisActions = array();
+          $thisActions[] = $this->actions['view']; // always .
+          $settings = \wpSPIO()->settings();
+
+          $keyControl = ApiKeyController::getInstance();
+
+
+          if ($settings->quotaExceeded || ! $keyControl->keyIsVerified() )
+          {
+            return $this->renderActions($thisActions, $item, $file); // nothing more.
+          }
+
+          if ($item->status < \ShortPixelMeta::FILE_STATUS_UNPROCESSED)
+          {
+            $thisActions[] = $this->actions['retry'];
+          }
+          elseif ($item->status == \ShortPixelMeta::FILE_STATUS_UNPROCESSED || $item->status == \ShortPixelMeta::FILE_STATUS_RESTORED)
+          {
+            $thisActions[] = $this->actions['optimize'];
+          }
+
+          return $this->renderActions($thisActions, $item, $file);
+      }
+
+      /* Actions to list in the action menu */
+      protected function getActions($item, $file)
+      {
+         $thisActions = array();
+         $settings = \wpSPIO()->settings();
+         $keyControl = ApiKeyController::getInstance();
+         $forceSingular = false; // force view to show all actions separate, not in clickdown
+
+         if (! $keyControl->keyIsVerified())
+         {
+           //$thisActions[] = $this->actions['no-key'];
+
+         }
+         elseif ($settings->quotaExceeded)
+         {
+           $thisActions[] = $this->actions['extend-quota'];
+           $thisActions[] = $this->actions['quota'];
+           $forceSingular = true;
+         }
+         elseif ($item->status < \ShortPixelMeta::FILE_STATUS_UNPROCESSED)
+         {
+           $thisActions[] = $this->actions['retry'];
+         }
+         elseif ($item->status == \ShortPixelMeta::FILE_STATUS_UNPROCESSED || $item->status == \ShortPixelMeta::FILE_STATUS_RESTORED)
+         {
+           $thisActions[] = $this->actions['optimize'];
+         }
+         elseif ( intval($item->status) == \ShortPixelMeta::FILE_STATUS_SUCCESS)
+         {
+           $thisActions[] = $this->actions['compare'];
+
+           if ($file->hasBackup())
+           {
+             switch($item->compression_type) {
+                 case 2:
+                     $actionsEnabled['redolossy'] = $actionsEnabled['redolossless'] = true;
+                     $thisActions[] = $this->actions['redolossy'];
+                     $thisActions[] = $this->actions['redolossless'];
+                     break;
+                 case 1:
+                     $actionsEnabled['redoglossy'] = $actionsEnabled['redolossless'] = true;
+                     $thisActions[] = $this->actions['redoglossy'];
+                     $thisActions[] = $this->actions['redolossless'];
+                     break;
+                 default:
+                     $thisActions[] = $this->actions['redolossy'];
+                     $thisActions[] = $this->actions['redoglossy'];
+                 break;
+             }
+             $thisActions[] = $this->actions['restore'];
+           }
+         }
+
+         
+        if (count($thisActions) == 1)
+          $thisActions[0]['class'] .= 'button-smaller button button-primary';
+
+         return $this->renderActions($thisActions, $item, $file, $forceSingular);
+      }
+
+      protected function renderActions($actions, $item, $file, $forceSingular = false)
+      {
+
+        foreach($actions as $index => $action)
+        {
+          $text = isset($action['text']) ? $action['text'] : '';
+
+          if (isset($action['link']))
+          {
+             $fs = \wpSPIO()->filesystem();
+             $item_url = $fs->pathToUrl($file);
+
+             $link = $action['link'];
+             $link = str_replace('%%item_id%%', $item->id, $link);
+             $link = str_replace('%%text%%', $text, $link);
+             $link = str_replace('%%item_url%%', $item_url, $link);
+          }
+          else
+          {
+              $action_arg = $action['action']; //
+              $nonce = $action['_wpnonce'];
+              $url = $this->getPageURL(array('action' => $action_arg, '_wpnonce' => $nonce, 'item_id' => $item->id));
+              if (isset($action['type']))
+                $url = add_query_arg('type', $action['type'], $url);
+              $class = (isset($action['class'])) ? $action['class'] : '';
+
+
+              $link = '<a href=""' . $url . '"" class=""action-' . $action_arg . ' ' . $class . '"">' . $text . '</a>';
+          }
+
+          $actions[$index] = $link;
+        }
+
+        if ($forceSingular)
+        {
+          array_unshift($actions, 'render-loose');
+        }
+        return $actions;
+      }
+
+      protected function renderLegacyCell()
+      {
+
+        $data = $this->data;
+
+        if ( $data['status'] != 'pdfOptimized' && $data['status'] != 'imgOptimized')
+          return null;
+
+        $this->legacyViewObj->renderListCell($this->post_id, $data['status'], $data['showActions'], $data['thumbsToOptimize'],
+                $data['backup'], $data['type'], $data['invType'], '');
+      }
+
+      protected function getDisplayStatus($item)
+      {
+        $keyControl = ApiKeyController::getInstance();
+
+
+        if (! $keyControl->keyIsVerified())
+        {
+            $msg = __('Invalid API Key",wp-shortpixel,"Next page' ),
+                    '&rsaquo;'
+                );
+            }
+
+            if ( $disable_last ) {
+                $page_links[] = '<span class=""tablenav-pages-navspan button disabled"" aria-hidden=""true"">&raquo;</span>';
+            } else {
+                $page_links[] = sprintf(
+                    ""<a class='last-page button' href='%s'><span class='screen-reader-text'>%s</span><span aria-hidden='true'>%s</span></a>"",
+                    esc_url( add_query_arg( 'paged', $pages, $current_url ) ),
+                    __( 'Last page' ),
+                    '&raquo;'
+                );
+            }
+
+            $output .= ""\n<span class='pagination-links'>"" . join( ""\n"", $page_links ) . '</span>';
+            $output .= ""</form>"";
+
+
+          return $output;
+      }
+
+      /** Actions to list under the Image row */
+      protected function getRowActions($item, $file)
+      {
+          $thisActions = array();
+          $thisActions[] = $this->actions['view']; // always .
+          $settings = \wpSPIO()->settings();
+
+          $keyControl = ApiKeyController::getInstance();
+
+
+          if ($settings->quotaExceeded || ! $keyControl->keyIsVerified() )
+          {
+            return $this->renderActions($thisActions, $item, $file); // nothing more.
+          }
+
+          if ($item->status < \ShortPixelMeta::FILE_STATUS_UNPROCESSED)
+          {
+            $thisActions[] = $this->actions['retry'];
+          }
+          elseif ($item->status == \ShortPixelMeta::FILE_STATUS_UNPROCESSED || $item->status == \ShortPixelMeta::FILE_STATUS_RESTORED)
+          {
+            $thisActions[] = $this->actions['optimize'];
+          }
+
+          return $this->renderActions($thisActions, $item, $file);
+      }
+
+      /* Actions to list in the action menu */
+      protected function getActions($item, $file)
+      {
+         $thisActions = array();
+         $settings = \wpSPIO()->settings();
+         $keyControl = ApiKeyController::getInstance();
+         $forceSingular = false; // force view to show all actions separate, not in clickdown
+
+         if (! $keyControl->keyIsVerified())
+         {
+           //$thisActions[] = $this->actions['no-key'];
+
+         }
+         elseif ($settings->quotaExceeded)
+         {
+           $thisActions[] = $this->actions['extend-quota'];
+           $thisActions[] = $this->actions['quota'];
+           $forceSingular = true;
+         }
+         elseif ($item->status < \ShortPixelMeta::FILE_STATUS_UNPROCESSED)
+         {
+           $thisActions[] = $this->actions['retry'];
+         }
+         elseif ($item->status == \ShortPixelMeta::FILE_STATUS_UNPROCESSED || $item->status == \ShortPixelMeta::FILE_STATUS_RESTORED)
+         {
+           $thisActions[] = $this->actions['optimize'];
+         }
+         elseif ( intval($item->status) == \ShortPixelMeta::FILE_STATUS_SUCCESS)
+         {
+           $thisActions[] = $this->actions['compare'];
+
+           if ($file->hasBackup())
+           {
+             switch($item->compression_type) {
+                 case 2:
+                     $actionsEnabled['redolossy'] = $actionsEnabled['redolossless'] = true;
+                     $thisActions[] = $this->actions['redolossy'];
+                     $thisActions[] = $this->actions['redolossless'];
+                     break;
+                 case 1:
+                     $actionsEnabled['redoglossy'] = $actionsEnabled['redolossless'] = true;
+                     $thisActions[] = $this->actions['redoglossy'];
+                     $thisActions[] = $this->actions['redolossless'];
+                     break;
+                 default:
+                     $thisActions[] = $this->actions['redolossy'];
+                     $thisActions[] = $this->actions['redoglossy'];
+                 break;
+             }
+             $thisActions[] = $this->actions['restore'];
+           }
+         }
+
+         
+        if (count($thisActions) == 1)
+          $thisActions[0]['class'] .= 'button-smaller button button-primary';
+
+         return $this->renderActions($thisActions, $item, $file, $forceSingular);
+      }
+
+      protected function renderActions($actions, $item, $file, $forceSingular = false)
+      {
+
+        foreach($actions as $index => $action)
+        {
+          $text = isset($action['text']) ? $action['text'] : '';
+
+          if (isset($action['link']))
+          {
+             $fs = \wpSPIO()->filesystem();
+             $item_url = $fs->pathToUrl($file);
+
+             $link = $action['link'];
+             $link = str_replace('%%item_id%%', $item->id, $link);
+             $link = str_replace('%%text%%', $text, $link);
+             $link = str_replace('%%item_url%%', $item_url, $link);
+          }
+          else
+          {
+              $action_arg = $action['action']; //
+              $nonce = $action['_wpnonce'];
+              $url = $this->getPageURL(array('action' => $action_arg, '_wpnonce' => $nonce, 'item_id' => $item->id));
+              if (isset($action['type']))
+                $url = add_query_arg('type', $action['type'], $url);
+              $class = (isset($action['class'])) ? $action['class'] : '';
+
+
+              $link = '<a href=""' . $url . '"" class=""action-' . $action_arg . ' ' . $class . '"">' . $text . '</a>';
+          }
+
+          $actions[$index] = $link;
+        }
+
+        if ($forceSingular)
+        {
+          array_unshift($actions, 'render-loose');
+        }
+        return $actions;
+      }
+
+      protected function renderLegacyCell()
+      {
+
+        $data = $this->data;
+
+        if ( $data['status'] != 'pdfOptimized' && $data['status'] != 'imgOptimized')
+          return null;
+
+        $this->legacyViewObj->renderListCell($this->post_id, $data['status'], $data['showActions'], $data['thumbsToOptimize'],
+                $data['backup'], $data['type'], $data['invType'], '');
+      }
+
+      protected function getDisplayStatus($item)
+      {
+        $keyControl = ApiKeyController::getInstance();
+
+
+        if (! $keyControl->keyIsVerified())
+        {
+            $msg = __('Invalid API Key"
+"Check your Settings",wp-shortpixel,"Check your Settings"
+Restored,wp-shortpixel,Restored
+"Restore Pending",wp-shortpixel,"Restore Pending"
+"Image waiting to be processed",wp-shortpixel,"Image waiting to be processed"
+"Image not processed.",wp-shortpixel,"Image not processed."
+code,wp-shortpixel,code
+"Bonus processing",wp-shortpixel,"Bonus processing"
+"Reduced by",wp-shortpixel,"Reduced by"
+Lossy,wp-shortpixel,Lossy
+Glossy,wp-shortpixel,Glossy
+Lossless,wp-shortpixel,Lossless
+"Resized to %s x %s",wp-shortpixel,"Resized to %s x %s"
+"ShortPixel Actions",wp-shortpixel,"ShortPixel Actions"
+"Your API Key has been removed",wp-shortpixel,"Your API Key has been removed"
+"Error during verifying API key: %s",wp-shortpixel,"Error during verifying API key: %s"
+"API Key is valid but your site is not accessible from our servers. Please make sure that your server is accessible from the Internet before using the API or otherwise we won't be able to optimize them.",wp-shortpixel,"API Key is valid but your site is not accessible from our servers. Please make sure that your server is accessible from the Internet before using the API or otherwise we won't be able to optimize them."
+"Great, your API Key is valid! <br>You seem to be running a multisite, please note that API Key can also be configured in wp-config.php like this:",wp-shortpixel,"Great, your API Key is valid! <br>You seem to be running a multisite, please note that API Key can also be configured in wp-config.php like this:"
+"Great, your API Key is valid. Please take a few moments to review the plugin settings before starting to optimize your images.",wp-shortpixel,"Great, your API Key is valid. Please take a few moments to review the plugin settings before starting to optimize your images."
+"There is something preventing us to create a new folder for backing up your original files.<BR>Please make sure that folder <b>%s</b> has the necessary write and read rights.",wp-shortpixel,"There is something preventing us to create a new folder for backing up your original files.<BR>Please make sure that folder <b>%s</b> has the necessary write and read rights."
+"The key you provided has %s characters. The API key should have 20 characters, letters and numbers only.",wp-shortpixel,"The key you provided has %s characters. The API key should have 20 characters, letters and numbers only."
+"Please check that the API key is the same as the one you received in your confirmation email.",wp-shortpixel,"Please check that the API key is the same as the one you received in your confirmation email."
+"If this problem persists, please contact us at ",wp-shortpixel,"If this problem persists, please contact us at "
+" or ",wp-shortpixel," or "
+here,wp-shortpixel,here
+"Folder %s does not exist! ",wp-shortpixel,"Folder %s does not exist! "
+"Folder %s is not writeable. Please check permissions and try again.",wp-shortpixel,"Folder %s is not writeable. Please check permissions and try again."
+"Folder %s is not writeable. Please check permissions and try again.",wp-shortpixel,"Folder %s is not writeable. Please check permissions and try again."
+"Folder %s is not writeable. Please check permissions and try again.",wp-shortpixel,"Folder %s is not writeable. Please check permissions and try again."
+"%s from now' ), human_time_diff( $time ) );
+            } else {
+                $h_time = sprintf( __( '%s ago' ), human_time_diff( $time ) );
+            }
+        } else {
+            $h_time = $date->format( 'Y/m/d' );
+        }
+    }
+
+    return $h_time;
+}
+
+static public function formatBytes($bytes, $precision = 2) {
+    $units = array('B",wp-shortpixel,"%s from now' ), human_time_diff( $time ) );
+            } else {
+                $h_time = sprintf( __( '%s ago' ), human_time_diff( $time ) );
+            }
+        } else {
+            $h_time = $date->format( 'Y/m/d' );
+        }
+    }
+
+    return $h_time;
+}
+
+static public function formatBytes($bytes, $precision = 2) {
+    $units = array('B"
+"Details: recreating image files may require re-optimization of the resulting thumbnails, even if they were previously optimized. Please use <a href=""https://wordpress.org/plugins/regenerate-thumbnails-advanced/"" target=""_blank"">reGenerate Thumbnails Advanced</a> instead.",wp-shortpixel,"Details: recreating image files may require re-optimization of the resulting thumbnails, even if they were previously optimized. Please use <a href=""https://wordpress.org/plugins/regenerate-thumbnails-advanced/"" target=""_blank"">reGenerate Thumbnails Advanced</a> instead."
+"This plugin is uploading images in front-end so please activate the ""Process in front-end"" advanced option in ShortPixel in order to have your images optimized.",wp-shortpixel,"This plugin is uploading images in front-end so please activate the ""Process in front-end"" advanced option in ShortPixel in order to have your images optimized."
+"This folder contains the ShortPixel Backups. Please select a different folder.",wp-shortpixel,"This folder contains the ShortPixel Backups. Please select a different folder."
+"Folder already included in %s.",wp-shortpixel,"Folder already included in %s."
+"Folder does not exist.",wp-shortpixel,"Folder does not exist."
+Error,wp-shortpixel,Error
+"Dismiss for now",wp-shortpixel,"Dismiss for now"
+"Never display again",wp-shortpixel,"Never display again"
+"Search through our online documentation.",wp-shortpixel,"Search through our online documentation."
+"ShortPixel document icon",wp-shortpixel,"ShortPixel document icon"
+"ShortPixel Compression",wp-shortpixel,"ShortPixel Compression"
+"Your S3-Offload plugin version doesn\'t seem to be compatible. Please upgrade the S3-Offload plugin",wp-shortpixel,"Your S3-Offload plugin version doesn\'t seem to be compatible. Please upgrade the S3-Offload plugin"
+"Content Items (Posts, Pages, Custom Post Types, Revisions)",wp-shortpixel,"Content Items (Posts, Pages, Custom Post Types, Revisions)"
+Excerpts,wp-shortpixel,Excerpts
+Attachments,wp-shortpixel,Attachments
+Links,wp-shortpixel,Links
+"Custom Fields",wp-shortpixel,"Custom Fields"
+GUIDs,wp-shortpixel,GUIDs
+Advanced,wp-shortpixel,Advanced
+"It looks like you\'re running your site on an NginX server. This means that you can only achieve this functionality by directly configuring the server config files. Please follow this link for instructions on how to achieve this:",wp-shortpixel,"It looks like you\'re running your site on an NginX server. This means that you can only achieve this functionality by directly configuring the server config files. Please follow this link for instructions on how to achieve this:"
+"It looks like you recently moved from an Apache server to an NGINX server, while the option to use .htacces was in use. Please follow this tutorial to see how you could implement by yourself this functionality, outside of the WP plugin: ",wp-shortpixel,"It looks like you recently moved from an Apache server to an NGINX server, while the option to use .htacces was in use. Please follow this tutorial to see how you could implement by yourself this functionality, outside of the WP plugin: "
+"It looks like your .htaccess file cannot be written. Please fix this and then return to refresh this page to enable this option.",wp-shortpixel,"It looks like your .htaccess file cannot be written. Please fix this and then return to refresh this page to enable this option."
+"Based on testing your particular hosting configuration, we determined that your server",wp-shortpixel,"Based on testing your particular hosting configuration, we determined that your server"
+"serve the WEBP versions of the JPEG files seamlessly, via .htaccess.",wp-shortpixel,"serve the WEBP versions of the JPEG files seamlessly, via .htaccess."
+"Additional media folders",wp-shortpixel,"Additional media folders"
+"Folder name",wp-shortpixel,"Folder name"
+"Type &amp; Status",wp-shortpixel,"Type &amp; Status"
+Files,wp-shortpixel,Files
+"Last change",wp-shortpixel,"Last change"
+Nextgen,wp-shortpixel,Nextgen
+Empty,wp-shortpixel,Empty
+Optimized,wp-shortpixel,Optimized
+Pending,wp-shortpixel,Pending
+Waiting,wp-shortpixel,Waiting
+Empty,wp-shortpixel,Empty
+"Directory does not exist",wp-shortpixel,"Directory does not exist"
+Optimized,wp-shortpixel,Optimized
+Empty,wp-shortpixel,Empty
+"Stop monitoring",wp-shortpixel,"Stop monitoring"
+"Stop optimizing",wp-shortpixel,"Stop optimizing"
+Empty,wp-shortpixel,Empty
+Optimized,wp-shortpixel,Optimized
+Pending,wp-shortpixel,Pending
+Waiting,wp-shortpixel,Waiting
+Failed,wp-shortpixel,Failed
+"Info Icon",wp-shortpixel,"Info Icon"
+"Recheck for new images",wp-shortpixel,"Recheck for new images"
+"Add a custom folder",wp-shortpixel,"Add a custom folder"
+"Select the images folder on your server.",wp-shortpixel,"Select the images folder on your server."
+"Select ...",wp-shortpixel,"Select ..."
+"Add this Folder",wp-shortpixel,"Add this Folder"
+"Add this Folder",wp-shortpixel,"Add this Folder"
+"Use the Select... button to select site folders. ShortPixel will optimize images and PDFs from the specified folders and their subfolders. The optimization status for each image or PDF in these folders can be seen in the <a href=""upload.php?page=wp-short-pixel-custom"">Other Media list</a>, under the Media menu.",wp-shortpixel,"Use the Select... button to select site folders. ShortPixel will optimize images and PDFs from the specified folders and their subfolders. The optimization status for each image or PDF in these folders can be seen in the <a href=""upload.php?page=wp-short-pixel-custom"">Other Media list</a>, under the Media menu."
+"More info",wp-shortpixel,"More info"
+"Select the images folder",wp-shortpixel,"Select the images folder"
+Cancel,wp-shortpixel,Cancel
+Select,wp-shortpixel,Select
+"Optimize NextGen galleries",wp-shortpixel,"Optimize NextGen galleries"
+"Optimize NextGen galleries.",wp-shortpixel,"Optimize NextGen galleries."
+"Check this to add all your current NextGen galleries to the custom folders list and to also have all the future NextGen galleries and images optimized automatically by ShortPixel.",wp-shortpixel,"Check this to add all your current NextGen galleries to the custom folders list and to also have all the future NextGen galleries and images optimized automatically by ShortPixel."
+"Convert PNG images to JPEG",wp-shortpixel,"Convert PNG images to JPEG"
+"Automatically convert the PNG images to JPEG if possible.",wp-shortpixel,"Automatically convert the PNG images to JPEG if possible."
+"You need PHP GD for this. Please ask your hosting to install it.",wp-shortpixel,"You need PHP GD for this. Please ask your hosting to install it."
+"Converts all PNGs that don\'t have transparent pixels to JPEG. This can dramatically reduce the file size, especially if you have camera pictures that are saved in PNG format. The plugin will also search for references of the image in posts and will replace them.",wp-shortpixel,"Converts all PNGs that don\'t have transparent pixels to JPEG. This can dramatically reduce the file size, especially if you have camera pictures that are saved in PNG format. The plugin will also search for references of the image in posts and will replace them."
+"The image will NOT be converted if the resulting JPEG is larger than the original PNG.",wp-shortpixel,"The image will NOT be converted if the resulting JPEG is larger than the original PNG."
+"Also force the conversion of images with transparency.",wp-shortpixel,"Also force the conversion of images with transparency."
+"Warning - Converting from PNG to JPG will %s not %s keep the EXIF-information!'), ""<strong>",wp-shortpixel,"Warning - Converting from PNG to JPG will %s not %s keep the EXIF-information!'), ""<strong>"
+"CMYK to RGB conversion",wp-shortpixel,"CMYK to RGB conversion"
+"Adjust your images\' colours for computer and mobile screen display.",wp-shortpixel,"Adjust your images\' colours for computer and mobile screen display."
+"Images for the web only need RGB format and converting them from CMYK to RGB makes them smaller.",wp-shortpixel,"Images for the web only need RGB format and converting them from CMYK to RGB makes them smaller."
+"WebP Images:",wp-shortpixel,"WebP Images:"
+"Also create <a href=""http://blog.shortpixel.com/how-webp-images-can-speed-up-your-site/"" target=""_blank"">WebP versions</a> of the images, <strong>for free</strong>.",wp-shortpixel,"Also create <a href=""http://blog.shortpixel.com/how-webp-images-can-speed-up-your-site/"" target=""_blank"">WebP versions</a> of the images, <strong>for free</strong>."
+"WebP images can be up to three times smaller than PNGs and 25% smaller than JPGs. Choosing this option <strong>does not use up additional credits</strong>.",wp-shortpixel,"WebP images can be up to three times smaller than PNGs and 25% smaller than JPGs. Choosing this option <strong>does not use up additional credits</strong>."
+"More info",wp-shortpixel,"More info"
+"Deliver the WebP versions of the images in the front-end:",wp-shortpixel,"Deliver the WebP versions of the images in the front-end:"
+"Using the &lt;PICTURE&gt; tag syntax",wp-shortpixel,"Using the &lt;PICTURE&gt; tag syntax"
+"After the option to work on .htaccess was selected, the .htaccess file has become unaccessible / readonly. Please make the .htaccess file writeable again to be able to further set up this option.",wp-shortpixel,"After the option to work on .htaccess was selected, the .htaccess file has become unaccessible / readonly. Please make the .htaccess file writeable again to be able to further set up this option."
+"Each &lt;img&gt; will be replaced with a &lt;picture&gt; tag that will also provide the WebP image as a choice for browsers that support it. Also loads the picturefill.js for browsers that don\'t support the &lt;picture&gt; tag. You don\'t need to activate this if you\'re using the Cache Enabler plugin because your WebP images are already handled by this plugin. <strong>Please make a test before using this option</strong>, as if the styles that your theme is using rely on the position of your &lt;img&gt; tag, you might experience display problems.",wp-shortpixel,"Each &lt;img&gt; will be replaced with a &lt;picture&gt; tag that will also provide the WebP image as a choice for browsers that support it. Also loads the picturefill.js for browsers that don\'t support the &lt;picture&gt; tag. You don\'t need to activate this if you\'re using the Cache Enabler plugin because your WebP images are already handled by this plugin. <strong>Please make a test before using this option</strong>, as if the styles that your theme is using rely on the position of your &lt;img&gt; tag, you might experience display problems."
+"You can revert anytime to the previous state by just deactivating the option.",wp-shortpixel,"You can revert anytime to the previous state by just deactivating the option."
+"Only via Wordpress hooks (like the_content, the_excerpt, etc)');?>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type=""radio"" name=""deliverWebpAlteringType"" id=""deliverWebpAlteredGlobal"" <?php checked(($view->data->deliverWebp == 1),true)?>  value=""deliverWebpAlteredGlobal"">
+                                        <label for=""deliverWebpAlteredGlobal"">
+                                            <?php _e('Global (processes the whole output buffer before sending the HTML to the browser)",wp-shortpixel,"Only via Wordpress hooks (like the_content, the_excerpt, etc)');?>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type=""radio"" name=""deliverWebpAlteringType"" id=""deliverWebpAlteredGlobal"" <?php checked(($view->data->deliverWebp == 1),true)?>  value=""deliverWebpAlteredGlobal"">
+                                        <label for=""deliverWebpAlteredGlobal"">
+                                            <?php _e('Global (processes the whole output buffer before sending the HTML to the browser)"
+"Without altering the page code (via .htaccess)",wp-shortpixel,"Without altering the page code (via .htaccess)"
+"Optimize Retina images",wp-shortpixel,"Optimize Retina images"
+"Also optimize the Retina images (@2x) if they exist.",wp-shortpixel,"Also optimize the Retina images (@2x) if they exist."
+"If you have a Retina plugin that generates Retina-specific images (@2x), ShortPixel can optimize them too, alongside the regular Media Library images and thumbnails.",wp-shortpixel,"If you have a Retina plugin that generates Retina-specific images (@2x), ShortPixel can optimize them too, alongside the regular Media Library images and thumbnails."
+"More info",wp-shortpixel,"More info"
+"Optimize other thumbs",wp-shortpixel,"Optimize other thumbs"
+"Also optimize the unlisted thumbs if found.",wp-shortpixel,"Also optimize the unlisted thumbs if found."
+"Some plugins create thumbnails which are not registered in the metadata but instead only create them alongside the other thumbnails. Let ShortPixel optimize them as well.",wp-shortpixel,"Some plugins create thumbnails which are not registered in the metadata but instead only create them alongside the other thumbnails. Let ShortPixel optimize them as well."
+"Optimize PDFs",wp-shortpixel,"Optimize PDFs"
+"Automatically optimize PDF documents.",wp-shortpixel,"Automatically optimize PDF documents."
+"Exclude patterns",wp-shortpixel,"Exclude patterns"
+"name:keepbig, path:/ignore_regex/i, size:1000x2000",wp-shortpixel,"name:keepbig, path:/ignore_regex/i, size:1000x2000"
+"Exclude certain images from being optimized, based on patterns.",wp-shortpixel,"Exclude certain images from being optimized, based on patterns."
+"Add patterns separated by comma. A pattern consist of a <strong>type:value</strong> pair; the accepted types are
+                                  <strong>""name""</strong>, <strong>""path""</strong> and <strong>""size""</strong>.
+                                   A file will be excluded if it matches any of the patterns.
+                                   <br>For a <strong>""name""</strong> pattern only the filename will be matched but for a <strong>""path""</strong>,
+                                   all the path will be matched (useful for excluding certain subdirectories altoghether).
+                                   For these you can also use regular expressions accepted by preg_match, but without ",wp-shortpixel,"Add patterns separated by comma. A pattern consist of a <strong>type:value</strong> pair; the accepted types are
+                                  <strong>""name""</strong>, <strong>""path""</strong> and <strong>""size""</strong>.
+                                   A file will be excluded if it matches any of the patterns.
+                                   <br>For a <strong>""name""</strong> pattern only the filename will be matched but for a <strong>""path""</strong>,
+                                   all the path will be matched (useful for excluding certain subdirectories altoghether).
+                                   For these you can also use regular expressions accepted by preg_match, but without "
+"More info",wp-shortpixel,"More info"
+"HTTP AUTH credentials",wp-shortpixel,"HTTP AUTH credentials"
+User,wp-shortpixel,User
+Password,wp-shortpixel,Password
+"Only fill in these fields if your site (front-end) is not publicly accessible and visitors need a user/pass to connect to it. If you don\'t know what is this then just <strong>leave the fields empty</strong>.",wp-shortpixel,"Only fill in these fields if your site (front-end) is not publicly accessible and visitors need a user/pass to connect to it. If you don\'t know what is this then just <strong>leave the fields empty</strong>."
+"Optimize media on upload",wp-shortpixel,"Optimize media on upload"
+"Automatically optimize Media Library items after they are uploaded (recommended).",wp-shortpixel,"Automatically optimize Media Library items after they are uploaded (recommended)."
+"By default, ShortPixel will automatically optimize all the freshly uploaded image and PDF files. If you uncheck this you\'ll need to either run Bulk ShortPixel or go to Media Library (in list view) and click on the right side ""Optimize now"" button(s).",wp-shortpixel,"By default, ShortPixel will automatically optimize all the freshly uploaded image and PDF files. If you uncheck this you\'ll need to either run Bulk ShortPixel or go to Media Library (in list view) and click on the right side ""Optimize now"" button(s)."
+"Process in front-end",wp-shortpixel,"Process in front-end"
+"Automatically optimize images added by users in front end.",wp-shortpixel,"Automatically optimize images added by users in front end."
+"Check this if you have users that add images or PDF documents from custom forms in the front-end. This could increase the load on your server if you have a lot of users simultaneously connected.",wp-shortpixel,"Check this if you have users that add images or PDF documents from custom forms in the front-end. This could increase the load on your server if you have a lot of users simultaneously connected."
+"Exclude thumbnail sizes",wp-shortpixel,"Exclude thumbnail sizes"
+"Please check the thumbnail sizes you would like to <strong>exclude</strong> from optimization. There might be sizes created by themes or plugins which do not appear here, because they were not properly registered with WordPress. If you want to ignore them too, please uncheck the option <strong>Optimize other thumbs</strong> above.",wp-shortpixel,"Please check the thumbnail sizes you would like to <strong>exclude</strong> from optimization. There might be sizes created by themes or plugins which do not appear here, because they were not properly registered with WordPress. If you want to ignore them too, please uncheck the option <strong>Optimize other thumbs</strong> above."
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save and go to the Bulk Processing page",wp-shortpixel,"Save and go to the Bulk Processing page"
+"Save and Go to Bulk Process",wp-shortpixel,"Save and Go to Bulk Process"
+"Cloudflare API",wp-shortpixel,"Cloudflare API"
+"Please enable PHP cURL extension for the Cloudflare integration to work.",wp-shortpixel,"Please enable PHP cURL extension for the Cloudflare integration to work."
+"If you're using Cloudflare on your site then we advise you to fill in the details below. This will allow ShortPixel to work seamlessly with Cloudflare so that any image optimized/restored by ShortPixel will be automatically updated on Cloudflare as well.",wp-shortpixel,"If you're using Cloudflare on your site then we advise you to fill in the details below. This will allow ShortPixel to work seamlessly with Cloudflare so that any image optimized/restored by ShortPixel will be automatically updated on Cloudflare as well."
+"Zone ID:",wp-shortpixel,"Zone ID:"
+"This can be found in your Cloudflare account in the ""Overview"" section for your domain.",wp-shortpixel,"This can be found in your Cloudflare account in the ""Overview"" section for your domain."
+"Cloudflare Authentication",wp-shortpixel,"Cloudflare Authentication"
+"Cloudflare Token",wp-shortpixel,"Cloudflare Token"
+"Global API Key",wp-shortpixel,"Global API Key"
+"%s Preferred Method %s. Enter your %s site token %s for authentication. This token needs %s Cache Purge permission %s! ",wp-shortpixel,"%s Preferred Method %s. Enter your %s site token %s for authentication. This token needs %s Cache Purge permission %s! "
+"When using a token, leave the email and global API key fields empty.",wp-shortpixel,"When using a token, leave the email and global API key fields empty."
+"How to set it up",wp-shortpixel,"How to set it up"
+"This can be found when you're logged into your account, on the My Profile page:",wp-shortpixel,"This can be found when you're logged into your account, on the My Profile page:"
+"Cloudflare E-mail:",wp-shortpixel,"Cloudflare E-mail:"
+"The e-mail address you use to login to CloudFlare.",wp-shortpixel,"The e-mail address you use to login to CloudFlare."
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save Changes",wp-shortpixel,"Save Changes"
+Debug,wp-shortpixel,Debug
+Environment,wp-shortpixel,Environment
+Settings,wp-shortpixel,Settings
+"Quota Data",wp-shortpixel,"Quota Data"
+General,wp-shortpixel,General
+"API Key:",wp-shortpixel,"API Key:"
+"Multisite API Key",wp-shortpixel,"Multisite API Key"
+"Validate the provided API key",wp-shortpixel,"Validate the provided API key"
+"Save settings & validate",wp-shortpixel,"Save settings & validate"
+"Your API key is valid.",wp-shortpixel,"Your API key is valid."
+"Key defined in wp-config.php.",wp-shortpixel,"Key defined in wp-config.php."
+"Compression type:",wp-shortpixel,"Compression type:"
+"This is the recommended option in most cases, producing results that look the same as the original to the human eye.",wp-shortpixel,"This is the recommended option in most cases, producing results that look the same as the original to the human eye."
+Lossy,wp-shortpixel,Lossy
+"Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched.",wp-shortpixel,"Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched."
+Glossy,wp-shortpixel,Glossy
+"Make sure not a single pixel looks different in the optimized image compared with the original. In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations.",wp-shortpixel,"Make sure not a single pixel looks different in the optimized image compared with the original. In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations."
+Lossless,wp-shortpixel,Lossless
+"<a href=""https://shortpixel.com/online-image-compression"" style=""margin-left:20px;"" target=""_blank"">Make a few tests</a> to help you decide.'); ?>
+                        </div>
+                        <p class=""settings-info shortpixel-radio-info shortpixel-radio-lossy"" <?php echo( $view->data->compressionType == 1 ? """" : 'style=""display:none""' );?>>
+                            <?php _e('<b>Lossy compression (recommended): </b>offers the best compression rate.</br> This is the recommended option for most users, producing results that look the same as the original to the human eye.",wp-shortpixel,"<a href=""https://shortpixel.com/online-image-compression"" style=""margin-left:20px;"" target=""_blank"">Make a few tests</a> to help you decide.'); ?>
+                        </div>
+                        <p class=""settings-info shortpixel-radio-info shortpixel-radio-lossy"" <?php echo( $view->data->compressionType == 1 ? """" : 'style=""display:none""' );?>>
+                            <?php _e('<b>Lossy compression (recommended): </b>offers the best compression rate.</br> This is the recommended option for most users, producing results that look the same as the original to the human eye."
+"<b>Glossy compression: </b>creates images that are almost pixel-perfect identical to the originals.</br> Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched.",wp-shortpixel,"<b>Glossy compression: </b>creates images that are almost pixel-perfect identical to the originals.</br> Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched."
+"More info about glossy",wp-shortpixel,"More info about glossy"
+"<b>Lossless compression: </b> the resulting image is pixel-identical with the original image.</br>Make sure not a single pixel looks different in the optimized image compared with the original.
+                            In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations.",wp-shortpixel,"<b>Lossless compression: </b> the resulting image is pixel-identical with the original image.</br>Make sure not a single pixel looks different in the optimized image compared with the original.
+                            In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations."
+"Also include thumbnails:",wp-shortpixel,"Also include thumbnails:"
+"Apply compression also to <strong>image thumbnails.</strong> ",wp-shortpixel,"Apply compression also to <strong>image thumbnails.</strong> "
+"thumbnails to optimize",wp-shortpixel,"thumbnails to optimize"
+"It is highly recommended that you optimize the thumbnails as they are usually the images most viewed by end users and can generate most traffic.<br>Please note that thumbnails count up to your total quota.",wp-shortpixel,"It is highly recommended that you optimize the thumbnails as they are usually the images most viewed by end users and can generate most traffic.<br>Please note that thumbnails count up to your total quota."
+"Image backup",wp-shortpixel,"Image backup"
+"Save and keep a backup of your original images in a separate folder.",wp-shortpixel,"Save and keep a backup of your original images in a separate folder."
+"You <strong>need to have backup active</strong> in order to be able to restore images to originals or to convert from Lossy to Lossless and back.",wp-shortpixel,"You <strong>need to have backup active</strong> in order to be able to restore images to originals or to convert from Lossy to Lossless and back."
+"Make sure you have a backup in place. When optimizing Shortpixel will overwrite your images without recovery. This may result in lost images.",wp-shortpixel,"Make sure you have a backup in place. When optimizing Shortpixel will overwrite your images without recovery. This may result in lost images."
+"Remove EXIF",wp-shortpixel,"Remove EXIF"
+"Remove the EXIF tag of the image (recommended).",wp-shortpixel,"Remove the EXIF tag of the image (recommended)."
+"EXIF is a set of various pieces of information that are automatically embedded into the image upon creation. This can include GPS position, camera manufacturer, date and time, etc.
+                        Unless you really need that data to be preserved, we recommend removing it as it can lead to <a href=""http://blog.shortpixel.com/how-much-smaller-can-be-images-without-exif-icc"" target=""_blank"">better compression rates</a>.",wp-shortpixel,"EXIF is a set of various pieces of information that are automatically embedded into the image upon creation. This can include GPS position, camera manufacturer, date and time, etc.
+                        Unless you really need that data to be preserved, we recommend removing it as it can lead to <a href=""http://blog.shortpixel.com/how-much-smaller-can-be-images-without-exif-icc"" target=""_blank"">better compression rates</a>."
+"Warning - Converting from PNG to JPG will %s not %s keep the EXIF-information!'), ""<strong>",wp-shortpixel,"Warning - Converting from PNG to JPG will %s not %s keep the EXIF-information!'), ""<strong>"
+"OptIn for Help Services",wp-shortpixel,"OptIn for Help Services"
+"Show me InAdmin Help",wp-shortpixel,"Show me InAdmin Help"
+"We use HelpScout and QuriOBot to better serve your questions. You have give permission  so we can answer your questions straight in your admin panel",wp-shortpixel,"We use HelpScout and QuriOBot to better serve your questions. You have give permission  so we can answer your questions straight in your admin panel"
+"Warning - Imagick library not detected on server. WordPress will use another library to resize images, which may result in loss of EXIF-information'), ""<strong>",wp-shortpixel,"Warning - Imagick library not detected on server. WordPress will use another library to resize images, which may result in loss of EXIF-information'), ""<strong>"
+"Resize large images",wp-shortpixel,"Resize large images"
+"to maximum",wp-shortpixel,"to maximum"
+"pixels wide &times;",wp-shortpixel,"pixels wide &times;"
+"pixels high (original aspect ratio is preserved and image is not cropped)",wp-shortpixel,"pixels high (original aspect ratio is preserved and image is not cropped)"
+Width,wp-shortpixel,Width
+Height,wp-shortpixel,Height
+"Recommended for large photos, like the ones taken with your phone. Saved space can go up to 80% or more after resizing.",wp-shortpixel,"Recommended for large photos, like the ones taken with your phone. Saved space can go up to 80% or more after resizing."
+"Read more",wp-shortpixel,"Read more"
+"Resize outer",wp-shortpixel,"Resize outer"
+"Sizes will be greater or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 1000x1500px while an image of 3000x2000px will be resized to 1800x1200px",wp-shortpixel,"Sizes will be greater or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 1000x1500px while an image of 3000x2000px will be resized to 1800x1200px"
+"Resize inner",wp-shortpixel,"Resize inner"
+"Sizes will be smaller or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 800x1200px while an image of 3000x2000px will be resized to 1000x667px",wp-shortpixel,"Sizes will be smaller or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 800x1200px while an image of 3000x2000px will be resized to 1000x667px"
+"What is this?",wp-shortpixel,"What is this?"
+"Sizes will be greater or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 1000x1500px while an image of 3000x2000px will be resized to 1800x1200px",wp-shortpixel,"Sizes will be greater or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 1000x1500px while an image of 3000x2000px will be resized to 1800x1200px"
+Cover,wp-shortpixel,Cover
+"Sizes will be smaller or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 800x1200px while an image of 3000x2000px will be resized to 1000x667px",wp-shortpixel,"Sizes will be smaller or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 800x1200px while an image of 3000x2000px will be resized to 1000x667px"
+Contain,wp-shortpixel,Contain
+"What is this?",wp-shortpixel,"What is this?"
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save and go to the Bulk Processing page",wp-shortpixel,"Save and go to the Bulk Processing page"
+"Save and Go to Bulk Process",wp-shortpixel,"Save and Go to Bulk Process"
+"wp-config.php is hiding the API key, but no API key was found. Remove the constant, or define the SHORTPIXEL_API_KEY constant as well",wp-shortpixel,"wp-config.php is hiding the API key, but no API key was found. Remove the constant, or define the SHORTPIXEL_API_KEY constant as well"
+"Constant API Key is not verified. Please check if this is a valid API key %s'),$dkey));
+}
+
+$adminEmail = get_bloginfo('admin_email');
+if($adminEmail == 'noreply@addendio.com') $adminEmail = false; //hack for the addendio sandbox e-mail
+
+?>
+<section id=""tab-settings"" <?php echo ($this->display_part == 'settings') ? ' class=""sel-tab"" ' :''; ?> >
+    <h2><a class='tab-link' href='javascript:void(0);' data-id=""tab-settings"">
+      <?php _e('Join ShortPixel",wp-shortpixel,"Constant API Key is not verified. Please check if this is a valid API key %s'),$dkey));
+}
+
+$adminEmail = get_bloginfo('admin_email');
+if($adminEmail == 'noreply@addendio.com') $adminEmail = false; //hack for the addendio sandbox e-mail
+
+?>
+<section id=""tab-settings"" <?php echo ($this->display_part == 'settings') ? ' class=""sel-tab"" ' :''; ?> >
+    <h2><a class='tab-link' href='javascript:void(0);' data-id=""tab-settings"">
+      <?php _e('Join ShortPixel"
+"Request an API Key:",wp-shortpixel,"Request an API Key:"
+"If you don\'t have an API Key, you can request one for free. Just press the ""Request Key"" button after checking that the e-mail is correct.",wp-shortpixel,"If you don\'t have an API Key, you can request one for free. Just press the ""Request Key"" button after checking that the e-mail is correct."
+"E-mail address:",wp-shortpixel,"E-mail address:"
+"Request a new API key",wp-shortpixel,"Request a new API key"
+"Request Key",wp-shortpixel,"Request Key"
+"Please provide a valid e-mail address.",wp-shortpixel,"Please provide a valid e-mail address."
+"<b>%s</b> is the e-mail address in your WordPress Settings. You can use it, or change it to any valid e-mail address that you own.",wp-shortpixel,"<b>%s</b> is the e-mail address in your WordPress Settings. You can use it, or change it to any valid e-mail address that you own."
+"Please input your e-mail address and press the Request Key button.",wp-shortpixel,"Please input your e-mail address and press the Request Key button."
+"ShortPixel logo",wp-shortpixel,"ShortPixel logo"
+"Hand pointing",wp-shortpixel,"Hand pointing"
+"I have read and I agree to the <a href=""https://shortpixel.com/tos"" target=""_blank"">Terms of Service</a> and the <a href=""https://shortpixel.com/privacy"" target=""_blank"">Privacy Policy</a> (<a href=""https://shortpixel.com/privacy#gdpr"" target=""_blank"">GDPR compliant</a>).",wp-shortpixel,"I have read and I agree to the <a href=""https://shortpixel.com/tos"" target=""_blank"">Terms of Service</a> and the <a href=""https://shortpixel.com/privacy"" target=""_blank"">Privacy Policy</a> (<a href=""https://shortpixel.com/privacy#gdpr"" target=""_blank"">GDPR compliant</a>)."
+"Already have an API Key:",wp-shortpixel,"Already have an API Key:"
+"If you already have an API Key please input it below and press Validate.",wp-shortpixel,"If you already have an API Key please input it below and press Validate."
+"API Key:",wp-shortpixel,"API Key:"
+"Multisite API Key",wp-shortpixel,"Multisite API Key"
+"Validate the provided API key",wp-shortpixel,"Validate the provided API key"
+Validate,wp-shortpixel,Validate
+"Key defined in wp-config.php.",wp-shortpixel,"Key defined in wp-config.php."
+Statistics,wp-shortpixel,Statistics
+"Your ShortPixel Stats",wp-shortpixel,"Your ShortPixel Stats"
+"Average compression of your files:",wp-shortpixel,"Average compression of your files:"
+"Processed Images and PDFs:",wp-shortpixel,"Processed Images and PDFs:"
+"Processed Thumbnails:",wp-shortpixel,"Processed Thumbnails:"
+"Total files processed:",wp-shortpixel,"Total files processed:"
+"Minus files with <5% optimization (free):",wp-shortpixel,"Minus files with <5% optimization (free):"
+"Used quota:",wp-shortpixel,"Used quota:"
+"Average optimization:",wp-shortpixel,"Average optimization:"
+"Saved space:",wp-shortpixel,"Saved space:"
+"Disk space saved by ShortPixel:",wp-shortpixel,"Disk space saved by ShortPixel:"
+"Bandwidth* saved by ShortPixel:",wp-shortpixel,"Bandwidth* saved by ShortPixel:"
+"Your ShortPixel Credits",wp-shortpixel,"Your ShortPixel Credits"
+"Your monthly plan",wp-shortpixel,"Your monthly plan"
+"%s/month, renews in %s  days, on %s ( <a href=""https://shortpixel.com/login/%s"" target=""_blank"">Need More? See the options available</a> )",wp-shortpixel,"%s/month, renews in %s  days, on %s ( <a href=""https://shortpixel.com/login/%s"" target=""_blank"">Need More? See the options available</a> )"
+"<a href=""https://shortpixel.com/login/%s/tell-a-friend"" target=""_blank"">Join our friend referral system</a> to win more credits. For each user that joins, you receive +100 images credits/month.",wp-shortpixel,"<a href=""https://shortpixel.com/login/%s/tell-a-friend"" target=""_blank"">Join our friend referral system</a> to win more credits. For each user that joins, you receive +100 images credits/month."
+"Consumed: ",wp-shortpixel,"Consumed: "
+"; Remaining: ",wp-shortpixel,"; Remaining: "
+"Your One Time credits:",wp-shortpixel,"Your One Time credits:"
+"Total: ",wp-shortpixel,"Total: "
+"Consumed: ",wp-shortpixel,"Consumed: "
+"; Remaining: ",wp-shortpixel,"; Remaining: "
+"See report (last 30 days)",wp-shortpixel,"See report (last 30 days)"
+"Credits consumed on",wp-shortpixel,"Credits consumed on"
+"Original images are stored in a backup folder. Your backup folder\'s size is now:",wp-shortpixel,"Original images are stored in a backup folder. Your backup folder\'s size is now:"
+"Empty backups",wp-shortpixel,"Empty backups"
+"Are you sure you want to delete all the backup images? You won\'t be able to restore from backup or to reoptimize with different settings if you delete the backups.",wp-shortpixel,"Are you sure you want to delete all the backup images? You won\'t be able to restore from backup or to reoptimize with different settings if you delete the backups."
+"* Saved bandwidth is calculated at 10,000 impressions/image",wp-shortpixel,"* Saved bandwidth is calculated at 10,000 impressions/image"
+"** Increase your image quota by <a href=""https://shortpixel.com/login/%s"" target=""_blank"">upgrading your ShortPixel plan.</a>",wp-shortpixel,"** Increase your image quota by <a href=""https://shortpixel.com/login/%s"" target=""_blank"">upgrading your ShortPixel plan.</a>"
+"WP Resources",wp-shortpixel,"WP Resources"
+"Please reload",wp-shortpixel,"Please reload"
+"Un-check this if you don\\\'t plan to use ShortPixel in the future on this website. You might also want to run a Bulk Delete SP Metadata before removing the plugin (Media Library -> Bulk ShortPixel).', $this->plugin_name )
+            . '""><input type=""checkbox"" name=""shortpixel-keep-settings"" id=""shortpixel-keep-settings"" value=""yes"" checked> <label for=""shortpixel-keep-settings"">'
+            . esc_html__( 'Keep the ShortPixel settings on plugin deletion.', $this->plugin_name ) . '</label></span><br>';
+        $html .= '<hr/>';
+        $html .= '</div><!-- .shortpixel-deactivate-form-body -->';
+        $html .= '<p class=""deactivating-spinner""><span class=""spinner""></span> ' . __( 'Submitting form', $this->plugin_name ) . '</p>';
+        $html .= '<div class=""shortpixel-deactivate-form-footer""><p>';
+        $html .= '<label for=""anonymous"" title=""'
+            . __(""If you UNCHECK this then your email address will be sent along with your feedback. This can be used by ShortPixel to get back to you for more info or a solution.",wp-shortpixel,"Un-check this if you don\\\'t plan to use ShortPixel in the future on this website. You might also want to run a Bulk Delete SP Metadata before removing the plugin (Media Library -> Bulk ShortPixel).', $this->plugin_name )
+            . '""><input type=""checkbox"" name=""shortpixel-keep-settings"" id=""shortpixel-keep-settings"" value=""yes"" checked> <label for=""shortpixel-keep-settings"">'
+            . esc_html__( 'Keep the ShortPixel settings on plugin deletion.', $this->plugin_name ) . '</label></span><br>';
+        $html .= '<hr/>';
+        $html .= '</div><!-- .shortpixel-deactivate-form-body -->';
+        $html .= '<p class=""deactivating-spinner""><span class=""spinner""></span> ' . __( 'Submitting form', $this->plugin_name ) . '</p>';
+        $html .= '<div class=""shortpixel-deactivate-form-footer""><p>';
+        $html .= '<label for=""anonymous"" title=""'
+            . __(""If you UNCHECK this then your email address will be sent along with your feedback. This can be used by ShortPixel to get back to you for more info or a solution."
+"<span>Submit&nbsp;and&nbsp;</span>Deactivate', $this->plugin_name )
+            . '</a>';
+        $html .= '</p></div>';
+        ?>
+        <div class=""shortpixel-deactivate-form-bg""></div>
+        <style type=""text/css"">
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form-bg {
+                background: rgba( 0, 0, 0, .5 );
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .shortpixel-deactivate-form-wrapper {
+                position: relative;
+                z-index: 999;
+                display: none;
+            }
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form-wrapper {
+                display: block;
+            }
+            .shortpixel-deactivate-form {
+                display: none;
+            }
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form {
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                max-width: 500px;
+                min-width: 360px;
+                background: #fff;
+                white-space: normal;
+            }
+            .shortpixel-deactivate-form-head {
+                background: #4bbfcc;
+                color: #fff;
+                padding: 8px 18px;
+            }
+            .shortpixel-deactivate-form-body {
+                padding: 8px 18px 0;
+                color: #444;
+            }
+            .shortpixel-deactivate-form-body label[for=""shortpixel-remove-settings""] {
+                font-weight: bold;
+            }
+            .deactivating-spinner {
+                display: none;
+            }
+            .deactivating-spinner .spinner {
+                float: none;
+                margin: 4px 4px 0 18px;
+                vertical-align: bottom;
+                visibility: visible;
+            }
+            .shortpixel-deactivate-form-footer {
+                padding: 0 18px 8px;
+            }
+            .shortpixel-deactivate-form-footer label[for=""anonymous""] {
+                visibility: hidden;
+            }
+            .shortpixel-deactivate-form-footer p {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0;
+            }
+            #shortpixel-deactivate-submit-form span {
+                display: none;
+            }
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-body,
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-footer {
+                position: relative;
+            }
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-body:after,
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-footer:after {
+                content: """";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba( 255, 255, 255, .5 );
+            }
+        </style>
+        <script>
+            jQuery(document).ready(function($){
+                var deactivateURL = $(""#shortpixel-deactivate-link-<?php echo esc_attr( $this->plugin_name ); ?>""),
+                    formID = '#shortpixel-deactivate-form-<?php echo esc_attr( $this->plugin_name ); ?>',
+                    formContainer = $(formID),
+                    deactivated = true,
+                    detailsStrings = {
+                        'setup' : '<?php echo __( 'What was the dificult part ?', $this->plugin_name ) ?>",wp-shortpixel,"<span>Submit&nbsp;and&nbsp;</span>Deactivate', $this->plugin_name )
+            . '</a>';
+        $html .= '</p></div>';
+        ?>
+        <div class=""shortpixel-deactivate-form-bg""></div>
+        <style type=""text/css"">
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form-bg {
+                background: rgba( 0, 0, 0, .5 );
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .shortpixel-deactivate-form-wrapper {
+                position: relative;
+                z-index: 999;
+                display: none;
+            }
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form-wrapper {
+                display: block;
+            }
+            .shortpixel-deactivate-form {
+                display: none;
+            }
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form {
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                max-width: 500px;
+                min-width: 360px;
+                background: #fff;
+                white-space: normal;
+            }
+            .shortpixel-deactivate-form-head {
+                background: #4bbfcc;
+                color: #fff;
+                padding: 8px 18px;
+            }
+            .shortpixel-deactivate-form-body {
+                padding: 8px 18px 0;
+                color: #444;
+            }
+            .shortpixel-deactivate-form-body label[for=""shortpixel-remove-settings""] {
+                font-weight: bold;
+            }
+            .deactivating-spinner {
+                display: none;
+            }
+            .deactivating-spinner .spinner {
+                float: none;
+                margin: 4px 4px 0 18px;
+                vertical-align: bottom;
+                visibility: visible;
+            }
+            .shortpixel-deactivate-form-footer {
+                padding: 0 18px 8px;
+            }
+            .shortpixel-deactivate-form-footer label[for=""anonymous""] {
+                visibility: hidden;
+            }
+            .shortpixel-deactivate-form-footer p {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0;
+            }
+            #shortpixel-deactivate-submit-form span {
+                display: none;
+            }
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-body,
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-footer {
+                position: relative;
+            }
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-body:after,
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-footer:after {
+                content: """";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba( 255, 255, 255, .5 );
+            }
+        </style>
+        <script>
+            jQuery(document).ready(function($){
+                var deactivateURL = $(""#shortpixel-deactivate-link-<?php echo esc_attr( $this->plugin_name ); ?>""),
+                    formID = '#shortpixel-deactivate-form-<?php echo esc_attr( $this->plugin_name ); ?>',
+                    formContainer = $(formID),
+                    deactivated = true,
+                    detailsStrings = {
+                        'setup' : '<?php echo __( 'What was the dificult part ?', $this->plugin_name ) ?>"
+"Sorry to see you go', $this->plugin_name );
+        $form['body'] = __( 'Before you deactivate the plugin, would you quickly give us your reason for doing so?', $this->plugin_name );
+        $form['options'] = array(
+            'setup'           => __( 'Set up is too difficult', $this->plugin_name ),
+            'docs'            => __( 'Lack of documentation', $this->plugin_name ),
+            'features'        => __( 'Not the features I wanted', $this->plugin_name ),
+            'better-plugin'   => __( 'Found a better plugin', $this->plugin_name ),
+            'incompatibility' => __( 'Incompatible with theme or plugin', $this->plugin_name ),
+            'maintenance'     => __( 'Other', $this->plugin_name ),
+        );
+        $form['details'] = __( 'How could we improve ?', $this->plugin_name );
+        return $form;
+    }
+
+    public function deactivatePluginCallback() {
+
+        check_ajax_referer( 'shortpixel_deactivate_plugin",wp-shortpixel,"Sorry to see you go', $this->plugin_name );
+        $form['body'] = __( 'Before you deactivate the plugin, would you quickly give us your reason for doing so?', $this->plugin_name );
+        $form['options'] = array(
+            'setup'           => __( 'Set up is too difficult', $this->plugin_name ),
+            'docs'            => __( 'Lack of documentation', $this->plugin_name ),
+            'features'        => __( 'Not the features I wanted', $this->plugin_name ),
+            'better-plugin'   => __( 'Found a better plugin', $this->plugin_name ),
+            'incompatibility' => __( 'Incompatible with theme or plugin', $this->plugin_name ),
+            'maintenance'     => __( 'Other', $this->plugin_name ),
+        );
+        $form['details'] = __( 'How could we improve ?', $this->plugin_name );
+        return $form;
+    }
+
+    public function deactivatePluginCallback() {
+
+        check_ajax_referer( 'shortpixel_deactivate_plugin"
+"Keep the ShortPixel settings on plugin deletion.', $this->plugin_name ) . '</label></span><br>';
+        $html .= '<hr/>';
+        $html .= '</div><!-- .shortpixel-deactivate-form-body -->';
+        $html .= '<p class=""deactivating-spinner""><span class=""spinner""></span> ' . __( 'Submitting form', $this->plugin_name ) . '</p>';
+        $html .= '<div class=""shortpixel-deactivate-form-footer""><p>';
+        $html .= '<label for=""anonymous"" title=""'
+            . __(""If you UNCHECK this then your email address will be sent along with your feedback. This can be used by ShortPixel to get back to you for more info or a solution.",wp-shortpixel,"Keep the ShortPixel settings on plugin deletion.', $this->plugin_name ) . '</label></span><br>';
+        $html .= '<hr/>';
+        $html .= '</div><!-- .shortpixel-deactivate-form-body -->';
+        $html .= '<p class=""deactivating-spinner""><span class=""spinner""></span> ' . __( 'Submitting form', $this->plugin_name ) . '</p>';
+        $html .= '<div class=""shortpixel-deactivate-form-footer""><p>';
+        $html .= '<label for=""anonymous"" title=""'
+            . __(""If you UNCHECK this then your email address will be sent along with your feedback. This can be used by ShortPixel to get back to you for more info or a solution."
+"Send anonymous', $this->plugin_name ) . '</label><br>';
+        $html .= '<a id=""shortpixel-deactivate-submit-form"" class=""button button-primary"" href=""#"">'
+            . __( '<span>Submit&nbsp;and&nbsp;</span>Deactivate', $this->plugin_name )
+            . '</a>';
+        $html .= '</p></div>';
+        ?>
+        <div class=""shortpixel-deactivate-form-bg""></div>
+        <style type=""text/css"">
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form-bg {
+                background: rgba( 0, 0, 0, .5 );
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .shortpixel-deactivate-form-wrapper {
+                position: relative;
+                z-index: 999;
+                display: none;
+            }
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form-wrapper {
+                display: block;
+            }
+            .shortpixel-deactivate-form {
+                display: none;
+            }
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form {
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                max-width: 500px;
+                min-width: 360px;
+                background: #fff;
+                white-space: normal;
+            }
+            .shortpixel-deactivate-form-head {
+                background: #4bbfcc;
+                color: #fff;
+                padding: 8px 18px;
+            }
+            .shortpixel-deactivate-form-body {
+                padding: 8px 18px 0;
+                color: #444;
+            }
+            .shortpixel-deactivate-form-body label[for=""shortpixel-remove-settings""] {
+                font-weight: bold;
+            }
+            .deactivating-spinner {
+                display: none;
+            }
+            .deactivating-spinner .spinner {
+                float: none;
+                margin: 4px 4px 0 18px;
+                vertical-align: bottom;
+                visibility: visible;
+            }
+            .shortpixel-deactivate-form-footer {
+                padding: 0 18px 8px;
+            }
+            .shortpixel-deactivate-form-footer label[for=""anonymous""] {
+                visibility: hidden;
+            }
+            .shortpixel-deactivate-form-footer p {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0;
+            }
+            #shortpixel-deactivate-submit-form span {
+                display: none;
+            }
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-body,
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-footer {
+                position: relative;
+            }
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-body:after,
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-footer:after {
+                content: """";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba( 255, 255, 255, .5 );
+            }
+        </style>
+        <script>
+            jQuery(document).ready(function($){
+                var deactivateURL = $(""#shortpixel-deactivate-link-<?php echo esc_attr( $this->plugin_name ); ?>""),
+                    formID = '#shortpixel-deactivate-form-<?php echo esc_attr( $this->plugin_name ); ?>',
+                    formContainer = $(formID),
+                    deactivated = true,
+                    detailsStrings = {
+                        'setup' : '<?php echo __( 'What was the dificult part ?', $this->plugin_name ) ?>",wp-shortpixel,"Send anonymous', $this->plugin_name ) . '</label><br>';
+        $html .= '<a id=""shortpixel-deactivate-submit-form"" class=""button button-primary"" href=""#"">'
+            . __( '<span>Submit&nbsp;and&nbsp;</span>Deactivate', $this->plugin_name )
+            . '</a>';
+        $html .= '</p></div>';
+        ?>
+        <div class=""shortpixel-deactivate-form-bg""></div>
+        <style type=""text/css"">
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form-bg {
+                background: rgba( 0, 0, 0, .5 );
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .shortpixel-deactivate-form-wrapper {
+                position: relative;
+                z-index: 999;
+                display: none;
+            }
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form-wrapper {
+                display: block;
+            }
+            .shortpixel-deactivate-form {
+                display: none;
+            }
+            .shortpixel-deactivate-form-active .shortpixel-deactivate-form {
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                max-width: 500px;
+                min-width: 360px;
+                background: #fff;
+                white-space: normal;
+            }
+            .shortpixel-deactivate-form-head {
+                background: #4bbfcc;
+                color: #fff;
+                padding: 8px 18px;
+            }
+            .shortpixel-deactivate-form-body {
+                padding: 8px 18px 0;
+                color: #444;
+            }
+            .shortpixel-deactivate-form-body label[for=""shortpixel-remove-settings""] {
+                font-weight: bold;
+            }
+            .deactivating-spinner {
+                display: none;
+            }
+            .deactivating-spinner .spinner {
+                float: none;
+                margin: 4px 4px 0 18px;
+                vertical-align: bottom;
+                visibility: visible;
+            }
+            .shortpixel-deactivate-form-footer {
+                padding: 0 18px 8px;
+            }
+            .shortpixel-deactivate-form-footer label[for=""anonymous""] {
+                visibility: hidden;
+            }
+            .shortpixel-deactivate-form-footer p {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0;
+            }
+            #shortpixel-deactivate-submit-form span {
+                display: none;
+            }
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-body,
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-footer {
+                position: relative;
+            }
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-body:after,
+            .shortpixel-deactivate-form.process-response .shortpixel-deactivate-form-footer:after {
+                content: """";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba( 255, 255, 255, .5 );
+            }
+        </style>
+        <script>
+            jQuery(document).ready(function($){
+                var deactivateURL = $(""#shortpixel-deactivate-link-<?php echo esc_attr( $this->plugin_name ); ?>""),
+                    formID = '#shortpixel-deactivate-form-<?php echo esc_attr( $this->plugin_name ); ?>',
+                    formContainer = $(formID),
+                    deactivated = true,
+                    detailsStrings = {
+                        'setup' : '<?php echo __( 'What was the dificult part ?', $this->plugin_name ) ?>"
+Image,wp-shortpixel,Image
+Images,wp-shortpixel,Images
+Filename,wp-shortpixel,Filename
+Folder,wp-shortpixel,Folder
+Type,wp-shortpixel,Type
+Date,wp-shortpixel,Date
+Status,wp-shortpixel,Status
+Options,wp-shortpixel,Options
+Optimize,wp-shortpixel,Optimize
+Retry,wp-shortpixel,Retry
+"Re-optimize lossless",wp-shortpixel,"Re-optimize lossless"
+"Re-optimize lossy",wp-shortpixel,"Re-optimize lossy"
+"Re-optimize glossy",wp-shortpixel,"Re-optimize glossy"
+"Check quota",wp-shortpixel,"Check quota"
+Restore,wp-shortpixel,Restore
+Compare,wp-shortpixel,Compare
+View,wp-shortpixel,View
+Restored,wp-shortpixel,Restored
+"Restore Pending",wp-shortpixel,"Restore Pending"
+"Bonus processing",wp-shortpixel,"Bonus processing"
+"Reduced by",wp-shortpixel,"Reduced by"
+"Bonus processing",wp-shortpixel,"Bonus processing"
+Pending,wp-shortpixel,Pending
+Waiting,wp-shortpixel,Waiting
+code,wp-shortpixel,code
+,wp-shortpixel,
+"Keep EXIF",wp-shortpixel,"Keep EXIF"
+"Preserve CMYK",wp-shortpixel,"Preserve CMYK"
+"No images available. Go to <a href=""options-general.php?page=wp-shortpixel-settings&part=adv-settings"">Advanced Settings</a> to configure additional folders to be optimized.",wp-shortpixel,"No images available. Go to <a href=""options-general.php?page=wp-shortpixel-settings&part=adv-settings"">Advanced Settings</a> to configure additional folders to be optimized."
+"File Successfully restored",wp-shortpixel,"File Successfully restored"
+"Show more details",wp-shortpixel,"Show more details"
+"Average image<br>reduction so far:",wp-shortpixel,"Average image<br>reduction so far:"
+"Quota Exceeded",wp-shortpixel,"Quota Exceeded"
+"You have no available image credits. If you just bought a package, please note that sometimes it takes a few minutes for the payment confirmation to be sent to us by the payment processor.",wp-shortpixel,"You have no available image credits. If you just bought a package, please note that sometimes it takes a few minutes for the payment confirmation to be sent to us by the payment processor."
+"The plugin has optimized <strong>%s images</strong> and stopped because it reached the available quota limit.",wp-shortpixel,"The plugin has optimized <strong>%s images</strong> and stopped because it reached the available quota limit."
+"<strong>%s images and %s thumbnails</strong> are not yet optimized by ShortPixel.",wp-shortpixel,"<strong>%s images and %s thumbnails</strong> are not yet optimized by ShortPixel."
+"Show me the best available options",wp-shortpixel,"Show me the best available options"
+"Go to my account and select a plan",wp-shortpixel,"Go to my account and select a plan"
+Upgrade,wp-shortpixel,Upgrade
+"Confirm New Credits",wp-shortpixel,"Confirm New Credits"
+"Get more image credits by referring ShortPixel to your friends!",wp-shortpixel,"Get more image credits by referring ShortPixel to your friends!"
+"Check your account",wp-shortpixel,"Check your account"
+"for your unique referral link. For each user that joins, you will receive +100 additional image credits/month.",wp-shortpixel,"for your unique referral link. For each user that joins, you will receive +100 additional image credits/month."
+"Bulk Image Optimization by ShortPixel",wp-shortpixel,"Bulk Image Optimization by ShortPixel"
+"Your media library",wp-shortpixel,"Your media library"
+"Original images",wp-shortpixel,"Original images"
+"Smaller thumbnails",wp-shortpixel,"Smaller thumbnails"
+"Include thumbnails",wp-shortpixel,"Include thumbnails"
+"Also create <a href=""http://blog.shortpixel.com/how-webp-images-can-speed-up-your-site/"" target=""_blank"">WebP versions</a> of the images, <strong>for free</strong>.",wp-shortpixel,"Also create <a href=""http://blog.shortpixel.com/how-webp-images-can-speed-up-your-site/"" target=""_blank"">WebP versions</a> of the images, <strong>for free</strong>."
+"Total images",wp-shortpixel,"Total images"
+"Already optimized originals",wp-shortpixel,"Already optimized originals"
+"Already optimized thumbnails",wp-shortpixel,"Already optimized thumbnails"
+"Total to be optimized",wp-shortpixel,"Total to be optimized"
+"(Originals and thumbnails)",wp-shortpixel,"(Originals and thumbnails)"
+"Your custom folders",wp-shortpixel,"Your custom folders"
+"Total to be optimized",wp-shortpixel,"Total to be optimized"
+"(Originals and thumbnails)",wp-shortpixel,"(Originals and thumbnails)"
+"Top-up your account to optimize more images.",wp-shortpixel,"Top-up your account to optimize more images."
+"<span class=""label"">Start Optimizing</span><br> <span class=""total"">%s</span> images",wp-shortpixel,"<span class=""label"">Start Optimizing</span><br> <span class=""total"">%s</span> images"
+"Nothing to optimize! The images that you add to Media Gallery will be automatically optimized after upload.",wp-shortpixel,"Nothing to optimize! The images that you add to Media Gallery will be automatically optimized after upload."
+"Bulk Restore Media Library",wp-shortpixel,"Bulk Restore Media Library"
+"Bulk Restore Images",wp-shortpixel,"Bulk Restore Images"
+"Bulk Delete SP Metadata",wp-shortpixel,"Bulk Delete SP Metadata"
+"Bulk Delete Pending Metadata",wp-shortpixel,"Bulk Delete Pending Metadata"
+"After you start the bulk process, in order for the optimization to run, you must keep this page open and your computer running. If you close the page for whatever reason, just turn back to it and the bulk process will resume.",wp-shortpixel,"After you start the bulk process, in order for the optimization to run, you must keep this page open and your computer running. If you close the page for whatever reason, just turn back to it and the bulk process will resume."
+"What are Thumbnails?",wp-shortpixel,"What are Thumbnails?"
+"Thumbnails are smaller images usually generated by your WP theme. Most themes generate between 3 and 6 thumbnails for each Media Library image.",wp-shortpixel,"Thumbnails are smaller images usually generated by your WP theme. Most themes generate between 3 and 6 thumbnails for each Media Library image."
+"The thumbnails also generate traffic on your website pages and they influence your website's speed.",wp-shortpixel,"The thumbnails also generate traffic on your website pages and they influence your website's speed."
+"It's highly recommended that you include thumbnails in the optimization as well.",wp-shortpixel,"It's highly recommended that you include thumbnails in the optimization as well."
+"How does it work?",wp-shortpixel,"How does it work?"
+"The plugin processes images starting with the newest ones you uploaded in your Media Library.",wp-shortpixel,"The plugin processes images starting with the newest ones you uploaded in your Media Library."
+"You will be able to pause the process anytime.",wp-shortpixel,"You will be able to pause the process anytime."
+"<p>Your original images will be stored in a separate back-up folder.</p>",wp-shortpixel,"<p>Your original images will be stored in a separate back-up folder.</p>"
+"You can watch the images being processed live, right here, after you start optimizing.",wp-shortpixel,"You can watch the images being processed live, right here, after you start optimizing."
+"Please see below the optimization status so far:",wp-shortpixel,"Please see below the optimization status so far:"
+"%s images and %s thumbnails are not yet optimized by ShortPixel.",wp-shortpixel,"%s images and %s thumbnails are not yet optimized by ShortPixel."
+"You can continue optimizing your Media Gallery from where you left, by clicking the Resume processing button. Already optimized images will not be reprocessed.",wp-shortpixel,"You can continue optimizing your Media Gallery from where you left, by clicking the Resume processing button. Already optimized images will not be reprocessed."
+Congratulations!,wp-shortpixel,Congratulations!
+"Your media library has been successfully optimized!",wp-shortpixel,"Your media library has been successfully optimized!"
+Summary,wp-shortpixel,Summary
+"Restoring completed",wp-shortpixel,"Restoring completed"
+"Your images have been restored",wp-shortpixel,"Your images have been restored"
+Summary,wp-shortpixel,Summary
+"Share your optimization results:",wp-shortpixel,"Share your optimization results:"
+"I just #optimized my site's images by ",wp-shortpixel,"I just #optimized my site's images by "
+"I just #optimized my site's images ",wp-shortpixel,"I just #optimized my site's images "
+"with @ShortPixel, a #WordPress image optimization plugin",wp-shortpixel,"with @ShortPixel, a #WordPress image optimization plugin"
+Tweet,wp-shortpixel,Tweet
+"Please rate us!",wp-shortpixel,"Please rate us!"
+"Go to the ShortPixel <a href=""%soptions-general.php?page=wp-shortpixel-settings&part=stats"">Stats</a>
+                               and see all your websites\' optimized stats. Download your detailed <a href=""https://%s/v2/report.php?key=%s"">Optimization Report</a>
+                               to check your image optimization statistics for the last 30 days.",wp-shortpixel,"Go to the ShortPixel <a href=""%soptions-general.php?page=wp-shortpixel-settings&part=stats"">Stats</a>
+                               and see all your websites\' optimized stats. Download your detailed <a href=""https://%s/v2/report.php?key=%s"">Optimization Report</a>
+                               to check your image optimization statistics for the last 30 days."
+"The following images could not be processed because of their limited write rights. This usually happens if you have changed your hosting provider. Please restart the optimization process after you granted write rights to all the files below.",wp-shortpixel,"The following images could not be processed because of their limited write rights. This usually happens if you have changed your hosting provider. Please restart the optimization process after you granted write rights to all the files below."
+"%s images and %s thumbnails are not yet optimized by ShortPixel.",wp-shortpixel,"%s images and %s thumbnails are not yet optimized by ShortPixel."
+"%s images are not yet optimized by ShortPixel.",wp-shortpixel,"%s images are not yet optimized by ShortPixel."
+"%s thumbnails are not yet optimized by ShortPixel.",wp-shortpixel,"%s thumbnails are not yet optimized by ShortPixel."
+,wp-shortpixel,
+"(%s more)",wp-shortpixel,"(%s more)"
+"%s images and %s thumbnails were optimized <strong>%s</strong>. ",wp-shortpixel,"%s images and %s thumbnails were optimized <strong>%s</strong>. "
+"%s images were optimized <strong>%s</strong>. ",wp-shortpixel,"%s images were optimized <strong>%s</strong>. "
+"%s images and %s thumbnails were optimized <strong>%s</strong>. You can re-optimize <strong>%s</strong> the ones that have backup.",wp-shortpixel,"%s images and %s thumbnails were optimized <strong>%s</strong>. You can re-optimize <strong>%s</strong> the ones that have backup."
+"%s images were optimized <strong>%s</strong>. You can re-optimize <strong>%s</strong> the ones that have backup. ",wp-shortpixel,"%s images were optimized <strong>%s</strong>. You can re-optimize <strong>%s</strong> the ones that have backup. "
+" thumbnails will be restored to originals.",wp-shortpixel," thumbnails will be restored to originals."
+"Restart the optimization process for these images by clicking the button below.",wp-shortpixel,"Restart the optimization process for these images by clicking the button below."
+"Restart the optimization process for new images added to your library by clicking the button below.",wp-shortpixel,"Restart the optimization process for new images added to your library by clicking the button below."
+"Already  <strong>%s</strong> optimized images will not be reprocessed.",wp-shortpixel,"Already  <strong>%s</strong> optimized images will not be reprocessed."
+"Please note that reoptimizing images as <strong>lossy/lossless</strong> may use additional credits.",wp-shortpixel,"Please note that reoptimizing images as <strong>lossy/lossless</strong> may use additional credits."
+"More info",wp-shortpixel,"More info"
+"Include thumbnails",wp-shortpixel,"Include thumbnails"
+"Also create <a href=""http://blog.shortpixel.com/how-webp-images-can-speed-up-your-site/"" target=""_blank"">WebP versions</a> of the images, <strong>for free</strong>.",wp-shortpixel,"Also create <a href=""http://blog.shortpixel.com/how-webp-images-can-speed-up-your-site/"" target=""_blank"">WebP versions</a> of the images, <strong>for free</strong>."
+"Bulk Restore Images",wp-shortpixel,"Bulk Restore Images"
+"Restart Optimizing",wp-shortpixel,"Restart Optimizing"
+"Top-up your account to optimize more images.",wp-shortpixel,"Top-up your account to optimize more images."
+"Bulk Restore Media Library",wp-shortpixel,"Bulk Restore Media Library"
+"Bulk Delete SP Metadata",wp-shortpixel,"Bulk Delete SP Metadata"
+"Bulk Delete Pending Metadata",wp-shortpixel,"Bulk Delete Pending Metadata"
+"Bulk Image Optimization by ShortPixel",wp-shortpixel,"Bulk Image Optimization by ShortPixel"
+Dismiss,wp-shortpixel,Dismiss
+"After you optimized all your images your site speed might still be improved. Allow ShortPixel Specialists to tell you how.",wp-shortpixel,"After you optimized all your images your site speed might still be improved. Allow ShortPixel Specialists to tell you how."
+"Get Your Site Assessment",wp-shortpixel,"Get Your Site Assessment"
+Dismiss,wp-shortpixel,Dismiss
+"While you wait for your images to optimize, check out Squirrly, a great plugin for further boosting your SEO.",wp-shortpixel,"While you wait for your images to optimize, check out Squirrly, a great plugin for further boosting your SEO."
+"Lengthy operation in progress:",wp-shortpixel,"Lengthy operation in progress:"
+"Optimizing image",wp-shortpixel,"Optimizing image"
+"The ShortPixel API is in maintenance mode. Please don't close this window. The bulk will resume automatically as soon as the API is back online.",wp-shortpixel,"The ShortPixel API is in maintenance mode. Please don't close this window. The bulk will resume automatically as soon as the API is back online."
+"Too many images processing simultaneously for your site, automatically retrying in 1 min. Please don't close this window.",wp-shortpixel,"Too many images processing simultaneously for your site, automatically retrying in 1 min. Please don't close this window."
+"Error processing file:",wp-shortpixel,"Error processing file:"
+"Please bear with me. ShortPixel is checking many already optimized images to see if they\'re OK, so the progress bar could stop for a while.",wp-shortpixel,"Please bear with me. ShortPixel is checking many already optimized images to see if they\'re OK, so the progress bar could stop for a while."
+"Just optimized:",wp-shortpixel,"Just optimized:"
+"Original image",wp-shortpixel,"Original image"
+"Optimized image",wp-shortpixel,"Optimized image"
+"Optimized by:",wp-shortpixel,"Optimized by:"
+"Remaining credits",wp-shortpixel,"Remaining credits"
+"Average reduction",wp-shortpixel,"Average reduction"
+"Media Library",wp-shortpixel,"Media Library"
+and,wp-shortpixel,and
+"Custom folders",wp-shortpixel,"Custom folders"
+"optimization in progress ...",wp-shortpixel,"optimization in progress ..."
+"Bulk optimization has started.",wp-shortpixel,"Bulk optimization has started."
+"Media Library restore in progress ...",wp-shortpixel,"Media Library restore in progress ..."
+"Bulk restore has started.",wp-shortpixel,"Bulk restore has started."
+"Media Library cleanup in progress ...",wp-shortpixel,"Media Library cleanup in progress ..."
+"Bulk cleanup has started.",wp-shortpixel,"Bulk cleanup has started."
+"This process will take some time, depending on the number of images in your library. In the meantime, you can continue using
+                    the admin as usual, <a href=""%s"" target=""_blank"">in a different browser window or tab</a>.<br>
+                   However, <strong>if you close this window, the bulk processing will pause</strong> until you open the media gallery or the ShortPixel bulk page again.",wp-shortpixel,"This process will take some time, depending on the number of images in your library. In the meantime, you can continue using
+                    the admin as usual, <a href=""%s"" target=""_blank"">in a different browser window or tab</a>.<br>
+                   However, <strong>if you close this window, the bulk processing will pause</strong> until you open the media gallery or the ShortPixel bulk page again."
+"Media Library",wp-shortpixel,"Media Library"
+"and Custom folders",wp-shortpixel,"and Custom folders"
+"optimization paused",wp-shortpixel,"optimization paused"
+"Bulk processing is paused until you resume the optimization process.",wp-shortpixel,"Bulk processing is paused until you resume the optimization process."
+Pause,wp-shortpixel,Pause
+"All media",wp-shortpixel,"All media"
+"Only other media",wp-shortpixel,"Only other media"
+"Process only the other media, skipping the Media Library",wp-shortpixel,"Process only the other media, skipping the Media Library"
+"Resume: ",wp-shortpixel,"Resume: "
+"Processed Images and PDFs:",wp-shortpixel,"Processed Images and PDFs:"
+"Processed Thumbnails:",wp-shortpixel,"Processed Thumbnails:"
+"Total files processed:",wp-shortpixel,"Total files processed:"
+"Minus files with <5% optimization (free):",wp-shortpixel,"Minus files with <5% optimization (free):"
+"Used quota:",wp-shortpixel,"Used quota:"
+"Average optimization:",wp-shortpixel,"Average optimization:"
+"Saved space:",wp-shortpixel,"Saved space:"
+"ShortPixel Plugin Settings",wp-shortpixel,"ShortPixel Plugin Settings"
+"Upgrade now",wp-shortpixel,"Upgrade now"
+FAQ,wp-shortpixel,FAQ
+Support,wp-shortpixel,Support
+General,wp-shortpixel,General
+Advanced,wp-shortpixel,Advanced
+"Cloudflare API",wp-shortpixel,"Cloudflare API"
+Statistics,wp-shortpixel,Statistics
+"WP Resources",wp-shortpixel,"WP Resources"
+"Please reload",wp-shortpixel,"Please reload"
+"New images uploaded to the Media Library will be optimized automatically.<br/>If you have existing images you would like to optimize, you can use the <a href=""%supload.php?page=wp-short-pixel-bulk"">Bulk Optimization Tool</a>.",wp-shortpixel,"New images uploaded to the Media Library will be optimized automatically.<br/>If you have existing images you would like to optimize, you can use the <a href=""%supload.php?page=wp-short-pixel-bulk"">Bulk Optimization Tool</a>."
+"Request an API Key:",wp-shortpixel,"Request an API Key:"
+"If you don\'t have an API Key, you can request one for free. Just press the ""Request Key"" button after checking that the e-mail is correct.",wp-shortpixel,"If you don\'t have an API Key, you can request one for free. Just press the ""Request Key"" button after checking that the e-mail is correct."
+"E-mail address:",wp-shortpixel,"E-mail address:"
+"Request a new API key",wp-shortpixel,"Request a new API key"
+"Request Key",wp-shortpixel,"Request Key"
+"Please provide a valid e-mail address.",wp-shortpixel,"Please provide a valid e-mail address."
+"<b>%s</b> is the e-mail address in your WordPress Settings. You can use it, or change it to any valid e-mail address that you own.",wp-shortpixel,"<b>%s</b> is the e-mail address in your WordPress Settings. You can use it, or change it to any valid e-mail address that you own."
+"Please input your e-mail address and press the Request Key button.",wp-shortpixel,"Please input your e-mail address and press the Request Key button."
+"I have read and I agree to the <a href=""https://shortpixel.com/tos"" target=""_blank"">Terms of Service</a> and the <a href=""https://shortpixel.com/privacy"" target=""_blank"">Privacy Policy</a> (<a href=""https://shortpixel.com/privacy#gdpr"" target=""_blank"">GDPR compliant</a>).",wp-shortpixel,"I have read and I agree to the <a href=""https://shortpixel.com/tos"" target=""_blank"">Terms of Service</a> and the <a href=""https://shortpixel.com/privacy"" target=""_blank"">Privacy Policy</a> (<a href=""https://shortpixel.com/privacy#gdpr"" target=""_blank"">GDPR compliant</a>)."
+"Already have an API Key:",wp-shortpixel,"Already have an API Key:"
+"If you already have an API Key please input it below and press Validate.",wp-shortpixel,"If you already have an API Key please input it below and press Validate."
+"API Key:",wp-shortpixel,"API Key:"
+"Multisite API Key",wp-shortpixel,"Multisite API Key"
+"Validate the provided API key",wp-shortpixel,"Validate the provided API key"
+Validate,wp-shortpixel,Validate
+"Your API key is valid.",wp-shortpixel,"Your API key is valid."
+"Key defined in wp-config.php.",wp-shortpixel,"Key defined in wp-config.php."
+"Compression type:",wp-shortpixel,"Compression type:"
+"This is the recommended option in most cases, producing results that look the same as the original to the human eye.",wp-shortpixel,"This is the recommended option in most cases, producing results that look the same as the original to the human eye."
+Lossy,wp-shortpixel,Lossy
+"Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched.",wp-shortpixel,"Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched."
+Glossy,wp-shortpixel,Glossy
+"Make sure not a single pixel looks different in the optimized image compared with the original. In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations.",wp-shortpixel,"Make sure not a single pixel looks different in the optimized image compared with the original. In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations."
+Lossless,wp-shortpixel,Lossless
+"<b>Lossy compression (recommended): </b>offers the best compression rate.</br> This is the recommended option for most users, producing results that look the same as the original to the human eye.",wp-shortpixel,"<b>Lossy compression (recommended): </b>offers the best compression rate.</br> This is the recommended option for most users, producing results that look the same as the original to the human eye."
+"<b>Glossy compression: </b>creates images that are almost pixel-perfect identical to the originals.</br> Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched.",wp-shortpixel,"<b>Glossy compression: </b>creates images that are almost pixel-perfect identical to the originals.</br> Best option for photographers and other professionals that use very high quality images on their sites and want best compression while keeping the quality untouched."
+"More info about glossy",wp-shortpixel,"More info about glossy"
+"<b>Lossless compression: </b> the resulting image is pixel-identical with the original image.</br>Make sure not a single pixel looks different in the optimized image compared with the original.
+                                In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations.",wp-shortpixel,"<b>Lossless compression: </b> the resulting image is pixel-identical with the original image.</br>Make sure not a single pixel looks different in the optimized image compared with the original.
+                                In some rare cases you will need to use this type of compression. Some technical drawings or images from vector graphics are possible situations."
+"Also include thumbnails:",wp-shortpixel,"Also include thumbnails:"
+"Apply compression also to <strong>image thumbnails.</strong> ",wp-shortpixel,"Apply compression also to <strong>image thumbnails.</strong> "
+"thumbnails to optimize",wp-shortpixel,"thumbnails to optimize"
+"It is highly recommended that you optimize the thumbnails as they are usually the images most viewed by end users and can generate most traffic.<br>Please note that thumbnails count up to your total quota.",wp-shortpixel,"It is highly recommended that you optimize the thumbnails as they are usually the images most viewed by end users and can generate most traffic.<br>Please note that thumbnails count up to your total quota."
+"Image backup",wp-shortpixel,"Image backup"
+"Save and keep a backup of your original images in a separate folder.",wp-shortpixel,"Save and keep a backup of your original images in a separate folder."
+"You <strong>need to have backup active</strong> in order to be able to restore images to originals or to convert from Lossy to Lossless and back.",wp-shortpixel,"You <strong>need to have backup active</strong> in order to be able to restore images to originals or to convert from Lossy to Lossless and back."
+"Remove EXIF",wp-shortpixel,"Remove EXIF"
+"Remove the EXIF tag of the image (recommended).",wp-shortpixel,"Remove the EXIF tag of the image (recommended)."
+"EXIF is a set of various pieces of information that are automatically embedded into the image upon creation. This can include GPS position, camera manufacturer, date and time, etc.
+                            Unless you really need that data to be preserved, we recommend removing it as it can lead to <a href=""http://blog.shortpixel.com/how-much-smaller-can-be-images-without-exif-icc"" target=""_blank"">better compression rates</a>.",wp-shortpixel,"EXIF is a set of various pieces of information that are automatically embedded into the image upon creation. This can include GPS position, camera manufacturer, date and time, etc.
+                            Unless you really need that data to be preserved, we recommend removing it as it can lead to <a href=""http://blog.shortpixel.com/how-much-smaller-can-be-images-without-exif-icc"" target=""_blank"">better compression rates</a>."
+"Resize large images",wp-shortpixel,"Resize large images"
+"to maximum",wp-shortpixel,"to maximum"
+"pixels wide &times;",wp-shortpixel,"pixels wide &times;"
+"pixels high (original aspect ratio is preserved and image is not cropped)",wp-shortpixel,"pixels high (original aspect ratio is preserved and image is not cropped)"
+"Recommended for large photos, like the ones taken with your phone. Saved space can go up to 80% or more after resizing.",wp-shortpixel,"Recommended for large photos, like the ones taken with your phone. Saved space can go up to 80% or more after resizing."
+"Read more",wp-shortpixel,"Read more"
+"Sizes will be greater or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 1000x1500px while an image of 3000x2000px will be resized to 1800x1200px",wp-shortpixel,"Sizes will be greater or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 1000x1500px while an image of 3000x2000px will be resized to 1800x1200px"
+"Sizes will be smaller or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 800x1200px while an image of 3000x2000px will be resized to 1000x667px",wp-shortpixel,"Sizes will be smaller or equal to the corresponding value. For example, if you set the resize dimensions at 1000x1200, an image of 2000x3000px will be resized to 800x1200px while an image of 3000x2000px will be resized to 1000x667px"
+"What is this?",wp-shortpixel,"What is this?"
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save and go to the Bulk Processing page",wp-shortpixel,"Save and go to the Bulk Processing page"
+"Save and Go to Bulk Process",wp-shortpixel,"Save and Go to Bulk Process"
+"It looks like you\'re running your site on an NginX server. This means that you can only achieve this functionality by directly configuring the server config files. Please follow this link for instructions on how to achieve this:",wp-shortpixel,"It looks like you\'re running your site on an NginX server. This means that you can only achieve this functionality by directly configuring the server config files. Please follow this link for instructions on how to achieve this:"
+"It looks like you recently moved from an Apache server to an NGINX server, while the option to use .htacces was in use. Please follow this tutorial to see how you could implement by yourself this functionality, outside of the WP plugin. ",wp-shortpixel,"It looks like you recently moved from an Apache server to an NGINX server, while the option to use .htacces was in use. Please follow this tutorial to see how you could implement by yourself this functionality, outside of the WP plugin. "
+"It looks like your .htaccess file cannot be written. Please fix this and then return to refresh this page to enable this option.",wp-shortpixel,"It looks like your .htaccess file cannot be written. Please fix this and then return to refresh this page to enable this option."
+"Based on testing your particular hosting configuration, we determined that your server",wp-shortpixel,"Based on testing your particular hosting configuration, we determined that your server"
+"serve the WEBP versions of the JPEG files seamlessly, via .htaccess.",wp-shortpixel,"serve the WEBP versions of the JPEG files seamlessly, via .htaccess."
+"Please enter your API key in the General tab first.",wp-shortpixel,"Please enter your API key in the General tab first."
+"Additional media folders",wp-shortpixel,"Additional media folders"
+"Folder name",wp-shortpixel,"Folder name"
+"Type &amp;<br>Status",wp-shortpixel,"Type &amp;<br>Status"
+Files,wp-shortpixel,Files
+"Last change",wp-shortpixel,"Last change"
+Empty,wp-shortpixel,Empty
+Optimized,wp-shortpixel,Optimized
+Pending,wp-shortpixel,Pending
+Waiting,wp-shortpixel,Waiting
+Empty,wp-shortpixel,Empty
+Optimized,wp-shortpixel,Optimized
+Empty,wp-shortpixel,Empty
+"Stop monitoring",wp-shortpixel,"Stop monitoring"
+"Stop optimizing",wp-shortpixel,"Stop optimizing"
+Empty,wp-shortpixel,Empty
+Optimized,wp-shortpixel,Optimized
+Pending,wp-shortpixel,Pending
+Waiting,wp-shortpixel,Waiting
+Failed,wp-shortpixel,Failed
+"Full folder refresh, check each file of the folder if it changed since it was optimized. Might take up to 1 min. for big folders.",wp-shortpixel,"Full folder refresh, check each file of the folder if it changed since it was optimized. Might take up to 1 min. for big folders."
+Refresh,wp-shortpixel,Refresh
+"Add a custom folder",wp-shortpixel,"Add a custom folder"
+"Select the images folder on your server.",wp-shortpixel,"Select the images folder on your server."
+"Select ...",wp-shortpixel,"Select ..."
+"Add this Folder",wp-shortpixel,"Add this Folder"
+"Add this Folder",wp-shortpixel,"Add this Folder"
+"Use the Select... button to select site folders. ShortPixel will optimize images and PDFs from the specified folders and their subfolders. The optimization status for each image or PDF in these folders can be seen in the <a href=""upload.php?page=wp-short-pixel-custom"">Other Media list</a>, under the Media menu.",wp-shortpixel,"Use the Select... button to select site folders. ShortPixel will optimize images and PDFs from the specified folders and their subfolders. The optimization status for each image or PDF in these folders can be seen in the <a href=""upload.php?page=wp-short-pixel-custom"">Other Media list</a>, under the Media menu."
+"More info",wp-shortpixel,"More info"
+"Select the images folder",wp-shortpixel,"Select the images folder"
+Cancel,wp-shortpixel,Cancel
+Select,wp-shortpixel,Select
+"Optimize NextGen galleries",wp-shortpixel,"Optimize NextGen galleries"
+"Optimize NextGen galleries.",wp-shortpixel,"Optimize NextGen galleries."
+"Check this to add all your current NextGen galleries to the custom folders list and to also have all the future NextGen galleries and images optimized automatically by ShortPixel.",wp-shortpixel,"Check this to add all your current NextGen galleries to the custom folders list and to also have all the future NextGen galleries and images optimized automatically by ShortPixel."
+"Convert PNG images to JPEG",wp-shortpixel,"Convert PNG images to JPEG"
+"Automatically convert the PNG images to JPEG if possible.",wp-shortpixel,"Automatically convert the PNG images to JPEG if possible."
+"You need PHP GD for this. Please ask your hosting to install it.",wp-shortpixel,"You need PHP GD for this. Please ask your hosting to install it."
+"Converts all PNGs that don\'t have transparent pixels to JPEG. This can dramatically reduce the file size, especially if you have camera pictures that are saved in PNG format. The plugin will also search for references of the image in posts and will replace them.",wp-shortpixel,"Converts all PNGs that don\'t have transparent pixels to JPEG. This can dramatically reduce the file size, especially if you have camera pictures that are saved in PNG format. The plugin will also search for references of the image in posts and will replace them."
+"The image will NOT be converted if the resulting JPEG is larger than the original PNG.",wp-shortpixel,"The image will NOT be converted if the resulting JPEG is larger than the original PNG."
+"Also force the conversion of images with transparency.",wp-shortpixel,"Also force the conversion of images with transparency."
+"CMYK to RGB conversion",wp-shortpixel,"CMYK to RGB conversion"
+"Adjust your images\' colours for computer and mobile screen display.",wp-shortpixel,"Adjust your images\' colours for computer and mobile screen display."
+"Images for the web only need RGB format and converting them from CMYK to RGB makes them smaller.",wp-shortpixel,"Images for the web only need RGB format and converting them from CMYK to RGB makes them smaller."
+"WebP Images:",wp-shortpixel,"WebP Images:"
+"Also create <a href=""http://blog.shortpixel.com/how-webp-images-can-speed-up-your-site/"" target=""_blank"">WebP versions</a> of the images, <strong>for free</strong>.",wp-shortpixel,"Also create <a href=""http://blog.shortpixel.com/how-webp-images-can-speed-up-your-site/"" target=""_blank"">WebP versions</a> of the images, <strong>for free</strong>."
+"WebP images can be up to three times smaller than PNGs and 25% smaller than JPGs. Choosing this option <strong>does not use up additional credits</strong>.",wp-shortpixel,"WebP images can be up to three times smaller than PNGs and 25% smaller than JPGs. Choosing this option <strong>does not use up additional credits</strong>."
+"More info",wp-shortpixel,"More info"
+"Deliver the WebP versions of the images in the front-end:",wp-shortpixel,"Deliver the WebP versions of the images in the front-end:"
+"Using the &lt;PICTURE&gt; tag syntax",wp-shortpixel,"Using the &lt;PICTURE&gt; tag syntax"
+"After the option to work on .htaccess was selected, the .htaccess file has become unaccessible / readonly. Please make the .htaccess file writeable again to be able to further set up this option.",wp-shortpixel,"After the option to work on .htaccess was selected, the .htaccess file has become unaccessible / readonly. Please make the .htaccess file writeable again to be able to further set up this option."
+"Each &lt;img&gt; will be replaced with a &lt;picture&gt; tag that will also provide the WebP image as a choice for browsers that support it. Also loads the picturefill.js for browsers that don\'t support the &lt;picture&gt; tag. You don\'t need to activate this if you\'re using the Cache Enabler plugin because your WebP images are already handled by this plugin. <strong>Please make a test before using this option</strong>, as if the styles that your theme is using rely on the position of your &lt;img&gt; tag, you might experience display problems.",wp-shortpixel,"Each &lt;img&gt; will be replaced with a &lt;picture&gt; tag that will also provide the WebP image as a choice for browsers that support it. Also loads the picturefill.js for browsers that don\'t support the &lt;picture&gt; tag. You don\'t need to activate this if you\'re using the Cache Enabler plugin because your WebP images are already handled by this plugin. <strong>Please make a test before using this option</strong>, as if the styles that your theme is using rely on the position of your &lt;img&gt; tag, you might experience display problems."
+"You can revert anytime to the previous state by just deactivating the option.",wp-shortpixel,"You can revert anytime to the previous state by just deactivating the option."
+"Only via Wordpress hooks (like the_content, the_excerpt, etc)');?>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <input type=""radio"" name=""deliverWebpAlteringType"" id=""deliverWebpAlteredGlobal"" <?php echo( $deliverWebpAlteredGlobal );?>  value=""deliverWebpAlteredGlobal"">
+                                            <label for=""deliverWebpAlteredGlobal"">
+                                                <?php _e('Global (processes the whole output buffer before sending the HTML to the browser)",wp-shortpixel,"Only via Wordpress hooks (like the_content, the_excerpt, etc)');?>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <input type=""radio"" name=""deliverWebpAlteringType"" id=""deliverWebpAlteredGlobal"" <?php echo( $deliverWebpAlteredGlobal );?>  value=""deliverWebpAlteredGlobal"">
+                                            <label for=""deliverWebpAlteredGlobal"">
+                                                <?php _e('Global (processes the whole output buffer before sending the HTML to the browser)"
+"Without altering the page code (via .htaccess)",wp-shortpixel,"Without altering the page code (via .htaccess)"
+"Optimize Retina images",wp-shortpixel,"Optimize Retina images"
+"Also optimize the Retina images (@2x) if they exist.",wp-shortpixel,"Also optimize the Retina images (@2x) if they exist."
+"If you have a Retina plugin that generates Retina-specific images (@2x), ShortPixel can optimize them too, alongside the regular Media Library images and thumbnails.",wp-shortpixel,"If you have a Retina plugin that generates Retina-specific images (@2x), ShortPixel can optimize them too, alongside the regular Media Library images and thumbnails."
+"More info",wp-shortpixel,"More info"
+"Optimize other thumbs",wp-shortpixel,"Optimize other thumbs"
+"Also optimize the unlisted thumbs if found.",wp-shortpixel,"Also optimize the unlisted thumbs if found."
+"Some plugins create thumbnails which are not registered in the metadata but instead only create them alongside the other thumbnails. Let ShortPixel optimize them as well.",wp-shortpixel,"Some plugins create thumbnails which are not registered in the metadata but instead only create them alongside the other thumbnails. Let ShortPixel optimize them as well."
+"Optimize PDFs",wp-shortpixel,"Optimize PDFs"
+"Automatically optimize PDF documents.",wp-shortpixel,"Automatically optimize PDF documents."
+"Exclude patterns",wp-shortpixel,"Exclude patterns"
+"name:keepbig, path:/ignore_regex/i, size:1000x2000",wp-shortpixel,"name:keepbig, path:/ignore_regex/i, size:1000x2000"
+"Exclude certain images from being optimized, based on patterns.",wp-shortpixel,"Exclude certain images from being optimized, based on patterns."
+"Add patterns separated by comma. A pattern consist of a <strong>type:value</strong> pair; the accepted types are
+                                      <strong>""name""</strong>, <strong>""path""</strong> and <strong>""size""</strong>.
+                                       A file will be excluded if it matches any of the patterns.
+                                       <br>For a <strong>""name""</strong> pattern only the filename will be matched but for a <strong>""path""</strong>,
+                                       all the path will be matched (useful for excluding certain subdirectories altoghether).
+                                       For these you can also use regular expressions accepted by preg_match, but without ",wp-shortpixel,"Add patterns separated by comma. A pattern consist of a <strong>type:value</strong> pair; the accepted types are
+                                      <strong>""name""</strong>, <strong>""path""</strong> and <strong>""size""</strong>.
+                                       A file will be excluded if it matches any of the patterns.
+                                       <br>For a <strong>""name""</strong> pattern only the filename will be matched but for a <strong>""path""</strong>,
+                                       all the path will be matched (useful for excluding certain subdirectories altoghether).
+                                       For these you can also use regular expressions accepted by preg_match, but without "
+"More info",wp-shortpixel,"More info"
+"HTTP AUTH credentials",wp-shortpixel,"HTTP AUTH credentials"
+User,wp-shortpixel,User
+Password,wp-shortpixel,Password
+"Only fill in these fields if your site (front-end) is not publicly accessible and visitors need a user/pass to connect to it. If you don\'t know what is this then just <strong>leave the fields empty</strong>.",wp-shortpixel,"Only fill in these fields if your site (front-end) is not publicly accessible and visitors need a user/pass to connect to it. If you don\'t know what is this then just <strong>leave the fields empty</strong>."
+"Process in front-end",wp-shortpixel,"Process in front-end"
+"Automatically optimize images added by users in front end.",wp-shortpixel,"Automatically optimize images added by users in front end."
+"Check this if you have users that add images or PDF documents from custom forms in the front-end. This could increase the load on your server if you have a lot of users simultaneously connected.",wp-shortpixel,"Check this if you have users that add images or PDF documents from custom forms in the front-end. This could increase the load on your server if you have a lot of users simultaneously connected."
+"Optimize media on upload",wp-shortpixel,"Optimize media on upload"
+"Automatically optimize Media Library items after they are uploaded (recommended).",wp-shortpixel,"Automatically optimize Media Library items after they are uploaded (recommended)."
+"By default, ShortPixel will automatically optimize all the freshly uploaded image and PDF files. If you uncheck this you\'ll need to either run Bulk ShortPixel or go to Media Library (in list view) and click on the right side ""Optimize now"" button(s).",wp-shortpixel,"By default, ShortPixel will automatically optimize all the freshly uploaded image and PDF files. If you uncheck this you\'ll need to either run Bulk ShortPixel or go to Media Library (in list view) and click on the right side ""Optimize now"" button(s)."
+"Exclude thumbnail sizes",wp-shortpixel,"Exclude thumbnail sizes"
+"Please check the thumbnail sizes you would like to <strong>exclude</strong> from optimization. There might be sizes created by themes or plugins which do not appear here, because they were not properly registered with WordPress. If you want to ignore them too, please uncheck the option <strong>Optimize other thumbs</strong> above.",wp-shortpixel,"Please check the thumbnail sizes you would like to <strong>exclude</strong> from optimization. There might be sizes created by themes or plugins which do not appear here, because they were not properly registered with WordPress. If you want to ignore them too, please uncheck the option <strong>Optimize other thumbs</strong> above."
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save and go to the Bulk Processing page",wp-shortpixel,"Save and go to the Bulk Processing page"
+"Save and Go to Bulk Process",wp-shortpixel,"Save and Go to Bulk Process"
+"Please enable PHP cURL extension for the Cloudflare integration to work.",wp-shortpixel,"Please enable PHP cURL extension for the Cloudflare integration to work."
+"If you're using Cloudflare on your site then we advise you to fill in the details below. This will allow ShortPixel to work seamlessly with Cloudflare so that any image optimized/restored by ShortPixel will be automatically updated on Cloudflare as well.",wp-shortpixel,"If you're using Cloudflare on your site then we advise you to fill in the details below. This will allow ShortPixel to work seamlessly with Cloudflare so that any image optimized/restored by ShortPixel will be automatically updated on Cloudflare as well."
+"Cloudflare E-mail:",wp-shortpixel,"Cloudflare E-mail:"
+"The e-mail address you use to login to CloudFlare.",wp-shortpixel,"The e-mail address you use to login to CloudFlare."
+"Global API Key:",wp-shortpixel,"Global API Key:"
+"This can be found when you're logged into your account, on the My Profile page:",wp-shortpixel,"This can be found when you're logged into your account, on the My Profile page:"
+"Zone ID:",wp-shortpixel,"Zone ID:"
+"This can be found in your Cloudflare account in the ""Overview"" section for your domain.",wp-shortpixel,"This can be found in your Cloudflare account in the ""Overview"" section for your domain."
+"Save Changes",wp-shortpixel,"Save Changes"
+"Save Changes",wp-shortpixel,"Save Changes"
+"Your ShortPixel Stats",wp-shortpixel,"Your ShortPixel Stats"
+"Average compression of your files:",wp-shortpixel,"Average compression of your files:"
+"Disk space saved by ShortPixel:",wp-shortpixel,"Disk space saved by ShortPixel:"
+"Bandwith* saved by ShortPixel:",wp-shortpixel,"Bandwith* saved by ShortPixel:"
+"Your ShortPixel Credits",wp-shortpixel,"Your ShortPixel Credits"
+"Your monthly plan",wp-shortpixel,"Your monthly plan"
+"%s/month, renews in %s  days, on %s ( <a href=""https://shortpixel.com/login/%s"" target=""_blank"">Need More? See the options available</a> )",wp-shortpixel,"%s/month, renews in %s  days, on %s ( <a href=""https://shortpixel.com/login/%s"" target=""_blank"">Need More? See the options available</a> )"
+"<a href=""https://shortpixel.com/login/%s/tell-a-friend"" target=""_blank"">Join our friend referral system</a> to win more credits. For each user that joins, you receive +100 images credits/month.",wp-shortpixel,"<a href=""https://shortpixel.com/login/%s/tell-a-friend"" target=""_blank"">Join our friend referral system</a> to win more credits. For each user that joins, you receive +100 images credits/month."
+"Consumed: ",wp-shortpixel,"Consumed: "
+"; Remaining: ",wp-shortpixel,"; Remaining: "
+"Your One Time credits:",wp-shortpixel,"Your One Time credits:"
+"Total: ",wp-shortpixel,"Total: "
+"Consumed: ",wp-shortpixel,"Consumed: "
+"; Remaining: ",wp-shortpixel,"; Remaining: "
+"See report (last 30 days)",wp-shortpixel,"See report (last 30 days)"
+"Credits consumed on",wp-shortpixel,"Credits consumed on"
+"Original images are stored in a backup folder. Your backup folder\'s size is now:",wp-shortpixel,"Original images are stored in a backup folder. Your backup folder\'s size is now:"
+"Empty backups",wp-shortpixel,"Empty backups"
+"Are you sure you want to delete all the backup images? You won\'t be able to restore from backup or to reoptimize with different settings if you delete the backups.",wp-shortpixel,"Are you sure you want to delete all the backup images? You won\'t be able to restore from backup or to reoptimize with different settings if you delete the backups."
+"* Saved bandwidth is calculated at 10,000 impressions/image",wp-shortpixel,"* Saved bandwidth is calculated at 10,000 impressions/image"
+"** Increase your image quota by <a href=""https://shortpixel.com/login/%s"" target=""_blank"">upgrading your ShortPixel plan.</a>",wp-shortpixel,"** Increase your image quota by <a href=""https://shortpixel.com/login/%s"" target=""_blank"">upgrading your ShortPixel plan.</a>"
+"Optimization N/A",wp-shortpixel,"Optimization N/A"
+"Image does not exist.",wp-shortpixel,"Image does not exist."
+"Please <a href=""options-general.php?page=wp-shortpixel-settings"">go to Settings</a> to validate the API Key.",wp-shortpixel,"Please <a href=""options-general.php?page=wp-shortpixel-settings"">go to Settings</a> to validate the API Key."
+"Invalid API Key. <a href=""options-general.php?page=wp-shortpixel-settings"">Check your Settings</a>",wp-shortpixel,"Invalid API Key. <a href=""options-general.php?page=wp-shortpixel-settings"">Check your Settings</a>"
+"Optimize now",wp-shortpixel,"Optimize now"
+Cleanup&Retry,wp-shortpixel,Cleanup&Retry
+"Restore Image from Backup",wp-shortpixel,"Restore Image from Backup"
+Cleanup,wp-shortpixel,Cleanup
+Retry,wp-shortpixel,Retry
+"Reduced by X%(unknown)"");
+        return   ($percent && $percent > 0 ? __('Reduced by",wp-shortpixel,"Reduced by X%(unknown)"");
+        return   ($percent && $percent > 0 ? __('Reduced by"
+"Bonus processing",wp-shortpixel,"Bonus processing"
+"+%s of %s thumbnails optimized",wp-shortpixel,"+%s of %s thumbnails optimized"
+"+%s thumbnails optimized",wp-shortpixel,"+%s thumbnails optimized"
+"+%s Retina images optimized",wp-shortpixel,"+%s Retina images optimized"
+"Optimize %s  thumbnails",wp-shortpixel,"Optimize %s  thumbnails"
+"Reoptimize from the backed-up image",wp-shortpixel,"Reoptimize from the backed-up image"
+Re-optimize,wp-shortpixel,Re-optimize
+"Reoptimize from the backed-up image",wp-shortpixel,"Reoptimize from the backed-up image"
+Re-optimize,wp-shortpixel,Re-optimize
+"Restore backup",wp-shortpixel,"Restore backup"
+"Extend Quota",wp-shortpixel,"Extend Quota"
+Check&nbsp;&nbsp;Quota,wp-shortpixel,Check&nbsp;&nbsp;Quota
+"Quota Exceeded",wp-shortpixel,"Quota Exceeded"
+"Compare Images",wp-shortpixel,"Compare Images"
+"Debug Window",wp-shortpixel,"Debug Window"
+"Other Media optimized by ShortPixel",wp-shortpixel,"Other Media optimized by ShortPixel"
+"Refresh custom folders content",wp-shortpixel,"Refresh custom folders content"
+"Refresh folders",wp-shortpixel,"Refresh folders"
+Search,wp-shortpixel,Hledat
+"No images available. Go to <a href=""options-general.php?page=wp-shortpixel-settings&part=adv-settings"">Advanced Settings</a> to configure additional folders to be optimized.",wp-shortpixel,"No images available. Go to <a href=""options-general.php?page=wp-shortpixel-settings&part=adv-settings"">Advanced Settings</a> to configure additional folders to be optimized."
+"Your search query didn\'t result in any images. ",wp-shortpixel,"Your search query didn\'t result in any images. "
+Nextgen,wp-shortpixel,Nextgen
+Custom,wp-shortpixel,Custom
+"This image is heavy and it would slow this page down if displayed here. Click to open it in a new browser tab.",wp-shortpixel,"This image is heavy and it would slow this page down if displayed here. Click to open it in a new browser tab."
+"Bulk Image Optimization by ShortPixel",wp-shortpixel,"Bulk Image Optimization by ShortPixel"
+"Are you sure you want to restore from backup all the images optimized with ShortPixel?",wp-shortpixel,"Are you sure you want to restore from backup all the images optimized with ShortPixel?"
+"Please read carefully. This function will: ",wp-shortpixel,"Please read carefully. This function will: "
+"Remove all optimized images from media library",wp-shortpixel,"Remove all optimized images from media library"
+"Select which Custom Media Folders to restore",wp-shortpixel,"Select which Custom Media Folders to restore"
+"To continue and agree with the warning, please check the correct value below",wp-shortpixel,"To continue and agree with the warning, please check the correct value below"
+Back,wp-shortpixel,Back
+"Bulk Restore",wp-shortpixel,"Bulk Restore"
+"It is strongly recommended to backup your uploads",wp-shortpixel,"It is strongly recommended to backup your uploads"
+"ShortPixel Plugin Settings",wp-shortpixel,"ShortPixel Plugin Settings"
+"Upgrade now",wp-shortpixel,"Upgrade now"
+FAQ,wp-shortpixel,FAQ
+Support,wp-shortpixel,Support
+"Media alert dismissed",wp-shortpixel,"Media alert dismissed"
+"Error dismissed",wp-shortpixel,"Error dismissed"
+"Optimize with ShortPixel",wp-shortpixel,"Optimize with ShortPixel"
+"Re-optimize Lossy",wp-shortpixel,"Re-optimize Lossy"
+"Re-optimize Glossy",wp-shortpixel,"Re-optimize Glossy"
+"Re-optimize Lossless",wp-shortpixel,"Re-optimize Lossless"
+"Restore Originals",wp-shortpixel,"Restore Originals"
+"In order to access the ShortPixel Optimization actions and info, please change to {0}List View{1}List View{2}Dismiss{3}",wp-shortpixel,"In order to access the ShortPixel Optimization actions and info, please change to {0}List View{1}List View{2}Dismiss{3}"
+"This type of optimization will apply to new uploaded images. Images that were already processed will not be re-optimized unless you restart the bulk process.",wp-shortpixel,"This type of optimization will apply to new uploaded images. Images that were already processed will not be re-optimized unless you restart the bulk process."
+"Are you sure you want to stop optimizing the folder {0}?",wp-shortpixel,"Are you sure you want to stop optimizing the folder {0}?"
+"Reduced by",wp-shortpixel,"Reduced by"
+"Bonus processing",wp-shortpixel,"Bonus processing"
+"+{0} thumbnails optimized",wp-shortpixel,"+{0} thumbnails optimized"
+"+{0} Retina images optimized",wp-shortpixel,"+{0} Retina images optimized"
+"Optimize {0} thumbnails",wp-shortpixel,"Optimize {0} thumbnails"
+"Reoptimize {0}",wp-shortpixel,"Reoptimize {0}"
+"Restore backup",wp-shortpixel,"Restore backup"
+"Get API Key",wp-shortpixel,"Get API Key"
+"Extend Quota",wp-shortpixel,"Extend Quota"
+Check&nbsp;&nbsp;Quota,wp-shortpixel,Check&nbsp;&nbsp;Quota
+Retry,wp-shortpixel,Retry
+"This content is not processable.",wp-shortpixel,"This content is not processable."
+"Image waiting to optimize thumbnails",wp-shortpixel,"Image waiting to optimize thumbnails"
+"Please do not set a {0} less than the {1} of the largest thumbnail which is {2}, to be able to still regenerate all your thumbnails in case you'll ever need this.",wp-shortpixel,"Please do not set a {0} less than the {1} of the largest thumbnail which is {2}, to be able to still regenerate all your thumbnails in case you'll ever need this."
+"Please do not set a {0} less than 1024, to be able to still regenerate all your thumbnails in case you'll ever need this.",wp-shortpixel,"Please do not set a {0} less than 1024, to be able to still regenerate all your thumbnails in case you'll ever need this."
+"Are you sure you want to restore from backup all the images in your Media Library optimized with ShortPixel?",wp-shortpixel,"Are you sure you want to restore from backup all the images in your Media Library optimized with ShortPixel?"
+"Are you sure you want to cleanup the ShortPixel metadata info for the images in your Media Library optimized with ShortPixel? This will make ShortPixel 'forget' that it optimized them and will optimize them again if you re-run the Bulk Optimization process.",wp-shortpixel,"Are you sure you want to cleanup the ShortPixel metadata info for the images in your Media Library optimized with ShortPixel? This will make ShortPixel 'forget' that it optimized them and will optimize them again if you re-run the Bulk Optimization process."
+"Are you sure you want to cleanup the pending metadata?",wp-shortpixel,"Are you sure you want to cleanup the pending metadata?"
+"Warning: Using this method alters the structure of the rendered HTML code (IMG tags get included in PICTURE tags),\nwhich in some rare cases can lead to CSS/JS inconsistencies.\n\nPlease test this functionality thoroughly after activating!\n\nIf you notice any issue, just deactivate it and the HTML will will revert to the previous state.",wp-shortpixel,"Warning: Using this method alters the structure of the rendered HTML code (IMG tags get included in PICTURE tags),\nwhich in some rare cases can lead to CSS/JS inconsistencies.\n\nPlease test this functionality thoroughly after activating!\n\nIf you notice any issue, just deactivate it and the HTML will will revert to the previous state."
+"This option will serve both WebP and the original image using the same URL, based on the web browser capabilities, please make sure you\'re serving the images from your server and not using a CDN which caches the images.",wp-shortpixel,"This option will serve both WebP and the original image using the same URL, based on the web browser capabilities, please make sure you\'re serving the images from your server and not using a CDN which caches the images."
+"Original image",wp-shortpixel,"Original image"
+"Optimized image",wp-shortpixel,"Optimized image"
+Loading...,wp-shortpixel,Loading...
+,wp-shortpixel,
+"ShortPixel optimizing...",wp-shortpixel,"ShortPixel optimizing..."
+"Please do not close this admin page.",wp-shortpixel,"Please do not close this admin page."
+"ShortPixel quota exceeded. Click for details.",wp-shortpixel,"ShortPixel quota exceeded. Click for details."
+"ShortPixel icon",wp-shortpixel,"ShortPixel icon"
+"Optimization N/A",wp-shortpixel,"Optimization N/A"
+"Optimization N/A",wp-shortpixel,"Optimization N/A"
+"Image files are missing.",wp-shortpixel,"Image files are missing."
+"Missing API Key",wp-shortpixel,"Missing API Key"
+"Empty queue ",wp-shortpixel,"Empty queue "
+"Restoring images...  ",wp-shortpixel,"Restoring images...  "
+"Searching images to optimize...  ",wp-shortpixel,"Searching images to optimize...  "
+" Retry limit reached. Skipping file ID ",wp-shortpixel," Retry limit reached. Skipping file ID "
+"NextGen image not found",wp-shortpixel,"NextGen image not found"
+"Not all backup files found. Restore not performed on these files ",wp-shortpixel,"Not all backup files found. Restore not performed on these files "
+"File %s cannot be restored due to lack of permissions, please contact your hosting provider to assist you in fixing this.",wp-shortpixel,"File %s cannot be restored due to lack of permissions, please contact your hosting provider to assist you in fixing this."
+"The file %s cannot be restored due to lack of permissions, please contact your hosting provider to assist you in fixing this.",wp-shortpixel,"The file %s cannot be restored due to lack of permissions, please contact your hosting provider to assist you in fixing this."
+"No backup files found. Restore not performed.",wp-shortpixel,"No backup files found. Restore not performed."
+"Not all backup files found. Restore not performed on these files ",wp-shortpixel,"Not all backup files found. Restore not performed on these files "
+"Not able to restore file(s). Could not find backup",wp-shortpixel,"Not able to restore file(s). Could not find backup"
+"Could not restore from backup: ",wp-shortpixel,"Could not restore from backup: "
+"Could not restore from backup: ",wp-shortpixel,"Could not restore from backup: "
+"No thumbnails to optimize for ID: ",wp-shortpixel,"No thumbnails to optimize for ID: "
+"Please optimize image for ID: ",wp-shortpixel,"Please optimize image for ID: "
+"Unspecified Error on Thumbnails for: ') . $ID);
+
+        $optFile = $fs->getAttachedFile($ID);
+        list($includedSizes, $thumbsCount) = $this->getThumbsToOptimize($meta, $optFile->getFullPath());
+        //WpShortPixelMediaLbraryAdapter::getSizesNotExcluded($meta['sizes'], $this->_settings->excludeSizes);
+        $thumbsCount = count($includedSizes);
+
+        if (! isset($meta['ShortPixelImprovement']))
+        {
+            $error['message'] = __('Please optimize image for ID: ",wp-shortpixel,"Unspecified Error on Thumbnails for: ') . $ID);
+
+        $optFile = $fs->getAttachedFile($ID);
+        list($includedSizes, $thumbsCount) = $this->getThumbsToOptimize($meta, $optFile->getFullPath());
+        //WpShortPixelMediaLbraryAdapter::getSizesNotExcluded($meta['sizes'], $this->_settings->excludeSizes);
+        $thumbsCount = count($includedSizes);
+
+        if (! isset($meta['ShortPixelImprovement']))
+        {
+            $error['message'] = __('Please optimize image for ID: "
+"No thumbnails to optimize for ID: ",wp-shortpixel,"No thumbnails to optimize for ID: "
+"No thumbnails to optimize for ID: ",wp-shortpixel,"No thumbnails to optimize for ID: "
+"Please optimize image for ID: ",wp-shortpixel,"Please optimize image for ID: "
+"You have no available image credits. If you just bought a package, please note that sometimes it takes a few minutes for the payment confirmation to be sent to us by the payment processor.",wp-shortpixel,"You have no available image credits. If you just bought a package, please note that sometimes it takes a few minutes for the payment confirmation to be sent to us by the payment processor."
+"Shortpixel Remote API Error: %s",wp-shortpixel,"Shortpixel Remote API Error: %s"
+"You do not have sufficient permissions to access this page.",wp-shortpixel,"You do not have sufficient permissions to access this page."
+"You do not have sufficient permissions to access this page.",wp-shortpixel,"You do not have sufficient permissions to access this page."
+"No Directories found that can be added to Custom Folders",wp-shortpixel,"No Directories found that can be added to Custom Folders"
+"You do not have sufficient permissions to access this page.",wp-shortpixel,"You do not have sufficient permissions to access this page."
+"Great, you successfully claimed your API Key! Please take a few moments to review the plugin settings below before starting to optimize your images.",wp-shortpixel,"Great, you successfully claimed your API Key! Please take a few moments to review the plugin settings below before starting to optimize your images."
+"You do not have sufficient permissions to access this page.",wp-shortpixel,"You do not have sufficient permissions to access this page."
+"API Key could not be validated due to a connectivity error.<BR>Your firewall may be blocking us. Please contact your hosting provider and ask them to allow connections from your site to api.shortpixel.com (IP 176.9.21.94).<BR> If you still cannot validate your API Key after this, please <a href=""https://shortpixel.com/contact"" target=""_blank"">contact us</a> and we will try to help. ",wp-shortpixel,"API Key could not be validated due to a connectivity error.<BR>Your firewall may be blocking us. Please contact your hosting provider and ask them to allow connections from your site to api.shortpixel.com (IP 176.9.21.94).<BR> If you still cannot validate your API Key after this, please <a href=""https://shortpixel.com/contact"" target=""_blank"">contact us</a> and we will try to help. "
+"Information unavailable. Please check your API key.",wp-shortpixel,"Information unavailable. Please check your API key."
+"Information unavailable. Please check your API key.",wp-shortpixel,"Information unavailable. Please check your API key."
+" images",wp-shortpixel," images"
+" images",wp-shortpixel," images"
+" images",wp-shortpixel," images"
+" images",wp-shortpixel," images"
+"PDF not processed.",wp-shortpixel,"PDF not processed."
+"Optimization N/A",wp-shortpixel,"Optimization N/A"
+"Cannot write optimized file",wp-shortpixel,"Cannot write optimized file"
+"Cannot write optimized file",wp-shortpixel,"Cannot write optimized file"
+Why?,wp-shortpixel,Why?
+"The file(s) do not exist on disk: ",wp-shortpixel,"The file(s) do not exist on disk: "
+"Image does not exist",wp-shortpixel,"Image does not exist"
+"Image waiting to be processed.",wp-shortpixel,"Image waiting to be processed."
+Image,wp-shortpixel,Image
+" not processed.",wp-shortpixel," not processed."
+Test&nbsp;for&nbsp;free,wp-shortpixel,Test&nbsp;for&nbsp;free
+"All Images",wp-shortpixel,"All Images"
+Optimized,wp-shortpixel,Optimized
+Unoptimized,wp-shortpixel,Unoptimized
+Pending,wp-shortpixel,Pending
+Errors,wp-shortpixel,Errors
+"ShortPixel Info",wp-shortpixel,"ShortPixel Info"
+"ShortPixel Compression",wp-shortpixel,"ShortPixel Compression"
+"ShortPixel Statistics",wp-shortpixel,"ShortPixel Statistics"
+"ShortPixel Settings",wp-shortpixel,"ShortPixel Settings"
+"Other Media Optimized by ShortPixel",wp-shortpixel,"Other Media Optimized by ShortPixel"
+"Other Media",wp-shortpixel,"Other Media"
+"ShortPixel Bulk Process",wp-shortpixel,"ShortPixel Bulk Process"
+"Bulk ShortPixel",wp-shortpixel,"Bulk ShortPixel"
+"Image files are missing.",wp-shortpixel,"Image files are missing."
+"Image files are missing.",wp-shortpixel,"Image files are missing."
+"Invalid API Key",wp-shortpixel,"Invalid API Key"
+"The file(s) do not exist on disk: ",wp-shortpixel,"The file(s) do not exist on disk: "
+"Timed out while processing.",wp-shortpixel,"Timed out while processing."
+"Image ID",wp-shortpixel,"Image ID"
+"Media ID",wp-shortpixel,"Media ID"
+"Skip this image, try the next one.",wp-shortpixel,"Skip this image, try the next one."
+"Timed out while processing.",wp-shortpixel,"Timed out while processing."
+"There was an error and your request was not processed.",wp-shortpixel,"There was an error and your request was not processed."
+"There was an error and your request was not processed.",wp-shortpixel,"There was an error and your request was not processed."
+"There was an error and your request was not processed.",wp-shortpixel,"There was an error and your request was not processed."
+"Unrecognized API response. Please contact support.",wp-shortpixel,"Unrecognized API response. Please contact support."
+"Quota exceeded.",wp-shortpixel,"Quota exceeded."
+"Error in archive - incorrect file size (downloaded: %s, correct: %s )",wp-shortpixel,"Error in archive - incorrect file size (downloaded: %s, correct: %s )"
+"Unable to locate downloaded file",wp-shortpixel,"Unable to locate downloaded file"
+"Error downloading file",wp-shortpixel,"Error downloading file"
+"Unable to locate downloaded file",wp-shortpixel,"Unable to locate downloaded file"
+"Error downloading file - incorrect file size (downloaded: %s, correct: %s )",wp-shortpixel,"Error downloading file - incorrect file size (downloaded: %s, correct: %s )"
+"Backup folder does not exist and it cannot be created",wp-shortpixel,"Backup folder does not exist and it cannot be created"
+"Cannot save file <i>%s</i> in backup directory",wp-shortpixel,"Cannot save file <i>%s</i> in backup directory"
+"Cannot save file in backup directory",wp-shortpixel,"Cannot save file in backup directory"
+"Optimized version of %s file(s) couldn\'t be updated.",wp-shortpixel,"Optimized version of %s file(s) couldn\'t be updated."
+"Shortpixel plugin already loaded. You might have two versions active. Not loaded: %s",wp-shortpixel,"Shortpixel plugin already loaded. You might have two versions active. Not loaded: %s"

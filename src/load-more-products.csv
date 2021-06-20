@@ -1,0 +1,303 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"View Plugin Settings",load-more-products,"View Plugin Settings"
+Settings,load-more-products,Settings
+"View Plugin Documentation",load-more-products,"View Plugin Documentation"
+Docs,load-more-products,Docs
+"View Support Page",load-more-products,"View Support Page"
+Support,load-more-products,Support
+"View Premium Support Page",load-more-products,"View Premium Support Page"
+"Premium Support",load-more-products,"Premium Support"
+"View Premium Version Page",load-more-products,"View Premium Version Page"
+"Premium Version",load-more-products,"Premium Version"
+Next,load-more-products,Next
+Close,load-more-products,Zavřít
+Settings,load-more-products,Settings
+"Save Changes",load-more-products,"Save Changes"
+"Plugin key",load-more-products,"Plugin key"
+"Key for plugin from BeRocket.com",load-more-products,"Key for plugin from BeRocket.com"
+"Save Changes",load-more-products,"Save Changes"
+"Awesome, you\'ve been using %plugin_name% Plugin for more than 1 week. May we ask you to give it a 5-star rating on WordPress?",load-more-products,"Awesome, you\'ve been using %plugin_name% Plugin for more than 1 week. May we ask you to give it a 5-star rating on WordPress?"
+"May we ask you to give our plugin %plugin_name% a 5-star rating?",load-more-products,"May we ask you to give our plugin %plugin_name% a 5-star rating?"
+"Each good feedback is very important for plugin growth",load-more-products,"Each good feedback is very important for plugin growth"
+"Ok, you deserved it",load-more-products,"Ok, you deserved it"
+"Maybe later",load-more-products,"Maybe later"
+Later,load-more-products,Later
+"I already did",load-more-products,"I already did"
+Already,load-more-products,Already
+"May we ask you to give us a 5-star feedback?",load-more-products,"May we ask you to give us a 5-star feedback?"
+"Each good feedback is very important for plugin growth",load-more-products,"Each good feedback is very important for plugin growth"
+"Ok, you deserved it",load-more-products,"Ok, you deserved it"
+"Support the plugin by setting good feedback.<br>We really need this.",load-more-products,"Support the plugin by setting good feedback.<br>We really need this."
+"Get it now",load-more-products,"Get it now"
+"Feature Title",load-more-products,"Feature Title"
+"Email (optional)",load-more-products,"Email (optional)"
+"Feature Description",load-more-products,"Feature Description"
+"SEND FEATURE REQUEST",load-more-products,"SEND FEATURE REQUEST"
+"While you're here, you could rate this plugin",load-more-products,"While you're here, you could rate this plugin"
+"Each good feedback is very important for plugin growth",load-more-products,"Each good feedback is very important for plugin growth"
+"This plugin deserves 5 stars",load-more-products,"This plugin deserves 5 stars"
+"I'll rate it next time",load-more-products,"I'll rate it next time"
+"I already rated it",load-more-products,"I already rated it"
+Product,load-more-products,Product
+"On Sale",load-more-products,"On Sale"
+Bestsellers,load-more-products,Bestsellers
+Price,load-more-products,Cena
+"Stock status",load-more-products,"Stock status"
+"Total sales",load-more-products,"Total sales"
+Category,load-more-products,Category
+"Product attribute",load-more-products,"Product attribute"
+"Product age",load-more-products,"Product age"
+"Sale price",load-more-products,"Sale price"
+"Regular price",load-more-products,"Regular price"
+"Stock quantity",load-more-products,"Stock quantity"
+Featured,load-more-products,Featured
+"Shipping Class",load-more-products,"Shipping Class"
+"Product Type",load-more-products,"Product Type"
+"Product Rating",load-more-products,"Product Rating"
+"Page ID",load-more-products,"Page ID"
+"Product Attribute",load-more-products,"Product Attribute"
+"Product Search",load-more-products,"Product Search"
+"Product Category",load-more-products,"Product Category"
+Equal,load-more-products,Equal
+"Not equal",load-more-products,"Not equal"
+"Equal or less",load-more-products,"Equal or less"
+"Equal or more",load-more-products,"Equal or more"
+"Is on sale",load-more-products,"Is on sale"
+Yes,load-more-products,Yes
+No,load-more-products,No
+"Count of product",load-more-products,"Count of product"
+"Has Rating:",load-more-products,"Has Rating:"
+Yes,load-more-products,Yes
+No,load-more-products,No
+From:,load-more-products,From:
+To:,load-more-products,To:
+"Product price",load-more-products,"Product price"
+"With tax",load-more-products,"With tax"
+"Without tax",load-more-products,"Without tax"
+"In stock",load-more-products,"In stock"
+"Out of stock",load-more-products,"Out of stock"
+"On Backorder",load-more-products,"On Backorder"
+"Count of product",load-more-products,"Count of product"
+"Include subcategories",load-more-products,"Include subcategories"
+"Select attribute",load-more-products,"Select attribute"
+day(s),load-more-products,day(s)
+From:,load-more-products,From:
+To:,load-more-products,To:
+From:,load-more-products,From:
+To:,load-more-products,To:
+"Products in stock",load-more-products,"Products in stock"
+"Backorder allowed",load-more-products,"Backorder allowed"
+Any,load-more-products,Any
+Yes,load-more-products,Yes
+No,load-more-products,No
+Enable,load-more-products,Enable
+Disable,load-more-products,Disable
+"Sorry, you are not allowed to change this item status.",load-more-products,"Sorry, you are not allowed to change this item status."
+"The item you are trying to change status no longer exists.",load-more-products,"The item you are trying to change status no longer exists."
+"Invalid post type.' ) );
+            }
+            if ( ! current_user_can( 'delete_post', $post_id ) ) {
+                wp_die( __( 'Sorry, you are not allowed to change this item status.",load-more-products,"Invalid post type.' ) );
+            }
+            if ( ! current_user_can( 'delete_post', $post_id ) ) {
+                wp_die( __( 'Sorry, you are not allowed to change this item status."
+Enabled,load-more-products,Enabled
+Disabled,load-more-products,Disabled
+Order,load-more-products,Order
+"Add New Filter",load-more-products,"Add New Filter"
+Edit,load-more-products,Edit
+"Edit Filter",load-more-products,"Edit Filter"
+"New Filter",load-more-products,"New Filter"
+"View Filters",load-more-products,"View Filters"
+"View Filter",load-more-products,"View Filter"
+"Search Product Filters",load-more-products,"Search Product Filters"
+"No Product Filters found",load-more-products,"No Product Filters found"
+"No Product Filters found in trash",load-more-products,"No Product Filters found in trash"
+"This is where you can add Product Filters.",load-more-products,"This is where you can add Product Filters."
+Enable,load-more-products,Enable
+Disable,load-more-products,Disable
+Name,load-more-products,Name
+"Save content",load-more-products,"Save content"
+"Copy settings from",load-more-products,"Copy settings from"
+"Do not copy",load-more-products,"Do not copy"
+Copy,load-more-products,Copy
+"Delete Permanently",load-more-products,"Delete Permanently"
+"Move to Trash",load-more-products,"Move to Trash"
+Save,load-more-products,Save
+"Save/update notice",load-more-products,"Save/update notice"
+Default,load-more-products,Default
+Upload,load-more-products,Upload
+Remove,load-more-products,Remove
+Upload,load-more-products,Upload
+"Font Awesome",load-more-products,"Font Awesome"
+Remove,load-more-products,Remove
+"Font Awesome",load-more-products,"Font Awesome"
+Remove,load-more-products,Remove
+"Enter 3 or more characters",load-more-products,"Enter 3 or more characters"
+Equal,load-more-products,Equal
+"Not equal",load-more-products,"Not equal"
+"Equal or less",load-more-products,"Equal or less"
+"Equal or more",load-more-products,"Equal or more"
+"Account Keys",load-more-products,"Account Keys"
+Please,load-more-products,Please
+"activate plugin",load-more-products,"activate plugin"
+"with help of plugin/account key from",load-more-products,"with help of plugin/account key from"
+"BeRocket account",load-more-products,"BeRocket account"
+"You can activate plugin in",load-more-products,"You can activate plugin in"
+"BeRocket Account settings",load-more-products,"BeRocket Account settings"
+"BeRocket Account Settings",load-more-products,"BeRocket Account Settings"
+"BeRocket Account",load-more-products,"BeRocket Account"
+"BeRocket Account Settings",load-more-products,"BeRocket Account Settings"
+"Account Keys",load-more-products,"Account Keys"
+"BeRocket Account Settings",load-more-products,"BeRocket Account Settings"
+"DEBUG MODE",load-more-products,"DEBUG MODE"
+"Enable debug mode",load-more-products,"Enable debug mode"
+"Account key",load-more-products,"Account key"
+"Save Changes",load-more-products,"Save Changes"
+Errors,load-more-products,Errors
+"Select plugin",load-more-products,"Select plugin"
+"Active Addons",load-more-products,"Active Addons"
+"Inactive Addons",load-more-products,"Inactive Addons"
+"Go Premium",load-more-products,"Go Premium"
+"Upgrade to Premium ",load-more-products,"Upgrade to Premium "
+Upgrade,load-more-products,Upgrade
+Premium,load-more-products,Premium
+Features,load-more-products,Features
+"Go Premium",load-more-products,"Go Premium"
+Settings,load-more-products,Settings
+"Creating products",load-more-products,"Creating products"
+"Gettings selectors",load-more-products,"Gettings selectors"
+"Removing products",load-more-products,"Removing products"
+Error:,load-more-products,Error:
+"IMPORTANT: It will generate some products on your site. Please disable all SEO plugins and plugins, that doing anything on product creating.",load-more-products,"IMPORTANT: It will generate some products on your site. Please disable all SEO plugins and plugins, that doing anything on product creating."
+"Script was runned, but page closed until end. Please stop it to prevent any problems on your site",load-more-products,"Script was runned, but page closed until end. Please stop it to prevent any problems on your site"
+Auto-Selectors,load-more-products,Auto-Selectors
+Stop,load-more-products,Stop
+Steps:,load-more-products,Steps:
+"Creating products",load-more-products,"Creating products"
+"Gettings selectors",load-more-products,"Gettings selectors"
+"Removing products",load-more-products,"Removing products"
+"Load More",load-more-products,"Další produkty"
+"Load Previous",load-more-products,"Load Previous"
+Loading...,load-more-products,Loading...
+"No more products",load-more-products,"No more products"
+Settings,load-more-products,Settings
+"Showing the single result",load-more-products,"Showing the single result"
+Loading...,load-more-products,Loading...
+"No more products",load-more-products,"No more products"
+"Products Container Selector",load-more-products,"Products Container Selector"
+"Product Item Selector",load-more-products,"Product Item Selector"
+"Pagination Selector",load-more-products,"Pagination Selector"
+"Next Page Selector",load-more-products,"Next Page Selector"
+"Previous Page Selector",load-more-products,"Previous Page Selector"
+General,load-more-products,General
+Button-Settings,load-more-products,Button-Settings
+Previous-Settings,load-more-products,Previous-Settings
+Selectors,load-more-products,Selectors
+JavaScript,load-more-products,JavaScript
+CSS,load-more-products,CSS
+License,load-more-products,License
+"Products Loading Type",load-more-products,"Products Loading Type"
+None,load-more-products,None
+"Infinity Scroll",load-more-products,"Infinity Scroll"
+"Load More Button",load-more-products,"Load More Button"
+"AJAX Pagination",load-more-products,"AJAX Pagination"
+"Load More Button + AJAX Pagination",load-more-products,"Load More Button + AJAX Pagination"
+"Products per page",load-more-products,"Products per page"
+"From WooCommerce",load-more-products,"From WooCommerce"
+"Loading Image",load-more-products,"Loading Image"
+"Rotate image on load",load-more-products,"Rotate image on load"
+"Buffer Pixels",load-more-products,"Buffer Pixels"
+"Don't update url when next page shown",load-more-products,"Don't update url when next page shown"
+"JavaScript and CSS is used on WooCommerce pages only",load-more-products,"JavaScript and CSS is used on WooCommerce pages only"
+"Custom Class",load-more-products,"Custom Class"
+"Text on button",load-more-products,"Text on button"
+"Background color",load-more-products,"Background color"
+"Background color on mouse over",load-more-products,"Background color on mouse over"
+"Border color",load-more-products,"Border color"
+"Text color",load-more-products,"Text color"
+"Text color on mouse over",load-more-products,"Text color on mouse over"
+"Font size",load-more-products,"Font size"
+Paddings,load-more-products,Paddings
+Top,load-more-products,Top
+Right,load-more-products,Right
+Bottom,load-more-products,Bottom
+Left,load-more-products,Left
+Margin,load-more-products,Margin
+Top,load-more-products,Top
+Right,load-more-products,Right
+Bottom,load-more-products,Bottom
+Left,load-more-products,Left
+Border,load-more-products,Border
+Top,load-more-products,Top
+Right,load-more-products,Right
+Bottom,load-more-products,Bottom
+Left,load-more-products,Left
+"Border radius",load-more-products,"Border radius"
+Top-Left,load-more-products,Top-Left
+Top-Right,load-more-products,Top-Right
+Btm-Left,load-more-products,Btm-Left
+Btm-Right,load-more-products,Btm-Right
+"Enable Previous Button",load-more-products,"Enable Previous Button"
+"Custom Class",load-more-products,"Custom Class"
+"Text on button",load-more-products,"Text on button"
+"Background color",load-more-products,"Background color"
+"Background color on mouse over",load-more-products,"Background color on mouse over"
+"Border color",load-more-products,"Border color"
+"Text color",load-more-products,"Text color"
+"Text color on mouse over",load-more-products,"Text color on mouse over"
+"Font size",load-more-products,"Font size"
+Paddings,load-more-products,Paddings
+Top,load-more-products,Top
+Right,load-more-products,Right
+Bottom,load-more-products,Bottom
+Left,load-more-products,Left
+Margin,load-more-products,Margin
+Top,load-more-products,Top
+Right,load-more-products,Right
+Bottom,load-more-products,Bottom
+Left,load-more-products,Left
+Border,load-more-products,Border
+Top,load-more-products,Top
+Right,load-more-products,Right
+Bottom,load-more-products,Bottom
+Left,load-more-products,Left
+"Border radius",load-more-products,"Border radius"
+Top-Left,load-more-products,Top-Left
+Top-Right,load-more-products,Top-Right
+Btm-Left,load-more-products,Btm-Left
+Btm-Right,load-more-products,Btm-Right
+"Before Update",load-more-products,"Before Update"
+"After Update",load-more-products,"After Update"
+"Disable Font Awesome",load-more-products,"Disable Font Awesome"
+"Don\'t loading css file for Font Awesome on site front end. Use it only if you doesn\'t uses Font Awesome icons in widgets or you have Font Awesome in your theme.",load-more-products,"Don\'t loading css file for Font Awesome on site front end. Use it only if you doesn\'t uses Font Awesome icons in widgets or you have Font Awesome in your theme."
+"Font Awesome Version",load-more-products,"Font Awesome Version"
+"Font Awesome 4",load-more-products,"Font Awesome 4"
+"Font Awesome 5",load-more-products,"Font Awesome 5"
+"Version of Font Awesome that will be used on front end. Please select version that you have in your theme",load-more-products,"Version of Font Awesome that will be used on front end. Please select version that you have in your theme"
+"Custom CSS",load-more-products,"Custom CSS"
+Preview,load-more-products,Preview
+"Set all to default",load-more-products,"Set all to default"
+"Set all to default",load-more-products,"Set all to default"
+"Creating products",load-more-products,"Creating products"
+"Gettings selectors",load-more-products,"Gettings selectors"
+"Removing products",load-more-products,"Removing products"
+Error:,load-more-products,Error:
+"IMPORTANT: It will generate some products on your site. Please disable all SEO plugins and plugins, that doing anything on product creating.",load-more-products,"IMPORTANT: It will generate some products on your site. Please disable all SEO plugins and plugins, that doing anything on product creating."
+"Script was runned, but page closed until end. Please stop it to prevent any problems on your site",load-more-products,"Script was runned, but page closed until end. Please stop it to prevent any problems on your site"
+Auto-Selectors,load-more-products,Auto-Selectors
+Stop,load-more-products,Stop
+Steps:,load-more-products,Steps:
+"Creating products",load-more-products,"Creating products"
+"Gettings selectors",load-more-products,"Gettings selectors"
+"Removing products",load-more-products,"Removing products"
+OR,load-more-products,OR
+"Get selectors automatically",load-more-products,"Get selectors automatically"
+"How it work:",load-more-products,"How it work:"
+"Run Auto-selector",load-more-products,"Run Auto-selector"
+"Wait until end <strong style=""color:red;"">do not close this page</strong>",load-more-products,"Wait until end <strong style=""color:red;"">do not close this page</strong>"
+"Save settings with new selectors",load-more-products,"Save settings with new selectors"
+"Showing all %d result",load-more-products,"Showing all %d result"
+"Showing the single result",load-more-products,"Showing the single result"
+"Showing all %d results",load-more-products,"Showing all %d results"
+"Showing all %d results",load-more-products,"Showing all %d results"

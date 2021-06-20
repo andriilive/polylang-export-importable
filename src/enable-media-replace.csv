@@ -1,0 +1,198 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"[Data]');
+        }
+        if (is_array($data) && count($data) > 0)
+        {
+          $dataType = $this->getDataType($data);
+          if ($dataType == 1)  // singular
+          {
+              $this->data[] = print_r($data, true);
+          }
+          if ($dataType == 2) //array
+          {
+            foreach($data as $index => $item)
+            {
+              if (is_object($item) || is_array($item))
+              {
+                $this->data[] = print_r($item, true);
+              }
+            }
+          }
+        } // if
+        elseif (! is_array($data)) // this leaves out empty default arrays
+        {
+           $this->data[] = print_r($data, true);
+        }
+    }
+
+    public function getData()
+    {
+      return array('time' => $this->time, 'level' => $this->level, 'message' => $this->message, 'data' => $this->data, 'caller' => $this->caller);
+    }
+
+    /** Test Data Array for possible values
+    *
+    * Data can be a collection of several debug vars, a single var, or just an normal array. Test if array has single types,
+    * which is a sign the array is not a collection.
+    */
+    protected function getDataType($data)
+    {
+        $single_type = array('integer",enable-media-replace,"[Data]');
+        }
+        if (is_array($data) && count($data) > 0)
+        {
+          $dataType = $this->getDataType($data);
+          if ($dataType == 1)  // singular
+          {
+              $this->data[] = print_r($data, true);
+          }
+          if ($dataType == 2) //array
+          {
+            foreach($data as $index => $item)
+            {
+              if (is_object($item) || is_array($item))
+              {
+                $this->data[] = print_r($item, true);
+              }
+            }
+          }
+        } // if
+        elseif (! is_array($data)) // this leaves out empty default arrays
+        {
+           $this->data[] = print_r($data, true);
+        }
+    }
+
+    public function getData()
+    {
+      return array('time' => $this->time, 'level' => $this->level, 'message' => $this->message, 'data' => $this->data, 'caller' => $this->caller);
+    }
+
+    /** Test Data Array for possible values
+    *
+    * Data can be a collection of several debug vars, a single var, or just an normal array. Test if array has single types,
+    * which is a sign the array is not a collection.
+    */
+    protected function getDataType($data)
+    {
+        $single_type = array('integer"
+"See Details",enable-media-replace,"See Details"
+"Hide Details",enable-media-replace,"Hide Details"
+"Replace Media",enable-media-replace,"Replace Media"
+"Replaced Thumbnails Preview",enable-media-replace,"Replaced Thumbnails Preview"
+"Thumbnails were not generated",enable-media-replace,"Thumbnails were not generated"
+"Original') . ""</span></div>"";
+      }
+
+    }
+
+
+    foreach($meta['sizes'] as $size => $data)
+    {
+      $display_size = ucfirst(str_replace(""_",enable-media-replace,"Original') . ""</span></div>"";
+      }
+
+    }
+
+
+    foreach($meta['sizes'] as $size => $data)
+    {
+      $display_size = ucfirst(str_replace(""_"
+"M j, Y @ H:i' ) , strtotime( $post->post_modified ) );
+    	?>
+    	<div class=""misc-pub-section curtime"">
+    		<span id=""timestamp""><?php echo esc_html__( 'Revised",enable-media-replace,"M j, Y @ H:i' ) , strtotime( $post->post_modified ) );
+    	?>
+    	<div class=""misc-pub-section curtime"">
+    		<span id=""timestamp""><?php echo esc_html__( 'Revised"
+"Replace media",enable-media-replace,"Replace media"
+"Replace media",enable-media-replace,"Replace media"
+"Replace media",enable-media-replace,"Replace media"
+"Replace media",enable-media-replace,"Replace media"
+"Upload a new file",enable-media-replace,"Upload a new file"
+"To replace the current file, click the link and upload a replacement.",enable-media-replace,"To replace the current file, click the link and upload a replacement."
+"Replace media",enable-media-replace,"Replace media"
+"Upload a new file",enable-media-replace,"Upload a new file"
+"To replace the current file, click the link and upload a replacement.",enable-media-replace,"To replace the current file, click the link and upload a replacement."
+"Replace media",enable-media-replace,"Replace media"
+Revised,enable-media-replace,Revised
+"Replaced By",enable-media-replace,"Replaced By"
+"Replace and Search feature is not compatible with Beaver Builder.",enable-media-replace,"Replace and Search feature is not compatible with Beaver Builder."
+"Target File could not be set. The source file might not be there. In case of search and replace, a filter might prevent this",enable-media-replace,"Target File could not be set. The source file might not be there. In case of search and replace, a filter might prevent this"
+"Specificed new directory does not exist. Path must be a relative path from the upload directory and exist",enable-media-replace,"Specificed new directory does not exist. Path must be a relative path from the upload directory and exist"
+"In specificied directory there is already a file with the same name. Can\'t replace.",enable-media-replace,"In specificied directory there is already a file with the same name. Can\'t replace."
+"EMR could not establish a proper destination for replacement",enable-media-replace,"EMR could not establish a proper destination for replacement"
+"Fail Safe :: Source Location seems to be a directory.",enable-media-replace,"Fail Safe :: Source Location seems to be a directory."
+"Fail Safe :: Source Location returned empty string. Not replacing content",enable-media-replace,"Fail Safe :: Source Location returned empty string. Not replacing content"
+"There was an issue with updating your image URLS: Search and replace have different amount of values. Aborting updating thumbnails",enable-media-replace,"There was an issue with updating your image URLS: Search and replace have different amount of values. Aborting updating thumbnails"
+"The uploaded file could not be moved to %1$s. This is most likely an issue with permissions, or upload failed.",enable-media-replace,"The uploaded file could not be moved to %1$s. This is most likely an issue with permissions, or upload failed."
+Dismiss,enable-media-replace,Dismiss
+"<a href=""https://shortpixel.com/wp/af/VKG6LYN28044"" target=""_blank"">ShortPixel</a> is an image optimization plugin and if you have it activated, upon replacing an image in Enable Media Replace, the image will be also automatically optimized.",enable-media-replace,"<a href=""https://shortpixel.com/wp/af/VKG6LYN28044"" target=""_blank"">ShortPixel</a> is an image optimization plugin and if you have it activated, upon replacing an image in Enable Media Replace, the image will be also automatically optimized."
+"More info",enable-media-replace,"More info"
+"Enable Media Replace is now compatible with ShortPixel!",enable-media-replace,"Enable Media Replace is now compatible with ShortPixel!"
+"Choose Replacement Media",enable-media-replace,"Choose Replacement Media"
+"Maximum file size: <strong>%s</strong>",enable-media-replace,"Maximum file size: <strong>%s</strong>"
+"%s f %s exceeds the maximum upload size for this site.",enable-media-replace,"%s f %s exceeds the maximum upload size for this site."
+"Replacement file is not the same filetype. This might cause unexpected issues')); ?></p></div>
+
+    <div class='form-warning mimetype'><p><?php printf(__('Replacement file type doesn\'t seem to be allowed by WordPress. This might cause unexpected issues')); ?></p></div>
+
+    <div class='emr_drop_area'>
+      <div class='drop-wrapper'>
+
+  		  <p><input type=""file"" name=""userfile"" id=""userfile"" /></p>
+        <h1><?php _e('Drop File Here",enable-media-replace,"Replacement file is not the same filetype. This might cause unexpected issues')); ?></p></div>
+
+    <div class='form-warning mimetype'><p><?php printf(__('Replacement file type doesn\'t seem to be allowed by WordPress. This might cause unexpected issues')); ?></p></div>
+
+    <div class='emr_drop_area'>
+      <div class='drop-wrapper'>
+
+  		  <p><input type=""file"" name=""userfile"" id=""userfile"" /></p>
+        <h1><?php _e('Drop File Here"
+"Replacement Options",enable-media-replace,"Replacement Options"
+"Replace the file, use new file name and update all links",enable-media-replace,"Replace the file, use new file name and update all links"
+"Date Options",enable-media-replace,"Date Options"
+"When replacing the media, do you want to:",enable-media-replace,"When replacing the media, do you want to:"
+"Replace the date",enable-media-replace,"Replace the date"
+"Keep the date %s(%s)%s",enable-media-replace,"Keep the date %s(%s)%s"
+"Set a Custom Date",enable-media-replace,"Set a Custom Date"
+"Custom Date",enable-media-replace,"Custom Date"
+"Put new Upload in Updated Folder: '); ?></label>
+            <input type=""text"" name=""location_dir"" value=""<?php echo $subdir ?>"" />
+          </div>
+        <?php endif; ?>
+      </div>
+
+    </section>
+  </div>
+  <section class='form_controls wrapper'>
+		<input id=""submit"" type=""submit"" class=""button button-primary"" disabled=""disabled"" value=""<?php echo esc_attr__(""Upload",enable-media-replace,"Put new Upload in Updated Folder: '); ?></label>
+            <input type=""text"" name=""location_dir"" value=""<?php echo $subdir ?>"" />
+          </div>
+        <?php endif; ?>
+      </div>
+
+    </section>
+  </div>
+  <section class='form_controls wrapper'>
+		<input id=""submit"" type=""submit"" class=""button button-primary"" disabled=""disabled"" value=""<?php echo esc_attr__(""Upload"
+"ARE YOU %s CONCERNED WITH %s YOUR %s %s SITE SPEED? %s",enable-media-replace,"ARE YOU %s CONCERNED WITH %s YOUR %s %s SITE SPEED? %s"
+"ALLOW ShortPixel %s SPECIALISTS TO %s FIND THE %s SOLUTION FOR YOU.",enable-media-replace,"ALLOW ShortPixel %s SPECIALISTS TO %s FIND THE %s SOLUTION FOR YOU."
+"FIND OUT MORE",enable-media-replace,"FIND OUT MORE"
+"You do not have permission to upload files.",enable-media-replace,"You do not have permission to upload files."
+"Replace Media Upload",enable-media-replace,"Replace Media Upload"
+"NOTE: You are about to replace the media file ""%s"". There is no undo. Think about it!",enable-media-replace,"NOTE: You are about to replace the media file ""%s"". There is no undo. Think about it!"
+"Choose a file to upload from your computer",enable-media-replace,"Choose a file to upload from your computer"
+"Just replace the file",enable-media-replace,"Just replace the file"
+"Note: This option requires you to upload a file of the same type (%s) as the one you are replacing. The name of the attachment will stay the same (%s) no matter what the file you upload is called.",enable-media-replace,"Note: This option requires you to upload a file of the same type (%s) as the one you are replacing. The name of the attachment will stay the same (%s) no matter what the file you upload is called."
+"Note: If you check this option, the name and type of the file you are about to upload will replace the old file. All links pointing to the current file (%s) will be updated to point to the new file name. (If any other websites link to the file directly, those links will no longer work. Be careful.)",enable-media-replace,"Note: If you check this option, the name and type of the file you are about to upload will replace the old file. All links pointing to the current file (%s) will be updated to point to the new file name. (If any other websites link to the file directly, those links will no longer work. Be careful.)"
+"Please note that if you upload a new image, only embeds/links of the original size image will be replaced in your posts.",enable-media-replace,"Please note that if you upload a new image, only embeds/links of the original size image will be replaced in your posts."
+Cancel,enable-media-replace,Cancel
+"Optimize your images with ShortPixel, get +50% credits!",enable-media-replace,"Optimize your images with ShortPixel, get +50% credits!"
+"Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Enable Media Replace user! Forever!",enable-media-replace,"Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Enable Media Replace user! Forever!"
+"More info",enable-media-replace,"More info"
+"Invalid Custom Date. Please custom date values (%s)",enable-media-replace,"Invalid Custom Date. Please custom date values (%s)"
+"File Upload seems to have failed. No files were returned by system",enable-media-replace,"File Upload seems to have failed. No files were returned by system"
+"You do not have permission to upload files.",enable-media-replace,"You do not have permission to upload files."
+"File type does not meet security guidelines. Try another.",enable-media-replace,"File type does not meet security guidelines. Try another."

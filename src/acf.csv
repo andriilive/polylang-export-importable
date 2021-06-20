@@ -1,0 +1,1046 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Advanced Custom Fields",acf,"Advanced Custom Fields"
+"Field Groups",acf,"Field Groups"
+"Field Group",acf,"Field Group"
+"Add New",acf,"Add New"
+"Add New Field Group",acf,"Add New Field Group"
+"Edit Field Group",acf,"Edit Field Group"
+"New Field Group",acf,"New Field Group"
+"View Field Group",acf,"View Field Group"
+"Search Field Groups",acf,"Search Field Groups"
+"No Field Groups found",acf,"No Field Groups found"
+"No Field Groups found in Trash",acf,"No Field Groups found in Trash"
+Fields,acf,Fields
+Field,acf,Field
+"Add New",acf,"Add New"
+"Add New Field",acf,"Add New Field"
+"Edit Field",acf,"Edit Field"
+"New Field",acf,"New Field"
+"View Field",acf,"View Field"
+"Search Fields",acf,"Search Fields"
+"No Fields found",acf,"No Fields found"
+"No Fields found in Trash",acf,"No Fields found in Trash"
+"(no label)",acf,"(no label)"
+copy,acf,copy
+Posts,acf,Posts
+Taxonomies,acf,Taxonomies
+Attachments,acf,Attachments
+Comments,acf,Comments
+Widgets,acf,Widgets
+Menus,acf,Menus
+"Menu items",acf,"Menu items"
+Users,acf,Users
+Options,acf,Options
+Blocks,acf,Blocks
+"Field group updated.",acf,"Field group updated."
+"Field group updated.",acf,"Field group updated."
+"Field group deleted.",acf,"Field group deleted."
+"Field group updated.",acf,"Field group updated."
+"Field group published.",acf,"Field group published."
+"Field group saved.",acf,"Field group saved."
+"Field group submitted.",acf,"Field group submitted."
+"Field group scheduled for.",acf,"Field group scheduled for."
+"Field group draft updated.",acf,"Field group draft updated."
+"The string ""field_"" may not be used at the start of a field name",acf,"The string ""field_"" may not be used at the start of a field name"
+"This field cannot be moved until its changes have been saved",acf,"This field cannot be moved until its changes have been saved"
+"Field group title is required",acf,"Field group title is required"
+"Move to trash. Are you sure?",acf,"Move to trash. Are you sure?"
+"No toggle fields available",acf,"No toggle fields available"
+"Move Custom Field",acf,"Move Custom Field"
+Checked,acf,Checked
+"(no label)",acf,"(no label)"
+"(this field)",acf,"(this field)"
+copy,acf,copy
+or,acf,or
+Null,acf,Null
+"Has any value",acf,"Has any value"
+"Has no value",acf,"Has no value"
+"Value is equal to",acf,"Value is equal to"
+"Value is not equal to",acf,"Value is not equal to"
+"Value matches pattern",acf,"Value matches pattern"
+"Value contains",acf,"Value contains"
+"Value is greater than",acf,"Value is greater than"
+"Value is less than",acf,"Value is less than"
+"Selection is greater than",acf,"Selection is greater than"
+"Selection is less than",acf,"Selection is less than"
+Fields,acf,Fields
+Location,acf,Location
+Settings,acf,Settings
+"Field Keys",acf,"Field Keys"
+Active,acf,Active
+Inactive,acf,Inactive
+"Move Complete.",acf,"Move Complete."
+"The %s field can now be found in the %s field group",acf,"The %s field can now be found in the %s field group"
+"Close Window",acf,"Close Window"
+"Please select the destination for this field",acf,"Please select the destination for this field"
+"Move Field",acf,"Move Field"
+"Review local JSON changes",acf,"Review local JSON changes"
+"Loading diff",acf,"Loading diff"
+"Sync changes",acf,"Sync changes"
+Description,acf,Description
+Key,acf,Key
+Location,acf,Location
+Fields,acf,Fields
+"Local JSON",acf,"Local JSON"
+Various,acf,Various
+"Located in theme: %s",acf,"Located in theme: %s"
+"Located in plugin: %s",acf,"Located in plugin: %s"
+"Located in: %s",acf,"Located in: %s"
+"Sync available",acf,"Sync available"
+Sync,acf,Sync
+"Review changes",acf,"Review changes"
+Import,acf,Import
+Saved,acf,Saved
+"Awaiting save",acf,"Awaiting save"
+Duplicate,acf,Duplicate
+Duplicate,acf,Duplicate
+"Sync changes",acf,"Sync changes"
+"Sync available",acf,"Sync available"
+"Review local JSON changes'),
+			content: '<p class=""acf-modal-feedback""><i class=""acf-loading""></i> ' + acf.__('Loading diff') + '</p>',
+			toolbar: '<a href=""' + props.href + '"" class=""button button-primary button-sync-changes disabled"">' + acf.__('Sync changes') + '</a>',
+		});
+		
+		// Call AJAX.
+		var xhr = $.ajax({
+			url: acf.get('ajaxurl'),
+			method: 'POST',
+			dataType: 'json',
+			data: acf.prepareForAjax({
+				action:	'acf/ajax/local_json_diff',
+				id: props.id
+			})
+		})
+		.done(function( data, textStatus, jqXHR ) {
+			modal.content( data.html );
+			modal.$('.button-sync-changes').removeClass('disabled');
+		})
+		.fail(function( jqXHR, textStatus, errorThrown ) {
+			if( error = acf.getXhrError(jqXHR) ) {
+				modal.content( '<p class=""acf-modal-feedback error"">' + error + '</p>' );
+			}
+		});
+	}
+	
+	// Add event listener.
+	$(document).on('click",acf,"Review local JSON changes'),
+			content: '<p class=""acf-modal-feedback""><i class=""acf-loading""></i> ' + acf.__('Loading diff') + '</p>',
+			toolbar: '<a href=""' + props.href + '"" class=""button button-primary button-sync-changes disabled"">' + acf.__('Sync changes') + '</a>',
+		});
+		
+		// Call AJAX.
+		var xhr = $.ajax({
+			url: acf.get('ajaxurl'),
+			method: 'POST',
+			dataType: 'json',
+			data: acf.prepareForAjax({
+				action:	'acf/ajax/local_json_diff',
+				id: props.id
+			})
+		})
+		.done(function( data, textStatus, jqXHR ) {
+			modal.content( data.html );
+			modal.$('.button-sync-changes').removeClass('disabled');
+		})
+		.fail(function( jqXHR, textStatus, errorThrown ) {
+			if( error = acf.getXhrError(jqXHR) ) {
+				modal.content( '<p class=""acf-modal-feedback error"">' + error + '</p>' );
+			}
+		});
+	}
+	
+	// Add event listener.
+	$(document).on('click"
+"Select %s",acf,"Select %s"
+"Field group duplicated.",acf,"Field group duplicated."
+"Field group synchronised.",acf,"Field group synchronised."
+"%s field groups duplicated.",acf,"%s field groups duplicated."
+"%s field groups synchronised.",acf,"%s field groups synchronised."
+Tools,acf,Tools
+Tools,acf,Tools
+"Upgrade Database",acf,"Upgrade Database"
+"Upgrade Database",acf,"Upgrade Database"
+"Upgrade Database",acf,"Upgrade Database"
+"Upgrade Database",acf,"Upgrade Database"
+"Upgrade Database",acf,"Upgrade Database"
+"Review sites & upgrade",acf,"Review sites & upgrade"
+"Custom Fields",acf,"Custom Fields"
+"Custom Fields",acf,"Custom Fields"
+"Field Groups",acf,"Field Groups"
+"Field Groups",acf,"Field Groups"
+"Add New",acf,"Add New"
+"Add New",acf,"Add New"
+Overview,acf,Overview
+Overview,acf,Overview
+"The Advanced Custom Fields plugin provides a visual form builder to customize WordPress edit screens with extra fields, and an intuitive API to display custom field values in any theme template file.",acf,"The Advanced Custom Fields plugin provides a visual form builder to customize WordPress edit screens with extra fields, and an intuitive API to display custom field values in any theme template file."
+"Before creating your first Field Group, we recommend first reading our <a href=""%s"" target=""_blank"">Getting started</a> guide to familiarize yourself with the plugin\'s philosophy and best practises.",acf,"Before creating your first Field Group, we recommend first reading our <a href=""%s"" target=""_blank"">Getting started</a> guide to familiarize yourself with the plugin\'s philosophy and best practises."
+"Please use the Help & Support tab to get in touch should you find yourself requiring assistance.",acf,"Please use the Help & Support tab to get in touch should you find yourself requiring assistance."
+"Help & Support",acf,"Help & Support"
+"Help & Support",acf,"Help & Support"
+"We are fanatical about support, and want you to get the best out of your website with ACF. If you run into any difficulties, there are several places you can find help:",acf,"We are fanatical about support, and want you to get the best out of your website with ACF. If you run into any difficulties, there are several places you can find help:"
+"<a href=""%s"" target=""_blank"">Documentation</a>. Our extensive documentation contains references and guides for most situations you may encounter.",acf,"<a href=""%s"" target=""_blank"">Documentation</a>. Our extensive documentation contains references and guides for most situations you may encounter."
+"<a href=""%s"" target=""_blank"">Discussions</a>. We have an active and friendly community on our Community Forums who may be able to help you figure out the ‘how-tos’ of the ACF world.",acf,"<a href=""%s"" target=""_blank"">Discussions</a>. We have an active and friendly community on our Community Forums who may be able to help you figure out the ‘how-tos’ of the ACF world."
+"<a href=""%s"" target=""_blank"">Help Desk</a>. The support professionals on our Help Desk will assist with your more in depth, technical challenges.",acf,"<a href=""%s"" target=""_blank"">Help Desk</a>. The support professionals on our Help Desk will assist with your more in depth, technical challenges."
+Information,acf,Information
+"Version %s",acf,"Version %s"
+"View details",acf,"View details"
+"Visit website",acf,"Visit website"
+and,acf,and
+"Export Field Groups",acf,"Export Field Groups"
+"Generate PHP",acf,"Generate PHP"
+"No field groups selected",acf,"No field groups selected"
+"No field groups selected",acf,"No field groups selected"
+"Select Field Groups",acf,"Select Field Groups"
+"Select Field Groups",acf,"Select Field Groups"
+Settings,acf,Settings
+"Empty settings",acf,"Empty settings"
+"Include all settings",acf,"Include all settings"
+"Ignore empty settings",acf,"Ignore empty settings"
+"Select the field groups you would like to export and then select your export method. Use the download button to export to a .json file which you can then import to another ACF installation. Use the generate button to export to PHP code which you can place in your theme.",acf,"Select the field groups you would like to export and then select your export method. Use the download button to export to a .json file which you can then import to another ACF installation. Use the generate button to export to PHP code which you can place in your theme."
+"Export File",acf,"Export File"
+"Generate PHP",acf,"Generate PHP"
+"Generate PHP",acf,"Generate PHP"
+"The following code can be used to register a local version of the selected field group(s). A local field group can provide many benefits such as faster load times, version control & dynamic fields/settings. Simply copy and paste the following code to your theme's functions.php file or include it within an external file.",acf,"The following code can be used to register a local version of the selected field group(s). A local field group can provide many benefits such as faster load times, version control & dynamic fields/settings. Simply copy and paste the following code to your theme's functions.php file or include it within an external file."
+"Copy to clipboard",acf,"Copy to clipboard"
+Copied,acf,Copied
+"Exported 1 field group.",acf,"Exported 1 field group."
+"Exported %s field groups.",acf,"Exported %s field groups."
+"Import Field Groups",acf,"Import Field Groups"
+"Select the Advanced Custom Fields JSON file you would like to import. When you click the import button below, ACF will import the field groups.",acf,"Select the Advanced Custom Fields JSON file you would like to import. When you click the import button below, ACF will import the field groups."
+"Select File",acf,"Select File"
+"Import File",acf,"Import File"
+"No file selected",acf,"No file selected"
+"Error uploading file. Please try again",acf,"Error uploading file. Please try again"
+"Incorrect file type",acf,"Incorrect file type"
+"Import file empty",acf,"Import file empty"
+"Imported 1 field group",acf,"Imported 1 field group"
+"Imported %s field groups",acf,"Imported %s field groups"
+"Conditional Logic",acf,"Conditional Logic"
+"Show this field if",acf,"Show this field if"
+or,acf,or
+and,acf,and
+or,acf,or
+"Add rule group",acf,"Add rule group"
+"Drag to reorder",acf,"Drag to reorder"
+"Edit field",acf,"Edit field"
+"Edit field",acf,"Edit field"
+Edit,acf,Edit
+"Duplicate field",acf,"Duplicate field"
+Duplicate,acf,Duplicate
+"Move field to another group",acf,"Move field to another group"
+Move,acf,Move
+"Delete field",acf,"Delete field"
+Delete,acf,Delete
+"Field Label",acf,"Field Label"
+"This is the name which will appear on the EDIT page",acf,"This is the name which will appear on the EDIT page"
+"Field Name",acf,"Field Name"
+"Single word, no spaces. Underscores and dashes allowed",acf,"Single word, no spaces. Underscores and dashes allowed"
+"Field Type",acf,"Field Type"
+Instructions,acf,Instructions
+"Instructions for authors. Shown when submitting data",acf,"Instructions for authors. Shown when submitting data"
+Required?,acf,Required?
+"Wrapper Attributes",acf,"Wrapper Attributes"
+width,acf,width
+class,acf,class
+id,acf,id
+"Close Field",acf,"Close Field"
+"Close Field",acf,"Close Field"
+Order,acf,Order
+Label,acf,Label
+Name,acf,Name
+Key,acf,Key
+Type,acf,Type
+"No fields. Click the <strong>+ Add Field</strong> button to create your first field.",acf,"No fields. Click the <strong>+ Add Field</strong> button to create your first field."
+"+ Add Field",acf,"+ Add Field"
+"New Field",acf,"New Field"
+Rules,acf,Rules
+"Create a set of rules to determine which edit screens will use these advanced custom fields",acf,"Create a set of rules to determine which edit screens will use these advanced custom fields"
+or,acf,or
+"Add rule group",acf,"Add rule group"
+Active,acf,Active
+Active,acf,Active
+Inactive,acf,Inactive
+Style,acf,Style
+"Standard (WP metabox)",acf,"Standard (WP metabox)"
+"Seamless (no metabox)",acf,"Seamless (no metabox)"
+Position,acf,Position
+"High (after title)",acf,"High (after title)"
+"Normal (after content)",acf,"Normal (after content)"
+Side,acf,Side
+"Label placement",acf,"Label placement"
+"Top aligned",acf,"Top aligned"
+"Left aligned",acf,"Left aligned"
+"Instruction placement",acf,"Instruction placement"
+"Below labels",acf,"Below labels"
+"Below fields",acf,"Below fields"
+"Order No.",acf,"Order No."
+"Field groups with a lower order will appear first",acf,"Field groups with a lower order will appear first"
+Description,acf,Description
+"Shown in field group list",acf,"Shown in field group list"
+Permalink,acf,Permalink
+"Content Editor",acf,"Content Editor"
+Excerpt,acf,Excerpt
+"Custom Fields",acf,"Custom Fields"
+Discussion,acf,Discussion
+Comments,acf,Comments
+Revisions,acf,Revisions
+Slug,acf,Slug
+Author,acf,Author
+Format,acf,Format
+"Page Attributes",acf,"Page Attributes"
+"Featured Image",acf,"Featured Image"
+Categories,acf,Categories
+Tags,acf,Tags
+"Send Trackbacks",acf,"Send Trackbacks"
+"Hide on screen",acf,"Hide on screen"
+"<b>Select</b> items to <b>hide</b> them from the edit screen.",acf,"<b>Select</b> items to <b>hide</b> them from the edit screen."
+"If multiple field groups appear on an edit screen, the first field group's options will be used (the one with the lowest order number)",acf,"If multiple field groups appear on an edit screen, the first field group's options will be used (the one with the lowest order number)"
+"Upgrade Database",acf,"Upgrade Database"
+"The following sites require a DB upgrade. Check the ones you want to update and then click %s.",acf,"The following sites require a DB upgrade. Check the ones you want to update and then click %s."
+"Upgrade Sites",acf,"Upgrade Sites"
+"Upgrade Sites",acf,"Upgrade Sites"
+Site,acf,Site
+Description,acf,Description
+Site,acf,Site
+Description,acf,Description
+"Site requires database upgrade from %s to %s",acf,"Site requires database upgrade from %s to %s"
+"Site is up to date",acf,"Site is up to date"
+"Upgrade Sites",acf,"Upgrade Sites"
+"Database Upgrade complete. <a href=""%s"">Return to network dashboard</a>",acf,"Database Upgrade complete. <a href=""%s"">Return to network dashboard</a>"
+"Please select at least one site to upgrade.",acf,"Please select at least one site to upgrade."
+"It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?",acf,"It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+"Upgrading data to version %s",acf,"Upgrading data to version %s"
+"Upgrade complete.",acf,"Upgrade complete."
+"Upgrade failed.",acf,"Upgrade failed."
+"Upgrade Database",acf,"Upgrade Database"
+"Reading upgrade tasks...",acf,"Reading upgrade tasks..."
+"Upgrading data to version %s",acf,"Upgrading data to version %s"
+"Database upgrade complete. <a href=""%s"">See what\'s new</a>",acf,"Database upgrade complete. <a href=""%s"">See what\'s new</a>"
+"Upgrade failed.",acf,"Upgrade failed."
+"No updates available.",acf,"No updates available."
+Tools,acf,Tools
+"Back to all tools",acf,"Back to all tools"
+"Show this field group if",acf,"Show this field group if"
+or,acf,or
+and,acf,and
+Repeater,acf,Repeater
+"Flexible Content",acf,"Flexible Content"
+Gallery,acf,Galerie
+"Options Page",acf,"Options Page"
+"Database Upgrade Required",acf,"Database Upgrade Required"
+"Thank you for updating to %s v%s!",acf,"Thank you for updating to %s v%s!"
+"This version contains improvements to your database and requires an upgrade.",acf,"This version contains improvements to your database and requires an upgrade."
+"Please also check all premium add-ons (%s) are updated to the latest version.",acf,"Please also check all premium add-ons (%s) are updated to the latest version."
+"It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?",acf,"It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+"Invalid field group parameter(s).",acf,"Invalid field group parameter(s)."
+"Invalid field group ID.",acf,"Invalid field group ID."
+"Sorry, this field group is unavailable for diff comparison.",acf,"Sorry, this field group is unavailable for diff comparison."
+"Last updated: %s",acf,"Last updated: %s"
+"Original field group",acf,"Original field group"
+"JSON field group (newer)",acf,"JSON field group (newer)"
+"No updates available.",acf,"No updates available."
+"Invalid nonce.",acf,"Invalid nonce."
+Thumbnail,acf,Thumbnail
+Medium,acf,Medium
+Large,acf,Large
+"Full Size",acf,"Full Size"
+"(no title)",acf,"(no title)"
+Parent,acf,Parent
+"Image width must be at least %dpx.",acf,"Image width must be at least %dpx."
+"Image width must not exceed %dpx.",acf,"Image width must not exceed %dpx."
+"Image height must be at least %dpx.",acf,"Image height must be at least %dpx."
+"Image height must not exceed %dpx.",acf,"Image height must not exceed %dpx."
+"File size must be at least %s.",acf,"File size must be at least %s."
+"File size must not exceed %s.",acf,"File size must not exceed %s."
+or,acf,or
+"File type must be %s.",acf,"File type must be %s."
+"(no title)",acf,"(no title)"
+"Are you sure?",acf,"Are you sure?"
+Yes,acf,Yes
+No,acf,No
+Remove,acf,Remove
+Cancel,acf,Cancel
+"The changes you made will be lost if you navigate away from this page",acf,"The changes you made will be lost if you navigate away from this page"
+"Validation successful",acf,"Validation successful"
+"Validation failed",acf,"Validation failed"
+"1 field requires attention",acf,"1 field requires attention"
+"%d fields require attention",acf,"%d fields require attention"
+"Edit field group",acf,"Edit field group"
+Accordion,acf,Accordion
+"Accordions help you organize fields into panels that open and close.",acf,"Accordions help you organize fields into panels that open and close."
+"All fields following this accordion (or until another accordion is defined) will be grouped together.",acf,"All fields following this accordion (or until another accordion is defined) will be grouped together."
+Instructions,acf,Instructions
+Open,acf,Open
+"Display this accordion as open on page load.",acf,"Display this accordion as open on page load."
+Multi-expand,acf,Multi-expand
+"Allow this accordion to open without closing others.",acf,"Allow this accordion to open without closing others."
+Endpoint,acf,Endpoint
+"Define an endpoint for the previous accordion to stop. This accordion will not be visible.",acf,"Define an endpoint for the previous accordion to stop. This accordion will not be visible."
+"Button Group",acf,"Button Group"
+Choices,acf,Choices
+"Enter each choice on a new line.",acf,"Enter each choice on a new line."
+"For more control, you may specify both a value and label like this:",acf,"For more control, you may specify both a value and label like this:"
+"red : Red",acf,"red : Red"
+"Allow Null?",acf,"Allow Null?"
+"Default Value",acf,"Default Value"
+"Appears when creating a new post",acf,"Appears when creating a new post"
+Layout,acf,Layout
+Horizontal,acf,Horizontal
+Vertical,acf,Vertical
+"Return Value",acf,"Return Value"
+"Specify the returned value on front end",acf,"Specify the returned value on front end"
+Value,acf,Value
+Label,acf,Label
+"Both (Array)",acf,"Both (Array)"
+Checkbox,acf,Checkbox
+"Toggle All",acf,"Toggle All"
+Choices,acf,Choices
+"Enter each choice on a new line.",acf,"Enter each choice on a new line."
+"For more control, you may specify both a value and label like this:",acf,"For more control, you may specify both a value and label like this:"
+"red : Red",acf,"red : Red"
+"Allow Custom",acf,"Allow Custom"
+"Allow 'custom' values to be added",acf,"Allow 'custom' values to be added"
+"Save Custom",acf,"Save Custom"
+"Save 'custom' values to the field's choices",acf,"Save 'custom' values to the field's choices"
+"Default Value",acf,"Default Value"
+"Enter each default value on a new line",acf,"Enter each default value on a new line"
+Layout,acf,Layout
+Vertical,acf,Vertical
+Horizontal,acf,Horizontal
+Toggle,acf,Toggle
+"Prepend an extra checkbox to toggle all choices",acf,"Prepend an extra checkbox to toggle all choices"
+"Return Value",acf,"Return Value"
+"Specify the returned value on front end",acf,"Specify the returned value on front end"
+Value,acf,Value
+Label,acf,Label
+"Both (Array)",acf,"Both (Array)"
+"Color Picker",acf,"Color Picker"
+"Clear' ),
+					'clearAriaLabel'   => __( 'Clear color' ),
+					'defaultString'    => __( 'Default' ),
+					'defaultAriaLabel' => __( 'Select default color' ),
+					'pick'             => __( 'Select Color' ),
+					'defaultLabel'     => __( 'Color value' ),
+				));
+			}
+			
+		}
+		
+		// Enqueue.
+		wp_enqueue_style( 'wp-color-picker' );
+		wp_enqueue_script( 'wp-color-picker' );			
+	}
+	
+	
+	/*
+	*  render_field()
+	*
+	*  Create the HTML interface for your field
+	*
+	*  @param	$field - an array holding all the field's data
+	*
+	*  @type	action
+	*  @since	3.6
+	*  @date	23/01/13
+	*/
+	
+	function render_field( $field ) {
+		
+		// vars
+		$text_input = acf_get_sub_array( $field, array('id",acf,"Clear' ),
+					'clearAriaLabel'   => __( 'Clear color' ),
+					'defaultString'    => __( 'Default' ),
+					'defaultAriaLabel' => __( 'Select default color' ),
+					'pick'             => __( 'Select Color' ),
+					'defaultLabel'     => __( 'Color value' ),
+				));
+			}
+			
+		}
+		
+		// Enqueue.
+		wp_enqueue_style( 'wp-color-picker' );
+		wp_enqueue_script( 'wp-color-picker' );			
+	}
+	
+	
+	/*
+	*  render_field()
+	*
+	*  Create the HTML interface for your field
+	*
+	*  @param	$field - an array holding all the field's data
+	*
+	*  @type	action
+	*  @since	3.6
+	*  @date	23/01/13
+	*/
+	
+	function render_field( $field ) {
+		
+		// vars
+		$text_input = acf_get_sub_array( $field, array('id"
+"Default Value",acf,"Default Value"
+"Date Picker",acf,"Date Picker"
+"Display Format",acf,"Display Format"
+"The format displayed when editing a post",acf,"The format displayed when editing a post"
+Custom:,acf,Custom:
+"Save Format",acf,"Save Format"
+"The format used when saving a value",acf,"The format used when saving a value"
+"Return Format",acf,"Return Format"
+"The format returned via template functions",acf,"The format returned via template functions"
+Custom:,acf,Custom:
+"Week Starts On",acf,"Week Starts On"
+"Date Time Picker",acf,"Date Time Picker"
+"Display Format",acf,"Display Format"
+"The format displayed when editing a post",acf,"The format displayed when editing a post"
+Custom:,acf,Custom:
+"Return Format",acf,"Return Format"
+"The format returned via template functions",acf,"The format returned via template functions"
+Custom:,acf,Custom:
+"Week Starts On",acf,"Week Starts On"
+Email,acf,Email
+"Default Value",acf,"Default Value"
+"Appears when creating a new post",acf,"Appears when creating a new post"
+"Placeholder Text",acf,"Placeholder Text"
+"Appears within the input",acf,"Appears within the input"
+Prepend,acf,Prepend
+"Appears before the input",acf,"Appears before the input"
+Append,acf,Append
+"Appears after the input",acf,"Appears after the input"
+"'%s' is not a valid email address",acf,"'%s' is not a valid email address"
+File,acf,File
+"Select File",acf,"Select File"
+"Edit File",acf,"Edit File"
+"Update File",acf,"Update File"
+"File name",acf,"File name"
+"File size",acf,"File size"
+Edit,acf,Edit
+Remove,acf,Remove
+"No file selected",acf,"No file selected"
+"Add File",acf,"Add File"
+"Return Value",acf,"Return Value"
+"Specify the returned value on front end",acf,"Specify the returned value on front end"
+"File Array",acf,"File Array"
+"File URL",acf,"File URL"
+"File ID",acf,"File ID"
+Library,acf,Library
+"Limit the media library choice",acf,"Limit the media library choice"
+All,acf,All
+"Uploaded to post",acf,"Uploaded to post"
+Minimum,acf,Minimum
+"Restrict which files can be uploaded",acf,"Restrict which files can be uploaded"
+"File size",acf,"File size"
+Maximum,acf,Maximum
+"Restrict which files can be uploaded",acf,"Restrict which files can be uploaded"
+"File size",acf,"File size"
+"Allowed file types",acf,"Allowed file types"
+"Comma separated list. Leave blank for all types",acf,"Comma separated list. Leave blank for all types"
+"Google Map",acf,"Google Map"
+"Sorry, this browser does not support geolocation",acf,"Sorry, this browser does not support geolocation"
+Search,acf,Hledat
+"Clear location",acf,"Clear location"
+"Find current location",acf,"Find current location"
+"Search for address...",acf,"Search for address..."
+Center,acf,Center
+"Center the initial map",acf,"Center the initial map"
+Center,acf,Center
+"Center the initial map",acf,"Center the initial map"
+Zoom,acf,Zoom
+"Set the initial zoom level",acf,"Set the initial zoom level"
+Height,acf,Height
+"Customize the map height",acf,"Customize the map height"
+Group,acf,Group
+"Sub Fields",acf,"Sub Fields"
+Layout,acf,Layout
+"Specify the style used to render the selected fields",acf,"Specify the style used to render the selected fields"
+Block,acf,Block
+Table,acf,Table
+Row,acf,Row
+Image,acf,Image
+"Select Image",acf,"Select Image"
+"Edit Image",acf,"Edit Image"
+"Update Image",acf,"Update Image"
+"All images",acf,"All images"
+Edit,acf,Edit
+Remove,acf,Remove
+"No image selected",acf,"No image selected"
+"Add Image",acf,"Add Image"
+"Return Format",acf,"Return Format"
+"Image Array",acf,"Image Array"
+"Image URL",acf,"Image URL"
+"Image ID",acf,"Image ID"
+"Preview Size",acf,"Preview Size"
+Library,acf,Library
+"Limit the media library choice",acf,"Limit the media library choice"
+All,acf,All
+"Uploaded to post",acf,"Uploaded to post"
+Minimum,acf,Minimum
+"Restrict which images can be uploaded",acf,"Restrict which images can be uploaded"
+Width,acf,Width
+Height,acf,Height
+"File size",acf,"File size"
+Maximum,acf,Maximum
+"Restrict which images can be uploaded",acf,"Restrict which images can be uploaded"
+Width,acf,Width
+Height,acf,Height
+"File size",acf,"File size"
+"Allowed file types",acf,"Allowed file types"
+"Comma separated list. Leave blank for all types",acf,"Comma separated list. Leave blank for all types"
+Link,acf,Link
+"Select Link",acf,"Select Link"
+"Opens in a new window/tab",acf,"Opens in a new window/tab"
+Edit,acf,Edit
+Remove,acf,Remove
+"Return Value",acf,"Return Value"
+"Specify the returned value on front end",acf,"Specify the returned value on front end"
+"Link Array",acf,"Link Array"
+"Link URL",acf,"Link URL"
+Message,acf,Message
+Message,acf,Message
+"New Lines",acf,"New Lines"
+"Controls how new lines are rendered",acf,"Controls how new lines are rendered"
+"Automatically add paragraphs",acf,"Automatically add paragraphs"
+"Automatically add &lt;br&gt;",acf,"Automatically add &lt;br&gt;"
+"No Formatting",acf,"No Formatting"
+"Escape HTML",acf,"Escape HTML"
+"Allow HTML markup to display as visible text instead of rendering",acf,"Allow HTML markup to display as visible text instead of rendering"
+Number,acf,Number
+"Default Value",acf,"Default Value"
+"Appears when creating a new post",acf,"Appears when creating a new post"
+"Placeholder Text",acf,"Placeholder Text"
+"Appears within the input",acf,"Appears within the input"
+Prepend,acf,Prepend
+"Appears before the input",acf,"Appears before the input"
+Append,acf,Append
+"Appears after the input",acf,"Appears after the input"
+"Minimum Value",acf,"Minimum Value"
+"Maximum Value",acf,"Maximum Value"
+"Step Size",acf,"Step Size"
+"Value must be a number",acf,"Value must be a number"
+"Value must be equal to or higher than %d",acf,"Value must be equal to or higher than %d"
+"Value must be equal to or lower than %d",acf,"Value must be equal to or lower than %d"
+oEmbed,acf,oEmbed
+Error.,acf,Error.
+"No embed found for the given URL.",acf,"No embed found for the given URL."
+"Enter URL",acf,"Enter URL"
+"Embed Size",acf,"Embed Size"
+Width,acf,Width
+"Embed Size",acf,"Embed Size"
+Height,acf,Height
+"Page Link",acf,"Page Link"
+Archives,acf,Archives
+Parent,acf,Parent
+"Filter by Post Type",acf,"Filter by Post Type"
+"All post types",acf,"All post types"
+"Filter by Taxonomy",acf,"Filter by Taxonomy"
+"All taxonomies",acf,"All taxonomies"
+"Allow Null?",acf,"Allow Null?"
+"Allow Archives URLs",acf,"Allow Archives URLs"
+"Select multiple values?",acf,"Select multiple values?"
+Password,acf,Password
+"Placeholder Text",acf,"Placeholder Text"
+"Appears within the input",acf,"Appears within the input"
+Prepend,acf,Prepend
+"Appears before the input",acf,"Appears before the input"
+Append,acf,Append
+"Appears after the input",acf,"Appears after the input"
+"Post Object",acf,"Post Object"
+Parent,acf,Parent
+"Filter by Post Type",acf,"Filter by Post Type"
+"All post types",acf,"All post types"
+"Filter by Taxonomy",acf,"Filter by Taxonomy"
+"All taxonomies",acf,"All taxonomies"
+"Allow Null?",acf,"Allow Null?"
+"Select multiple values?",acf,"Select multiple values?"
+"Return Format",acf,"Return Format"
+"Post Object",acf,"Post Object"
+"Post ID",acf,"Post ID"
+"Radio Button",acf,"Radio Button"
+Choices,acf,Choices
+"Enter each choice on a new line.",acf,"Enter each choice on a new line."
+"For more control, you may specify both a value and label like this:",acf,"For more control, you may specify both a value and label like this:"
+"red : Red",acf,"red : Red"
+"Allow Null?",acf,"Allow Null?"
+Other,acf,Other
+"Add 'other' choice to allow for custom values",acf,"Add 'other' choice to allow for custom values"
+"Save Other",acf,"Save Other"
+"Save 'other' values to the field's choices",acf,"Save 'other' values to the field's choices"
+"Default Value",acf,"Default Value"
+"Appears when creating a new post",acf,"Appears when creating a new post"
+Layout,acf,Layout
+Vertical,acf,Vertical
+Horizontal,acf,Horizontal
+"Return Value",acf,"Return Value"
+"Specify the returned value on front end",acf,"Specify the returned value on front end"
+Value,acf,Value
+Label,acf,Label
+"Both (Array)",acf,"Both (Array)"
+Range,acf,Range
+"Default Value",acf,"Default Value"
+"Appears when creating a new post",acf,"Appears when creating a new post"
+"Minimum Value",acf,"Minimum Value"
+"Maximum Value",acf,"Maximum Value"
+"Step Size",acf,"Step Size"
+Prepend,acf,Prepend
+"Appears before the input",acf,"Appears before the input"
+Append,acf,Append
+"Appears after the input",acf,"Appears after the input"
+Relationship,acf,Relationship
+"Minimum values reached ( {min} values )",acf,"Minimum values reached ( {min} values )"
+"Maximum values reached ( {max} values )",acf,"Maximum values reached ( {max} values )"
+Loading,acf,Loading
+"No matches found",acf,"No matches found"
+"Select post type",acf,"Select post type"
+"Select taxonomy",acf,"Select taxonomy"
+Search...,acf,Search...
+"Filter by Post Type",acf,"Filter by Post Type"
+"All post types",acf,"All post types"
+"Filter by Taxonomy",acf,"Filter by Taxonomy"
+"All taxonomies",acf,"All taxonomies"
+Filters,acf,Filters
+Search,acf,Hledat
+"Post Type",acf,"Post Type"
+Taxonomy,acf,Taxonomy
+Elements,acf,Elements
+"Selected elements will be displayed in each result",acf,"Selected elements will be displayed in each result"
+"Featured Image",acf,"Featured Image"
+"Minimum posts",acf,"Minimum posts"
+"Maximum posts",acf,"Maximum posts"
+"Return Format",acf,"Return Format"
+"Post Object",acf,"Post Object"
+"Post ID",acf,"Post ID"
+"%s requires at least %s selection",acf,"%s requires at least %s selection"
+"%s requires at least %s selections",acf,"%s requires at least %s selections"
+Choices,acf,Choices
+"Enter each choice on a new line.",acf,"Enter each choice on a new line."
+"For more control, you may specify both a value and label like this:",acf,"For more control, you may specify both a value and label like this:"
+"red : Red",acf,"red : Red"
+"Default Value",acf,"Default Value"
+"Enter each default value on a new line",acf,"Enter each default value on a new line"
+"Allow Null?",acf,"Allow Null?"
+"Select multiple values?",acf,"Select multiple values?"
+"Stylised UI",acf,"Stylised UI"
+"Use AJAX to lazy load choices?",acf,"Use AJAX to lazy load choices?"
+"Return Format",acf,"Return Format"
+"Specify the value returned",acf,"Specify the value returned"
+Value,acf,Value
+Label,acf,Label
+"Both (Array)",acf,"Both (Array)"
+Separator,acf,Separator
+Tab,acf,Tab
+"Use ""Tab Fields"" to better organize your edit screen by grouping fields together.",acf,"Use ""Tab Fields"" to better organize your edit screen by grouping fields together."
+"All fields following this ""tab field"" (or until another ""tab field"" is defined) will be grouped together using this field\'s label as the tab heading.",acf,"All fields following this ""tab field"" (or until another ""tab field"" is defined) will be grouped together using this field\'s label as the tab heading."
+Instructions,acf,Instructions
+Placement,acf,Placement
+"Top aligned",acf,"Top aligned"
+"Left aligned",acf,"Left aligned"
+Endpoint,acf,Endpoint
+"Define an endpoint for the previous tabs to stop. This will start a new group of tabs.",acf,"Define an endpoint for the previous tabs to stop. This will start a new group of tabs."
+Taxonomy,acf,Taxonomy
+Taxonomy,acf,Taxonomy
+"Select the taxonomy to be displayed",acf,"Select the taxonomy to be displayed"
+Appearance,acf,Appearance
+"Select the appearance of this field",acf,"Select the appearance of this field"
+"Multiple Values",acf,"Multiple Values"
+Checkbox,acf,Checkbox
+"Multi Select",acf,"Multi Select"
+"Single Value",acf,"Single Value"
+"Radio Buttons",acf,"Radio Buttons"
+"Allow Null?",acf,"Allow Null?"
+"Create Terms",acf,"Create Terms"
+"Allow new terms to be created whilst editing",acf,"Allow new terms to be created whilst editing"
+"Save Terms",acf,"Save Terms"
+"Connect selected terms to the post",acf,"Connect selected terms to the post"
+"Load Terms",acf,"Load Terms"
+"Load value from posts terms",acf,"Load value from posts terms"
+"Return Value",acf,"Return Value"
+"Term Object",acf,"Term Object"
+"Term ID",acf,"Term ID"
+"User unable to add new %s",acf,"User unable to add new %s"
+"%s already exists",acf,"%s already exists"
+"%s added",acf,"%s added"
+Name,acf,Name
+Parent,acf,Parent
+Add,acf,Add
+Text,acf,Text
+"Default Value",acf,"Default Value"
+"Appears when creating a new post",acf,"Appears when creating a new post"
+"Placeholder Text",acf,"Placeholder Text"
+"Appears within the input",acf,"Appears within the input"
+Prepend,acf,Prepend
+"Appears before the input",acf,"Appears before the input"
+Append,acf,Append
+"Appears after the input",acf,"Appears after the input"
+"Character Limit",acf,"Character Limit"
+"Leave blank for no limit",acf,"Leave blank for no limit"
+"Value must not exceed %d characters",acf,"Value must not exceed %d characters"
+"Text Area",acf,"Text Area"
+"Default Value",acf,"Default Value"
+"Appears when creating a new post",acf,"Appears when creating a new post"
+"Placeholder Text",acf,"Placeholder Text"
+"Appears within the input",acf,"Appears within the input"
+"Character Limit",acf,"Character Limit"
+"Leave blank for no limit",acf,"Leave blank for no limit"
+Rows,acf,Rows
+"Sets the textarea height",acf,"Sets the textarea height"
+"New Lines",acf,"New Lines"
+"Controls how new lines are rendered",acf,"Controls how new lines are rendered"
+"Automatically add paragraphs",acf,"Automatically add paragraphs"
+"Automatically add &lt;br&gt;",acf,"Automatically add &lt;br&gt;"
+"No Formatting",acf,"No Formatting"
+"Value must not exceed %d characters",acf,"Value must not exceed %d characters"
+"Time Picker",acf,"Time Picker"
+"Display Format",acf,"Display Format"
+"The format displayed when editing a post",acf,"The format displayed when editing a post"
+Custom:,acf,Custom:
+"Return Format",acf,"Return Format"
+"The format returned via template functions",acf,"The format returned via template functions"
+Custom:,acf,Custom:
+"True / False",acf,"True / False"
+Yes,acf,Yes
+No,acf,No
+Message,acf,Message
+"Displays text alongside the checkbox",acf,"Displays text alongside the checkbox"
+"Default Value",acf,"Default Value"
+"Stylised UI",acf,"Stylised UI"
+"On Text",acf,"On Text"
+"Text shown when active",acf,"Text shown when active"
+Yes,acf,Yes
+"Off Text",acf,"Off Text"
+"Text shown when inactive",acf,"Text shown when inactive"
+No,acf,No
+Url,acf,Url
+"Default Value",acf,"Default Value"
+"Appears when creating a new post",acf,"Appears when creating a new post"
+"Placeholder Text",acf,"Placeholder Text"
+"Appears within the input",acf,"Appears within the input"
+"Value must be a valid URL",acf,"Value must be a valid URL"
+User,acf,User
+"Filter by role",acf,"Filter by role"
+"All user roles",acf,"All user roles"
+"Allow Null?",acf,"Allow Null?"
+"Select multiple values?",acf,"Select multiple values?"
+"Return Format",acf,"Return Format"
+"User Array",acf,"User Array"
+"User Object",acf,"User Object"
+"User ID",acf,"User ID"
+"Error loading field.",acf,"Error loading field."
+"Wysiwyg Editor",acf,"Wysiwyg Editor"
+Visual,acf,Visual
+"Click to initialize TinyMCE",acf,"Click to initialize TinyMCE"
+"Default Value",acf,"Default Value"
+"Appears when creating a new post",acf,"Appears when creating a new post"
+Tabs,acf,Tabs
+"Visual & Text",acf,"Visual & Text"
+"Visual Only",acf,"Visual Only"
+"Text Only",acf,"Text Only"
+Toolbar,acf,Toolbar
+"Show Media Upload Buttons?",acf,"Show Media Upload Buttons?"
+"Delay initialization?",acf,"Delay initialization?"
+"TinyMCE will not be initialized until field is clicked",acf,"TinyMCE will not be initialized until field is clicked"
+"Field type does not exist",acf,"Field type does not exist"
+Unknown,acf,Unknown
+Basic,acf,Basic
+Content,acf,Content
+Choice,acf,Choice
+Relational,acf,Relational
+jQuery,acf,jQuery
+Layout,acf,Layout
+"Edit field group",acf,"Edit field group"
+Title,acf,Title
+Content,acf,Content
+"Validate Email",acf,"Validate Email"
+Update,acf,Update
+"Post updated",acf,"Post updated"
+"Spam Detected",acf,"Spam Detected"
+"<strong>ERROR</strong>: %s",acf,"<strong>ERROR</strong>: %s"
+"The ACF_Locations class should not be accessed directly.",acf,"The ACF_Locations class should not be accessed directly."
+"The ACF_Locations class should not be accessed directly.",acf,"The ACF_Locations class should not be accessed directly."
+"The ACF_Locations class should not be accessed directly.",acf,"The ACF_Locations class should not be accessed directly."
+"is equal to",acf,"is equal to"
+"is not equal to",acf,"is not equal to"
+Attachment,acf,Attachment
+All,acf,All
+"All %s formats",acf,"All %s formats"
+Comment,acf,Comment
+All,acf,All
+"Current User Role",acf,"Current User Role"
+"Super Admin",acf,"Super Admin"
+"Current User",acf,"Current User"
+"Logged in",acf,"Logged in"
+"Viewing front end",acf,"Viewing front end"
+"Viewing back end",acf,"Viewing back end"
+"Menu Item",acf,"Menu Item"
+Menu,acf,Menu
+All,acf,All
+"Menu Locations",acf,"Menu Locations"
+Menus,acf,Menus
+"Page Parent",acf,"Page Parent"
+"Page Template",acf,"Page Template"
+"Default Template",acf,"Default Template"
+"Page Type",acf,"Page Type"
+"Front Page",acf,"Front Page"
+"Posts Page",acf,"Posts Page"
+"Top Level Page (no parent)",acf,"Top Level Page (no parent)"
+"Parent Page (has children)",acf,"Parent Page (has children)"
+"Child Page (has parent)",acf,"Child Page (has parent)"
+Page,acf,Page
+"Post Category",acf,"Post Category"
+"Post Format",acf,"Post Format"
+"Post Status",acf,"Post Status"
+"Post Taxonomy",acf,"Post Taxonomy"
+"Post Template",acf,"Post Template"
+"Default Template",acf,"Default Template"
+"Post Type",acf,"Post Type"
+Post,acf,Post
+Taxonomy,acf,Taxonomy
+All,acf,All
+"User Form",acf,"User Form"
+All,acf,All
+Add,acf,Add
+"Add / Edit",acf,"Add / Edit"
+Register,acf,Register
+"User Role",acf,"User Role"
+All,acf,All
+Widget,acf,Widget
+All,acf,All
+"Class ""%s"" does not exist.",acf,"Class ""%s"" does not exist."
+"Location type ""%s"" is already registered.' ), $name );
+		_doing_it_wrong( __FUNCTION__, $message, '5.9.0' );
+		return false;
+	}
+	
+	// Add to store.
+	$store->set( $name, $location_type );
+	
+	/**
+	 * Fires after a location type is registered.
+	 *
+	 * @date	8/4/20
+	 * @since	5.9.0
+	 *
+	 * @param	string $name The location type name.
+	 * @param	ACF_Location $location_type The location type instance.
+	 */
+	do_action( 'acf/registered_location_type', $name, $location_type );
+	
+	// Return location type instance.
+	return $location_type;
+}
+
+/**
+ * Returns an array of all registered location types.
+ *
+ * @date	8/4/20
+ * @since	5.9.0
+ *
+ * @param	void
+ * @return	array
+ */
+function acf_get_location_types() {
+	return acf_get_store( 'location-types' )->get();
+}
+
+/**
+ * Returns a location type for the given name.
+ *
+ * @date	18/2/19
+ * @since	5.7.12
+ *
+ * @param	string $name The location type name.
+ * @return	(ACF_Location|null)
+ */
+function acf_get_location_type( $name ) {
+	return acf_get_store( 'location-types' )->get( $name );
+}
+
+/**
+ * Returns a grouped array of all location rule types.
+ *
+ * @date	8/4/20
+ * @since	5.9.0
+ *
+ * @param	void
+ * @return	array
+ */
+function acf_get_location_rule_types() {
+	$types = array();
+	
+	// Default categories.
+	$categories = array(
+		'post'		=> __('Post",acf,"Location type ""%s"" is already registered.' ), $name );
+		_doing_it_wrong( __FUNCTION__, $message, '5.9.0' );
+		return false;
+	}
+	
+	// Add to store.
+	$store->set( $name, $location_type );
+	
+	/**
+	 * Fires after a location type is registered.
+	 *
+	 * @date	8/4/20
+	 * @since	5.9.0
+	 *
+	 * @param	string $name The location type name.
+	 * @param	ACF_Location $location_type The location type instance.
+	 */
+	do_action( 'acf/registered_location_type', $name, $location_type );
+	
+	// Return location type instance.
+	return $location_type;
+}
+
+/**
+ * Returns an array of all registered location types.
+ *
+ * @date	8/4/20
+ * @since	5.9.0
+ *
+ * @param	void
+ * @return	array
+ */
+function acf_get_location_types() {
+	return acf_get_store( 'location-types' )->get();
+}
+
+/**
+ * Returns a location type for the given name.
+ *
+ * @date	18/2/19
+ * @since	5.7.12
+ *
+ * @param	string $name The location type name.
+ * @return	(ACF_Location|null)
+ */
+function acf_get_location_type( $name ) {
+	return acf_get_store( 'location-types' )->get( $name );
+}
+
+/**
+ * Returns a grouped array of all location rule types.
+ *
+ * @date	8/4/20
+ * @since	5.9.0
+ *
+ * @param	void
+ * @return	array
+ */
+function acf_get_location_rule_types() {
+	$types = array();
+	
+	// Default categories.
+	$categories = array(
+		'post'		=> __('Post"
+Page,acf,Page
+User,acf,User
+Forms,acf,Forms
+"Uploaded to this post",acf,"Uploaded to this post"
+"Expand Details",acf,"Expand Details"
+"Collapse Details",acf,"Collapse Details"
+Restricted,acf,Restricted
+"All images",acf,"All images"
+"Validation failed",acf,"Validation failed"
+"Validation failed",acf,"Validation failed"
+"%s value is required",acf,"%s value is required"

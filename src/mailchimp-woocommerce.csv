@@ -1,0 +1,761 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Subscribe to our newsletter",mailchimp-woocommerce,"Výhodné nabídky a doporučení podle vašich chutí"
+"Are you sure?",mailchimp-woocommerce,"Are you sure?"
+"You will not be able to revert.",mailchimp-woocommerce,"You will not be able to revert."
+"Yes, delete it!",mailchimp-woocommerce,"Yes, delete it!"
+"No, cancel!",mailchimp-woocommerce,"No, cancel!"
+"Please wait",mailchimp-woocommerce,"Please wait"
+"You are about to disconnect your store from Mailchimp.",mailchimp-woocommerce,"You are about to disconnect your store from Mailchimp."
+"Yes, disconnect.",mailchimp-woocommerce,"Yes, disconnect."
+"Try again",mailchimp-woocommerce,"Try again"
+"Resync request in progress",mailchimp-woocommerce,"Resync request in progress"
+"Could not resync orders, please try again.",mailchimp-woocommerce,"Could not resync orders, please try again."
+"Disconnecting store in progress",mailchimp-woocommerce,"Disconnecting store in progress"
+"Login Popup is blocked!",mailchimp-woocommerce,"Login Popup is blocked!"
+"Please allow your browser to show popups for this page",mailchimp-woocommerce,"Please allow your browser to show popups for this page"
+"Sending support request",mailchimp-woocommerce,"Sending support request"
+"Message received",mailchimp-woocommerce,"Message received"
+"Thanks, your message has been received.",mailchimp-woocommerce,"Thanks, your message has been received."
+"Mailchimp for WooCommerce",mailchimp-woocommerce,"Mailchimp for WooCommerce"
+Mailchimp,mailchimp-woocommerce,Mailchimp
+"Mailchimp for WooCommerce",mailchimp-woocommerce,"Mailchimp for WooCommerce"
+"Settings') . '</a>',
+		);
+		return array_merge($settings_link, $links);
+	}
+
+	/**
+	 * Render the settings page for this plugin.
+	 *
+	 * @since    1.0.0
+	 */
+	public function display_plugin_setup_page() {
+		include_once( 'partials/mailchimp-woocommerce-admin-tabs.php' );
+	}
+
+	/**
+	 *
+	 */
+	public function options_update() {
+		global $pagenow;
+
+		register_setting($this->plugin_name, $this->plugin_name, array($this, 'validate'));
+
+		// tammullen found this.
+        if ($pagenow == 'admin.php' && isset($_GET) && isset($_GET['page']) && 'mailchimp-woocommerce' === $_GET['page']) {
+            $this->handle_abandoned_cart_table();
+            $this->update_db_check();
+			$active_tab = isset($_GET['tab']) ? $_GET['tab'] : ($this->getOption('active_tab') ? $this->getOption('active_tab') : 'api_key');
+			if ($active_tab == 'sync' && get_option('mailchimp-woocommerce-sync.initial_sync') == 1 && get_option('mailchimp-woocommerce-sync.completed_at') > 0 ) {
+                $this->mailchimp_show_initial_sync_message();
+            }
+			if (isset($_GET['log_removed']) && $_GET['log_removed'] == ""1"") {
+				add_settings_error('mailchimp_log_settings",mailchimp-woocommerce,"Settings') . '</a>',
+		);
+		return array_merge($settings_link, $links);
+	}
+
+	/**
+	 * Render the settings page for this plugin.
+	 *
+	 * @since    1.0.0
+	 */
+	public function display_plugin_setup_page() {
+		include_once( 'partials/mailchimp-woocommerce-admin-tabs.php' );
+	}
+
+	/**
+	 *
+	 */
+	public function options_update() {
+		global $pagenow;
+
+		register_setting($this->plugin_name, $this->plugin_name, array($this, 'validate'));
+
+		// tammullen found this.
+        if ($pagenow == 'admin.php' && isset($_GET) && isset($_GET['page']) && 'mailchimp-woocommerce' === $_GET['page']) {
+            $this->handle_abandoned_cart_table();
+            $this->update_db_check();
+			$active_tab = isset($_GET['tab']) ? $_GET['tab'] : ($this->getOption('active_tab') ? $this->getOption('active_tab') : 'api_key');
+			if ($active_tab == 'sync' && get_option('mailchimp-woocommerce-sync.initial_sync') == 1 && get_option('mailchimp-woocommerce-sync.completed_at') > 0 ) {
+                $this->mailchimp_show_initial_sync_message();
+            }
+			if (isset($_GET['log_removed']) && $_GET['log_removed'] == ""1"") {
+				add_settings_error('mailchimp_log_settings"
+"Mailchimp for Woocommerce",mailchimp-woocommerce,"Mailchimp for Woocommerce"
+"We dectected that this site has the following constants defined, likely at wp-config.php file",mailchimp-woocommerce,"We dectected that this site has the following constants defined, likely at wp-config.php file"
+"These constants are deprecated since Mailchimp for Woocommerce version 2.3. Please refer to the <a href=""https://github.com/mailchimp/mc-woocommerce/wiki/"">plugin official wiki</a> for further details.",mailchimp-woocommerce,"These constants are deprecated since Mailchimp for Woocommerce version 2.3. Please refer to the <a href=""https://github.com/mailchimp/mc-woocommerce/wiki/"">plugin official wiki</a> for further details."
+"Store Disconnected",mailchimp-woocommerce,"Store Disconnected"
+"Store Disconnect Failed",mailchimp-woocommerce,"Store Disconnect Failed"
+"Cannot create or update Store at Mailchimp.",mailchimp-woocommerce,"Cannot create or update Store at Mailchimp."
+"As part of the Mailchimp Terms of Use, we require a contact email and a physical mailing address.",mailchimp-woocommerce,"As part of the Mailchimp Terms of Use, we require a contact email and a physical mailing address."
+"As part of the Mailchimp Terms of Use, we require a valid phone number for your store.",mailchimp-woocommerce,"As part of the Mailchimp Terms of Use, we require a valid phone number for your store."
+"Mailchimp for WooCommerce requires a Store Name to connect your store.",mailchimp-woocommerce,"Mailchimp for WooCommerce requires a Store Name to connect your store."
+"Subscribe to our newsletter",mailchimp-woocommerce,"Výhodné nabídky a doporučení podle vašich chutí"
+"One or more fields were not updated",mailchimp-woocommerce,"One or more fields were not updated"
+"Cannot create or update Store at Mailchimp.",mailchimp-woocommerce,"Cannot create or update Store at Mailchimp."
+"One or more fields were not updated",mailchimp-woocommerce,"One or more fields were not updated"
+"You must supply your Mailchimp API key to pull the audiences.",mailchimp-woocommerce,"You must supply your Mailchimp API key to pull the audiences."
+"Cannot create or update List at Mailchimp.",mailchimp-woocommerce,"Cannot create or update List at Mailchimp."
+"Please retry.",mailchimp-woocommerce,"Please retry."
+"Cannot create or update Store at Mailchimp.",mailchimp-woocommerce,"Cannot create or update Store at Mailchimp."
+"Starting the sync process...",mailchimp-woocommerce,"Starting the sync process..."
+"The plugin has started the initial sync with your store, and the process will work in the background automatically.",mailchimp-woocommerce,"The plugin has started the initial sync with your store, and the process will work in the background automatically."
+"Sometimes the sync can take a while, especially on sites with lots of orders and/or products. It is safe to navigate away from this screen while it is running.",mailchimp-woocommerce,"Sometimes the sync can take a while, especially on sites with lots of orders and/or products. It is safe to navigate away from this screen while it is running."
+"We successfully synced %1$s orders to your Audience, %2$s. If you’re happy with this integration, leave a 5-star review. It helps our community know we’re working hard to make it better each day.",mailchimp-woocommerce,"We successfully synced %1$s orders to your Audience, %2$s. If you’re happy with this integration, leave a 5-star review. It helps our community know we’re working hard to make it better each day."
+Saved,mailchimp-woocommerce,Saved
+"Error setting communications status",mailchimp-woocommerce,"Error setting communications status"
+"No log file provided",mailchimp-woocommerce,"No log file provided"
+"No log file provided",mailchimp-woocommerce,"No log file provided"
+"Error loading log file contents",mailchimp-woocommerce,"Error loading log file contents"
+"%1$sMailchimp for Woocommerce%2$s is not yet connected to a Mailchimp account. To complete the connection, %3$svisit the plugin settings page%4$s.",mailchimp-woocommerce,"%1$sMailchimp for Woocommerce%2$s is not yet connected to a Mailchimp account. To complete the connection, %3$svisit the plugin settings page%4$s."
+"Leave a Review",mailchimp-woocommerce,"Leave a Review"
+"Add Mailchimp for WooCommerce",mailchimp-woocommerce,"Add Mailchimp for WooCommerce"
+"Build custom segments, send automations, and track purchase <br/>activity in Mailchimp. Login to authorize an account connection.",mailchimp-woocommerce,"Build custom segments, send automations, and track purchase <br/>activity in Mailchimp. Login to authorize an account connection."
+"Add WooCommerce store settings",mailchimp-woocommerce,"Add WooCommerce store settings"
+"Please provide a bit of information about your WooCommerce <br/> store and location.",mailchimp-woocommerce,"Please provide a bit of information about your WooCommerce <br/> store and location."
+"Add WooCommerce audience settings",mailchimp-woocommerce,"Add WooCommerce audience settings"
+"Please provide a bit of information about your WooCommerce <br/> campaign and messaging settings.",mailchimp-woocommerce,"Please provide a bit of information about your WooCommerce <br/> campaign and messaging settings."
+"If you don’t have an audience, <br/> you can choose to create one",mailchimp-woocommerce,"If you don’t have an audience, <br/> you can choose to create one"
+"Next step",mailchimp-woocommerce,"Next step"
+Back,mailchimp-woocommerce,Back
+"Start sync",mailchimp-woocommerce,"Start sync"
+Back,mailchimp-woocommerce,Back
+"Add Mailchimp for WooCommerce to build custom segments, send automations, and track purchase activity in Mailchimp",mailchimp-woocommerce,"Add Mailchimp for WooCommerce to build custom segments, send automations, and track purchase activity in Mailchimp"
+"WooCommerce store and location",mailchimp-woocommerce,"WooCommerce store and location"
+"Please provide a bit of information about your WooCommerce store",mailchimp-woocommerce,"Please provide a bit of information about your WooCommerce store"
+"Campaign and messaging settings",mailchimp-woocommerce,"Campaign and messaging settings"
+"Please apply your audience settings.",mailchimp-woocommerce,"Please apply your audience settings."
+"Please apply your audience settings. ",mailchimp-woocommerce,"Please apply your audience settings. "
+"If you don’t have an audience, you can choose to create one",mailchimp-woocommerce,"If you don’t have an audience, you can choose to create one"
+"Success! You are connected to Mailchimp",mailchimp-woocommerce,"Success! You are connected to Mailchimp"
+"Your WooCommerce store is syncing to Mailchimp",mailchimp-woocommerce,"Your WooCommerce store is syncing to Mailchimp"
+"Log events from the Mailchimp plugin",mailchimp-woocommerce,"Log events from the Mailchimp plugin"
+"Connection settings",mailchimp-woocommerce,"Connection settings"
+"Save all changes'), 'primary tab-content-submit",mailchimp-woocommerce,"Save all changes'), 'primary tab-content-submit"
+Connect,mailchimp-woocommerce,Connect
+Overview,mailchimp-woocommerce,Overview
+Store,mailchimp-woocommerce,Store
+Audience,mailchimp-woocommerce,Audience
+Logs,mailchimp-woocommerce,Logs
+Settings,mailchimp-woocommerce,Settings
+"Mailchimp says: Please upgrade your PHP version to a minimum of 7.0",mailchimp-woocommerce,"Mailchimp says: Please upgrade your PHP version to a minimum of 7.0"
+"Mailchimp says: API Request Error - "".$has_api_error, 'mailchimp-for-woocommerce'); ?></p>
+                    </div>
+                <?php endif; ?>
+                <div class=""box"">
+                    <?php if ($show_wizard) : ?>
+                        <input type=""hidden"" name=""mailchimp_woocommerce_wizard_on"" value=1>
+                    <?php endif; ?>
+                    
+                    <input type=""hidden"" name=""mailchimp_woocommerce_settings_hidden"" value=""Y"">
+                
+                    <?php
+                        if (!$clicked_sync_button) {
+                            settings_fields($this->plugin_name);
+                            do_settings_sections($this->plugin_name);
+                            include('tabs/notices.php');
+                        }
+                    ?>
+                </div>
+                
+
+                <input type=""hidden"" name=""<?php echo $this->plugin_name; ?>[mailchimp_active_tab]"" value=""<?php echo esc_attr($active_tab); ?>""/>
+                
+                <?php if ($active_tab == 'api_key'): ?>
+                    <?php //include_once 'tabs/api_key_content.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'store_info' && $has_valid_api_key): ?>
+                    <?php include_once 'tabs/store_info.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'newsletter_settings' ): ?>
+                    <?php include_once 'tabs/newsletter_settings.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'sync' && $show_sync_tab): ?>
+                    <?php include_once 'tabs/store_sync.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'logs' && $show_sync_tab): ?>
+                    <?php include_once 'tabs/logs.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'plugin_settings' && $show_sync_tab): ?>
+                    <?php include_once 'tabs/plugin_settings.php'; ?>
+                <?php endif; ?>
+                <?php if (mailchimp_is_configured()) : ?>
+                    <div class=""box""> 
+                        <?php 
+                            if ($active_tab !== 'api_key' && $active_tab !== 'sync' && $active_tab !== 'logs' && $active_tab != 'plugin_settings') {
+                                submit_button(__('Save all changes'), 'primary tab-content-submit",mailchimp-woocommerce,"Mailchimp says: API Request Error - "".$has_api_error, 'mailchimp-for-woocommerce'); ?></p>
+                    </div>
+                <?php endif; ?>
+                <div class=""box"">
+                    <?php if ($show_wizard) : ?>
+                        <input type=""hidden"" name=""mailchimp_woocommerce_wizard_on"" value=1>
+                    <?php endif; ?>
+                    
+                    <input type=""hidden"" name=""mailchimp_woocommerce_settings_hidden"" value=""Y"">
+                
+                    <?php
+                        if (!$clicked_sync_button) {
+                            settings_fields($this->plugin_name);
+                            do_settings_sections($this->plugin_name);
+                            include('tabs/notices.php');
+                        }
+                    ?>
+                </div>
+                
+
+                <input type=""hidden"" name=""<?php echo $this->plugin_name; ?>[mailchimp_active_tab]"" value=""<?php echo esc_attr($active_tab); ?>""/>
+                
+                <?php if ($active_tab == 'api_key'): ?>
+                    <?php //include_once 'tabs/api_key_content.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'store_info' && $has_valid_api_key): ?>
+                    <?php include_once 'tabs/store_info.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'newsletter_settings' ): ?>
+                    <?php include_once 'tabs/newsletter_settings.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'sync' && $show_sync_tab): ?>
+                    <?php include_once 'tabs/store_sync.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'logs' && $show_sync_tab): ?>
+                    <?php include_once 'tabs/logs.php'; ?>
+                <?php endif; ?>
+
+                <?php if ($active_tab == 'plugin_settings' && $show_sync_tab): ?>
+                    <?php include_once 'tabs/plugin_settings.php'; ?>
+                <?php endif; ?>
+                <?php if (mailchimp_is_configured()) : ?>
+                    <div class=""box""> 
+                        <?php 
+                            if ($active_tab !== 'api_key' && $active_tab !== 'sync' && $active_tab !== 'logs' && $active_tab != 'plugin_settings') {
+                                submit_button(__('Save all changes'), 'primary tab-content-submit"
+"Select a Country'),
+                                'options'       => $countries,
+                                'required'      => true
+                                ),
+                                isset($options['store_country']) ? $options['store_country'] : WC()->countries->get_base_country()
+                            );
+                            
+                            ?>
+                        </div>
+                    </div>
+                    
+                    <div class=""box box-half"" >                    
+                        <label for=""phone"">
+                            <span> <?php esc_html_e('Phone",mailchimp-woocommerce,"Select a Country'),
+                                'options'       => $countries,
+                                'required'      => true
+                                ),
+                                isset($options['store_country']) ? $options['store_country'] : WC()->countries->get_base_country()
+                            );
+                            
+                            ?>
+                        </div>
+                    </div>
+                    
+                    <div class=""box box-half"" >                    
+                        <label for=""phone"">
+                            <span> <?php esc_html_e('Phone"
+"By clicking the ""Get Started!"" button, you are creating a Mailchimp account, and you agree to Mailchimp\'s <a href=%1$s target=_blank>Terms of Use</a> and <a href=%2$s target=_blank>Privacy Policy</a>.",mailchimp-woocommerce,"By clicking the ""Get Started!"" button, you are creating a Mailchimp account, and you agree to Mailchimp\'s <a href=%1$s target=_blank>Terms of Use</a> and <a href=%2$s target=_blank>Privacy Policy</a>."
+"Connect your store to Mailchimp",mailchimp-woocommerce,"Connect your store to Mailchimp"
+"Reconnect account",mailchimp-woocommerce,"Reconnect account"
+"Connect account",mailchimp-woocommerce,"Connect account"
+"Already connected. You can reconnect with another Mailchimp account if you want.",mailchimp-woocommerce,"Already connected. You can reconnect with another Mailchimp account if you want."
+"Connecting. A new window will open with Mailchimp\'s OAuth service. Please log-in and we will take care of the rest.",mailchimp-woocommerce,"Connecting. A new window will open with Mailchimp\'s OAuth service. Please log-in and we will take care of the rest."
+"Error, can\'t login.",mailchimp-woocommerce,"Error, can\'t login."
+"Connection in progress",mailchimp-woocommerce,"Connection in progress"
+"Connected! Please wait while loading next step",mailchimp-woocommerce,"Connected! Please wait while loading next step"
+Email,mailchimp-woocommerce,Email
+Username,mailchimp-woocommerce,Username
+"Suggested username: ",mailchimp-woocommerce,"Suggested username: "
+"Next Step",mailchimp-woocommerce,"Next Step"
+"Invalid Email. Please double check.",mailchimp-woocommerce,"Invalid Email. Please double check."
+"Address Line 1",mailchimp-woocommerce,"Address Line 1"
+"Address Line 2",mailchimp-woocommerce,"Address Line 2"
+City,mailchimp-woocommerce,City
+State,mailchimp-woocommerce,State
+Zip,mailchimp-woocommerce,Zip
+Country,mailchimp-woocommerce,Country
+Phone,mailchimp-woocommerce,Phone
+Timezone,mailchimp-woocommerce,Timezone
+"Go Back",mailchimp-woocommerce,"Go Back"
+"Get Started!",mailchimp-woocommerce,"Get Started!"
+"Invalid Address",mailchimp-woocommerce,"Invalid Address"
+"Invalid City",mailchimp-woocommerce,"Invalid City"
+"Invalid State",mailchimp-woocommerce,"Invalid State"
+"Invalid Zip",mailchimp-woocommerce,"Invalid Zip"
+"Invalid Country",mailchimp-woocommerce,"Invalid Country"
+"Invalid Phone",mailchimp-woocommerce,"Invalid Phone"
+"Invalid Timezone",mailchimp-woocommerce,"Invalid Timezone"
+Connecting...,mailchimp-woocommerce,Connecting...
+"Copy Log to clipboard",mailchimp-woocommerce,"Copy Log to clipboard"
+"Delete Log",mailchimp-woocommerce,"Delete Log"
+"There are currently no logs to view.",mailchimp-woocommerce,"There are currently no logs to view."
+"Logging Preferences",mailchimp-woocommerce,"Logging Preferences"
+"Logging Preferences",mailchimp-woocommerce,"Logging Preferences"
+"Advanced troubleshooting can be conducted with the logging capability turned on.
+            By default, it’s set to “standard” and you may toggle to either “debug” or “none” as needed.
+            With standard logging, you can see basic information about the data submission to Mailchimp including any errors.
+            “Debug” gives a much deeper insight that is useful to share with support if problems arise.",mailchimp-woocommerce,"Advanced troubleshooting can be conducted with the logging capability turned on.
+            By default, it’s set to “standard” and you may toggle to either “debug” or “none” as needed.
+            With standard logging, you can see basic information about the data submission to Mailchimp including any errors.
+            “Debug” gives a much deeper insight that is useful to share with support if problems arise."
+None,mailchimp-woocommerce,None
+Debug,mailchimp-woocommerce,Debug
+Standard,mailchimp-woocommerce,Standard
+"Recent Logs",mailchimp-woocommerce,"Recent Logs"
+"To select another audience, you must first disconnect your store on the Settings tab.",mailchimp-woocommerce,"To select another audience, you must first disconnect your store on the Settings tab."
+"Choose how you want the opt-in to your newsletter checkbox to render at checkout",mailchimp-woocommerce,"Choose how you want the opt-in to your newsletter checkbox to render at checkout"
+"The call-to-action text that prompts customers to subscribe to your newsletter at checkout.",mailchimp-woocommerce,"The call-to-action text that prompts customers to subscribe to your newsletter at checkout."
+"HTML tags allowed: <a href="""" target="""" title=""""></a> and <br>",mailchimp-woocommerce,"HTML tags allowed: <a href="""" target="""" title=""""></a> and <br>"
+"Leave it blank to use language translation files (.po / .mo), translating the string: ""Subscribe to our newsletter"".",mailchimp-woocommerce,"Leave it blank to use language translation files (.po / .mo), translating the string: ""Subscribe to our newsletter""."
+"The box below is a preview of your checkout page. Styles and fields may not be exact.",mailchimp-woocommerce,"The box below is a preview of your checkout page. Styles and fields may not be exact."
+"Subscribe to our newsletter",mailchimp-woocommerce,"Výhodné nabídky a doporučení podle vašich chutí"
+"To change the position of the opt-in <br/>checkbox at checkout, input one of the <a href=%s target=_blank>available WooCommerce form actions</a>.",mailchimp-woocommerce,"To change the position of the opt-in <br/>checkbox at checkout, input one of the <a href=%s target=_blank>available WooCommerce form actions</a>."
+"Add a comma-separated list of tags to apply to a subscriber in Mailchimp after a transaction occurs",mailchimp-woocommerce,"Add a comma-separated list of tags to apply to a subscriber in Mailchimp after a transaction occurs"
+"Define the product image size used by abandoned carts, order notifications, and product recommendations.",mailchimp-woocommerce,"Define the product image size used by abandoned carts, order notifications, and product recommendations."
+"Audience Settings",mailchimp-woocommerce,"Audience Settings"
+"Connect your store with an audience",mailchimp-woocommerce,"Connect your store with an audience"
+"Audience name",mailchimp-woocommerce,"Audience name"
+"Create New Audience",mailchimp-woocommerce,"Create New Audience"
+"Select Audience",mailchimp-woocommerce,"Select Audience"
+"During initial sync, auto subscribe the existing customers.",mailchimp-woocommerce,"During initial sync, auto subscribe the existing customers."
+"Your store is currently connected to:",mailchimp-woocommerce,"Your store is currently connected to:"
+"Audience Defaults",mailchimp-woocommerce,"Audience Defaults"
+"From Name",mailchimp-woocommerce,"From Name"
+"From Email",mailchimp-woocommerce,"From Email"
+Subject,mailchimp-woocommerce,Subject
+"Store Newsletter",mailchimp-woocommerce,"Store Newsletter"
+Language,mailchimp-woocommerce,Language
+"Permission reminder message",mailchimp-woocommerce,"Permission reminder message"
+"Opt-in Settings",mailchimp-woocommerce,"Opt-in Settings"
+"Checkbox display options",mailchimp-woocommerce,"Checkbox display options"
+"Visible, checked by default",mailchimp-woocommerce,"Visible, checked by default"
+"Visible, unchecked by default",mailchimp-woocommerce,"Visible, unchecked by default"
+"Hidden, unchecked by default",mailchimp-woocommerce,"Hidden, unchecked by default"
+"Message for the opt-in checkbox",mailchimp-woocommerce,"Message for the opt-in checkbox"
+"Shop checkout preview",mailchimp-woocommerce,"Shop checkout preview"
+"Advanced Opt-in Settings",mailchimp-woocommerce,"Advanced Opt-in Settings"
+"Opt-in checkbox position",mailchimp-woocommerce,"Opt-in checkbox position"
+"Enter a WooCommerce form action",mailchimp-woocommerce,"Enter a WooCommerce form action"
+"Subscriber Settings",mailchimp-woocommerce,"Subscriber Settings"
+Tags,mailchimp-woocommerce,Tags
+"Product Settings",mailchimp-woocommerce,"Product Settings"
+"Product Image Size",mailchimp-woocommerce,"Product Image Size"
+"Mailchimp says: You must enter in a valid API key.",mailchimp-woocommerce,"Mailchimp says: You must enter in a valid API key."
+"Mailchimp says: You must select a marketing audience.",mailchimp-woocommerce,"Mailchimp says: You must select a marketing audience."
+"Mailchimp says: Sorry you must set up your store before you proceed!",mailchimp-woocommerce,"Mailchimp says: Sorry you must set up your store before you proceed!"
+"Mailchimp says: You are not fully ready to run the Store Sync, please verify your settings before proceeding.",mailchimp-woocommerce,"Mailchimp says: You are not fully ready to run the Store Sync, please verify your settings before proceeding."
+"Mailchimp says: Your re-sync has been started!",mailchimp-woocommerce,"Mailchimp says: Your re-sync has been started!"
+"Occasionally we may send you information about how-to\'s, updates, and other news to the store\'s admin email address. Choose whether or not you want to receive these messages at %1$s ",mailchimp-woocommerce,"Occasionally we may send you information about how-to\'s, updates, and other news to the store\'s admin email address. Choose whether or not you want to receive these messages at %1$s "
+"Opt-in to our newsletter",mailchimp-woocommerce,"Opt-in to our newsletter"
+"Disconnect your store from MailChimp. This action will remove all entries from the database but you will be able to reconnect anytime.",mailchimp-woocommerce,"Disconnect your store from MailChimp. This action will remove all entries from the database but you will be able to reconnect anytime."
+"Plugin Settings",mailchimp-woocommerce,"Plugin Settings"
+Communication,mailchimp-woocommerce,Communication
+"Disconnect Store",mailchimp-woocommerce,"Disconnect Store"
+"Disconnect Store",mailchimp-woocommerce,"Disconnect Store"
+"Select a Country'),
+                'options'       => $countries,
+                'required'      => true
+                ),
+                isset($options['store_country']) ? $options['store_country'] : WC()->countries->get_base_country()
+            );
+            
+            ?>
+        </div>
+    </div>
+
+    <div class=""box box-half"" >
+        <label for=""<?php echo $this->plugin_name; ?>-store-phone-label"">
+                <span> <?php esc_html_e('Phone Number",mailchimp-woocommerce,"Select a Country'),
+                'options'       => $countries,
+                'required'      => true
+                ),
+                isset($options['store_country']) ? $options['store_country'] : WC()->countries->get_base_country()
+            );
+            
+            ?>
+        </div>
+    </div>
+
+    <div class=""box box-half"" >
+        <label for=""<?php echo $this->plugin_name; ?>-store-phone-label"">
+                <span> <?php esc_html_e('Phone Number"
+"Locale Settings",mailchimp-woocommerce,"Locale Settings"
+"We\'ve detected that your WooCommerce store\'s currency is <b>%1$s</b> (%3$schange%4$s), and the WordPress timezone is <b>%2$s</b> (%5$schange%4$s).",mailchimp-woocommerce,"We\'ve detected that your WooCommerce store\'s currency is <b>%1$s</b> (%3$schange%4$s), and the WordPress timezone is <b>%2$s</b> (%5$schange%4$s)."
+"General Settings' ).'"">",mailchimp-woocommerce,"General Settings' ).'"">"
+"WooCommerce Settings' ).'"">'
+                );
+            ?>
+        </p>
+    </div>
+
+    <div class=""box box-half"" >
+        
+        <label for=""<?php echo $this->plugin_name; ?>-store-locale-label"">
+            <span><?php esc_html_e('Locale",mailchimp-woocommerce,"WooCommerce Settings' ).'"">'
+                );
+            ?>
+        </p>
+    </div>
+
+    <div class=""box box-half"" >
+        
+        <label for=""<?php echo $this->plugin_name; ?>-store-locale-label"">
+            <span><?php esc_html_e('Locale"
+"Please apply your locale settings. If you\'re unsure about these, use the defaults.",mailchimp-woocommerce,"Please apply your locale settings. If you\'re unsure about these, use the defaults."
+,mailchimp-woocommerce,
+"Select store's locale",mailchimp-woocommerce,"Select store's locale"
+"Permission Settings",mailchimp-woocommerce,"Permission Settings"
+"Select the minimum permission capability to manage Mailchimp for Woocommerce options",mailchimp-woocommerce,"Select the minimum permission capability to manage Mailchimp for Woocommerce options"
+"Store Settings",mailchimp-woocommerce,"Store Settings"
+Name,mailchimp-woocommerce,Name
+Email,mailchimp-woocommerce,Email
+"Street address",mailchimp-woocommerce,"Street address"
+City,mailchimp-woocommerce,City
+State,mailchimp-woocommerce,State
+"Postal Code",mailchimp-woocommerce,"Postal Code"
+Country,mailchimp-woocommerce,Country
+"Phone Number",mailchimp-woocommerce,"Phone Number"
+Locale,mailchimp-woocommerce,Locale
+"Plugin Permission Level",mailchimp-woocommerce,"Plugin Permission Level"
+"Administrators Only",mailchimp-woocommerce,"Administrators Only"
+"Shop Managers and Administrators",mailchimp-woocommerce,"Shop Managers and Administrators"
+"D, M j, Y g:i A",mailchimp-woocommerce,"D, M j, Y g:i A"
+"Is this plugin helping your e-commerce business? <a href=%s target=_blank>Please leave us a ★★★★★ review!</a>.",mailchimp-woocommerce,"Is this plugin helping your e-commerce business? <a href=%s target=_blank>Please leave us a ★★★★★ review!</a>."
+"Have a larger store or having issues syncing? Consider using <a href=%1$s target=_blank>WP-CLI</a> or browse documentation around common <a href=%2$s target=_blank>caching problems</a>.",mailchimp-woocommerce,"Have a larger store or having issues syncing? Consider using <a href=%1$s target=_blank>WP-CLI</a> or browse documentation around common <a href=%2$s target=_blank>caching problems</a>."
+"Need help? Visit <a href=%1$s target=_blank>Mailchimp support</a> or <a id=%2$s href=%3$s>send us an email.</a> ",mailchimp-woocommerce,"Need help? Visit <a href=%1$s target=_blank>Mailchimp support</a> or <a id=%2$s href=%3$s>send us an email.</a> "
+"By using this plugin, Mailchimp will process customer information in accordance with their <a href=%s target=_blank>Privacy Policy</a>.",mailchimp-woocommerce,"By using this plugin, Mailchimp will process customer information in accordance with their <a href=%s target=_blank>Privacy Policy</a>."
+"Resync now",mailchimp-woocommerce,"Resync now"
+"Resync now",mailchimp-woocommerce,"Resync now"
+"Sync is running. Please wait until it finishes.",mailchimp-woocommerce,"Sync is running. Please wait until it finishes."
+"Send us a support ticket",mailchimp-woocommerce,"Send us a support ticket"
+"The best way to get in touch with us is by submitting a ticket in the form below. </br> We do our best to get back to you within 48 hours. We look forward to hear from you!",mailchimp-woocommerce,"The best way to get in touch with us is by submitting a ticket in the form below. </br> We do our best to get back to you within 48 hours. We look forward to hear from you!"
+"Account Connected",mailchimp-woocommerce,"Account Connected"
+"Audience Connected",mailchimp-woocommerce,"Audience Connected"
+"Sync Status:",mailchimp-woocommerce,"Sync Status:"
+Completed,mailchimp-woocommerce,Completed
+Running,mailchimp-woocommerce,Running
+"Initial sync in progress",mailchimp-woocommerce,"Initial sync in progress"
+"Last Updated:",mailchimp-woocommerce,"Last Updated:"
+Starting...,mailchimp-woocommerce,Starting...
+Coupons,mailchimp-woocommerce,Coupons
+Products,mailchimp-woocommerce,Products
+Orders,mailchimp-woocommerce,Orders
+Subscribers,mailchimp-woocommerce,Subscribers
+Transactional,mailchimp-woocommerce,Transactional
+Unsubscribed,mailchimp-woocommerce,Unsubscribed
+"More Information",mailchimp-woocommerce,"More Information"
+"Order and customer information will not sync if they contain an Amazon or generic email address.",mailchimp-woocommerce,"Order and customer information will not sync if they contain an Amazon or generic email address."
+Synchronization,mailchimp-woocommerce,Synchronization
+"You can safely resync your audience at any time without losing any of your e-commerce data.",mailchimp-woocommerce,"You can safely resync your audience at any time without losing any of your e-commerce data."
+"First name",mailchimp-woocommerce,"First name"
+"Last name",mailchimp-woocommerce,"Last name"
+Email,mailchimp-woocommerce,Email
+Subject,mailchimp-woocommerce,Subject
+Message,mailchimp-woocommerce,Message
+Send,mailchimp-woocommerce,Send
+"Invalid Email. Please double check.",mailchimp-woocommerce,"Invalid Email. Please double check."
+"Invalid First Name. Please double check.",mailchimp-woocommerce,"Invalid First Name. Please double check."
+"Invalid Last Name. Please double check.",mailchimp-woocommerce,"Invalid Last Name. Please double check."
+"Invalid Subject. Please double check.",mailchimp-woocommerce,"Invalid Subject. Please double check."
+"Invalid Message. Please double check.",mailchimp-woocommerce,"Invalid Message. Please double check."
+"Message sent...",mailchimp-woocommerce,"Message sent..."
+"Error: Message not sent...",mailchimp-woocommerce,"Error: Message not sent..."
+"Error retrieving list for double_optin check",mailchimp-woocommerce,"Error retrieving list for double_optin check"
+"The MailChimp For WooCommerce plugin requires the <a href=""http://wordpress.org/extend/plugins/woocommerce/"">WooCommerce</a> plugin to be active!",mailchimp-woocommerce,"The MailChimp For WooCommerce plugin requires the <a href=""http://wordpress.org/extend/plugins/woocommerce/"">WooCommerce</a> plugin to be active!"
+"Please select an option",mailchimp-woocommerce,"Please select an option"
+"Sending Feedback",mailchimp-woocommerce,"Sending Feedback"
+"I want to change the audience associated with this integration.",mailchimp-woocommerce,"I want to change the audience associated with this integration."
+"I want to change the site or store connected through this integration.",mailchimp-woocommerce,"I want to change the site or store connected through this integration."
+"The order data isn\'t syncing.",mailchimp-woocommerce,"The order data isn\'t syncing."
+"The promo codes aren\'t showing up.",mailchimp-woocommerce,"The promo codes aren\'t showing up."
+"I\'m trying to troubleshoot the integration.",mailchimp-woocommerce,"I\'m trying to troubleshoot the integration."
+"I was instructed to disconnect by Mailchimp Support.",mailchimp-woocommerce,"I was instructed to disconnect by Mailchimp Support."
+"I no longer use this integration.",mailchimp-woocommerce,"I no longer use this integration."
+"It\'s a temporary deactivation.",mailchimp-woocommerce,"It\'s a temporary deactivation."
+Other,mailchimp-woocommerce,Other
+"Please share the reason",mailchimp-woocommerce,"Please share the reason"
+"Quick Feedback",mailchimp-woocommerce,"Quick Feedback"
+"If you have a moment, please share why you are deactivating %s:",mailchimp-woocommerce,"If you have a moment, please share why you are deactivating %s:"
+"Mailchimp for Woocommerce",mailchimp-woocommerce,"Mailchimp for Woocommerce"
+"Submit & Deactivate",mailchimp-woocommerce,"Submit & Deactivate"
+"Skip & Deactivate",mailchimp-woocommerce,"Skip & Deactivate"
+"Subscribe to our newsletter",mailchimp-woocommerce,"Výhodné nabídky a doporučení podle vašich chutí"
+"Please select all the ways you would like to hear from us",mailchimp-woocommerce,"Please select all the ways you would like to hear from us"
+"When shopping, we keep a record of your email and the cart contents for up to 30 days on our server. This record is kept to repopulate the contents of your cart if you switch devices or needed to come back another day. Read our privacy policy <a href=""%s"">here</a>.",mailchimp-woocommerce,"When shopping, we keep a record of your email and the cart contents for up to 30 days on our server. This record is kept to repopulate the contents of your cart if you switch devices or needed to come back another day. Read our privacy policy <a href=""%s"">here</a>."
+"MailChimp for WooCommerce'),
+            'callback'               => array($this, 'export'),
+        );
+        return $exporters;
+    }
+
+    /**
+     * @param array $erasers
+     * @return mixed
+     */
+    public function register_eraser($erasers)
+    {
+        $erasers['mailchimp-woocommerce'] = array(
+            'eraser_friendly_name' => __('MailChimp for WooCommerce'),
+            'callback'               => array($this, 'erase'),
+        );
+        return $erasers;
+    }
+
+    /**
+     * @param $email_address
+     * @param int $page
+     * @return array
+     */
+    public function export($email_address, $page = 1)
+    {
+        global $wpdb;
+
+        $uid = mailchimp_hash_trim_lower($email_address);
+
+        $data = array();
+
+        if (get_site_option('mailchimp_woocommerce_db_mailchimp_carts', false)) {
+            $table = ""{$wpdb->prefix}mailchimp_carts"";
+            $statement = ""SELECT * FROM $table WHERE id = %s"";
+            $sql = $wpdb->prepare($statement, $uid);
+
+            if (($saved_cart = $wpdb->get_row($sql)) && !empty($saved_cart)) {
+                $data = array('name' => __('Email Address'), 'value' => $email_address);
+            }
+        }
+
+        // If nothing found, return nothing
+        if (is_array($data) && (count($data) < 1)) {
+            return (array('data' => array(), 'done' => true));
+        }
+
+        return array(
+            'data' => array(
+                array(
+                    'group_id'    => 'mailchimp_cart",mailchimp-woocommerce,"MailChimp for WooCommerce'),
+            'callback'               => array($this, 'export'),
+        );
+        return $exporters;
+    }
+
+    /**
+     * @param array $erasers
+     * @return mixed
+     */
+    public function register_eraser($erasers)
+    {
+        $erasers['mailchimp-woocommerce'] = array(
+            'eraser_friendly_name' => __('MailChimp for WooCommerce'),
+            'callback'               => array($this, 'erase'),
+        );
+        return $erasers;
+    }
+
+    /**
+     * @param $email_address
+     * @param int $page
+     * @return array
+     */
+    public function export($email_address, $page = 1)
+    {
+        global $wpdb;
+
+        $uid = mailchimp_hash_trim_lower($email_address);
+
+        $data = array();
+
+        if (get_site_option('mailchimp_woocommerce_db_mailchimp_carts', false)) {
+            $table = ""{$wpdb->prefix}mailchimp_carts"";
+            $statement = ""SELECT * FROM $table WHERE id = %s"";
+            $sql = $wpdb->prepare($statement, $uid);
+
+            if (($saved_cart = $wpdb->get_row($sql)) && !empty($saved_cart)) {
+                $data = array('name' => __('Email Address'), 'value' => $email_address);
+            }
+        }
+
+        // If nothing found, return nothing
+        if (is_array($data) && (count($data) < 1)) {
+            return (array('data' => array(), 'done' => true));
+        }
+
+        return array(
+            'data' => array(
+                array(
+                    'group_id'    => 'mailchimp_cart"
+"User ID",mailchimp-woocommerce,"User ID"
+"D, M j, Y g:i A",mailchimp-woocommerce,"D, M j, Y g:i A"
+"Invalid action - must be a recurring action.",mailchimp-woocommerce,"Invalid action - must be a recurring action."
+"Scheduled Actions",mailchimp-woocommerce,"Scheduled Actions"
+"Scheduled Actions",mailchimp-woocommerce,"Scheduled Actions"
+"Scheduled Actions",mailchimp-woocommerce,"Scheduled Actions"
+About,mailchimp-woocommerce,About
+"About Action Scheduler %s",mailchimp-woocommerce,"About Action Scheduler %s"
+"Action Scheduler is a scalable, traceable job queue for background processing large sets of actions. Action Scheduler works by triggering an action hook to run at some time in the future. Scheduled actions can also be scheduled to run on a recurring schedule.",mailchimp-woocommerce,"Action Scheduler is a scalable, traceable job queue for background processing large sets of actions. Action Scheduler works by triggering an action hook to run at some time in the future. Scheduled actions can also be scheduled to run on a recurring schedule."
+Columns,mailchimp-woocommerce,Columns
+"Scheduled Action Columns",mailchimp-woocommerce,"Scheduled Action Columns"
+Hook,mailchimp-woocommerce,Hook
+"Name of the action hook that will be triggered.",mailchimp-woocommerce,"Name of the action hook that will be triggered."
+Status,mailchimp-woocommerce,Status
+"Action statuses are Pending, Complete, Canceled, Failed",mailchimp-woocommerce,"Action statuses are Pending, Complete, Canceled, Failed"
+Arguments,mailchimp-woocommerce,Arguments
+"Optional data array passed to the action hook.",mailchimp-woocommerce,"Optional data array passed to the action hook."
+Group,mailchimp-woocommerce,Group
+"Optional action group.",mailchimp-woocommerce,"Optional action group."
+Recurrence,mailchimp-woocommerce,Recurrence
+"The action\'s schedule frequency.",mailchimp-woocommerce,"The action\'s schedule frequency."
+Scheduled,mailchimp-woocommerce,Scheduled
+"The date/time the action is/was scheduled to run.",mailchimp-woocommerce,"The date/time the action is/was scheduled to run."
+Log,mailchimp-woocommerce,Log
+"Activity log for the action.",mailchimp-woocommerce,"Activity log for the action."
+"Attempting to reduce used memory...",mailchimp-woocommerce,"Attempting to reduce used memory..."
+"Stopped the insanity for %d second",mailchimp-woocommerce,"Stopped the insanity for %d second"
+"Stopped the insanity for %d seconds",mailchimp-woocommerce,"Stopped the insanity for %d seconds"
+"Action [%1$s] has an invalid schedule: %2$s",mailchimp-woocommerce,"Action [%1$s] has an invalid schedule: %2$s"
+"Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. $args = %2$s",mailchimp-woocommerce,"Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. $args = %2$s"
+"Scheduled Actions",mailchimp-woocommerce,"Scheduled Actions"
+Delete,mailchimp-woocommerce,Delete
+Hook,mailchimp-woocommerce,Hook
+Status,mailchimp-woocommerce,Status
+Arguments,mailchimp-woocommerce,Arguments
+Group,mailchimp-woocommerce,Group
+Recurrence,mailchimp-woocommerce,Recurrence
+"Scheduled Date",mailchimp-woocommerce,"Scheduled Date"
+Log,mailchimp-woocommerce,Log
+"Claim ID",mailchimp-woocommerce,"Claim ID"
+Run,mailchimp-woocommerce,Run
+"Process the action now as if it were run as part of a queue",mailchimp-woocommerce,"Process the action now as if it were run as part of a queue"
+Cancel,mailchimp-woocommerce,Cancel
+"Cancel the action now to avoid it being run in future",mailchimp-woocommerce,"Cancel the action now to avoid it being run in future"
+Now!,mailchimp-woocommerce,Now!
+"Every %s",mailchimp-woocommerce,"Every %s"
+Non-repeating,mailchimp-woocommerce,Non-repeating
+"It appears one or more database tables were missing. Attempting to re-create the missing table(s).",mailchimp-woocommerce,"It appears one or more database tables were missing. Attempting to re-create the missing table(s)."
+"A new queue has begun processing. <a href=""%s"">View actions in-progress &raquo;</a>",mailchimp-woocommerce,"A new queue has begun processing. <a href=""%s"">View actions in-progress &raquo;</a>"
+"The next queue will begin processing in approximately %d seconds.",mailchimp-woocommerce,"The next queue will begin processing in approximately %d seconds."
+"Successfully executed action: %s",mailchimp-woocommerce,"Successfully executed action: %s"
+"Successfully canceled action: %s",mailchimp-woocommerce,"Successfully canceled action: %s"
+"Successfully processed change for action: %s",mailchimp-woocommerce,"Successfully processed change for action: %s"
+"Could not process change for action: ""%1$s"" (ID: %2$d). Error: %3$s",mailchimp-woocommerce,"Could not process change for action: ""%1$s"" (ID: %2$d). Error: %3$s"
+" (%s ago)",mailchimp-woocommerce," (%s ago)"
+" (%s)",mailchimp-woocommerce," (%s)"
+"Search hook, args and claim ID",mailchimp-woocommerce,"Search hook, args and claim ID"
+"Maximum simultaneous queues already in progress (%s queue). No additional queues will begin processing until the current queues are complete.",mailchimp-woocommerce,"Maximum simultaneous queues already in progress (%s queue). No additional queues will begin processing until the current queues are complete."
+"Maximum simultaneous queues already in progress (%s queues). No additional queues will begin processing until the current queues are complete.",mailchimp-woocommerce,"Maximum simultaneous queues already in progress (%s queues). No additional queues will begin processing until the current queues are complete."
+"Every minute",mailchimp-woocommerce,"Every minute"
+"This data will be deleted in %s.",mailchimp-woocommerce,"This data will be deleted in %s."
+"Action Scheduler has migrated data to custom tables; however, orphaned log entries exist in the WordPress Comments table. %1$s <a href=""%2$s"">Learn more &raquo;</a>",mailchimp-woocommerce,"Action Scheduler has migrated data to custom tables; however, orphaned log entries exist in the WordPress Comments table. %1$s <a href=""%2$s"">Learn more &raquo;</a>"
+"Action Scheduler",mailchimp-woocommerce,"Action Scheduler"
+"This section shows scheduled action counts.",mailchimp-woocommerce,"This section shows scheduled action counts."
+Version:,mailchimp-woocommerce,Version:
+"Action Status",mailchimp-woocommerce,"Action Status"
+Count,mailchimp-woocommerce,Count
+"Oldest Scheduled Date",mailchimp-woocommerce,"Oldest Scheduled Date"
+"Newest Scheduled Date",mailchimp-woocommerce,"Newest Scheduled Date"
+"The %s class can only be run within WP CLI.",mailchimp-woocommerce,"The %s class can only be run within WP CLI."
+"There are too many concurrent batches, but the run is forced to continue.",mailchimp-woocommerce,"There are too many concurrent batches, but the run is forced to continue."
+"There are too many concurrent batches.",mailchimp-woocommerce,"There are too many concurrent batches."
+"The claim has been lost. Aborting current batch.",mailchimp-woocommerce,"The claim has been lost. Aborting current batch."
+"Started processing action %s",mailchimp-woocommerce,"Started processing action %s"
+"Completed processing action %1$s with hook: %2$s",mailchimp-woocommerce,"Completed processing action %1$s with hook: %2$s"
+"Error processing action %1$s: %2$s",mailchimp-woocommerce,"Error processing action %1$s: %2$s"
+"Running %d action",mailchimp-woocommerce,"Running %d action"
+"Running %d actions",mailchimp-woocommerce,"Running %d actions"
+"There was an error running the action scheduler: %s",mailchimp-woocommerce,"There was an error running the action scheduler: %s"
+"Found %d scheduled task",mailchimp-woocommerce,"Found %d scheduled task"
+"%d batch executed.",mailchimp-woocommerce,"%d batch executed."
+"%d scheduled task completed.",mailchimp-woocommerce,"%d scheduled task completed."
+"Found %d scheduled tasks",mailchimp-woocommerce,"Found %d scheduled tasks"
+"%d batches executed.",mailchimp-woocommerce,"%d batches executed."
+"%d scheduled tasks completed.",mailchimp-woocommerce,"%d scheduled tasks completed."
+"The %s class can only be run within WP CLI.",mailchimp-woocommerce,"The %s class can only be run within WP CLI."
+"Action Scheduler function %1$s%2$s%3$s should not be used within the WordPress %1$sshutdown%3$s hook.",mailchimp-woocommerce,"Action Scheduler function %1$s%2$s%3$s should not be used within the WordPress %1$sshutdown%3$s hook."
+"Search results for ""%s""",mailchimp-woocommerce,"Search results for ""%s"""
+Filter,mailchimp-woocommerce,Filter
+Search,mailchimp-woocommerce,Hledat
+"action created",mailchimp-woocommerce,"action created"
+"action canceled",mailchimp-woocommerce,"action canceled"
+"action started via %s",mailchimp-woocommerce,"action started via %s"
+"action started",mailchimp-woocommerce,"action started"
+"action complete via %s",mailchimp-woocommerce,"action complete via %s"
+"action complete",mailchimp-woocommerce,"action complete"
+"action failed via %1$s: %2$s",mailchimp-woocommerce,"action failed via %1$s: %2$s"
+"action failed: %s",mailchimp-woocommerce,"action failed: %s"
+"action timed out after %s seconds",mailchimp-woocommerce,"action timed out after %s seconds"
+"unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s",mailchimp-woocommerce,"unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s"
+"action reset",mailchimp-woocommerce,"action reset"
+"action ignored via %s",mailchimp-woocommerce,"action ignored via %s"
+"action ignored",mailchimp-woocommerce,"action ignored"
+"There was a failure fetching this action: %s",mailchimp-woocommerce,"There was a failure fetching this action: %s"
+"There was a failure fetching this action",mailchimp-woocommerce,"There was a failure fetching this action"
+"There was a failure scheduling the next instance of this action: %s",mailchimp-woocommerce,"There was a failure scheduling the next instance of this action: %s"
+"ActionScheduler_Action::$args too long. To ensure the args column can be indexed, action args should not be more than %d characters when encoded as JSON.",mailchimp-woocommerce,"ActionScheduler_Action::$args too long. To ensure the args column can be indexed, action args should not be more than %d characters when encoded as JSON."
+Complete,mailchimp-woocommerce,Complete
+Pending,mailchimp-woocommerce,Pending
+In-progress,mailchimp-woocommerce,In-progress
+Failed,mailchimp-woocommerce,Failed
+Canceled,mailchimp-woocommerce,Canceled
+"action canceled",mailchimp-woocommerce,"action canceled"
+"Database error.",mailchimp-woocommerce,"Database error."
+"Error saving action: %s",mailchimp-woocommerce,"Error saving action: %s"
+"Invalid value for select or count parameter. Cannot query actions.",mailchimp-woocommerce,"Invalid value for select or count parameter. Cannot query actions."
+"Unidentified action %s",mailchimp-woocommerce,"Unidentified action %s"
+"Unidentified action %s",mailchimp-woocommerce,"Unidentified action %s"
+"Unidentified action %s",mailchimp-woocommerce,"Unidentified action %s"
+"The group ""%s"" does not exist.",mailchimp-woocommerce,"The group ""%s"" does not exist."
+"Unable to claim actions. Database error.",mailchimp-woocommerce,"Unable to claim actions. Database error."
+"Unidentified action %s",mailchimp-woocommerce,"Unidentified action %s"
+"Unidentified action %s",mailchimp-woocommerce,"Unidentified action %s"
+"Invalid action ID. No status found.",mailchimp-woocommerce,"Invalid action ID. No status found."
+"Unknown status found for action.",mailchimp-woocommerce,"Unknown status found for action."
+"Error saving action: %s",mailchimp-woocommerce,"Error saving action: %s"
+"Unable to save action.",mailchimp-woocommerce,"Unable to save action."
+"Invalid schedule. Cannot save action.",mailchimp-woocommerce,"Invalid schedule. Cannot save action."
+"Unidentified action %s",mailchimp-woocommerce,"Unidentified action %s"
+"Unidentified action %s",mailchimp-woocommerce,"Unidentified action %s"
+"Unidentified action %s",mailchimp-woocommerce,"Unidentified action %s"
+"Unable to claim actions. Database error.",mailchimp-woocommerce,"Unable to claim actions. Database error."
+"The group ""%s"" does not exist.",mailchimp-woocommerce,"The group ""%s"" does not exist."
+"Unable to unlock claim %s. Database error.",mailchimp-woocommerce,"Unable to unlock claim %s. Database error."
+"Unable to unlock claim on action %s. Database error.",mailchimp-woocommerce,"Unable to unlock claim on action %s. Database error."
+"Unable to mark failure on action %s. Database error.",mailchimp-woocommerce,"Unable to mark failure on action %s. Database error."
+"Invalid action ID. No status found.",mailchimp-woocommerce,"Invalid action ID. No status found."
+"Unidentified action %s",mailchimp-woocommerce,"Unidentified action %s"
+"%s Support for strings longer than this will be removed in a future version.",mailchimp-woocommerce,"%s Support for strings longer than this will be removed in a future version."
+"Scheduled Actions",mailchimp-woocommerce,"Scheduled Actions"
+"Scheduled actions are hooks triggered on a cetain date and time.",mailchimp-woocommerce,"Scheduled actions are hooks triggered on a cetain date and time."
+"Scheduled Actions",mailchimp-woocommerce,"Scheduled Actions"
+"Scheduled Action",mailchimp-woocommerce,"Scheduled Action"
+Add,mailchimp-woocommerce,Add
+"Add New Scheduled Action",mailchimp-woocommerce,"Add New Scheduled Action"
+Edit,mailchimp-woocommerce,Edit
+"Edit Scheduled Action",mailchimp-woocommerce,"Edit Scheduled Action"
+"New Scheduled Action",mailchimp-woocommerce,"New Scheduled Action"
+"View Action",mailchimp-woocommerce,"View Action"
+"View Action",mailchimp-woocommerce,"View Action"
+"Search Scheduled Actions",mailchimp-woocommerce,"Search Scheduled Actions"
+"No actions found",mailchimp-woocommerce,"No actions found"
+"No actions found in trash",mailchimp-woocommerce,"No actions found in trash"
+"Action Group",mailchimp-woocommerce,"Action Group"
+"Unable to remove source migrated action %s",mailchimp-woocommerce,"Unable to remove source migrated action %s"
+"Error saving action: %s",mailchimp-woocommerce,"Error saving action: %s"
+"Source store must be configured before running a migration",mailchimp-woocommerce,"Source store must be configured before running a migration"
+"Source logger must be configured before running a migration",mailchimp-woocommerce,"Source logger must be configured before running a migration"
+"Destination store must be configured before running a migration",mailchimp-woocommerce,"Destination store must be configured before running a migration"
+"Destination logger must be configured before running a migration",mailchimp-woocommerce,"Destination logger must be configured before running a migration"
+"Action Scheduler migration in progress. The list of scheduled actions may be incomplete.",mailchimp-woocommerce,"Action Scheduler migration in progress. The list of scheduled actions may be incomplete."
+"Migrated action with ID %1$d in %2$s to ID %3$d in %4$s",mailchimp-woocommerce,"Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
+"Migrating %d action",mailchimp-woocommerce,"Migrating %d action"
+"Migrating %d actions",mailchimp-woocommerce,"Migrating %d actions"

@@ -1,0 +1,531 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Please select the country and channel for which you would like to create a new product feed. The channel drop-down will populate with relevant country channels once you selected a country. Filling in a project name is mandatory.",woocommerce-sea,"Please select the country and channel for which you would like to create a new product feed. The channel drop-down will populate with relevant country channels once you selected a country. Filling in a project name is mandatory."
+"Map your products or categories to the categories of your selected channel. For some channels adding their categorisation in the product feed is mandatory. Even when category mappings are not mandatory it is likely your products will get better visibility and higher conversions when mappings have been added.",woocommerce-sea,"Map your products or categories to the categories of your selected channel. For some channels adding their categorisation in the product feed is mandatory. Even when category mappings are not mandatory it is likely your products will get better visibility and higher conversions when mappings have been added."
+"Please drag and drop the attributes you want to be in your product feed from left to right.",woocommerce-sea,"Please drag and drop the attributes you want to be in your product feed from left to right."
+"Mapping your product categories to the channel categories will increase changes of getting all your products listed correctly, thus increase your conversion rates.",woocommerce-sea,"Mapping your product categories to the channel categories will increase changes of getting all your products listed correctly, thus increase your conversion rates."
+"Create filter and rules so exactly the right products end up in your product feed. These filters and rules are only eligable for the current product feed you are configuring and will not be used for other feeds.<br/><br/><strong>Filters:</strong> Exclude or include products that meet certain conditions. [<strong><i><a href=""https://adtribes.io/how-to-create-filters-for-your-product-feed/"" target=""_blank"">Detailed information and filter examples</a></i></strong>] or [<strong><i><a href=""https://adtribes.io/create-a-product-feed-for-one-specific-category/"" target=""_blank"">Create a product feed for just 1 category</a></i></strong>]<br/><strong>Rules:</strong> Change attribute values based on other attribute values or conditions.[<strong><i><a href=""https://adtribes.io/how-to-create-rules/"" target=""_blank"">Detailed information about rules and some examples</a></i></strong>]<br/><br/>Order of execution: the filters and rules will be executed in the order of creation.",woocommerce-sea,"Create filter and rules so exactly the right products end up in your product feed. These filters and rules are only eligable for the current product feed you are configuring and will not be used for other feeds.<br/><br/><strong>Filters:</strong> Exclude or include products that meet certain conditions. [<strong><i><a href=""https://adtribes.io/how-to-create-filters-for-your-product-feed/"" target=""_blank"">Detailed information and filter examples</a></i></strong>] or [<strong><i><a href=""https://adtribes.io/create-a-product-feed-for-one-specific-category/"" target=""_blank"">Create a product feed for just 1 category</a></i></strong>]<br/><strong>Rules:</strong> Change attribute values based on other attribute values or conditions.[<strong><i><a href=""https://adtribes.io/how-to-create-rules/"" target=""_blank"">Detailed information about rules and some examples</a></i></strong>]<br/><br/>Order of execution: the filters and rules will be executed in the order of creation."
+"<strong>Google Analytics UTM codes:</strong><br/>Adding Google Analytics UTM codes is not mandatory, it will however enable you to get detailed insights into how your products are performing in Google Analytics reporting and allow you to tweak and tune your campaign making it more profitable. We strongly advise you to add the Google Analytics tracking. When enabled the plugin will append the Google Analytics UTM parameters to your landingpage URL\'s.",woocommerce-sea,"<strong>Google Analytics UTM codes:</strong><br/>Adding Google Analytics UTM codes is not mandatory, it will however enable you to get detailed insights into how your products are performing in Google Analytics reporting and allow you to tweak and tune your campaign making it more profitable. We strongly advise you to add the Google Analytics tracking. When enabled the plugin will append the Google Analytics UTM parameters to your landingpage URL\'s."
+"Your product feed is now being created, please be patient. Your feed details will be displayed when generation of the product feed has been finished.",woocommerce-sea,"Your product feed is now being created, please be patient. Your feed details will be displayed when generation of the product feed has been finished."
+"For the selected channel the attributes shown below are mandatory, please map them to your product attributes. We\'ve already pre-filled a lot of mappings so all you have to do is check those and map the ones that are left blank or add new ones by hitting the \'Add field mapping\' button.<br/><br/>[<strong><i><a href=""https://adtribes.io/how-to-use-static-values-and-create-fake-content-for-your-product-feed/"" target=""_blank"">Learn how to use static values</a></i></strong>]",woocommerce-sea,"For the selected channel the attributes shown below are mandatory, please map them to your product attributes. We\'ve already pre-filled a lot of mappings so all you have to do is check those and map the ones that are left blank or add new ones by hitting the \'Add field mapping\' button.<br/><br/>[<strong><i><a href=""https://adtribes.io/how-to-use-static-values-and-create-fake-content-for-your-product-feed/"" target=""_blank"">Learn how to use static values</a></i></strong>]"
+"Manage your projects, such as the mappings and filter rules, below. Hit the refresh icon for the project to run with its new settings or just to refresh the product feed. When a project is being processed it is not possible to make changes to its configuration.",woocommerce-sea,"Manage your projects, such as the mappings and filter rules, below. Hit the refresh icon for the project to run with its new settings or just to refresh the product feed. When a project is being processed it is not possible to make changes to its configuration."
+"You cannot create product feeds yet, please install WooCommerce first.",woocommerce-sea,"You cannot create product feeds yet, please install WooCommerce first."
+"The graph shows the amount of products in this product feed, measured after every scheduled and/or manually triggered refresh.",woocommerce-sea,"The graph shows the amount of products in this product feed, measured after every scheduled and/or manually triggered refresh."
+"You are running an old PHP version. This plugin might not work or be really slow. Please upgrade to PHP version 7.0 or newer.",woocommerce-sea,"You are running an old PHP version. This plugin might not work or be really slow. Please upgrade to PHP version 7.0 or newer."
+"We are sorry but it seems you have disabled your WP CRON. This plugin creates product feeds in batches and needs the WP CRON to be active for doing so. Please enable the WP CRON in your wp-config.php file and re-activate this plugin before creating a product feed.",woocommerce-sea,"We are sorry but it seems you have disabled your WP CRON. This plugin creates product feeds in batches and needs the WP CRON to be active for doing so. Please enable the WP CRON in your wp-config.php file and re-activate this plugin before creating a product feed."
+"We are sorry but it seems you are running an old version of WooCommerce. This plugin requires WooCommerce version 3.0 at least. Please upgrade to the latest version of WooCommerce before creating a product feed.",woocommerce-sea,"We are sorry but it seems you are running an old version of WooCommerce. This plugin requires WooCommerce version 3.0 at least. Please upgrade to the latest version of WooCommerce before creating a product feed."
+"Add important attributes, such as Brand, GTIN, condition and many more to create a perfect Google Shopping feed or fix the WooCommerce structured data bug so less products get disapproved in Google\'s Merchant Center.",woocommerce-sea,"Add important attributes, such as Brand, GTIN, condition and many more to create a perfect Google Shopping feed or fix the WooCommerce structured data bug so less products get disapproved in Google\'s Merchant Center."
+"Manipulate your product data to improve the quality of your product feeds and online marketing campaigns. Manipulating your product data is an extremely powerfull feature. Check out an example we have created in our blog post: <b><u><a href=""https://adtribes.io/feature-product-data-manipulation/"" target=""_blank"">Manipulating product data</a></u></b>",woocommerce-sea,"Manipulate your product data to improve the quality of your product feeds and online marketing campaigns. Manipulating your product data is an extremely powerfull feature. Check out an example we have created in our blog post: <b><u><a href=""https://adtribes.io/feature-product-data-manipulation/"" target=""_blank"">Manipulating product data</a></u></b>"
+"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!",woocommerce-sea,"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!"
+"Would you like to get more out of your product feeds? Upgrade to the Elite version of the plugin and you will get:",woocommerce-sea,"Would you like to get more out of your product feeds? Upgrade to the Elite version of the plugin and you will get:"
+"Priority support - we will help you to get your product feed(s) up-and-running;",woocommerce-sea,"Priority support - we will help you to get your product feed(s) up-and-running;"
+"GTIN, Brand, MPN, EAN, Condition and more fields for your product feeds",woocommerce-sea,"GTIN, Brand, MPN, EAN, Condition and more fields for your product feeds"
+"Read more",woocommerce-sea,"Read more"
+"Enhanched structured data on your product pages: more products approved in your Google Merchant Center",woocommerce-sea,"Enhanched structured data on your product pages: more products approved in your Google Merchant Center"
+"Read more",woocommerce-sea,"Read more"
+"Advanced product data manipulation",woocommerce-sea,"Advanced product data manipulation"
+"Read more",woocommerce-sea,"Read more"
+"WPML support - including their currency switcher",woocommerce-sea,"WPML support - including their currency switcher"
+"Read more",woocommerce-sea,"Read more"
+"Polylang support",woocommerce-sea,"Polylang support"
+"Read more",woocommerce-sea,"Read more"
+"Facebook pixel feature",woocommerce-sea,"Facebook pixel feature"
+"Read more",woocommerce-sea,"Read more"
+"Upgrade to the",woocommerce-sea,"Upgrade to the"
+"Elite version of our plugin</a></strong> to get all these features.",woocommerce-sea,"Elite version of our plugin</a></strong> to get all these features."
+"General feed settings",woocommerce-sea,"General feed settings"
+"Project name",woocommerce-sea,"Project name"
+Country,woocommerce-sea,Country
+"Select a country",woocommerce-sea,"Select a country"
+Channel,woocommerce-sea,Channel
+"Include all product variations",woocommerce-sea,"Include all product variations"
+"Only include default product variation",woocommerce-sea,"Only include default product variation"
+"Only include lowest priced product variation(s)",woocommerce-sea,"Only include lowest priced product variation(s)"
+"File format",woocommerce-sea,"File format"
+Delimiter,woocommerce-sea,Delimiter
+"Refresh interval",woocommerce-sea,"Refresh interval"
+"Refresh only when products changed",woocommerce-sea,"Refresh only when products changed"
+"Why upgrade to Elite?",woocommerce-sea,"Why upgrade to Elite?"
+"Enjoy all priviliges of our Elite features and priority support and upgrade to the Elite version of our plugin now!",woocommerce-sea,"Enjoy all priviliges of our Elite features and priority support and upgrade to the Elite version of our plugin now!"
+"Priority support: get your feeds live faster",woocommerce-sea,"Priority support: get your feeds live faster"
+"More products approved by Google",woocommerce-sea,"More products approved by Google"
+"Add GTIN, brand and more fields to your store",woocommerce-sea,"Add GTIN, brand and more fields to your store"
+"Exclude individual products from your feeds",woocommerce-sea,"Exclude individual products from your feeds"
+"WPML support",woocommerce-sea,"WPML support"
+"Aelia currency switcher support",woocommerce-sea,"Aelia currency switcher support"
+"Facebook pixel feature",woocommerce-sea,"Facebook pixel feature"
+"Polylang support",woocommerce-sea,"Polylang support"
+"Upgrade to Elite here!",woocommerce-sea,"Upgrade to Elite here!"
+"We’ve got you covered!",woocommerce-sea,"We’ve got you covered!"
+"Need assistance? Check out our:",woocommerce-sea,"Need assistance? Check out our:"
+"Frequently Asked Questions",woocommerce-sea,"Frequently Asked Questions"
+"YouTube tutorials",woocommerce-sea,"YouTube tutorials"
+Tutorials,woocommerce-sea,Tutorials
+"Or just reach out to us at",woocommerce-sea,"Or just reach out to us at"
+"our Wordpress forum",woocommerce-sea,"our Wordpress forum"
+"and we will make sure your product feeds will be up-and-running within no-time.",woocommerce-sea,"and we will make sure your product feeds will be up-and-running within no-time."
+"Our latest tutorials",woocommerce-sea,"Our latest tutorials"
+"Create a Google Shopping feed",woocommerce-sea,"Create a Google Shopping feed"
+"Product data manipulation",woocommerce-sea,"Product data manipulation"
+"How to create filters for your product feed",woocommerce-sea,"How to create filters for your product feed"
+"How to set rules for your product feed",woocommerce-sea,"How to set rules for your product feed"
+"Adding GTIN, Brand, MPN and more",woocommerce-sea,"Adding GTIN, Brand, MPN and more"
+"WooCommerce structured data markup bug",woocommerce-sea,"WooCommerce structured data markup bug"
+"Enable WPML support",woocommerce-sea,"Enable WPML support"
+"Enable Aelia currency switcher support",woocommerce-sea,"Enable Aelia currency switcher support"
+"Help, my feed is stuck!",woocommerce-sea,"Help, my feed is stuck!"
+"Help, my feed has no or too few products!",woocommerce-sea,"Help, my feed has no or too few products!"
+"How to use the Polylang feature",woocommerce-sea,"How to use the Polylang feature"
+"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!",woocommerce-sea,"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!"
+"Category mapping",woocommerce-sea,"Category mapping"
+"Your category",woocommerce-sea,"Your category"
+"Number of products",woocommerce-sea,"Number of products"
+category,woocommerce-sea,category
+"Why upgrade to Elite?",woocommerce-sea,"Why upgrade to Elite?"
+"Enjoy all priviliges of our Elite features and priority support and upgrade to the Elite version of our plugin now!",woocommerce-sea,"Enjoy all priviliges of our Elite features and priority support and upgrade to the Elite version of our plugin now!"
+"Priority support: get your feeds live faster",woocommerce-sea,"Priority support: get your feeds live faster"
+"More products approved by Google",woocommerce-sea,"More products approved by Google"
+"Add GTIN, brand and more fields to your store",woocommerce-sea,"Add GTIN, brand and more fields to your store"
+"Exclude individual products from your feeds",woocommerce-sea,"Exclude individual products from your feeds"
+"WPML support",woocommerce-sea,"WPML support"
+"Aelia currency switcher support",woocommerce-sea,"Aelia currency switcher support"
+"Facebook pixel feature",woocommerce-sea,"Facebook pixel feature"
+"Polylang support",woocommerce-sea,"Polylang support"
+"Upgrade to Elite here!",woocommerce-sea,"Upgrade to Elite here!"
+"We\’ve got you covered!",woocommerce-sea,"We\’ve got you covered!"
+"Need assistance? Check out our:",woocommerce-sea,"Need assistance? Check out our:"
+"Frequently Asked Questions",woocommerce-sea,"Frequently Asked Questions"
+"YouTube tutorials",woocommerce-sea,"YouTube tutorials"
+Tutorials,woocommerce-sea,Tutorials
+"Or just reach out to us at",woocommerce-sea,"Or just reach out to us at"
+"our Wordpress forum",woocommerce-sea,"our Wordpress forum"
+"and we will make sure your product feeds will be up-and-running within no-time.",woocommerce-sea,"and we will make sure your product feeds will be up-and-running within no-time."
+"Our latest tutorials",woocommerce-sea,"Our latest tutorials"
+"Create a Google Shopping feed",woocommerce-sea,"Create a Google Shopping feed"
+"Product data manipulation",woocommerce-sea,"Product data manipulation"
+"How to create filters for your product feed",woocommerce-sea,"How to create filters for your product feed"
+"How to set rules for your product feed",woocommerce-sea,"How to set rules for your product feed"
+"Adding GTIN, Brand, MPN and more",woocommerce-sea,"Adding GTIN, Brand, MPN and more"
+"WooCommerce structured data markup bug",woocommerce-sea,"WooCommerce structured data markup bug"
+"Enable WPML support",woocommerce-sea,"Enable WPML support"
+"Enable Aelia currency switcher support",woocommerce-sea,"Enable Aelia currency switcher support"
+"Help, my feed is stuck!",woocommerce-sea,"Help, my feed is stuck!"
+"Help, my feed has no or too few products!",woocommerce-sea,"Help, my feed has no or too few products!"
+"How to use the Polylang feature",woocommerce-sea,"How to use the Polylang feature"
+"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!",woocommerce-sea,"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!"
+"Feed filters and rules",woocommerce-sea,"Feed filters and rules"
+Type,woocommerce-sea,Type
+IF,woocommerce-sea,IF
+Condition,woocommerce-sea,Condition
+Value,woocommerce-sea,Value
+CS,woocommerce-sea,CS
+Then,woocommerce-sea,Then
+IS,woocommerce-sea,IS
+Filter,woocommerce-sea,Filter
+Rule,woocommerce-sea,Rule
+"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!",woocommerce-sea,"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!"
+"Conversion & Google Analytics settings",woocommerce-sea,"Conversion & Google Analytics settings"
+"Enable Google Analytics tracking",woocommerce-sea,"Enable Google Analytics tracking"
+"Google Analytics campaign source (utm_source)",woocommerce-sea,"Google Analytics campaign source (utm_source)"
+"Google Analytics campaign medium (utm_medium)",woocommerce-sea,"Google Analytics campaign medium (utm_medium)"
+"Google Analytics campaign name (utm_campaign)",woocommerce-sea,"Google Analytics campaign name (utm_campaign)"
+"Google Analytics campaign term (utm_term)",woocommerce-sea,"Google Analytics campaign term (utm_term)"
+"dynamically added Product ID",woocommerce-sea,"dynamically added Product ID"
+"Google Analytics campaign content (utm_content)",woocommerce-sea,"Google Analytics campaign content (utm_content)"
+"Remove products that did not have sales in the last days",woocommerce-sea,"Remove products that did not have sales in the last days"
+"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!",woocommerce-sea,"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!"
+"Field mapping",woocommerce-sea,"Field mapping"
+Prefix,woocommerce-sea,Prefix
+Value,woocommerce-sea,Value
+Suffix,woocommerce-sea,Suffix
+"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!",woocommerce-sea,"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!"
+"Product data manipulation",woocommerce-sea,"Product data manipulation"
+"Product type",woocommerce-sea,"Product type"
+Field,woocommerce-sea,Field
+Becomes,woocommerce-sea,Becomes
+"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!",woocommerce-sea,"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!"
+"Debugging mode",woocommerce-sea,"Debugging mode"
+"Thank you for taking the time to help us find bugs in our plugin. It is greatly appreciated by us and your feedback will help all current and future users of this plugin. Could you please copy / paste the debug URL in the box below and send it to <a href=""mailto:support@adtribes.io"">support@adtribes.io</a> so we can analyse how your feed projects are configured and discover potential problems.",woocommerce-sea,"Thank you for taking the time to help us find bugs in our plugin. It is greatly appreciated by us and your feedback will help all current and future users of this plugin. Could you please copy / paste the debug URL in the box below and send it to <a href=""mailto:support@adtribes.io"">support@adtribes.io</a> so we can analyse how your feed projects are configured and discover potential problems."
+"Would you like to get more out of your product feeds? Upgrade to the Elite version of the plugin and you will get:",woocommerce-sea,"Would you like to get more out of your product feeds? Upgrade to the Elite version of the plugin and you will get:"
+"Priority support - we will help you to get your product feed(s) up-and-running;",woocommerce-sea,"Priority support - we will help you to get your product feed(s) up-and-running;"
+"GTIN, Brand, MPN, EAN, Condition and more fields for your product feeds",woocommerce-sea,"GTIN, Brand, MPN, EAN, Condition and more fields for your product feeds"
+"Read more",woocommerce-sea,"Read more"
+"Enhanched structured data on your product pages: more products approved in your Google Merchant Center",woocommerce-sea,"Enhanched structured data on your product pages: more products approved in your Google Merchant Center"
+"Read more",woocommerce-sea,"Read more"
+"Advanced product data manipulation",woocommerce-sea,"Advanced product data manipulation"
+"Read more",woocommerce-sea,"Read more"
+"WPML support - including their currency switcher",woocommerce-sea,"WPML support - including their currency switcher"
+"Read more",woocommerce-sea,"Read more"
+"Aelia currency switcher support",woocommerce-sea,"Aelia currency switcher support"
+"Read more",woocommerce-sea,"Read more"
+"Polylang support",woocommerce-sea,"Polylang support"
+"Read more",woocommerce-sea,"Read more"
+"Facebook pixel feature",woocommerce-sea,"Facebook pixel feature"
+"Read more",woocommerce-sea,"Read more"
+"Upgrade to the",woocommerce-sea,"Upgrade to the"
+"Elite version of our plugin</a></strong> to get all these features.",woocommerce-sea,"Elite version of our plugin</a></strong> to get all these features."
+"WARNING: Your WP-Cron is disabled",woocommerce-sea,"WARNING: Your WP-Cron is disabled"
+"Manage feeds",woocommerce-sea,"Manage feeds"
+Active,woocommerce-sea,Active
+"Project name and channel",woocommerce-sea,"Project name and channel"
+Format,woocommerce-sea,Format
+"Refresh interval",woocommerce-sea,"Refresh interval"
+Status,woocommerce-sea,Status
+"Change settings",woocommerce-sea,"Change settings"
+"General feed settings",woocommerce-sea,"General feed settings"
+"Attribute selection",woocommerce-sea,"Attribute selection"
+"Field mapping",woocommerce-sea,"Field mapping"
+"Category mapping",woocommerce-sea,"Category mapping"
+"Product data manipulation",woocommerce-sea,"Product data manipulation"
+"Feed filters and rules",woocommerce-sea,"Feed filters and rules"
+"Conversion & Google Analytics settings' );?></a><br/>
+										</td>
+									</tr>
+									<?php
+									}
+									?>
+									<tr>
+										<td>
+											<strong><?php _e( 'Feed URL",woocommerce-sea,"Conversion & Google Analytics settings' );?></a><br/>
+										</td>
+									</tr>
+									<?php
+									}
+									?>
+									<tr>
+										<td>
+											<strong><?php _e( 'Feed URL"
+"You didn\'t configured a product feed yet",woocommerce-sea,"You didn\'t configured a product feed yet"
+"please create one first</a> or read our tutorial on",woocommerce-sea,"please create one first</a> or read our tutorial on"
+"how to set up your very first Google Shopping product feed",woocommerce-sea,"how to set up your very first Google Shopping product feed"
+"Why upgrade to Elite?",woocommerce-sea,"Why upgrade to Elite?"
+"Enjoy all priviliges of our Elite features and priority support and upgrade to the Elite version of our plugin now!",woocommerce-sea,"Enjoy all priviliges of our Elite features and priority support and upgrade to the Elite version of our plugin now!"
+"Priority support: get your feeds live faster",woocommerce-sea,"Priority support: get your feeds live faster"
+"More products approved by Google",woocommerce-sea,"More products approved by Google"
+"Add GTIN, brand and more fields to your store",woocommerce-sea,"Add GTIN, brand and more fields to your store"
+"Exclude individual products from your feeds",woocommerce-sea,"Exclude individual products from your feeds"
+"WPML support",woocommerce-sea,"WPML support"
+"Aelia currency switcher support",woocommerce-sea,"Aelia currency switcher support"
+"Facebook pixel feature",woocommerce-sea,"Facebook pixel feature"
+"Polylang support",woocommerce-sea,"Polylang support"
+"Upgrade to Elite here!",woocommerce-sea,"Upgrade to Elite here!"
+"We have got you covered!",woocommerce-sea,"We have got you covered!"
+"Need assistance? Check out our:",woocommerce-sea,"Need assistance? Check out our:"
+"Frequently Asked Questions",woocommerce-sea,"Frequently Asked Questions"
+"YouTube tutorials",woocommerce-sea,"YouTube tutorials"
+Tutorials,woocommerce-sea,Tutorials
+"Or just reach out to us at",woocommerce-sea,"Or just reach out to us at"
+"our Wordpress forum",woocommerce-sea,"our Wordpress forum"
+"and we will make sure your product feeds will be up-and-running within no-time.",woocommerce-sea,"and we will make sure your product feeds will be up-and-running within no-time."
+"Our latest tutorials",woocommerce-sea,"Our latest tutorials"
+"Create a Google Shopping feed",woocommerce-sea,"Create a Google Shopping feed"
+"Product data manipulation",woocommerce-sea,"Product data manipulation"
+"How to create filters for your product feed",woocommerce-sea,"How to create filters for your product feed"
+"How to set rules for your product feed",woocommerce-sea,"How to set rules for your product feed"
+"Adding GTIN, Brand, MPN and more",woocommerce-sea,"Adding GTIN, Brand, MPN and more"
+"WooCommerce structured data markup bug",woocommerce-sea,"WooCommerce structured data markup bug"
+"Enable WPML support",woocommerce-sea,"Enable WPML support"
+"Enable Aelia currency switcher support",woocommerce-sea,"Enable Aelia currency switcher support"
+"Help, my feed is stuck!",woocommerce-sea,"Help, my feed is stuck!"
+"Help, my feed has no or too few products!",woocommerce-sea,"Help, my feed has no or too few products!"
+"How to use the Polylang feature",woocommerce-sea,"How to use the Polylang feature"
+"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!",woocommerce-sea,"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!"
+"Plugin settings",woocommerce-sea,"Plugin settings"
+"Plugin settings",woocommerce-sea,"Plugin settings"
+"Plugin systems check",woocommerce-sea,"Plugin systems check"
+"Attribute settings",woocommerce-sea,"Attribute settings"
+"Add extra fields to your product (edit) pages so you can add Brands, GTINs, Size, Color and many more fields to your product feeds.<br/><br/>This plugin, by default, only shows a limit amount of the extra fields in the configuration, product edit pages ond filter/rule drop-downs. We have done so for performance reasons and usability. You can however add missing extra fields by enabling them below. After enabling an extra field it shows on the product edit pages and the drop-downs during configuration so you can use them for your product feeds.",woocommerce-sea,"Add extra fields to your product (edit) pages so you can add Brands, GTINs, Size, Color and many more fields to your product feeds.<br/><br/>This plugin, by default, only shows a limit amount of the extra fields in the configuration, product edit pages ond filter/rule drop-downs. We have done so for performance reasons and usability. You can however add missing extra fields by enabling them below. After enabling an extra field it shows on the product edit pages and the drop-downs during configuration so you can use them for your product feeds."
+"WARNING: Your WP-Cron is disabled",woocommerce-sea,"WARNING: Your WP-Cron is disabled"
+"Plugin settings",woocommerce-sea,"Plugin settings"
+"Plugin systems check",woocommerce-sea,"Plugin systems check"
+"Plugin setting",woocommerce-sea,"Plugin setting"
+"Off / On",woocommerce-sea,"Off / On"
+"Increase the number of products that will be approved in Google\'s Merchant Center:",woocommerce-sea,"Increase the number of products that will be approved in Google\'s Merchant Center:"
+"This option will fix WooCommerce\'s (JSON-LD) structured data bug and add extra structured data elements to your pages.",woocommerce-sea,"This option will fix WooCommerce\'s (JSON-LD) structured data bug and add extra structured data elements to your pages."
+"Read more about this",woocommerce-sea,"Read more about this"
+"Exclude TAX from structured data prices",woocommerce-sea,"Exclude TAX from structured data prices"
+"Add GTIN, MPN, UPC, EAN, Product condition, Optimised title, Installment, Unit measure and Brand attributes to your store:",woocommerce-sea,"Add GTIN, MPN, UPC, EAN, Product condition, Optimised title, Installment, Unit measure and Brand attributes to your store:"
+"Read more about this",woocommerce-sea,"Read more about this"
+"Enable Product data manipulation feature:",woocommerce-sea,"Enable Product data manipulation feature:"
+"Read more about this",woocommerce-sea,"Read more about this"
+"Enable WPML support:",woocommerce-sea,"Enable WPML support:"
+"Read more about this",woocommerce-sea,"Read more about this"
+"Enable Aelia Currency Switcher support:",woocommerce-sea,"Enable Aelia Currency Switcher support:"
+"Read more about this",woocommerce-sea,"Read more about this"
+"Use mother main image for variations",woocommerce-sea,"Use mother main image for variations"
+"Add shipping costs for all countries to feed (Google Shopping / Facebook only)",woocommerce-sea,"Add shipping costs for all countries to feed (Google Shopping / Facebook only)"
+"Remove all other shipping classes when free shipping criteria are met (Google Shopping / Facebook only)",woocommerce-sea,"Remove all other shipping classes when free shipping criteria are met (Google Shopping / Facebook only)"
+"Remove the free shipping zone from feed (Google Shopping / Facebook only)",woocommerce-sea,"Remove the free shipping zone from feed (Google Shopping / Facebook only)"
+"Remove the local pickup shipping zone from feed (Google Shopping / Facebook only)",woocommerce-sea,"Remove the local pickup shipping zone from feed (Google Shopping / Facebook only)"
+"Enable logging (Enable only on advice of our support-team):",woocommerce-sea,"Enable logging (Enable only on advice of our support-team):"
+"Add Facebook Pixel:",woocommerce-sea,"Add Facebook Pixel:"
+"Read more about this",woocommerce-sea,"Read more about this"
+"Content IDS variable products Facebook Pixel:",woocommerce-sea,"Content IDS variable products Facebook Pixel:"
+"Add Google Dynamic Remarketing Pixel:",woocommerce-sea,"Add Google Dynamic Remarketing Pixel:"
+"Change products per batch number (Enable only on advice of our support-team):",woocommerce-sea,"Change products per batch number (Enable only on advice of our support-team):"
+"Read more about this",woocommerce-sea,"Read more about this"
+"Why upgrade to Elite?",woocommerce-sea,"Why upgrade to Elite?"
+"Enjoy all priviliges of our Elite features and priority support and upgrade to the Elite version of our plugin now!",woocommerce-sea,"Enjoy all priviliges of our Elite features and priority support and upgrade to the Elite version of our plugin now!"
+"Priority support: get your feeds live faster",woocommerce-sea,"Priority support: get your feeds live faster"
+"More products approved by Google",woocommerce-sea,"More products approved by Google"
+"Add GTIN, brand and more fields to your store",woocommerce-sea,"Add GTIN, brand and more fields to your store"
+"Exclude individual products from your feeds",woocommerce-sea,"Exclude individual products from your feeds"
+"WPML support",woocommerce-sea,"WPML support"
+"Aelia currency switcher support",woocommerce-sea,"Aelia currency switcher support"
+"Facebook pixel feature",woocommerce-sea,"Facebook pixel feature"
+"Polylang support",woocommerce-sea,"Polylang support"
+"Upgrade to Elite here!",woocommerce-sea,"Upgrade to Elite here!"
+"We’ve got you covered!",woocommerce-sea,"We’ve got you covered!"
+"Need assistance? Check out our",woocommerce-sea,"Need assistance? Check out our"
+"Frequently Asked Questions",woocommerce-sea,"Frequently Asked Questions"
+"YouTube tutorials",woocommerce-sea,"YouTube tutorials"
+Tutorials,woocommerce-sea,Tutorials
+"Or just reach out to us at",woocommerce-sea,"Or just reach out to us at"
+"our Wordpress forum",woocommerce-sea,"our Wordpress forum"
+"and we will make sure your product feeds will be up-and-running within no-time.",woocommerce-sea,"and we will make sure your product feeds will be up-and-running within no-time."
+"Our latest tutorials",woocommerce-sea,"Our latest tutorials"
+"Create a Google Shopping feed",woocommerce-sea,"Create a Google Shopping feed"
+"Product data manipulation",woocommerce-sea,"Product data manipulation"
+"How to create filters for your product feed",woocommerce-sea,"How to create filters for your product feed"
+"How to set rules for your product feed",woocommerce-sea,"How to set rules for your product feed"
+"Adding GTIN, Brand, MPN and more",woocommerce-sea,"Adding GTIN, Brand, MPN and more"
+"WooCommerce structured data markup bug",woocommerce-sea,"WooCommerce structured data markup bug"
+"Enable WPML support",woocommerce-sea,"Enable WPML support"
+"Enable Aelia currency switcher support",woocommerce-sea,"Enable Aelia currency switcher support"
+"Help, my feed is stuck!",woocommerce-sea,"Help, my feed is stuck!"
+"Help, my feed has no or too few products!",woocommerce-sea,"Help, my feed has no or too few products!"
+"How to use the Polylang feature",woocommerce-sea,"How to use the Polylang feature"
+"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!",woocommerce-sea,"If you like our <strong>WooCommerce Product Feed PRO</strong> plugin please leave us a <a href=""https://wordpress.org/support/plugin/woo-product-feed-pro/reviews?rate=5#new-post"" target=""_blank"" class=""woo-product-feed-pro-ratingRequest"">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Thanks in advance!"
+"Feed statistics",woocommerce-sea,"Feed statistics"
+"Product Feed PRO for WooCommerce",woocommerce-sea,"Product Feed PRO for WooCommerce"
+"Product Feed Pro",woocommerce-sea,"Product Feed Pro"
+"Feed configuration",woocommerce-sea,"Feed configuration"
+"Create feed",woocommerce-sea,"Create feed"
+"Manage feeds",woocommerce-sea,"Manage feeds"
+"Manage feeds",woocommerce-sea,"Manage feeds"
+Settings,woocommerce-sea,Settings
+Settings,woocommerce-sea,Settings
+Brand,woocommerce-sea,Brand
+"Enter the product Brand here.",woocommerce-sea,"Enter the product Brand here."
+GTIN,woocommerce-sea,GTIN
+"Enter the product Global Trade Item Number (GTIN) here.",woocommerce-sea,"Enter the product Global Trade Item Number (GTIN) here."
+MPN,woocommerce-sea,MPN
+"Enter the manufacturer product number",woocommerce-sea,"Enter the manufacturer product number"
+UPC,woocommerce-sea,UPC
+"Enter the Universal Product Code (UPC) here.",woocommerce-sea,"Enter the Universal Product Code (UPC) here."
+EAN,woocommerce-sea,EAN
+"Enter the International Article Number (EAN) here.",woocommerce-sea,"Enter the International Article Number (EAN) here."
+"Optimized title",woocommerce-sea,"Optimized title"
+"Enter a optimized product title.",woocommerce-sea,"Enter a optimized product title."
+"Product condition",woocommerce-sea,"Product condition"
+"Select the product condition.",woocommerce-sea,"Select the product condition."
+,woocommerce-sea,
+new,woocommerce-sea,new
+refurbished,woocommerce-sea,refurbished
+used,woocommerce-sea,used
+damaged,woocommerce-sea,damaged
+Color,woocommerce-sea,Color
+"Insert a color.",woocommerce-sea,"Insert a color."
+Size,woocommerce-sea,Size
+"Insert a size.",woocommerce-sea,"Insert a size."
+Gender,woocommerce-sea,Gender
+"Select gender.",woocommerce-sea,"Select gender."
+,woocommerce-sea,
+female,woocommerce-sea,female
+male,woocommerce-sea,male
+unisex,woocommerce-sea,unisex
+Material,woocommerce-sea,Material
+"Enter a material.",woocommerce-sea,"Enter a material."
+Pattern,woocommerce-sea,Pattern
+"Enter a pattern.",woocommerce-sea,"Enter a pattern."
+"Age group",woocommerce-sea,"Age group"
+"Select the product age group.",woocommerce-sea,"Select the product age group."
+,woocommerce-sea,
+newborn,woocommerce-sea,newborn
+infant,woocommerce-sea,infant
+toddler,woocommerce-sea,toddler
+kids,woocommerce-sea,kids
+adult,woocommerce-sea,adult
+"Unit pricing measure",woocommerce-sea,"Unit pricing measure"
+"Enter an unit pricing measure.",woocommerce-sea,"Enter an unit pricing measure."
+"Unit pricing base measure",woocommerce-sea,"Unit pricing base measure"
+"Enter an unit pricing base measure.",woocommerce-sea,"Enter an unit pricing base measure."
+"Installment months",woocommerce-sea,"Installment months"
+"Enter the number of monthly installments the buyer has to pay.",woocommerce-sea,"Enter the number of monthly installments the buyer has to pay."
+"Installment amount",woocommerce-sea,"Installment amount"
+"Enter the amount the bbuyer has to pay per month.",woocommerce-sea,"Enter the amount the bbuyer has to pay per month."
+"Cost of goods sold",woocommerce-sea,"Cost of goods sold"
+"Enter the cost of good you are selling.",woocommerce-sea,"Enter the cost of good you are selling."
+Multipack,woocommerce-sea,Multipack
+"Enter the multipack amount.",woocommerce-sea,"Enter the multipack amount."
+"Is bundle",woocommerce-sea,"Is bundle"
+"Select the is bundle value.",woocommerce-sea,"Select the is bundle value."
+,woocommerce-sea,
+yes,woocommerce-sea,yes
+no,woocommerce-sea,no
+"Energy efficiency class",woocommerce-sea,"Energy efficiency class"
+"Select the product energy efficiency class.",woocommerce-sea,"Select the product energy efficiency class."
+,woocommerce-sea,
+A+++,woocommerce-sea,A+++
+A++,woocommerce-sea,A++
+A+,woocommerce-sea,A+
+A,woocommerce-sea,A
+B,woocommerce-sea,B
+C,woocommerce-sea,C
+D,woocommerce-sea,D
+E,woocommerce-sea,E
+F,woocommerce-sea,F
+G,woocommerce-sea,G
+"Minimum energy efficiency class",woocommerce-sea,"Minimum energy efficiency class"
+"Select the minimum product energy efficiency class.",woocommerce-sea,"Select the minimum product energy efficiency class."
+,woocommerce-sea,
+A+++,woocommerce-sea,A+++
+A++,woocommerce-sea,A++
+A+,woocommerce-sea,A+
+A,woocommerce-sea,A
+B,woocommerce-sea,B
+C,woocommerce-sea,C
+D,woocommerce-sea,D
+E,woocommerce-sea,E
+F,woocommerce-sea,F
+G,woocommerce-sea,G
+"Maximum energy efficiency class",woocommerce-sea,"Maximum energy efficiency class"
+"Select the maximum product energy efficiency class.",woocommerce-sea,"Select the maximum product energy efficiency class."
+,woocommerce-sea,
+A+++,woocommerce-sea,A+++
+A++,woocommerce-sea,A++
+A+,woocommerce-sea,A+
+A,woocommerce-sea,A
+B,woocommerce-sea,B
+C,woocommerce-sea,C
+D,woocommerce-sea,D
+E,woocommerce-sea,E
+F,woocommerce-sea,F
+G,woocommerce-sea,G
+"Is promotion",woocommerce-sea,"Is promotion"
+"Enter your promotion ID.",woocommerce-sea,"Enter your promotion ID."
+"Custom field 0",woocommerce-sea,"Custom field 0"
+"Enter your custom field 0",woocommerce-sea,"Enter your custom field 0"
+"Custom field 1",woocommerce-sea,"Custom field 1"
+"Enter your custom field 1",woocommerce-sea,"Enter your custom field 1"
+"Custom field 2",woocommerce-sea,"Custom field 2"
+"Enter your custom field 2",woocommerce-sea,"Enter your custom field 2"
+"Custom field 3",woocommerce-sea,"Custom field 3"
+"Enter your custom field 3",woocommerce-sea,"Enter your custom field 3"
+"Custom field 4",woocommerce-sea,"Custom field 4"
+"Enter your custom field 4",woocommerce-sea,"Enter your custom field 4"
+"Exclude from feeds",woocommerce-sea,"Exclude from feeds"
+"Check this box if you want this product to be excluded from product feeds.",woocommerce-sea,"Check this box if you want this product to be excluded from product feeds."
+<br>Brand,woocommerce-sea,<br>Brand
+"Enter the product Brand here.",woocommerce-sea,"Enter the product Brand here."
+<br>GTIN,woocommerce-sea,<br>GTIN
+"Enter the product GTIN here.",woocommerce-sea,"Enter the product GTIN here."
+<br>MPN,woocommerce-sea,<br>MPN
+"Enter the MPN here.",woocommerce-sea,"Enter the MPN here."
+<br>UPC,woocommerce-sea,<br>UPC
+"Enter the product UPC here.",woocommerce-sea,"Enter the product UPC here."
+<br>EAN,woocommerce-sea,<br>EAN
+"Enter the product EAN here.",woocommerce-sea,"Enter the product EAN here."
+<br>Color,woocommerce-sea,<br>Color
+"Enter the product Color here.",woocommerce-sea,"Enter the product Color here."
+<br>Size,woocommerce-sea,<br>Size
+"Enter the product Size here.",woocommerce-sea,"Enter the product Size here."
+Gender,woocommerce-sea,Gender
+"Select the gender.",woocommerce-sea,"Select the gender."
+,woocommerce-sea,
+female,woocommerce-sea,female
+male,woocommerce-sea,male
+unisex,woocommerce-sea,unisex
+<br>Material,woocommerce-sea,<br>Material
+"Enter the product Material here.",woocommerce-sea,"Enter the product Material here."
+<br>Pattern,woocommerce-sea,<br>Pattern
+"Enter the product Pattern here.",woocommerce-sea,"Enter the product Pattern here."
+"<br>Unit pricing measure",woocommerce-sea,"<br>Unit pricing measure"
+"Enter the product Unit pricing measure here.",woocommerce-sea,"Enter the product Unit pricing measure here."
+"<br>Unit pricing base measure",woocommerce-sea,"<br>Unit pricing base measure"
+"Enter the product Unit pricing base measure here.",woocommerce-sea,"Enter the product Unit pricing base measure here."
+"<br>Optimized title",woocommerce-sea,"<br>Optimized title"
+"Enter a optimized product title here.",woocommerce-sea,"Enter a optimized product title here."
+"<br>Installment months",woocommerce-sea,"<br>Installment months"
+"Enter the number of montly installments for the buyer here.",woocommerce-sea,"Enter the number of montly installments for the buyer here."
+"<br>Installment amount",woocommerce-sea,"<br>Installment amount"
+"Enter the installment amount here.",woocommerce-sea,"Enter the installment amount here."
+"Product condition",woocommerce-sea,"Product condition"
+"Select the product condition.",woocommerce-sea,"Select the product condition."
+,woocommerce-sea,
+new,woocommerce-sea,new
+refurbished,woocommerce-sea,refurbished
+used,woocommerce-sea,used
+damaged,woocommerce-sea,damaged
+"Product age group",woocommerce-sea,"Product age group"
+"Select the product age group.",woocommerce-sea,"Select the product age group."
+,woocommerce-sea,
+newborn,woocommerce-sea,newborn
+infant,woocommerce-sea,infant
+toddler,woocommerce-sea,toddler
+kids,woocommerce-sea,kids
+adult,woocommerce-sea,adult
+"<br>Cost of good sold",woocommerce-sea,"<br>Cost of good sold"
+"Enter the cost of good sold.",woocommerce-sea,"Enter the cost of good sold."
+<br>Multipack,woocommerce-sea,<br>Multipack
+"Enter the multipack amount here.",woocommerce-sea,"Enter the multipack amount here."
+"Is bundle",woocommerce-sea,"Is bundle"
+"Select the is bundle value.",woocommerce-sea,"Select the is bundle value."
+,woocommerce-sea,
+yes,woocommerce-sea,yes
+no,woocommerce-sea,no
+"Energy efficiency class",woocommerce-sea,"Energy efficiency class"
+"Select the energy efficiency class.",woocommerce-sea,"Select the energy efficiency class."
+,woocommerce-sea,
+A+++,woocommerce-sea,A+++
+A++,woocommerce-sea,A++
+A+,woocommerce-sea,A+
+A,woocommerce-sea,A
+B,woocommerce-sea,B
+C,woocommerce-sea,C
+D,woocommerce-sea,D
+E,woocommerce-sea,E
+F,woocommerce-sea,F
+G,woocommerce-sea,G
+"Minimum energy efficiency class",woocommerce-sea,"Minimum energy efficiency class"
+"Select the minimum energy efficiency class.",woocommerce-sea,"Select the minimum energy efficiency class."
+,woocommerce-sea,
+A+++,woocommerce-sea,A+++
+A++,woocommerce-sea,A++
+A+,woocommerce-sea,A+
+A,woocommerce-sea,A
+B,woocommerce-sea,B
+C,woocommerce-sea,C
+D,woocommerce-sea,D
+E,woocommerce-sea,E
+F,woocommerce-sea,F
+G,woocommerce-sea,G
+"Maximum energy efficiency class",woocommerce-sea,"Maximum energy efficiency class"
+"Select the maximum energy efficiency class.",woocommerce-sea,"Select the maximum energy efficiency class."
+,woocommerce-sea,
+A+++,woocommerce-sea,A+++
+A++,woocommerce-sea,A++
+A+,woocommerce-sea,A+
+A,woocommerce-sea,A
+B,woocommerce-sea,B
+C,woocommerce-sea,C
+D,woocommerce-sea,D
+E,woocommerce-sea,E
+F,woocommerce-sea,F
+G,woocommerce-sea,G
+"<br>Is promotion",woocommerce-sea,"<br>Is promotion"
+"Enter your promotion ID",woocommerce-sea,"Enter your promotion ID"
+"<br>Custom field 0",woocommerce-sea,"<br>Custom field 0"
+"Enter your custom field 0",woocommerce-sea,"Enter your custom field 0"
+"<br>Custom field 1",woocommerce-sea,"<br>Custom field 1"
+"Enter your custom field 1",woocommerce-sea,"Enter your custom field 1"
+"<br>Custom field 2",woocommerce-sea,"<br>Custom field 2"
+"Enter your custom field 2",woocommerce-sea,"Enter your custom field 2"
+"<br>Custom field 3",woocommerce-sea,"<br>Custom field 3"
+"Enter your custom field 3",woocommerce-sea,"Enter your custom field 3"
+"<br>Custom field 4",woocommerce-sea,"<br>Custom field 4"
+"Enter your custom field 4",woocommerce-sea,"Enter your custom field 4"
+"&nbsp;Exclude from feeds",woocommerce-sea,"&nbsp;Exclude from feeds"
+"Check this box if you want this product to be excluded from product feeds.",woocommerce-sea,"Check this box if you want this product to be excluded from product feeds."
+"Latest Product Feed Pro Tutorials",woocommerce-sea,"Latest Product Feed Pro Tutorials"
+"No item",woocommerce-sea,"No item"
+ago,woocommerce-sea,ago

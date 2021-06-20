@@ -1,0 +1,865 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Any pricing rule applied",wc-dynamic-pricing-and-discounts,"Any pricing rule applied"
+"Any pricing rule applied",wc-dynamic-pricing-and-discounts,"Any pricing rule applied"
+Simple,wc-dynamic-pricing-and-discounts,Simple
+"Simple discount",wc-dynamic-pricing-and-discounts,"Simple discount"
+Discount,wc-dynamic-pricing-and-discounts,Discount
+Simple,wc-dynamic-pricing-and-discounts,Simple
+"Simple fee",wc-dynamic-pricing-and-discounts,"Simple fee"
+"Exclude products from all rules",wc-dynamic-pricing-and-discounts,"Exclude products from all rules"
+"Restrict purchase of matched products",wc-dynamic-pricing-and-discounts,"Restrict purchase of matched products"
+Other,wc-dynamic-pricing-and-discounts,Other
+"Buy x get x",wc-dynamic-pricing-and-discounts,"Buy x get x"
+"Buy x get x - Repeating",wc-dynamic-pricing-and-discounts,"Buy x get x - Repeating"
+"Buy x get y",wc-dynamic-pricing-and-discounts,"Buy x get y"
+"Buy x get y - Repeating",wc-dynamic-pricing-and-discounts,"Buy x get y - Repeating"
+"Buy / Get",wc-dynamic-pricing-and-discounts,"Buy / Get"
+"Group of products",wc-dynamic-pricing-and-discounts,"Group of products"
+"Group of products - Repeating",wc-dynamic-pricing-and-discounts,"Group of products - Repeating"
+Group,wc-dynamic-pricing-and-discounts,Group
+Simple,wc-dynamic-pricing-and-discounts,Simple
+"Simple adjustment",wc-dynamic-pricing-and-discounts,"Simple adjustment"
+"Bulk pricing",wc-dynamic-pricing-and-discounts,"Bulk pricing"
+"Tiered pricing",wc-dynamic-pricing-and-discounts,"Tiered pricing"
+Volume,wc-dynamic-pricing-and-discounts,Volume
+"RightPress fixed cart discount",wc-dynamic-pricing-and-discounts,"RightPress fixed cart discount"
+Discount,wc-dynamic-pricing-and-discounts,Discount
+"Sorry, coupon ""%s"" is not valid when other discounts are applied to the cart.",wc-dynamic-pricing-and-discounts,"Sorry, coupon ""%s"" is not valid when other discounts are applied to the cart."
+Fee,wc-dynamic-pricing-and-discounts,Fee
+"Fixed discount per group",wc-dynamic-pricing-and-discounts,"Fixed discount per group"
+"Fixed discount per item",wc-dynamic-pricing-and-discounts,"Fixed discount per item"
+"Fixed discount",wc-dynamic-pricing-and-discounts,"Fixed discount"
+"Fixed discount per cart item",wc-dynamic-pricing-and-discounts,"Fixed discount per cart item"
+"Percentage discount per cart item",wc-dynamic-pricing-and-discounts,"Percentage discount per cart item"
+"Discount Per Cart Item",wc-dynamic-pricing-and-discounts,"Discount Per Cart Item"
+"Fixed discount per cart line",wc-dynamic-pricing-and-discounts,"Fixed discount per cart line"
+"Discount Per Cart Line",wc-dynamic-pricing-and-discounts,"Discount Per Cart Line"
+"Percentage discount",wc-dynamic-pricing-and-discounts,"Percentage discount"
+Discount,wc-dynamic-pricing-and-discounts,Discount
+"Fixed fee",wc-dynamic-pricing-and-discounts,"Fixed fee"
+"Fixed fee per cart item",wc-dynamic-pricing-and-discounts,"Fixed fee per cart item"
+"Percentage fee per cart item",wc-dynamic-pricing-and-discounts,"Percentage fee per cart item"
+"Fee Per Cart Item",wc-dynamic-pricing-and-discounts,"Fee Per Cart Item"
+"Fixed fee per cart line",wc-dynamic-pricing-and-discounts,"Fixed fee per cart line"
+"Fee Per Cart Line",wc-dynamic-pricing-and-discounts,"Fee Per Cart Line"
+"Percentage fee",wc-dynamic-pricing-and-discounts,"Percentage fee"
+Fee,wc-dynamic-pricing-and-discounts,Fee
+"Fixed price per group",wc-dynamic-pricing-and-discounts,"Fixed price per group"
+"Fixed price per item",wc-dynamic-pricing-and-discounts,"Fixed price per item"
+"Fixed price per range",wc-dynamic-pricing-and-discounts,"Fixed price per range"
+"Fixed price",wc-dynamic-pricing-and-discounts,"Fixed price"
+Price,wc-dynamic-pricing-and-discounts,Cena
+"Cart Discount",wc-dynamic-pricing-and-discounts,"Cart Discount"
+"Checkout Fee",wc-dynamic-pricing-and-discounts,"Checkout Fee"
+"Pricing Rule",wc-dynamic-pricing-and-discounts,"Pricing Rule"
+"No taxonomies enabled",wc-dynamic-pricing-and-discounts,"No taxonomies enabled"
+"Select values",wc-dynamic-pricing-and-discounts,"Select values"
+"No results found",wc-dynamic-pricing-and-discounts,"No results found"
+"Buy %s get %s",wc-dynamic-pricing-and-discounts,"Buy %s get %s"
+"Buy %s get %s - Repeating",wc-dynamic-pricing-and-discounts,"Buy %s get %s - Repeating"
+"Select values",wc-dynamic-pricing-and-discounts,"Select values"
+"No results found",wc-dynamic-pricing-and-discounts,"No results found"
+"per item",wc-dynamic-pricing-and-discounts,"per item"
+"per cart item",wc-dynamic-pricing-and-discounts,"per cart item"
+"per cart line",wc-dynamic-pricing-and-discounts,"per cart line"
+"per group",wc-dynamic-pricing-and-discounts,"per group"
+"Error: Please fix this element.",wc-dynamic-pricing-and-discounts,"Error: Please fix this element."
+"Value is required.",wc-dynamic-pricing-and-discounts,"Value is required."
+"Value must be positive.",wc-dynamic-pricing-and-discounts,"Value must be positive."
+"Value must be positive.",wc-dynamic-pricing-and-discounts,"Value must be positive."
+"Value must be greater than or equal to 1.",wc-dynamic-pricing-and-discounts,"Value must be greater than or equal to 1."
+"Value must be a whole number.",wc-dynamic-pricing-and-discounts,"Value must be a whole number."
+"At least one quantity range is required for this pricing rule.",wc-dynamic-pricing-and-discounts,"At least one quantity range is required for this pricing rule."
+"At least one product must be added to a group.",wc-dynamic-pricing-and-discounts,"At least one product must be added to a group."
+"At least one condition is required for this rule.",wc-dynamic-pricing-and-discounts,"At least one condition is required for this rule."
+"Closing quantity must not be lower than opening quantity.",wc-dynamic-pricing-and-discounts,"Closing quantity must not be lower than opening quantity."
+"Quantity range cannot be left open when adding subsequent quantity ranges.",wc-dynamic-pricing-and-discounts,"Quantity range cannot be left open when adding subsequent quantity ranges."
+"Quantity range must start with a higher value than previous quantity range.",wc-dynamic-pricing-and-discounts,"Quantity range must start with a higher value than previous quantity range."
+"Quantity ranges must not overlap.",wc-dynamic-pricing-and-discounts,"Quantity ranges must not overlap."
+"Rule must not contain conditions of non-existent type.",wc-dynamic-pricing-and-discounts,"Rule must not contain conditions of non-existent type."
+"Rule must not contain disabled conditions.",wc-dynamic-pricing-and-discounts,"Rule must not contain disabled conditions."
+Adjustment,wc-dynamic-pricing-and-discounts,Adjustment
+Discount,wc-dynamic-pricing-and-discounts,Discount
+Fee,wc-dynamic-pricing-and-discounts,Fee
+"Product Pricing",wc-dynamic-pricing-and-discounts,"Product Pricing"
+"Product Pricing Settings",wc-dynamic-pricing-and-discounts,"Product Pricing Settings"
+"Rule selection method",wc-dynamic-pricing-and-discounts,"Rule selection method"
+"Apply All",wc-dynamic-pricing-and-discounts,"Apply All"
+"Apply all applicable rules",wc-dynamic-pricing-and-discounts,"Apply all applicable rules"
+"Apply One - Per Cart Item",wc-dynamic-pricing-and-discounts,"Apply One - Per Cart Item"
+"Apply first applicable rule",wc-dynamic-pricing-and-discounts,"Apply first applicable rule"
+"Apply rule for smaller price",wc-dynamic-pricing-and-discounts,"Apply rule for smaller price"
+"Apply rule for bigger price",wc-dynamic-pricing-and-discounts,"Apply rule for bigger price"
+Disabled,wc-dynamic-pricing-and-discounts,Disabled
+"All rules disabled",wc-dynamic-pricing-and-discounts,"All rules disabled"
+"Total limit",wc-dynamic-pricing-and-discounts,"Total limit"
+"No Limit",wc-dynamic-pricing-and-discounts,"No Limit"
+"No discount limit",wc-dynamic-pricing-and-discounts,"No discount limit"
+"Price Discount Limit",wc-dynamic-pricing-and-discounts,"Price Discount Limit"
+"Price discount limit",wc-dynamic-pricing-and-discounts,"Price discount limit"
+"Price discount limit %",wc-dynamic-pricing-and-discounts,"Price discount limit %"
+"Total Discount Limit",wc-dynamic-pricing-and-discounts,"Total Discount Limit"
+"Total discount limit",wc-dynamic-pricing-and-discounts,"Total discount limit"
+"Total limit value",wc-dynamic-pricing-and-discounts,"Total limit value"
+"Cart Discounts",wc-dynamic-pricing-and-discounts,"Cart Discounts"
+"Cart Discounts Settings",wc-dynamic-pricing-and-discounts,"Cart Discounts Settings"
+"Rule selection method",wc-dynamic-pricing-and-discounts,"Rule selection method"
+"Apply All",wc-dynamic-pricing-and-discounts,"Apply All"
+"Apply all applicable rules",wc-dynamic-pricing-and-discounts,"Apply all applicable rules"
+"Apply One",wc-dynamic-pricing-and-discounts,"Apply One"
+"Apply first applicable rule",wc-dynamic-pricing-and-discounts,"Apply first applicable rule"
+"Apply bigger discount",wc-dynamic-pricing-and-discounts,"Apply bigger discount"
+"Apply smaller discount",wc-dynamic-pricing-and-discounts,"Apply smaller discount"
+Disabled,wc-dynamic-pricing-and-discounts,Disabled
+"All rules disabled",wc-dynamic-pricing-and-discounts,"All rules disabled"
+"Total limit",wc-dynamic-pricing-and-discounts,"Total limit"
+"No Limit",wc-dynamic-pricing-and-discounts,"No Limit"
+"No discount limit",wc-dynamic-pricing-and-discounts,"No discount limit"
+"Total Limit",wc-dynamic-pricing-and-discounts,"Total Limit"
+"Total discount limit",wc-dynamic-pricing-and-discounts,"Total discount limit"
+"Total discount limit %",wc-dynamic-pricing-and-discounts,"Total discount limit %"
+"Total limit value",wc-dynamic-pricing-and-discounts,"Total limit value"
+"Checkout Fees",wc-dynamic-pricing-and-discounts,"Checkout Fees"
+"Checkout Fees Settings",wc-dynamic-pricing-and-discounts,"Checkout Fees Settings"
+"Rule selection method",wc-dynamic-pricing-and-discounts,"Rule selection method"
+"Apply All",wc-dynamic-pricing-and-discounts,"Apply All"
+"Apply all applicable rules",wc-dynamic-pricing-and-discounts,"Apply all applicable rules"
+"Apply One",wc-dynamic-pricing-and-discounts,"Apply One"
+"Apply first applicable rule",wc-dynamic-pricing-and-discounts,"Apply first applicable rule"
+"Apply bigger fee",wc-dynamic-pricing-and-discounts,"Apply bigger fee"
+"Apply smaller fee",wc-dynamic-pricing-and-discounts,"Apply smaller fee"
+Disabled,wc-dynamic-pricing-and-discounts,Disabled
+"All rules disabled",wc-dynamic-pricing-and-discounts,"All rules disabled"
+"Total limit",wc-dynamic-pricing-and-discounts,"Total limit"
+"No Limit",wc-dynamic-pricing-and-discounts,"No Limit"
+"No fee limit",wc-dynamic-pricing-and-discounts,"No fee limit"
+"Total Limit",wc-dynamic-pricing-and-discounts,"Total Limit"
+"Total fee limit",wc-dynamic-pricing-and-discounts,"Total fee limit"
+"Total fee limit %",wc-dynamic-pricing-and-discounts,"Total fee limit %"
+"Total limit value",wc-dynamic-pricing-and-discounts,"Total limit value"
+Promotion,wc-dynamic-pricing-and-discounts,Promotion
+Settings,wc-dynamic-pricing-and-discounts,Settings
+General,wc-dynamic-pricing-and-discounts,General
+"Product Pricing",wc-dynamic-pricing-and-discounts,"Product Pricing"
+"Change display prices in shop",wc-dynamic-pricing-and-discounts,"Change display prices in shop"
+"Do not change",wc-dynamic-pricing-and-discounts,"Do not change"
+"Change - Include simple adjustments",wc-dynamic-pricing-and-discounts,"Change - Include simple adjustments"
+"Change - Include all adjustment types",wc-dynamic-pricing-and-discounts,"Change - Include all adjustment types"
+"This functionality may increase page load time. Rules with complex conditions may confuse customers when prices change unexpectedly.",wc-dynamic-pricing-and-discounts,"This functionality may increase page load time. Rules with complex conditions may confuse customers when prices change unexpectedly."
+"Base price for products on sale",wc-dynamic-pricing-and-discounts,"Base price for products on sale"
+"Sale price",wc-dynamic-pricing-and-discounts,"Sale price"
+"Regular price",wc-dynamic-pricing-and-discounts,"Regular price"
+"Exclude products already on sale",wc-dynamic-pricing-and-discounts,"Exclude products already on sale"
+"Affects products with a sale price set in product settings. Setting this to regular price may override price adjustments made by other plugins.",wc-dynamic-pricing-and-discounts,"Affects products with a sale price set in product settings. Setting this to regular price may override price adjustments made by other plugins."
+"Automatically add free product to cart",wc-dynamic-pricing-and-discounts,"Automatically add free product to cart"
+"This only works with Buy X Get Y rules when all properties of a free product are known - specific product or specific variation must be selected.",wc-dynamic-pricing-and-discounts,"This only works with Buy X Get Y rules when all properties of a free product are known - specific product or specific variation must be selected."
+"Display regular price when discounting",wc-dynamic-pricing-and-discounts,"Display regular price when discounting"
+"Cart Discounts",wc-dynamic-pricing-and-discounts,"Cart Discounts"
+"If multiple discounts are applicable",wc-dynamic-pricing-and-discounts,"If multiple discounts are applicable"
+"Display all individual discounts",wc-dynamic-pricing-and-discounts,"Display all individual discounts"
+"Combine to one total discount",wc-dynamic-pricing-and-discounts,"Combine to one total discount"
+"Combined discount title",wc-dynamic-pricing-and-discounts,"Combined discount title"
+Discount,wc-dynamic-pricing-and-discounts,Discount
+"Apply with individual use coupons",wc-dynamic-pricing-and-discounts,"Apply with individual use coupons"
+"Allow regular coupons with cart discounts",wc-dynamic-pricing-and-discounts,"Allow regular coupons with cart discounts"
+"Checkout Fees",wc-dynamic-pricing-and-discounts,"Checkout Fees"
+"If multiple fees are applicable",wc-dynamic-pricing-and-discounts,"If multiple fees are applicable"
+"Display all individual fees",wc-dynamic-pricing-and-discounts,"Display all individual fees"
+"Combine to one total fee",wc-dynamic-pricing-and-discounts,"Combine to one total fee"
+"If you choose to combine multiple fees to one fee and fees have different tax classes, they will be grouped by tax class and multiple combined fees will be displayed (one per tax class).",wc-dynamic-pricing-and-discounts,"If you choose to combine multiple fees to one fee and fees have different tax classes, they will be grouped by tax class and multiple combined fees will be displayed (one per tax class)."
+"Combined fee title",wc-dynamic-pricing-and-discounts,"Combined fee title"
+Fee,wc-dynamic-pricing-and-discounts,Fee
+"Tax class",wc-dynamic-pricing-and-discounts,"Tax class"
+"Not Taxable",wc-dynamic-pricing-and-discounts,"Not Taxable"
+"Custom Taxonomy Conditions",wc-dynamic-pricing-and-discounts,"Custom Taxonomy Conditions"
+"Enabled taxonomies",wc-dynamic-pricing-and-discounts,"Enabled taxonomies"
+"Allows integration with 3rd party extensions that add custom product taxonomies, e.g. product brands.",wc-dynamic-pricing-and-discounts,"Allows integration with 3rd party extensions that add custom product taxonomies, e.g. product brands."
+"Import & Export",wc-dynamic-pricing-and-discounts,"Import & Export"
+"Import settings",wc-dynamic-pricing-and-discounts,"Import settings"
+"Warning! Importing settings will irrecoverably overwrite your existing settings, including any pricing rules, discounts and fees.",wc-dynamic-pricing-and-discounts,"Warning! Importing settings will irrecoverably overwrite your existing settings, including any pricing rules, discounts and fees."
+"Export settings",wc-dynamic-pricing-and-discounts,"Export settings"
+"Click here to export",wc-dynamic-pricing-and-discounts,"Click here to export"
+"Amounts in conditions include tax",wc-dynamic-pricing-and-discounts,"Amounts in conditions include tax"
+"<strong>Warning!</strong> Combining discounts may result in unexpected tax calculation when percentage discounts are used and different tax rates apply to different cart items.",wc-dynamic-pricing-and-discounts,"<strong>Warning!</strong> Combining discounts may result in unexpected tax calculation when percentage discounts are used and different tax rates apply to different cart items."
+"Pricing & Discounts",wc-dynamic-pricing-and-discounts,"Pricing & Discounts"
+"Pricing & Discounts",wc-dynamic-pricing-and-discounts,"Pricing & Discounts"
+"Unable to validate settings.",wc-dynamic-pricing-and-discounts,"Unable to validate settings."
+"Notification message must not be empty.",wc-dynamic-pricing-and-discounts,"Notification message must not be empty."
+"Settings updated.",wc-dynamic-pricing-and-discounts,"Settings updated."
+"Individual Products",wc-dynamic-pricing-and-discounts,"Individual Products"
+"Each individual product",wc-dynamic-pricing-and-discounts,"Each individual product"
+"Each individual variation",wc-dynamic-pricing-and-discounts,"Each individual variation"
+"Each individual cart line item",wc-dynamic-pricing-and-discounts,"Each individual cart line item"
+"All Matched Products",wc-dynamic-pricing-and-discounts,"All Matched Products"
+"All matched product quantities split by category",wc-dynamic-pricing-and-discounts,"All matched product quantities split by category"
+"All matched product quantities added up",wc-dynamic-pricing-and-discounts,"All matched product quantities added up"
+"Quantities added up by category",wc-dynamic-pricing-and-discounts,"Quantities added up by category"
+"All quantities added up",wc-dynamic-pricing-and-discounts,"All quantities added up"
+"Each individual product",wc-dynamic-pricing-and-discounts,"Each individual product"
+"Each individual variation",wc-dynamic-pricing-and-discounts,"Each individual variation"
+"Each individual cart line item",wc-dynamic-pricing-and-discounts,"Each individual cart line item"
+"Each individual category",wc-dynamic-pricing-and-discounts,"Each individual category"
+"All quantities added up",wc-dynamic-pricing-and-discounts,"All quantities added up"
+Non-Exclusive,wc-dynamic-pricing-and-discounts,Non-Exclusive
+"Apply with other applicable rules",wc-dynamic-pricing-and-discounts,"Apply with other applicable rules"
+"Exclusive - Per Cart Item",wc-dynamic-pricing-and-discounts,"Exclusive - Per Cart Item"
+Exclusive,wc-dynamic-pricing-and-discounts,Exclusive
+"Apply this rule and disregard other rules",wc-dynamic-pricing-and-discounts,"Apply this rule and disregard other rules"
+"Apply if other rules are not applicable",wc-dynamic-pricing-and-discounts,"Apply if other rules are not applicable"
+Disabled,wc-dynamic-pricing-and-discounts,Disabled
+Disabled,wc-dynamic-pricing-and-discounts,Disabled
+"Same Products",wc-dynamic-pricing-and-discounts,"Same Products"
+"Same as at full price",wc-dynamic-pricing-and-discounts,"Same as at full price"
+"Same as products at full price",wc-dynamic-pricing-and-discounts,"Same as products at full price"
+"Other Products",wc-dynamic-pricing-and-discounts,"Other Products"
+"Other products",wc-dynamic-pricing-and-discounts,"Other products"
+"Other product variations",wc-dynamic-pricing-and-discounts,"Other product variations"
+"Other products in categories",wc-dynamic-pricing-and-discounts,"Other products in categories"
+"Other products with attributes",wc-dynamic-pricing-and-discounts,"Other products with attributes"
+"Other products with tags",wc-dynamic-pricing-and-discounts,"Other products with tags"
+"Settings were successfully imported.",wc-dynamic-pricing-and-discounts,"Settings were successfully imported."
+"Error: Uploaded configuration file is not valid.",wc-dynamic-pricing-and-discounts,"Error: Uploaded configuration file is not valid."
+"Sorry, coupon ""%s"" is not valid when other discounts are applied to the cart.",wc-dynamic-pricing-and-discounts,"Sorry, coupon ""%s"" is not valid when other discounts are applied to the cart."
+"Cart Discount (deleted)",wc-dynamic-pricing-and-discounts,"Cart Discount (deleted)"
+"Countdown Timer",wc-dynamic-pricing-and-discounts,"Countdown Timer"
+"Displays a countdown timer for time restricted pricing rules.",wc-dynamic-pricing-and-discounts,"Displays a countdown timer for time restricted pricing rules."
+Enable,wc-dynamic-pricing-and-discounts,Enable
+Label,wc-dynamic-pricing-and-discounts,Label
+"SALE ENDS IN",wc-dynamic-pricing-and-discounts,"SALE ENDS IN"
+Position,wc-dynamic-pricing-and-discounts,Position
+"Add to cart - Before",wc-dynamic-pricing-and-discounts,"Add to cart - Before"
+"Add to cart - After",wc-dynamic-pricing-and-discounts,"Add to cart - After"
+"Product meta - Before",wc-dynamic-pricing-and-discounts,"Product meta - Before"
+"Product meta - After",wc-dynamic-pricing-and-discounts,"Product meta - After"
+"Product summary - Before",wc-dynamic-pricing-and-discounts,"Product summary - Before"
+"Product summary - After",wc-dynamic-pricing-and-discounts,"Product summary - After"
+"Time left less than",wc-dynamic-pricing-and-discounts,"Time left less than"
+"No Limit",wc-dynamic-pricing-and-discounts,"No Limit"
+"No limit",wc-dynamic-pricing-and-discounts,"No limit"
+Minutes,wc-dynamic-pricing-and-discounts,Minutes
+"5 minutes",wc-dynamic-pricing-and-discounts,"5 minutes"
+"15 minutes",wc-dynamic-pricing-and-discounts,"15 minutes"
+"30 minutes",wc-dynamic-pricing-and-discounts,"30 minutes"
+"45 minutes",wc-dynamic-pricing-and-discounts,"45 minutes"
+Hours,wc-dynamic-pricing-and-discounts,Hours
+"1 hour",wc-dynamic-pricing-and-discounts,"1 hour"
+"2 hours",wc-dynamic-pricing-and-discounts,"2 hours"
+"3 hours",wc-dynamic-pricing-and-discounts,"3 hours"
+"6 hours",wc-dynamic-pricing-and-discounts,"6 hours"
+"12 hours",wc-dynamic-pricing-and-discounts,"12 hours"
+Days,wc-dynamic-pricing-and-discounts,Days
+"1 day",wc-dynamic-pricing-and-discounts,"1 day"
+"2 days",wc-dynamic-pricing-and-discounts,"2 days"
+"3 days",wc-dynamic-pricing-and-discounts,"3 days"
+"4 days",wc-dynamic-pricing-and-discounts,"4 days"
+"5 days",wc-dynamic-pricing-and-discounts,"5 days"
+"6 days",wc-dynamic-pricing-and-discounts,"6 days"
+"7 days",wc-dynamic-pricing-and-discounts,"7 days"
+"14 days",wc-dynamic-pricing-and-discounts,"14 days"
+DAYS,wc-dynamic-pricing-and-discounts,DAYS
+HOURS,wc-dynamic-pricing-and-discounts,HOURS
+MINUTES,wc-dynamic-pricing-and-discounts,MINUTES
+SECONDS,wc-dynamic-pricing-and-discounts,SECONDS
+"Cart Discounts",wc-dynamic-pricing-and-discounts,"Cart Discounts"
+Text,wc-dynamic-pricing-and-discounts,Text
+"Discount <strong>""{{title}}""</strong> has been applied to your cart.",wc-dynamic-pricing-and-discounts,"Discount <strong>""{{title}}""</strong> has been applied to your cart."
+"Macro {{title}} displays discount title.<br>Macro {{description}} displays public description.",wc-dynamic-pricing-and-discounts,"Macro {{title}} displays discount title.<br>Macro {{description}} displays public description."
+"Checkout Fees",wc-dynamic-pricing-and-discounts,"Checkout Fees"
+Text,wc-dynamic-pricing-and-discounts,Text
+"Fee <strong>""{{title}}""</strong> has been applied to your cart.",wc-dynamic-pricing-and-discounts,"Fee <strong>""{{title}}""</strong> has been applied to your cart."
+"Macro {{title}} displays fee title.<br> Macro {{description}} displays public description.",wc-dynamic-pricing-and-discounts,"Macro {{title}} displays fee title.<br> Macro {{description}} displays public description."
+"Product Pricing",wc-dynamic-pricing-and-discounts,"Product Pricing"
+Text,wc-dynamic-pricing-and-discounts,Text
+"Product discount has been applied to your cart.",wc-dynamic-pricing-and-discounts,"Product discount has been applied to your cart."
+"Macro {{description}} displays public description.",wc-dynamic-pricing-and-discounts,"Macro {{description}} displays public description."
+"Customer Notifications",wc-dynamic-pricing-and-discounts,"Customer Notifications"
+"Displays a notification when pricing rule, cart discount or checkout fee is applied.",wc-dynamic-pricing-and-discounts,"Displays a notification when pricing rule, cart discount or checkout fee is applied."
+"You Saved",wc-dynamic-pricing-and-discounts,"You Saved"
+"Displays a total amount saved by customer on cart and checkout pages.",wc-dynamic-pricing-and-discounts,"Displays a total amount saved by customer on cart and checkout pages."
+Enable,wc-dynamic-pricing-and-discounts,Enable
+Label,wc-dynamic-pricing-and-discounts,Label
+"You Saved",wc-dynamic-pricing-and-discounts,"You Saved"
+"Position in cart",wc-dynamic-pricing-and-discounts,"Position in cart"
+Positions,wc-dynamic-pricing-and-discounts,Positions
+"Cart table - Before",wc-dynamic-pricing-and-discounts,"Cart table - Before"
+"Cart table - After",wc-dynamic-pricing-and-discounts,"Cart table - After"
+"Cart totals - Before",wc-dynamic-pricing-and-discounts,"Cart totals - Before"
+"Cart totals - After",wc-dynamic-pricing-and-discounts,"Cart totals - After"
+"Order total - Before",wc-dynamic-pricing-and-discounts,"Order total - Before"
+"Order total - After",wc-dynamic-pricing-and-discounts,"Order total - After"
+"Checkout button - Before",wc-dynamic-pricing-and-discounts,"Checkout button - Before"
+"Checkout button - After",wc-dynamic-pricing-and-discounts,"Checkout button - After"
+Disabled,wc-dynamic-pricing-and-discounts,Disabled
+Disabled,wc-dynamic-pricing-and-discounts,Disabled
+"Position in checkout",wc-dynamic-pricing-and-discounts,"Position in checkout"
+Positions,wc-dynamic-pricing-and-discounts,Positions
+"Checkout form - Before",wc-dynamic-pricing-and-discounts,"Checkout form - Before"
+"Checkout form - After",wc-dynamic-pricing-and-discounts,"Checkout form - After"
+"Payment details - Before",wc-dynamic-pricing-and-discounts,"Payment details - Before"
+"Payment details - After",wc-dynamic-pricing-and-discounts,"Payment details - After"
+"Order total - Before",wc-dynamic-pricing-and-discounts,"Order total - Before"
+"Order total - After",wc-dynamic-pricing-and-discounts,"Order total - After"
+Disabled,wc-dynamic-pricing-and-discounts,Disabled
+Disabled,wc-dynamic-pricing-and-discounts,Disabled
+"Discount amount threshold",wc-dynamic-pricing-and-discounts,"Discount amount threshold"
+0.01,wc-dynamic-pricing-and-discounts,0.01
+"Include cart discounts and coupons",wc-dynamic-pricing-and-discounts,"Include cart discounts and coupons"
+"Include tax",wc-dynamic-pricing-and-discounts,"Include tax"
+"Upsell Notifications",wc-dynamic-pricing-and-discounts,"Upsell Notifications"
+"Displays a notification when only one step is remaining to get a discount.",wc-dynamic-pricing-and-discounts,"Displays a notification when only one step is remaining to get a discount."
+"Enable upsell notifications",wc-dynamic-pricing-and-discounts,"Enable upsell notifications"
+"Volume Pricing Table",wc-dynamic-pricing-and-discounts,"Volume Pricing Table"
+"Displays a table with potential savings that come with higher quantities purchased.",wc-dynamic-pricing-and-discounts,"Displays a table with potential savings that come with higher quantities purchased."
+Enable,wc-dynamic-pricing-and-discounts,Enable
+Title,wc-dynamic-pricing-and-discounts,Title
+"Quantity discounts",wc-dynamic-pricing-and-discounts,"Quantity discounts"
+Position,wc-dynamic-pricing-and-discounts,Position
+"Add to cart - Before",wc-dynamic-pricing-and-discounts,"Add to cart - Before"
+"Add to cart - After",wc-dynamic-pricing-and-discounts,"Add to cart - After"
+"Product meta - Before",wc-dynamic-pricing-and-discounts,"Product meta - Before"
+"Product meta - After",wc-dynamic-pricing-and-discounts,"Product meta - After"
+"Product summary - Before",wc-dynamic-pricing-and-discounts,"Product summary - Before"
+"Product summary - After",wc-dynamic-pricing-and-discounts,"Product summary - After"
+"Page content - After",wc-dynamic-pricing-and-discounts,"Page content - After"
+Layout,wc-dynamic-pricing-and-discounts,Layout
+Inline,wc-dynamic-pricing-and-discounts,Inline
+"Inline - Horizontal",wc-dynamic-pricing-and-discounts,"Inline - Horizontal"
+"Inline - Vertical",wc-dynamic-pricing-and-discounts,"Inline - Vertical"
+Modal,wc-dynamic-pricing-and-discounts,Modal
+"Modal - Horizontal",wc-dynamic-pricing-and-discounts,"Modal - Horizontal"
+"Modal - Vertical",wc-dynamic-pricing-and-discounts,"Modal - Vertical"
+"Value to display",wc-dynamic-pricing-and-discounts,"Value to display"
+"Discounted price",wc-dynamic-pricing-and-discounts,"Discounted price"
+"Discount amount",wc-dynamic-pricing-and-discounts,"Discount amount"
+"Discount percentage",wc-dynamic-pricing-and-discounts,"Discount percentage"
+"Undefined quantity handling",wc-dynamic-pricing-and-discounts,"Undefined quantity handling"
+"Display missing range with regular price",wc-dynamic-pricing-and-discounts,"Display missing range with regular price"
+"Do not display missing range",wc-dynamic-pricing-and-discounts,"Do not display missing range"
+"Variable product handling",wc-dynamic-pricing-and-discounts,"Variable product handling"
+"Display individual pricing tables",wc-dynamic-pricing-and-discounts,"Display individual pricing tables"
+"Display one pricing table with all variations",wc-dynamic-pricing-and-discounts,"Display one pricing table with all variations"
+"Your Price",wc-dynamic-pricing-and-discounts,"Your Price"
+"Displays a dynamically updated price on a single product page. This price reflects all pricing adjustments that would be applicable if a specified quantity was added to cart.",wc-dynamic-pricing-and-discounts,"Displays a dynamically updated price on a single product page. This price reflects all pricing adjustments that would be applicable if a specified quantity was added to cart."
+Enable,wc-dynamic-pricing-and-discounts,Enable
+"Display when product is not discounted",wc-dynamic-pricing-and-discounts,"Display when product is not discounted"
+"Position on page",wc-dynamic-pricing-and-discounts,"Position on page"
+"Add to cart button - Before",wc-dynamic-pricing-and-discounts,"Add to cart button - Before"
+"Add to cart button - After",wc-dynamic-pricing-and-discounts,"Add to cart button - After"
+"Add to cart form - Before",wc-dynamic-pricing-and-discounts,"Add to cart form - Before"
+"Add to cart form - After",wc-dynamic-pricing-and-discounts,"Add to cart form - After"
+"Product meta - Before",wc-dynamic-pricing-and-discounts,"Product meta - Before"
+"Product meta - After",wc-dynamic-pricing-and-discounts,"Product meta - After"
+Label,wc-dynamic-pricing-and-discounts,Label
+"Your Price:",wc-dynamic-pricing-and-discounts,"Your Price:"
+"Select user capabilities",wc-dynamic-pricing-and-discounts,"Select user capabilities"
+"Select countries",wc-dynamic-pricing-and-discounts,"Select countries"
+"Select coupons",wc-dynamic-pricing-and-discounts,"Select coupons"
+"Select taxonomy terms",wc-dynamic-pricing-and-discounts,"Select taxonomy terms"
+"Select payment methods",wc-dynamic-pricing-and-discounts,"Select payment methods"
+"Select product attributes",wc-dynamic-pricing-and-discounts,"Select product attributes"
+"Select product categories",wc-dynamic-pricing-and-discounts,"Select product categories"
+"Select product tags",wc-dynamic-pricing-and-discounts,"Select product tags"
+"Select product types",wc-dynamic-pricing-and-discounts,"Select product types"
+"Select product variations",wc-dynamic-pricing-and-discounts,"Select product variations"
+"Select products",wc-dynamic-pricing-and-discounts,"Select products"
+"Select user roles",wc-dynamic-pricing-and-discounts,"Select user roles"
+"Select shipping classes",wc-dynamic-pricing-and-discounts,"Select shipping classes"
+"Select shipping methods",wc-dynamic-pricing-and-discounts,"Select shipping methods"
+"Select shipping zones",wc-dynamic-pricing-and-discounts,"Select shipping zones"
+"Select states",wc-dynamic-pricing-and-discounts,"Select states"
+"Select customers",wc-dynamic-pricing-and-discounts,"Select customers"
+"Select days of week",wc-dynamic-pricing-and-discounts,"Select days of week"
+(DELETED),wc-dynamic-pricing-and-discounts,(DELETED)
+"Select values",wc-dynamic-pricing-and-discounts,"Select values"
+"All time",wc-dynamic-pricing-and-discounts,"All time"
+"all time",wc-dynamic-pricing-and-discounts,"all time"
+"select date",wc-dynamic-pricing-and-discounts,"select date"
+"select date and time",wc-dynamic-pricing-and-discounts,"select date and time"
+"meta field key",wc-dynamic-pricing-and-discounts,"meta field key"
+"e.g. 90210, 902**, 90200-90299, SW1A 1AA, NSW 2001",wc-dynamic-pricing-and-discounts,"e.g. 90210, 902**, 90200-90299, SW1A 1AA, NSW 2001"
+"select time",wc-dynamic-pricing-and-discounts,"select time"
+value,wc-dynamic-pricing-and-discounts,value
+yes,wc-dynamic-pricing-and-discounts,yes
+no,wc-dynamic-pricing-and-discounts,no
+"at least one of any",wc-dynamic-pricing-and-discounts,"at least one of any"
+"at least one of selected",wc-dynamic-pricing-and-discounts,"at least one of selected"
+"all of selected",wc-dynamic-pricing-and-discounts,"all of selected"
+"only selected",wc-dynamic-pricing-and-discounts,"only selected"
+"none of selected",wc-dynamic-pricing-and-discounts,"none of selected"
+"none at all",wc-dynamic-pricing-and-discounts,"none at all"
+from,wc-dynamic-pricing-and-discounts,from
+to,wc-dynamic-pricing-and-discounts,to
+"specific date",wc-dynamic-pricing-and-discounts,"specific date"
+from,wc-dynamic-pricing-and-discounts,from
+to,wc-dynamic-pricing-and-discounts,to
+"is empty",wc-dynamic-pricing-and-discounts,"is empty"
+"is not empty",wc-dynamic-pricing-and-discounts,"is not empty"
+contains,wc-dynamic-pricing-and-discounts,contains
+"does not contain",wc-dynamic-pricing-and-discounts,"does not contain"
+"begins with",wc-dynamic-pricing-and-discounts,"begins with"
+"ends with",wc-dynamic-pricing-and-discounts,"ends with"
+equals,wc-dynamic-pricing-and-discounts,equals
+"does not equal",wc-dynamic-pricing-and-discounts,"does not equal"
+"less than",wc-dynamic-pricing-and-discounts,"less than"
+"less or equal to",wc-dynamic-pricing-and-discounts,"less or equal to"
+"more than",wc-dynamic-pricing-and-discounts,"more than"
+"more or equal to",wc-dynamic-pricing-and-discounts,"more or equal to"
+"is checked",wc-dynamic-pricing-and-discounts,"is checked"
+"is not checked",wc-dynamic-pricing-and-discounts,"is not checked"
+"at least one of selected",wc-dynamic-pricing-and-discounts,"at least one of selected"
+"all of selected",wc-dynamic-pricing-and-discounts,"all of selected"
+"only selected",wc-dynamic-pricing-and-discounts,"only selected"
+"none of selected",wc-dynamic-pricing-and-discounts,"none of selected"
+"in list",wc-dynamic-pricing-and-discounts,"in list"
+"not in list",wc-dynamic-pricing-and-discounts,"not in list"
+"at least",wc-dynamic-pricing-and-discounts,"at least"
+"more than",wc-dynamic-pricing-and-discounts,"more than"
+"not more than",wc-dynamic-pricing-and-discounts,"not more than"
+"less than",wc-dynamic-pricing-and-discounts,"less than"
+"within past",wc-dynamic-pricing-and-discounts,"within past"
+"earlier than",wc-dynamic-pricing-and-discounts,"earlier than"
+matches,wc-dynamic-pricing-and-discounts,matches
+"does not match",wc-dynamic-pricing-and-discounts,"does not match"
+from,wc-dynamic-pricing-and-discounts,from
+to,wc-dynamic-pricing-and-discounts,to
+"Cart item count",wc-dynamic-pricing-and-discounts,"Cart item count"
+"Coupons applied",wc-dynamic-pricing-and-discounts,"Coupons applied"
+"Cart item quantity - Attributes",wc-dynamic-pricing-and-discounts,"Cart item quantity - Attributes"
+"Cart item quantity - Categories",wc-dynamic-pricing-and-discounts,"Cart item quantity - Categories"
+"Cart item quantity - Shipping classes",wc-dynamic-pricing-and-discounts,"Cart item quantity - Shipping classes"
+"Cart item quantity - Tags",wc-dynamic-pricing-and-discounts,"Cart item quantity - Tags"
+"Cart item quantity - Variations",wc-dynamic-pricing-and-discounts,"Cart item quantity - Variations"
+"Cart item quantity - Products",wc-dynamic-pricing-and-discounts,"Cart item quantity - Products"
+"Cart Items - Quantity",wc-dynamic-pricing-and-discounts,"Cart Items - Quantity"
+"Cart item subtotal - Attributes",wc-dynamic-pricing-and-discounts,"Cart item subtotal - Attributes"
+"Cart item subtotal - Categories",wc-dynamic-pricing-and-discounts,"Cart item subtotal - Categories"
+"Cart item subtotal - Shipping classes",wc-dynamic-pricing-and-discounts,"Cart item subtotal - Shipping classes"
+"Cart item subtotal - Tags",wc-dynamic-pricing-and-discounts,"Cart item subtotal - Tags"
+"Cart item subtotal - Variations",wc-dynamic-pricing-and-discounts,"Cart item subtotal - Variations"
+"Cart item subtotal - Products",wc-dynamic-pricing-and-discounts,"Cart item subtotal - Products"
+"Cart Items - Subtotal",wc-dynamic-pricing-and-discounts,"Cart Items - Subtotal"
+"Cart items - Attributes",wc-dynamic-pricing-and-discounts,"Cart items - Attributes"
+"Cart items - Categories",wc-dynamic-pricing-and-discounts,"Cart items - Categories"
+"Cart items - Shipping Classes",wc-dynamic-pricing-and-discounts,"Cart items - Shipping Classes"
+"Cart items - Tags",wc-dynamic-pricing-and-discounts,"Cart items - Tags"
+"Cart items - Variations",wc-dynamic-pricing-and-discounts,"Cart items - Variations"
+"Cart items - Products",wc-dynamic-pricing-and-discounts,"Cart items - Products"
+"Cart Items",wc-dynamic-pricing-and-discounts,"Cart Items"
+"Cart total quantity",wc-dynamic-pricing-and-discounts,"Cart total quantity"
+"Cart subtotal",wc-dynamic-pricing-and-discounts,"Cart subtotal"
+"Cart total weight",wc-dynamic-pricing-and-discounts,"Cart total weight"
+Cart,wc-dynamic-pricing-and-discounts,Cart
+"Payment method",wc-dynamic-pricing-and-discounts,"Payment method"
+"Shipping method",wc-dynamic-pricing-and-discounts,"Shipping method"
+Checkout,wc-dynamic-pricing-and-discounts,Checkout
+"Custom Taxonomy",wc-dynamic-pricing-and-discounts,"Custom Taxonomy"
+"User capability",wc-dynamic-pricing-and-discounts,"User capability"
+Customer,wc-dynamic-pricing-and-discounts,Customer
+"Is logged in",wc-dynamic-pricing-and-discounts,"Is logged in"
+"User meta",wc-dynamic-pricing-and-discounts,"User meta"
+"User role",wc-dynamic-pricing-and-discounts,"User role"
+"Spent - Total",wc-dynamic-pricing-and-discounts,"Spent - Total"
+"Spent - Average per order",wc-dynamic-pricing-and-discounts,"Spent - Average per order"
+"Spent - Last order",wc-dynamic-pricing-and-discounts,"Spent - Last order"
+"Last order",wc-dynamic-pricing-and-discounts,"Last order"
+"Order count",wc-dynamic-pricing-and-discounts,"Order count"
+"Customer review count",wc-dynamic-pricing-and-discounts,"Customer review count"
+"Customer - Value",wc-dynamic-pricing-and-discounts,"Customer - Value"
+Customer,wc-dynamic-pricing-and-discounts,Customer
+"Coupons applied",wc-dynamic-pricing-and-discounts,"Coupons applied"
+"User capability",wc-dynamic-pricing-and-discounts,"User capability"
+"User role",wc-dynamic-pricing-and-discounts,"User role"
+Customer,wc-dynamic-pricing-and-discounts,Customer
+"Order items - Attributes",wc-dynamic-pricing-and-discounts,"Order items - Attributes"
+"Order items - Categories",wc-dynamic-pricing-and-discounts,"Order items - Categories"
+"Order items - Tags",wc-dynamic-pricing-and-discounts,"Order items - Tags"
+"Order items - Variations",wc-dynamic-pricing-and-discounts,"Order items - Variations"
+"Order items - Products",wc-dynamic-pricing-and-discounts,"Order items - Products"
+"Order Items",wc-dynamic-pricing-and-discounts,"Order Items"
+"Payment method",wc-dynamic-pricing-and-discounts,"Payment method"
+"Shipping method",wc-dynamic-pricing-and-discounts,"Shipping method"
+Shipping,wc-dynamic-pricing-and-discounts,Shipping
+"Order total",wc-dynamic-pricing-and-discounts,"Order total"
+Order,wc-dynamic-pricing-and-discounts,Order
+Other,wc-dynamic-pricing-and-discounts,Other
+"Product attributes",wc-dynamic-pricing-and-discounts,"Product attributes"
+"Product category",wc-dynamic-pricing-and-discounts,"Product category"
+"Coupons applied",wc-dynamic-pricing-and-discounts,"Coupons applied"
+Other,wc-dynamic-pricing-and-discounts,Other
+Product,wc-dynamic-pricing-and-discounts,Product
+"Product meta field",wc-dynamic-pricing-and-discounts,"Product meta field"
+"Product is on sale",wc-dynamic-pricing-and-discounts,"Product is on sale"
+"Product regular price",wc-dynamic-pricing-and-discounts,"Product regular price"
+"Product shipping class",wc-dynamic-pricing-and-discounts,"Product shipping class"
+"Product stock quantity",wc-dynamic-pricing-and-discounts,"Product stock quantity"
+"Product type",wc-dynamic-pricing-and-discounts,"Product type"
+"Product Property",wc-dynamic-pricing-and-discounts,"Product Property"
+"Product tags",wc-dynamic-pricing-and-discounts,"Product tags"
+"Product variation",wc-dynamic-pricing-and-discounts,"Product variation"
+Product,wc-dynamic-pricing-and-discounts,Product
+"Purchased - Attributes",wc-dynamic-pricing-and-discounts,"Purchased - Attributes"
+"Purchased - Categories",wc-dynamic-pricing-and-discounts,"Purchased - Categories"
+"Purchased - Tags",wc-dynamic-pricing-and-discounts,"Purchased - Tags"
+"Purchased - Variations",wc-dynamic-pricing-and-discounts,"Purchased - Variations"
+"Purchased - Products",wc-dynamic-pricing-and-discounts,"Purchased - Products"
+"Quantity purchased - Attributes",wc-dynamic-pricing-and-discounts,"Quantity purchased - Attributes"
+"Quantity purchased - Categories",wc-dynamic-pricing-and-discounts,"Quantity purchased - Categories"
+"Quantity purchased - Tags",wc-dynamic-pricing-and-discounts,"Quantity purchased - Tags"
+"Quantity purchased - Variations",wc-dynamic-pricing-and-discounts,"Quantity purchased - Variations"
+"Quantity purchased - Products",wc-dynamic-pricing-and-discounts,"Quantity purchased - Products"
+"Purchase History - Quantity",wc-dynamic-pricing-and-discounts,"Purchase History - Quantity"
+"Value purchased - Attributes",wc-dynamic-pricing-and-discounts,"Value purchased - Attributes"
+"Value purchased - Categories",wc-dynamic-pricing-and-discounts,"Value purchased - Categories"
+"Value purchased - Tags",wc-dynamic-pricing-and-discounts,"Value purchased - Tags"
+"Value purchased - Variations",wc-dynamic-pricing-and-discounts,"Value purchased - Variations"
+"Value purchased - Products",wc-dynamic-pricing-and-discounts,"Value purchased - Products"
+"Purchase History - Value",wc-dynamic-pricing-and-discounts,"Purchase History - Value"
+"Purchase History",wc-dynamic-pricing-and-discounts,"Purchase History"
+"Shipping country",wc-dynamic-pricing-and-discounts,"Shipping country"
+"Shipping postcode",wc-dynamic-pricing-and-discounts,"Shipping postcode"
+"Shipping state",wc-dynamic-pricing-and-discounts,"Shipping state"
+"Shipping zone",wc-dynamic-pricing-and-discounts,"Shipping zone"
+"Shipping Address",wc-dynamic-pricing-and-discounts,"Shipping Address"
+Date,wc-dynamic-pricing-and-discounts,Date
+"Date & time",wc-dynamic-pricing-and-discounts,"Date & time"
+Time,wc-dynamic-pricing-and-discounts,Time
+"Days of week",wc-dynamic-pricing-and-discounts,"Days of week"
+"Date & Time",wc-dynamic-pricing-and-discounts,"Date & Time"
+Current,wc-dynamic-pricing-and-discounts,Current
+"current day",wc-dynamic-pricing-and-discounts,"current day"
+"current week",wc-dynamic-pricing-and-discounts,"current week"
+"current month",wc-dynamic-pricing-and-discounts,"current month"
+"current year",wc-dynamic-pricing-and-discounts,"current year"
+Days,wc-dynamic-pricing-and-discounts,Days
+Weeks,wc-dynamic-pricing-and-discounts,Weeks
+Months,wc-dynamic-pricing-and-discounts,Months
+Years,wc-dynamic-pricing-and-discounts,Years
+day,wc-dynamic-pricing-and-discounts,day
+week,wc-dynamic-pricing-and-discounts,week
+month,wc-dynamic-pricing-and-discounts,month
+year,wc-dynamic-pricing-and-discounts,year
+days,wc-dynamic-pricing-and-discounts,dní
+weeks,wc-dynamic-pricing-and-discounts,weeks
+months,wc-dynamic-pricing-and-discounts,months
+years,wc-dynamic-pricing-and-discounts,years
+"This product is a subscription",wc-dynamic-pricing-and-discounts,"This product is a subscription"
+"Contains at least one subscription",wc-dynamic-pricing-and-discounts,"Contains at least one subscription"
+"Any %s",wc-dynamic-pricing-and-discounts,"Any %s"
+"Other locations",wc-dynamic-pricing-and-discounts,"Other locations"
+"All zones",wc-dynamic-pricing-and-discounts,"All zones"
+"Standard Rate",wc-dynamic-pricing-and-discounts,"Standard Rate"
+"%1$s was called incorrectly. %2$s. Since version %3$s.'), $function, $message, $version));
+    }
+
+    /**
+     * Stable asort
+     *
+     * Adapted from https://github.com/vanderlee/PHP-stable-sort-functions/
+     *
+     * @access public
+     * @param array $array
+     * @param string $sort_flags
+     * @return array
+     */
+    public static function stable_asort(&$array, $sort_flags = SORT_REGULAR)
+    {
+        $index = 0;
+
+        foreach ($array as &$item) {
+            $item = array($index++, $item);
+        }
+
+        $result = uasort($array, function($a, $b) use($sort_flags) {
+
+            if ($a[1] == $b[1]) {
+                return $a[0] - $b[0];
+            }
+
+            $set = array(-1 => $a[1], 1 => $b[1]);
+            asort($set, $sort_flags);
+            reset($set);
+            return key($set);
+        });
+
+        foreach ($array as &$item) {
+            $item = $item[1];
+        }
+
+        return $result;
+    }
+
+    /**
+     * Stable uasort
+     *
+     * Adapted from https://github.com/vanderlee/PHP-stable-sort-functions/
+     *
+     * @access public
+     * @param array $array
+     * @param callable $value_compare_func
+     * @param array $params
+     * @return array
+     */
+    public static function stable_uasort(&$array, $value_compare_func, $params = array())
+    {
+        $index = 0;
+
+        foreach ($array as &$item) {
+            $item = array($index++, $item);
+        }
+
+        $result = @uasort($array, function($a, $b) use($value_compare_func, $params) {
+            $result = call_user_func($value_compare_func, $a[1], $b[1], $params);
+            return $result == 0 ? $a[0] - $b[0] : $result;
+        });
+
+        foreach ($array as &$item) {
+            $item = $item[1];
+        }
+
+        return $result;
+    }
+
+    /**
+     * Get WooCommerce main product id (i.e. parent id in case of product variation)
+     *
+     * @access public
+     * @param object|int $product
+     * @return int
+     */
+    public static function get_wc_product_absolute_id($product)
+    {
+        // Load product object
+        if (!is_a($product, 'WC_Product')) {
+            $product = wc_get_product($product);
+        }
+
+        // Return appropriate id
+        return $product->is_type('variation') ? $product->get_parent_id() : $product->get_id();
+    }
+
+    /**
+     * Normalize string decimal
+     *
+     * Safely changes '12.345,67' to '12345.67'
+     *
+     * @access public
+     * @param string $number
+     * @return string
+     */
+    public static function normalize_string_decimal($number)
+    {
+        return preg_replace('/\.(?=.*\.)/",wc-dynamic-pricing-and-discounts,"%1$s was called incorrectly. %2$s. Since version %3$s.'), $function, $message, $version));
+    }
+
+    /**
+     * Stable asort
+     *
+     * Adapted from https://github.com/vanderlee/PHP-stable-sort-functions/
+     *
+     * @access public
+     * @param array $array
+     * @param string $sort_flags
+     * @return array
+     */
+    public static function stable_asort(&$array, $sort_flags = SORT_REGULAR)
+    {
+        $index = 0;
+
+        foreach ($array as &$item) {
+            $item = array($index++, $item);
+        }
+
+        $result = uasort($array, function($a, $b) use($sort_flags) {
+
+            if ($a[1] == $b[1]) {
+                return $a[0] - $b[0];
+            }
+
+            $set = array(-1 => $a[1], 1 => $b[1]);
+            asort($set, $sort_flags);
+            reset($set);
+            return key($set);
+        });
+
+        foreach ($array as &$item) {
+            $item = $item[1];
+        }
+
+        return $result;
+    }
+
+    /**
+     * Stable uasort
+     *
+     * Adapted from https://github.com/vanderlee/PHP-stable-sort-functions/
+     *
+     * @access public
+     * @param array $array
+     * @param callable $value_compare_func
+     * @param array $params
+     * @return array
+     */
+    public static function stable_uasort(&$array, $value_compare_func, $params = array())
+    {
+        $index = 0;
+
+        foreach ($array as &$item) {
+            $item = array($index++, $item);
+        }
+
+        $result = @uasort($array, function($a, $b) use($value_compare_func, $params) {
+            $result = call_user_func($value_compare_func, $a[1], $b[1], $params);
+            return $result == 0 ? $a[0] - $b[0] : $result;
+        });
+
+        foreach ($array as &$item) {
+            $item = $item[1];
+        }
+
+        return $result;
+    }
+
+    /**
+     * Get WooCommerce main product id (i.e. parent id in case of product variation)
+     *
+     * @access public
+     * @param object|int $product
+     * @return int
+     */
+    public static function get_wc_product_absolute_id($product)
+    {
+        // Load product object
+        if (!is_a($product, 'WC_Product')) {
+            $product = wc_get_product($product);
+        }
+
+        // Return appropriate id
+        return $product->is_type('variation') ? $product->get_parent_id() : $product->get_id();
+    }
+
+    /**
+     * Normalize string decimal
+     *
+     * Safely changes '12.345,67' to '12345.67'
+     *
+     * @access public
+     * @param string $number
+     * @return string
+     */
+    public static function normalize_string_decimal($number)
+    {
+        return preg_replace('/\.(?=.*\.)/"
+Price,wc-dynamic-pricing-and-discounts,Cena
+Settings,wc-dynamic-pricing-and-discounts,Settings
+Settings,wc-dynamic-pricing-and-discounts,Settings
+"Error: Please fix this element.",wc-dynamic-pricing-and-discounts,"Error: Please fix this element."
+"Value is required.",wc-dynamic-pricing-and-discounts,"Value is required."
+"Value must be a whole number.",wc-dynamic-pricing-and-discounts,"Value must be a whole number."
+"Value must be positive.",wc-dynamic-pricing-and-discounts,"Value must be positive."
+"Value must be greater than or equal to {{value}}.",wc-dynamic-pricing-and-discounts,"Value must be greater than or equal to {{value}}."
+"Unable to validate settings.",wc-dynamic-pricing-and-discounts,"Unable to validate settings."
+"Settings updated.",wc-dynamic-pricing-and-discounts,"Settings updated."
+"Import & Export",wc-dynamic-pricing-and-discounts,"Import & Export"
+"Import settings",wc-dynamic-pricing-and-discounts,"Import settings"
+"Warning! Importing settings will irrecoverably overwrite your existing settings.",wc-dynamic-pricing-and-discounts,"Warning! Importing settings will irrecoverably overwrite your existing settings."
+"Export settings",wc-dynamic-pricing-and-discounts,"Export settings"
+"Click here to export",wc-dynamic-pricing-and-discounts,"Click here to export"
+"Settings were successfully imported.",wc-dynamic-pricing-and-discounts,"Settings were successfully imported."
+"Error: Uploaded settings file is invalid. It might be corrupted or truncated.",wc-dynamic-pricing-and-discounts,"Error: Uploaded settings file is invalid. It might be corrupted or truncated."
+"Error: Uploaded file contains settings for a different plugin. Please check your file and try again.",wc-dynamic-pricing-and-discounts,"Error: Uploaded file contains settings for a different plugin. Please check your file and try again."
+"Error: There was an error processing uploaded settings file. Please try again.",wc-dynamic-pricing-and-discounts,"Error: There was an error processing uploaded settings file. Please try again."
+"<strong>User Interface Loading</strong>",wc-dynamic-pricing-and-discounts,"<strong>User Interface Loading</strong>"
+"This plugin uses a JavaScript-driven user interface. If this notice does not disappear within a few seconds, you should check Console for any JavaScript errors or get in touch with <a href=""%s"">RightPress Support</a>.",wc-dynamic-pricing-and-discounts,"This plugin uses a JavaScript-driven user interface. If this notice does not disappear within a few seconds, you should check Console for any JavaScript errors or get in touch with <a href=""%s"">RightPress Support</a>."
+"An unexpected error occurred.",wc-dynamic-pricing-and-discounts,"An unexpected error occurred."
+"An unexpected error occurred.",wc-dynamic-pricing-and-discounts,"An unexpected error occurred."
+"Automatic Update Setup",wc-dynamic-pricing-and-discounts,"Automatic Update Setup"
+"There is a new version of <strong>%s</strong> available. To enable automatic updates, enter your CodeCanyon Purchase Code below.",wc-dynamic-pricing-and-discounts,"There is a new version of <strong>%s</strong> available. To enable automatic updates, enter your CodeCanyon Purchase Code below."
+"<strong>%s</strong> supports automatic updates. To receive them, enter your CodeCanyon Purchase Code below.",wc-dynamic-pricing-and-discounts,"<strong>%s</strong> supports automatic updates. To receive them, enter your CodeCanyon Purchase Code below."
+"Purchase Code",wc-dynamic-pricing-and-discounts,"Purchase Code"
+Submit,wc-dynamic-pricing-and-discounts,Submit
+Submit,wc-dynamic-pricing-and-discounts,Submit
+"Where do I find my Purchase Code?",wc-dynamic-pricing-and-discounts,"Where do I find my Purchase Code?"
+"Do not remind me again",wc-dynamic-pricing-and-discounts,"Do not remind me again"
+"Hide This Notice",wc-dynamic-pricing-and-discounts,"Hide This Notice"
+"Purchase Code format is invalid.",wc-dynamic-pricing-and-discounts,"Purchase Code format is invalid."
+"Unable to verify Purchase Code right now. Please try again later.",wc-dynamic-pricing-and-discounts,"Unable to verify Purchase Code right now. Please try again later."
+"Purchase Code is not valid.",wc-dynamic-pricing-and-discounts,"Purchase Code is not valid."
+"Purchase Code belongs to another product.",wc-dynamic-pricing-and-discounts,"Purchase Code belongs to another product."
+"Purchase Code",wc-dynamic-pricing-and-discounts,"Purchase Code"
+"Enter your Envato Purchase Code to enable automatic updates.",wc-dynamic-pricing-and-discounts,"Enter your Envato Purchase Code to enable automatic updates."
+"Purchase Code has been successfully updated.",wc-dynamic-pricing-and-discounts,"Purchase Code has been successfully updated."
+"Purchase Code has been successfully reset.",wc-dynamic-pricing-and-discounts,"Purchase Code has been successfully reset."
+"Purchase Code is not valid.",wc-dynamic-pricing-and-discounts,"Purchase Code is not valid."
+"Please fix it and try again.",wc-dynamic-pricing-and-discounts,"Please fix it and try again."
+"Purchase Code belongs to another product.",wc-dynamic-pricing-and-discounts,"Purchase Code belongs to another product."
+"Please change it and try again.",wc-dynamic-pricing-and-discounts,"Please change it and try again."
+"Unable to verify Purchase Code right now. Please try again later.",wc-dynamic-pricing-and-discounts,"Unable to verify Purchase Code right now. Please try again later."
+"You must enter your Purchase Code <a class=""rightpress_up_pc_%s"" href=""#"">here</a> to enable automatic updates. <a href=""%s"">Where do I find my Purchase Code?</a>",wc-dynamic-pricing-and-discounts,"You must enter your Purchase Code <a class=""rightpress_up_pc_%s"" href=""#"">here</a> to enable automatic updates. <a href=""%s"">Where do I find my Purchase Code?</a>"
+"RightPress no longer serves automatic updates as your <a href=""%s"">support subscription</a> has expired. You can <a href=""%s"">renew</a> your support subscription or use <a href=""%s"">other methods</a> to keep this plugin updated.",wc-dynamic-pricing-and-discounts,"RightPress no longer serves automatic updates as your <a href=""%s"">support subscription</a> has expired. You can <a href=""%s"">renew</a> your support subscription or use <a href=""%s"">other methods</a> to keep this plugin updated."
+"<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires PHP %s or later. Please update PHP on your server to use this plugin.",wc-dynamic-pricing-and-discounts,"<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires PHP %s or later. Please update PHP on your server to use this plugin."
+"If you have any questions, please contact %s.",wc-dynamic-pricing-and-discounts,"If you have any questions, please contact %s."
+"RightPress Support",wc-dynamic-pricing-and-discounts,"RightPress Support"
+"<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WordPress version %s or later. Please update WordPress to use this plugin.",wc-dynamic-pricing-and-discounts,"<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WordPress version %s or later. Please update WordPress to use this plugin."
+"If you have any questions, please contact %s.",wc-dynamic-pricing-and-discounts,"If you have any questions, please contact %s."
+"RightPress Support",wc-dynamic-pricing-and-discounts,"RightPress Support"
+"<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WooCommerce to be active. You can download WooCommerce %s.",wc-dynamic-pricing-and-discounts,"<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WooCommerce to be active. You can download WooCommerce %s."
+here,wc-dynamic-pricing-and-discounts,here
+"If you have any questions, please contact %s.",wc-dynamic-pricing-and-discounts,"If you have any questions, please contact %s."
+"RightPress Support",wc-dynamic-pricing-and-discounts,"RightPress Support"
+"<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WooCommerce version %s or later. Please update WooCommerce to use this plugin.",wc-dynamic-pricing-and-discounts,"<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WooCommerce version %s or later. Please update WooCommerce to use this plugin."
+"If you have any questions, please contact %s.",wc-dynamic-pricing-and-discounts,"If you have any questions, please contact %s."
+"RightPress Support",wc-dynamic-pricing-and-discounts,"RightPress Support"
+Support,wc-dynamic-pricing-and-discounts,Support
+Settings,wc-dynamic-pricing-and-discounts,Settings
+"<strong>User Interface Loading</strong>",wc-dynamic-pricing-and-discounts,"<strong>User Interface Loading</strong>"
+"This plugin uses a JavaScript-driven user interface. If this notice does not disappear in a few seconds, you should check Console for any JavaScript errors or get in touch with <a href=""%s"">RightPress Support</a>.",wc-dynamic-pricing-and-discounts,"This plugin uses a JavaScript-driven user interface. If this notice does not disappear in a few seconds, you should check Console for any JavaScript errors or get in touch with <a href=""%s"">RightPress Support</a>."
+"Note: User interface load time depends on a number of entries. Load time will increase by a fraction with each additional entry.",wc-dynamic-pricing-and-discounts,"Note: User interface load time depends on a number of entries. Load time will increase by a fraction with each additional entry."
+"No rules configured.",wc-dynamic-pricing-and-discounts,"No rules configured."
+"Add Rule",wc-dynamic-pricing-and-discounts,"Add Rule"
+"Add Rule",wc-dynamic-pricing-and-discounts,"Add Rule"
+Method,wc-dynamic-pricing-and-discounts,Method
+Title,wc-dynamic-pricing-and-discounts,Title
+Public,wc-dynamic-pricing-and-discounts,Public
+"Quantities Based On",wc-dynamic-pricing-and-discounts,"Quantities Based On"
+"Quantities Based On",wc-dynamic-pricing-and-discounts,"Quantities Based On"
+Note,wc-dynamic-pricing-and-discounts,Note
+Private,wc-dynamic-pricing-and-discounts,Private
+Description,wc-dynamic-pricing-and-discounts,Description
+Public,wc-dynamic-pricing-and-discounts,Public
+"Quantities & Discount",wc-dynamic-pricing-and-discounts,"Quantities & Discount"
+Quantity,wc-dynamic-pricing-and-discounts,Quantity
+Buy,wc-dynamic-pricing-and-discounts,Buy
+"At Full Price",wc-dynamic-pricing-and-discounts,"At Full Price"
+Quantity,wc-dynamic-pricing-and-discounts,Quantity
+Get,wc-dynamic-pricing-and-discounts,Get
+Discounted,wc-dynamic-pricing-and-discounts,Discounted
+Discount,wc-dynamic-pricing-and-discounts,Discount
+"Quantity Ranges",wc-dynamic-pricing-and-discounts,"Quantity Ranges"
+"Add Range",wc-dynamic-pricing-and-discounts,"Add Range"
+"Add Range",wc-dynamic-pricing-and-discounts,"Add Range"
+"Product Group",wc-dynamic-pricing-and-discounts,"Product Group"
+"Add Product",wc-dynamic-pricing-and-discounts,"Add Product"
+"Add Product",wc-dynamic-pricing-and-discounts,"Add Product"
+Items,wc-dynamic-pricing-and-discounts,Items
+Products,wc-dynamic-pricing-and-discounts,Products
+"Products - Buy",wc-dynamic-pricing-and-discounts,"Products - Buy"
+"Add Product",wc-dynamic-pricing-and-discounts,"Add Product"
+"Add Product",wc-dynamic-pricing-and-discounts,"Add Product"
+"Products - Get",wc-dynamic-pricing-and-discounts,"Products - Get"
+"Add Product",wc-dynamic-pricing-and-discounts,"Add Product"
+"Add Product",wc-dynamic-pricing-and-discounts,"Add Product"
+Conditions,wc-dynamic-pricing-and-discounts,Conditions
+"Add Condition",wc-dynamic-pricing-and-discounts,"Add Condition"
+"Add Condition",wc-dynamic-pricing-and-discounts,"Add Condition"
+"Applies to all products.",wc-dynamic-pricing-and-discounts,"Applies to all products."
+"Applies to all items.",wc-dynamic-pricing-and-discounts,"Applies to all items."
+"Applies to all products.",wc-dynamic-pricing-and-discounts,"Applies to all products."
+"Applies in all cases.",wc-dynamic-pricing-and-discounts,"Applies in all cases."
+"Condition type was disabled. Enable it or delete this placeholder after reviewing your settings.",wc-dynamic-pricing-and-discounts,"Condition type was disabled. Enable it or delete this placeholder after reviewing your settings."
+"Custom taxonomy condition was disabled. Enable it or delete this placeholder after reviewing your settings.",wc-dynamic-pricing-and-discounts,"Custom taxonomy condition was disabled. Enable it or delete this placeholder after reviewing your settings."
+"Condition type no longer exists. Delete this placeholder after reviewing your settings.",wc-dynamic-pricing-and-discounts,"Condition type no longer exists. Delete this placeholder after reviewing your settings."
+"Custom taxonomy no longer exists. Delete this placeholder after reviewing your settings.",wc-dynamic-pricing-and-discounts,"Custom taxonomy no longer exists. Delete this placeholder after reviewing your settings."
+"No quantity ranges.",wc-dynamic-pricing-and-discounts,"No quantity ranges."
+From,wc-dynamic-pricing-and-discounts,From
+"To - No limit",wc-dynamic-pricing-and-discounts,"To - No limit"
+"No products in group.",wc-dynamic-pricing-and-discounts,"No products in group."

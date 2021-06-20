@@ -1,0 +1,432 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Get PRO",conversion-tracking,"Get PRO"
+Docs,conversion-tracking,Docs
+Settings,conversion-tracking,Settings
+"<b>Woocommerce conversion tracking</b> requires <a target=""_blank"" href=""https://wordpress.org/plugins/woocommerce/"">Woocommerce</a>",conversion-tracking,"<b>Woocommerce conversion tracking</b> requires <a target=""_blank"" href=""https://wordpress.org/plugins/woocommerce/"">Woocommerce</a>"
+"Reach beyond your imagination in creating web pages. <strong> Try Happy Addons for Elementor to shape your dream.</strong> 😊' ); ?></p>
+                </div>
+                <div class=""wcct-message-action"">
+                    <a href="""" id=""wcct-install-happ-addons"" class=""button button-primary""> <i class=""dashicons dashicons-update wcct-update-icon""></i> Install Now For FREE</a>
+                    <p></strong><a target=""_blank"" href=""https://wordpress.org/plugins/happy-elementor-addons/"">Read more details ➔</a>
+                    </p>
+                </div>
+            </div>
+
+        <?php
+    }
+}
+
+function wcct_init() {
+    return WeDevs_WC_Conversion_Tracking::init();
+}
+
+// WeDevs_WC_Conversion_Tracking
+wcct_init();
+
+/**
+ * Manage Capability
+ *
+ * @return void
+ */
+function wcct_manage_cap() {
+    return apply_filters( 'wcct_capability",conversion-tracking,"Reach beyond your imagination in creating web pages. <strong> Try Happy Addons for Elementor to shape your dream.</strong> 😊' ); ?></p>
+                </div>
+                <div class=""wcct-message-action"">
+                    <a href="""" id=""wcct-install-happ-addons"" class=""button button-primary""> <i class=""dashicons dashicons-update wcct-update-icon""></i> Install Now For FREE</a>
+                    <p></strong><a target=""_blank"" href=""https://wordpress.org/plugins/happy-elementor-addons/"">Read more details ➔</a>
+                    </p>
+                </div>
+            </div>
+
+        <?php
+    }
+}
+
+function wcct_init() {
+    return WeDevs_WC_Conversion_Tracking::init();
+}
+
+// WeDevs_WC_Conversion_Tracking
+wcct_init();
+
+/**
+ * Manage Capability
+ *
+ * @return void
+ */
+function wcct_manage_cap() {
+    return apply_filters( 'wcct_capability"
+"Conversion Tracking",conversion-tracking,"Conversion Tracking"
+"Conversion Tracking",conversion-tracking,"Conversion Tracking"
+Integrations,conversion-tracking,Integrations
+"Settings has been saved successfully!",conversion-tracking,"Settings has been saved successfully!"
+"ERROR: Error fetching plugin information: %s",conversion-tracking,"ERROR: Error fetching plugin information: %s"
+"Successfully installed and activate,",conversion-tracking,"Successfully installed and activate,"
+"Facebook Product Catalog (Pro)",conversion-tracking,"Facebook Product Catalog (Pro)"
+"Settings (Pro)",conversion-tracking,"Settings (Pro)"
+"View Product",conversion-tracking,"View Product"
+"View Product Category",conversion-tracking,"View Product Category"
+Search,conversion-tracking,Hledat
+"Add To Wishlist",conversion-tracking,"Add To Wishlist"
+"Add to Cart ",conversion-tracking,"Add to Cart"
+"Complete Registration",conversion-tracking,"Complete Registration"
+"Complete Registration",conversion-tracking,"Complete Registration"
+"Premium Features",conversion-tracking,"Premium Features"
+"Get Premium",conversion-tracking,"Get Premium"
+"Conversion Tracking Pixel",conversion-tracking,"Conversion Tracking Pixel"
+"Various conversion tracking pixel integration like Facebook Ad, Google AdWords, etc. Insert your scripts codes here:",conversion-tracking,"Various conversion tracking pixel integration like Facebook Ad, Google AdWords, etc. Insert your scripts codes here:"
+"Tags Position",conversion-tracking,"Tags Position"
+"Select which position in your page you want to insert the tag",conversion-tracking,"Select which position in your page you want to insert the tag"
+"Inside %s tag",conversion-tracking,"Inside %s tag"
+"Inside %s tag",conversion-tracking,"Inside %s tag"
+"Tags for %s",conversion-tracking,"Tags for %s"
+"View Cart",conversion-tracking,"View Cart"
+"Adds script on the cart page",conversion-tracking,"Adds script on the cart page"
+"Tags for %s",conversion-tracking,"Tags for %s"
+"Successful Order",conversion-tracking,"Successful Order"
+"Adds script on the purchase success page",conversion-tracking,"Adds script on the purchase success page"
+"You can use dynamic values: %s",conversion-tracking,"You can use dynamic values: %s"
+"Tags for %s",conversion-tracking,"Tags for %s"
+"User Registration",conversion-tracking,"User Registration"
+"Adds script on the successful registraion page",conversion-tracking,"Adds script on the successful registraion page"
+"Conversion Tracking Code",conversion-tracking,"Conversion Tracking Code"
+"Insert conversion tracking code for this product.",conversion-tracking,"Insert conversion tracking code for this product."
+"You can use dynamic values: %s",conversion-tracking,"You can use dynamic values: %s"
+Custom,conversion-tracking,Custom
+"Successful Order",conversion-tracking,"Successful Order"
+"Put your JavaScript tracking scripts here. You can use dynamic values: %s",conversion-tracking,"Put your JavaScript tracking scripts here. You can use dynamic values: %s"
+"Registration Scripts",conversion-tracking,"Registration Scripts"
+"<a href=""%s"" target=""_blank"">Learn more</a> about setting up custom scripts.' ), 'https://wedevs.com/docs/woocommerce-conversion-tracking/custom/?utm_source=wp-admin&utm_medium=inline-helpk&utm_campaign=wcct_docs&utm_content=Custom' )
+            )
+        );
+
+        return $settings;
+    }
+
+    /**
+     * Enqueue script
+     *
+     * @return void
+     */
+    public function enqueue_script() {
+
+    }
+
+    /**
+     * Check Out
+     *
+     * @return void
+     */
+    public function checkout( $order_id ) {
+        if ( ! $this->is_enabled() ) {
+            return;
+        }
+
+        $code = $this->get_integration_settings();
+
+        if ( isset( $code['checkout'] ) && ! empty( $code['checkout'] ) ) {
+            echo $this->process_order_markdown( $code['checkout'], $order_id );
+        }
+    }
+
+    /**
+     * Registration
+     *
+     * @return void
+     */
+    public function registration() {
+        if ( $this->is_enabled() ) {
+
+            $code = $this->get_integration_settings();
+
+            if ( isset( $code['registration'] ) && ! empty( $code['registration'] ) ) {
+                echo $code['registration'];
+            }
+        }
+    }
+
+    /**
+     * Filter the code for dynamic data for order received page
+     *
+     * @since 1.1
+     *
+     * @param  string $code
+     *
+     * @return string
+     */
+    function process_order_markdown( $code, $order_id ) {
+
+        $order = wc_get_order( $order_id );
+
+        // bail out if not a valid instance
+        if ( ! is_a( $order, 'WC_Order' ) ) {
+            return $code;
+        }
+
+        if ( version_compare( WC()->version, '3.0",conversion-tracking,"<a href=""%s"" target=""_blank"">Learn more</a> about setting up custom scripts.' ), 'https://wedevs.com/docs/woocommerce-conversion-tracking/custom/?utm_source=wp-admin&utm_medium=inline-helpk&utm_campaign=wcct_docs&utm_content=Custom' )
+            )
+        );
+
+        return $settings;
+    }
+
+    /**
+     * Enqueue script
+     *
+     * @return void
+     */
+    public function enqueue_script() {
+
+    }
+
+    /**
+     * Check Out
+     *
+     * @return void
+     */
+    public function checkout( $order_id ) {
+        if ( ! $this->is_enabled() ) {
+            return;
+        }
+
+        $code = $this->get_integration_settings();
+
+        if ( isset( $code['checkout'] ) && ! empty( $code['checkout'] ) ) {
+            echo $this->process_order_markdown( $code['checkout'], $order_id );
+        }
+    }
+
+    /**
+     * Registration
+     *
+     * @return void
+     */
+    public function registration() {
+        if ( $this->is_enabled() ) {
+
+            $code = $this->get_integration_settings();
+
+            if ( isset( $code['registration'] ) && ! empty( $code['registration'] ) ) {
+                echo $code['registration'];
+            }
+        }
+    }
+
+    /**
+     * Filter the code for dynamic data for order received page
+     *
+     * @since 1.1
+     *
+     * @param  string $code
+     *
+     * @return string
+     */
+    function process_order_markdown( $code, $order_id ) {
+
+        $order = wc_get_order( $order_id );
+
+        // bail out if not a valid instance
+        if ( ! is_a( $order, 'WC_Order' ) ) {
+            return $code;
+        }
+
+        if ( version_compare( WC()->version, '3.0"
+Facebook,conversion-tracking,Facebook
+"Pixel ID",conversion-tracking,"Pixel ID"
+"Find the Pixel ID from <a href=""%s"" target=""_blank"">here</a>.",conversion-tracking,"Find the Pixel ID from <a href=""%s"" target=""_blank"">here</a>."
+Events,conversion-tracking,Events
+"Add to Cart",conversion-tracking,"Add to Cart"
+"Initiate Checkout",conversion-tracking,"Initiate Checkout"
+Purchase,conversion-tracking,Purchase
+"Complete Registration",conversion-tracking,"Complete Registration"
+"Google Ads",conversion-tracking,"Google Ads"
+"Account ID",conversion-tracking,"Account ID"
+"Provide the Google Ads Account ID. Usually it\'s something like <code>AW-123456789</code>, <a href=""%s"" target=""_blank"">learn more</a>.",conversion-tracking,"Provide the Google Ads Account ID. Usually it\'s something like <code>AW-123456789</code>, <a href=""%s"" target=""_blank"">learn more</a>."
+Events,conversion-tracking,Events
+Purchase,conversion-tracking,Purchase
+Twitter,conversion-tracking,Twitter
+Events,conversion-tracking,Events
+Purchase,conversion-tracking,Purchase
+"Find the Universal Tag ID from <a href=""%s"" target=""_blank"">here</a>, navigate to Tools &rarr; Conversion Tracking.",conversion-tracking,"Find the Universal Tag ID from <a href=""%s"" target=""_blank"">here</a>, navigate to Tools &rarr; Conversion Tracking."
+"Integration Settings",conversion-tracking,"Integration Settings"
+"Save Changes",conversion-tracking,"Save Changes"
+Documentation,conversion-tracking,Documentation
+"Getting Started",conversion-tracking,"Getting Started"
+Facebook,conversion-tracking,Facebook
+Twitter,conversion-tracking,Twitter
+"Google Ads",conversion-tracking,"Google Ads"
+"Perfect Audience",conversion-tracking,"Perfect Audience"
+"Microsoft Advertising",conversion-tracking,"Microsoft Advertising"
+Custom,conversion-tracking,Custom
+"Want to help make <strong>%1$s</strong> even more awesome? Allow %1$s to collect non-sensitive diagnostic data and usage information.', $this->client->textdomain ), $this->client->name );
+            } else {
+                $notice = $this->notice;
+            }
+
+            $notice .= ' (<a class=""' . $this->client->slug . '-insights-data-we-collect"" href=""#"">' . __( 'what we collect', $this->client->textdomain ) . '</a>)';
+            $notice .= '<p class=""description"" style=""display:none;"">' . implode( ",conversion-tracking,"Want to help make <strong>%1$s</strong> even more awesome? Allow %1$s to collect non-sensitive diagnostic data and usage information.', $this->client->textdomain ), $this->client->name );
+            } else {
+                $notice = $this->notice;
+            }
+
+            $notice .= ' (<a class=""' . $this->client->slug . '-insights-data-we-collect"" href=""#"">' . __( 'what we collect', $this->client->textdomain ) . '</a>)';
+            $notice .= '<p class=""description"" style=""display:none;"">' . implode( "
+"If you have a moment, please let us know why you are deactivating:', $this->client->textdomain ); ?></h3>
+                </div>
+
+                <div class=""wd-dr-modal-body"">
+                    <ul class=""reasons"">
+                        <?php foreach ($reasons as $reason) { ?>
+                            <li data-type=""<?php echo esc_attr( $reason['type'] ); ?>"" data-placeholder=""<?php echo esc_attr( $reason['placeholder'] ); ?>"">
+                                <label><input type=""radio"" name=""selected-reason"" value=""<?php echo $reason['id']; ?>""> <?php echo $reason['text']; ?></label>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                    <p class=""wd-dr-modal-reasons-bottom"">We share your data with <a href=""https://appsero.com/"">Appsero</a> to troubleshoot problems &amp; make product improvements. <a href=""https://appsero.com/privacy-policy/"">Learn more</a> about how Appsero handles your data.</p>
+                </div>
+
+                <div class=""wd-dr-modal-footer"">
+                    <a href=""#"" class=""dont-bother-me""><?php _e( 'I rather wouldn\'t say', $this->client->textdomain ); ?></a>
+                    <button class=""button-secondary""><?php _e( 'Submit & Deactivate', $this->client->textdomain ); ?></button>
+                    <button class=""button-primary""><?php _e( 'Cancel', $this->client->textdomain ); ?></button>
+                </div>
+            </div>
+        </div>
+
+        <style type=""text/css"">
+            .wd-dr-modal {
+                position: fixed;
+                z-index: 99999;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: rgba(0,0,0,0.5);
+                display: none;
+            }
+
+            .wd-dr-modal.modal-active {
+                display: block;
+            }
+
+            .wd-dr-modal-wrap {
+                width: 475px;
+                position: relative;
+                margin: 10% auto;
+                background: #fff;
+            }
+
+            .wd-dr-modal-header {
+                border-bottom: 1px solid #eee;
+                padding: 8px 20px;
+            }
+
+            .wd-dr-modal-header h3 {
+                line-height: 150%;
+                margin: 0;
+            }
+
+            .wd-dr-modal-body {
+                padding: 5px 20px 20px 20px;
+            }
+
+            .wd-dr-modal-body .reason-input {
+                margin-top: 5px;
+                margin-left: 20px;
+            }
+            .wd-dr-modal-footer {
+                border-top: 1px solid #eee;
+                padding: 12px 20px;
+                text-align: right;
+            }
+            .wd-dr-modal-reasons-bottom {
+                margin: 15px 0 0 0;
+            }
+        </style>
+
+        <script type=""text/javascript"">
+            (function($) {
+                $(function() {
+                    var modal = $( '#<?php echo $this->client->slug; ?>-wd-dr-modal' );
+                    var deactivateLink = '';
+
+                    $( '#the-list' ).on('click",conversion-tracking,"If you have a moment, please let us know why you are deactivating:', $this->client->textdomain ); ?></h3>
+                </div>
+
+                <div class=""wd-dr-modal-body"">
+                    <ul class=""reasons"">
+                        <?php foreach ($reasons as $reason) { ?>
+                            <li data-type=""<?php echo esc_attr( $reason['type'] ); ?>"" data-placeholder=""<?php echo esc_attr( $reason['placeholder'] ); ?>"">
+                                <label><input type=""radio"" name=""selected-reason"" value=""<?php echo $reason['id']; ?>""> <?php echo $reason['text']; ?></label>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                    <p class=""wd-dr-modal-reasons-bottom"">We share your data with <a href=""https://appsero.com/"">Appsero</a> to troubleshoot problems &amp; make product improvements. <a href=""https://appsero.com/privacy-policy/"">Learn more</a> about how Appsero handles your data.</p>
+                </div>
+
+                <div class=""wd-dr-modal-footer"">
+                    <a href=""#"" class=""dont-bother-me""><?php _e( 'I rather wouldn\'t say', $this->client->textdomain ); ?></a>
+                    <button class=""button-secondary""><?php _e( 'Submit & Deactivate', $this->client->textdomain ); ?></button>
+                    <button class=""button-primary""><?php _e( 'Cancel', $this->client->textdomain ); ?></button>
+                </div>
+            </div>
+        </div>
+
+        <style type=""text/css"">
+            .wd-dr-modal {
+                position: fixed;
+                z-index: 99999;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: rgba(0,0,0,0.5);
+                display: none;
+            }
+
+            .wd-dr-modal.modal-active {
+                display: block;
+            }
+
+            .wd-dr-modal-wrap {
+                width: 475px;
+                position: relative;
+                margin: 10% auto;
+                background: #fff;
+            }
+
+            .wd-dr-modal-header {
+                border-bottom: 1px solid #eee;
+                padding: 8px 20px;
+            }
+
+            .wd-dr-modal-header h3 {
+                line-height: 150%;
+                margin: 0;
+            }
+
+            .wd-dr-modal-body {
+                padding: 5px 20px 20px 20px;
+            }
+
+            .wd-dr-modal-body .reason-input {
+                margin-top: 5px;
+                margin-left: 20px;
+            }
+            .wd-dr-modal-footer {
+                border-top: 1px solid #eee;
+                padding: 12px 20px;
+                text-align: right;
+            }
+            .wd-dr-modal-reasons-bottom {
+                margin: 15px 0 0 0;
+            }
+        </style>
+
+        <script type=""text/javascript"">
+            (function($) {
+                $(function() {
+                    var modal = $( '#<?php echo $this->client->slug; ?>-wd-dr-modal' );
+                    var deactivateLink = '';
+
+                    $( '#the-list' ).on('click"

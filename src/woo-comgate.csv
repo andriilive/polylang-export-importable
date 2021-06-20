@@ -1,0 +1,327 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Toret plugins', $this->plugin_slug ),
+			  __( 'Toret plugins', $this->plugin_slug ),
+			  'manage_options",woo-comgate,"Toret plugins', $this->plugin_slug ),
+			  __( 'Toret plugins', $this->plugin_slug ),
+			  'manage_options"
+"Woo Comgate Payment', $this->plugin_slug ),
+			__( 'Woo Comgate Payment', $this->plugin_slug ),
+			'manage_options",woo-comgate,"Woo Comgate Payment', $this->plugin_slug ),
+			__( 'Woo Comgate Payment', $this->plugin_slug ),
+			'manage_options"
+"Comgate log', $this->plugin_slug ),
+				__( 'Comgate log', $this->plugin_slug ),
+				'manage_woocommerce",woo-comgate,"Comgate log', $this->plugin_slug ),
+				__( 'Comgate log', $this->plugin_slug ),
+				'manage_woocommerce"
+"Zobrazit záznamy logu pro tuto objednávku",woo-comgate,"Zobrazit záznamy logu pro tuto objednávku"
+"Every 12 hours' ),
+    );
+    return $schedules;
+}
+add_filter( 'cron_schedules",woo-comgate,"Every 12 hours' ),
+    );
+    return $schedules;
+}
+add_filter( 'cron_schedules"
+"Vaše licence byla aktivována.",woo-comgate,"Vaše licence byla aktivována."
+"Neplatný licenční klíč.<br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>.",woo-comgate,"Neplatný licenční klíč.<br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>."
+"Zadaný licenční klíč neodpovídá URL webu. <br />Prosím, zkontrolujte si licenční klíč v sekci <a href=""https://toret.cz/muj-ucet/"">Můj účet</a>. V případě dalších problémů kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>.",woo-comgate,"Zadaný licenční klíč neodpovídá URL webu. <br />Prosím, zkontrolujte si licenční klíč v sekci <a href=""https://toret.cz/muj-ucet/"">Můj účet</a>. V případě dalších problémů kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>."
+"Nemáte zadaný licenční klíč. <br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>.",woo-comgate,"Nemáte zadaný licenční klíč. <br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>."
+"Neplatný licenční klíč.<br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>.",woo-comgate,"Neplatný licenční klíč.<br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>."
+"ComGate platba převodem",woo-comgate,"ComGate platba převodem"
+Povolit/Zakázat,woo-comgate,Povolit/Zakázat
+"Povolit Comgate platbu převodem.",woo-comgate,"Povolit Comgate platbu převodem."
+Titulek:,woo-comgate,Titulek:
+"Název platební metody. Zobrazí se při výběru platební metody.",woo-comgate,"Název platební metody. Zobrazí se při výběru platební metody."
+"Comgate platba převodem",woo-comgate,"Comgate platba převodem"
+Popis:,woo-comgate,Popis:
+"Popis, který uživatel uvidí při výběru platební metody.",woo-comgate,"Popis, který uživatel uvidí při výběru platební metody."
+"Zaplaťte převodem na bankovní účet.",woo-comgate,"Zaplaťte převodem na bankovní účet."
+"Ikona platební metody:",woo-comgate,"Ikona platební metody:"
+"Url ikony zobrazené při výběru platební metody.",woo-comgate,"Url ikony zobrazené při výběru platební metody."
+"Id obchodu",woo-comgate,"Id obchodu"
+"Identifikátor propojení obchodu.' . (defined( 'ICL_LANGUAGE_CODE' ) ? ' Základní pro všechny případy které nespadají pod jazyky.' : ''),'woo-comgate')
+                ),
+                'secure_key' => array(
+                    'title'       => __('Secure key",woo-comgate,"Identifikátor propojení obchodu.' . (defined( 'ICL_LANGUAGE_CODE' ) ? ' Základní pro všechny případy které nespadají pod jazyky.' : ''),'woo-comgate')
+                ),
+                'secure_key' => array(
+                    'title'       => __('Secure key"
+"Secure key e-shopu, které vám bylo přiděleno.' . (defined( 'ICL_LANGUAGE_CODE' ) ? ' Základní pro všechny případy které nespadají pod jazyky.' : ''), 'woo-comgate')
+                ),
+                'test' => array(
+                    'title'       => __('Test mód",woo-comgate,"Secure key e-shopu, které vám bylo přiděleno.' . (defined( 'ICL_LANGUAGE_CODE' ) ? ' Základní pro všechny případy které nespadají pod jazyky.' : ''), 'woo-comgate')
+                ),
+                'test' => array(
+                    'title'       => __('Test mód"
+"Aktivace/deaktivace testovacího prostředí ComGate.",woo-comgate,"Aktivace/deaktivace testovacího prostředí ComGate."
+"Povolit způsob dopravy",woo-comgate,"Povolit způsob dopravy"
+"Pro povolení všech způsobů dopravy, zanechte pole prázdné.",woo-comgate,"Pro povolení všech způsobů dopravy, zanechte pole prázdné."
+"Povolit ComGate pro země",woo-comgate,"Povolit ComGate pro země"
+"Vyberte, pro které země bude GoPay dostupná.",woo-comgate,"Vyberte, pro které země bude GoPay dostupná."
+"Druh zboží",woo-comgate,"Druh zboží"
+"Vyberte, druh zboží, jenž máte povolené v Comgate.",woo-comgate,"Vyberte, druh zboží, jenž máte povolené v Comgate."
+"Digitální zboží",woo-comgate,"Digitální zboží"
+"Fyzické zboží",woo-comgate,"Fyzické zboží"
+"Id obchodu - ' . $key, 'woo-comgate'),
+                  'type'        => 'text",woo-comgate,"Id obchodu - ' . $key, 'woo-comgate'),
+                  'type'        => 'text"
+"Secure key - ' . $key, 'woo-comgate'),
+                  'type'        => 'text",woo-comgate,"Secure key - ' . $key, 'woo-comgate'),
+                  'type'        => 'text"
+"Comgate platební brána",woo-comgate,"Comgate platební brána"
+"Comgate je platební brána pro online platby v České republice.",woo-comgate,"Comgate je platební brána pro online platby v České republice."
+"Payments protocol",woo-comgate,"Payments protocol"
+"Transaction ID",woo-comgate,"Transaction ID"
+"Redirect url",woo-comgate,"Redirect url"
+"ComGate exception",woo-comgate,"ComGate exception"
+"ComGate platba kartou",woo-comgate,"ComGate platba kartou"
+Povolit/Zakázat,woo-comgate,Povolit/Zakázat
+"Povolit Comgate platební kartu.",woo-comgate,"Povolit Comgate platební kartu."
+Titulek:,woo-comgate,Titulek:
+"Název platební metody. Zobrazí se při výběru platební metody.",woo-comgate,"Název platební metody. Zobrazí se při výběru platební metody."
+"Comgate platební karta",woo-comgate,"Comgate platební karta"
+Popis:,woo-comgate,Popis:
+"Popis, který uživatel uvidí při výběru platební metody.",woo-comgate,"Popis, který uživatel uvidí při výběru platební metody."
+"Zaplaťte kreditní kartou.",woo-comgate,"Zaplaťte kreditní kartou."
+"Ikona platební metody:",woo-comgate,"Ikona platební metody:"
+"Url ikony zobrazené při výběru platební metody.",woo-comgate,"Url ikony zobrazené při výběru platební metody."
+"Id obchodu",woo-comgate,"Id obchodu"
+"Identifikátor propojení obchodu.' . (defined( 'ICL_LANGUAGE_CODE' ) ? ' Základní pro všechny případy které nespadají pod jazyky.' : ''),'woo-comgate')
+                ),
+                'secure_key' => array(
+                    'title'       => __('Secure key",woo-comgate,"Identifikátor propojení obchodu.' . (defined( 'ICL_LANGUAGE_CODE' ) ? ' Základní pro všechny případy které nespadají pod jazyky.' : ''),'woo-comgate')
+                ),
+                'secure_key' => array(
+                    'title'       => __('Secure key"
+"Secure key e-shopu, které vám bylo přiděleno.' . (defined( 'ICL_LANGUAGE_CODE' ) ? ' Základní pro všechny případy které nespadají pod jazyky.' : ''), 'woo-comgate')
+                ),
+                'test' => array(
+                    'title'       => __('Test mód",woo-comgate,"Secure key e-shopu, které vám bylo přiděleno.' . (defined( 'ICL_LANGUAGE_CODE' ) ? ' Základní pro všechny případy které nespadají pod jazyky.' : ''), 'woo-comgate')
+                ),
+                'test' => array(
+                    'title'       => __('Test mód"
+"Aktivace/deaktivace testovacího prostředí Comgate.",woo-comgate,"Aktivace/deaktivace testovacího prostředí Comgate."
+"Povolit Comgate platební metody",woo-comgate,"Povolit Comgate platební metody"
+"Vyberte, které platební metody budou dostupné.",woo-comgate,"Vyberte, které platební metody budou dostupné."
+"Povolit způsob dopravy",woo-comgate,"Povolit způsob dopravy"
+"Pro povolení všech způsobů dopravy, zanechte pole prázdné.",woo-comgate,"Pro povolení všech způsobů dopravy, zanechte pole prázdné."
+"Povolit ComGate pro země",woo-comgate,"Povolit ComGate pro země"
+"Vyberte, pro které země bude ComGate dostupná.",woo-comgate,"Vyberte, pro které země bude ComGate dostupná."
+"Druh zboží",woo-comgate,"Druh zboží"
+"Vyberte, druh zboží, jenž máte povolené v Comgate.",woo-comgate,"Vyberte, druh zboží, jenž máte povolené v Comgate."
+"Digitální zboží",woo-comgate,"Digitální zboží"
+"Fyzické zboží",woo-comgate,"Fyzické zboží"
+"Id obchodu - ' . $key, 'woo-comgate'),
+                                'type'        => 'text",woo-comgate,"Id obchodu - ' . $key, 'woo-comgate'),
+                                'type'        => 'text"
+"Secure key - ' . $key, 'woo-comgate'),
+                                'type'        => 'text",woo-comgate,"Secure key - ' . $key, 'woo-comgate'),
+                                'type'        => 'text"
+"Comgate platební brána",woo-comgate,"Comgate platební brána"
+"Comgate je platební brána pro online platby v České republice.",woo-comgate,"Comgate je platební brána pro online platby v České republice."
+"Payments protocol",woo-comgate,"Payments protocol"
+"Objednávka č:",woo-comgate,"Objednávka č:"
+"Objednávka č:",woo-comgate,"Objednávka č:"
+"Transaction ID",woo-comgate,"Transaction ID"
+"Redirect url",woo-comgate,"Redirect url"
+"ComGate exception",woo-comgate,"ComGate exception"
+"View details' ) );
+				if ( ! empty( $linkText ) ) {
+					$viewDetailsLinkPosition = 'append';
+
+					//Find the ""Visit plugin site"" link (if present).
+					$visitPluginSiteLinkIndex = count( $pluginMeta ) - 1;
+					if ( $pluginData['PluginURI'] ) {
+						$escapedPluginUri = esc_url( $pluginData['PluginURI'] );
+						foreach ( $pluginMeta as $linkIndex => $existingLink ) {
+							if ( strpos( $existingLink, $escapedPluginUri ) !== false ) {
+								$visitPluginSiteLinkIndex = $linkIndex;
+								$viewDetailsLinkPosition  = apply_filters(
+									$this->updateChecker->getUniqueName( 'view_details_link_position' ),
+									'before'
+								);
+								break;
+							}
+						}
+					}
+
+					$viewDetailsLink = sprintf( '<a href=""%s"" class=""thickbox open-plugin-details-modal"" aria-label=""%s"" data-title=""%s"">%s</a>',
+						esc_url( network_admin_url( 'plugin-install.php?tab=plugin-information&plugin=' . urlencode( $this->updateChecker->slug ) .
+						                            '&TB_iframe=true&width=600&height=550' ) ),
+						esc_attr( sprintf( __( 'More information about %s' ), $pluginData['Name'] ) ),
+						esc_attr( $pluginData['Name'] ),
+						$linkText
+					);
+					switch ( $viewDetailsLinkPosition ) {
+						case 'before':
+							array_splice( $pluginMeta, $visitPluginSiteLinkIndex, 0, $viewDetailsLink );
+							break;
+						case 'after':
+							array_splice( $pluginMeta, $visitPluginSiteLinkIndex + 1, 0, $viewDetailsLink );
+							break;
+						case 'replace':
+							$pluginMeta[ $visitPluginSiteLinkIndex ] = $viewDetailsLink;
+							break;
+						case 'append':
+						default:
+							$pluginMeta[] = $viewDetailsLink;
+							break;
+					}
+				}
+			}
+
+			return $pluginMeta;
+		}
+
+		/**
+		 * Add a ""Check for updates"" link to the plugin row in the ""Plugins"" page. By default,
+		 * the new link will appear after the ""Visit plugin site"" link if present, otherwise
+		 * after the ""View plugin details"" link.
+		 *
+		 * You can change the link text by using the ""puc_manual_check_link-$slug"" filter.
+		 * Returning an empty string from the filter will disable the link.
+		 *
+		 * @param array $pluginMeta Array of meta links.
+		 * @param string $pluginFile
+		 *
+		 * @return array
+		 */
+		public function addCheckForUpdatesLink( $pluginMeta, $pluginFile ) {
+			if ( $this->isMyPluginFile( $pluginFile ) ) {
+				$linkUrl = wp_nonce_url(
+					add_query_arg(
+						array(
+							'puc_check_for_updates' => 1,
+							'puc_slug'              => $this->updateChecker->slug,
+						),
+						self_admin_url( 'plugins.php' )
+					),
+					'puc_check_for_updates'
+				);
+
+				$linkText = apply_filters(
+					$this->updateChecker->getUniqueName( 'manual_check_link' ),
+					__( 'Check for updates",woo-comgate,"View details' ) );
+				if ( ! empty( $linkText ) ) {
+					$viewDetailsLinkPosition = 'append';
+
+					//Find the ""Visit plugin site"" link (if present).
+					$visitPluginSiteLinkIndex = count( $pluginMeta ) - 1;
+					if ( $pluginData['PluginURI'] ) {
+						$escapedPluginUri = esc_url( $pluginData['PluginURI'] );
+						foreach ( $pluginMeta as $linkIndex => $existingLink ) {
+							if ( strpos( $existingLink, $escapedPluginUri ) !== false ) {
+								$visitPluginSiteLinkIndex = $linkIndex;
+								$viewDetailsLinkPosition  = apply_filters(
+									$this->updateChecker->getUniqueName( 'view_details_link_position' ),
+									'before'
+								);
+								break;
+							}
+						}
+					}
+
+					$viewDetailsLink = sprintf( '<a href=""%s"" class=""thickbox open-plugin-details-modal"" aria-label=""%s"" data-title=""%s"">%s</a>',
+						esc_url( network_admin_url( 'plugin-install.php?tab=plugin-information&plugin=' . urlencode( $this->updateChecker->slug ) .
+						                            '&TB_iframe=true&width=600&height=550' ) ),
+						esc_attr( sprintf( __( 'More information about %s' ), $pluginData['Name'] ) ),
+						esc_attr( $pluginData['Name'] ),
+						$linkText
+					);
+					switch ( $viewDetailsLinkPosition ) {
+						case 'before':
+							array_splice( $pluginMeta, $visitPluginSiteLinkIndex, 0, $viewDetailsLink );
+							break;
+						case 'after':
+							array_splice( $pluginMeta, $visitPluginSiteLinkIndex + 1, 0, $viewDetailsLink );
+							break;
+						case 'replace':
+							$pluginMeta[ $visitPluginSiteLinkIndex ] = $viewDetailsLink;
+							break;
+						case 'append':
+						default:
+							$pluginMeta[] = $viewDetailsLink;
+							break;
+					}
+				}
+			}
+
+			return $pluginMeta;
+		}
+
+		/**
+		 * Add a ""Check for updates"" link to the plugin row in the ""Plugins"" page. By default,
+		 * the new link will appear after the ""Visit plugin site"" link if present, otherwise
+		 * after the ""View plugin details"" link.
+		 *
+		 * You can change the link text by using the ""puc_manual_check_link-$slug"" filter.
+		 * Returning an empty string from the filter will disable the link.
+		 *
+		 * @param array $pluginMeta Array of meta links.
+		 * @param string $pluginFile
+		 *
+		 * @return array
+		 */
+		public function addCheckForUpdatesLink( $pluginMeta, $pluginFile ) {
+			if ( $this->isMyPluginFile( $pluginFile ) ) {
+				$linkUrl = wp_nonce_url(
+					add_query_arg(
+						array(
+							'puc_check_for_updates' => 1,
+							'puc_slug'              => $this->updateChecker->slug,
+						),
+						self_admin_url( 'plugins.php' )
+					),
+					'puc_check_for_updates'
+				);
+
+				$linkText = apply_filters(
+					$this->updateChecker->getUniqueName( 'manual_check_link' ),
+					__( 'Check for updates"
+"Unknown update checker status ""%s""",woo-comgate,"Unknown update checker status ""%s"""
+"There is no changelog available.",woo-comgate,"There is no changelog available."
+"Error: prázdné id, nebo refId",woo-comgate,"Error: prázdné id, nebo refId"
+"Zrušená platba",woo-comgate,"Zrušená platba"
+"Zrušená platba, data requestu",woo-comgate,"Zrušená platba, data requestu"
+"Error: refId není platné číslo objednávky",woo-comgate,"Error: refId není platné číslo objednávky"
+"Zrušená platba",woo-comgate,"Zrušená platba"
+"Zrušená platba, data requestu",woo-comgate,"Zrušená platba, data requestu"
+"Zrušená platba, data requestu",woo-comgate,"Zrušená platba, data requestu"
+"Stav objednávky Failed - platba byla zrušena",woo-comgate,"Stav objednávky Failed - platba byla zrušena"
+"Zrušená platba",woo-comgate,"Zrušená platba"
+"Error: prázdné id, nebo refId",woo-comgate,"Error: prázdné id, nebo refId"
+"Selhaná platba",woo-comgate,"Selhaná platba"
+"Selhaná platba, data requestu",woo-comgate,"Selhaná platba, data requestu"
+"Error: refId není platné číslo objednávky",woo-comgate,"Error: refId není platné číslo objednávky"
+"Selhaná platba",woo-comgate,"Selhaná platba"
+"Selhaná platba, data requestu",woo-comgate,"Selhaná platba, data requestu"
+"Selhaná platba, data requestu",woo-comgate,"Selhaná platba, data requestu"
+"Stav objednávky - čeká na platbu",woo-comgate,"Stav objednávky - čeká na platbu"
+"Čeká na platbu",woo-comgate,"Čeká na platbu"
+"Stav objednávky Pending - čekání na platbu",woo-comgate,"Stav objednávky Pending - čekání na platbu"
+"Čekání na platbu",woo-comgate,"Čekání na platbu"
+"Url notifikace",woo-comgate,"Url notifikace"
+Notifikace,woo-comgate,Notifikace
+"Stav objednávky Completed - objednávka má pouze virtuální produkty",woo-comgate,"Stav objednávky Completed - objednávka má pouze virtuální produkty"
+"Zaplacená platba",woo-comgate,"Zaplacená platba"
+"Stav objednávky Processing - objednávka má i hmotné produkty",woo-comgate,"Stav objednávky Processing - objednávka má i hmotné produkty"
+"Zaplacená platba",woo-comgate,"Zaplacená platba"
+"Comgate status = PAID",woo-comgate,"Comgate status = PAID"
+"Comgate status = CANCELLED",woo-comgate,"Comgate status = CANCELLED"
+"Error: prázdné id, nebo refId",woo-comgate,"Error: prázdné id, nebo refId"
+"Zaplacená platba",woo-comgate,"Zaplacená platba"
+"Zaplacená platba, data requestu",woo-comgate,"Zaplacená platba, data requestu"
+"Error: refId není platné číslo objednávky",woo-comgate,"Error: refId není platné číslo objednávky"
+"Zaplacená platba",woo-comgate,"Zaplacená platba"
+"Zaplacená platba, data requestu",woo-comgate,"Zaplacená platba, data requestu"
+"Zaplacená platba, data requestu",woo-comgate,"Zaplacená platba, data requestu"
+"Error: prázdné id platby",woo-comgate,"Error: prázdné id platby"
+"Zaplacená platba",woo-comgate,"Zaplacená platba"
+"Stav objednávky Completed - objednávka má pouze virtuální produkty",woo-comgate,"Stav objednávky Completed - objednávka má pouze virtuální produkty"
+"Zaplacená platba",woo-comgate,"Zaplacená platba"
+"Stav objednávky Processing - objednávka má i hmotné produkty",woo-comgate,"Stav objednávky Processing - objednávka má i hmotné produkty"
+"Zaplacená platba",woo-comgate,"Zaplacená platba"
+"Error: objednávka není ve stavu pro zpracování",woo-comgate,"Error: objednávka není ve stavu pro zpracování"
+"Zaplacená platba",woo-comgate,"Zaplacená platba"

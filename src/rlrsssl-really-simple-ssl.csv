@@ -1,0 +1,316 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"%s is a singleton class and you cannot create a second instance.",rlrsssl-really-simple-ssl,"%s is a singleton class and you cannot create a second instance."
+"Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=""%s"" target=""_blank"">here</a>.",rlrsssl-really-simple-ssl,"Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=""%s"" target=""_blank"">here</a>."
+"Almost ready to migrate to SSL!",rlrsssl-really-simple-ssl,"Almost ready to migrate to SSL!"
+"Before you migrate, please check for: ",rlrsssl-really-simple-ssl,"Before you migrate, please check for: "
+"Http references in your .css and .js files: change any http:// into https://",rlrsssl-really-simple-ssl,"Http references in your .css and .js files: change any http:// into https://"
+"Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server",rlrsssl-really-simple-ssl,"Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server"
+"We strongly recommend to create a %sbackup%s of your site before activating SSL",rlrsssl-really-simple-ssl,"We strongly recommend to create a %sbackup%s of your site before activating SSL"
+"You may need to login in again.",rlrsssl-really-simple-ssl,"You may need to login in again."
+"You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!",rlrsssl-really-simple-ssl,"You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+"Check out Really Simple SSL Pro",rlrsssl-really-simple-ssl,"Check out Really Simple SSL Pro"
+"Go ahead, activate SSL!",rlrsssl-really-simple-ssl,"Go ahead, activate SSL!"
+"Get ready with PRO!",rlrsssl-really-simple-ssl,"Get ready with PRO!"
+"A definition of a siteurl or homeurl was detected in your wp-config.php, but the file is not writable.",rlrsssl-really-simple-ssl,"A definition of a siteurl or homeurl was detected in your wp-config.php, but the file is not writable."
+"Set your wp-config.php to %swritable%s and reload this page.",rlrsssl-really-simple-ssl,"Set your wp-config.php to %swritable%s and reload this page."
+"Your wp-config.php has to be edited, but is not writable.",rlrsssl-really-simple-ssl,"Your wp-config.php has to be edited, but is not writable."
+"Because your site is behind a loadbalancer and is_ssl() returns false, you should add the following line of code to your wp-config.php.",rlrsssl-really-simple-ssl,"Because your site is behind a loadbalancer and is_ssl() returns false, you should add the following line of code to your wp-config.php."
+"Or set your wp-config.php to %swritable%s and reload this page.",rlrsssl-really-simple-ssl,"Or set your wp-config.php to %swritable%s and reload this page."
+"Because your server does not pass a variable with which WordPress can detect SSL, WordPress may create redirect loops on SSL.",rlrsssl-really-simple-ssl,"Because your server does not pass a variable with which WordPress can detect SSL, WordPress may create redirect loops on SSL."
+"Set your wp-config.php to %swritable%s and reload this page.",rlrsssl-really-simple-ssl,"Set your wp-config.php to %swritable%s and reload this page."
+"System detection encountered issues",rlrsssl-really-simple-ssl,"System detection encountered issues"
+"Hi, Really Simple SSL has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s.",rlrsssl-really-simple-ssl,"Hi, Really Simple SSL has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+"Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s.",rlrsssl-really-simple-ssl,"Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+"Leave a review",rlrsssl-really-simple-ssl,"Leave a review"
+"Maybe later",rlrsssl-really-simple-ssl,"Maybe later"
+"Don\'t show again",rlrsssl-really-simple-ssl,"Don\'t show again"
+"SSL settings",rlrsssl-really-simple-ssl,"SSL settings"
+SSL,rlrsssl-really-simple-ssl,SSL
+"Settings');
+        foreach($menu as $index => $menu_item){
+            if (!isset($menu_item[2]) || !isset($menu_item[0])) continue;
+            if ($menu_item[2]===$menu_slug){
+                $pattern = '/<span.*>([1-9])<\/span><\/span>/i';
+                    if (preg_match($pattern, $menu_item[0], $matches)){
+                        if (isset($matches[1])) $count = intval($count) + intval($matches[1]);
+                    }
+
+                $update_count = $count > 0 ? ""<span class='update-plugins rsssl-update-count'><span class='update-count'>$count</span></span>"":'';
+                $menu[$index][0] = $menu_title . $update_count;
+            }
+        }
+    }
+
+    /**
+     * Create tabs on the settings page
+     *
+     * @since  2.1
+     *
+     * @access public
+     *
+     */
+
+    public function admin_tabs($current = 'homepage')
+    {
+        $tabs = array(
+            'configuration' => '',
+        );
+        $tabs = apply_filters(""rsssl_grid_tabs"", $tabs);
+
+        //allow the license tab to show up for older version, to allow for upgrading
+	    $legacy_tabs = apply_filters(""rsssl_tabs"", array());
+	    if (isset($legacy_tabs['license'])) $tabs['license']= $legacy_tabs['license'];
+
+	    // Only show general tab if there are other tabs as well
+	    if (count($tabs) > 1) {
+            $tabs['configuration'] = __(""General",rlrsssl-really-simple-ssl,"Settings');
+        foreach($menu as $index => $menu_item){
+            if (!isset($menu_item[2]) || !isset($menu_item[0])) continue;
+            if ($menu_item[2]===$menu_slug){
+                $pattern = '/<span.*>([1-9])<\/span><\/span>/i';
+                    if (preg_match($pattern, $menu_item[0], $matches)){
+                        if (isset($matches[1])) $count = intval($count) + intval($matches[1]);
+                    }
+
+                $update_count = $count > 0 ? ""<span class='update-plugins rsssl-update-count'><span class='update-count'>$count</span></span>"":'';
+                $menu[$index][0] = $menu_title . $update_count;
+            }
+        }
+    }
+
+    /**
+     * Create tabs on the settings page
+     *
+     * @since  2.1
+     *
+     * @access public
+     *
+     */
+
+    public function admin_tabs($current = 'homepage')
+    {
+        $tabs = array(
+            'configuration' => '',
+        );
+        $tabs = apply_filters(""rsssl_grid_tabs"", $tabs);
+
+        //allow the license tab to show up for older version, to allow for upgrading
+	    $legacy_tabs = apply_filters(""rsssl_tabs"", array());
+	    if (isset($legacy_tabs['license'])) $tabs['license']= $legacy_tabs['license'];
+
+	    // Only show general tab if there are other tabs as well
+	    if (count($tabs) > 1) {
+            $tabs['configuration'] = __(""General"
+Documentation,rlrsssl-really-simple-ssl,Documentation
+Support,rlrsssl-really-simple-ssl,Support
+"No recommended redirect rules detected.",rlrsssl-really-simple-ssl,"No recommended redirect rules detected."
+"Major security issue!",rlrsssl-really-simple-ssl,"Major security issue!"
+"The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet.",rlrsssl-really-simple-ssl,"The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+"Check again",rlrsssl-really-simple-ssl,"Check again"
+"The Really Simple SSL plugin folder in the /wp-content/plugins/ directory has been renamed to %s. This might cause issues when deactivating, or with premium add-ons. To fix this you can rename the Really Simple SSL folder back to the default %s.",rlrsssl-really-simple-ssl,"The Really Simple SSL plugin folder in the /wp-content/plugins/ directory has been renamed to %s. This might cause issues when deactivating, or with premium add-ons. To fix this you can rename the Really Simple SSL folder back to the default %s."
+"SSL is now activated. Check if your website is secure by following this article.",rlrsssl-really-simple-ssl,"SSL is now activated. Check if your website is secure by following this article."
+"Don't forget to change your settings in Google Analytics and Search Console.",rlrsssl-really-simple-ssl,"Don't forget to change your settings in Google Analytics and Search Console."
+"https://really-simple-ssl.com/really-simple-ssl-4-a-new-dashboard'),
+			            'msg' => __(""Really Simple SSL 4.0. Learn more about our newest major release.",rlrsssl-really-simple-ssl,"https://really-simple-ssl.com/really-simple-ssl-4-a-new-dashboard'),
+			            'msg' => __(""Really Simple SSL 4.0. Learn more about our newest major release."
+"SSL is not enabled yet.",rlrsssl-really-simple-ssl,"SSL is not enabled yet."
+"No SSL detected",rlrsssl-really-simple-ssl,"No SSL detected"
+"No SSL detected. See our guide on how to %sget a free SSL certificate%s. If you do have an SSL certificate, try to reload this page over https by clicking this link: %sReload over https.%s",rlrsssl-really-simple-ssl,"No SSL detected. See our guide on how to %sget a free SSL certificate%s. If you do have an SSL certificate, try to reload this page over https by clicking this link: %sReload over https.%s"
+"An SSL certificate was detected on your site.",rlrsssl-really-simple-ssl,"An SSL certificate was detected on your site."
+"Really Simple SSL has received no response from the webpage.",rlrsssl-really-simple-ssl,"Really Simple SSL has received no response from the webpage."
+"The mixed content fixer is active, but was not detected on the frontpage.",rlrsssl-really-simple-ssl,"The mixed content fixer is active, but was not detected on the frontpage."
+"The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix.",rlrsssl-really-simple-ssl,"The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+"301 redirect to https set.",rlrsssl-really-simple-ssl,"301 redirect to https set."
+"No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect.",rlrsssl-really-simple-ssl,"No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+"WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect.",rlrsssl-really-simple-ssl,"WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
+"Enable a .htaccess redirect or WordPress redirect in the settings to create a 301 redirect.",rlrsssl-really-simple-ssl,"Enable a .htaccess redirect or WordPress redirect in the settings to create a 301 redirect."
+"The %s file is not writable. You can either use the WordPress redirect, add the rules manually, or set the file to %swritable%s.",rlrsssl-really-simple-ssl,"The %s file is not writable. You can either use the WordPress redirect, add the rules manually, or set the file to %swritable%s."
+"The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on WordPress redirect.",rlrsssl-really-simple-ssl,"The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on WordPress redirect."
+"Your site uses Elementor. This can require some additional steps before getting the secure lock.",rlrsssl-really-simple-ssl,"Your site uses Elementor. This can require some additional steps before getting the secure lock."
+"Your site uses Divi. This can require some additional steps before getting the secure lock.",rlrsssl-really-simple-ssl,"Your site uses Divi. This can require some additional steps before getting the secure lock."
+"HTTP Strict Transport Security is not enabled %s(Read more)%s.",rlrsssl-really-simple-ssl,"HTTP Strict Transport Security is not enabled %s(Read more)%s."
+"Secure cookie settings not enabled (%sRead more%s).",rlrsssl-really-simple-ssl,"Secure cookie settings not enabled (%sRead more%s)."
+"Recommended security headers not enabled (%sRead more%s).",rlrsssl-really-simple-ssl,"Recommended security headers not enabled (%sRead more%s)."
+"%sMore info%s or %sdismiss%s",rlrsssl-really-simple-ssl,"%sMore info%s or %sdismiss%s"
+"%sEnable%s or %sdismiss%s",rlrsssl-really-simple-ssl,"%sEnable%s or %sdismiss%s"
+"Your progress",rlrsssl-really-simple-ssl,"Your progress"
+Settings,rlrsssl-really-simple-ssl,Settings
+"Tips & Tricks",rlrsssl-really-simple-ssl,"Tips & Tricks"
+"Our plugins",rlrsssl-really-simple-ssl,"Our plugins"
+"Support forum",rlrsssl-really-simple-ssl,"Support forum"
+Install,rlrsssl-really-simple-ssl,Install
+Installed,rlrsssl-really-simple-ssl,Installed
+"Upgrade to pro",rlrsssl-really-simple-ssl,"Upgrade to pro"
+"Instructions manual",rlrsssl-really-simple-ssl,"Instructions manual"
+Completed,rlrsssl-really-simple-ssl,Completed
+Warning,rlrsssl-really-simple-ssl,Warning
+Open,rlrsssl-really-simple-ssl,Open
+Premium,rlrsssl-really-simple-ssl,Premium
+"More info",rlrsssl-really-simple-ssl,"More info"
+"Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s.",rlrsssl-really-simple-ssl,"Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s."
+"SSL is activated on your site.",rlrsssl-really-simple-ssl,"SSL is activated on your site."
+"SSL is not yet enabled on this site.",rlrsssl-really-simple-ssl,"SSL is not yet enabled on this site."
+"You still have %s task open.",rlrsssl-really-simple-ssl,"You still have %s task open."
+" You still have %s tasks open.",rlrsssl-really-simple-ssl," You still have %s tasks open."
+Copied!,rlrsssl-really-simple-ssl,Copied!
+Settings,rlrsssl-really-simple-ssl,Settings
+"In most cases you need to leave this enabled, to prevent mixed content issues on your site.",rlrsssl-really-simple-ssl,"In most cases you need to leave this enabled, to prevent mixed content issues on your site."
+"Mixed content fixer",rlrsssl-really-simple-ssl,"Mixed content fixer"
+"Redirects all requests over HTTP to HTTPS using a PHP 301 redirect. Enable if the .htaccess redirect cannot be used, for example on NGINX servers.",rlrsssl-really-simple-ssl,"Redirects all requests over HTTP to HTTPS using a PHP 301 redirect. Enable if the .htaccess redirect cannot be used, for example on NGINX servers."
+"Enable WordPress 301 redirect",rlrsssl-really-simple-ssl,"Enable WordPress 301 redirect"
+"A .htaccess redirect is faster and works better with caching. Really Simple SSL detects the redirect code that is most likely to work (99% of websites), but this is not 100%. Make sure you know how to regain access to your site if anything goes wrong!",rlrsssl-really-simple-ssl,"A .htaccess redirect is faster and works better with caching. Really Simple SSL detects the redirect code that is most likely to work (99% of websites), but this is not 100%. Make sure you know how to regain access to your site if anything goes wrong!"
+"Enable 301 .htaccess redirect",rlrsssl-really-simple-ssl,"Enable 301 .htaccess redirect"
+"If you want to customize the Really Simple SSL .htaccess, you need to prevent Really Simple SSL from rewriting it. Enabling this option will do that.",rlrsssl-really-simple-ssl,"If you want to customize the Really Simple SSL .htaccess, you need to prevent Really Simple SSL from rewriting it. Enabling this option will do that."
+"Stop editing the .htaccess file",rlrsssl-really-simple-ssl,"Stop editing the .htaccess file"
+"If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer.\"",rlrsssl-really-simple-ssl,"If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer.\""
+"Fire mixed content fixer with different method",rlrsssl-really-simple-ssl,"Fire mixed content fixer with different method"
+"Enable this option to permanently dismiss all +1 notices in the 'Your progress' tab",rlrsssl-really-simple-ssl,"Enable this option to permanently dismiss all +1 notices in the 'Your progress' tab"
+"Dismiss all Really Simple SSL notices",rlrsssl-really-simple-ssl,"Dismiss all Really Simple SSL notices"
+"This option is enabled on the network menu.",rlrsssl-really-simple-ssl,"This option is enabled on the network menu."
+"Before you enable the htaccess redirect, make sure you know how to %sregain access%s to your site in case of a redirect loop.",rlrsssl-really-simple-ssl,"Before you enable the htaccess redirect, make sure you know how to %sregain access%s to your site in case of a redirect loop."
+"This option is enabled on the network menu.",rlrsssl-really-simple-ssl,"This option is enabled on the network menu."
+"If the setting 'stop editing the .htaccess file' is enabled, you can't change this setting.",rlrsssl-really-simple-ssl,"If the setting 'stop editing the .htaccess file' is enabled, you can't change this setting."
+".htaccess is currently not %swritable%s.",rlrsssl-really-simple-ssl,".htaccess is currently not %swritable%s."
+"Are you sure?",rlrsssl-really-simple-ssl,"Are you sure?"
+"To deactivate the plugin correctly, please select if you want to:",rlrsssl-really-simple-ssl,"To deactivate the plugin correctly, please select if you want to:"
+"Deactivate, but stay on SSL.",rlrsssl-really-simple-ssl,"Deactivate, but stay on SSL."
+"Deactivate, and revert to http. This will remove all changes by the plugin.",rlrsssl-really-simple-ssl,"Deactivate, and revert to http. This will remove all changes by the plugin."
+"Deactivating the plugin while keeping SSL will do the following:",rlrsssl-really-simple-ssl,"Deactivating the plugin while keeping SSL will do the following:"
+"The mixed content fixer will stop working",rlrsssl-really-simple-ssl,"The mixed content fixer will stop working"
+"The WordPress 301 redirect will stop working",rlrsssl-really-simple-ssl,"The WordPress 301 redirect will stop working"
+"Your site address will remain https://",rlrsssl-really-simple-ssl,"Your site address will remain https://"
+"The .htaccess redirect will remain active",rlrsssl-really-simple-ssl,"The .htaccess redirect will remain active"
+Cancel,rlrsssl-really-simple-ssl,Cancel
+"Deactivate, keep https",rlrsssl-really-simple-ssl,"Deactivate, keep https"
+"Deactivate, revert to http",rlrsssl-really-simple-ssl,"Deactivate, revert to http"
+"This option is enabled on the network menu.",rlrsssl-really-simple-ssl,"This option is enabled on the network menu."
+Settings,rlrsssl-really-simple-ssl,Settings
+Support,rlrsssl-really-simple-ssl,Support
+"Premium Support",rlrsssl-really-simple-ssl,"Premium Support"
+"Upgrade to premium",rlrsssl-really-simple-ssl,"Upgrade to premium"
+"%s is a singleton class and you cannot create a second instance.",rlrsssl-really-simple-ssl,"%s is a singleton class and you cannot create a second instance."
+"%s is a singleton class and you cannot create a second instance.",rlrsssl-really-simple-ssl,"%s is a singleton class and you cannot create a second instance."
+"%s is a singleton class and you cannot create a second instance.",rlrsssl-really-simple-ssl,"%s is a singleton class and you cannot create a second instance."
+"%s is a singleton class and you cannot create a second instance.",rlrsssl-really-simple-ssl,"%s is a singleton class and you cannot create a second instance."
+"%s is a singleton class and you cannot create a second instance.",rlrsssl-really-simple-ssl,"%s is a singleton class and you cannot create a second instance."
+"%s is a singleton class and you cannot create a second instance.",rlrsssl-really-simple-ssl,"%s is a singleton class and you cannot create a second instance."
+"No choice has been made regarding networkwide or per site activation.",rlrsssl-really-simple-ssl,"No choice has been made regarding networkwide or per site activation."
+"SSL is activated network wide.",rlrsssl-really-simple-ssl,"SSL is activated network wide."
+"SSL is activated per site.",rlrsssl-really-simple-ssl,"SSL is activated per site."
+"SSL is not enabled yet",rlrsssl-really-simple-ssl,"SSL is not enabled yet"
+"You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php.",rlrsssl-really-simple-ssl,"You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+"Because the $_SERVER[""HTTPS""] variable is not set, your website may experience redirect loops.",rlrsssl-really-simple-ssl,"Because the $_SERVER[""HTTPS""] variable is not set, your website may experience redirect loops."
+"Activate networkwide to fix this.",rlrsssl-really-simple-ssl,"Activate networkwide to fix this."
+"You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate.",rlrsssl-really-simple-ssl,"You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+"This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate.",rlrsssl-really-simple-ssl,"This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+"Activate SSL per site or install a wildcard certificate to fix this.",rlrsssl-really-simple-ssl,"Activate SSL per site or install a wildcard certificate to fix this."
+Settings,rlrsssl-really-simple-ssl,Settings
+Support,rlrsssl-really-simple-ssl,Support
+"Premium Support",rlrsssl-really-simple-ssl,"Premium Support"
+"Upgrade to premium",rlrsssl-really-simple-ssl,"Upgrade to premium"
+Settings,rlrsssl-really-simple-ssl,Settings
+"Select to enable SSL networkwide or per site.",rlrsssl-really-simple-ssl,"Select to enable SSL networkwide or per site."
+"Enable SSL",rlrsssl-really-simple-ssl,"Enable SSL"
+"Choose option",rlrsssl-really-simple-ssl,"Choose option"
+networkwide,rlrsssl-really-simple-ssl,networkwide
+"per site",rlrsssl-really-simple-ssl,"per site"
+"Your progress",rlrsssl-really-simple-ssl,"Your progress"
+Settings,rlrsssl-really-simple-ssl,Settings
+"Support forum",rlrsssl-really-simple-ssl,"Support forum"
+"Our plugins",rlrsssl-really-simple-ssl,"Our plugins"
+"Options saved.",rlrsssl-really-simple-ssl,"Options saved."
+Documentation,rlrsssl-really-simple-ssl,Documentation
+Support,rlrsssl-really-simple-ssl,Support
+Setup,rlrsssl-really-simple-ssl,Setup
+"Some things can't be done automatically. Before you migrate, please check for: ",rlrsssl-really-simple-ssl,"Some things can't be done automatically. Before you migrate, please check for: "
+"Http references in your .css and .js files: change any http:// into https://",rlrsssl-really-simple-ssl,"Http references in your .css and .js files: change any http:// into https://"
+"Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server.",rlrsssl-really-simple-ssl,"Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
+"You can also let the automatic scan of the pro version handle this for you, and get premium support and increased security with HSTS included.",rlrsssl-really-simple-ssl,"You can also let the automatic scan of the pro version handle this for you, and get premium support and increased security with HSTS included."
+"Check out Really Simple SSL Premium",rlrsssl-really-simple-ssl,"Check out Really Simple SSL Premium"
+"Activate SSL networkwide",rlrsssl-really-simple-ssl,"Activate SSL networkwide"
+"Activate SSL per site",rlrsssl-really-simple-ssl,"Activate SSL per site"
+"Networkwide activation does not check if a site has an SSL certificate. It just migrates all sites to SSL.",rlrsssl-really-simple-ssl,"Networkwide activation does not check if a site has an SSL certificate. It just migrates all sites to SSL."
+"You can also let the automatic scan of the pro version handle this for you, and get premium support and increased security with HSTS included.",rlrsssl-really-simple-ssl,"You can also let the automatic scan of the pro version handle this for you, and get premium support and increased security with HSTS included."
+"Check out Really Simple SSL Premium",rlrsssl-really-simple-ssl,"Check out Really Simple SSL Premium"
+"Conversion of websites %s percent complete.",rlrsssl-really-simple-ssl,"Conversion of websites %s percent complete."
+"Site conversion in progress. Please refresh this page to check if the process has finished. It will proceed in the background.",rlrsssl-really-simple-ssl,"Site conversion in progress. Please refresh this page to check if the process has finished. It will proceed in the background."
+"If the conversion does not proceed after a few minutes, click %shere%s to force the conversion process.",rlrsssl-really-simple-ssl,"If the conversion does not proceed after a few minutes, click %shere%s to force the conversion process."
+"Conversion of websites completed.",rlrsssl-really-simple-ssl,"Conversion of websites completed."
+"Really Simple SSL has converted all your websites to SSL.",rlrsssl-really-simple-ssl,"Really Simple SSL has converted all your websites to SSL."
+"Really Simple SSL has converted all your websites to non SSL.",rlrsssl-really-simple-ssl,"Really Simple SSL has converted all your websites to non SSL."
+"%s is a singleton class and you cannot create a second instance.",rlrsssl-really-simple-ssl,"%s is a singleton class and you cannot create a second instance."
+"%s is a singleton class and you cannot create a second instance.",rlrsssl-really-simple-ssl,"%s is a singleton class and you cannot create a second instance."
+"SSL Status Test",rlrsssl-really-simple-ssl,"SSL Status Test"
+"Security Headers Test",rlrsssl-really-simple-ssl,"Security Headers Test"
+"Recommended security headers installed",rlrsssl-really-simple-ssl,"Recommended security headers installed"
+"The recommended security headers are detected on your site.",rlrsssl-really-simple-ssl,"The recommended security headers are detected on your site."
+"Not all recommended security headers are installed",rlrsssl-really-simple-ssl,"Not all recommended security headers are installed"
+"Your .htaccess file does not contain all recommended security headers.",rlrsssl-really-simple-ssl,"Your .htaccess file does not contain all recommended security headers."
+"Learn more about security headers",rlrsssl-really-simple-ssl,"Learn more about security headers"
+"301 SSL redirect enabled",rlrsssl-really-simple-ssl,"301 SSL redirect enabled"
+"You have set a 301 redirect to SSL. This is important for SEO purposes",rlrsssl-really-simple-ssl,"You have set a 301 redirect to SSL. This is important for SEO purposes"
+"SSL is not enabled.",rlrsssl-really-simple-ssl,"SSL is not enabled."
+"Really Simple SSL detected an SSL certificate, but has not been configured to enforce SSL.",rlrsssl-really-simple-ssl,"Really Simple SSL detected an SSL certificate, but has not been configured to enforce SSL."
+"Activate SSL",rlrsssl-really-simple-ssl,"Activate SSL"
+"No SSL detected.",rlrsssl-really-simple-ssl,"No SSL detected."
+"Really Simple SSL is installed, but no valid SSL certificate is detected.",rlrsssl-really-simple-ssl,"Really Simple SSL is installed, but no valid SSL certificate is detected."
+"No 301 redirect to SSL enabled.",rlrsssl-really-simple-ssl,"No 301 redirect to SSL enabled."
+"To ensure all traffic passes through SSL, please enable a 301 redirect.",rlrsssl-really-simple-ssl,"To ensure all traffic passes through SSL, please enable a 301 redirect."
+"Enable 301 redirect",rlrsssl-really-simple-ssl,"Enable 301 redirect"
+"301 .htaccess redirect is not enabled.",rlrsssl-really-simple-ssl,"301 .htaccess redirect is not enabled."
+"The 301 .htaccess redirect is the fastest and most reliable redirect option.",rlrsssl-really-simple-ssl,"The 301 .htaccess redirect is the fastest and most reliable redirect option."
+"Enable 301 .htaccess redirect",rlrsssl-really-simple-ssl,"Enable 301 .htaccess redirect"
+"Save settings",rlrsssl-really-simple-ssl,"Save settings"
+"Track searches on your website",rlrsssl-really-simple-ssl,"Track searches on your website"
+"Beautiful recipes optimized for Google ",rlrsssl-really-simple-ssl,"Beautiful recipes optimized for Google "
+"SSL Activated",rlrsssl-really-simple-ssl,"SSL Activated"
+"SSL Not activated",rlrsssl-really-simple-ssl,"SSL Not activated"
+"Go PRO!",rlrsssl-really-simple-ssl,"Go PRO!"
+"Activate SSL",rlrsssl-really-simple-ssl,"Activate SSL"
+"301 Redirect",rlrsssl-really-simple-ssl,"301 Redirect"
+"All tasks",rlrsssl-really-simple-ssl,"All tasks"
+"Remaining tasks",rlrsssl-really-simple-ssl,"Remaining tasks"
+"SSL is activated on your site.",rlrsssl-really-simple-ssl,"SSL is activated on your site."
+"SSL configuration finished!",rlrsssl-really-simple-ssl,"SSL configuration finished!"
+"Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s.",rlrsssl-really-simple-ssl,"Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s."
+"SSL is not yet enabled on this site.",rlrsssl-really-simple-ssl,"SSL is not yet enabled on this site."
+"You still have %s task open.",rlrsssl-really-simple-ssl,"You still have %s task open."
+"You still have %s tasks open.",rlrsssl-really-simple-ssl,"You still have %s tasks open."
+Save,rlrsssl-really-simple-ssl,Save
+"Download system status",rlrsssl-really-simple-ssl,"Download system status"
+"Server type:",rlrsssl-really-simple-ssl,"Server type:"
+"SSL type:",rlrsssl-really-simple-ssl,"SSL type:"
+"General Issues",rlrsssl-really-simple-ssl,"General Issues"
+"Redirect loops",rlrsssl-really-simple-ssl,"Redirect loops"
+Multisite,rlrsssl-really-simple-ssl,Multisite
+"Really Simple SSL Pro",rlrsssl-really-simple-ssl,"Really Simple SSL Pro"
+"Mixed Content",rlrsssl-really-simple-ssl,"Mixed Content"
+Elementor,rlrsssl-really-simple-ssl,Elementor
+Documentation,rlrsssl-really-simple-ssl,Documentation
+"Is your site still not secure? Do the extensive site scan",rlrsssl-really-simple-ssl,"Is your site still not secure? Do the extensive site scan"
+"Read more",rlrsssl-really-simple-ssl,"Read more"
+"Improve security: Enable HTTP Strict Transport Security (HSTS)",rlrsssl-really-simple-ssl,"Improve security: Enable HTTP Strict Transport Security (HSTS)"
+"Read more",rlrsssl-really-simple-ssl,"Read more"
+"Improve security: Add security headers",rlrsssl-really-simple-ssl,"Improve security: Add security headers"
+"Read more",rlrsssl-really-simple-ssl,"Read more"
+"Improve security: Secure cookies",rlrsssl-really-simple-ssl,"Improve security: Secure cookies"
+"Read more",rlrsssl-really-simple-ssl,"Read more"
+"Information about landing page redirects",rlrsssl-really-simple-ssl,"Information about landing page redirects"
+"Read more",rlrsssl-really-simple-ssl,"Read more"
+"Any questions? See the %sdocumentation%s or the %sWordPress Forum%s.",rlrsssl-really-simple-ssl,"Any questions? See the %sdocumentation%s or the %sWordPress Forum%s."
+"Once every minute')
+    );
+    return $schedules;
+}
+
+add_action('plugins_loaded",rlrsssl-really-simple-ssl,"Once every minute')
+    );
+    return $schedules;
+}
+
+add_action('plugins_loaded"
+"Really Simple SSL cannot be activated. The plugin requires PHP 5.6 or higher",rlrsssl-really-simple-ssl,"Really Simple SSL cannot be activated. The plugin requires PHP 5.6 or higher"
+"Really Simple SSL cannot be activated. The plugin requires WordPress 4.8 or higher",rlrsssl-really-simple-ssl,"Really Simple SSL cannot be activated. The plugin requires WordPress 4.8 or higher"
+"Plugin dependency error",rlrsssl-really-simple-ssl,"Plugin dependency error"
+"You have a premium add-on with a version that is not compatible with the >4.0 release of Really Simple SSL.",rlrsssl-really-simple-ssl,"You have a premium add-on with a version that is not compatible with the >4.0 release of Really Simple SSL."
+"Please upgrade to the latest version to be able use the full functionality of the plugin.",rlrsssl-really-simple-ssl,"Please upgrade to the latest version to be able use the full functionality of the plugin."

@@ -1,0 +1,25 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"In delivery'),
+        'public'                    => true,
+        'exclude_from_search'       => false,
+        'show_in_admin_all_list'    => true,
+        'show_in_admin_status_list' => true,
+        'label_count'               => _n_noop( 'In delivery <span class=""count"">(%s)</span>",fast-delivery-shipping-method,"In delivery'),
+        'public'                    => true,
+        'exclude_from_search'       => false,
+        'show_in_admin_all_list'    => true,
+        'show_in_admin_status_list' => true,
+        'label_count'               => _n_noop( 'In delivery <span class=""count"">(%s)</span>"
+"In delivery') ;
+        }
+    }
+
+    return $new_order_statuses;
+}
+add_filter( 'wc_order_statuses",fast-delivery-shipping-method,"In delivery') ;
+        }
+    }
+
+    return $new_order_statuses;
+}
+add_filter( 'wc_order_statuses"

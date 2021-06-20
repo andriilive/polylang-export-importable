@@ -1,0 +1,1185 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"%1$sHeads up!%2$s You\'re ready to migrate to a more secure, reliable Facebook for WooCommerce connection. Please %3$sclick here%4$s to reconnect!",facebook-for-woocommerce,"%1$sHeads up!%2$s You\'re ready to migrate to a more secure, reliable Facebook for WooCommerce connection. Please %3$sclick here%4$s to reconnect!"
+"For your convenience, the Facebook for WooCommerce settings are now located under %1$sWooCommerce > Facebook%2$s.",facebook-for-woocommerce,"For your convenience, the Facebook for WooCommerce settings are now located under %1$sWooCommerce > Facebook%2$s."
+"%1$sHeads up!%2$s If you\'ve customized your Facebook Messenger color or greeting settings, please update those settings again from the %3$sManage Connection%4$s area.",facebook-for-woocommerce,"%1$sHeads up!%2$s If you\'ve customized your Facebook Messenger color or greeting settings, please update those settings again from the %3$sManage Connection%4$s area."
+"%1$sHeads up!%2$s Your connection to Facebook is no longer valid. Please %3$sclick here%4$s to securely reconnect your account and continue syncing products.",facebook-for-woocommerce,"%1$sHeads up!%2$s Your connection to Facebook is no longer valid. Please %3$sclick here%4$s to securely reconnect your account and continue syncing products."
+"Cannot create the API instance because the access token is missing.",facebook-for-woocommerce,"Cannot create the API instance because the access token is missing."
+"Facebook for WooCommerce",facebook-for-woocommerce,"Facebook for WooCommerce"
+"%1$sFacebook for WooCommerce is almost ready.%2$s To complete your configuration, %3$scomplete the setup steps%4$s.",facebook-for-woocommerce,"%1$sFacebook for WooCommerce is almost ready.%2$s To complete your configuration, %3$scomplete the setup steps%4$s."
+"Heads up! The Facebook menu is now located under the %1$sMarketing%2$s menu.",facebook-for-woocommerce,"Heads up! The Facebook menu is now located under the %1$sMarketing%2$s menu."
+"FB Product Sets",facebook-for-woocommerce,"FB Product Sets"
+"FB Product Set",facebook-for-woocommerce,"FB Product Set"
+"Edit %s",facebook-for-woocommerce,"Edit %s"
+"Add new %s",facebook-for-woocommerce,"Add new %s"
+"No %s found.",facebook-for-woocommerce,"No %s found."
+"Search %s.",facebook-for-woocommerce,"Search %s."
+"Separate %s with commas",facebook-for-woocommerce,"Separate %s with commas"
+"Choose from the most used %s",facebook-for-woocommerce,"Choose from the most used %s"
+"Facebook for WooCommerce",facebook-for-woocommerce,"Facebook for WooCommerce"
+"Facebook Commerce and Dynamic Ads (Pixel) Extension",facebook-for-woocommerce,"Facebook Commerce and Dynamic Ads (Pixel) Extension"
+"Nothing to update for product group for %1$s",facebook-for-woocommerce,"Nothing to update for product group for %1$s"
+"Your connection has expired.",facebook-for-woocommerce,"Your connection has expired."
+"Please click Manage connection > Advanced Options > Update Token to refresh your connection to Facebook.",facebook-for-woocommerce,"Please click Manage connection > Advanced Options > Update Token to refresh your connection to Facebook."
+"There was an error trying to sync the products to Facebook. %s",facebook-for-woocommerce,"There was an error trying to sync the products to Facebook. %s"
+"Product sync is disabled.",facebook-for-woocommerce,"Product sync is disabled."
+"The plugin is not configured or the Catalog ID is missing.",facebook-for-woocommerce,"The plugin is not configured or the Catalog ID is missing."
+"A product sync is in progress. Please wait until the sync finishes before starting a new one.",facebook-for-woocommerce,"A product sync is in progress. Please wait until the sync finishes before starting a new one."
+"We've detected that your Facebook Product Catalog is no longer valid. This may happen if it was deleted, but could also be a temporary error. If the error persists, please click Manage connection > Advanced Options > Remove and setup the plugin again.",facebook-for-woocommerce,"We've detected that your Facebook Product Catalog is no longer valid. This may happen if it was deleted, but could also be a temporary error. If the error persists, please click Manage connection > Advanced Options > Remove and setup the plugin again."
+"Product sync is disabled.",facebook-for-woocommerce,"Product sync is disabled."
+"The plugin is not configured or the Catalog ID is missing.",facebook-for-woocommerce,"The plugin is not configured or the Catalog ID is missing."
+"We've detected that your Facebook Product Catalog is no longer valid. This may happen if it was deleted, but could also be a temporary error. If the error persists, please click Manage connection > Advanced Options > Remove and setup the plugin again.",facebook-for-woocommerce,"We've detected that your Facebook Product Catalog is no longer valid. This may happen if it was deleted, but could also be a temporary error. If the error persists, please click Manage connection > Advanced Options > Remove and setup the plugin again."
+"We couldn't create the feed or upload the product information.",facebook-for-woocommerce,"We couldn't create the feed or upload the product information."
+"Hi! We're here to answer any questions you may have.",facebook-for-woocommerce,"Hi! We're here to answer any questions you may have."
+"Facebook for WooCommerce error:",facebook-for-woocommerce,"Facebook for WooCommerce error:"
+"There was an error trying to retrieve information about the Facebook page: %s' ), $e->getMessage() );
+
+				facebook_for_woocommerce()->log( $message );
+			}
+		}
+
+		return is_array( $this->page ) ? $this->page : [];
+	}
+
+
+	/**
+	 * Gets the name of the configured Facebook page.
+	 *
+	 * @return string
+	 */
+	public function get_page_name() {
+
+		$page = $this->get_page();
+
+		return isset( $page['name'] ) ? $page['name'] : '';
+	}
+
+
+	/**
+	 * Gets the Facebook page URL.
+	 *
+	 * @since 1.10.0
+	 *
+	 * @return string
+	 */
+	public function get_page_url() {
+
+		$page = $this->get_page();
+
+		return isset( $page['url'] ) ? $page['url'] : '';
+	}
+
+
+	/**
+	 * Gets Messenger or Instagram tooltip message.
+	 *
+	 * @return string
+	 */
+	function get_nux_message_ifexist() {
+
+		$nux_type_to_elemid_map = [
+			'messenger_chat'     => 'connect_button",facebook-for-woocommerce,"There was an error trying to retrieve information about the Facebook page: %s' ), $e->getMessage() );
+
+				facebook_for_woocommerce()->log( $message );
+			}
+		}
+
+		return is_array( $this->page ) ? $this->page : [];
+	}
+
+
+	/**
+	 * Gets the name of the configured Facebook page.
+	 *
+	 * @return string
+	 */
+	public function get_page_name() {
+
+		$page = $this->get_page();
+
+		return isset( $page['name'] ) ? $page['name'] : '';
+	}
+
+
+	/**
+	 * Gets the Facebook page URL.
+	 *
+	 * @since 1.10.0
+	 *
+	 * @return string
+	 */
+	public function get_page_url() {
+
+		$page = $this->get_page();
+
+		return isset( $page['url'] ) ? $page['url'] : '';
+	}
+
+
+	/**
+	 * Gets Messenger or Instagram tooltip message.
+	 *
+	 * @return string
+	 */
+	function get_nux_message_ifexist() {
+
+		$nux_type_to_elemid_map = [
+			'messenger_chat'     => 'connect_button"
+"Get started with Instagram Shopping' ),
+		];
+
+		$message = '';
+
+		// phpcs:ignore WordPress.Security.NonceVerification.Recommended
+		if ( isset( $_GET['nux'] ) ) {
+
+			// phpcs:ignore WordPress.Security.NonceVerification.Recommended
+			$nux_type = sanitize_text_field( wp_unslash( $_GET['nux'] ) );
+
+			ob_start();
+
+			?>
+
+			<div class=""nux-message"" style=""display: none;""
+			     data-target=""<?php echo esc_attr( $nux_type_to_elemid_map[ $nux_type ] ); ?>"">
+				<div class=""nux-message-text"">
+					<?php echo esc_attr( $nux_type_to_message_map[ $nux_type ] ); ?>
+				</div>
+				<div class=""nux-message-arrow""></div>
+				<i class=""nux-message-close-btn"">x</i>
+			</div>
+			<script>( function () { fbe_init_nux_messages(); } )();</script>
+
+			<?php
+
+			$message = ob_get_clean();
+		}
+
+		return $message;
+	}
+
+
+	/**
+	 * Admin Panel Options
+	 */
+	function admin_options() {
+
+		facebook_for_woocommerce()->get_message_handler()->show_messages();
+
+		?>
+
+		<div id=""integration-settings"" <?php echo ! $this->is_configured() ? 'style=""display: none""' : ''; ?>>
+			<table class=""form-table""><?php $this->generate_settings_html( $this->get_form_fields() ); ?></table>
+		</div>
+
+		<?php
+	}
+
+
+	function delete_product_item( $wp_id ) {
+		$fb_product_item_id = $this->get_product_fbid(
+			self::FB_PRODUCT_ITEM_ID,
+			$wp_id
+		);
+		if ( $fb_product_item_id ) {
+			$pi_result =
+			$this->fbgraph->delete_product_item( $fb_product_item_id );
+			WC_Facebookcommerce_Utils::log( $pi_result );
+		}
+	}
+
+
+	/**
+	 * Uses the Graph API to delete the Product Group associated with the given product.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param int $product_id product ID
+	 */
+	private function delete_product_group( $product_id ) {
+
+		$product_group_id = $this->get_product_fbid( self::FB_PRODUCT_GROUP_ID, $product_id );
+
+		if ( $product_group_id ) {
+
+			// TODO: replace with a call to API::delete_product_group() {WV 2020-05-26}
+			$pg_result = $this->fbgraph->delete_product_group( $product_group_id );
+
+			\WC_Facebookcommerce_Utils::log( $pg_result );
+		}
+	}
+
+
+	function fb_duplicate_product_reset_meta( $to_delete ) {
+		array_push( $to_delete, self::FB_PRODUCT_ITEM_ID );
+		array_push( $to_delete, self::FB_PRODUCT_GROUP_ID );
+		return $to_delete;
+	}
+
+
+	/**
+	 * Helper function to update FB visibility.
+	 *
+	 * @param int|\WC_Product $product_id product ID or product object
+	 * @param string $visibility visibility
+	 */
+	function update_fb_visibility( $product_id, $visibility ) {
+
+		// bail if the plugin is not configured properly
+		if ( ! $this->is_configured() || ! $this->get_product_catalog_id() ) {
+			return;
+		}
+
+		$product = $product_id instanceof \WC_Product ? $product_id : wc_get_product( $product_id );
+
+		// bail if product isn't found
+		if ( ! $product instanceof \WC_Product ) {
+			return;
+		}
+
+		$should_set_visible = $visibility === self::FB_SHOP_PRODUCT_VISIBLE;
+
+		if ( $product->is_type( 'variation' ) ) {
+
+			Products::set_product_visibility( $product, $should_set_visible );
+
+			facebook_for_woocommerce()->get_products_sync_handler()->create_or_update_products( [ $product->get_id() ] );
+
+		} elseif ( $product->is_type( 'variable' ) ) {
+
+			// parent product
+			Products::set_product_visibility( $product, $should_set_visible );
+
+			// we should not add the parent product ID to the array of product IDs to be
+			// updated because product groups, which are used to represent the parent product
+			// for variable products, don't have the visibility property on Facebook
+			$product_ids = [];
+
+			// set visibility for all children
+			foreach ( $product->get_children() as $index => $id ) {
+
+				$product = wc_get_product( $id );
+
+				if ( ! $product instanceof \WC_Product ) {
+				    continue;
+				}
+
+				Products::set_product_visibility( $product, $should_set_visible );
+
+				$product_ids[] = $product->get_id();
+			}
+
+			// sync product with all variations
+			facebook_for_woocommerce()->get_products_sync_handler()->create_or_update_products( $product_ids );
+
+		} else {
+
+			$fb_product_item_id = $this->get_product_fbid( self::FB_PRODUCT_ITEM_ID, $product_id );
+
+			if ( ! $fb_product_item_id ) {
+				\WC_Facebookcommerce_Utils::fblog( $fb_product_item_id . "" doesn't exist but underwent a visibility transform."", [], true );
+				 return;
+			}
+
+			$set_visibility = $this->fbgraph->update_product_item( $fb_product_item_id, [ 'visibility' => $visibility ] );
+
+			if ( $this->check_api_result( $set_visibility ) ) {
+				Products::set_product_visibility( $product, $should_set_visible );
+			}
+		}
+	}
+
+
+	/**
+	 * Sync product upon quick or bulk edit save action.
+	 *
+	 * @internal
+	 *
+	 * @param \WC_Product $product product object
+	 */
+	public function on_quick_and_bulk_edit_save( $product ) {
+
+		// bail if not a product or product is not enabled for sync
+		if ( ! $product instanceof \WC_Product || ! Products::published_product_should_be_synced( $product ) ) {
+			return;
+		}
+
+		$wp_id      = $product->get_id();
+		$visibility = get_post_status( $wp_id ) === 'publish' ? self::FB_SHOP_PRODUCT_VISIBLE : self::FB_SHOP_PRODUCT_HIDDEN;
+
+		if ( $visibility === self::FB_SHOP_PRODUCT_VISIBLE ) {
+			// - new status is 'publish' regardless of old status, sync to Facebook
+			$this->on_product_publish( $wp_id );
+		} else {
+			// - product never published to Facebook, new status is not publish
+			// - product new status is not publish but may have been published before
+			$this->update_fb_visibility( $product, $visibility );
+		}
+	}
+
+
+	/**
+	 * Gets Facebook product ID from meta or from Facebook API.
+	 *
+	 * @param string $fbid_type ID type (group or item)
+	 * @param int $wp_id post ID
+	 * @param WC_Facebook_Product|null $woo_product product
+	 * @return mixed|void|null
+	 */
+	public function get_product_fbid( $fbid_type, $wp_id, $woo_product = null ) {
+
+		$fb_id = WC_Facebookcommerce_Utils::get_fbid_post_meta(
+			$wp_id,
+			$fbid_type
+		);
+
+		if ( $fb_id ) {
+			return $fb_id;
+		}
+
+		if ( ! $woo_product ) {
+			$woo_product = new WC_Facebook_Product( $wp_id );
+		}
+
+		$products = WC_Facebookcommerce_Utils::get_product_array( $woo_product );
+
+		// if the product with ID equal to $wp_id is variable, $woo_product will be the first child
+		$woo_product = new WC_Facebook_Product( current( $products ) );
+
+		$fb_retailer_id = WC_Facebookcommerce_Utils::get_fb_retailer_id( $woo_product );
+
+		$product_fbid_result = $this->fbgraph->get_facebook_id(
+			$this->get_product_catalog_id(),
+			$fb_retailer_id
+		);
+
+		if ( is_wp_error( $product_fbid_result ) ) {
+
+			WC_Facebookcommerce_Utils::log( $product_fbid_result->get_error_message() );
+
+			$this->display_error_message(
+				sprintf(
+					/* translators: Placeholders %1$s - original error message from Facebook API */
+					esc_html__( 'There was an issue connecting to the Facebook API: %s",facebook-for-woocommerce,"Get started with Instagram Shopping' ),
+		];
+
+		$message = '';
+
+		// phpcs:ignore WordPress.Security.NonceVerification.Recommended
+		if ( isset( $_GET['nux'] ) ) {
+
+			// phpcs:ignore WordPress.Security.NonceVerification.Recommended
+			$nux_type = sanitize_text_field( wp_unslash( $_GET['nux'] ) );
+
+			ob_start();
+
+			?>
+
+			<div class=""nux-message"" style=""display: none;""
+			     data-target=""<?php echo esc_attr( $nux_type_to_elemid_map[ $nux_type ] ); ?>"">
+				<div class=""nux-message-text"">
+					<?php echo esc_attr( $nux_type_to_message_map[ $nux_type ] ); ?>
+				</div>
+				<div class=""nux-message-arrow""></div>
+				<i class=""nux-message-close-btn"">x</i>
+			</div>
+			<script>( function () { fbe_init_nux_messages(); } )();</script>
+
+			<?php
+
+			$message = ob_get_clean();
+		}
+
+		return $message;
+	}
+
+
+	/**
+	 * Admin Panel Options
+	 */
+	function admin_options() {
+
+		facebook_for_woocommerce()->get_message_handler()->show_messages();
+
+		?>
+
+		<div id=""integration-settings"" <?php echo ! $this->is_configured() ? 'style=""display: none""' : ''; ?>>
+			<table class=""form-table""><?php $this->generate_settings_html( $this->get_form_fields() ); ?></table>
+		</div>
+
+		<?php
+	}
+
+
+	function delete_product_item( $wp_id ) {
+		$fb_product_item_id = $this->get_product_fbid(
+			self::FB_PRODUCT_ITEM_ID,
+			$wp_id
+		);
+		if ( $fb_product_item_id ) {
+			$pi_result =
+			$this->fbgraph->delete_product_item( $fb_product_item_id );
+			WC_Facebookcommerce_Utils::log( $pi_result );
+		}
+	}
+
+
+	/**
+	 * Uses the Graph API to delete the Product Group associated with the given product.
+	 *
+	 * @since 2.0.0
+	 *
+	 * @param int $product_id product ID
+	 */
+	private function delete_product_group( $product_id ) {
+
+		$product_group_id = $this->get_product_fbid( self::FB_PRODUCT_GROUP_ID, $product_id );
+
+		if ( $product_group_id ) {
+
+			// TODO: replace with a call to API::delete_product_group() {WV 2020-05-26}
+			$pg_result = $this->fbgraph->delete_product_group( $product_group_id );
+
+			\WC_Facebookcommerce_Utils::log( $pg_result );
+		}
+	}
+
+
+	function fb_duplicate_product_reset_meta( $to_delete ) {
+		array_push( $to_delete, self::FB_PRODUCT_ITEM_ID );
+		array_push( $to_delete, self::FB_PRODUCT_GROUP_ID );
+		return $to_delete;
+	}
+
+
+	/**
+	 * Helper function to update FB visibility.
+	 *
+	 * @param int|\WC_Product $product_id product ID or product object
+	 * @param string $visibility visibility
+	 */
+	function update_fb_visibility( $product_id, $visibility ) {
+
+		// bail if the plugin is not configured properly
+		if ( ! $this->is_configured() || ! $this->get_product_catalog_id() ) {
+			return;
+		}
+
+		$product = $product_id instanceof \WC_Product ? $product_id : wc_get_product( $product_id );
+
+		// bail if product isn't found
+		if ( ! $product instanceof \WC_Product ) {
+			return;
+		}
+
+		$should_set_visible = $visibility === self::FB_SHOP_PRODUCT_VISIBLE;
+
+		if ( $product->is_type( 'variation' ) ) {
+
+			Products::set_product_visibility( $product, $should_set_visible );
+
+			facebook_for_woocommerce()->get_products_sync_handler()->create_or_update_products( [ $product->get_id() ] );
+
+		} elseif ( $product->is_type( 'variable' ) ) {
+
+			// parent product
+			Products::set_product_visibility( $product, $should_set_visible );
+
+			// we should not add the parent product ID to the array of product IDs to be
+			// updated because product groups, which are used to represent the parent product
+			// for variable products, don't have the visibility property on Facebook
+			$product_ids = [];
+
+			// set visibility for all children
+			foreach ( $product->get_children() as $index => $id ) {
+
+				$product = wc_get_product( $id );
+
+				if ( ! $product instanceof \WC_Product ) {
+				    continue;
+				}
+
+				Products::set_product_visibility( $product, $should_set_visible );
+
+				$product_ids[] = $product->get_id();
+			}
+
+			// sync product with all variations
+			facebook_for_woocommerce()->get_products_sync_handler()->create_or_update_products( $product_ids );
+
+		} else {
+
+			$fb_product_item_id = $this->get_product_fbid( self::FB_PRODUCT_ITEM_ID, $product_id );
+
+			if ( ! $fb_product_item_id ) {
+				\WC_Facebookcommerce_Utils::fblog( $fb_product_item_id . "" doesn't exist but underwent a visibility transform."", [], true );
+				 return;
+			}
+
+			$set_visibility = $this->fbgraph->update_product_item( $fb_product_item_id, [ 'visibility' => $visibility ] );
+
+			if ( $this->check_api_result( $set_visibility ) ) {
+				Products::set_product_visibility( $product, $should_set_visible );
+			}
+		}
+	}
+
+
+	/**
+	 * Sync product upon quick or bulk edit save action.
+	 *
+	 * @internal
+	 *
+	 * @param \WC_Product $product product object
+	 */
+	public function on_quick_and_bulk_edit_save( $product ) {
+
+		// bail if not a product or product is not enabled for sync
+		if ( ! $product instanceof \WC_Product || ! Products::published_product_should_be_synced( $product ) ) {
+			return;
+		}
+
+		$wp_id      = $product->get_id();
+		$visibility = get_post_status( $wp_id ) === 'publish' ? self::FB_SHOP_PRODUCT_VISIBLE : self::FB_SHOP_PRODUCT_HIDDEN;
+
+		if ( $visibility === self::FB_SHOP_PRODUCT_VISIBLE ) {
+			// - new status is 'publish' regardless of old status, sync to Facebook
+			$this->on_product_publish( $wp_id );
+		} else {
+			// - product never published to Facebook, new status is not publish
+			// - product new status is not publish but may have been published before
+			$this->update_fb_visibility( $product, $visibility );
+		}
+	}
+
+
+	/**
+	 * Gets Facebook product ID from meta or from Facebook API.
+	 *
+	 * @param string $fbid_type ID type (group or item)
+	 * @param int $wp_id post ID
+	 * @param WC_Facebook_Product|null $woo_product product
+	 * @return mixed|void|null
+	 */
+	public function get_product_fbid( $fbid_type, $wp_id, $woo_product = null ) {
+
+		$fb_id = WC_Facebookcommerce_Utils::get_fbid_post_meta(
+			$wp_id,
+			$fbid_type
+		);
+
+		if ( $fb_id ) {
+			return $fb_id;
+		}
+
+		if ( ! $woo_product ) {
+			$woo_product = new WC_Facebook_Product( $wp_id );
+		}
+
+		$products = WC_Facebookcommerce_Utils::get_product_array( $woo_product );
+
+		// if the product with ID equal to $wp_id is variable, $woo_product will be the first child
+		$woo_product = new WC_Facebook_Product( current( $products ) );
+
+		$fb_retailer_id = WC_Facebookcommerce_Utils::get_fb_retailer_id( $woo_product );
+
+		$product_fbid_result = $this->fbgraph->get_facebook_id(
+			$this->get_product_catalog_id(),
+			$fb_retailer_id
+		);
+
+		if ( is_wp_error( $product_fbid_result ) ) {
+
+			WC_Facebookcommerce_Utils::log( $product_fbid_result->get_error_message() );
+
+			$this->display_error_message(
+				sprintf(
+					/* translators: Placeholders %1$s - original error message from Facebook API */
+					esc_html__( 'There was an issue connecting to the Facebook API: %s"
+"Facebook ID:",facebook-for-woocommerce,"Facebook ID:"
+"Variant IDs:",facebook-for-woocommerce,"Variant IDs:"
+"Reset Facebook metadata",facebook-for-woocommerce,"Reset Facebook metadata"
+"Delete product(s) on Facebook",facebook-for-woocommerce,"Delete product(s) on Facebook"
+"This product is not yet synced to Facebook.",facebook-for-woocommerce,"This product is not yet synced to Facebook."
+"There was an issue connecting to the Facebook API:  %1$s",facebook-for-woocommerce,"There was an issue connecting to the Facebook API:  %1$s"
+"There was an issue connecting to the Facebook API: %s",facebook-for-woocommerce,"There was an issue connecting to the Facebook API: %s"
+"Invalid nonce.",facebook-for-woocommerce,"Invalid nonce."
+"Order ID is required.",facebook-for-woocommerce,"Order ID is required."
+"Cancel reason is required.",facebook-for-woocommerce,"Cancel reason is required."
+"A valid Order ID is required.",facebook-for-woocommerce,"A valid Order ID is required."
+"Order ID is required",facebook-for-woocommerce,"Order ID is required"
+"Tracking number is required",facebook-for-woocommerce,"Tracking number is required"
+"Carrier code is required",facebook-for-woocommerce,"Carrier code is required"
+"Order not found",facebook-for-woocommerce,"Order not found"
+"This product belongs to a category or tag that is excluded from the Facebook catalog sync. It will not sync to Facebook. %sTo sync this product to Facebook, click Go to Settings and remove the category or tag exclusion or click Cancel and update the product\'s category / tag assignments.",facebook-for-woocommerce,"This product belongs to a category or tag that is excluded from the Facebook catalog sync. It will not sync to Facebook. %sTo sync this product to Facebook, click Go to Settings and remove the category or tag exclusion or click Cancel and update the product\'s category / tag assignments."
+"One or more of the selected products belongs to a category or tag that is excluded from the Facebook catalog sync. To sync these products to Facebook, please remove the category or tag exclusion from the plugin settings.",facebook-for-woocommerce,"One or more of the selected products belongs to a category or tag that is excluded from the Facebook catalog sync. To sync these products to Facebook, please remove the category or tag exclusion from the plugin settings."
+"The categories and/or tags that you have selected to exclude from sync contain products that are currently synced to Facebook.%sTo exclude these products from the Facebook sync, click Exclude Products. To review the category / tag exclusion settings, click Cancel.",facebook-for-woocommerce,"The categories and/or tags that you have selected to exclude from sync contain products that are currently synced to Facebook.%sTo exclude these products from the Facebook sync, click Exclude Products. To review the category / tag exclusion settings, click Cancel."
+"Go to Settings",facebook-for-woocommerce,"Go to Settings"
+Cancel,facebook-for-woocommerce,Cancel
+"Go to Settings",facebook-for-woocommerce,"Go to Settings"
+Cancel,facebook-for-woocommerce,Cancel
+"Exclude Products",facebook-for-woocommerce,"Exclude Products"
+Cancel,facebook-for-woocommerce,Cancel
+"Save changes",facebook-for-woocommerce,"Save changes"
+"Show advanced options",facebook-for-woocommerce,"Show advanced options"
+"Products and categories that inherit this global setting (i.e. they do not have a specific Google product category set) will use the new default immediately. Are you sure you want to proceed?",facebook-for-woocommerce,"Products and categories that inherit this global setting (i.e. they do not have a specific Google product category set) will use the new default immediately. Are you sure you want to proceed?"
+"Facebook catalogs now support category specific fields, to make best use of them you need to select a category. WooCommerce uses the google taxonomy as it is the most widely accepted form of categorisation.",facebook-for-woocommerce,"Facebook catalogs now support category specific fields, to make best use of them you need to select a category. WooCommerce uses the google taxonomy as it is the most widely accepted form of categorisation."
+"Choose a default Google product category for products in this category. Products need at least two category levels defined for tax to be correctly applied.",facebook-for-woocommerce,"Choose a default Google product category for products in this category. Products need at least two category levels defined for tax to be correctly applied."
+"Default Google product category",facebook-for-woocommerce,"Default Google product category"
+"Select default values for enhanced attributes within this category",facebook-for-woocommerce,"Select default values for enhanced attributes within this category"
+"Category Specific Attributes",facebook-for-woocommerce,"Category Specific Attributes"
+Cancel,facebook-for-woocommerce,Cancel
+"Update default Google product category",facebook-for-woocommerce,"Update default Google product category"
+"WC Product Categories",facebook-for-woocommerce,"WC Product Categories"
+"Map FB Product Set to WC Product Categories",facebook-for-woocommerce,"Map FB Product Set to WC Product Categories"
+"Select values for enhanced attributes for this product",facebook-for-woocommerce,"Select values for enhanced attributes for this product"
+"Category Specific Attributes",facebook-for-woocommerce,"Category Specific Attributes"
+"Choose the Google product category and (optionally) sub-categories associated with this product.",facebook-for-woocommerce,"Choose the Google product category and (optionally) sub-categories associated with this product."
+"Google product category",facebook-for-woocommerce,"Google product category"
+"Sell on Instagram",facebook-for-woocommerce,"Sell on Instagram"
+"This product does not meet the requirements to sell on Instagram.",facebook-for-woocommerce,"This product does not meet the requirements to sell on Instagram."
+"Click here to learn more.",facebook-for-woocommerce,"Click here to learn more."
+"To sell this product on Instagram, at least one variation must be synced to Facebook. You can control variation sync on the %1$sVariations%2$s tab with the %1$sFacebook Sync%2$s setting.",facebook-for-woocommerce,"To sell this product on Instagram, at least one variation must be synced to Facebook. You can control variation sync on the %1$sVariations%2$s tab with the %1$sFacebook Sync%2$s setting."
+"Facebook for WooCommerce",facebook-for-woocommerce,"Facebook for WooCommerce"
+Facebook,facebook-for-woocommerce,Facebook
+"Facebook for WooCommerce",facebook-for-woocommerce,"Facebook for WooCommerce"
+Connection,facebook-for-woocommerce,Connection
+Messenger,facebook-for-woocommerce,Messenger
+"Product sync",facebook-for-woocommerce,"Product sync"
+Advertise,facebook-for-woocommerce,Advertise
+"You do not have permission to save these settings.",facebook-for-woocommerce,"You do not have permission to save these settings."
+"Your settings have been saved.",facebook-for-woocommerce,"Your settings have been saved."
+"Your settings could not be saved. %s",facebook-for-woocommerce,"Your settings could not be saved. %s"
+Advertise,facebook-for-woocommerce,Advertise
+Advertise,facebook-for-woocommerce,Advertise
+"Please %1$sconnect your store%2$s to Facebook to create ads.",facebook-for-woocommerce,"Please %1$sconnect your store%2$s to Facebook to create ads."
+Connection,facebook-for-woocommerce,Connection
+Connection,facebook-for-woocommerce,Connection
+"%1$sHeads up!%2$s It looks like there was a problem with reconnecting your site to Facebook. Please %3$sclick here%4$s to try again, or %5$sget in touch with our support team%6$s for assistance.",facebook-for-woocommerce,"%1$sHeads up!%2$s It looks like there was a problem with reconnecting your site to Facebook. Please %3$sclick here%4$s to try again, or %5$sget in touch with our support team%6$s for assistance."
+Page,facebook-for-woocommerce,Page
+Pixel,facebook-for-woocommerce,Pixel
+Catalog,facebook-for-woocommerce,Catalog
+"Business Manager account",facebook-for-woocommerce,"Business Manager account"
+"Ad Manager account",facebook-for-woocommerce,"Ad Manager account"
+"Instagram Business ID",facebook-for-woocommerce,"Instagram Business ID"
+"Commerce Merchant Settings ID",facebook-for-woocommerce,"Commerce Merchant Settings ID"
+"Reach the Right People and Sell More Online",facebook-for-woocommerce,"Reach the Right People and Sell More Online"
+"Grow your business on Facebook",facebook-for-woocommerce,"Grow your business on Facebook"
+"Use this WooCommerce and Facebook integration to:",facebook-for-woocommerce,"Use this WooCommerce and Facebook integration to:"
+"Create an ad in a few steps",facebook-for-woocommerce,"Create an ad in a few steps"
+"Use built-in best practices for online sales",facebook-for-woocommerce,"Use built-in best practices for online sales"
+"Get reporting on sales and revenue",facebook-for-woocommerce,"Get reporting on sales and revenue"
+Debug,facebook-for-woocommerce,Debug
+"Enable debug mode",facebook-for-woocommerce,"Enable debug mode"
+"Log plugin events for debugging",facebook-for-woocommerce,"Log plugin events for debugging"
+"Only enable this if you are experiencing problems with the plugin.",facebook-for-woocommerce,"Only enable this if you are experiencing problems with the plugin."
+"Manage Connection",facebook-for-woocommerce,"Manage Connection"
+Uninstall,facebook-for-woocommerce,Uninstall
+"Get Started",facebook-for-woocommerce,"Get Started"
+Messenger,facebook-for-woocommerce,Messenger
+Messenger,facebook-for-woocommerce,Messenger
+Messenger,facebook-for-woocommerce,Messenger
+"Enable Messenger",facebook-for-woocommerce,"Enable Messenger"
+"Enable and customize Facebook Messenger on your store",facebook-for-woocommerce,"Enable and customize Facebook Messenger on your store"
+Language,facebook-for-woocommerce,Language
+"Greeting & Colors",facebook-for-woocommerce,"Greeting & Colors"
+"Please %1$sconnect to Facebook%2$s to enable and manage Facebook Messenger.",facebook-for-woocommerce,"Please %1$sconnect to Facebook%2$s to enable and manage Facebook Messenger."
+"Please try again.",facebook-for-woocommerce,"Please try again."
+"%1$sClick here%2$s to manage your Messenger greeting and colors.",facebook-for-woocommerce,"%1$sClick here%2$s to manage your Messenger greeting and colors."
+"There was an error communicating with the Facebook Business Extension. %1$sClick here%2$s to manage your Messenger settings.",facebook-for-woocommerce,"There was an error communicating with the Facebook Business Extension. %1$sClick here%2$s to manage your Messenger settings."
+"Product Sets",facebook-for-woocommerce,"Product Sets"
+"Product Sets",facebook-for-woocommerce,"Product Sets"
+"Product sync",facebook-for-woocommerce,"Product sync"
+"Product sync",facebook-for-woocommerce,"Product sync"
+"Products and categories that inherit this global setting (i.e. they do not have a specific Google product category set) will use the new default immediately. Are you sure you want to proceed?",facebook-for-woocommerce,"Products and categories that inherit this global setting (i.e. they do not have a specific Google product category set) will use the new default immediately. Are you sure you want to proceed?"
+"Product sync",facebook-for-woocommerce,"Product sync"
+"Enable product sync",facebook-for-woocommerce,"Enable product sync"
+"Exclude categories from sync",facebook-for-woocommerce,"Exclude categories from sync"
+"Products in one or more of these categories will not sync to Facebook.",facebook-for-woocommerce,"Products in one or more of these categories will not sync to Facebook."
+"Search for a product category&hellip;",facebook-for-woocommerce,"Search for a product category&hellip;"
+"Exclude tags from sync",facebook-for-woocommerce,"Exclude tags from sync"
+"Products with one or more of these tags will not sync to Facebook.",facebook-for-woocommerce,"Products with one or more of these tags will not sync to Facebook."
+"Search for a product tag&hellip;",facebook-for-woocommerce,"Search for a product tag&hellip;"
+"Product description sync",facebook-for-woocommerce,"Product description sync"
+"Choose which product description to display in the Facebook catalog.",facebook-for-woocommerce,"Choose which product description to display in the Facebook catalog."
+"Standard description",facebook-for-woocommerce,"Standard description"
+"Short description",facebook-for-woocommerce,"Short description"
+"Default Google product category",facebook-for-woocommerce,"Default Google product category"
+"Choose a default Google product category for your products. Defaults can also be set for product categories. Products need at least two category levels defined for tax to be correctly applied.",facebook-for-woocommerce,"Choose a default Google product category for your products. Defaults can also be set for product categories. Products need at least two category levels defined for tax to be correctly applied."
+"Please %1$sconnect to Facebook%2$s to enable and manage product sync.",facebook-for-woocommerce,"Please %1$sconnect to Facebook%2$s to enable and manage product sync."
+"Your products will now be resynced to Facebook, this may take some time.",facebook-for-woocommerce,"Your products will now be resynced to Facebook, this may take some time."
+"Facebook for WooCommerce automatically syncs your products on create/update. Are you sure you want to force product resync?\n\nThis will query all published products and may take some time. You only need to do this if your products are out of sync or some of your products did not sync.",facebook-for-woocommerce,"Facebook for WooCommerce automatically syncs your products on create/update. Are you sure you want to force product resync?\n\nThis will query all published products and may take some time. You only need to do this if your products are out of sync or some of your products did not sync."
+"Your products are syncing - you may safely leave this page %s",facebook-for-woocommerce,"Your products are syncing - you may safely leave this page %s"
+"There was an error trying to sync the products to Facebook.",facebook-for-woocommerce,"There was an error trying to sync the products to Facebook."
+"Something went wrong while uploading the product information, please try again.",facebook-for-woocommerce,"Something went wrong while uploading the product information, please try again."
+"Products and categories that inherit this global setting (they do not have a specific Google product category set) will use the new default immediately.  %1$sIf you have cleared the Google Product Category%2$s, items inheriting the default will not be available for Instagram checkout. Are you sure you want to proceed?",facebook-for-woocommerce,"Products and categories that inherit this global setting (they do not have a specific Google product category set) will use the new default immediately.  %1$sIf you have cleared the Google Product Category%2$s, items inheriting the default will not be available for Instagram checkout. Are you sure you want to proceed?"
+Cancel,facebook-for-woocommerce,Cancel
+"Update default Google product category",facebook-for-woocommerce,"Update default Google product category"
+"Product sync",facebook-for-woocommerce,"Product sync"
+"Sync products",facebook-for-woocommerce,"Sync products"
+"Please enter a Google product category and at least one sub-category to sell this product on Instagram.",facebook-for-woocommerce,"Please enter a Google product category and at least one sub-category to sell this product on Instagram."
+"Search main categories...",facebook-for-woocommerce,"Search main categories..."
+"Choose a main category",facebook-for-woocommerce,"Choose a main category"
+"Choose a category",facebook-for-woocommerce,"Choose a category"
+"Has %1$sManage Stock%2$s enabled on the %1$sInventory%2$s tab",facebook-for-woocommerce,"Has %1$sManage Stock%2$s enabled on the %1$sInventory%2$s tab"
+"Has the %1$sFacebook Sync%2$s setting set to ""Sync and show"" or ""Sync and hide""",facebook-for-woocommerce,"Has the %1$sFacebook Sync%2$s setting set to ""Sync and show"" or ""Sync and hide"""
+"You\'re removing a product from the Facebook sync that is currently listed in your %1$sFacebook catalog%2$s. Would you like to delete the product from the Facebook catalog as well?",facebook-for-woocommerce,"You\'re removing a product from the Facebook sync that is currently listed in your %1$sFacebook catalog%2$s. Would you like to delete the product from the Facebook catalog as well?"
+"Facebook sync",facebook-for-woocommerce,"Facebook sync"
+"Include in Facebook sync",facebook-for-woocommerce,"Include in Facebook sync"
+"Exclude from Facebook sync",facebook-for-woocommerce,"Exclude from Facebook sync"
+Facebook,facebook-for-woocommerce,Facebook
+"Facebook sync",facebook-for-woocommerce,"Facebook sync"
+"Sync and show in catalog",facebook-for-woocommerce,"Sync and show in catalog"
+"Sync and hide in catalog",facebook-for-woocommerce,"Sync and hide in catalog"
+"Do not sync",facebook-for-woocommerce,"Do not sync"
+"Facebook Description",facebook-for-woocommerce,"Facebook Description"
+"Custom (plain-text only) description for product on Facebook. If blank, product description will be used. If product description is blank, shortname will be used.",facebook-for-woocommerce,"Custom (plain-text only) description for product on Facebook. If blank, product description will be used. If product description is blank, shortname will be used."
+"Facebook Product Image",facebook-for-woocommerce,"Facebook Product Image"
+"Choose the product image that should be synced to the Facebook catalog for this product. If using a custom image, please enter an absolute URL (e.g. https://domain.com/image.jpg).",facebook-for-woocommerce,"Choose the product image that should be synced to the Facebook catalog for this product. If using a custom image, please enter an absolute URL (e.g. https://domain.com/image.jpg)."
+"Use WooCommerce image",facebook-for-woocommerce,"Use WooCommerce image"
+"Use custom image",facebook-for-woocommerce,"Use custom image"
+"Custom Image URL",facebook-for-woocommerce,"Custom Image URL"
+"Facebook Price (%1$s)",facebook-for-woocommerce,"Facebook Price (%1$s)"
+"Custom price for product on Facebook. Please enter in monetary decimal (.) format without thousand separators and currency symbols. If blank, product price will be used.",facebook-for-woocommerce,"Custom price for product on Facebook. Please enter in monetary decimal (.) format without thousand separators and currency symbols. If blank, product price will be used."
+"Facebook sync",facebook-for-woocommerce,"Facebook sync"
+"Sync and show in catalog",facebook-for-woocommerce,"Sync and show in catalog"
+"Sync and hide in catalog",facebook-for-woocommerce,"Sync and hide in catalog"
+"Do not sync",facebook-for-woocommerce,"Do not sync"
+"Facebook Description",facebook-for-woocommerce,"Facebook Description"
+"Custom (plain-text only) description for product on Facebook. If blank, product description will be used. If product description is blank, shortname will be used.",facebook-for-woocommerce,"Custom (plain-text only) description for product on Facebook. If blank, product description will be used. If product description is blank, shortname will be used."
+"Facebook Product Image",facebook-for-woocommerce,"Facebook Product Image"
+"Choose the product image that should be synced to the Facebook catalog for this product. If using a custom image, please enter an absolute URL (e.g. https://domain.com/image.jpg).",facebook-for-woocommerce,"Choose the product image that should be synced to the Facebook catalog for this product. If using a custom image, please enter an absolute URL (e.g. https://domain.com/image.jpg)."
+"Use variation image",facebook-for-woocommerce,"Use variation image"
+"Use parent image",facebook-for-woocommerce,"Use parent image"
+"Use custom image",facebook-for-woocommerce,"Use custom image"
+"Custom Image URL",facebook-for-woocommerce,"Custom Image URL"
+"Facebook Price (%1$s)",facebook-for-woocommerce,"Facebook Price (%1$s)"
+"Custom price for product on Facebook. Please enter in monetary decimal (.) format without thousand separators and currency symbols. If blank, product price will be used.",facebook-for-woocommerce,"Custom price for product on Facebook. Please enter in monetary decimal (.) format without thousand separators and currency symbols. If blank, product price will be used."
+"The name is how it appears on Facebook Catalog.",facebook-for-woocommerce,"The name is how it appears on Facebook Catalog."
+"To sell this product on Instagram, please ensure it meets the following requirements:",facebook-for-woocommerce,"To sell this product on Instagram, please ensure it meets the following requirements:"
+"Has a price defined",facebook-for-woocommerce,"Has a price defined"
+Close,facebook-for-woocommerce,Zavřít
+"Remove from sync only",facebook-for-woocommerce,"Remove from sync only"
+"Remove from sync and delete",facebook-for-woocommerce,"Remove from sync and delete"
+Cancel,facebook-for-woocommerce,Cancel
+"Sync and show",facebook-for-woocommerce,"Sync and show"
+"Sync and hide",facebook-for-woocommerce,"Sync and hide"
+"Do not sync",facebook-for-woocommerce,"Do not sync"
+"Filter by Facebook sync setting",facebook-for-woocommerce,"Filter by Facebook sync setting"
+"Sync and show",facebook-for-woocommerce,"Sync and show"
+"Sync and hide",facebook-for-woocommerce,"Sync and hide"
+"Do not sync",facebook-for-woocommerce,"Do not sync"
+"Don't show this notice again",facebook-for-woocommerce,"Don't show this notice again"
+"%1$sHeads up!%2$s Facebook\'s %3$sCommerce Policies%4$s do not support selling virtual products, so we have hidden your synced Virtual products in your Facebook catalog. You may still advertise Virtual products on Facebook.",facebook-for-woocommerce,"%1$sHeads up!%2$s Facebook\'s %3$sCommerce Policies%4$s do not support selling virtual products, so we have hidden your synced Virtual products in your Facebook catalog. You may still advertise Virtual products on Facebook."
+"Facebook for WooCommerce",facebook-for-woocommerce,"Facebook for WooCommerce"
+"Close modal panel",facebook-for-woocommerce,"Close modal panel"
+"%1$sHeads up!%2$s If this product was previously visible in Facebook, you may need to delete it from the %3$sFacebook catalog%4$s to completely hide it from customer view.",facebook-for-woocommerce,"%1$sHeads up!%2$s If this product was previously visible in Facebook, you may need to delete it from the %3$sFacebook catalog%4$s to completely hide it from customer view."
+"%2$s%1$s product%3$s or some of its variations could not be updated to show in the Facebook catalog — %4$sFacebook Commerce Policies%5$s prohibit selling some product types (like virtual products). You may still advertise Virtual products on Facebook.",facebook-for-woocommerce,"%2$s%1$s product%3$s or some of its variations could not be updated to show in the Facebook catalog — %4$sFacebook Commerce Policies%5$s prohibit selling some product types (like virtual products). You may still advertise Virtual products on Facebook."
+"%1$sHeads up!%2$s If these products were previously visible in Facebook, you may need to delete them from the %3$sFacebook catalog%4$s to completely hide them from customer view.",facebook-for-woocommerce,"%1$sHeads up!%2$s If these products were previously visible in Facebook, you may need to delete them from the %3$sFacebook catalog%4$s to completely hide them from customer view."
+"%2$s%1$s products%3$s or some of their variations could not be updated to show in the Facebook catalog — %4$sFacebook Commerce Policies%5$s prohibit selling some product types (like virtual products). You may still advertise Virtual products on Facebook.",facebook-for-woocommerce,"%2$s%1$s products%3$s or some of their variations could not be updated to show in the Facebook catalog — %4$sFacebook Commerce Policies%5$s prohibit selling some product types (like virtual products). You may still advertise Virtual products on Facebook."
+"Order %1$s paid in %2$s",facebook-for-woocommerce,"Order %1$s paid in %2$s"
+"Remote ID not found.",facebook-for-woocommerce,"Remote ID not found."
+"%s is not a valid shipping carrier code.",facebook-for-woocommerce,"%s is not a valid shipping carrier code."
+"No valid Facebook products were found.",facebook-for-woocommerce,"No valid Facebook products were found."
+"%s order fulfilled.",facebook-for-woocommerce,"%s order fulfilled."
+"%1$s order could not be fulfilled. %2$s",facebook-for-woocommerce,"%1$s order could not be fulfilled. %2$s"
+"Parent order not found.",facebook-for-woocommerce,"Parent order not found."
+"Remote ID for parent order not found.",facebook-for-woocommerce,"Remote ID for parent order not found."
+"Order refunded on %s.",facebook-for-woocommerce,"Order refunded on %s."
+"Could not refund %1$s order: %2$s",facebook-for-woocommerce,"Could not refund %1$s order: %2$s"
+"No valid Facebook products were found.",facebook-for-woocommerce,"No valid Facebook products were found."
+"Remote ID not found.",facebook-for-woocommerce,"Remote ID not found."
+"%s order cancelled.",facebook-for-woocommerce,"%s order cancelled."
+"%1$s order could not be cancelled. %2$s",facebook-for-woocommerce,"%1$s order could not be cancelled. %2$s"
+"Customer requested cancellation",facebook-for-woocommerce,"Customer requested cancellation"
+"Product(s) are out of stock",facebook-for-woocommerce,"Product(s) are out of stock"
+"Customer address is invalid",facebook-for-woocommerce,"Customer address is invalid"
+"Suspicious order",facebook-for-woocommerce,"Suspicious order"
+Other,facebook-for-woocommerce,Other
+"Connection complete! Thanks for using Facebook for WooCommerce.",facebook-for-woocommerce,"Connection complete! Thanks for using Facebook for WooCommerce."
+"You do not have permission to uninstall Facebook Business Extension.",facebook-for-woocommerce,"You do not have permission to uninstall Facebook Business Extension."
+"Uninstall successful",facebook-for-woocommerce,"Uninstall successful"
+"Uninstall unsuccessful. Please try again.",facebook-for-woocommerce,"Uninstall unsuccessful. Please try again."
+"Could not retrieve page access data. %s",facebook-for-woocommerce,"Could not retrieve page access data. %s"
+"Page %s not authorized.",facebook-for-woocommerce,"Page %s not authorized."
+"You do not have permission to finish App Store login.",facebook-for-woocommerce,"You do not have permission to finish App Store login."
+"Job data key ""%s"" not set",facebook-for-woocommerce,"Job data key ""%s"" not set"
+"Job data key ""%s"" is not an array",facebook-for-woocommerce,"Job data key ""%s"" is not an array"
+"HTTP %s: %s",facebook-for-woocommerce,"HTTP %s: %s"
+Dismiss,facebook-for-woocommerce,Dismiss
+"Could not create product catalog feed directory",facebook-for-woocommerce,"Could not create product catalog feed directory"
+"Could not open the product catalog temporary feed file for writing",facebook-for-woocommerce,"Could not open the product catalog temporary feed file for writing"
+"Could not open the product catalog feed file for writing",facebook-for-woocommerce,"Could not open the product catalog feed file for writing"
+"Could not rename the product catalog feed file",facebook-for-woocommerce,"Could not rename the product catalog feed file"
+"Facebook Visibility",facebook-for-woocommerce,"Facebook Visibility"
+"WooCommerce Products with languages that are selected here will be visible to customers who see your Facebook Shop.",facebook-for-woocommerce,"WooCommerce Products with languages that are selected here will be visible to customers who see your Facebook Shop."
+"Saved. An automated sync from Facebook will run every hour to update the catalog with any changes you've made.",facebook-for-woocommerce,"Saved. An automated sync from Facebook will run every hour to update the catalog with any changes you've made."
+Awesome,facebook-for-woocommerce,Awesome
+Fantastic,facebook-for-woocommerce,Fantastic
+Cowabunga,facebook-for-woocommerce,Cowabunga
+Congratulations,facebook-for-woocommerce,Congratulations
+"Hot dog",facebook-for-woocommerce,"Hot dog"
+"Are you having a great experience with %1$s so far? Please consider %2$sleaving a review%3$s! If things aren\'t going quite as expected, we\'re happy to help -- please %4$sreach out to our support team%5$s.",facebook-for-woocommerce,"Are you having a great experience with %1$s so far? Please consider %2$sleaving a review%3$s! If things aren\'t going quite as expected, we\'re happy to help -- please %4$sreach out to our support team%5$s."
+"Thanks for installing %1$s! To get started, take a minute to %2$sread the documentation%3$s :)",facebook-for-woocommerce,"Thanks for installing %1$s! To get started, take a minute to %2$sread the documentation%3$s :)"
+"Thanks for installing %1$s! To get started, take a minute to complete these %2$squick and easy setup steps%3$s :)",facebook-for-woocommerce,"Thanks for installing %1$s! To get started, take a minute to complete these %2$squick and easy setup steps%3$s :)"
+"%s &rsaquo; Setup",facebook-for-woocommerce,"%s &rsaquo; Setup"
+"Oops! An error occurred, please try again.",facebook-for-woocommerce,"Oops! An error occurred, please try again."
+"View the Docs",facebook-for-woocommerce,"View the Docs"
+"See more setup options",facebook-for-woocommerce,"See more setup options"
+"Learn more about customizing the plugin",facebook-for-woocommerce,"Learn more about customizing the plugin"
+"Review Your Settings",facebook-for-woocommerce,"Review Your Settings"
+"View the Docs",facebook-for-woocommerce,"View the Docs"
+"Leave a Review",facebook-for-woocommerce,"Leave a Review"
+Continue,facebook-for-woocommerce,Continue
+Setup,facebook-for-woocommerce,Setup
+Ready!,facebook-for-woocommerce,Ready!
+"Welcome to %s!",facebook-for-woocommerce,"Welcome to %s!"
+"This quick setup wizard will help you configure the basic settings and get you started.",facebook-for-woocommerce,"This quick setup wizard will help you configure the basic settings and get you started."
+"%s is ready!",facebook-for-woocommerce,"%s is ready!"
+"Next step",facebook-for-woocommerce,"Next step"
+"You can also:",facebook-for-woocommerce,"You can also:"
+"Return to the WordPress Dashboard",facebook-for-woocommerce,"Return to the WordPress Dashboard"
+"Not right now",facebook-for-woocommerce,"Not right now"
+"Skip this step",facebook-for-woocommerce,"Skip this step"
+"The following plugins are inactive because they require a newer version of WooCommerce:",facebook-for-woocommerce,"The following plugins are inactive because they require a newer version of WooCommerce:"
+"The following plugin is inactive because it requires a newer version of WooCommerce:",facebook-for-woocommerce,"The following plugin is inactive because it requires a newer version of WooCommerce:"
+"%1$s requires WooCommerce %2$s or newer",facebook-for-woocommerce,"%1$s requires WooCommerce %2$s or newer"
+"Please %1$supdate WooCommerce%2$s",facebook-for-woocommerce,"Please %1$supdate WooCommerce%2$s"
+"The following plugin is disabled because it is out of date and incompatible with newer plugins on your site:",facebook-for-woocommerce,"The following plugin is disabled because it is out of date and incompatible with newer plugins on your site:"
+"To resolve this, please %1$supdate%2$s (recommended) %3$sor%4$s %5$sdeactivate%6$s the above plugin, or %7$sdeactivate the following%8$s:",facebook-for-woocommerce,"To resolve this, please %1$supdate%2$s (recommended) %3$sor%4$s %5$sdeactivate%6$s the above plugin, or %7$sdeactivate the following%8$s:"
+"The following plugins are disabled because they are out of date and incompatible with newer plugins on your site:",facebook-for-woocommerce,"The following plugins are disabled because they are out of date and incompatible with newer plugins on your site:"
+"To resolve this, please %1$supdate%2$s (recommended) %3$sor%4$s %5$sdeactivate%6$s the above plugins, or %7$sdeactivate the following%8$s:",facebook-for-woocommerce,"To resolve this, please %1$supdate%2$s (recommended) %3$sor%4$s %5$sdeactivate%6$s the above plugins, or %7$sdeactivate the following%8$s:"
+WooCommerce,facebook-for-woocommerce,WooCommerce
+"%s may behave unexpectedly because the following PHP configuration settings are required:' ),
+					'<strong>' . esc_html( $this->get_plugin()->get_plugin_name() ) . '</strong>'
+				);
+
+				$message .= '<ul>';
+
+					foreach ( $bad_settings as $setting => $values ) {
+
+						$setting_message = '<code>' . $setting . ' = ' . $values['expected'] . '</code>';
+
+						if ( ! empty( $values['type'] ) && 'min' === $values['type'] ) {
+
+							$setting_message = sprintf(
+								/** translators: Placeholders: %s - a PHP setting value */
+								__( '%s or higher",facebook-for-woocommerce,"%s may behave unexpectedly because the following PHP configuration settings are required:' ),
+					'<strong>' . esc_html( $this->get_plugin()->get_plugin_name() ) . '</strong>'
+				);
+
+				$message .= '<ul>';
+
+					foreach ( $bad_settings as $setting => $values ) {
+
+						$setting_message = '<code>' . $setting . ' = ' . $values['expected'] . '</code>';
+
+						if ( ! empty( $values['type'] ) && 'min' === $values['type'] ) {
+
+							$setting_message = sprintf(
+								/** translators: Placeholders: %s - a PHP setting value */
+								__( '%s or higher"
+"Please contact your hosting provider or server administrator to configure these settings.",facebook-for-woocommerce,"Please contact your hosting provider or server administrator to configure these settings."
+"Hey there! We\'ve noticed that your server is running %1$san outdated version of PHP%2$s, which is the programming language that WooCommerce and its extensions are built on.
+					The PHP version that is currently used for your site is no longer maintained, nor %1$sreceives security updates%2$s; newer versions are faster and more secure.
+					As a result, %3$s no longer supports this version and you should upgrade PHP as soon as possible.
+					Your hosting provider can do this for you. %4$sHere are some resources to help you upgrade%5$s and to explain PHP versions further.",facebook-for-woocommerce,"Hey there! We\'ve noticed that your server is running %1$san outdated version of PHP%2$s, which is the programming language that WooCommerce and its extensions are built on.
+					The PHP version that is currently used for your site is no longer maintained, nor %1$sreceives security updates%2$s; newer versions are faster and more secure.
+					As a result, %3$s no longer supports this version and you should upgrade PHP as soon as possible.
+					Your hosting provider can do this for you. %4$sHere are some resources to help you upgrade%5$s and to explain PHP versions further."
+"%1$s requires the %2$s PHP extension to function. Contact your host or server administrator to install and configure the missing extension.",facebook-for-woocommerce,"%1$s requires the %2$s PHP extension to function. Contact your host or server administrator to install and configure the missing extension."
+"%1$s requires the %2$s PHP function to exist.  Contact your host or server administrator to install and configure the missing function.",facebook-for-woocommerce,"%1$s requires the %2$s PHP function to exist.  Contact your host or server administrator to install and configure the missing function."
+"%1$s requires the following PHP extensions to function: %2$s. Contact your host or server administrator to install and configure the missing extensions.",facebook-for-woocommerce,"%1$s requires the following PHP extensions to function: %2$s. Contact your host or server administrator to install and configure the missing extensions."
+"%1$s requires the following PHP functions to exist: %2$s.  Contact your host or server administrator to install and configure the missing functions.",facebook-for-woocommerce,"%1$s requires the following PHP functions to exist: %2$s.  Contact your host or server administrator to install and configure the missing functions."
+"Heads up! %1$s will soon discontinue support for WooCommerce %2$s. Please %3$supdate WooCommerce%4$s to take advantage of the latest updates and features.",facebook-for-woocommerce,"Heads up! %1$s will soon discontinue support for WooCommerce %2$s. Please %3$supdate WooCommerce%4$s to take advantage of the latest updates and features."
+"%1$s - A minimum of %2$s is required.",facebook-for-woocommerce,"%1$s - A minimum of %2$s is required."
+"Set as %1$s - %2$s is required.",facebook-for-woocommerce,"Set as %1$s - %2$s is required."
+"You cannot clone instances of %s.",facebook-for-woocommerce,"You cannot clone instances of %s."
+"You cannot unserialize instances of %s.",facebook-for-woocommerce,"You cannot unserialize instances of %s."
+Docs,facebook-for-woocommerce,Docs
+Configure,facebook-for-woocommerce,Configure
+"Unique identifier for the resource.",facebook-for-woocommerce,"Unique identifier for the resource."
+"Sorry, you cannot list resources.",facebook-for-woocommerce,"Sorry, you cannot list resources."
+"Setting %s does not exist",facebook-for-woocommerce,"Setting %s does not exist"
+"Sorry, you cannot edit this resource.",facebook-for-woocommerce,"Sorry, you cannot edit this resource."
+"Could not update setting: %s",facebook-for-woocommerce,"Could not update setting: %s"
+"Unique identifier of the setting.",facebook-for-woocommerce,"Unique identifier of the setting."
+"The type of the setting.",facebook-for-woocommerce,"The type of the setting."
+"The name of the setting.",facebook-for-woocommerce,"The name of the setting."
+"The description of the setting. It may or may not be used for display.",facebook-for-woocommerce,"The description of the setting. It may or may not be used for display."
+"Whether the setting stores an array of values or a single value.",facebook-for-woocommerce,"Whether the setting stores an array of values or a single value."
+"A list of valid options, used for validation before storing the value.",facebook-for-woocommerce,"A list of valid options, used for validation before storing the value."
+"Optional default value for the setting.",facebook-for-woocommerce,"Optional default value for the setting."
+"The value of the setting.",facebook-for-woocommerce,"The value of the setting."
+"Optional object that defines how the user will interact with and update the setting.",facebook-for-woocommerce,"Optional object that defines how the user will interact with and update the setting."
+"The type of the control.",facebook-for-woocommerce,"The type of the control."
+"The name of the control. Inherits the setting's name.",facebook-for-woocommerce,"The name of the control. Inherits the setting's name."
+"The description of the control. Inherits the setting's description.",facebook-for-woocommerce,"The description of the control. Inherits the setting's description."
+"A list of key/value pairs defining the display value of each setting option. The keys should match the options defined in the base setting for validation.",facebook-for-woocommerce,"A list of key/value pairs defining the display value of each setting option. The keys should match the options defined in the base setting for validation."
+"Job data key ""%s"" not set",facebook-for-woocommerce,"Job data key ""%s"" not set"
+"Job data key ""%s"" is not an array",facebook-for-woocommerce,"Job data key ""%s"" is not an array"
+"Every %d Minutes' ), $interval ),
+		);
+
+		return $schedules;
+	}
+
+
+	/**
+	 * Handle cron healthcheck
+	 *
+	 * Restart the background process if not already running
+	 * and data exists in the queue.
+	 *
+	 * @since 4.4.0
+	 */
+	public function handle_cron_healthcheck() {
+
+		if ( $this->is_process_running() ) {
+			// background process already running
+			exit;
+		}
+
+		if ( $this->is_queue_empty() ) {
+			// no data to process
+			$this->clear_scheduled_event();
+			exit;
+		}
+
+		$this->dispatch();
+	}
+
+
+	/**
+	 * Schedule cron health check event
+	 *
+	 * @since 4.4.0
+	 */
+	protected function schedule_event() {
+
+		if ( ! wp_next_scheduled( $this->cron_hook_identifier ) ) {
+
+			// schedule the health check to fire after 30 seconds from now, as to not create a race condition
+			// with job process lock on servers that fire & handle cron events instantly
+			wp_schedule_event( time() + 30, $this->cron_interval_identifier, $this->cron_hook_identifier );
+		}
+	}
+
+
+	/**
+	 * Clear scheduled health check event
+	 *
+	 * @since 4.4.0
+	 */
+	protected function clear_scheduled_event() {
+
+		$timestamp = wp_next_scheduled( $this->cron_hook_identifier );
+
+		if ( $timestamp ) {
+			wp_unschedule_event( $timestamp, $this->cron_hook_identifier );
+		}
+	}
+
+
+	/**
+	 * Process an item from job data
+	 *
+	 * Implement this method to perform any actions required on each
+	 * item in job data.
+	 *
+	 * @since 4.4.2
+	 *
+	 * @param mixed $item Job data item to iterate over
+	 * @param \stdClass|object $job Job instance
+	 * @return mixed
+	 */
+	abstract protected function process_item( $item, $job );
+
+
+	/**
+	 * Handles PHP shutdown, say after a fatal error.
+	 *
+	 * @since 4.5.0
+	 *
+	 * @param \stdClass|object $job the job being processed
+	 */
+	public function handle_shutdown( $job ) {
+
+		$error = error_get_last();
+
+		// if shutting down because of a fatal error, fail the job
+		if ( $error && E_ERROR === $error['type'] ) {
+
+			$this->fail_job( $job, $error['message'] );
+
+			$this->unlock_process();
+		}
+	}
+
+
+	/**
+	 * Update a job option in options database.
+	 *
+	 * @since 4.6.3
+	 *
+	 * @param \stdClass|object $job the job instance to update in database
+	 * @return int|bool number of rows updated or false on failure, see wpdb::update()
+	 */
+	private function update_job_option( $job ) {
+		global $wpdb;
+
+		return $wpdb->update(
+			$wpdb->options,
+			array( 'option_value' => json_encode( $job ) ),
+			array( 'option_name'  => ""{$this->identifier}_job_{$job->id}"" )
+		);
+	}
+
+
+	/** Debug & Testing Methods ***********************************************/
+
+
+	/**
+	 * Tests the background handler's connection.
+	 *
+	 * @since 4.8.0
+	 *
+	 * @return bool
+	 */
+	public function test_connection() {
+
+		$test_url = add_query_arg( 'action",facebook-for-woocommerce,"Every %d Minutes' ), $interval ),
+		);
+
+		return $schedules;
+	}
+
+
+	/**
+	 * Handle cron healthcheck
+	 *
+	 * Restart the background process if not already running
+	 * and data exists in the queue.
+	 *
+	 * @since 4.4.0
+	 */
+	public function handle_cron_healthcheck() {
+
+		if ( $this->is_process_running() ) {
+			// background process already running
+			exit;
+		}
+
+		if ( $this->is_queue_empty() ) {
+			// no data to process
+			$this->clear_scheduled_event();
+			exit;
+		}
+
+		$this->dispatch();
+	}
+
+
+	/**
+	 * Schedule cron health check event
+	 *
+	 * @since 4.4.0
+	 */
+	protected function schedule_event() {
+
+		if ( ! wp_next_scheduled( $this->cron_hook_identifier ) ) {
+
+			// schedule the health check to fire after 30 seconds from now, as to not create a race condition
+			// with job process lock on servers that fire & handle cron events instantly
+			wp_schedule_event( time() + 30, $this->cron_interval_identifier, $this->cron_hook_identifier );
+		}
+	}
+
+
+	/**
+	 * Clear scheduled health check event
+	 *
+	 * @since 4.4.0
+	 */
+	protected function clear_scheduled_event() {
+
+		$timestamp = wp_next_scheduled( $this->cron_hook_identifier );
+
+		if ( $timestamp ) {
+			wp_unschedule_event( $timestamp, $this->cron_hook_identifier );
+		}
+	}
+
+
+	/**
+	 * Process an item from job data
+	 *
+	 * Implement this method to perform any actions required on each
+	 * item in job data.
+	 *
+	 * @since 4.4.2
+	 *
+	 * @param mixed $item Job data item to iterate over
+	 * @param \stdClass|object $job Job instance
+	 * @return mixed
+	 */
+	abstract protected function process_item( $item, $job );
+
+
+	/**
+	 * Handles PHP shutdown, say after a fatal error.
+	 *
+	 * @since 4.5.0
+	 *
+	 * @param \stdClass|object $job the job being processed
+	 */
+	public function handle_shutdown( $job ) {
+
+		$error = error_get_last();
+
+		// if shutting down because of a fatal error, fail the job
+		if ( $error && E_ERROR === $error['type'] ) {
+
+			$this->fail_job( $job, $error['message'] );
+
+			$this->unlock_process();
+		}
+	}
+
+
+	/**
+	 * Update a job option in options database.
+	 *
+	 * @since 4.6.3
+	 *
+	 * @param \stdClass|object $job the job instance to update in database
+	 * @return int|bool number of rows updated or false on failure, see wpdb::update()
+	 */
+	private function update_job_option( $job ) {
+		global $wpdb;
+
+		return $wpdb->update(
+			$wpdb->options,
+			array( 'option_value' => json_encode( $job ) ),
+			array( 'option_name'  => ""{$this->identifier}_job_{$job->id}"" )
+		);
+	}
+
+
+	/** Debug & Testing Methods ***********************************************/
+
+
+	/**
+	 * Tests the background handler's connection.
+	 *
+	 * @since 4.8.0
+	 *
+	 * @return bool
+	 */
+	public function test_connection() {
+
+		$test_url = add_query_arg( 'action"
+"Background Processing Test",facebook-for-woocommerce,"Background Processing Test"
+"Run Test",facebook-for-woocommerce,"Run Test"
+"This tool will test whether your server is capable of processing background jobs.",facebook-for-woocommerce,"This tool will test whether your server is capable of processing background jobs."
+"Success! You should be able to process background jobs.",facebook-for-woocommerce,"Success! You should be able to process background jobs."
+"Could not connect. Please ask your hosting company to ensure your server has loopback connections enabled.",facebook-for-woocommerce,"Could not connect. Please ask your hosting company to ensure your server has loopback connections enabled."

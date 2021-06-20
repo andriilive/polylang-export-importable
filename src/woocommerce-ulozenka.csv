@@ -1,0 +1,1165 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Toret plugins', $this->plugin_slug ),
+				__( 'Toret plugins', $this->plugin_slug ),
+				'manage_options",woocommerce-ulozenka,"Toret plugins', $this->plugin_slug ),
+				__( 'Toret plugins', $this->plugin_slug ),
+				'manage_options"
+"Uloženka', $this->plugin_slug ),
+			__( 'Uloženka', $this->plugin_slug ),
+			'manage_options',
+			$this->plugin_slug,
+			array( $this, 'display_plugin_admin_page' )
+		);
+        add_submenu_page(
+            'toret-plugins',
+            __( 'Uloženka log', $this->plugin_slug ),
+            __( 'Uloženka log', $this->plugin_slug ),
+            'manage_options",woocommerce-ulozenka,"Uloženka', $this->plugin_slug ),
+			__( 'Uloženka', $this->plugin_slug ),
+			'manage_options',
+			$this->plugin_slug,
+			array( $this, 'display_plugin_admin_page' )
+		);
+        add_submenu_page(
+            'toret-plugins',
+            __( 'Uloženka log', $this->plugin_slug ),
+            __( 'Uloženka log', $this->plugin_slug ),
+            'manage_options"
+"Barcode', $this->plugin_slug );
+            }
+        }    
+        $new_columns['ulozenka_send'] = __( 'Uloženka', $this->plugin_slug );
+        return $new_columns;
+
+  	}	
+
+  	/**
+  	 *
+  	 *
+  	 */
+  	public function thumb_column_display($column_name, $post_id){
+    	global $post;
+
+        if ( $column_name == 'ulozenka' ) { 
+            $field = get_post_meta( $post_id, 'ulozenka_consingment_id', true );
+            if( !empty( $field ) ){
+                echo '<a href=""https://tracking.ulozenka.cz/'.$field.'"" target=""_blank"">'.$field.'</a>';
+            }
+        }
+    	
+    	if ( $column_name == 'ulozenka_send' ) { 
+        	$field = get_post_meta( $post_id, 'ulozenka_consingment_id', true );
+        	if( empty( $field ) ){
+        		echo '<a href=""'.admin_url().'edit.php?post_type=shop_order&ulozenka_id_objednavky='.$post_id.'"" class=""button"" style=""padding: 2px 4px 1px 5px;""><span class=""dashicons dashicons-external""></span></a>';
+    		}else{
+    			echo '<a href=""'.admin_url().'edit.php?post_type=shop_order&ulozenka_ticket_id='.$post_id.'"" class=""button"" style=""padding: 2px 4px 1px 5px;""><span class=""dashicons dashicons-arrow-down-alt""></span></a>';
+    		}
+
+    	}
+  	}
+
+
+
+  	/**
+  	 * Send ticket or download packet
+  	 *
+  	 */
+  	public function send_ticket(){
+
+  		if( !empty( $_GET['ulozenka_id_objednavky'] ) ){
+
+  			$order_id = sanitize_text_field( $_GET['ulozenka_id_objednavky'] );
+  			$consingment = new Ulozenka_Send_Consigment( $order_id );
+        	$consingment->create_consingment();
+
+  		}
+        elseif( !empty( $_GET['ulozenka_ticket_id'] ) ){
+
+            $order_id = sanitize_text_field( $_GET['ulozenka_ticket_id'] );
+
+            $ulozenka_consingment_id = get_post_meta( $order_id, 'ulozenka_consingment_id', true );
+
+            if( empty( $ulozenka_consingment_id ) ){ return false; }
+            
+            try {
+  
+                    $subject_array = array(
+                        'type' => 'pdf",woocommerce-ulozenka,"Barcode', $this->plugin_slug );
+            }
+        }    
+        $new_columns['ulozenka_send'] = __( 'Uloženka', $this->plugin_slug );
+        return $new_columns;
+
+  	}	
+
+  	/**
+  	 *
+  	 *
+  	 */
+  	public function thumb_column_display($column_name, $post_id){
+    	global $post;
+
+        if ( $column_name == 'ulozenka' ) { 
+            $field = get_post_meta( $post_id, 'ulozenka_consingment_id', true );
+            if( !empty( $field ) ){
+                echo '<a href=""https://tracking.ulozenka.cz/'.$field.'"" target=""_blank"">'.$field.'</a>';
+            }
+        }
+    	
+    	if ( $column_name == 'ulozenka_send' ) { 
+        	$field = get_post_meta( $post_id, 'ulozenka_consingment_id', true );
+        	if( empty( $field ) ){
+        		echo '<a href=""'.admin_url().'edit.php?post_type=shop_order&ulozenka_id_objednavky='.$post_id.'"" class=""button"" style=""padding: 2px 4px 1px 5px;""><span class=""dashicons dashicons-external""></span></a>';
+    		}else{
+    			echo '<a href=""'.admin_url().'edit.php?post_type=shop_order&ulozenka_ticket_id='.$post_id.'"" class=""button"" style=""padding: 2px 4px 1px 5px;""><span class=""dashicons dashicons-arrow-down-alt""></span></a>';
+    		}
+
+    	}
+  	}
+
+
+
+  	/**
+  	 * Send ticket or download packet
+  	 *
+  	 */
+  	public function send_ticket(){
+
+  		if( !empty( $_GET['ulozenka_id_objednavky'] ) ){
+
+  			$order_id = sanitize_text_field( $_GET['ulozenka_id_objednavky'] );
+  			$consingment = new Ulozenka_Send_Consigment( $order_id );
+        	$consingment->create_consingment();
+
+  		}
+        elseif( !empty( $_GET['ulozenka_ticket_id'] ) ){
+
+            $order_id = sanitize_text_field( $_GET['ulozenka_ticket_id'] );
+
+            $ulozenka_consingment_id = get_post_meta( $order_id, 'ulozenka_consingment_id', true );
+
+            if( empty( $ulozenka_consingment_id ) ){ return false; }
+            
+            try {
+  
+                    $subject_array = array(
+                        'type' => 'pdf"
+"Stažení štítku - data chyby",woocommerce-ulozenka,"Stažení štítku - data chyby"
+"Stažení štítku - znění chyby",woocommerce-ulozenka,"Stažení štítku - znění chyby"
+"Uloženka Log",woocommerce-ulozenka,"Uloženka Log"
+Id,woocommerce-ulozenka,Id
+Aktivní,woocommerce-ulozenka,Aktivní
+Offset,woocommerce-ulozenka,Offset
+Dopravce,woocommerce-ulozenka,Dopravce
+Služba,woocommerce-ulozenka,Služba
+"Počet poboček",woocommerce-ulozenka,"Počet poboček"
+"Načíst pobočky",woocommerce-ulozenka,"Načíst pobočky"
+"Doprava zdarma",woocommerce-ulozenka,"Doprava zdarma"
+"Cena dopravy zdarma",woocommerce-ulozenka,"Cena dopravy zdarma"
+"Nemá pobočky",woocommerce-ulozenka,"Nemá pobočky"
+"Načíst pobočky",woocommerce-ulozenka,"Načíst pobočky"
+"Zobrazit záznamy logu pro tuto objednávku",woocommerce-ulozenka,"Zobrazit záznamy logu pro tuto objednávku"
+"Every 12 hours' ),
+    );
+    return $schedules;
+}
+add_filter( 'cron_schedules",woocommerce-ulozenka,"Every 12 hours' ),
+    );
+    return $schedules;
+}
+add_filter( 'cron_schedules"
+"Vaše licence byla aktivována.",woocommerce-ulozenka,"Vaše licence byla aktivována."
+"Neplatný licenční klíč.<br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>.",woocommerce-ulozenka,"Neplatný licenční klíč.<br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>."
+"Zadaný licenční klíč neodpovídá URL webu. <br />Prosím, zkontrolujte si licenční klíč v sekci <a href=""https://toret.cz/muj-ucet/"">Můj účet</a>. V případě dalších problémů kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>.",woocommerce-ulozenka,"Zadaný licenční klíč neodpovídá URL webu. <br />Prosím, zkontrolujte si licenční klíč v sekci <a href=""https://toret.cz/muj-ucet/"">Můj účet</a>. V případě dalších problémů kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>."
+"Nemáte zadaný licenční klíč. <br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>.",woocommerce-ulozenka,"Nemáte zadaný licenční klíč. <br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>."
+"Neplatný licenční klíč.<br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>.",woocommerce-ulozenka,"Neplatný licenční klíč.<br />Prosím, kontaktujte podporu na webu <a href=""https://www.toret.cz"">Toret.cz</a>."
+"Dokumentace a demo eshop pro vyzkoušení pluginu",woocommerce-ulozenka,"Dokumentace a demo eshop pro vyzkoušení pluginu"
+"Hlavní nastavení",woocommerce-ulozenka,"Hlavní nastavení"
+Dopravci,woocommerce-ulozenka,Dopravci
+Česko,woocommerce-ulozenka,Česko
+Slovensko,woocommerce-ulozenka,Slovensko
+Evropa,woocommerce-ulozenka,Evropa
+"Pobočky služeb",woocommerce-ulozenka,"Pobočky služeb"
+"Ceník Uloženka",woocommerce-ulozenka,"Ceník Uloženka"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Cena za zásilku do 2 kg",woocommerce-ulozenka,"Cena za zásilku do 2 kg"
+"Cena za zásilku do 10 kg",woocommerce-ulozenka,"Cena za zásilku do 10 kg"
+"Cena za zásilku do 20 kg",woocommerce-ulozenka,"Cena za zásilku do 20 kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Ceník Uloženka Doprava na adresu",woocommerce-ulozenka,"Ceník Uloženka Doprava na adresu"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Cena za zásilku do 2 kg",woocommerce-ulozenka,"Cena za zásilku do 2 kg"
+"Cena za zásilku do 10 kg",woocommerce-ulozenka,"Cena za zásilku do 10 kg"
+"Cena za zásilku do 30 kg",woocommerce-ulozenka,"Cena za zásilku do 30 kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Ceník Uloženka Partner",woocommerce-ulozenka,"Ceník Uloženka Partner"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Cena za zásilku do 2 kg",woocommerce-ulozenka,"Cena za zásilku do 2 kg"
+"Cena za zásilku do 10 kg",woocommerce-ulozenka,"Cena za zásilku do 10 kg"
+"Cena za zásilku do 20 kg",woocommerce-ulozenka,"Cena za zásilku do 20 kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Ceník Česká Pošta - Balík do Ruky",woocommerce-ulozenka,"Ceník Česká Pošta - Balík do Ruky"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Ceník Česká Pošta - Balík na Poštu",woocommerce-ulozenka,"Ceník Česká Pošta - Balík na Poštu"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Ceník DPD Private CZ",woocommerce-ulozenka,"Ceník DPD Private CZ"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Ceník DPD Pickup CZ",woocommerce-ulozenka,"Ceník DPD Pickup CZ"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+Uložit,woocommerce-ulozenka,Uložit
+"Pobočky Uloženky v CZ",woocommerce-ulozenka,"Pobočky Uloženky v CZ"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Země,woocommerce-ulozenka,Země
+"Pobočky Uloženky v CZ",woocommerce-ulozenka,"Pobočky Uloženky v CZ"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Země,woocommerce-ulozenka,Země
+"Pobočky DPD",woocommerce-ulozenka,"Pobočky DPD"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Země,woocommerce-ulozenka,Země
+"Ceník DPD Private Polsko",woocommerce-ulozenka,"Ceník DPD Private Polsko"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+uložit,woocommerce-ulozenka,uložit
+"Licenční klíč",woocommerce-ulozenka,"Licenční klíč"
+"ID obchodu",woocommerce-ulozenka,"ID obchodu"
+"API Key",woocommerce-ulozenka,"API Key"
+"Podací pobočka",woocommerce-ulozenka,"Podací pobočka"
+"Odeslání zásilky do systému Uloženky",woocommerce-ulozenka,"Odeslání zásilky do systému Uloženky"
+"Po vytvoření objednávky na děkovné stránce",woocommerce-ulozenka,"Po vytvoření objednávky na děkovné stránce"
+"Při označení objednávky ""Zpracovává se""",woocommerce-ulozenka,"Při označení objednávky ""Zpracovává se"""
+"Při označení objednávky ""Dokončená""",woocommerce-ulozenka,"Při označení objednávky ""Dokončená"""
+"Zobrazení dopravy zdarma",woocommerce-ulozenka,"Zobrazení dopravy zdarma"
+"Zobrazit zdarma všechny druhy dopravy",woocommerce-ulozenka,"Zobrazit zdarma všechny druhy dopravy"
+"Zobrazit pouze dostupnou dopravu zdarma",woocommerce-ulozenka,"Zobrazit pouze dostupnou dopravu zdarma"
+"Definovat pro každou dopravu zvlášť",woocommerce-ulozenka,"Definovat pro každou dopravu zvlášť"
+"Vypnout odesílání do zásilkovny",woocommerce-ulozenka,"Vypnout odesílání do zásilkovny"
+"Typ váhového navýšení",woocommerce-ulozenka,"Typ váhového navýšení"
+Žádný,woocommerce-ulozenka,Žádný
+"Hodnota navýšení",woocommerce-ulozenka,"Hodnota navýšení"
+"Kurz Eura",woocommerce-ulozenka,"Kurz Eura"
+"Povolit automatickou aktualizaci kurzu z Národní banky",woocommerce-ulozenka,"Povolit automatickou aktualizaci kurzu z Národní banky"
+"Zadejte kurz pro přepočet",woocommerce-ulozenka,"Zadejte kurz pro přepočet"
+Uložit,woocommerce-ulozenka,Uložit
+Uloženka,woocommerce-ulozenka,Uloženka
+"DPD Pickup",woocommerce-ulozenka,"DPD Pickup"
+"Česká Pošta",woocommerce-ulozenka,"Česká Pošta"
+"Uloženka Partner",woocommerce-ulozenka,"Uloženka Partner"
+"Slovenská Pošta",woocommerce-ulozenka,"Slovenská Pošta"
+"BalíkoBox SK",woocommerce-ulozenka,"BalíkoBox SK"
+Zobrazit,woocommerce-ulozenka,Zobrazit
+Zobrazit,woocommerce-ulozenka,Zobrazit
+Zobrazit,woocommerce-ulozenka,Zobrazit
+Zobrazit,woocommerce-ulozenka,Zobrazit
+Zobrazit,woocommerce-ulozenka,Zobrazit
+Zobrazit,woocommerce-ulozenka,Zobrazit
+"Pobočky Uloženky v CZ",woocommerce-ulozenka,"Pobočky Uloženky v CZ"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+"Pobočky Uloženky v SK",woocommerce-ulozenka,"Pobočky Uloženky v SK"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+"DPD Pickup",woocommerce-ulozenka,"DPD Pickup"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+"Pobočky České Pošty",woocommerce-ulozenka,"Pobočky České Pošty"
+ID,woocommerce-ulozenka,ID
+PSČ,woocommerce-ulozenka,PSČ
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+ID,woocommerce-ulozenka,ID
+PSČ,woocommerce-ulozenka,PSČ
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+"Uloženka Partner",woocommerce-ulozenka,"Uloženka Partner"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+"Pobočky Slovenské Pošty",woocommerce-ulozenka,"Pobočky Slovenské Pošty"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+"Balíkobox SK",woocommerce-ulozenka,"Balíkobox SK"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+ID,woocommerce-ulozenka,ID
+Jméno,woocommerce-ulozenka,Jméno
+Latitude,woocommerce-ulozenka,Latitude
+Longitude,woocommerce-ulozenka,Longitude
+Země,woocommerce-ulozenka,Země
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst souřadnice",woocommerce-ulozenka,"Načíst souřadnice"
+Uložit,woocommerce-ulozenka,Uložit
+"Načíst dopravce",woocommerce-ulozenka,"Načíst dopravce"
+"UPOZORNĚNÍ: načtením služeb, smažete předchozí uložená data, včetně poboček a musíte je znovu vytvořit!",woocommerce-ulozenka,"UPOZORNĚNÍ: načtením služeb, smažete předchozí uložená data, včetně poboček a musíte je znovu vytvořit!"
+"Pomocí offset nastavte pořadí, v jakém se budou zobrazovat v pokladně.",woocommerce-ulozenka,"Pomocí offset nastavte pořadí, v jakém se budou zobrazovat v pokladně."
+"Ceník Uloženka SK",woocommerce-ulozenka,"Ceník Uloženka SK"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Cena za zásilku do 2 kg",woocommerce-ulozenka,"Cena za zásilku do 2 kg"
+"Cena za zásilku do 10 kg",woocommerce-ulozenka,"Cena za zásilku do 10 kg"
+"Cena za zásilku do 20 kg",woocommerce-ulozenka,"Cena za zásilku do 20 kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Ceník Slovenská Pošta",woocommerce-ulozenka,"Ceník Slovenská Pošta"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Express kurýr",woocommerce-ulozenka,"Express kurýr"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Express kurýr na poštu",woocommerce-ulozenka,"Express kurýr na poštu"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Balíkobox SK",woocommerce-ulozenka,"Balíkobox SK"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Ceník DPD Private SK",woocommerce-ulozenka,"Ceník DPD Private SK"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+"Ceník DPD Pickup SK",woocommerce-ulozenka,"Ceník DPD Pickup SK"
+Položka,woocommerce-ulozenka,Položka
+Cena,woocommerce-ulozenka,Cena
+"Zásilka do '.$weight.' kg",woocommerce-ulozenka,"Zásilka do '.$weight.' kg"
+"Příplatek za dobírku",woocommerce-ulozenka,"Příplatek za dobírku"
+Uložit,woocommerce-ulozenka,Uložit
+"Příplatek za Dobírku",woocommerce-ulozenka,"Příplatek za Dobírku"
+"Vytvoření zásilky - data zásilky",woocommerce-ulozenka,"Vytvoření zásilky - data zásilky"
+"Vytvoření zásilky - data chyby",woocommerce-ulozenka,"Vytvoření zásilky - data chyby"
+"Vytvoření zásilky - znění chyby",woocommerce-ulozenka,"Vytvoření zásilky - znění chyby"
+"Vytvoření zásilky - odpověď Uloženky",woocommerce-ulozenka,"Vytvoření zásilky - odpověď Uloženky"
+"Dobirka', $this->plugin_slug );
+    				$this->method_description = __( 'Umožňuje zákazníkům platit zboží při doručení (na dobírku).', $this->plugin_slug );
+					$this->has_fields   = false;
+
+					// Load the settings
+					$this->init_form_fields();
+					$this->init_settings();
+     
+					//Extra price
+    				$this->current_gateway_extra_charges = '';
+
+					// Get settings
+					$this->title              = $this->get_option( 'title' );
+					$this->description        = $this->get_option( 'description' );
+					$this->instructions       = $this->get_option( 'instructions' );
+					$this->enable_for_methods = $this->get_option( 'enable_for_methods', array() );
+    				$this->enable_dobirka_countries = $this->get_option( 'enable_dobirka_countries', array() );
+    				$this->order_status 	  = $this->get_option( 'order_status', array() );
+    				$this->taxable            = $this->get_option( 'taxable' );
+    				$this->show_cod           = $this->get_option( 'show_cod' );    				
+	    
+					add_action( 'woocommerce_update_options_payment_gateways_' . $this->id, array( $this, 'process_admin_options' ) );
+					add_action( 'woocommerce_thankyou_dobirka', array( $this, 'thankyou' ) );
+    
+    				// Customer Emails
+					add_action( 'woocommerce_email_before_order_table', array( $this, 'email_instructions' ), 10, 3 );
+    
+				}
+
+
+				/**
+    			 * Initialise Gateway Settings Form Fields
+    			 *
+    			 * @access public
+    			 * @return void
+    			 */
+				public function init_form_fields() {
+    	
+    				//Get shipping methods
+    				$shipping_methods = array();
+    				if ( is_admin() ){
+    					
+    					$data_store = WC_Data_Store::load( 'shipping-zone' );
+						$raw_zones  = $data_store->get_zones();
+
+						foreach ( $raw_zones as $raw_zone ) {
+							$zones[] = new WC_Shipping_Zone( $raw_zone );
+						}
+
+						$zones[] = new WC_Shipping_Zone(0);
+
+						foreach ( WC()->shipping()->load_shipping_methods() as $method ) {
+
+							$shipping_methods[ $method->get_method_title() ] = array();
+
+							$shipping_methods[ $method->get_method_title() ][ $method->id ] = sprintf( __( 'Any &quot;%1$s&quot; method",woocommerce-ulozenka,"Dobirka', $this->plugin_slug );
+    				$this->method_description = __( 'Umožňuje zákazníkům platit zboží při doručení (na dobírku).', $this->plugin_slug );
+					$this->has_fields   = false;
+
+					// Load the settings
+					$this->init_form_fields();
+					$this->init_settings();
+     
+					//Extra price
+    				$this->current_gateway_extra_charges = '';
+
+					// Get settings
+					$this->title              = $this->get_option( 'title' );
+					$this->description        = $this->get_option( 'description' );
+					$this->instructions       = $this->get_option( 'instructions' );
+					$this->enable_for_methods = $this->get_option( 'enable_for_methods', array() );
+    				$this->enable_dobirka_countries = $this->get_option( 'enable_dobirka_countries', array() );
+    				$this->order_status 	  = $this->get_option( 'order_status', array() );
+    				$this->taxable            = $this->get_option( 'taxable' );
+    				$this->show_cod           = $this->get_option( 'show_cod' );    				
+	    
+					add_action( 'woocommerce_update_options_payment_gateways_' . $this->id, array( $this, 'process_admin_options' ) );
+					add_action( 'woocommerce_thankyou_dobirka', array( $this, 'thankyou' ) );
+    
+    				// Customer Emails
+					add_action( 'woocommerce_email_before_order_table', array( $this, 'email_instructions' ), 10, 3 );
+    
+				}
+
+
+				/**
+    			 * Initialise Gateway Settings Form Fields
+    			 *
+    			 * @access public
+    			 * @return void
+    			 */
+				public function init_form_fields() {
+    	
+    				//Get shipping methods
+    				$shipping_methods = array();
+    				if ( is_admin() ){
+    					
+    					$data_store = WC_Data_Store::load( 'shipping-zone' );
+						$raw_zones  = $data_store->get_zones();
+
+						foreach ( $raw_zones as $raw_zone ) {
+							$zones[] = new WC_Shipping_Zone( $raw_zone );
+						}
+
+						$zones[] = new WC_Shipping_Zone(0);
+
+						foreach ( WC()->shipping()->load_shipping_methods() as $method ) {
+
+							$shipping_methods[ $method->get_method_title() ] = array();
+
+							$shipping_methods[ $method->get_method_title() ][ $method->id ] = sprintf( __( 'Any &quot;%1$s&quot; method"
+"%1$s (#%2$s)",woocommerce-ulozenka,"%1$s (#%2$s)"
+"%1$s &ndash; %2$s",woocommerce-ulozenka,"%1$s &ndash; %2$s"
+"Other locations",woocommerce-ulozenka,"Other locations"
+"Povolit platbu na dobírku', $this->plugin_slug ),
+							'label'       => __( 'Povolit platbu na dobírku', $this->plugin_slug ),
+							'type'        => 'checkbox",woocommerce-ulozenka,"Povolit platbu na dobírku', $this->plugin_slug ),
+							'label'       => __( 'Povolit platbu na dobírku', $this->plugin_slug ),
+							'type'        => 'checkbox"
+"Titulek', $this->plugin_slug ),
+							'type'        => 'text",woocommerce-ulozenka,"Titulek', $this->plugin_slug ),
+							'type'        => 'text"
+"Zobrazit dobírku, pokud je cena zásilky 0', $this->plugin_slug ),
+							'label'       => __( 'Zobrazit dobírku, pokud je cena zásilky 0', $this->plugin_slug ),
+							'type'        => 'checkbox",woocommerce-ulozenka,"Zobrazit dobírku, pokud je cena zásilky 0', $this->plugin_slug ),
+							'label'       => __( 'Zobrazit dobírku, pokud je cena zásilky 0', $this->plugin_slug ),
+							'type'        => 'checkbox"
+"Platba dobírkou.', $this->plugin_slug ) );
+					}else{
+						$order->update_status( 'on-hold', __( 'Platba dobírkou.', $this->plugin_slug ) );
+					}
+
+					// Reduce stock levels
+					wc_reduce_stock_levels( $order_id );
+
+					// Remove cart
+					WC()->cart->empty_cart();
+    
+    				// Add order note
+    				$order->add_order_note( __( 'Zákazník vybral platbu na dobírku', $this->plugin_slug ) );
+
+					// Return thankyou redirect
+					return array(
+						'result' 	=> 'success",woocommerce-ulozenka,"Platba dobírkou.', $this->plugin_slug ) );
+					}else{
+						$order->update_status( 'on-hold', __( 'Platba dobírkou.', $this->plugin_slug ) );
+					}
+
+					// Reduce stock levels
+					wc_reduce_stock_levels( $order_id );
+
+					// Remove cart
+					WC()->cart->empty_cart();
+    
+    				// Add order note
+    				$order->add_order_note( __( 'Zákazník vybral platbu na dobírku', $this->plugin_slug ) );
+
+					// Return thankyou redirect
+					return array(
+						'result' 	=> 'success"
+"Chyba odeslání do Uloženky",woocommerce-ulozenka,"Chyba odeslání do Uloženky"
+"V případě, že nebyla z nějakého důvodu odeslána zásilka do Uloženky, přijde upozornění",woocommerce-ulozenka,"V případě, že nebyla z nějakého důvodu odeslána zásilka do Uloženky, přijde upozornění"
+"Uloženka - Chyba odeslání",woocommerce-ulozenka,"Uloženka - Chyba odeslání"
+"Uloženka - Chyba odeslání",woocommerce-ulozenka,"Uloženka - Chyba odeslání"
+"Plain text",woocommerce-ulozenka,"Plain text"
+HTML,woocommerce-ulozenka,HTML
+Multipart,woocommerce-ulozenka,Multipart
+Enable/Disable,woocommerce-ulozenka,Enable/Disable
+"Enable this email notification",woocommerce-ulozenka,"Enable this email notification"
+Recipient(s),woocommerce-ulozenka,Recipient(s)
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</code>.",woocommerce-ulozenka,"Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+Subject,woocommerce-ulozenka,Subject
+"This controls the email subject line. Leave blank to use the default subject: <code>%s</code>.",woocommerce-ulozenka,"This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+"Email Heading",woocommerce-ulozenka,"Email Heading"
+"This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>.",woocommerce-ulozenka,"This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+"Email type",woocommerce-ulozenka,"Email type"
+"Choose which format of email to send.",woocommerce-ulozenka,"Choose which format of email to send."
+"Plain text",woocommerce-ulozenka,"Plain text"
+HTML,woocommerce-ulozenka,HTML
+Multipart,woocommerce-ulozenka,Multipart
+Enable/Disable,woocommerce-ulozenka,Enable/Disable
+"Enable this email notification",woocommerce-ulozenka,"Enable this email notification"
+Recipient(s),woocommerce-ulozenka,Recipient(s)
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</code>.",woocommerce-ulozenka,"Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+Subject,woocommerce-ulozenka,Subject
+"This controls the email subject line. Leave blank to use the default subject: <code>%s</code>.",woocommerce-ulozenka,"This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+"Email Heading",woocommerce-ulozenka,"Email Heading"
+"This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>.",woocommerce-ulozenka,"This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+"Email type",woocommerce-ulozenka,"Email type"
+"Choose which format of email to send.",woocommerce-ulozenka,"Choose which format of email to send."
+"Order number: %s",woocommerce-ulozenka,"Order number: %s"
+"jS F Y",woocommerce-ulozenka,"jS F Y"
+"Order number: %s",woocommerce-ulozenka,"Order number: %s"
+"jS F Y",woocommerce-ulozenka,"jS F Y"
+"Order #%s",woocommerce-ulozenka,"Order #%s"
+"Do Uloženky byla odeslána neplatá data.",woocommerce-ulozenka,"Do Uloženky byla odeslána neplatá data."
+"Uloženka tak nepřijala data o zásilce a přestože byla objednávka v eshopu vytvořena, do systému Uloženky se nedostala.",woocommerce-ulozenka,"Uloženka tak nepřijala data o zásilce a přestože byla objednávka v eshopu vytvořena, do systému Uloženky se nedostala."
+"Kód chyby",woocommerce-ulozenka,"Kód chyby"
+"Znění chyby",woocommerce-ulozenka,"Znění chyby"
+"Popis chyby",woocommerce-ulozenka,"Popis chyby"
+"Order #%s",woocommerce-ulozenka,"Order #%s"
+Product,woocommerce-ulozenka,Product
+Quantity,woocommerce-ulozenka,Quantity
+Price,woocommerce-ulozenka,Cena
+"View details'));
+				if ( !empty($linkText) ) {
+					$viewDetailsLinkPosition = 'append';
+
+					//Find the ""Visit plugin site"" link (if present).
+					$visitPluginSiteLinkIndex = count($pluginMeta) - 1;
+					if ( $pluginData['PluginURI'] ) {
+						$escapedPluginUri = esc_url($pluginData['PluginURI']);
+						foreach ($pluginMeta as $linkIndex => $existingLink) {
+							if ( strpos($existingLink, $escapedPluginUri) !== false ) {
+								$visitPluginSiteLinkIndex = $linkIndex;
+								$viewDetailsLinkPosition = apply_filters(
+									$this->updateChecker->getUniqueName('view_details_link_position'),
+									'before'
+								);
+								break;
+							}
+						}
+					}
+
+					$viewDetailsLink = sprintf('<a href=""%s"" class=""thickbox open-plugin-details-modal"" aria-label=""%s"" data-title=""%s"">%s</a>',
+						esc_url(network_admin_url('plugin-install.php?tab=plugin-information&plugin=' . urlencode($this->updateChecker->slug) .
+							'&TB_iframe=true&width=600&height=550')),
+						esc_attr(sprintf(__('More information about %s'), $pluginData['Name'])),
+						esc_attr($pluginData['Name']),
+						$linkText
+					);
+					switch ($viewDetailsLinkPosition) {
+						case 'before':
+							array_splice($pluginMeta, $visitPluginSiteLinkIndex, 0, $viewDetailsLink);
+							break;
+						case 'after':
+							array_splice($pluginMeta, $visitPluginSiteLinkIndex + 1, 0, $viewDetailsLink);
+							break;
+						case 'replace':
+							$pluginMeta[$visitPluginSiteLinkIndex] = $viewDetailsLink;
+							break;
+						case 'append':
+						default:
+							$pluginMeta[] = $viewDetailsLink;
+							break;
+					}
+				}
+			}
+			return $pluginMeta;
+		}
+
+		/**
+		 * Add a ""Check for updates"" link to the plugin row in the ""Plugins"" page. By default,
+		 * the new link will appear after the ""Visit plugin site"" link if present, otherwise
+		 * after the ""View plugin details"" link.
+		 *
+		 * You can change the link text by using the ""puc_manual_check_link-$slug"" filter.
+		 * Returning an empty string from the filter will disable the link.
+		 *
+		 * @param array $pluginMeta Array of meta links.
+		 * @param string $pluginFile
+		 * @return array
+		 */
+		public function addCheckForUpdatesLink($pluginMeta, $pluginFile) {
+			if ( $this->isMyPluginFile($pluginFile) ) {
+				$linkUrl = wp_nonce_url(
+					add_query_arg(
+						array(
+							'puc_check_for_updates' => 1,
+							'puc_slug'              => $this->updateChecker->slug,
+						),
+						self_admin_url('plugins.php')
+					),
+					'puc_check_for_updates'
+				);
+
+				$linkText = apply_filters(
+					$this->updateChecker->getUniqueName('manual_check_link'),
+					__('Check for updates",woocommerce-ulozenka,"View details'));
+				if ( !empty($linkText) ) {
+					$viewDetailsLinkPosition = 'append';
+
+					//Find the ""Visit plugin site"" link (if present).
+					$visitPluginSiteLinkIndex = count($pluginMeta) - 1;
+					if ( $pluginData['PluginURI'] ) {
+						$escapedPluginUri = esc_url($pluginData['PluginURI']);
+						foreach ($pluginMeta as $linkIndex => $existingLink) {
+							if ( strpos($existingLink, $escapedPluginUri) !== false ) {
+								$visitPluginSiteLinkIndex = $linkIndex;
+								$viewDetailsLinkPosition = apply_filters(
+									$this->updateChecker->getUniqueName('view_details_link_position'),
+									'before'
+								);
+								break;
+							}
+						}
+					}
+
+					$viewDetailsLink = sprintf('<a href=""%s"" class=""thickbox open-plugin-details-modal"" aria-label=""%s"" data-title=""%s"">%s</a>',
+						esc_url(network_admin_url('plugin-install.php?tab=plugin-information&plugin=' . urlencode($this->updateChecker->slug) .
+							'&TB_iframe=true&width=600&height=550')),
+						esc_attr(sprintf(__('More information about %s'), $pluginData['Name'])),
+						esc_attr($pluginData['Name']),
+						$linkText
+					);
+					switch ($viewDetailsLinkPosition) {
+						case 'before':
+							array_splice($pluginMeta, $visitPluginSiteLinkIndex, 0, $viewDetailsLink);
+							break;
+						case 'after':
+							array_splice($pluginMeta, $visitPluginSiteLinkIndex + 1, 0, $viewDetailsLink);
+							break;
+						case 'replace':
+							$pluginMeta[$visitPluginSiteLinkIndex] = $viewDetailsLink;
+							break;
+						case 'append':
+						default:
+							$pluginMeta[] = $viewDetailsLink;
+							break;
+					}
+				}
+			}
+			return $pluginMeta;
+		}
+
+		/**
+		 * Add a ""Check for updates"" link to the plugin row in the ""Plugins"" page. By default,
+		 * the new link will appear after the ""Visit plugin site"" link if present, otherwise
+		 * after the ""View plugin details"" link.
+		 *
+		 * You can change the link text by using the ""puc_manual_check_link-$slug"" filter.
+		 * Returning an empty string from the filter will disable the link.
+		 *
+		 * @param array $pluginMeta Array of meta links.
+		 * @param string $pluginFile
+		 * @return array
+		 */
+		public function addCheckForUpdatesLink($pluginMeta, $pluginFile) {
+			if ( $this->isMyPluginFile($pluginFile) ) {
+				$linkUrl = wp_nonce_url(
+					add_query_arg(
+						array(
+							'puc_check_for_updates' => 1,
+							'puc_slug'              => $this->updateChecker->slug,
+						),
+						self_admin_url('plugins.php')
+					),
+					'puc_check_for_updates'
+				);
+
+				$linkText = apply_filters(
+					$this->updateChecker->getUniqueName('manual_check_link'),
+					__('Check for updates"
+"Unknown update checker status ""%s""",woocommerce-ulozenka,"Unknown update checker status ""%s"""
+"There is no changelog available.",woocommerce-ulozenka,"There is no changelog available."
+"Uloženka služba:",woocommerce-ulozenka,"Uloženka služba:"
+"Uloženka pobočka:",woocommerce-ulozenka,"Uloženka pobočka:"
+"Stav Vaší zásilky můžete sledovat na tomto",woocommerce-ulozenka,"Stav Vaší zásilky můžete sledovat na tomto"
+odkazu,woocommerce-ulozenka,odkazu
+"Uloženka služba:",woocommerce-ulozenka,"Uloženka služba:"
+"Uloženka pobočka:",woocommerce-ulozenka,"Uloženka pobočka:"
+"Stav Vaší zásilky můžete sledovat na tomto",woocommerce-ulozenka,"Stav Vaší zásilky můžete sledovat na tomto"
+odkazu,woocommerce-ulozenka,odkazu
+"Uloženka služba:",woocommerce-ulozenka,"Uloženka služba:"
+"Uloženka pobočka:",woocommerce-ulozenka,"Uloženka pobočka:"
+"Stav Vaší zásilky můžete sledovat na tomto",woocommerce-ulozenka,"Stav Vaší zásilky můžete sledovat na tomto"
+odkazu,woocommerce-ulozenka,odkazu
+"Povolit Uloženku",woocommerce-ulozenka,"Povolit Uloženku"
+"Povolit tento způsob",woocommerce-ulozenka,"Povolit tento způsob"
+Uloženka,woocommerce-ulozenka,Uloženka
+"Text, který zákazník uvidí",woocommerce-ulozenka,"Text, který zákazník uvidí"
+"Prosím, vyberte pobočku.', $this->plugin_slug ),
+                    'phone_number'  => __( 'Neplatné telefonní číslo. Zadávejte prosím ve formátu +420123123123 pro Česko, nebo +421123456789 pro Slovensko', $this->plugin_slug ),
+                    'dataBranchList' => $this->get_branch_list()
+                ));
+        }
+	}
+
+    /**
+     * Load the plugin text domain for translation.
+     *
+     * @since    1.4.7
+     */
+    public function load_plugin_textdomain() {
+
+        $domain = 'woocommerce-ulozenka';
+        $locale = apply_filters( 'plugin_locale', get_locale(), $domain );
+
+        $load = load_textdomain( $domain, WP_LANG_DIR . '/woocommerce-ulozenka/' . $domain . '-' . $locale . '.mo' );
+
+        if( $load === false ){
+            load_textdomain( $domain, ULOZENKADIR . 'languages/' . $domain . '-' . $locale . '.mo' );
+        }
+
+    }
+
+	/**
+	 * Create select list for checkout select branches
+	 *
+	 * @since    1.0.0
+	 */
+	public function ulozenka_select_option(){
+
+        global $woocommerce;
+        $shipping_method = explode('>',WC()->session->chosen_shipping_methods[0]);
+ 
+        if( !empty( $shipping_method[1] ) ){ 
+            $zeme = toret_get_customer_country();
+            if($zeme == 'CZ'){
+                $country = 'CZE';
+            }elseif($zeme == 'SK'){
+                $country = 'SVK';
+            }elseif($zeme == 'PL'){
+                $country = 'PLN';
+            }
+          
+            if ($shipping_method[1]=='ulozenka-1'){
+                        
+                echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ulozenka.png"" width=""130"" border=""0"" alt=""Uloženka""></th>';
+                    echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_1"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""1"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }elseif ($shipping_method[1]=='ulozenka-2'){
+  
+                //echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""2"" />';
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""2"" />';
+  
+            }elseif ($shipping_method[1]=='ulozenka-3'){
+  
+                //echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""3"" />';
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""3"" />';
+  
+            }elseif ($shipping_method[1]=='ulozenka-4' || $shipping_method[1]=='dpd-private'){
+  
+                //echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""4"" />'; 
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""4"" />';   
+  
+            }elseif ($shipping_method[1]=='ulozenka-5'){
+            //$services = get_option( 'ulozenka_services_pobocky_5' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/dpd.jpg"" width=""130"" border=""0"" alt=""DPD""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_5"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""5"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }elseif ($shipping_method[1]=='ulozenka-6'){
+  
+                //echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""6"" />';   
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""6"" />'; 
+  
+            }elseif ($shipping_method[1]=='ulozenka-7'){
+            //$services = get_option( 'ulozenka_services_pobocky_7' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ceska-posta.png"" width=""130"" border=""0"" alt=""Česká pošta Balík na poštu""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_7"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""7"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }elseif ($shipping_method[1]=='ulozenka-11'){
+            //$services = get_option( 'ulozenka_services_pobocky_11' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ulozenka.png"" width=""130"" border=""0"" alt=""Uloženka""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_11"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""11"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }elseif ($shipping_method[1]=='ulozenka-17'){
+            
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""17"" />';
+
+            }elseif ($shipping_method[1]=='ulozenka-20'){
+            //$services = get_option( 'ulozenka_services_pobocky_20' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ulozenka.png"" width=""130"" border=""0"" alt=""Uloženka""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_20"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""20"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }
+            elseif ($shipping_method[1]=='ulozenka-21'){
+            //$services = get_option( 'ulozenka_services_pobocky_21' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ulozenka.png"" width=""130"" border=""0"" alt=""Uloženka""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_21"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""21"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+            }
+        }
+    }
+
+    /**
+     * Create Consingment
+     * @since 1.1.0
+     */
+    public function create_consingment( $order_id ){
+        
+        $consingment = new Ulozenka_Send_Consigment( $order_id );
+        $consingment->create_consingment();
+
+    }  
+  
+  
+  
+    /**
+     * Get currency code
+     *    
+     * @since 1.1.0
+     */        
+    private function get_currency_code($address_state){
+        if(empty($address_state)){
+            $return = 'CZK';
+        }elseif($address_state == 'CZ'){
+            $return = 'CZK';
+        }elseif($address_state == 'SK'){
+            $return = 'EUR';
+        }
+        return $return;
+    } 
+  
+  
+  
+    
+  
+  /**
+   * Control phone number format
+   *
+   * @since 1.1.0  
+   */            
+   private function control_phone_format($phone,$prefix='+420'){
+
+        $trim_string = str_replace(' ",woocommerce-ulozenka,"Prosím, vyberte pobočku.', $this->plugin_slug ),
+                    'phone_number'  => __( 'Neplatné telefonní číslo. Zadávejte prosím ve formátu +420123123123 pro Česko, nebo +421123456789 pro Slovensko', $this->plugin_slug ),
+                    'dataBranchList' => $this->get_branch_list()
+                ));
+        }
+	}
+
+    /**
+     * Load the plugin text domain for translation.
+     *
+     * @since    1.4.7
+     */
+    public function load_plugin_textdomain() {
+
+        $domain = 'woocommerce-ulozenka';
+        $locale = apply_filters( 'plugin_locale', get_locale(), $domain );
+
+        $load = load_textdomain( $domain, WP_LANG_DIR . '/woocommerce-ulozenka/' . $domain . '-' . $locale . '.mo' );
+
+        if( $load === false ){
+            load_textdomain( $domain, ULOZENKADIR . 'languages/' . $domain . '-' . $locale . '.mo' );
+        }
+
+    }
+
+	/**
+	 * Create select list for checkout select branches
+	 *
+	 * @since    1.0.0
+	 */
+	public function ulozenka_select_option(){
+
+        global $woocommerce;
+        $shipping_method = explode('>',WC()->session->chosen_shipping_methods[0]);
+ 
+        if( !empty( $shipping_method[1] ) ){ 
+            $zeme = toret_get_customer_country();
+            if($zeme == 'CZ'){
+                $country = 'CZE';
+            }elseif($zeme == 'SK'){
+                $country = 'SVK';
+            }elseif($zeme == 'PL'){
+                $country = 'PLN';
+            }
+          
+            if ($shipping_method[1]=='ulozenka-1'){
+                        
+                echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ulozenka.png"" width=""130"" border=""0"" alt=""Uloženka""></th>';
+                    echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_1"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""1"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }elseif ($shipping_method[1]=='ulozenka-2'){
+  
+                //echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""2"" />';
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""2"" />';
+  
+            }elseif ($shipping_method[1]=='ulozenka-3'){
+  
+                //echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""3"" />';
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""3"" />';
+  
+            }elseif ($shipping_method[1]=='ulozenka-4' || $shipping_method[1]=='dpd-private'){
+  
+                //echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""4"" />'; 
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""4"" />';   
+  
+            }elseif ($shipping_method[1]=='ulozenka-5'){
+            //$services = get_option( 'ulozenka_services_pobocky_5' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/dpd.jpg"" width=""130"" border=""0"" alt=""DPD""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_5"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""5"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }elseif ($shipping_method[1]=='ulozenka-6'){
+  
+                //echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""6"" />';   
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""6"" />'; 
+  
+            }elseif ($shipping_method[1]=='ulozenka-7'){
+            //$services = get_option( 'ulozenka_services_pobocky_7' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ceska-posta.png"" width=""130"" border=""0"" alt=""Česká pošta Balík na poštu""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_7"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""7"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }elseif ($shipping_method[1]=='ulozenka-11'){
+            //$services = get_option( 'ulozenka_services_pobocky_11' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ulozenka.png"" width=""130"" border=""0"" alt=""Uloženka""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_11"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""11"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }elseif ($shipping_method[1]=='ulozenka-17'){
+            
+                echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""17"" />';
+
+            }elseif ($shipping_method[1]=='ulozenka-20'){
+            //$services = get_option( 'ulozenka_services_pobocky_20' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ulozenka.png"" width=""130"" border=""0"" alt=""Uloženka""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_20"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""20"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+
+            }
+            elseif ($shipping_method[1]=='ulozenka-21'){
+            //$services = get_option( 'ulozenka_services_pobocky_21' );
+            echo '<tr>';
+                echo '<th><img src=""'.ULOZENKAURL.'assets/images/ulozenka.png"" width=""130"" border=""0"" alt=""Uloženka""></th>';
+                echo '<td>';
+                        echo '<button type=""button"" class=""button alt ulozenka-open"" id=""ulozenka-open"" data-service=""ulozenka_services_pobocky_21"" data-country=""'.$country.'"">'.__( 'Vybrat pobočku',$this->plugin_slug ).'</button>';
+                        echo '<input type=""hidden"" name=""selected_ulozenka"" id=""selected_ulozenka"" value=""default"" />';
+                        echo '<input type=""hidden"" name=""selected_service"" id=""selected_service"" value=""21"" />';
+                    echo '</td>';
+                echo '</tr>';
+                echo '<tr class=""table-ulozenka"" id=""table-ulozenka""></tr>';
+            }
+        }
+    }
+
+    /**
+     * Create Consingment
+     * @since 1.1.0
+     */
+    public function create_consingment( $order_id ){
+        
+        $consingment = new Ulozenka_Send_Consigment( $order_id );
+        $consingment->create_consingment();
+
+    }  
+  
+  
+  
+    /**
+     * Get currency code
+     *    
+     * @since 1.1.0
+     */        
+    private function get_currency_code($address_state){
+        if(empty($address_state)){
+            $return = 'CZK';
+        }elseif($address_state == 'CZ'){
+            $return = 'CZK';
+        }elseif($address_state == 'SK'){
+            $return = 'EUR';
+        }
+        return $return;
+    } 
+  
+  
+  
+    
+  
+  /**
+   * Control phone number format
+   *
+   * @since 1.1.0  
+   */            
+   private function control_phone_format($phone,$prefix='+420'){
+
+        $trim_string = str_replace(' "
+"Pojištění zásilky",woocommerce-ulozenka,"Pojištění zásilky"
+"Vybraná pobočka",woocommerce-ulozenka,"Vybraná pobočka"

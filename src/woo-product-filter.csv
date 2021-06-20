@@ -1,0 +1,1104 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+Done,woo-product-filter,Done
+Done,woo-product-filter,Done
+N/A,woo-product-filter,N/A
+N/A,woo-product-filter,N/A
+N/A,woo-product-filter,N/A
+"Not selected",woo-product-filter,"Not selected"
+class,woo-product-filter,class
+id,woo-product-filter,id
+"You have no permissions to view this page",woo-product-filter,"You have no permissions to view this page"
+"Choose Icon",woo-product-filter,"Choose Icon"
+"Move files for %s failed'), $module['code'])), ErrorsWpf::MOD_INSTALL);
+				}
+			} else {
+				/* translators: %s: module name */
+				ErrorsWpf::push(esc_html(sprintf(__('%s is not plugin module'), $module['code'])), ErrorsWpf::MOD_INSTALL);
+			}
+		}
+		return false;
+	}
+	protected static function _runModuleInstall( $module, $action = 'install' ) {
+		$moduleLocationDir = WPF_MODULES_DIR;
+		if (!empty($module['ex_plug_dir'])) {
+			$moduleLocationDir = UtilsWpf::getPluginDir( $module['ex_plug_dir'] );
+		}
+		if (is_dir($moduleLocationDir . $module['code'])) {
+			if (!class_exists($module['code'] . strFirstUpWpf(WPF_CODE))) {
+				importClassWpf($module['code'] . strFirstUpWpf(WPF_CODE), $moduleLocationDir . $module['code'] . DS . 'mod.php');
+			}
+			$moduleClass = toeGetClassNameWpf($module['code']);
+			$moduleObj = new $moduleClass($module);
+			if ($moduleObj) {
+				$moduleObj->$action();
+			}
+		}
+	}
+	/**
+	 * Check whether is or no module in given path
+	 *
+	 * @param string $path path to the module
+	 * @return bool true if it is module, else - false
+	 */
+	public static function isModule( $path ) {
+		return true;
+	}
+	/**
+	 * Move files to plugin modules directory
+	 *
+	 * @param string $code code for module
+	 * @param string $path path from what module will be moved
+	 * @return bool is success - true, else - false
+	 */
+	public static function moveFiles( $code, $path ) {
+		if (!is_dir(WPF_MODULES_DIR . $code)) {
+			if (mkdir(WPF_MODULES_DIR . $code)) {
+				UtilsWpf::copyDirectories($path, WPF_MODULES_DIR . $code);
+				return true;
+			} else {
+				ErrorsWpf::push(esc_html__('Cannot create module directory. Try to set permission to ' . WPF_MODULES_DIR . ' directory 755 or 777",woo-product-filter,"Move files for %s failed'), $module['code'])), ErrorsWpf::MOD_INSTALL);
+				}
+			} else {
+				/* translators: %s: module name */
+				ErrorsWpf::push(esc_html(sprintf(__('%s is not plugin module'), $module['code'])), ErrorsWpf::MOD_INSTALL);
+			}
+		}
+		return false;
+	}
+	protected static function _runModuleInstall( $module, $action = 'install' ) {
+		$moduleLocationDir = WPF_MODULES_DIR;
+		if (!empty($module['ex_plug_dir'])) {
+			$moduleLocationDir = UtilsWpf::getPluginDir( $module['ex_plug_dir'] );
+		}
+		if (is_dir($moduleLocationDir . $module['code'])) {
+			if (!class_exists($module['code'] . strFirstUpWpf(WPF_CODE))) {
+				importClassWpf($module['code'] . strFirstUpWpf(WPF_CODE), $moduleLocationDir . $module['code'] . DS . 'mod.php');
+			}
+			$moduleClass = toeGetClassNameWpf($module['code']);
+			$moduleObj = new $moduleClass($module);
+			if ($moduleObj) {
+				$moduleObj->$action();
+			}
+		}
+	}
+	/**
+	 * Check whether is or no module in given path
+	 *
+	 * @param string $path path to the module
+	 * @return bool true if it is module, else - false
+	 */
+	public static function isModule( $path ) {
+		return true;
+	}
+	/**
+	 * Move files to plugin modules directory
+	 *
+	 * @param string $code code for module
+	 * @param string $path path from what module will be moved
+	 * @return bool is success - true, else - false
+	 */
+	public static function moveFiles( $code, $path ) {
+		if (!is_dir(WPF_MODULES_DIR . $code)) {
+			if (mkdir(WPF_MODULES_DIR . $code)) {
+				UtilsWpf::copyDirectories($path, WPF_MODULES_DIR . $code);
+				return true;
+			} else {
+				ErrorsWpf::push(esc_html__('Cannot create module directory. Try to set permission to ' . WPF_MODULES_DIR . ' directory 755 or 777"
+"Install %s failed'), $modDataArr['code'])), ErrorsWpf::MOD_INSTALL);
+					}
+				}
+			}
+		}
+		if (ErrorsWpf::haveErrors(ErrorsWpf::MOD_INSTALL)) {
+			self::displayErrors(false);
+			return false;
+		}
+		update_option(WPF_CODE . '_full_installed', 1);
+		return true;
+	}
+	/**
+	 * Public alias for _getCheckRegPlugs()
+	 * We will run this each time plugin start to check modules activation messages
+	 */
+	public static function checkActivationMessages() {
+
+	}
+	/**
+	 * Deactivate module after deactivating external plugin
+	 */
+	public static function deactivate() {
+		$locations = self::_getPluginLocations();
+		$modules = self::_getModulesFromXml($locations['xmlPath']);
+
+		foreach ($modules as $modDataArr) {
+			if (FrameWpf::_()->moduleActive($modDataArr['code'])) { //If module is active - then deacivate it
+				if (FrameWpf::_()->getModule('options')->getModel('modules')->put(array(
+					'id' => FrameWpf::_()->getModule($modDataArr['code'])->getID(),
+					'active' => 0,
+				))->error) {
+					ErrorsWpf::push(esc_html__('Error Deactivation module",woo-product-filter,"Install %s failed'), $modDataArr['code'])), ErrorsWpf::MOD_INSTALL);
+					}
+				}
+			}
+		}
+		if (ErrorsWpf::haveErrors(ErrorsWpf::MOD_INSTALL)) {
+			self::displayErrors(false);
+			return false;
+		}
+		update_option(WPF_CODE . '_full_installed', 1);
+		return true;
+	}
+	/**
+	 * Public alias for _getCheckRegPlugs()
+	 * We will run this each time plugin start to check modules activation messages
+	 */
+	public static function checkActivationMessages() {
+
+	}
+	/**
+	 * Deactivate module after deactivating external plugin
+	 */
+	public static function deactivate() {
+		$locations = self::_getPluginLocations();
+		$modules = self::_getModulesFromXml($locations['xmlPath']);
+
+		foreach ($modules as $modDataArr) {
+			if (FrameWpf::_()->moduleActive($modDataArr['code'])) { //If module is active - then deacivate it
+				if (FrameWpf::_()->getModule('options')->getModel('modules')->put(array(
+					'id' => FrameWpf::_()->getModule($modDataArr['code'])->getID(),
+					'active' => 0,
+				))->error) {
+					ErrorsWpf::push(esc_html__('Error Deactivation module"
+"Cannot create module directory. Try to set permission to ' . WPF_MODULES_DIR . ' directory 755 or 777",woo-product-filter,"Cannot create module directory. Try to set permission to ' . WPF_MODULES_DIR . ' directory 755 or 777"
+"No modules were found in XML file",woo-product-filter,"No modules were found in XML file"
+"Invalid XML file",woo-product-filter,"Invalid XML file"
+"No XML file were found",woo-product-filter,"No XML file were found"
+"Error Deactivation module",woo-product-filter,"Error Deactivation module"
+"Error Activating module",woo-product-filter,"Error Activating module"
+"Database error detected",woo-product-filter,"Database error detected"
+"Invalid ID",woo-product-filter,"Invalid ID"
+"Database error detected",woo-product-filter,"Database error detected"
+"Empty or invalid ID",woo-product-filter,"Empty or invalid ID"
+"Security check",woo-product-filter,"Security check"
+"Security check",woo-product-filter,"Security check"
+"Security check",woo-product-filter,"Security check"
+"Security check",woo-product-filter,"Security check"
+"Nothing to update",woo-product-filter,"Nothing to update"
+"Database error. Please contact your developer.",woo-product-filter,"Database error. Please contact your developer."
+Label,woo-product-filter,Label
+Type,woo-product-filter,Type
+Active,woo-product-filter,Active
+Params,woo-product-filter,Params
+Code,woo-product-filter,Code
+"External plugin directory",woo-product-filter,"External plugin directory"
+ID,woo-product-filter,ID
+Label,woo-product-filter,Label
+id,woo-product-filter,id
+code,woo-product-filter,code
+visits,woo-product-filter,visits
+spent_time,woo-product-filter,spent_time
+modify_timestamp,woo-product-filter,modify_timestamp
+"Invalid length for %1$s, max length is %2$s'), $field->label, $field->maxlen)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function _( $field ) {
+		return self::validate($field);
+	}
+	public static function getErrors() {
+		return self::$errors;
+	}
+	public static function numeric( $field ) {
+		if (!is_numeric($field->value) && !empty($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Invalid numeric value for %s'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function int( $field ) {
+		return self::numeric($field);
+	}
+	public static function float( $field ) {
+		return self::numeric($field);
+	}
+	public static function double( $field ) {
+		return self::numeric($field);
+	}
+	protected static function _notEmpty( $value ) {
+		if (is_array($value)) {
+			foreach ($value as $v) {
+				if (self::_notEmpty($v)) {       //If at least 1 element of array are not empty - all array will be not empty
+					$res = true;
+					break;
+				}
+			}
+		} else {
+			$res = !empty($value);
+		}
+		return $res;
+	}
+	public static function notEmpty( $field ) {
+		if (!self::_notEmpty($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Please enter %s'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function selectNotEmpty( $field ) {
+		if (empty($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Please select %s'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function email( $field ) {
+		if (!is_email($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Invalid %s'), $field->label)), $field->name);
+			return false;
+		} elseif (email_exists($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('%s is already registered'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function addError( $error, $key = '' ) {
+		if ($key) {
+			self::$errors[$key] = $error;
+		} else {
+			self::$errors[] = $error;
+		}
+	}
+	public static function string( $field ) {
+		if (preg_match('/([0-9].*)/', $field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Invalid %s'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function getProductValidationMethods() {
+		$res = array();
+		$all = get_class_methods('ValidatorWpf');
+		foreach ($all as $m) {
+			if (in_array($m, array('int",woo-product-filter,"Invalid length for %1$s, max length is %2$s'), $field->label, $field->maxlen)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function _( $field ) {
+		return self::validate($field);
+	}
+	public static function getErrors() {
+		return self::$errors;
+	}
+	public static function numeric( $field ) {
+		if (!is_numeric($field->value) && !empty($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Invalid numeric value for %s'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function int( $field ) {
+		return self::numeric($field);
+	}
+	public static function float( $field ) {
+		return self::numeric($field);
+	}
+	public static function double( $field ) {
+		return self::numeric($field);
+	}
+	protected static function _notEmpty( $value ) {
+		if (is_array($value)) {
+			foreach ($value as $v) {
+				if (self::_notEmpty($v)) {       //If at least 1 element of array are not empty - all array will be not empty
+					$res = true;
+					break;
+				}
+			}
+		} else {
+			$res = !empty($value);
+		}
+		return $res;
+	}
+	public static function notEmpty( $field ) {
+		if (!self::_notEmpty($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Please enter %s'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function selectNotEmpty( $field ) {
+		if (empty($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Please select %s'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function email( $field ) {
+		if (!is_email($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Invalid %s'), $field->label)), $field->name);
+			return false;
+		} elseif (email_exists($field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('%s is already registered'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function addError( $error, $key = '' ) {
+		if ($key) {
+			self::$errors[$key] = $error;
+		} else {
+			self::$errors[] = $error;
+		}
+	}
+	public static function string( $field ) {
+		if (preg_match('/([0-9].*)/', $field->value)) {
+			/* translators: %s: label */
+			self::addError(esc_html(sprintf(__('Invalid %s'), $field->label)), $field->name);
+			return false;
+		}
+		return true;
+	}
+	public static function getProductValidationMethods() {
+		$res = array();
+		$all = get_class_methods('ValidatorWpf');
+		foreach ($all as $m) {
+			if (in_array($m, array('int"
+"Cool WordPress plugins from woobewoo.com developers. I tried %s - and this was what I need! #woobewoo.com",woo-product-filter,"Cool WordPress plugins from woobewoo.com developers. I tried %s - and this was what I need! #woobewoo.com"
+Settings,woo-product-filter,Settings
+"Now check your email inbox / spam folders for test mail.'));
+		} else {
+			$res->pushError ($this->getModel()->getErrors());
+		}
+		$res->ajaxExec();
+	}
+	public function saveMailTestRes() {
+		$res = new ResponseWpf();
+		$result = (int) ReqWpf::getVar('result",woo-product-filter,"Now check your email inbox / spam folders for test mail.'));
+		} else {
+			$res->pushError ($this->getModel()->getErrors());
+		}
+		$res->ajaxExec();
+	}
+	public function saveMailTestRes() {
+		$res = new ResponseWpf();
+		$result = (int) ReqWpf::getVar('result"
+Done,woo-product-filter,Done
+"Cannot send email - problem with send server",woo-product-filter,"Cannot send email - problem with send server"
+Mail,woo-product-filter,Mail
+"Mail function tested and work",woo-product-filter,"Mail function tested and work"
+"Notify Email",woo-product-filter,"Notify Email"
+"Email address used for all email notifications from plugin",woo-product-filter,"Email address used for all email notifications from plugin"
+"Test email functionality",woo-product-filter,"Test email functionality"
+"This is a test email for testing email functionality on your site, %s.",woo-product-filter,"This is a test email for testing email functionality on your site, %s."
+"Empty email address",woo-product-filter,"Empty email address"
+"Turned On %s",woo-product-filter,"Turned On %s"
+"Turned Off %s",woo-product-filter,"Turned Off %s"
+"Send test email to'); ?>
+		<?php HtmlWpf::text('test_email', array('value' => $this->testEmail)); ?>
+	</label>
+	<?php HtmlWpf::hidden('mod', array('value' => 'mail')); ?>
+	<?php HtmlWpf::hidden('action', array('value' => 'testEmail')); ?>
+	<button class=""button button-primary"">
+		<i class=""fa fa-paper-plane""></i>
+		<?php esc_html_e('Send test",woo-product-filter,"Send test email to'); ?>
+		<?php HtmlWpf::text('test_email', array('value' => $this->testEmail)); ?>
+	</label>
+	<?php HtmlWpf::hidden('mod', array('value' => 'mail')); ?>
+	<?php HtmlWpf::hidden('action', array('value' => 'testEmail')); ?>
+	<button class=""button button-primary"">
+		<i class=""fa fa-paper-plane""></i>
+		<?php esc_html_e('Send test"
+"This option allows you to check your server mail functionality",woo-product-filter,"This option allows you to check your server mail functionality"
+"Did you receive test email?",woo-product-filter,"Did you receive test email?"
+"Yes! It works!",woo-product-filter,"Yes! It works!"
+"No, I need to contact my hosting provider with mail function issue.",woo-product-filter,"No, I need to contact my hosting provider with mail function issue."
+"Great! Mail function was tested and is working fine.",woo-product-filter,"Great! Mail function was tested and is working fine."
+"Bad, please contact your hosting provider and ask them to setup mail functionality on your server.",woo-product-filter,"Bad, please contact your hosting provider and ask them to setup mail functionality on your server."
+Save,woo-product-filter,Save
+Done,woo-product-filter,Done
+Settings,woo-product-filter,Settings
+"Main Page",woo-product-filter,"Main Page"
+General,woo-product-filter,General
+"Send usage statistics",woo-product-filter,"Send usage statistics"
+"Send information about what plugin options you prefer to use, this will help us make our solution better for You.",woo-product-filter,"Send information about what plugin options you prefer to use, this will help us make our solution better for You."
+"Set number of displayed products",woo-product-filter,"Set number of displayed products"
+"Set number of displayed products. Leave blank for the default value.",woo-product-filter,"Set number of displayed products. Leave blank for the default value."
+"Move Sidebar To Top For Mobile",woo-product-filter,"Move Sidebar To Top For Mobile"
+"Turn on if you want the sidebar to appear above content on mobile devices.",woo-product-filter,"Turn on if you want the sidebar to appear above content on mobile devices."
+"Module Updated",woo-product-filter,"Module Updated"
+"Module Update Failed",woo-product-filter,"Module Update Failed"
+"Error module ID",woo-product-filter,"Error module ID"
+"Empty data to save option",woo-product-filter,"Empty data to save option"
+"Main page Go here!!!!",woo-product-filter,"Main page Go here!!!!"
+"Turned On %s",woo-product-filter,"Turned On %s"
+"Turned Off %s",woo-product-filter,"Turned Off %s"
+Save,woo-product-filter,Save
+"PRO option",woo-product-filter,"PRO option"
+"Delete Plugin Data (options, setup data, database tables, etc.)",woo-product-filter,"Delete Plugin Data (options, setup data, database tables, etc.)"
+Done,woo-product-filter,Done
+"Information was saved. Thank you!",woo-product-filter,"Information was saved. Thank you!"
+"Please don\'t send contact requests so often - wait for response for your previous requests.'));
+			$res->ajaxExec();
+		}
+		$data = ReqWpf::get('post');
+		$fields = $this->getModule()->getContactFormFields();
+		foreach ($fields as $fName => $fData) {
+			$validate = isset($fData['validate']) ? $fData['validate'] : false;
+			$data[ $fName ] = isset($data[ $fName ]) ? trim($data[ $fName ]) : '';
+			if ($validate) {
+				$error = '';
+				foreach ($validate as $v) {
+					if (!empty($error)) {
+						break;
+					}
+					switch ($v) {
+						case 'notEmpty':
+							if (empty($data[ $fName ])) {
+								/* translators: %s: label */
+								$error = 'selectbox' == $fData['html'] ? esc_html__('Please select %s",woo-product-filter,"Please don\'t send contact requests so often - wait for response for your previous requests.'));
+			$res->ajaxExec();
+		}
+		$data = ReqWpf::get('post');
+		$fields = $this->getModule()->getContactFormFields();
+		foreach ($fields as $fName => $fData) {
+			$validate = isset($fData['validate']) ? $fData['validate'] : false;
+			$data[ $fName ] = isset($data[ $fName ]) ? trim($data[ $fName ]) : '';
+			if ($validate) {
+				$error = '';
+				foreach ($validate as $v) {
+					if (!empty($error)) {
+						break;
+					}
+					switch ($v) {
+						case 'notEmpty':
+							if (empty($data[ $fName ])) {
+								/* translators: %s: label */
+								$error = 'selectbox' == $fData['html'] ? esc_html__('Please select %s"
+"Please enter %s",woo-product-filter,"Please enter %s"
+"Please enter valid email address",woo-product-filter,"Please enter valid email address"
+"Information was saved. Thank you!",woo-product-filter,"Information was saved. Thank you!"
+"Information was saved. Thank you!",woo-product-filter,"Information was saved. Thank you!"
+"Information was saved. Thank you!",woo-product-filter,"Information was saved. Thank you!"
+"Thank you for Feedback!",woo-product-filter,"Thank you for Feedback!"
+"Hey, I noticed you just use %s over a week – that’s awesome!",woo-product-filter,"Hey, I noticed you just use %s over a week – that’s awesome!"
+"More then eleven days with our %s plugin - Congratulations!",woo-product-filter,"More then eleven days with our %s plugin - Congratulations!"
+"Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help us spread the word and boost our motivation.",woo-product-filter,"Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help us spread the word and boost our motivation."
+"Ok, you deserve it",woo-product-filter,"Ok, you deserve it"
+"Nope, maybe later",woo-product-filter,"Nope, maybe later"
+"I already did",woo-product-filter,"I already did"
+"On behalf of the entire %s company I would like to thank you for been with us, and I really hope that our software helped you.",woo-product-filter,"On behalf of the entire %s company I would like to thank you for been with us, and I really hope that our software helped you."
+"And today, if you want, - you can help us. This is really simple - you can just add small promo link to our site under your PopUps. This is small step for you, but a big help for us! Sure, if you don\'t want - just skip this and continue enjoy our software!",woo-product-filter,"And today, if you want, - you can help us. This is really simple - you can just add small promo link to our site under your PopUps. This is small step for you, but a big help for us! Sure, if you don\'t want - just skip this and continue enjoy our software!"
+"Ok, you deserve it",woo-product-filter,"Ok, you deserve it"
+"Nope, maybe later",woo-product-filter,"Nope, maybe later"
+Skip,woo-product-filter,Skip
+"You can help us improve our plugin - by",woo-product-filter,"You can help us improve our plugin - by"
+"enabling Usage Statistics",woo-product-filter,"enabling Usage Statistics"
+"We will collect only our plugin usage statistic data - to understand Your needs and make our solution better for You.",woo-product-filter,"We will collect only our plugin usage statistic data - to understand Your needs and make our solution better for You."
+"Check out %s! Years of experience in WordPress plugins developers made those list unbreakable!",woo-product-filter,"Check out %s! Years of experience in WordPress plugins developers made those list unbreakable!"
+"Constant Contact - PRO",woo-product-filter,"Constant Contact - PRO"
+"Campaign Monitor - PRO",woo-product-filter,"Campaign Monitor - PRO"
+"Vertical Response - PRO",woo-product-filter,"Vertical Response - PRO"
+"SendGrid - PRO",woo-product-filter,"SendGrid - PRO"
+"GetResponse - PRO",woo-product-filter,"GetResponse - PRO"
+"iContact - PRO",woo-product-filter,"iContact - PRO"
+"Active Campaign - PRO",woo-product-filter,"Active Campaign - PRO"
+"Mailrelay - PRO",woo-product-filter,"Mailrelay - PRO"
+"arpReach - PRO",woo-product-filter,"arpReach - PRO"
+"SG Autorepondeur - PRO",woo-product-filter,"SG Autorepondeur - PRO"
+"Benchmark - PRO",woo-product-filter,"Benchmark - PRO"
+"InfusionSoft - PRO",woo-product-filter,"InfusionSoft - PRO"
+"SalesForce - Web-to-Lead - PRO",woo-product-filter,"SalesForce - Web-to-Lead - PRO"
+"ConvertKit - PRO",woo-product-filter,"ConvertKit - PRO"
+"Emma - PRO",woo-product-filter,"Emma - PRO"
+"SendinBlue - PRO",woo-product-filter,"SendinBlue - PRO"
+"Vision6 - PRO",woo-product-filter,"Vision6 - PRO"
+"Vtiger - PRO",woo-product-filter,"Vtiger - PRO"
+"Your Mailing List Provider (Ymlp) - PRO",woo-product-filter,"Your Mailing List Provider (Ymlp) - PRO"
+"4Dem.it - PRO",woo-product-filter,"4Dem.it - PRO"
+Testing,woo-product-filter,Testing
+"Get PRO",woo-product-filter,"Get PRO"
+Login/Registration,woo-product-filter,Login/Registration
+"Get PRO",woo-product-filter,"Get PRO"
+"Popup Location",woo-product-filter,"Popup Location"
+Name,woo-product-filter,Name
+Email,woo-product-filter,Email
+Website,woo-product-filter,Website
+Subject,woo-product-filter,Subject
+Topic,woo-product-filter,Topic
+"Plugin options",woo-product-filter,"Plugin options"
+"Report a bug",woo-product-filter,"Report a bug"
+"Require a new functionality",woo-product-filter,"Require a new functionality"
+Other,woo-product-filter,Other
+Message,woo-product-filter,Message
+"By default all subscribers add to the WordPress. 
+					To find your subscribers go to Users tab on the left navigation menu of WordPress admin area. 
+					Also available subscription to the Aweber, MailChimp, MailPoet %1$s. 
+					If you want to add another subscription service - just %2$s and provide URL of the subscription service.",woo-product-filter,"By default all subscribers add to the WordPress. 
+					To find your subscribers go to Users tab on the left navigation menu of WordPress admin area. 
+					Also available subscription to the Aweber, MailChimp, MailPoet %1$s. 
+					If you want to add another subscription service - just %2$s and provide URL of the subscription service."
+"and other",woo-product-filter,"and other"
+"contact us",woo-product-filter,"contact us"
+"If you setup you're PopUp properly, and it still doesn't show on the page - there are can be conflict with your WordPress theme or other plugins. %s with the URL of the webpage you add popup and screenshots / text of the error messages, if you have one - and we will help you resolve your issue.",woo-product-filter,"If you setup you're PopUp properly, and it still doesn't show on the page - there are can be conflict with your WordPress theme or other plugins. %s with the URL of the webpage you add popup and screenshots / text of the error messages, if you have one - and we will help you resolve your issue."
+"Contact us",woo-product-filter,"Contact us"
+"Where's my subscribers?",woo-product-filter,"Where's my subscribers?"
+"PopUp doesn't appear on the website",woo-product-filter,"PopUp doesn't appear on the website"
+"There were some problems while trying to retrieve our news, but you can always check all list %s.",woo-product-filter,"There were some problems while trying to retrieve our news, but you can always check all list %s."
+Yes,woo-product-filter,Yes
+No,woo-product-filter,No
+Yes,woo-product-filter,Yes
+No,woo-product-filter,No
+Yes,woo-product-filter,Yes
+No,woo-product-filter,No
+Yes,woo-product-filter,Yes
+No,woo-product-filter,No
+"On Exit from Site",woo-product-filter,"On Exit from Site"
+Version,woo-product-filter,Version
+Go,woo-product-filter,Go
+PRO,woo-product-filter,PRO
+Support,woo-product-filter,Support
+"Get plugins bundle today and save over 80%",woo-product-filter,"Get plugins bundle today and save over 80%"
+"Check It out",woo-product-filter,"Check It out"
+"More info",woo-product-filter,"More info"
+Download,woo-product-filter,Download
+"If you have a moment, please share why you are deactivating %s",woo-product-filter,"If you have a moment, please share why you are deactivating %s"
+"Your Feedback",woo-product-filter,"Your Feedback"
+"Couldn\'t get the plugin to work",woo-product-filter,"Couldn\'t get the plugin to work"
+"If you have a question, %s and will do our best to help you",woo-product-filter,"If you have a question, %s and will do our best to help you"
+"contact us",woo-product-filter,"contact us"
+"I found a better plugin",woo-product-filter,"I found a better plugin"
+"I no longer need the plugin",woo-product-filter,"I no longer need the plugin"
+"It\'s a temporary deactivation",woo-product-filter,"It\'s a temporary deactivation"
+Other,woo-product-filter,Other
+"Skip & Deactivate",woo-product-filter,"Skip & Deactivate"
+Done,woo-product-filter,Done
+Done,woo-product-filter,Done
+Done,woo-product-filter,Done
+"Add New Filter",woo-product-filter,"Add New Filter"
+Edit,woo-product-filter,Edit
+"Show All Filters",woo-product-filter,"Show All Filters"
+Select...,woo-product-filter,Select...
+Price,woo-product-filter,Cena
+"Price range",woo-product-filter,"Price range"
+"Sort by",woo-product-filter,"Sort by"
+"Product categories",woo-product-filter,"Product categories"
+"Product tags",woo-product-filter,"Product tags"
+Attribute,woo-product-filter,Attribute
+Author,woo-product-filter,Author
+Featured,woo-product-filter,Featured
+"On sale",woo-product-filter,"On sale"
+"Stock status",woo-product-filter,"Stock status"
+Rating,woo-product-filter,Rating
+"Search by Text",woo-product-filter,"Search by Text"
+"Perfect brands",woo-product-filter,"Perfect brands"
+"Product brands",woo-product-filter,"Product brands"
+Vendors,woo-product-filter,Vendors
+Default,woo-product-filter,Default
+Popularity,woo-product-filter,Popularity
+Rating,woo-product-filter,Rating
+Newness,woo-product-filter,Newness
+"Price: low to high",woo-product-filter,"Price: low to high"
+"Price: high to low",woo-product-filter,"Price: high to low"
+Random,woo-product-filter,Random
+"Name A to Z",woo-product-filter,"Name A to Z"
+"Name Z to A",woo-product-filter,"Name Z to A"
+"In Stock",woo-product-filter,"In Stock"
+"Out of Stock",woo-product-filter,"Out of Stock"
+"On Backorder",woo-product-filter,"On Backorder"
+"On Sale",woo-product-filter,"On Sale"
+"Search ...",woo-product-filter,"Search ..."
+"Delete selected",woo-product-filter,"Delete selected"
+"You have no Filters for now.",woo-product-filter,"You have no Filters for now."
+Create,woo-product-filter,Create
+"your Filter",woo-product-filter,"your Filter"
+"Using short code display the filter and products in the desired place of the template.",woo-product-filter,"Using short code display the filter and products in the desired place of the template."
+"Learn More",woo-product-filter,"Learn More"
+"Filter name:",woo-product-filter,"Filter name:"
+"Filter Shortcode",woo-product-filter,"Filter Shortcode"
+"Filter PHP code",woo-product-filter,"Filter PHP code"
+"Product Shortcode",woo-product-filter,"Product Shortcode"
+"Product PHP code",woo-product-filter,"Product PHP code"
+Save,woo-product-filter,Save
+Delete,woo-product-filter,Delete
+Filters,woo-product-filter,Filters
+Options,woo-product-filter,Options
+Design,woo-product-filter,Design
+Preview,woo-product-filter,Preview
+Preview,woo-product-filter,Preview
+"Show title label with open/close filter functionality. Be carefull when show it as close with ""Hide filter by title click"" filter oprionality. In such case users do not see filter content.",woo-product-filter,"Show title label with open/close filter functionality. Be carefull when show it as close with ""Hide filter by title click"" filter oprionality. In such case users do not see filter content."
+"Learn More",woo-product-filter,"Learn More"
+"Show title label",woo-product-filter,"Show title label"
+desktop,woo-product-filter,desktop
+mobile,woo-product-filter,mobile
+"Choose tags for filter titles. Any settings you leave blank will default .",woo-product-filter,"Choose tags for filter titles. Any settings you leave blank will default ."
+"Learn More",woo-product-filter,"Learn More"
+"Use Custom tags",woo-product-filter,"Use Custom tags"
+"Filter header",woo-product-filter,"Filter header"
+"1-st level title",woo-product-filter,"1-st level title"
+"2-nd level title",woo-product-filter,"2-nd level title"
+"3-rd level title",woo-product-filter,"3-rd level title"
+"Set the filter width in pixels or percent .",woo-product-filter,"Set the filter width in pixels or percent ."
+"Learn More",woo-product-filter,"Learn More"
+"Set the filter width in pixels or percent .",woo-product-filter,"Set the filter width in pixels or percent ."
+"Learn More",woo-product-filter,"Learn More"
+"Set the filter block height in pixels. If not filled, then the height is calculated automatically based on the content of the filter. Please note that if the value of the Maximum height in frontend of the filter is greater than the specified value, some data may be hidden .",woo-product-filter,"Set the filter block height in pixels. If not filled, then the height is calculated automatically based on the content of the filter. Please note that if the value of the Maximum height in frontend of the filter is greater than the specified value, some data may be hidden ."
+"Learn More",woo-product-filter,"Learn More"
+"Choose custom styles for filter blocks. Any settings you leave blank will default .",woo-product-filter,"Choose custom styles for filter blocks. Any settings you leave blank will default ."
+"Learn More",woo-product-filter,"Learn More"
+" Choose custom styles for filter titles. Any settings you leave blank will default .",woo-product-filter," Choose custom styles for filter titles. Any settings you leave blank will default ."
+"Learn More",woo-product-filter,"Learn More"
+" Choose custom styles for filter buttons. Any settings you leave blank will default .",woo-product-filter," Choose custom styles for filter buttons. Any settings you leave blank will default ."
+"Learn More",woo-product-filter,"Learn More"
+General,woo-product-filter,General
+Blocks,woo-product-filter,Blocks
+Titles,woo-product-filter,Titles
+Buttons,woo-product-filter,Buttons
+"General styles",woo-product-filter,"General styles"
+"Filter Width",woo-product-filter,"Filter Width"
+desktop,woo-product-filter,desktop
+mobile,woo-product-filter,mobile
+"Filter Block Width",woo-product-filter,"Filter Block Width"
+desktop,woo-product-filter,desktop
+mobile,woo-product-filter,mobile
+"Filter Block Height",woo-product-filter,"Filter Block Height"
+"CSS editor",woo-product-filter,"CSS editor"
+"JS editor",woo-product-filter,"JS editor"
+"Use theme styles",woo-product-filter,"Use theme styles"
+"Blocks Styling",woo-product-filter,"Blocks Styling"
+"Use Custom Styles",woo-product-filter,"Use Custom Styles"
+"PRO option",woo-product-filter,"PRO option"
+"Titles Styling",woo-product-filter,"Titles Styling"
+"Use Custom Styles",woo-product-filter,"Use Custom Styles"
+"PRO option",woo-product-filter,"PRO option"
+"Buttons Styling",woo-product-filter,"Buttons Styling"
+"Use Custom Styles",woo-product-filter,"Use Custom Styles"
+"PRO option",woo-product-filter,"PRO option"
+"Filter name:",woo-product-filter,"Filter name:"
+"Select filters to add",woo-product-filter,"Select filters to add"
+Add,woo-product-filter,Add
+"PRO option",woo-product-filter,"PRO option"
+"Already in the list",woo-product-filter,"Already in the list"
+"Оnly one of",woo-product-filter,"Оnly one of"
+"is available",woo-product-filter,"is available"
+From,woo-product-filter,From
+To,woo-product-filter,To
+Add,woo-product-filter,Add
+"Do not leave empty fields. Enter `i` if you want the value to be calculated automatically (for From field this will be the minimum price, for field To - the maximum price",woo-product-filter,"Do not leave empty fields. Enter `i` if you want the value to be calculated automatically (for From field this will be the minimum price, for field To - the maximum price"
+" Select attribute to be displayed on site from the list .",woo-product-filter," Select attribute to be displayed on site from the list ."
+"Learn More",woo-product-filter,"Learn More"
+" Depending on whether you need one or several attributes to be available at the same time, show attributes list as checkbox or dropdown. <strong>Attention!</strong> Slider type work only with numeric titles of attributes .",woo-product-filter," Depending on whether you need one or several attributes to be available at the same time, show attributes list as checkbox or dropdown. <strong>Attention!</strong> Slider type work only with numeric titles of attributes ."
+"Learn More",woo-product-filter,"Learn More"
+" Attributes are displayed according to the order of their selection in the input fields  .",woo-product-filter," Attributes are displayed according to the order of their selection in the input fields  ."
+"Learn More",woo-product-filter,"Learn More"
+"By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url).",woo-product-filter,"By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url)."
+" Show count display the number of products that have the appropriate parameter .",woo-product-filter," Show count display the number of products that have the appropriate parameter ."
+"Learn More",woo-product-filter,"Learn More"
+" Select attributes to be displayed on site from the list. If you want to select several attributes, hold the ""Shift"" button and click on names. Or you can hold ""Ctrl"" and click on names. Press ""Ctrl"" + ""a"" for checking all names .",woo-product-filter," Select attributes to be displayed on site from the list. If you want to select several attributes, hold the ""Shift"" button and click on names. Or you can hold ""Ctrl"" and click on names. Press ""Ctrl"" + ""a"" for checking all names ."
+"Learn More",woo-product-filter,"Learn More"
+" Selected attributes will be marked as default  .",woo-product-filter," Selected attributes will be marked as default  ."
+"Learn More",woo-product-filter,"Learn More"
+" Set attributes sorting by ascendance or descendance  .",woo-product-filter," Set attributes sorting by ascendance or descendance  ."
+"Learn More",woo-product-filter,"Learn More"
+" If checked, the entire list of attributes will always be visible, otherwise only available for filtered items  .",woo-product-filter," If checked, the entire list of attributes will always be visible, otherwise only available for filtered items  ."
+"Learn More",woo-product-filter,"Learn More"
+" Select a vertical or horizontal layout and set the count of columns  .",woo-product-filter," Select a vertical or horizontal layout and set the count of columns  ."
+"Learn More",woo-product-filter,"Learn More"
+" Set maximum displayed height in frontend  .",woo-product-filter," Set maximum displayed height in frontend  ."
+"Learn More",woo-product-filter,"Learn More"
+"Select attribute",woo-product-filter,"Select attribute"
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Dropdown label",woo-product-filter,"Dropdown label"
+"Show search for dropdown",woo-product-filter,"Show search for dropdown"
+"Order by custom",woo-product-filter,"Order by custom"
+"Hide attributes without products",woo-product-filter,"Hide attributes without products"
+"Same behavior for active filter",woo-product-filter,"Same behavior for active filter"
+"Show count",woo-product-filter,"Show count"
+Attributes,woo-product-filter,Attributes
+"Make selected attributes as default",woo-product-filter,"Make selected attributes as default"
+Logic,woo-product-filter,Logic
+"Sort by",woo-product-filter,"Sort by"
+"Sort as numbers",woo-product-filter,"Sort as numbers"
+"PRO option",woo-product-filter,"PRO option"
+"Show search",woo-product-filter,"Show search"
+"Always display all attributes",woo-product-filter,"Always display all attributes"
+Layout,woo-product-filter,Layout
+Columns,woo-product-filter,Columns
+"Maximum height in frontend",woo-product-filter,"Maximum height in frontend"
+" Define which role show users in the drop down  .",woo-product-filter," Define which role show users in the drop down  ."
+"Learn More",woo-product-filter,"Learn More"
+" Show your roles list as checkbox or dropdown  .",woo-product-filter," Show your roles list as checkbox or dropdown  ."
+"Learn More",woo-product-filter,"Learn More"
+" Dropdown first option text  .",woo-product-filter," Dropdown first option text  ."
+"Learn More",woo-product-filter,"Learn More"
+"Show search field in multiple dropdown box. ",woo-product-filter,"Show search field in multiple dropdown box. "
+"Learn More",woo-product-filter,"Learn More"
+" Show search display the bar for searching by author name in the filter .",woo-product-filter," Show search display the bar for searching by author name in the filter ."
+"Learn More",woo-product-filter,"Learn More"
+" Show search display the bar for searching by author name in the filter .",woo-product-filter," Show search display the bar for searching by author name in the filter ."
+"Learn More",woo-product-filter,"Learn More"
+" Set maximum displayed height in frontend .",woo-product-filter," Set maximum displayed height in frontend ."
+"Learn More",woo-product-filter,"Learn More"
+Roles,woo-product-filter,Roles
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Dropdown label",woo-product-filter,"Dropdown label"
+"Show search for dropdown",woo-product-filter,"Show search for dropdown"
+"Show search",woo-product-filter,"Show search"
+Layout,woo-product-filter,Layout
+Columns,woo-product-filter,Columns
+"Maximum height in frontend",woo-product-filter,"Maximum height in frontend"
+" Depending on whether you need one or several categories to be available at the same time, you may show your categories list as checkbox or dropdown . ",woo-product-filter," Depending on whether you need one or several categories to be available at the same time, you may show your categories list as checkbox or dropdown . "
+"Learn More",woo-product-filter,"Learn More"
+" Show paternal and subsidiary categories (for checkbox list). If you display only some categories, make sure that the parent categories are selected .",woo-product-filter," Show paternal and subsidiary categories (for checkbox list). If you display only some categories, make sure that the parent categories are selected ."
+"Learn More",woo-product-filter,"Learn More"
+" Restrict filtering result only to child categories or only to parent if both of them selected in the same time .",woo-product-filter," Restrict filtering result only to child categories or only to parent if both of them selected in the same time ."
+"Learn More",woo-product-filter,"Learn More"
+"The level of child categories from which to start collapsing",woo-product-filter,"The level of child categories from which to start collapsing"
+" If parent filter category was selected then extend filter result to child categories .",woo-product-filter," If parent filter category was selected then extend filter result to child categories ."
+"Learn More",woo-product-filter,"Learn More"
+" Dropdown first option text.",woo-product-filter," Dropdown first option text."
+"Learn More",woo-product-filter,"Learn More"
+" Set categories sorting by ascendance or descendance.",woo-product-filter," Set categories sorting by ascendance or descendance."
+"Learn More",woo-product-filter,"Learn More"
+" Categories are displayed according to the order of their selection in the input fields .",woo-product-filter," Categories are displayed according to the order of their selection in the input fields ."
+"Learn More",woo-product-filter,"Learn More"
+" Show count display the number of products that have the appropriate parameter (attribute, category, tag).",woo-product-filter," Show count display the number of products that have the appropriate parameter (attribute, category, tag)."
+"Learn More",woo-product-filter,"Learn More"
+" Count for parent category also her children count. <strong>Warning!</strong> If filtering will slow do uncheck this option .",woo-product-filter," Count for parent category also her children count. <strong>Warning!</strong> If filtering will slow do uncheck this option ."
+"Learn More",woo-product-filter,"Learn More"
+" Hide categories without products.",woo-product-filter," Hide categories without products."
+"Learn More",woo-product-filter,"Learn More"
+"By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url).",woo-product-filter,"By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url)."
+" Select product categories to be displayed on site from the list. If you want to select several categories, hold the ""Shift"" button and click on category names. Or you can hold ""Ctrl"" and click on category names. Press ""Ctrl"" + ""a"" for checking all categories.",woo-product-filter," Select product categories to be displayed on site from the list. If you want to select several categories, hold the ""Shift"" button and click on category names. Or you can hold ""Ctrl"" and click on category names. Press ""Ctrl"" + ""a"" for checking all categories."
+"Learn More",woo-product-filter,"Learn More"
+" Selected categories will be marked as default and hidden on frontend . ",woo-product-filter," Selected categories will be marked as default and hidden on frontend . "
+"Learn More",woo-product-filter,"Learn More"
+" When the filter is clear, he will be restrict filtered results only by selected items. Be careful when using with other filters in block! . ",woo-product-filter," When the filter is clear, he will be restrict filtered results only by selected items. Be careful when using with other filters in block! . "
+"Learn More",woo-product-filter,"Learn More"
+"Exclude category terms from filter by ids. Example input: 1,2,3 . ",woo-product-filter,"Exclude category terms from filter by ids. Example input: 1,2,3 . "
+"Learn More",woo-product-filter,"Learn More"
+"Show search display the bar for searching by category name in the filter . ",woo-product-filter,"Show search display the bar for searching by category name in the filter . "
+"Learn More",woo-product-filter,"Learn More"
+"If checked, the entire list of categories will always be visible, otherwise only available for filtered items. ",woo-product-filter,"If checked, the entire list of categories will always be visible, otherwise only available for filtered items. "
+"Learn More",woo-product-filter,"Learn More"
+"Select a vertical or horizontal layout and set the count of columns. ",woo-product-filter,"Select a vertical or horizontal layout and set the count of columns. "
+"Learn More",woo-product-filter,"Learn More"
+" Set maximum displayed height in frontend. ",woo-product-filter," Set maximum displayed height in frontend. "
+"Learn More",woo-product-filter,"Learn More"
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Show hierarchical",woo-product-filter,"Show hierarchical"
+"Hide categories parent",woo-product-filter,"Hide categories parent"
+Collapsible,woo-product-filter,Collapsible
+"PRO option",woo-product-filter,"PRO option"
+"Product selection hierarchically",woo-product-filter,"Product selection hierarchically"
+"Collapse level",woo-product-filter,"Collapse level"
+"PRO option",woo-product-filter,"PRO option"
+"Filter with children",woo-product-filter,"Filter with children"
+"Dropdown label",woo-product-filter,"Dropdown label"
+"Sort by",woo-product-filter,"Sort by"
+"Sort as numbers",woo-product-filter,"Sort as numbers"
+"PRO option",woo-product-filter,"PRO option"
+"Order by custom",woo-product-filter,"Order by custom"
+"Show count",woo-product-filter,"Show count"
+"Count parents with children",woo-product-filter,"Count parents with children"
+"Hide categories without products",woo-product-filter,"Hide categories without products"
+"Same behavior for active filter",woo-product-filter,"Same behavior for active filter"
+"Product categories",woo-product-filter,"Product categories"
+"Include children",woo-product-filter,"Include children"
+"Make selected categories as default",woo-product-filter,"Make selected categories as default"
+"Restrict filtering results only to selected categories",woo-product-filter,"Restrict filtering results only to selected categories"
+"Exclude terms ids",woo-product-filter,"Exclude terms ids"
+"Show search",woo-product-filter,"Show search"
+"Hide child",woo-product-filter,"Hide child"
+"Always display all categories",woo-product-filter,"Always display all categories"
+Layout,woo-product-filter,Layout
+Columns,woo-product-filter,Columns
+"Maximum height in frontend",woo-product-filter,"Maximum height in frontend"
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Custom title",woo-product-filter,"Custom title"
+" Dropdown first option text. ",woo-product-filter," Dropdown first option text. "
+"Learn More",woo-product-filter,"Learn More"
+" Select the sorting options available for site users (min two options). ",woo-product-filter," Select the sorting options available for site users (min two options). "
+"Learn More",woo-product-filter,"Learn More"
+"Change stock status names. ",woo-product-filter,"Change stock status names. "
+"Learn More",woo-product-filter,"Learn More"
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Dropdown label",woo-product-filter,"Dropdown label"
+"Stock status",woo-product-filter,"Stock status"
+"Change status names",woo-product-filter,"Change status names"
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Checkbox label",woo-product-filter,"Checkbox label"
+"By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url).",woo-product-filter,"By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url)."
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Show hierarchical",woo-product-filter,"Show hierarchical"
+"Hide categories parent",woo-product-filter,"Hide categories parent"
+"Dropdown label",woo-product-filter,"Dropdown label"
+"Sort by",woo-product-filter,"Sort by"
+"Sort as numbers",woo-product-filter,"Sort as numbers"
+"PRO option",woo-product-filter,"PRO option"
+"Order by custom",woo-product-filter,"Order by custom"
+"Hide brands parent",woo-product-filter,"Hide brands parent"
+"Show count",woo-product-filter,"Show count"
+"Hide brands without products",woo-product-filter,"Hide brands without products"
+"Same behavior for active filter",woo-product-filter,"Same behavior for active filter"
+"Product brands",woo-product-filter,"Product brands"
+"Make selected brands as default",woo-product-filter,"Make selected brands as default"
+"Clear filter only to selected brands",woo-product-filter,"Clear filter only to selected brands"
+"Exclude terms ids",woo-product-filter,"Exclude terms ids"
+"Show search",woo-product-filter,"Show search"
+"Hide child",woo-product-filter,"Hide child"
+"Always display all brands",woo-product-filter,"Always display all brands"
+"Use for other filters",woo-product-filter,"Use for other filters"
+Layout,woo-product-filter,Layout
+Columns,woo-product-filter,Columns
+"Maximum height in frontend",woo-product-filter,"Maximum height in frontend"
+"Select the price filter skin. ",woo-product-filter,"Select the price filter skin. "
+"Learn More",woo-product-filter,"Learn More"
+"Filter skin",woo-product-filter,"Filter skin"
+"Show price input fields",woo-product-filter,"Show price input fields"
+"Symbol position",woo-product-filter,"Symbol position"
+"Show currency as",woo-product-filter,"Show currency as"
+"Use text tooltip instead of input fields",woo-product-filter,"Use text tooltip instead of input fields"
+"Depending on whether you need one or several categories to be available at the same time, show your categories list as checkbox or dropdown. ",woo-product-filter,"Depending on whether you need one or several categories to be available at the same time, show your categories list as checkbox or dropdown. "
+"Learn More",woo-product-filter,"Learn More"
+"If this option is enabled, set the price range settings automatically. ",woo-product-filter,"If this option is enabled, set the price range settings automatically. "
+"Learn More",woo-product-filter,"Learn More"
+"Set the value of prise increase step. The default value is set to 20. All the steps are equal. When setting the step, please note that the number of elements in the list should not exceed 100, otherwise the step setting will be reset and automatically calculated. ",woo-product-filter,"Set the value of prise increase step. The default value is set to 20. All the steps are equal. When setting the step, please note that the number of elements in the list should not exceed 100, otherwise the step setting will be reset and automatically calculated. "
+"Learn More",woo-product-filter,"Learn More"
+"If this option is enabled, press the ""Setup"" button and customize price range settings. Increase or decrease the number of steps and set different values for each step. ",woo-product-filter,"If this option is enabled, press the ""Setup"" button and customize price range settings. Increase or decrease the number of steps and set different values for each step. "
+"Learn More",woo-product-filter,"Learn More"
+"Use Under/Over label instead of minimum and maximum values. ",woo-product-filter,"Use Under/Over label instead of minimum and maximum values. "
+"Learn More",woo-product-filter,"Learn More"
+"Use Under/Over label instead of minimum and maximum values. ",woo-product-filter,"Use Under/Over label instead of minimum and maximum values. "
+"Learn More",woo-product-filter,"Learn More"
+"This sets the number of decimal points shown in displayed prices. ",woo-product-filter,"This sets the number of decimal points shown in displayed prices. "
+"Learn More",woo-product-filter,"Learn More"
+"Select a vertical or horizontal layout and set the count of columns. ",woo-product-filter,"Select a vertical or horizontal layout and set the count of columns. "
+"Learn More",woo-product-filter,"Learn More"
+"Set maximum displayed height in frontend. ",woo-product-filter,"Set maximum displayed height in frontend. "
+"Learn More",woo-product-filter,"Learn More"
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Dropdown label",woo-product-filter,"Dropdown label"
+"Set range automatically",woo-product-filter,"Set range automatically"
+Step,woo-product-filter,Step
+"Set range manually",woo-product-filter,"Set range manually"
+Setup,woo-product-filter,Setup
+"Use Under/Over values",woo-product-filter,"Use Under/Over values"
+"PRO option",woo-product-filter,"PRO option"
+"Show price input fields",woo-product-filter,"Show price input fields"
+"PRO option",woo-product-filter,"PRO option"
+"Use custom number of decimals",woo-product-filter,"Use custom number of decimals"
+"PRO option",woo-product-filter,"PRO option"
+Layout,woo-product-filter,Layout
+Columns,woo-product-filter,Columns
+"Maximum height in frontend",woo-product-filter,"Maximum height in frontend"
+"Depending on whether you need one or several attributes to be available at the same time, show your attributes list as checkbox or dropdown. ",woo-product-filter,"Depending on whether you need one or several attributes to be available at the same time, show your attributes list as checkbox or dropdown. "
+"Learn More",woo-product-filter,"Learn More"
+"Dropdown first option text. ",woo-product-filter,"Dropdown first option text. "
+"Learn More",woo-product-filter,"Learn More"
+"Additional text for 1-4 rating filter. ",woo-product-filter,"Additional text for 1-4 rating filter. "
+"Learn More",woo-product-filter,"Learn More"
+"Additional text for 5-star rating filter. ",woo-product-filter,"Additional text for 5-star rating filter. "
+"Learn More",woo-product-filter,"Learn More"
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Dropdown label",woo-product-filter,"Dropdown label"
+"Additional text for 1-4",woo-product-filter,"Additional text for 1-4"
+"Additional text for 5",woo-product-filter,"Additional text for 5"
+"You can choose to display the sorting by dropdown or radio buttons",woo-product-filter,"You can choose to display the sorting by dropdown or radio buttons"
+"Select the sorting options available for site users (min two options). ",woo-product-filter,"Select the sorting options available for site users (min two options). "
+"Learn More",woo-product-filter,"Learn More"
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Sort options",woo-product-filter,"Sort options"
+"Depending on whether you need one or several tags to be available at the same time, show tags list as checkbox or dropdown. ",woo-product-filter,"Depending on whether you need one or several tags to be available at the same time, show tags list as checkbox or dropdown. "
+"Learn More",woo-product-filter,"Learn More"
+"Dropdown first option text. ",woo-product-filter,"Dropdown first option text. "
+"Learn More",woo-product-filter,"Learn More"
+"Show search field in multiple dropdown box. ",woo-product-filter,"Show search field in multiple dropdown box. "
+"Learn More",woo-product-filter,"Learn More"
+"Set tags sorting by ascendance or descendance. ",woo-product-filter,"Set tags sorting by ascendance or descendance. "
+"Learn More",woo-product-filter,"Learn More"
+"Tags are displayed according to the order of their selection in the input fields. ",woo-product-filter,"Tags are displayed according to the order of their selection in the input fields. "
+"Learn More",woo-product-filter,"Learn More"
+"Show count display the number of products that have the appropriate parameter. ",woo-product-filter,"Show count display the number of products that have the appropriate parameter. "
+"Learn More",woo-product-filter,"Learn More"
+"Hide tags without products. ",woo-product-filter,"Hide tags without products. "
+"Learn More",woo-product-filter,"Learn More"
+"By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url).",woo-product-filter,"By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url)."
+"Select product tags to be displayed on site from the list. If you want to select several tags, hold the ""Shift"" button and click on tag names. Or hold ""Ctrl"" and click on tag names. Press ""Ctrl"" + ""a"" for checking all tags. ",woo-product-filter,"Select product tags to be displayed on site from the list. If you want to select several tags, hold the ""Shift"" button and click on tag names. Or hold ""Ctrl"" and click on tag names. Press ""Ctrl"" + ""a"" for checking all tags. "
+"Learn More",woo-product-filter,"Learn More"
+"Selected tags will be marked as default and hidden on frontend. ",woo-product-filter,"Selected tags will be marked as default and hidden on frontend. "
+"Learn More",woo-product-filter,"Learn More"
+"Exclude tags terms from filter by ids. Example input: 1,2,3. ",woo-product-filter,"Exclude tags terms from filter by ids. Example input: 1,2,3. "
+"Learn More",woo-product-filter,"Learn More"
+"If checked, the entire list of tags will always be visible, otherwise only available for filtered items. ",woo-product-filter,"If checked, the entire list of tags will always be visible, otherwise only available for filtered items. "
+"Learn More",woo-product-filter,"Learn More"
+"Select a vertical or horizontal layout and set the count of columns. ",woo-product-filter,"Select a vertical or horizontal layout and set the count of columns. "
+"Learn More",woo-product-filter,"Learn More"
+"Set maximum displayed height in frontend. ",woo-product-filter,"Set maximum displayed height in frontend. "
+"Learn More",woo-product-filter,"Learn More"
+"Show on frontend as",woo-product-filter,"Show on frontend as"
+"Dropdown label",woo-product-filter,"Dropdown label"
+"Show search for dropdown",woo-product-filter,"Show search for dropdown"
+"Sort by",woo-product-filter,"Sort by"
+"Sort as numbers",woo-product-filter,"Sort as numbers"
+"PRO option",woo-product-filter,"PRO option"
+"Order by custom",woo-product-filter,"Order by custom"
+"Show count",woo-product-filter,"Show count"
+"Hide tags without products",woo-product-filter,"Hide tags without products"
+"Same behavior for active filter",woo-product-filter,"Same behavior for active filter"
+"Product tags",woo-product-filter,"Product tags"
+"No tags",woo-product-filter,"No tags"
+"Make selected tags as default",woo-product-filter,"Make selected tags as default"
+"Exclude terms ids",woo-product-filter,"Exclude terms ids"
+Logic,woo-product-filter,Logic
+"Show search",woo-product-filter,"Show search"
+"Always display all tags",woo-product-filter,"Always display all tags"
+Layout,woo-product-filter,Layout
+Columns,woo-product-filter,Columns
+"Maximum height in frontend",woo-product-filter,"Maximum height in frontend"
+"Choose page for filter. ",woo-product-filter,"Choose page for filter. "
+"Learn More",woo-product-filter,"Learn More"
+"The filter will be displayed on all child categories",woo-product-filter,"The filter will be displayed on all child categories"
+"You can select one of the available pages to redirect to it after selecting a filter",woo-product-filter,"You can select one of the available pages to redirect to it after selecting a filter"
+"Choose where display filter. ",woo-product-filter,"Choose where display filter. "
+"Learn More",woo-product-filter,"Learn More"
+"Remove other woofilters on page except current filter. ",woo-product-filter,"Remove other woofilters on page except current filter. "
+"Learn More",woo-product-filter,"Learn More"
+"Set breakpoint for all options that depend on a mobile/desktop view. ""Show title label",woo-product-filter,"Set breakpoint for all options that depend on a mobile/desktop view. ""Show title label"
+"Learn More",woo-product-filter,"Learn More"
+"Hide filter on shop and categories pages that displays only categories or subcategories without products. ",woo-product-filter,"Hide filter on shop and categories pages that displays only categories or subcategories without products. "
+"Learn More",woo-product-filter,"Learn More"
+"Set number of products per row. This number will only be shown after filter is applied! ",woo-product-filter,"Set number of products per row. This number will only be shown after filter is applied! "
+"Learn More",woo-product-filter,"Learn More"
+"This option enables Ajax search. Product filtering and displaying results in a browser will be run in the background without full page reload. ",woo-product-filter,"This option enables Ajax search. Product filtering and displaying results in a browser will be run in the background without full page reload. "
+"Learn More",woo-product-filter,"Learn More"
+"Enable this option when ajax filtering does not work as expected. For example, sorting does not work. Removes filters such as posts_orderby and pre_get_posts. ",woo-product-filter,"Enable this option when ajax filtering does not work as expected. For example, sorting does not work. Removes filters such as posts_orderby and pre_get_posts. "
+"Learn More",woo-product-filter,"Learn More"
+"Custom selector for loading a loader and updating the product list. The default product selector is `ul.products`. If the Filter after ajax filtering does not find the product block and cannot replace it with the filtered list of products, the page will reload. In this case, you need to specify the product block selector in this setting.",woo-product-filter,"Custom selector for loading a loader and updating the product list. The default product selector is `ul.products`. If the Filter after ajax filtering does not find the product block and cannot replace it with the filtered list of products, the page will reload. In this case, you need to specify the product block selector in this setting."
+"If there are several product shortcodes on the page, you can add a container selector that will limit the effect of this filter only inside it.",woo-product-filter,"If there are several product shortcodes on the page, you can add a container selector that will limit the effect of this filter only inside it."
+"If after ajax filtering there are differences in the styles of the list of products, pagination or count-block, then enable this option. Important: for correct operation, we recommend filling the Product container selector option.",woo-product-filter,"If after ajax filtering there are differences in the styles of the list of products, pagination or count-block, then enable this option. Important: for correct operation, we recommend filling the Product container selector option."
+"If ""Filtering button"" option was selected, the ""Filter"" button appears at the page. It allows users to set all necessary filter parameters before starting the filtering. If ""Auto filtering"" option was selected, filtering starts as soon as filter elements change and the data reloads automatically. ",woo-product-filter,"If ""Filtering button"" option was selected, the ""Filter"" button appears at the page. It allows users to set all necessary filter parameters before starting the filtering. If ""Auto filtering"" option was selected, filtering starts as soon as filter elements change and the data reloads automatically. "
+"Learn More",woo-product-filter,"Learn More"
+"If this option is enabled, the ""Clear"" button appears at the page. All filter presets will be removed after pressing the button. ",woo-product-filter,"If this option is enabled, the ""Clear"" button appears at the page. All filter presets will be removed after pressing the button. "
+"Learn More",woo-product-filter,"Learn More"
+"Select the position of filter buttons on the page. ",woo-product-filter,"Select the position of filter buttons on the page. "
+"Learn More",woo-product-filter,"Learn More"
+"Change the order of filter buttons on the page. ",woo-product-filter,"Change the order of filter buttons on the page. "
+"Learn More",woo-product-filter,"Learn More"
+"Search for a filtering results among all shop products on any shop pages. ",woo-product-filter,"Search for a filtering results among all shop products on any shop pages. "
+"Learn More",woo-product-filter,"Learn More"
+"If this option is enabled, the ""< clear"" links appears at the page next to the filter block titles. The presets of this filter block will be deleted after clicking on the link. ",woo-product-filter,"If this option is enabled, the ""< clear"" links appears at the page next to the filter block titles. The presets of this filter block will be deleted after clicking on the link. "
+"Learn More",woo-product-filter,"Learn More"
+"Automatically recount product by selected filters (If product category loading slowly - Disable this function). ",woo-product-filter,"Automatically recount product by selected filters (If product category loading slowly - Disable this function). "
+"Learn More",woo-product-filter,"Learn More"
+"Automatically change min/max price by selected filters (If product category loading slowly - Disable this function). ",woo-product-filter,"Automatically change min/max price by selected filters (If product category loading slowly - Disable this function). "
+"Learn More",woo-product-filter,"Learn More"
+"Automatically disabled parameters without products. Works only when options Show count and Always display all... are enabled. ",woo-product-filter,"Automatically disabled parameters without products. Works only when options Show count and Always display all... are enabled. "
+"Learn More",woo-product-filter,"Learn More"
+"Lets checked terms will be on the top. ",woo-product-filter,"Lets checked terms will be on the top. "
+"Learn More",woo-product-filter,"Learn More"
+"Input ""no products found"" text for category. ",woo-product-filter,"Input ""no products found"" text for category. "
+"Learn More",woo-product-filter,"Learn More"
+"For long vertical lists, ""Show more"" will be displayed. ",woo-product-filter,"For long vertical lists, ""Show more"" will be displayed. "
+"Learn More",woo-product-filter,"Learn More"
+"Selected parameters will be displayed in the top/bottom of the filter .",woo-product-filter,"Selected parameters will be displayed in the top/bottom of the filter ."
+"When you click on the block open icon, all other open blocks will be automatically closed",woo-product-filter,"When you click on the block open icon, all other open blocks will be automatically closed"
+"Learn More",woo-product-filter,"Learn More"
+"Be careful when deactivate it with filter titles shown as close, In such case users do not see filter content. ",woo-product-filter,"Be careful when deactivate it with filter titles shown as close, In such case users do not see filter content. "
+"Learn More",woo-product-filter,"Learn More"
+"Filtering of categories list on filter process. ",woo-product-filter,"Filtering of categories list on filter process. "
+"Learn More",woo-product-filter,"Learn More"
+"Filter products by different filter categories by logic and/or. ",woo-product-filter,"Filter products by different filter categories by logic and/or. "
+"Learn More",woo-product-filter,"Learn More"
+"Enable filter icon while filtering results are loading. ",woo-product-filter,"Enable filter icon while filtering results are loading. "
+"Learn More",woo-product-filter,"Learn More"
+Main,woo-product-filter,Main
+Buttons,woo-product-filter,Buttons
+Content,woo-product-filter,Content
+Loader,woo-product-filter,Loader
+"Main settings",woo-product-filter,"Main settings"
+"Display on pages",woo-product-filter,"Display on pages"
+"PRO option",woo-product-filter,"PRO option"
+"PRO option",woo-product-filter,"PRO option"
+"Include child categories",woo-product-filter,"Include child categories"
+"PRO option",woo-product-filter,"PRO option"
+"Redirect to url",woo-product-filter,"Redirect to url"
+"PRO option",woo-product-filter,"PRO option"
+"Display filter on",woo-product-filter,"Display filter on"
+"Force show only current filter on page",woo-product-filter,"Force show only current filter on page"
+"Set mobile/desktop breakpoint",woo-product-filter,"Set mobile/desktop breakpoint"
+"Hide filter on shop pages without products",woo-product-filter,"Hide filter on shop pages without products"
+"Set number of displayed products",woo-product-filter,"Set number of displayed products"
+"Set number of products per row",woo-product-filter,"Set number of products per row"
+"Enable Ajax",woo-product-filter,"Enable Ajax"
+"Remove actions before filtering",woo-product-filter,"Remove actions before filtering"
+"Product list / loader selector",woo-product-filter,"Product list / loader selector"
+"Product container selector",woo-product-filter,"Product container selector"
+"Force theme templates",woo-product-filter,"Force theme templates"
+"Filter buttons",woo-product-filter,"Filter buttons"
+"Filter activation type",woo-product-filter,"Filter activation type"
+"Show Clear all button",woo-product-filter,"Show Clear all button"
+"Reset all filters on page",woo-product-filter,"Reset all filters on page"
+"Select Filter Buttons Position",woo-product-filter,"Select Filter Buttons Position"
+"Select Filter Buttons Order",woo-product-filter,"Select Filter Buttons Order"
+"Display Hide Filters button",woo-product-filter,"Display Hide Filters button"
+"PRO option",woo-product-filter,"PRO option"
+"Filter content",woo-product-filter,"Filter content"
+"Always filtering by all products",woo-product-filter,"Always filtering by all products"
+"Show Clear block",woo-product-filter,"Show Clear block"
+"Recount products by selected filter",woo-product-filter,"Recount products by selected filter"
+"Recount min/max price by selected filter",woo-product-filter,"Recount min/max price by selected filter"
+"Show parameters without products as disabled",woo-product-filter,"Show parameters without products as disabled"
+"Sort by title after filtering",woo-product-filter,"Sort by title after filtering"
+"Checked items to the top",woo-product-filter,"Checked items to the top"
+"Set no products found text",woo-product-filter,"Set no products found text"
+"Display ""Show more""",woo-product-filter,"Display ""Show more"""
+"PRO option",woo-product-filter,"PRO option"
+"Display selected parameters of filters",woo-product-filter,"Display selected parameters of filters"
+"PRO option",woo-product-filter,"PRO option"
+"If one filter block is open, other blocks are closed",woo-product-filter,"If one filter block is open, other blocks are closed"
+"PRO option",woo-product-filter,"PRO option"
+"Hide filter by title click",woo-product-filter,"Hide filter by title click"
+"Use filter titles as slugs for the filter clear buttons",woo-product-filter,"Use filter titles as slugs for the filter clear buttons"
+"Filtering of categories list",woo-product-filter,"Filtering of categories list"
+"Multiple categories logic",woo-product-filter,"Multiple categories logic"
+"Filter loader",woo-product-filter,"Filter loader"
+"Enable filter icon on load",woo-product-filter,"Enable filter icon on load"
+"Filter Loader Icon",woo-product-filter,"Filter Loader Icon"
+PRO,woo-product-filter,PRO
+"Choose Icon",woo-product-filter,"Choose Icon"
+"Enable overlay",woo-product-filter,"Enable overlay"
+"loader icon",woo-product-filter,"loader icon"
+"loader word",woo-product-filter,"loader word"
+"Price range filter is empty. Please setup filter correctly.",woo-product-filter,"Price range filter is empty. Please setup filter correctly."
+"Select all",woo-product-filter,"Select all"
+"Select all",woo-product-filter,"Select all"
+"and up",woo-product-filter,"and up"
+"5 only",woo-product-filter,"5 only"
+"Select all",woo-product-filter,"Select all"
+"Select all",woo-product-filter,"Select all"
+Woofilters,woo-product-filter,Woofilters
+"Select Woofilter",woo-product-filter,"Select Woofilter"
+"Select Filter",woo-product-filter,"Select Filter"
+"Filter Name",woo-product-filter,"Filter Name"
+"Enter product filter name",woo-product-filter,"Enter product filter name"
+"Create Filter",woo-product-filter,"Create Filter"
+Create,woo-product-filter,Create
+Save,woo-product-filter,Save
+Save,woo-product-filter,Save
+Design,woo-product-filter,Design
+Save,woo-product-filter,Save
+"Displays Filters",woo-product-filter,"Displays Filters"
+"Select filter",woo-product-filter,"Select filter"
+"You have no filters",woo-product-filter,"You have no filters"

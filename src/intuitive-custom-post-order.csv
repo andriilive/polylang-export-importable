@@ -1,0 +1,68 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Intuitive Custom Post Order Network Settings",intuitive-custom-post-order,"Intuitive Custom Post Order Network Settings"
+"Settings saved.' ); ?></p>
+	<?php endif; ?>
+</div>
+<?php endif; ?>
+
+<form method=""post"">
+
+<?php if ( function_exists( 'wp_nonce_field' ) ) wp_nonce_field( 'nonce_hicpo' ); ?>
+
+<table class=""form-table"">
+	<tbody>
+		<tr valign=""top"">
+			<th scope=""row"">
+				<?php _e( 'Sortable Objects",intuitive-custom-post-order,"Settings saved.' ); ?></p>
+	<?php endif; ?>
+</div>
+<?php endif; ?>
+
+<form method=""post"">
+
+<?php if ( function_exists( 'wp_nonce_field' ) ) wp_nonce_field( 'nonce_hicpo' ); ?>
+
+<table class=""form-table"">
+	<tbody>
+		<tr valign=""top"">
+			<th scope=""row"">
+				<?php _e( 'Sortable Objects"
+Sites,intuitive-custom-post-order,Sites
+Update,intuitive-custom-post-order,Update
+"Intuitive Custom Post Order Settings",intuitive-custom-post-order,"Intuitive Custom Post Order Settings"
+"Settings saved.' ); ?></p>
+	<?php endif; ?>
+</div>
+<?php endif; ?>
+
+<form method=""post"">
+
+<?php if ( function_exists( 'wp_nonce_field' ) ) wp_nonce_field( 'nonce_hicpo' ); ?>
+
+<div id=""hicpo_select_objects"">
+
+<table class=""form-table"">
+	<tbody>
+		<tr valign=""top"">
+			<th scope=""row""><?php _e( 'Sortable Post Types",intuitive-custom-post-order,"Settings saved.' ); ?></p>
+	<?php endif; ?>
+</div>
+<?php endif; ?>
+
+<form method=""post"">
+
+<?php if ( function_exists( 'wp_nonce_field' ) ) wp_nonce_field( 'nonce_hicpo' ); ?>
+
+<div id=""hicpo_select_objects"">
+
+<table class=""form-table"">
+	<tbody>
+		<tr valign=""top"">
+			<th scope=""row""><?php _e( 'Sortable Post Types"
+"All Check",intuitive-custom-post-order,"All Check"
+"Sortable Taxonomies",intuitive-custom-post-order,"Sortable Taxonomies"
+"All Check",intuitive-custom-post-order,"All Check"
+"Intuitive CPO",intuitive-custom-post-order,"Intuitive CPO"
+"Intuitive CPO",intuitive-custom-post-order,"Intuitive CPO"
+"Intuitive CPO",intuitive-custom-post-order,"Intuitive CPO"
+"Intuitive CPO",intuitive-custom-post-order,"Intuitive CPO"

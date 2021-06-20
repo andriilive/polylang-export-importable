@@ -1,0 +1,372 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"Theme', self::$prefix) . ': ' . wp_get_theme()->Name . '&paged=1'); ?>';
+                                window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_plugins'] = '<?php echo admin_url('options-general.php?page=mlang&tab=strings&s&group=' . __('Plugins', self::$prefix) . '&paged=1'); ?>';
+                                <?php
+                            }
+                            else{ // for Polylang >= 2.1
+                                ?>
+                                window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_strings'] = '<?php echo admin_url('admin.php?page=mlang_strings'); ?>';
+                                window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_strings_theme_current'] = '<?php echo admin_url('admin.php?page=mlang_strings&s&group=' . __('Theme', self::$prefix) . ': ' . wp_get_theme()->Name . '&paged=1'); ?>';
+                                window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_plugins'] = '<?php echo admin_url('admin.php?page=mlang_strings&s&group=' . __('Plugins', self::$prefix) . '&paged=1'); ?>';
+                                <?php
+                            }
+
+                        ?>
+                        window.<?php echo self::$prefix; ?>admin.lng[10] = '<?php _e('Polylang Theme Strings', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[11] = '<?php _e('works', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[12] = '<?php echo self::$plugin_version; ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[20] = '<?php _e('Current theme polylang-strings detected', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[21] = '<?php echo $this->var['theme-strings-count'][$this->Path_Get('theme_dir_name')]; ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[30] = '<?php _e('All themes polylang-strings detected', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[31] = '<?php echo array_sum($this->var['theme-strings-count']); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[35] = '<?php _e('All plugins polylang-strings detected', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[36] = '<?php echo $this->var['plugins-strings-count']; ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[40] = '<?php _e('Plugin web-page', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[50] = '<?php _e('Donation', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[60] = '<?php _e('Please, give plugin feedback', self::$prefix); ?>';
+
+                        jQuery(document).ready(function(){
+                            window.<?php echo self::$prefix; ?>admin.init.polylang_info_area();
+                        });
+                    }
+                </script>
+                <?php
+            }
+
+            if ($this->Is_WP_Plugins_Page()){
+                ?>
+                <script type=""text/javascript"">
+                    if (typeof(window.<?php echo self::$prefix; ?>admin) == 'object'){
+                        window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_strings'] = '<?php
+
+                            if (
+                                defined('POLYLANG_VERSION')
+                                && (float)POLYLANG_VERSION < 2.1
+                            ){
+                                echo admin_url('options-general.php?page=mlang&tab=strings');
+                            }
+                            else{ // for Polylang >= 2.1
+                                echo admin_url('admin.php?page=mlang_strings');
+                            }
+
+                        ?>';
+
+                        window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_theme_strings_settings'] = '<?php echo admin_url('admin.php?page=' . self::$prefix . 'settings'); ?>';
+
+                        window.<?php echo self::$prefix; ?>admin.lng[70] = '<?php _e('Go to strings translate page', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[71] = '<?php _e('Go to settings page', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[80] = '<?php _e('Required to install and activate the plugin', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[81] = '<?php _e('Polylang', self::$prefix); ?>';
+
+                        jQuery(document).ready(function(){
+                            window.<?php echo self::$prefix; ?>admin.init.plugins_page();
+                        });
+                    }
+                </script>
+                <?php
+            }
+        }
+
+        public function Admin_Menus_Init(){
+            if (is_admin()){
+                add_submenu_page(
+                    'mlang',
+                    __('Settings', self::$prefix) . ' :: ' . __('Polylang Theme Strings', self::$prefix),
+                    __('Polylang Theme Strings', self::$prefix),
+                    'manage_options',
+                    self::$prefix . 'settings',
+                    array($this, 'Admin_Page_Settings')
+                );
+            }
+        }
+
+        public function Admin_Page_Settings(){
+            $tpl = $this->Path_Get('plugin_templates_path') . 'admin-page-settings.php';
+            if (file_exists($tpl)) include_once($tpl);
+        }
+
+        public function Str_Filter($t_text, $ut_text, $domain){
+            if ($domain != self::$pll_d){
+                return __($ut_text, self::$pll_d);
+            }
+            else{
+                return $t_text;
+            }
+        }
+
+        public function Setting_Get($key, $as = null){
+            if (!isset($this->settings[$key])){
+                $this->settings[$key] = get_option(self::$prefix . 'settings_' . $key);
+
+                switch (strtolower($as)){
+                    case 'bool':
+                        $this->settings[$key] = ((int)$this->settings[$key] > 0 ? true : false);
+                    break;
+                }
+            }
+
+            return $this->settings[$key];
+        }
+
+        public function Path_Get($key){
+            if (isset($this->paths[$key])){
+                return $this->paths[$key];
+            }
+        }
+
+        public function Files_Recursive_Get($dir){
+            $files = array();
+
+            if ($h = opendir($dir)){
+                while (($item = readdir($h)) !== false){
+                    $f = $dir . '/' . $item;
+
+                    if (
+                        is_file($f)
+                        && filesize($f) <= self::$php_file_size_limit
+                    ){
+                        $files[] = $f;
+                    }
+                    else if (
+                        is_dir($f)
+                        && !preg_match(""/^[\.]{1,2}$/uis"", $item)
+                    ){
+                        $files = array_merge($files, $this->Files_Recursive_Get($f));
+                    }
+                }
+
+                closedir($h);
+            }
+
+            return $files;
+        }
+
+        public function Files_PLL_Strings_Parse($dir){
+            $strings = array();
+            $files = $this->Files_Recursive_Get($dir);
+
+            if (is_array($files) && count($files)){
+                foreach($files as $v){
+                    if (preg_match(""/\/.*?\.(php[0-9]?|inc)$/uis"", $v)){
+                        preg_match_all(""/(?:\<\?.*?\?\>)|(?:\<\?.*?[^\?]+[^\>]+)/uis"", file_get_contents($v), $p);
+
+                        if (count($p[0])){
+                            foreach ($p[0] as $pv){
+                                if ($this->Setting_Get('search_native_wp_functions",mw-polylang-theme-strings,"Theme', self::$prefix) . ': ' . wp_get_theme()->Name . '&paged=1'); ?>';
+                                window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_plugins'] = '<?php echo admin_url('options-general.php?page=mlang&tab=strings&s&group=' . __('Plugins', self::$prefix) . '&paged=1'); ?>';
+                                <?php
+                            }
+                            else{ // for Polylang >= 2.1
+                                ?>
+                                window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_strings'] = '<?php echo admin_url('admin.php?page=mlang_strings'); ?>';
+                                window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_strings_theme_current'] = '<?php echo admin_url('admin.php?page=mlang_strings&s&group=' . __('Theme', self::$prefix) . ': ' . wp_get_theme()->Name . '&paged=1'); ?>';
+                                window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_plugins'] = '<?php echo admin_url('admin.php?page=mlang_strings&s&group=' . __('Plugins', self::$prefix) . '&paged=1'); ?>';
+                                <?php
+                            }
+
+                        ?>
+                        window.<?php echo self::$prefix; ?>admin.lng[10] = '<?php _e('Polylang Theme Strings', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[11] = '<?php _e('works', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[12] = '<?php echo self::$plugin_version; ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[20] = '<?php _e('Current theme polylang-strings detected', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[21] = '<?php echo $this->var['theme-strings-count'][$this->Path_Get('theme_dir_name')]; ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[30] = '<?php _e('All themes polylang-strings detected', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[31] = '<?php echo array_sum($this->var['theme-strings-count']); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[35] = '<?php _e('All plugins polylang-strings detected', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[36] = '<?php echo $this->var['plugins-strings-count']; ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[40] = '<?php _e('Plugin web-page', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[50] = '<?php _e('Donation', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[60] = '<?php _e('Please, give plugin feedback', self::$prefix); ?>';
+
+                        jQuery(document).ready(function(){
+                            window.<?php echo self::$prefix; ?>admin.init.polylang_info_area();
+                        });
+                    }
+                </script>
+                <?php
+            }
+
+            if ($this->Is_WP_Plugins_Page()){
+                ?>
+                <script type=""text/javascript"">
+                    if (typeof(window.<?php echo self::$prefix; ?>admin) == 'object'){
+                        window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_strings'] = '<?php
+
+                            if (
+                                defined('POLYLANG_VERSION')
+                                && (float)POLYLANG_VERSION < 2.1
+                            ){
+                                echo admin_url('options-general.php?page=mlang&tab=strings');
+                            }
+                            else{ // for Polylang >= 2.1
+                                echo admin_url('admin.php?page=mlang_strings');
+                            }
+
+                        ?>';
+
+                        window.<?php echo self::$prefix; ?>admin.attr.urls['polylang_theme_strings_settings'] = '<?php echo admin_url('admin.php?page=' . self::$prefix . 'settings'); ?>';
+
+                        window.<?php echo self::$prefix; ?>admin.lng[70] = '<?php _e('Go to strings translate page', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[71] = '<?php _e('Go to settings page', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[80] = '<?php _e('Required to install and activate the plugin', self::$prefix); ?>';
+                        window.<?php echo self::$prefix; ?>admin.lng[81] = '<?php _e('Polylang', self::$prefix); ?>';
+
+                        jQuery(document).ready(function(){
+                            window.<?php echo self::$prefix; ?>admin.init.plugins_page();
+                        });
+                    }
+                </script>
+                <?php
+            }
+        }
+
+        public function Admin_Menus_Init(){
+            if (is_admin()){
+                add_submenu_page(
+                    'mlang',
+                    __('Settings', self::$prefix) . ' :: ' . __('Polylang Theme Strings', self::$prefix),
+                    __('Polylang Theme Strings', self::$prefix),
+                    'manage_options',
+                    self::$prefix . 'settings',
+                    array($this, 'Admin_Page_Settings')
+                );
+            }
+        }
+
+        public function Admin_Page_Settings(){
+            $tpl = $this->Path_Get('plugin_templates_path') . 'admin-page-settings.php';
+            if (file_exists($tpl)) include_once($tpl);
+        }
+
+        public function Str_Filter($t_text, $ut_text, $domain){
+            if ($domain != self::$pll_d){
+                return __($ut_text, self::$pll_d);
+            }
+            else{
+                return $t_text;
+            }
+        }
+
+        public function Setting_Get($key, $as = null){
+            if (!isset($this->settings[$key])){
+                $this->settings[$key] = get_option(self::$prefix . 'settings_' . $key);
+
+                switch (strtolower($as)){
+                    case 'bool':
+                        $this->settings[$key] = ((int)$this->settings[$key] > 0 ? true : false);
+                    break;
+                }
+            }
+
+            return $this->settings[$key];
+        }
+
+        public function Path_Get($key){
+            if (isset($this->paths[$key])){
+                return $this->paths[$key];
+            }
+        }
+
+        public function Files_Recursive_Get($dir){
+            $files = array();
+
+            if ($h = opendir($dir)){
+                while (($item = readdir($h)) !== false){
+                    $f = $dir . '/' . $item;
+
+                    if (
+                        is_file($f)
+                        && filesize($f) <= self::$php_file_size_limit
+                    ){
+                        $files[] = $f;
+                    }
+                    else if (
+                        is_dir($f)
+                        && !preg_match(""/^[\.]{1,2}$/uis"", $item)
+                    ){
+                        $files = array_merge($files, $this->Files_Recursive_Get($f));
+                    }
+                }
+
+                closedir($h);
+            }
+
+            return $files;
+        }
+
+        public function Files_PLL_Strings_Parse($dir){
+            $strings = array();
+            $files = $this->Files_Recursive_Get($dir);
+
+            if (is_array($files) && count($files)){
+                foreach($files as $v){
+                    if (preg_match(""/\/.*?\.(php[0-9]?|inc)$/uis"", $v)){
+                        preg_match_all(""/(?:\<\?.*?\?\>)|(?:\<\?.*?[^\?]+[^\>]+)/uis"", file_get_contents($v), $p);
+
+                        if (count($p[0])){
+                            foreach ($p[0] as $pv){
+                                if ($this->Setting_Get('search_native_wp_functions"
+"Base plugin %1$s is not defined', self::$prefix), '&quot;Polylang&quot;'); ?></b>.<br />
+                    <?php printf(__('You need install and activate base plugin %1$s for works plugin %2$s', self::$prefix), '<a href=""https://wordpress.org/plugins/polylang"" target=""_blank"">Polylang</a>",mw-polylang-theme-strings,"Base plugin %1$s is not defined', self::$prefix), '&quot;Polylang&quot;'); ?></b>.<br />
+                    <?php printf(__('You need install and activate base plugin %1$s for works plugin %2$s', self::$prefix), '<a href=""https://wordpress.org/plugins/polylang"" target=""_blank"">Polylang</a>"
+"Theme', self::$prefix) . ': ' . $data['name']);
+                }
+            }
+        }
+
+        public function Themes_PLL_Strings_Init(){
+            $themes = wp_get_themes();
+
+            if (count($themes)){
+                foreach ($themes as $theme_dir_name => $theme){
+                    $data = get_option(self::$prefix . 'theme_' . $theme_dir_name . '_data');
+                    $tsc = &$this->var['theme-strings-count'][$theme_dir_name];
+                    $tsc = 0;
+
+                    if (
+                        is_array($data)
+                        && is_array($data['strings'])
+                        && count($data['strings'])
+                    ){
+                        foreach ($data['strings'] as $v){
+                            pll_register_string($v, $v, __('Theme', self::$prefix) . ': ' . $data['name']);
+                        }
+
+                        $tsc = count($data['strings']);
+                    }
+                }
+            }
+        }
+
+        public function Plugins_PLL_Strings_Init(){
+            if ($this->Setting_Get('search_plugins_strings",mw-polylang-theme-strings,"Theme', self::$prefix) . ': ' . $data['name']);
+                }
+            }
+        }
+
+        public function Themes_PLL_Strings_Init(){
+            $themes = wp_get_themes();
+
+            if (count($themes)){
+                foreach ($themes as $theme_dir_name => $theme){
+                    $data = get_option(self::$prefix . 'theme_' . $theme_dir_name . '_data');
+                    $tsc = &$this->var['theme-strings-count'][$theme_dir_name];
+                    $tsc = 0;
+
+                    if (
+                        is_array($data)
+                        && is_array($data['strings'])
+                        && count($data['strings'])
+                    ){
+                        foreach ($data['strings'] as $v){
+                            pll_register_string($v, $v, __('Theme', self::$prefix) . ': ' . $data['name']);
+                        }
+
+                        $tsc = count($data['strings']);
+                    }
+                }
+            }
+        }
+
+        public function Plugins_PLL_Strings_Init(){
+            if ($this->Setting_Get('search_plugins_strings"

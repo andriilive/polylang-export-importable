@@ -1,0 +1,72 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+Documentation,lazy-blocks,Documentation
+Documentation,lazy-blocks,Documentation
+"PRO Survey",lazy-blocks,"PRO Survey"
+"PRO Survey",lazy-blocks,"PRO Survey"
+"Lazy Blocks",lazy-blocks,"Lazy Blocks"
+"Lazy Blocks",lazy-blocks,"Lazy Blocks"
+Blocks,lazy-blocks,Blocks
+Blocks,lazy-blocks,Blocks
+Block,lazy-blocks,Block
+"Duplicate “%1$s”",lazy-blocks,"Duplicate “%1$s”"
+Duplicate,lazy-blocks,Duplicate
+"Export “%1$s”",lazy-blocks,"Export “%1$s”"
+Export,lazy-blocks,Export
+Export,lazy-blocks,Export
+Icon,lazy-blocks,Icon
+Category,lazy-blocks,Category
+Description,lazy-blocks,Description
+"Lazy Blocks",lazy-blocks,"Lazy Blocks"
+Basic,lazy-blocks,Basic
+Content,lazy-blocks,Content
+Choice,lazy-blocks,Choice
+Advanced,lazy-blocks,Advanced
+Layout,lazy-blocks,Layout
+"Example block that helps you to get started with Lazy Blocks plugin",lazy-blocks,"Example block that helps you to get started with Lazy Blocks plugin"
+"Sorry, you are not allowed to read Gutenberg blocks of this post.",lazy-blocks,"Sorry, you are not allowed to read Gutenberg blocks of this post."
+"Sorry, you are not allowed to read Gutenberg blocks as this user.",lazy-blocks,"Sorry, you are not allowed to read Gutenberg blocks as this user."
+"Sorry, you are not allowed to read Gutenberg blocks data.",lazy-blocks,"Sorry, you are not allowed to read Gutenberg blocks data."
+"Sorry, you are not allowed to read Gutenberg blocks data as this user.",lazy-blocks,"Sorry, you are not allowed to read Gutenberg blocks data as this user."
+"Sorry, you are not allowed to read Gutenberg blocks data as this user.",lazy-blocks,"Sorry, you are not allowed to read Gutenberg blocks data as this user."
+"Invalid block.",lazy-blocks,"Invalid block."
+"Render callback is not specified.",lazy-blocks,"Render callback is not specified."
+Templates,lazy-blocks,Templates
+Template,lazy-blocks,Template
+Templates,lazy-blocks,Templates
+Templates,lazy-blocks,Templates
+Templates,lazy-blocks,Templates
+"Export / Import",lazy-blocks,"Export / Import"
+"Export / Import",lazy-blocks,"Export / Import"
+"Export / Import",lazy-blocks,"Export / Import"
+"No file selected",lazy-blocks,"No file selected"
+"Error uploading file. Please try again",lazy-blocks,"Error uploading file. Please try again"
+"Incorrect file type",lazy-blocks,"Incorrect file type"
+"Import file empty",lazy-blocks,"Import file empty"
+"Template for post type \'%s\' already exists.",lazy-blocks,"Template for post type \'%s\' already exists."
+"Added new block \'%s\'.",lazy-blocks,"Added new block \'%s\'."
+"Imported %s block",lazy-blocks,"Imported %s block"
+"Imported %s template",lazy-blocks,"Imported %s template"
+"Imported %s blocks",lazy-blocks,"Imported %s blocks"
+"Imported %s templates",lazy-blocks,"Imported %s templates"
+Checkbox,lazy-blocks,Checkbox
+"Classic Editor (WYSIWYG)",lazy-blocks,"Classic Editor (WYSIWYG)"
+"Code Editor",lazy-blocks,"Code Editor"
+"Color Picker",lazy-blocks,"Color Picker"
+"Date Time Picker",lazy-blocks,"Date Time Picker"
+Email,lazy-blocks,Email
+File,lazy-blocks,File
+Gallery,lazy-blocks,Galerie
+Image,lazy-blocks,Image
+"Inner Blocks",lazy-blocks,"Inner Blocks"
+Number,lazy-blocks,Number
+Password,lazy-blocks,Password
+Radio,lazy-blocks,Radio
+Range,lazy-blocks,Range
+Repeater,lazy-blocks,Repeater
+"Rich Text (WYSIWYG)",lazy-blocks,"Rich Text (WYSIWYG)"
+Select,lazy-blocks,Select
+Text,lazy-blocks,Text
+"Text Area",lazy-blocks,"Text Area"
+Toggle,lazy-blocks,Toggle
+URL,lazy-blocks,URL
+"Template file <code>%1$s</code> not found.",lazy-blocks,"Template file <code>%1$s</code> not found."

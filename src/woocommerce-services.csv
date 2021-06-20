@@ -1,0 +1,660 @@
+String,"Source (plugin or theme)","Čeština (cs_CZ)"
+"There was a problem updating your saved credit cards.",woocommerce-services,"There was a problem updating your saved credit cards."
+"Unable to send request to WooCommerce Shipping & Tax server. Jetpack_Data was not found.",woocommerce-services,"Unable to send request to WooCommerce Shipping & Tax server. Jetpack_Data was not found."
+"Unable to send request to WooCommerce Shipping & Tax server. Jetpack_Data does not implement get_access_token.",woocommerce-services,"Unable to send request to WooCommerce Shipping & Tax server. Jetpack_Data does not implement get_access_token."
+"Unable to send request to WooCommerce Shipping & Tax server. Body must be an array.",woocommerce-services,"Unable to send request to WooCommerce Shipping & Tax server. Body must be an array."
+"Unable to encode body for request to WooCommerce Shipping & Tax server.",woocommerce-services,"Unable to encode body for request to WooCommerce Shipping & Tax server."
+"Error: The WooCommerce Shipping & Tax server returned HTTP code: %d",woocommerce-services,"Error: The WooCommerce Shipping & Tax server returned HTTP code: %d"
+"Error: The WooCommerce Shipping & Tax server returned ( %d ) and an empty response body.",woocommerce-services,"Error: The WooCommerce Shipping & Tax server returned ( %d ) and an empty response body."
+"Error: The WooCommerce Shipping & Tax server returned: %1$s %2$s ( %3$d )",woocommerce-services,"Error: The WooCommerce Shipping & Tax server returned: %1$s %2$s ( %3$d )"
+"Invalid WooCommerce Shipping & Tax service slug provided",woocommerce-services,"Invalid WooCommerce Shipping & Tax service slug provided"
+"Product ( ID: %d ) did not include a weight. Shipping rates cannot be calculated.",woocommerce-services,"Product ( ID: %d ) did not include a weight. Shipping rates cannot be calculated."
+"Product ( ID: %d ) is missing a dimension value. Shipping rates cannot be calculated.",woocommerce-services,"Product ( ID: %d ) is missing a dimension value. Shipping rates cannot be calculated."
+"No shipping rate could be calculated. No items in the package are shippable.",woocommerce-services,"No shipping rate could be calculated. No items in the package are shippable."
+"Unable to send request to WooCommerce Shipping & Tax server. Jetpack Token is missing",woocommerce-services,"Unable to send request to WooCommerce Shipping & Tax server. Jetpack Token is missing"
+"Unable to send request to WooCommerce Shipping & Tax server. Jetpack Token is malformed.",woocommerce-services,"Unable to send request to WooCommerce Shipping & Tax server. Jetpack Token is malformed."
+"Unable to send request to WooCommerce Shipping & Tax server. The timestamp generated for the signature is too old.",woocommerce-services,"Unable to send request to WooCommerce Shipping & Tax server. The timestamp generated for the signature is too old."
+"#%1$d - %2$s",woocommerce-services,"#%1$d - %2$s"
+"#%d - [Deleted product]",woocommerce-services,"#%d - [Deleted product]"
+"#%1$d - %2$s",woocommerce-services,"#%1$d - %2$s"
+"#%d - [Deleted product]",woocommerce-services,"#%d - [Deleted product]"
+"Test your WooCommerce Shipping & Tax connection",woocommerce-services,"Test your WooCommerce Shipping & Tax connection"
+"Test Connection",woocommerce-services,"Test Connection"
+"This will test your WooCommerce Shipping & Tax connection to ensure everything is working correctly",woocommerce-services,"This will test your WooCommerce Shipping & Tax connection to ensure everything is working correctly"
+"Your site is succesfully communicating to the WooCommerce Shipping & Tax API.",woocommerce-services,"Your site is succesfully communicating to the WooCommerce Shipping & Tax API."
+"ERROR: Your site has a problem connecting to the WooCommerce Shipping & Tax API. Please make sure your Jetpack connection is working.",woocommerce-services,"ERROR: Your site has a problem connecting to the WooCommerce Shipping & Tax API. Please make sure your Jetpack connection is working."
+"<strong>""%2$s"" is missing weight, length, width, or height.</strong><br />Shipping rates cannot be calculated. <a href=""%1$s"">Enter dimensions and weight for %2$s</a> so your customers can purchase this item.",woocommerce-services,"<strong>""%2$s"" is missing weight, length, width, or height.</strong><br />Shipping rates cannot be calculated. <a href=""%1$s"">Enter dimensions and weight for %2$s</a> so your customers can purchase this item."
+"WooCommerce Helper auth is missing",woocommerce-services,"WooCommerce Helper auth is missing"
+"WooCommerce %s or higher is required (You are running %s)",woocommerce-services,"WooCommerce %s or higher is required (You are running %s)"
+"Please set Base Location in WooCommerce Settings > General",woocommerce-services,"Please set Base Location in WooCommerce Settings > General"
+"WooCommerce %s is configured correctly",woocommerce-services,"WooCommerce %s is configured correctly"
+"Please install and activate the Jetpack plugin, version %s or higher",woocommerce-services,"Please install and activate the Jetpack plugin, version %s or higher"
+"Jetpack %s or higher is required (You are running %s)",woocommerce-services,"Jetpack %s or higher is required (You are running %s)"
+"Jetpack is not connected to WordPress.com. Make sure the Jetpack plugin is installed, activated, and connected.",woocommerce-services,"Jetpack is not connected to WordPress.com. Make sure the Jetpack plugin is installed, activated, and connected."
+"This is a Jetpack staging site",woocommerce-services,"This is a Jetpack staging site"
+"Jetpack %s is connected and working correctly",woocommerce-services,"Jetpack %s is connected and working correctly"
+"An error occurred while refreshing service data.",woocommerce-services,"An error occurred while refreshing service data."
+"No service data available",woocommerce-services,"No service data available"
+"Service data was found, but may be out of date",woocommerce-services,"Service data was found, but may be out of date"
+"Service data was found, but is more than three days old",woocommerce-services,"Service data was found, but is more than three days old"
+"Service data was found, but is more than one day old",woocommerce-services,"Service data was found, but is more than one day old"
+"Service data is up-to-date",woocommerce-services,"Service data is up-to-date"
+"Setup for this service has not yet been completed",woocommerce-services,"Setup for this service has not yet been completed"
+"No rate requests have yet been made for this service",woocommerce-services,"No rate requests have yet been made for this service"
+"The most recent rate request was successful",woocommerce-services,"The most recent rate request was successful"
+"The most recent rate request failed",woocommerce-services,"The most recent rate request failed"
+"%s Shipping Zone",woocommerce-services,"%s Shipping Zone"
+"Log is empty",woocommerce-services,"Log is empty"
+"WooCommerce Shipping & Tax Status",woocommerce-services,"WooCommerce Shipping & Tax Status"
+"Export CSV",woocommerce-services,"Export CSV"
+Year,woocommerce-services,Rok
+"Last month",woocommerce-services,"Last month"
+"This month",woocommerce-services,"This month"
+"Last 7 days",woocommerce-services,"Last 7 days"
+Requested,woocommerce-services,Requested
+Total,woocommerce-services,Total
+Time,woocommerce-services,Time
+Order,woocommerce-services,Order
+Price,woocommerce-services,Cena
+Service,woocommerce-services,Service
+Refund,woocommerce-services,Refund
+"No labels found for this period",woocommerce-services,"No labels found for this period"
+"Discounted Shipping Labels",woocommerce-services,"Discounted Shipping Labels"
+"When you're ready, purchase and print discounted labels from %s right here.",woocommerce-services,"When you're ready, purchase and print discounted labels from %s right here."
+"Discounted DHL Shipping Labels",woocommerce-services,"Discounted DHL Shipping Labels"
+"WooCommerce Shipping now supports DHL labels for international shipments. Purchase and print discounted labels from DHL and USPS right here.",woocommerce-services,"WooCommerce Shipping now supports DHL labels for international shipments. Purchase and print discounted labels from DHL and USPS right here."
+"automated tax calculation, shipping label printing, and smoother payment setup",woocommerce-services,"automated tax calculation, shipping label printing, and smoother payment setup"
+"automated tax calculation and smoother payment setup",woocommerce-services,"automated tax calculation and smoother payment setup"
+"automated tax calculation and shipping label printing",woocommerce-services,"automated tax calculation and shipping label printing"
+"shipping label printing and smoother payment setup",woocommerce-services,"shipping label printing and smoother payment setup"
+"smoother payment setup",woocommerce-services,"smoother payment setup"
+"automated tax calculation",woocommerce-services,"automated tax calculation"
+"shipping label printing",woocommerce-services,"shipping label printing"
+Activating...,woocommerce-services,Activating...
+Connecting...,woocommerce-services,Connecting...
+"There was an error installing Jetpack. Please try installing it manually.",woocommerce-services,"There was an error installing Jetpack. Please try installing it manually."
+"Something went wrong. Please try connecting to Jetpack manually, or contact support on the WordPress.org forums.",woocommerce-services,"Something went wrong. Please try connecting to Jetpack manually, or contact support on the WordPress.org forums."
+Connect,woocommerce-services,Connect
+"Connect Jetpack to activate WooCommerce Shipping & Tax",woocommerce-services,"Connect Jetpack to activate WooCommerce Shipping & Tax"
+"Install Jetpack and connect",woocommerce-services,"Install Jetpack and connect"
+"Activate Jetpack and connect",woocommerce-services,"Activate Jetpack and connect"
+"WooCommerce Shipping & Tax is almost ready to go! Once you connect Jetpack you'll have access to %s.",woocommerce-services,"WooCommerce Shipping & Tax is almost ready to go! Once you connect Jetpack you'll have access to %s."
+"You can now enjoy %s.",woocommerce-services,"You can now enjoy %s."
+"Setup complete.",woocommerce-services,"Setup complete."
+"Got it, thanks!",woocommerce-services,"Got it, thanks!"
+"WooCommerce Shipping & Tax is almost ready to go! Once you connect your store you'll have access to %s.",woocommerce-services,"WooCommerce Shipping & Tax is almost ready to go! Once you connect your store you'll have access to %s."
+"Connect your store to activate WooCommerce Shipping & Tax",woocommerce-services,"Connect your store to activate WooCommerce Shipping & Tax"
+Connect,woocommerce-services,Connect
+"By clicking ""%1$s"", you agree to the <a href=""%2$s"">Terms of Service</a> and to <a href=""%3$s"">share certain data and settings</a> with WordPress.com and/or third parties.",woocommerce-services,"By clicking ""%1$s"", you agree to the <a href=""%2$s"">Terms of Service</a> and to <a href=""%3$s"">share certain data and settings</a> with WordPress.com and/or third parties."
+"Link a PayPal account",woocommerce-services,"Link a PayPal account"
+"To issue refunds via PayPal Checkout, you will need to <a href=""%s"">link a PayPal account</a> with the email address that received this payment.",woocommerce-services,"To issue refunds via PayPal Checkout, you will need to <a href=""%s"">link a PayPal account</a> with the email address that received this payment."
+"Link your PayPal account",woocommerce-services,"Link your PayPal account"
+"Link a new or existing PayPal account to make sure future orders are marked “Processing” instead of “On hold”, and so refunds can be issued without leaving WooCommerce.",woocommerce-services,"Link a new or existing PayPal account to make sure future orders are marked “Processing” instead of “On hold”, and so refunds can be issued without leaving WooCommerce."
+"Link account",woocommerce-services,"Link account"
+"%s (Note that ""authorizing payment only"" requires linking a PayPal account.)",woocommerce-services,"%s (Note that ""authorizing payment only"" requires linking a PayPal account.)"
+"Payments will be authenticated by WooCommerce Shipping & Tax and directed to the following email address. To disable this feature and link a PayPal account, <a href=""%s"">click here</a>.",woocommerce-services,"Payments will be authenticated by WooCommerce Shipping & Tax and directed to the following email address. To disable this feature and link a PayPal account, <a href=""%s"">click here</a>."
+"To authenticate payments with WooCommerce Shipping & Tax, <a href=""%s"">click here</a>.",woocommerce-services,"To authenticate payments with WooCommerce Shipping & Tax, <a href=""%s"">click here</a>."
+"Payment Email",woocommerce-services,"Payment Email"
+"Enter your email address at which to accept payments. You\'ll need to link your own account in order to perform anything other than ""sale"" transactions.",woocommerce-services,"Enter your email address at which to accept payments. You\'ll need to link your own account in order to perform anything other than ""sale"" transactions."
+Required,woocommerce-services,Required
+"WooCommerce Shipping & Tax",woocommerce-services,"WooCommerce Shipping & Tax"
+"By using this extension, you may be storing personal data or sharing data with external services. <a href=""%s"" target=""_blank"">Learn more about how this works, including what you may want to include in your privacy policy.</a>",woocommerce-services,"By using this extension, you may be storing personal data or sharing data with external services. <a href=""%s"" target=""_blank"">Learn more about how this works, including what you may want to include in your privacy policy.</a>"
+"Shipping label service",woocommerce-services,"Shipping label service"
+"Shipping label tracking number",woocommerce-services,"Shipping label tracking number"
+"Warning: Erasing personal data will cause the ability to reprint or refund WooCommerce Shipping & Tax shipping labels to be lost on the affected orders.",woocommerce-services,"Warning: Erasing personal data will cause the ability to reprint or refund WooCommerce Shipping & Tax shipping labels to be lost on the affected orders."
+"Rest of the World",woocommerce-services,"Rest of the World"
+"An invalid service instance was received.",woocommerce-services,"An invalid service instance was received."
+"An invalid service ID was received.",woocommerce-services,"An invalid service ID was received."
+kg,woocommerce-services,kg
+g,woocommerce-services,g
+lbs,woocommerce-services,lbs
+oz,woocommerce-services,oz
+m,woocommerce-services,m
+cm,woocommerce-services,cm
+mm,woocommerce-services,mm
+in,woocommerce-services,in
+yd,woocommerce-services,yd
+"WooCommerce Shipping",woocommerce-services,"WooCommerce Shipping"
+"Note: Jetpack is connected, but development mode is also enabled on this site. Please disable development mode.",woocommerce-services,"Note: Jetpack is connected, but development mode is also enabled on this site. Please disable development mode."
+"Note: Jetpack development mode is enabled on this site. This site will not be able to obtain payment methods from WooCommerce Shipping & Tax production servers.",woocommerce-services,"Note: Jetpack development mode is enabled on this site. This site will not be able to obtain payment methods from WooCommerce Shipping & Tax production servers."
+"WooCommerce Shipping & Tax",woocommerce-services,"WooCommerce Shipping & Tax"
+"Unknown package",woocommerce-services,"Unknown package"
+"Individual packaging",woocommerce-services,"Individual packaging"
+Packaging,woocommerce-services,Packaging
+"Received rate: %1$s (%2$s)",woocommerce-services,"Received rate: %1$s (%2$s)"
+"Packing log:",woocommerce-services,"Packing log:"
+"Automated taxes",woocommerce-services,"Automated taxes"
+"Powered by WooCommerce Tax. If automated taxes are enabled, you\'ll need to enter prices exclusive of tax.",woocommerce-services,"Powered by WooCommerce Tax. If automated taxes are enabled, you\'ll need to enter prices exclusive of tax."
+"Disable automated taxes",woocommerce-services,"Disable automated taxes"
+"Enable automated taxes",woocommerce-services,"Enable automated taxes"
+"Your tax rates and settings will be automatically configured for %1$s, %2$s. <a href=""https://docs.woocommerce.com/document/setting-up-taxes-in-woocommerce/#section-12"">Learn more about setting up tax rates for additional nexuses</a>",woocommerce-services,"Your tax rates and settings will be automatically configured for %1$s, %2$s. <a href=""https://docs.woocommerce.com/document/setting-up-taxes-in-woocommerce/#section-12"">Learn more about setting up tax rates for additional nexuses</a>"
+"Your tax rates and settings will be automatically configured for %1$s. <a href=""https://docs.woocommerce.com/document/setting-up-taxes-in-woocommerce/#section-12"">Learn more about setting up tax rates for additional nexuses</a>",woocommerce-services,"Your tax rates and settings will be automatically configured for %1$s. <a href=""https://docs.woocommerce.com/document/setting-up-taxes-in-woocommerce/#section-12"">Learn more about setting up tax rates for additional nexuses</a>"
+"ZIP/Postal code",woocommerce-services,"ZIP/Postal code"
+"Country Code",woocommerce-services,"Country Code"
+"State Code",woocommerce-services,"State Code"
+ZIP/Postcode,woocommerce-services,ZIP/Postcode
+City,woocommerce-services,City
+"Rate %",woocommerce-services,"Rate %"
+"Tax Name",woocommerce-services,"Tax Name"
+Priority,woocommerce-services,Priority
+Compound,woocommerce-services,Compound
+Shipping,woocommerce-services,Shipping
+"Tax Class",woocommerce-services,"Tax Class"
+"Unable to update settings. %s",woocommerce-services,"Unable to update settings. %s"
+"Unable to update settings. The form data could not be read.",woocommerce-services,"Unable to update settings. The form data could not be read."
+"Service schemas were not loaded",woocommerce-services,"Service schemas were not loaded"
+"Unable to update service settings. Form data is missing service ID.",woocommerce-services,"Unable to update service settings. Form data is missing service ID."
+"Unable to update service settings. The form data could not be read.",woocommerce-services,"Unable to update service settings. The form data could not be read."
+"Unable to update service settings. Validation failed. %s",woocommerce-services,"Unable to update service settings. Validation failed. %s"
+"Order not found",woocommerce-services,"Order not found"
+"Individual packaging",woocommerce-services,"Individual packaging"
+"Unknown package",woocommerce-services,"Unknown package"
+"Invalid PDF request.",woocommerce-services,"Invalid PDF request."
+"The subscription is already active.",woocommerce-services,"The subscription is already active."
+"Bad request",woocommerce-services,"Bad request"
+"2 character continent code.",woocommerce-services,"2 character continent code."
+"There are no locations matching these parameters.",woocommerce-services,"There are no locations matching these parameters."
+"2 character continent code.",woocommerce-services,"2 character continent code."
+"Full name of continent.",woocommerce-services,"Full name of continent."
+"List of countries on this continent.",woocommerce-services,"List of countries on this continent."
+"ISO3166 alpha-2 country code.",woocommerce-services,"ISO3166 alpha-2 country code."
+"Default ISO4127 alpha-3 currency code for the country.",woocommerce-services,"Default ISO4127 alpha-3 currency code for the country."
+"Currency symbol position for this country.",woocommerce-services,"Currency symbol position for this country."
+"Decimal separator for displayed prices for this country.",woocommerce-services,"Decimal separator for displayed prices for this country."
+"The unit lengths are defined in for this country.",woocommerce-services,"The unit lengths are defined in for this country."
+"Full name of country.",woocommerce-services,"Full name of country."
+"Number of decimal points shown in displayed prices for this country.",woocommerce-services,"Number of decimal points shown in displayed prices for this country."
+"List of states in this country.",woocommerce-services,"List of states in this country."
+"State code.",woocommerce-services,"State code."
+"Full name of state.",woocommerce-services,"Full name of state."
+"Thousands separator for displayed prices in this country.",woocommerce-services,"Thousands separator for displayed prices in this country."
+"The unit weights are defined in for this country.",woocommerce-services,"The unit weights are defined in for this country."
+"Sorry, you cannot list resources.",woocommerce-services,"Sorry, you cannot list resources."
+"Sorry, you cannot view this resource.",woocommerce-services,"Sorry, you cannot view this resource."
+"List of supported continents, countries, and states.",woocommerce-services,"List of supported continents, countries, and states."
+"List of supported states in a given country.",woocommerce-services,"List of supported states in a given country."
+"List of supported currencies.",woocommerce-services,"List of supported currencies."
+"Data resource ID.",woocommerce-services,"Data resource ID."
+"Data resource description.",woocommerce-services,"Data resource description."
+"Saving\\u2026",woocommerce-services,"Saving\\u2026"
+"Save Settings",woocommerce-services,"Save Settings"
+Dismiss,woocommerce-services,Dismiss
+Required,woocommerce-services,Required
+Optional,woocommerce-services,Optional
+"Saving\\u2026",woocommerce-services,"Saving\\u2026"
+"Save Settings",woocommerce-services,"Save Settings"
+More,woocommerce-services,Více
+Untitled,woocommerce-services,Untitled
+"You have unsaved changes.",woocommerce-services,"You have unsaved changes."
+"You have unsaved changes. Are you sure you want to leave this page?",woocommerce-services,"You have unsaved changes. Are you sure you want to leave this page?"
+"Your shipping packages have been saved.",woocommerce-services,"Your shipping packages have been saved."
+"Unable to save your shipping packages. Please try again.",woocommerce-services,"Unable to save your shipping packages. Please try again."
+Done,woocommerce-services,Done
+Cancel,woocommerce-services,Cancel
+"{{icon/}} Delete this package",woocommerce-services,"{{icon/}} Delete this package"
+"Invalid value.",woocommerce-services,"Invalid value."
+"This field is required.",woocommerce-services,"This field is required."
+"Type of package",woocommerce-services,"Type of package"
+Box,woocommerce-services,Box
+Envelope,woocommerce-services,Envelope
+"Package name",woocommerce-services,"Package name"
+"Unique package name",woocommerce-services,"Unique package name"
+"This field must be unique",woocommerce-services,"This field must be unique"
+"Dimensions (L x W x H)",woocommerce-services,"Dimensions (L x W x H)"
+"Weight of empty package",woocommerce-services,"Weight of empty package"
+0.0,woocommerce-services,0.0
+L,woocommerce-services,L
+W,woocommerce-services,W
+H,woocommerce-services,H
+"All packages selected",woocommerce-services,"All packages selected"
+"Expand Services",woocommerce-services,"Expand Services"
+"Return to Order #%(orderId)s",woocommerce-services,"Return to Order #%(orderId)s"
+"Your shipping settings have been saved.",woocommerce-services,"Your shipping settings have been saved."
+"Unable to save your shipping settings. Please try again.",woocommerce-services,"Unable to save your shipping settings. Please try again."
+"Save changes",woocommerce-services,"Save changes"
+"Unable to get your settings. Please refresh the page to try again.",woocommerce-services,"Unable to get your settings. Please refresh the page to try again."
+"Shipping Labels",woocommerce-services,"Shipping Labels"
+"Print shipping labels yourself and save a trip to the post office",woocommerce-services,"Print shipping labels yourself and save a trip to the post office"
+"Only the site owner can manage shipping label payment methods. Please contact %(ownerName)s (%(ownerLogin)s) to manage payment methods.",woocommerce-services,"Only the site owner can manage shipping label payment methods. Please contact %(ownerName)s (%(ownerLogin)s) to manage payment methods."
+Retry,woocommerce-services,Retry
+"Only the site owner can change these settings. Please contact %(ownerName)s (%(ownerLogin)s) to change the shipping label settings.",woocommerce-services,"Only the site owner can change these settings. Please contact %(ownerName)s (%(ownerLogin)s) to change the shipping label settings."
+"Credit cards are retrieved from the following WordPress.com account: %(wpcomLogin)s <%(wpcomEmail)s>",woocommerce-services,"Credit cards are retrieved from the following WordPress.com account: %(wpcomLogin)s <%(wpcomEmail)s>"
+"We'll charge the credit card on your account (%(card)s) to pay for the labels you print",woocommerce-services,"We'll charge the credit card on your account (%(card)s) to pay for the labels you print"
+"To purchase shipping labels, add a credit card.",woocommerce-services,"To purchase shipping labels, add a credit card."
+"Choose a different card",woocommerce-services,"Choose a different card"
+"To purchase shipping labels, choose a credit card you have on file or add a new card.",woocommerce-services,"To purchase shipping labels, choose a credit card you have on file or add a new card."
+"Add another credit card",woocommerce-services,"Add another credit card"
+"To purchase shipping labels, add a credit card.",woocommerce-services,"To purchase shipping labels, add a credit card."
+"Add a credit card",woocommerce-services,"Add a credit card"
+"Email Receipts",woocommerce-services,"Email Receipts"
+"Email the label purchase receipts to %(ownerName)s (%(ownerLogin)s) at %(ownerEmail)s",woocommerce-services,"Email the label purchase receipts to %(ownerName)s (%(ownerLogin)s) at %(ownerEmail)s"
+"Paper size",woocommerce-services,"Paper size"
+Payment,woocommerce-services,Payment
+"American Express",woocommerce-services,"American Express"
+Discover,woocommerce-services,Discover
+MasterCard,woocommerce-services,MasterCard
+VISA,woocommerce-services,VISA
+PayPal,woocommerce-services,PayPal
+"%(card)s ****%(digits)s",woocommerce-services,"%(card)s ****%(digits)s"
+"WeChat Pay",woocommerce-services,"WeChat Pay"
+Name,woocommerce-services,Name
+Dimensions,woocommerce-services,Dimensions
+Edit,woocommerce-services,Edit
+Remove,woocommerce-services,Remove
+Packaging,woocommerce-services,Packaging
+"Add boxes, envelopes, and other packages you use most frequently",woocommerce-services,"Add boxes, envelopes, and other packages you use most frequently"
+"Add package",woocommerce-services,"Add package"
+"Carrier account",woocommerce-services,"Carrier account"
+"Set up your own carrier account by adding your credentials here",woocommerce-services,"Set up your own carrier account by adding your credentials here"
+Name,woocommerce-services,Name
+Credentials,woocommerce-services,Credentials
+"Your carrier account was disconnected succesfully.",woocommerce-services,"Your carrier account was disconnected succesfully."
+"There was an error trying to disconnect your carrier account",woocommerce-services,"There was an error trying to disconnect your carrier account"
+Cancel,woocommerce-services,Cancel
+Disconnect,woocommerce-services,Disconnect
+Disconnect,woocommerce-services,Disconnect
+Connect,woocommerce-services,Connect
+"Disconnect your %(carrier_name)s account",woocommerce-services,"Disconnect your %(carrier_name)s account"
+"This will remove the connection with %(carrier_name)s. All of your %(carrier_name)s account information will be deleted and you won\\u2019t see %(carrier_name)s rates.",woocommerce-services,"This will remove the connection with %(carrier_name)s. All of your %(carrier_name)s account information will be deleted and you won\\u2019t see %(carrier_name)s rates."
+"Shipping method",woocommerce-services,"Shipping method"
+"View and manage your subscription usage",woocommerce-services,"View and manage your subscription usage"
+Name,woocommerce-services,Name
+Usage,woocommerce-services,Usage
+"Your store is over the limit for rate calls this month and your account will be charged for overages. To prevent future overage charges you can upgrade your plan.",woocommerce-services,"Your store is over the limit for rate calls this month and your account will be charged for overages. To prevent future overage charges you can upgrade your plan."
+Manage,woocommerce-services,Manage
+"Your subscription was succesfully activated.",woocommerce-services,"Your subscription was succesfully activated."
+"There was an error trying to activate your subscription.",woocommerce-services,"There was an error trying to activate your subscription."
+Activate,woocommerce-services,Activate
+"This field is required",woocommerce-services,"This field is required"
+"The UPS account number needs to be 6 letters and digits in length",woocommerce-services,"The UPS account number needs to be 6 letters and digits in length"
+"The phone number needs to be 10 digits in length",woocommerce-services,"The phone number needs to be 10 digits in length"
+"The ZIP/Postal code needs to be 5 digits in length",woocommerce-services,"The ZIP/Postal code needs to be 5 digits in length"
+"The email format is not valid",woocommerce-services,"The email format is not valid"
+"The company website format is not valid",woocommerce-services,"The company website format is not valid"
+"The invoice number needs to be 9 or 13 digits in length",woocommerce-services,"The invoice number needs to be 9 or 13 digits in length"
+"The date must be a valid date in the format YYYY-MM-DD",woocommerce-services,"The date must be a valid date in the format YYYY-MM-DD"
+Cancel,woocommerce-services,Cancel
+Ok,woocommerce-services,Ok
+"Cancel connection",woocommerce-services,"Cancel connection"
+"This action will delete any information entered on the form.",woocommerce-services,"This action will delete any information entered on the form."
+"Select one\\u2026",woocommerce-services,"Select one\\u2026"
+State,woocommerce-services,State
+State,woocommerce-services,State
+"Your carrier account was connected successfully.",woocommerce-services,"Your carrier account was connected successfully."
+"There was an error connecting to your %(carrierName)s account. Please check that all of the information entered matches your %(carrierName)s account and try to connect again.",woocommerce-services,"There was an error connecting to your %(carrierName)s account. Please check that all of the information entered matches your %(carrierName)s account and try to connect again."
+"Connect your UPS account",woocommerce-services,"Connect your UPS account"
+"Set up your own UPS carrier account to compare rates and print labels from multiple carriers in WooCommerce Shipping. Learn more about adding {{a}}carrier accounts{{/a}}.",woocommerce-services,"Set up your own UPS carrier account to compare rates and print labels from multiple carriers in WooCommerce Shipping. Learn more about adding {{a}}carrier accounts{{/a}}."
+"If you need a UPS account number, go to {{a}}UPS.com{{/a}} to create a new account.",woocommerce-services,"If you need a UPS account number, go to {{a}}UPS.com{{/a}} to create a new account."
+"General information",woocommerce-services,"General information"
+"This is the account number and address from your UPS profile",woocommerce-services,"This is the account number and address from your UPS profile"
+"Account number",woocommerce-services,"Account number"
+Name,woocommerce-services,Name
+Address,woocommerce-services,Address
+"Address 2 (optional)",woocommerce-services,"Address 2 (optional)"
+City,woocommerce-services,City
+Country,woocommerce-services,Country
+"ZIP/Postal code",woocommerce-services,"ZIP/Postal code"
+Phone,woocommerce-services,Phone
+Email,woocommerce-services,Email
+"Company information",woocommerce-services,"Company information"
+"This is the company info you used to create your UPS account",woocommerce-services,"This is the company info you used to create your UPS account"
+"Company name",woocommerce-services,"Company name"
+"Job title",woocommerce-services,"Job title"
+"Company website",woocommerce-services,"Company website"
+"UPS account information",woocommerce-services,"UPS account information"
+"I have been issued an invoice from UPS within the past 90 days",woocommerce-services,"I have been issued an invoice from UPS within the past 90 days"
+"UPS invoice number",woocommerce-services,"UPS invoice number"
+"UPS invoice date",woocommerce-services,"UPS invoice date"
+"UPS invoice amount",woocommerce-services,"UPS invoice amount"
+"UPS invoice currency",woocommerce-services,"UPS invoice currency"
+"UPS invoice control id",woocommerce-services,"UPS invoice control id"
+Connect,woocommerce-services,Connect
+Cancel,woocommerce-services,Cancel
+Loading,woocommerce-services,Loading
+"%(carrierName)s not supported.",woocommerce-services,"%(carrierName)s not supported."
+"Your carrier account was connected successfully.",woocommerce-services,"Your carrier account was connected successfully."
+"There was an error connecting to your %(carrierName)s account. Please check that all of the information entered matches your %(carrierName)s account and try to connect again.",woocommerce-services,"There was an error connecting to your %(carrierName)s account. Please check that all of the information entered matches your %(carrierName)s account and try to connect again."
+"Connect your %(carrierName)s account",woocommerce-services,"Connect your %(carrierName)s account"
+"Set up your own carrier account to compare rates and print labels from multiple carriers in WooCommerce Shipping. Learn more about adding {{a}}carrier accounts{{/a}}.",woocommerce-services,"Set up your own carrier account to compare rates and print labels from multiple carriers in WooCommerce Shipping. Learn more about adding {{a}}carrier accounts{{/a}}."
+"General Information",woocommerce-services,"General Information"
+Connect,woocommerce-services,Connect
+Cancel,woocommerce-services,Cancel
+"Create shipping label",woocommerce-services,"Create shipping label"
+"Create new label",woocommerce-services,"Create new label"
+"Create shipping label",woocommerce-services,"Create shipping label"
+"Connection error: unable to create label at this time",woocommerce-services,"Connection error: unable to create label at this time"
+"Labels older than 30 days cannot be refunded.",woocommerce-services,"Labels older than 30 days cannot be refunded."
+"USPS labels without tracking are not eligible for refund.",woocommerce-services,"USPS labels without tracking are not eligible for refund."
+"Request refund",woocommerce-services,"Request refund"
+"Request refund",woocommerce-services,"Request refund"
+"Label images older than 180 days are deleted by our technology partners for general security and data privacy concerns.",woocommerce-services,"Label images older than 180 days are deleted by our technology partners for general security and data privacy concerns."
+Reprint,woocommerce-services,Reprint
+"Reprint shipping label",woocommerce-services,"Reprint shipping label"
+"View details",woocommerce-services,"View details"
+"Schedule a pickup",woocommerce-services,"Schedule a pickup"
+"Print customs form",woocommerce-services,"Print customs form"
+"%(service)s label (#%(labelIndex)d)",woocommerce-services,"%(service)s label (#%(labelIndex)d)"
+"Tracking #: {{trackingLink/}}",woocommerce-services,"Tracking #: {{trackingLink/}}"
+"No activity yet",woocommerce-services,"No activity yet"
+"Internal note",woocommerce-services,"Internal note"
+"Note sent to customer",woocommerce-services,"Note sent to customer"
+"%(service)s label (#%(labelNum)d) refund requested (%(amount)s)",woocommerce-services,"%(service)s label (#%(labelNum)d) refund requested (%(amount)s)"
+"%(service)s label (#%(labelNum)d) refunded (%(amount)s)",woocommerce-services,"%(service)s label (#%(labelNum)d) refunded (%(amount)s)"
+"%(service)s label (#%(labelNum)d) refund rejected",woocommerce-services,"%(service)s label (#%(labelNum)d) refund rejected"
+Refund,woocommerce-services,Refund
+"Refunded %(amount)s",woocommerce-services,"Refunded %(amount)s"
+Note,woocommerce-services,Note
+"Toggle menu",woocommerce-services,"Toggle menu"
+Cancel,woocommerce-services,Cancel
+"Refund label (-%(amount)s)",woocommerce-services,"Refund label (-%(amount)s)"
+"Request a refund",woocommerce-services,"Request a refund"
+"You can request a refund for a shipping label that has not been used to ship a package. It will take at least %(days)s days to process.",woocommerce-services,"You can request a refund for a shipping label that has not been used to ship a package. It will take at least %(days)s days to process."
+"Purchase date",woocommerce-services,"Purchase date"
+"Amount eligible for refund",woocommerce-services,"Amount eligible for refund"
+Cancel,woocommerce-services,Cancel
+Print,woocommerce-services,Print
+"Reprint shipping label",woocommerce-services,"Reprint shipping label"
+"If there was a printing error when you purchased the label, you can print it again.",woocommerce-services,"If there was a printing error when you purchased the label, you can print it again."
+"NOTE: If you already used the label in a package, printing and using it again is a violation of our terms of service and may result in criminal charges.",woocommerce-services,"NOTE: If you already used the label in a package, printing and using it again is a violation of our terms of service and may result in criminal charges."
+"Paper size",woocommerce-services,"Paper size"
+Close,woocommerce-services,Zavřít
+"Label #%(labelIndex)s details",woocommerce-services,"Label #%(labelIndex)s details"
+Receipt,woocommerce-services,Receipt
+Service,woocommerce-services,Service
+Package,woocommerce-services,Package
+Items,woocommerce-services,Items
+N/A,woocommerce-services,N/A
+"%(service)s label (#%(labelIndex)d)",woocommerce-services,"%(service)s label (#%(labelIndex)d)"
+"Purchasing\\u2026",woocommerce-services,"Purchasing\\u2026"
+"Show notes from %(date)s",woocommerce-services,"Show notes from %(date)s"
+"Which package would you like to track?",woocommerce-services,"Which package would you like to track?"
+More,woocommerce-services,Více
+Required,woocommerce-services,Required
+Optional,woocommerce-services,Optional
+"Saving\\u2026",woocommerce-services,"Saving\\u2026"
+"Save Settings",woocommerce-services,"Save Settings"
+Untitled,woocommerce-services,Untitled
+Expand,woocommerce-services,Expand
+"Your shipping packages have been saved.",woocommerce-services,"Your shipping packages have been saved."
+"Unable to save your shipping packages. Please try again.",woocommerce-services,"Unable to save your shipping packages. Please try again."
+Done,woocommerce-services,Done
+Cancel,woocommerce-services,Cancel
+"{{icon/}} Delete this package",woocommerce-services,"{{icon/}} Delete this package"
+"Invalid value.",woocommerce-services,"Invalid value."
+"This field is required.",woocommerce-services,"This field is required."
+"Type of package",woocommerce-services,"Type of package"
+Box,woocommerce-services,Box
+Envelope,woocommerce-services,Envelope
+"Package name",woocommerce-services,"Package name"
+"Unique package name",woocommerce-services,"Unique package name"
+"This field must be unique",woocommerce-services,"This field must be unique"
+"Dimensions (L x W x H)",woocommerce-services,"Dimensions (L x W x H)"
+"Weight of empty package",woocommerce-services,"Weight of empty package"
+0.0,woocommerce-services,0.0
+L,woocommerce-services,L
+W,woocommerce-services,W
+H,woocommerce-services,H
+"All packages selected",woocommerce-services,"All packages selected"
+"Expand Services",woocommerce-services,"Expand Services"
+"HS Tariff number",woocommerce-services,"HS Tariff number"
+"more info",woocommerce-services,"more info"
+"Origin country",woocommerce-services,"Origin country"
+"Country where the product was manufactured or assembled",woocommerce-services,"Country where the product was manufactured or assembled"
+Description,woocommerce-services,Description
+"Weight (%s per unit)",woocommerce-services,"Weight (%s per unit)"
+"Value ($ per unit)",woocommerce-services,"Value ($ per unit)"
+"Origin address",woocommerce-services,"Origin address"
+"Destination address",woocommerce-services,"Destination address"
+"Validating address\\u2026",woocommerce-services,"Validating address\\u2026"
+"Invalid address",woocommerce-services,"Invalid address"
+"You've edited the address, please revalidate it for accurate rates",woocommerce-services,"You've edited the address, please revalidate it for accurate rates"
+Name,woocommerce-services,Name
+Company,woocommerce-services,Company
+Phone,woocommerce-services,Phone
+"%(message)s. Please modify the address and try again.",woocommerce-services,"%(message)s. Please modify the address and try again."
+Address,woocommerce-services,Address
+City,woocommerce-services,City
+State,woocommerce-services,State
+"Select one\\u2026",woocommerce-services,"Select one\\u2026"
+State,woocommerce-services,State
+"ZIP/Postal code",woocommerce-services,"ZIP/Postal code"
+Country,woocommerce-services,Country
+"Verify address",woocommerce-services,"Verify address"
+"Use address as entered",woocommerce-services,"Use address as entered"
+"We have slightly modified the address entered. If correct, please use the suggested address to ensure accurate delivery.",woocommerce-services,"We have slightly modified the address entered. If correct, please use the suggested address to ensure accurate delivery."
+"Address entered",woocommerce-services,"Address entered"
+"Suggested address",woocommerce-services,"Suggested address"
+"Use selected address",woocommerce-services,"Use selected address"
+"Edit address",woocommerce-services,"Edit address"
+"We were unable to automatically verify the address \\u2014 %(error)s.",woocommerce-services,"We were unable to automatically verify the address \\u2014 %(error)s."
+"We were unable to automatically verify the address.",woocommerce-services,"We were unable to automatically verify the address."
+"Address entered",woocommerce-services,"Address entered"
+"Automatic verification failed for this address. It may still be a valid address \\u2014 use the tools below to manually verify.",woocommerce-services,"Automatic verification failed for this address. It may still be a valid address \\u2014 use the tools below to manually verify."
+"Verify with USPS",woocommerce-services,"Verify with USPS"
+"View on Google Maps",woocommerce-services,"View on Google Maps"
+"Edit address",woocommerce-services,"Edit address"
+"Use address as entered",woocommerce-services,"Use address as entered"
+Packaging,woocommerce-services,Packaging
+"No packages selected",woocommerce-services,"No packages selected"
+"1 item in 1 package: %(weight)s %(unit)s total",woocommerce-services,"1 item in 1 package: %(weight)s %(unit)s total"
+"%(itemsCount)d items in 1 package: %(weight)s %(unit)s total",woocommerce-services,"%(itemsCount)d items in 1 package: %(weight)s %(unit)s total"
+"%(itemsCount)d items in %(packageCount)d packages: %(weight)s %(unit)s total",woocommerce-services,"%(itemsCount)d items in %(packageCount)d packages: %(weight)s %(unit)s total"
+"Use these packages",woocommerce-services,"Use these packages"
+"Packages to be Shipped",woocommerce-services,"Packages to be Shipped"
+"Add items",woocommerce-services,"Add items"
+"Items to fulfill",woocommerce-services,"Items to fulfill"
+Weight,woocommerce-services,Weight
+QTY,woocommerce-services,QTY
+"There are no items in this package.",woocommerce-services,"There are no items in this package."
+"Total Weight (with package)",woocommerce-services,"Total Weight (with package)"
+0,woocommerce-services,0
+Move,woocommerce-services,Move
+"Individually Shipped Item",woocommerce-services,"Individually Shipped Item"
+"Item Dimensions",woocommerce-services,"Item Dimensions"
+"Package details",woocommerce-services,"Package details"
+"Add package",woocommerce-services,"Add package"
+"Select a package type",woocommerce-services,"Select a package type"
+"Please select a package",woocommerce-services,"Please select a package"
+"{{itemLink/}} is currently saved for a later shipment.",woocommerce-services,"{{itemLink/}} is currently saved for a later shipment."
+"{{itemLink/}} is currently shipped in its original packaging.",woocommerce-services,"{{itemLink/}} is currently shipped in its original packaging."
+"{{itemLink/}} is currently in {{pckg/}}.",woocommerce-services,"{{itemLink/}} is currently in {{pckg/}}."
+Cancel,woocommerce-services,Cancel
+Submit,woocommerce-services,Submit
+"Move item",woocommerce-services,"Move item"
+"Where would you like to move it?",woocommerce-services,"Where would you like to move it?"
+"Add to a New Package",woocommerce-services,"Add to a New Package"
+"Ship in original packaging",woocommerce-services,"Ship in original packaging"
+"%(item)s from {{pckg/}}",woocommerce-services,"%(item)s from {{pckg/}}"
+Close,woocommerce-services,Zavřít
+Add,woocommerce-services,Add
+"Add item",woocommerce-services,"Add item"
+"Which items would you like to add to {{pckg/}}?",woocommerce-services,"Which items would you like to add to {{pckg/}}?"
+"Customs information incomplete",woocommerce-services,"Customs information incomplete"
+"Customs information valid",woocommerce-services,"Customs information valid"
+Customs,woocommerce-services,Customs
+"Save customs form",woocommerce-services,"Save customs form"
+"Return to sender if package is unable to be delivered",woocommerce-services,"Return to sender if package is unable to be delivered"
+"Contents type",woocommerce-services,"Contents type"
+Merchandise,woocommerce-services,Merchandise
+Documents,woocommerce-services,Documents
+Gift,woocommerce-services,Gift
+Sample,woocommerce-services,Sample
+"Other\\u2026",woocommerce-services,"Other\\u2026"
+Details,woocommerce-services,Details
+"Restriction type",woocommerce-services,"Restriction type"
+None,woocommerce-services,None
+Quarantine,woocommerce-services,Quarantine
+"Sanitary / Phytosanitary inspection",woocommerce-services,"Sanitary / Phytosanitary inspection"
+"Other\\u2026",woocommerce-services,"Other\\u2026"
+Details,woocommerce-services,Details
+ITN,woocommerce-services,ITN
+"more info",woocommerce-services,"more info"
+Description,woocommerce-services,Description
+Optional,woocommerce-services,Optional
+"Weight (per unit)",woocommerce-services,"Weight (per unit)"
+"Value (per unit)",woocommerce-services,"Value (per unit)"
+"Unsaved changes made to packages",woocommerce-services,"Unsaved changes made to packages"
+"No rates found",woocommerce-services,"No rates found"
+"%(serviceName)s: %(rate)s",woocommerce-services,"%(serviceName)s: %(rate)s"
+"Total rate: %(total)s",woocommerce-services,"Total rate: %(total)s"
+"Customer paid a {{shippingMethod/}} of {{shippingCost/}} for shipping",woocommerce-services,"Customer paid a {{shippingMethod/}} of {{shippingCost/}} for shipping"
+"Your customer selected {{shippingMethod/}}",woocommerce-services,"Your customer selected {{shippingMethod/}}"
+"Shipping rates",woocommerce-services,"Shipping rates"
+"The service and rate chosen by the customer at checkout is not available. Please choose another.",woocommerce-services,"The service and rate chosen by the customer at checkout is not available. Please choose another."
+"Choose rate: %(pckg)s",woocommerce-services,"Choose rate: %(pckg)s"
+"Signature required",woocommerce-services,"Signature required"
+"Adult signature required",woocommerce-services,"Adult signature required"
+"Paper size",woocommerce-services,"Paper size"
+"Notify the customer with shipment details",woocommerce-services,"Notify the customer with shipment details"
+"Mark this order as complete and notify the customer",woocommerce-services,"Mark this order as complete and notify the customer"
+"WooCommerce Shipping gives you access to USPS Commercial Pricing, which is discounted over Retail rates.",woocommerce-services,"WooCommerce Shipping gives you access to USPS Commercial Pricing, which is discounted over Retail rates."
+"You save %s with WooCommerce Shipping",woocommerce-services,"You save %s with WooCommerce Shipping"
+"Package %(index)s \\u2013 %(title)s",woocommerce-services,"Package %(index)s \\u2013 %(title)s"
+"Your UPS account will be charged",woocommerce-services,"Your UPS account will be charged"
+Total,woocommerce-services,Total
+"Shipping summary",woocommerce-services,"Shipping summary"
+"Shipping from",woocommerce-services,"Shipping from"
+Edit,woocommerce-services,Edit
+"Choose credit card",woocommerce-services,"Choose credit card"
+"To print this shipping label, {{a}}choose a credit card to add to your account{{/a}}.",woocommerce-services,"To print this shipping label, {{a}}choose a credit card to add to your account{{/a}}."
+"Add credit card",woocommerce-services,"Add credit card"
+"To print this shipping label, {{a}}add a credit card to your account{{/a}}.",woocommerce-services,"To print this shipping label, {{a}}add a credit card to your account{{/a}}."
+Print,woocommerce-services,Print
+"Purchasing\\u2026",woocommerce-services,"Purchasing\\u2026"
+Required,woocommerce-services,Required
+Optional,woocommerce-services,Optional
+Debug,woocommerce-services,Debug
+Debug,woocommerce-services,Debug
+"Display troubleshooting information on the Cart and Checkout pages.",woocommerce-services,"Display troubleshooting information on the Cart and Checkout pages."
+Enabled,woocommerce-services,Enabled
+Disabled,woocommerce-services,Disabled
+Logging,woocommerce-services,Logging
+"Write diagnostic messages to log files. Helpful when contacting support.",woocommerce-services,"Write diagnostic messages to log files. Helpful when contacting support."
+Enabled,woocommerce-services,Enabled
+Disabled,woocommerce-services,Disabled
+"Shipping Log",woocommerce-services,"Shipping Log"
+"Taxes Log",woocommerce-services,"Taxes Log"
+"Other Log",woocommerce-services,"Other Log"
+Support,woocommerce-services,Support
+"Need help?",woocommerce-services,"Need help?"
+"Our team is here for you. View our {{docsA}}support docs{{/docsA}} or {{ticketA}}open a support ticket{{/ticketA}}.",woocommerce-services,"Our team is here for you. View our {{docsA}}support docs{{/docsA}} or {{ticketA}}open a support ticket{{/ticketA}}."
+"Last updated %s. {{a}}Refresh{{/a}}",woocommerce-services,"Last updated %s. {{a}}Refresh{{/a}}"
+Refresh,woocommerce-services,Refresh
+WooCommerce,woocommerce-services,WooCommerce
+Jetpack,woocommerce-services,Jetpack
+"WooCommerce Shipping & Tax Data",woocommerce-services,"WooCommerce Shipping & Tax Data"
+"Log tail copied to clipboard",woocommerce-services,"Log tail copied to clipboard"
+"Copy for support",woocommerce-services,"Copy for support"
+"Request was made %s - check logs below or {{a}}edit service settings{{/a}}",woocommerce-services,"Request was made %s - check logs below or {{a}}edit service settings{{/a}}"
+"Edit service settings",woocommerce-services,"Edit service settings"
+Services,woocommerce-services,Services
+"No services configured. {{a}}Add a shipping service{{/a}}",woocommerce-services,"No services configured. {{a}}Add a shipping service{{/a}}"
+Required,woocommerce-services,Required
+Optional,woocommerce-services,Optional
+Dismiss,woocommerce-services,Dismiss
+More,woocommerce-services,Více
+"You have unsaved changes.",woocommerce-services,"You have unsaved changes."
+"You have unsaved changes. Are you sure you want to leave this page?",woocommerce-services,"You have unsaved changes. Are you sure you want to leave this page?"
+"Your changes have been saved.",woocommerce-services,"Your changes have been saved."
+"There was a problem with one or more entries. Please fix the errors below and try saving again.",woocommerce-services,"There was a problem with one or more entries. Please fix the errors below and try saving again."
+"Save changes",woocommerce-services,"Save changes"
+"Saved Packages",woocommerce-services,"Saved Packages"
+"Add and edit saved packages using the {{a}}Packaging Manager{{/a}}.",woocommerce-services,"Add and edit saved packages using the {{a}}Packaging Manager{{/a}}."
+"All services selected",woocommerce-services,"All services selected"
+"Expand Services",woocommerce-services,"Expand Services"
+Service,woocommerce-services,Service
+"Price adjustment",woocommerce-services,"Price adjustment"
+"Increase the rates calculated by the carrier to account for packaging and handling costs. You can also add a negative amount to save your customers money.",woocommerce-services,"Increase the rates calculated by the carrier to account for packaging and handling costs. You can also add a negative amount to save your customers money."
+"Labels older than 30 days cannot be refunded.",woocommerce-services,"Labels older than 30 days cannot be refunded."
+"USPS labels without tracking are not eligible for refund.",woocommerce-services,"USPS labels without tracking are not eligible for refund."
+"Request refund",woocommerce-services,"Request refund"
+"Request refund",woocommerce-services,"Request refund"
+"Label images older than 180 days are deleted by our technology partners for general security and data privacy concerns.",woocommerce-services,"Label images older than 180 days are deleted by our technology partners for general security and data privacy concerns."
+Reprint,woocommerce-services,Reprint
+"Reprint shipping label",woocommerce-services,"Reprint shipping label"
+"View details",woocommerce-services,"View details"
+"Schedule a pickup",woocommerce-services,"Schedule a pickup"
+"Print customs form",woocommerce-services,"Print customs form"
+"%(service)s label (#%(labelIndex)d)",woocommerce-services,"%(service)s label (#%(labelIndex)d)"
+"Tracking #: {{trackingLink/}}",woocommerce-services,"Tracking #: {{trackingLink/}}"
+"No activity yet",woocommerce-services,"No activity yet"
+"Internal note",woocommerce-services,"Internal note"
+"Note sent to customer",woocommerce-services,"Note sent to customer"
+"%(service)s label (#%(labelNum)d) refund requested (%(amount)s)",woocommerce-services,"%(service)s label (#%(labelNum)d) refund requested (%(amount)s)"
+"%(service)s label (#%(labelNum)d) refunded (%(amount)s)",woocommerce-services,"%(service)s label (#%(labelNum)d) refunded (%(amount)s)"
+"%(service)s label (#%(labelNum)d) refund rejected",woocommerce-services,"%(service)s label (#%(labelNum)d) refund rejected"
+Refund,woocommerce-services,Refund
+"Refunded %(amount)s",woocommerce-services,"Refunded %(amount)s"
+Note,woocommerce-services,Note
+"Toggle menu",woocommerce-services,"Toggle menu"
+Cancel,woocommerce-services,Cancel
+"Refund label (-%(amount)s)",woocommerce-services,"Refund label (-%(amount)s)"
+"Request a refund",woocommerce-services,"Request a refund"
+"You can request a refund for a shipping label that has not been used to ship a package. It will take at least %(days)s days to process.",woocommerce-services,"You can request a refund for a shipping label that has not been used to ship a package. It will take at least %(days)s days to process."
+"Purchase date",woocommerce-services,"Purchase date"
+"Amount eligible for refund",woocommerce-services,"Amount eligible for refund"
+Cancel,woocommerce-services,Cancel
+Print,woocommerce-services,Print
+"Reprint shipping label",woocommerce-services,"Reprint shipping label"
+"If there was a printing error when you purchased the label, you can print it again.",woocommerce-services,"If there was a printing error when you purchased the label, you can print it again."
+"NOTE: If you already used the label in a package, printing and using it again is a violation of our terms of service and may result in criminal charges.",woocommerce-services,"NOTE: If you already used the label in a package, printing and using it again is a violation of our terms of service and may result in criminal charges."
+"Paper size",woocommerce-services,"Paper size"
+Close,woocommerce-services,Zavřít
+"Label #%(labelIndex)s details",woocommerce-services,"Label #%(labelIndex)s details"
+Receipt,woocommerce-services,Receipt
+Service,woocommerce-services,Service
+Package,woocommerce-services,Package
+Items,woocommerce-services,Items
+N/A,woocommerce-services,N/A
+"%(service)s label (#%(labelIndex)d)",woocommerce-services,"%(service)s label (#%(labelIndex)d)"
+"Purchasing\\u2026",woocommerce-services,"Purchasing\\u2026"
+"Show notes from %(date)s",woocommerce-services,"Show notes from %(date)s"
+"No tracking information available at this time",woocommerce-services,"No tracking information available at this time"
+"Add package",woocommerce-services,"Add package"
+"%(selectedCount)d package selected",woocommerce-services,"%(selectedCount)d package selected"
+"Track Package",woocommerce-services,"Track Package"
+"Track Package",woocommerce-services,"Track Package"
+"%(itemCount)d item was fulfilled on {{span}}%(createdDate)s{{/span}}",woocommerce-services,"%(itemCount)d item was fulfilled on {{span}}%(createdDate)s{{/span}}"
+"%(itemCount)d item is ready to be fulfilled",woocommerce-services,"%(itemCount)d item is ready to be fulfilled"
+"%(count)s event",woocommerce-services,"%(count)s event"
+"Add package",woocommerce-services,"Add package"
+"%(selectedCount)d package selected",woocommerce-services,"%(selectedCount)d package selected"
+"Create shipping label",woocommerce-services,"Create shipping label"
+"shipping label ready",woocommerce-services,"shipping label ready"
+"Buy shipping label",woocommerce-services,"Buy shipping label"
+"Last %s entry. {{a}}Show full log{{/a}}",woocommerce-services,"Last %s entry. {{a}}Show full log{{/a}}"
+"%(numSelected)d service selected",woocommerce-services,"%(numSelected)d service selected"
+"%(count)s event",woocommerce-services,"%(count)s event"
+"Add packages",woocommerce-services,"Add packages"
+"%(selectedCount)d packages selected",woocommerce-services,"%(selectedCount)d packages selected"
+"Track Packages",woocommerce-services,"Track Packages"
+"Track Packages",woocommerce-services,"Track Packages"
+"%(itemCount)d items were fulfilled on {{span}}%(createdDate)s{{/span}}",woocommerce-services,"%(itemCount)d items were fulfilled on {{span}}%(createdDate)s{{/span}}"
+"%(itemCount)d items are ready to be fulfilled",woocommerce-services,"%(itemCount)d items are ready to be fulfilled"
+"%(count)s events",woocommerce-services,"%(count)s events"
+"Add packages",woocommerce-services,"Add packages"
+"%(selectedCount)d packages selected",woocommerce-services,"%(selectedCount)d packages selected"
+"Create shipping labels",woocommerce-services,"Create shipping labels"
+"shipping labels ready",woocommerce-services,"shipping labels ready"
+"Buy shipping labels",woocommerce-services,"Buy shipping labels"
+"Last %s entries. {{a}}Show full log{{/a}}",woocommerce-services,"Last %s entries. {{a}}Show full log{{/a}}"
+"%(numSelected)d services selected",woocommerce-services,"%(numSelected)d services selected"
+"%(count)s events",woocommerce-services,"%(count)s events"
+"Shipping Labels",woocommerce-services,"Shipping Labels"
+"Shipping Labels",woocommerce-services,"Shipping Labels"
+Tracking,woocommerce-services,Tracking
+Tracking,woocommerce-services,Tracking
+Provider,woocommerce-services,Provider
+"Tracking number",woocommerce-services,"Tracking number"
+"Shipment Tracking",woocommerce-services,"Shipment Tracking"
+"Shipping Label",woocommerce-services,"Shipping Label"
+"Shipping Debug",woocommerce-services,"Shipping Debug"
+Phone,woocommerce-services,Phone
+Phone,woocommerce-services,Phone
+"<a href=""%s"">Support</a>",woocommerce-services,"<a href=""%s"">Support</a>"
+"Section not loading? Visit the <a href=""%s"">status page</a> for troubleshooting steps.",woocommerce-services,"Section not loading? Visit the <a href=""%s"">status page</a> for troubleshooting steps."
+"WooCommerce Shipping & Tax requires the WooCommerce plugin to be installed and active. You can download %s here.",woocommerce-services,"WooCommerce Shipping & Tax requires the WooCommerce plugin to be installed and active. You can download %s here."
+"Shipping Method Name:",woocommerce-services,"Shipping Method Name:"
+"Shipping Method ID:",woocommerce-services,"Shipping Method ID:"
+"Chosen Rate:",woocommerce-services,"Chosen Rate:"
+"Packing Log:",woocommerce-services,"Packing Log:"
