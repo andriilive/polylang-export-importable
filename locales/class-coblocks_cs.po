@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"X-Domain: class-coblocks\n"
+
+msgid "String"
+msgstr "String"
+
+msgid "Something went wrong."
+msgstr "Something went wrong."
+
+msgid "Review CoBlocks on WordPress.org"
+msgstr "Review CoBlocks on WordPress.org"
+
+msgid "Leave a Review"
+msgstr "Leave a Review"
+
+msgid "Block Patterns"
+msgstr "Block Patterns"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Pattern Type"
+msgstr "Pattern Type"
+
+msgid "Pattern Category"
+msgstr "Pattern Category"
+
+msgid "Close Gallery"
+msgstr "Close Gallery"
+
+msgid "Previous"
+msgstr "Previous"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Form submission from [%1$s]"
+msgstr "Form submission from [%1$s]"
+
+msgid "Your message was sent:"
+msgstr "Your message was sent:"
+
+msgid "Google reCaptcha site key for form spam protection"
+msgstr "Google reCaptcha site key for form spam protection"
+
+msgid "Google reCaptcha secret key for form spam protection"
+msgstr "Google reCaptcha secret key for form spam protection"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "First"
+msgstr "First"
+
+msgid "Last"
+msgstr "Last"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Phone"
+msgstr "Phone"
+
+msgid "Choose one"
+msgstr "Choose one"
+
+msgid "Select"
+msgstr "Select"
+
+msgid "Please select at least one checkbox."
+msgstr "Please select at least one checkbox."
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Hidden"
+msgstr "Hidden"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "name"
+msgstr "name"
+
+msgid "email"
+msgstr "email"
+
+msgid "Google Map API key for map rendering"
+msgstr "Google Map API key for map rendering"
+
+msgid "Setting use to disable or enable layout selector controls across the site."
+msgstr "Setting use to disable or enable layout selector controls across the site."
+
+msgid "Setting use to disable or enable typography controls across the site."
+msgstr "Setting use to disable or enable typography controls across the site."
+
+msgid "Setting use to disable or enable custom color controls across the site."
+msgstr "Setting use to disable or enable custom color controls across the site."
+
+msgid "Setting use to disable or enable all color controls across the site."
+msgstr "Setting use to disable or enable all color controls across the site."
+
+msgid "Setting use to disable or enable gradient controls and presets across the site."
+msgstr "Setting use to disable or enable gradient controls and presets across the site."
+
+msgid "Setting use to disable or enable animation controls across the site."
+msgstr "Setting use to disable or enable animation controls across the site."
+
+msgid "An error has occurred, check for calendar privileges to make sure it is public or try again later."
+msgstr "An error has occurred, check for calendar privileges to make sure it is public or try again later."
+
+msgid "RSS error:"
+msgstr "RSS error:"
+
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "An error has occurred, which probably means the feed is down. Try again later."
+
+msgid "Share on Facebook"
+msgstr "Share on Facebook"
+
+msgid "Share on Twitter"
+msgstr "Share on Twitter"
+
+msgid "Share on Pinterest"
+msgstr "Share on Pinterest"
+
+msgid "Share on Linkedin"
+msgstr "Share on Linkedin"
+
+msgid "Share via Email"
+msgstr "Share via Email"
+
+msgid "Share on Tumblr"
+msgstr "Share on Tumblr"
+
+msgid "Share on Google"
+msgstr "Share on Google"
+
+msgid "Share on Reddit"
+msgstr "Share on Reddit"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgid "Linkedin"
+msgstr "Linkedin"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "Yelp"
+msgstr "Yelp"
+
+msgid "Houzz"
+msgstr "Houzz"
+
+msgid "Most Used"
+msgstr "Most Used"
+
+msgid "About"
+msgstr "About"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Portfolio"
+msgstr "Portfolio"

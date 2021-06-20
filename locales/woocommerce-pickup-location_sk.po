@@ -1,0 +1,947 @@
+msgid ""
+msgstr ""
+"X-Domain: woocommerce-pickup-location\n"
+
+msgid "String"
+msgstr "String"
+
+msgid "Address"
+msgstr "Address"
+
+msgid "Working Hours"
+msgstr "Working Hours"
+
+msgid "Pickup Location"
+msgstr "Pickup Location"
+
+msgid "csv file uploaded successfully"
+msgstr "csv file uploaded successfully"
+
+msgid "Download File"
+msgstr "Download File"
+
+msgid "Pickup Location Working Hours"
+msgstr "Pickup Location Working Hours"
+
+msgid "Pickup Location Contacts"
+msgstr "Pickup Location Contacts"
+
+msgid "Time Limitation"
+msgstr "Time Limitation"
+
+msgid "Locations"
+msgstr "Locations"
+
+msgid "WooCommerce pickup location requires at least WooCommerce %s in order to function. Please upgrade WooCommerce."
+msgstr "WooCommerce pickup location requires at least WooCommerce %s in order to function. Please upgrade WooCommerce."
+
+msgid "Pickup Location CSV"
+msgstr "Pickup Location CSV"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid ""
+"You do not have sufficient permissions to access this page.'));\n"
+"        }\n"
+"\n"
+"        $wp_pkpo_msg = '';\n"
+"\n"
+"        if (isset($_POST['submit'])) {\n"
+"\n"
+"            $wp_pkpo_options = array();\n"
+"            $wp_pkpo_pickup_points = array();\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_default_position']))\n"
+"                $wp_pkpo_options['wp_pkpo_default_position'] = $_POST['wp_pkpo_default_position'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_pickup_selection_type']))\n"
+"                $wp_pkpo_options['wp_pkpo_pickup_selection_type'] = $_POST['wp_pkpo_pickup_selection_type'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_auto_select_pickup']))\n"
+"                $wp_pkpo_options['wp_pickup_auto_select_pickup'] = $_POST['wp_pickup_auto_select_pickup'];\n"
+"            \n"
+"            if (isset($_POST['wp_pkpo_pickup_date_formate']))\n"
+"                $wp_pkpo_options['wp_pkpo_pickup_date_formate'] = $_POST['wp_pkpo_pickup_date_formate'];\n"
+"            \n"
+"             if (isset($_POST['wp_pickup_map_position']))\n"
+"                $wp_pkpo_options['wp_pickup_map_position'] = $_POST['wp_pickup_map_position'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_pickup_admin_map_zoom']))\n"
+"                $wp_pkpo_options['wp_pkpo_pickup_admin_map_zoom'] = $_POST['wp_pkpo_pickup_admin_map_zoom'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_pickup_checkout_map_zoom']))\n"
+"                $wp_pkpo_options['wp_pkpo_pickup_checkout_map_zoom'] = $_POST['wp_pkpo_pickup_checkout_map_zoom'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_shortcode_map_zoom']))\n"
+"                $wp_pkpo_options['wp_pkpo_shortcode_map_zoom'] = $_POST['wp_pkpo_shortcode_map_zoom'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_map_disable']))\n"
+"                $wp_pkpo_options['wp_pkpo_map_disable'] = $_POST['wp_pkpo_map_disable'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_billing_hide_details']))\n"
+"                $wp_pkpo_options['wp_pkpo_billing_hide_details'] = $_POST['wp_pkpo_billing_hide_details'];\n"
+"\n"
+"           if (isset($_POST['wp_pkpo_shipping_hide_details']))\n"
+"                $wp_pkpo_options['wp_pkpo_shipping_hide_details'] = $_POST['wp_pkpo_shipping_hide_details'];\n"
+"\n"
+"           if (isset($_POST['wp_pkpo_hide_checkout_time']))\n"
+"                $wp_pkpo_options['wp_pkpo_hide_checkout_time'] = $_POST['wp_pkpo_hide_checkout_time'];\n"
+"            \n"
+"            if (isset($_POST['wp_pkpo_hide_checkout_date']))\n"
+"                $wp_pkpo_options['wp_pkpo_hide_checkout_date'] = $_POST['wp_pkpo_hide_checkout_date'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_order_list_show_pickup']))\n"
+"                $wp_pkpo_options['wp_pickup_order_list_show_pickup'] = $_POST['wp_pickup_order_list_show_pickup'];\n"
+"            \n"
+"            if (isset($_POST['wp_pkpo_send_info_in_email']))\n"
+"                $wp_pkpo_options['wp_pkpo_send_info_in_email'] = $_POST['wp_pkpo_send_info_in_email'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_default_timepicker_lang']))\n"
+"                $wp_pkpo_options['wp_pickup_default_timepicker_lang'] = $_POST['wp_pickup_default_timepicker_lang'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_default_datepicker_lang']))\n"
+"                $wp_pkpo_options['wp_pickup_default_datepicker_lang'] = $_POST['wp_pickup_default_datepicker_lang'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_user_roles']))\n"
+"                $wp_pkpo_options['wp_pickup_user_roles'] = $_POST['wp_pickup_user_roles'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_wrong_date']))\n"
+"                $wp_pkpo_options['wp_pickup_wrong_date'] = $_POST['wp_pickup_wrong_date'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_wrong_time']))\n"
+"                $wp_pkpo_options['wp_pickup_wrong_time'] = $_POST['wp_pickup_wrong_time'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_min_time_msg']))\n"
+"                $wp_pkpo_options['wp_pickup_min_time_msg'] = $_POST['wp_pickup_min_time_msg'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_max_time_msg']))\n"
+"                $wp_pkpo_options['wp_pickup_max_time_msg'] = $_POST['wp_pickup_max_time_msg'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_default_time_formate']))\n"
+"                $wp_pkpo_options['wp_pickup_default_time_formate'] = $_POST['wp_pickup_default_time_formate'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_default_date_text']))\n"
+"                $wp_pkpo_options['wp_pickup_default_date_text'] = $_POST['wp_pickup_default_date_text'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_default_time_text']))\n"
+"                $wp_pkpo_options['wp_pickup_default_time_text'] = $_POST['wp_pickup_default_time_text'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_address_display']))\n"
+"                $wp_pkpo_options['wp_pickup_address_display'] = $_POST['wp_pickup_address_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_email_display']))\n"
+"                $wp_pkpo_options['wp_pickup_email_display'] = $_POST['wp_pickup_email_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_city_display']))\n"
+"                $wp_pkpo_options['wp_pickup_city_display'] = $_POST['wp_pickup_city_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_state_display']))\n"
+"                $wp_pkpo_options['wp_pickup_state_display'] = $_POST['wp_pickup_state_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_country_display']))\n"
+"                $wp_pkpo_options['wp_pickup_country_display'] = $_POST['wp_pickup_country_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_zip_display']))\n"
+"                $wp_pkpo_options['wp_pickup_zip_display'] = $_POST['wp_pickup_zip_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_load_pickup_later']))\n"
+"                $wp_pkpo_options['wp_pickup_load_pickup_later'] = $_POST['wp_pickup_load_pickup_later'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_default_shipping_pickup']))\n"
+"                $wp_pkpo_options['wp_pickup_default_shipping_pickup'] = $_POST['wp_pickup_default_shipping_pickup'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_radius_search']))\n"
+"                $wp_pkpo_options['wp_pickup_radius_search'] = $_POST['wp_pickup_radius_search'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_hide_pickup_shipping_based_on_order']))\n"
+"                $wp_pkpo_options['wp_pickup_hide_pickup_shipping_based_on_order'] = $_POST['wp_pickup_hide_pickup_shipping_based_on_order'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_map_api_key']))\n"
+"                $wp_pkpo_options['wp_pickup_map_api_key'] = $_POST['wp_pickup_map_api_key'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_map_search']))\n"
+"                $wp_pkpo_options['wp_pickup_map_search'] = $_POST['wp_pickup_map_search'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_location_based_product']))\n"
+"                $wp_pkpo_options['wp_pickup_location_based_product'] = $_POST['wp_pickup_location_based_product'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_location_select2']))\n"
+"                $wp_pkpo_options['wp_pickup_location_select2'] = $_POST['wp_pickup_location_select2'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_send_email_to_shop_owner']))\n"
+"                $wp_pkpo_options['wp_pickup_send_email_to_shop_owner'] = $_POST['wp_pickup_send_email_to_shop_owner'];\n"
+"            \n"
+"            if (isset($_FILES['wp_pkpo_marker_image']['name']) && $_FILES['wp_pkpo_marker_image']['name'] !== '') {\n"
+"                if (!function_exists('wp_handle_upload')) {\n"
+"                    require_once( ABSPATH . 'wp-admin/includes/file.php' );\n"
+"                }\n"
+"\n"
+"                $uploadedfile = $_FILES['wp_pkpo_marker_image'];\n"
+"\n"
+"                $upload_overrides = array('test_form' => false);\n"
+"\n"
+"                $movefile = wp_handle_upload($uploadedfile, $upload_overrides);\n"
+"\n"
+"                if ($movefile && !isset($movefile['error'])) {\n"
+"                    $wp_pkpo_options['wp_pkpo_marker_image'] = $movefile['url'];\n"
+"                }\n"
+"            } else {\n"
+"                $wp_pkpo_options['wp_pkpo_marker_image'] = $_POST['wp_pkpo_old_image_url'];\n"
+"            }\n"
+"\n"
+"            update_option('wp_pkpo_options', $wp_pkpo_options);\n"
+"            $wp_pkpo_msg = __('Setting Saved Successfully !"
+msgstr ""
+"You do not have sufficient permissions to access this page.'));\n"
+"        }\n"
+"\n"
+"        $wp_pkpo_msg = '';\n"
+"\n"
+"        if (isset($_POST['submit'])) {\n"
+"\n"
+"            $wp_pkpo_options = array();\n"
+"            $wp_pkpo_pickup_points = array();\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_default_position']))\n"
+"                $wp_pkpo_options['wp_pkpo_default_position'] = $_POST['wp_pkpo_default_position'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_pickup_selection_type']))\n"
+"                $wp_pkpo_options['wp_pkpo_pickup_selection_type'] = $_POST['wp_pkpo_pickup_selection_type'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_auto_select_pickup']))\n"
+"                $wp_pkpo_options['wp_pickup_auto_select_pickup'] = $_POST['wp_pickup_auto_select_pickup'];\n"
+"            \n"
+"            if (isset($_POST['wp_pkpo_pickup_date_formate']))\n"
+"                $wp_pkpo_options['wp_pkpo_pickup_date_formate'] = $_POST['wp_pkpo_pickup_date_formate'];\n"
+"            \n"
+"             if (isset($_POST['wp_pickup_map_position']))\n"
+"                $wp_pkpo_options['wp_pickup_map_position'] = $_POST['wp_pickup_map_position'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_pickup_admin_map_zoom']))\n"
+"                $wp_pkpo_options['wp_pkpo_pickup_admin_map_zoom'] = $_POST['wp_pkpo_pickup_admin_map_zoom'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_pickup_checkout_map_zoom']))\n"
+"                $wp_pkpo_options['wp_pkpo_pickup_checkout_map_zoom'] = $_POST['wp_pkpo_pickup_checkout_map_zoom'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_shortcode_map_zoom']))\n"
+"                $wp_pkpo_options['wp_pkpo_shortcode_map_zoom'] = $_POST['wp_pkpo_shortcode_map_zoom'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_map_disable']))\n"
+"                $wp_pkpo_options['wp_pkpo_map_disable'] = $_POST['wp_pkpo_map_disable'];\n"
+"\n"
+"            if (isset($_POST['wp_pkpo_billing_hide_details']))\n"
+"                $wp_pkpo_options['wp_pkpo_billing_hide_details'] = $_POST['wp_pkpo_billing_hide_details'];\n"
+"\n"
+"           if (isset($_POST['wp_pkpo_shipping_hide_details']))\n"
+"                $wp_pkpo_options['wp_pkpo_shipping_hide_details'] = $_POST['wp_pkpo_shipping_hide_details'];\n"
+"\n"
+"           if (isset($_POST['wp_pkpo_hide_checkout_time']))\n"
+"                $wp_pkpo_options['wp_pkpo_hide_checkout_time'] = $_POST['wp_pkpo_hide_checkout_time'];\n"
+"            \n"
+"            if (isset($_POST['wp_pkpo_hide_checkout_date']))\n"
+"                $wp_pkpo_options['wp_pkpo_hide_checkout_date'] = $_POST['wp_pkpo_hide_checkout_date'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_order_list_show_pickup']))\n"
+"                $wp_pkpo_options['wp_pickup_order_list_show_pickup'] = $_POST['wp_pickup_order_list_show_pickup'];\n"
+"            \n"
+"            if (isset($_POST['wp_pkpo_send_info_in_email']))\n"
+"                $wp_pkpo_options['wp_pkpo_send_info_in_email'] = $_POST['wp_pkpo_send_info_in_email'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_default_timepicker_lang']))\n"
+"                $wp_pkpo_options['wp_pickup_default_timepicker_lang'] = $_POST['wp_pickup_default_timepicker_lang'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_default_datepicker_lang']))\n"
+"                $wp_pkpo_options['wp_pickup_default_datepicker_lang'] = $_POST['wp_pickup_default_datepicker_lang'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_user_roles']))\n"
+"                $wp_pkpo_options['wp_pickup_user_roles'] = $_POST['wp_pickup_user_roles'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_wrong_date']))\n"
+"                $wp_pkpo_options['wp_pickup_wrong_date'] = $_POST['wp_pickup_wrong_date'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_wrong_time']))\n"
+"                $wp_pkpo_options['wp_pickup_wrong_time'] = $_POST['wp_pickup_wrong_time'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_min_time_msg']))\n"
+"                $wp_pkpo_options['wp_pickup_min_time_msg'] = $_POST['wp_pickup_min_time_msg'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_max_time_msg']))\n"
+"                $wp_pkpo_options['wp_pickup_max_time_msg'] = $_POST['wp_pickup_max_time_msg'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_default_time_formate']))\n"
+"                $wp_pkpo_options['wp_pickup_default_time_formate'] = $_POST['wp_pickup_default_time_formate'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_default_date_text']))\n"
+"                $wp_pkpo_options['wp_pickup_default_date_text'] = $_POST['wp_pickup_default_date_text'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_default_time_text']))\n"
+"                $wp_pkpo_options['wp_pickup_default_time_text'] = $_POST['wp_pickup_default_time_text'];\n"
+"\n"
+"            if (isset($_POST['wp_pickup_address_display']))\n"
+"                $wp_pkpo_options['wp_pickup_address_display'] = $_POST['wp_pickup_address_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_email_display']))\n"
+"                $wp_pkpo_options['wp_pickup_email_display'] = $_POST['wp_pickup_email_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_city_display']))\n"
+"                $wp_pkpo_options['wp_pickup_city_display'] = $_POST['wp_pickup_city_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_state_display']))\n"
+"                $wp_pkpo_options['wp_pickup_state_display'] = $_POST['wp_pickup_state_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_country_display']))\n"
+"                $wp_pkpo_options['wp_pickup_country_display'] = $_POST['wp_pickup_country_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_zip_display']))\n"
+"                $wp_pkpo_options['wp_pickup_zip_display'] = $_POST['wp_pickup_zip_display'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_load_pickup_later']))\n"
+"                $wp_pkpo_options['wp_pickup_load_pickup_later'] = $_POST['wp_pickup_load_pickup_later'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_default_shipping_pickup']))\n"
+"                $wp_pkpo_options['wp_pickup_default_shipping_pickup'] = $_POST['wp_pickup_default_shipping_pickup'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_radius_search']))\n"
+"                $wp_pkpo_options['wp_pickup_radius_search'] = $_POST['wp_pickup_radius_search'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_hide_pickup_shipping_based_on_order']))\n"
+"                $wp_pkpo_options['wp_pickup_hide_pickup_shipping_based_on_order'] = $_POST['wp_pickup_hide_pickup_shipping_based_on_order'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_map_api_key']))\n"
+"                $wp_pkpo_options['wp_pickup_map_api_key'] = $_POST['wp_pickup_map_api_key'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_map_search']))\n"
+"                $wp_pkpo_options['wp_pickup_map_search'] = $_POST['wp_pickup_map_search'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_location_based_product']))\n"
+"                $wp_pkpo_options['wp_pickup_location_based_product'] = $_POST['wp_pickup_location_based_product'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_location_select2']))\n"
+"                $wp_pkpo_options['wp_pickup_location_select2'] = $_POST['wp_pickup_location_select2'];\n"
+"            \n"
+"            if (isset($_POST['wp_pickup_send_email_to_shop_owner']))\n"
+"                $wp_pkpo_options['wp_pickup_send_email_to_shop_owner'] = $_POST['wp_pickup_send_email_to_shop_owner'];\n"
+"            \n"
+"            if (isset($_FILES['wp_pkpo_marker_image']['name']) && $_FILES['wp_pkpo_marker_image']['name'] !== '') {\n"
+"                if (!function_exists('wp_handle_upload')) {\n"
+"                    require_once( ABSPATH . 'wp-admin/includes/file.php' );\n"
+"                }\n"
+"\n"
+"                $uploadedfile = $_FILES['wp_pkpo_marker_image'];\n"
+"\n"
+"                $upload_overrides = array('test_form' => false);\n"
+"\n"
+"                $movefile = wp_handle_upload($uploadedfile, $upload_overrides);\n"
+"\n"
+"                if ($movefile && !isset($movefile['error'])) {\n"
+"                    $wp_pkpo_options['wp_pkpo_marker_image'] = $movefile['url'];\n"
+"                }\n"
+"            } else {\n"
+"                $wp_pkpo_options['wp_pkpo_marker_image'] = $_POST['wp_pkpo_old_image_url'];\n"
+"            }\n"
+"\n"
+"            update_option('wp_pkpo_options', $wp_pkpo_options);\n"
+"            $wp_pkpo_msg = __('Setting Saved Successfully !"
+
+msgid "Pickup location : "
+msgstr "Pickup location : "
+
+msgid "Pickup Information"
+msgstr "Pickup Information"
+
+msgid "Pickup address"
+msgstr "Pickup address"
+
+msgid "Pickup city"
+msgstr "Pickup city"
+
+msgid "Pickup state"
+msgstr "Pickup state"
+
+msgid "Pickup country"
+msgstr "Pickup country"
+
+msgid "Pickup zip code"
+msgstr "Pickup zip code"
+
+msgid "Pickup Email"
+msgstr "Pickup Email"
+
+msgid "Pickup Time"
+msgstr "Pickup Time"
+
+msgid "Pickup Date"
+msgstr "Pickup Date"
+
+msgid "Please select pickup location"
+msgstr "Please select pickup location"
+
+msgid "Please enter pickup date"
+msgstr "Please enter pickup date"
+
+msgid "Please enter pickup time"
+msgstr "Please enter pickup time"
+
+msgid ""
+"Pickup Point Shipping'); // Title shown in admin\n"
+"\n"
+"                $this->method_description = __('Description of Pickup Point Shipping'); // Description shown in admin\n"
+"\n"
+"                $this->enabled = \"yes\"; // This can be added as an setting but for this example its forced enabled\n"
+"\n"
+"                $this->title = \"CALL FOR QUOTE\"; // This can be added as an setting but for this example its forced.\n"
+"                //$this->init_form_fields();\n"
+"\n"
+"                $this->init();\n"
+"            }\n"
+"\n"
+"            /**\n"
+"\n"
+"             * Init your settings\n"
+"\n"
+"             *\n"
+"\n"
+"             * @access public\n"
+"\n"
+"             * @return void\n"
+"\n"
+"             */\n"
+"            function init() {\n"
+"                // Load the settings API\n"
+"                $this->init_form_fields(); // This is part of the settings API. Override the method to add your own settings\n"
+"                $this->init_settings(); // This is part of the settings API. Loads settings you previously init.\n"
+"                $this->cost = $this->get_option('cost');\n"
+"                $this->title = $this->get_option('title');\n"
+"                $this->min_order_amount = $this->get_option('min_order_amount');\n"
+"                add_action('woocommerce_update_options_shipping_' . $this->id, array($this, 'process_admin_options'));\n"
+"            }\n"
+"\n"
+"            /**\n"
+"             * Initialise Gateway Settings Form Fields\n"
+"             */\n"
+"            function init_form_fields() {\n"
+"                $this->form_fields = array(\n"
+"                    'enabled' => array(\n"
+"                        'title' => __('Enable/Disable"
+msgstr ""
+"Pickup Point Shipping'); // Title shown in admin\n"
+"\n"
+"                $this->method_description = __('Description of Pickup Point Shipping'); // Description shown in admin\n"
+"\n"
+"                $this->enabled = \"yes\"; // This can be added as an setting but for this example its forced enabled\n"
+"\n"
+"                $this->title = \"CALL FOR QUOTE\"; // This can be added as an setting but for this example its forced.\n"
+"                //$this->init_form_fields();\n"
+"\n"
+"                $this->init();\n"
+"            }\n"
+"\n"
+"            /**\n"
+"\n"
+"             * Init your settings\n"
+"\n"
+"             *\n"
+"\n"
+"             * @access public\n"
+"\n"
+"             * @return void\n"
+"\n"
+"             */\n"
+"            function init() {\n"
+"                // Load the settings API\n"
+"                $this->init_form_fields(); // This is part of the settings API. Override the method to add your own settings\n"
+"                $this->init_settings(); // This is part of the settings API. Loads settings you previously init.\n"
+"                $this->cost = $this->get_option('cost');\n"
+"                $this->title = $this->get_option('title');\n"
+"                $this->min_order_amount = $this->get_option('min_order_amount');\n"
+"                add_action('woocommerce_update_options_shipping_' . $this->id, array($this, 'process_admin_options'));\n"
+"            }\n"
+"\n"
+"            /**\n"
+"             * Initialise Gateway Settings Form Fields\n"
+"             */\n"
+"            function init_form_fields() {\n"
+"                $this->form_fields = array(\n"
+"                    'enabled' => array(\n"
+"                        'title' => __('Enable/Disable"
+
+msgid "Enable Pickup Location"
+msgstr "Enable Pickup Location"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "This controls the title which the user sees during checkout."
+
+msgid "Description"
+msgstr "Description"
+
+msgid "This controls the description which the user sees during checkout."
+msgstr "This controls the description which the user sees during checkout."
+
+msgid "Pickup Location Description"
+msgstr "Pickup Location Description"
+
+msgid "Default Cost"
+msgstr "Default Cost"
+
+msgid "Cost excluding tax. Enter an amount, e.g. 2.50."
+msgstr "Cost excluding tax. Enter an amount, e.g. 2.50."
+
+msgid "Min. order amount"
+msgstr "Min. order amount"
+
+msgid "Min order amount after which Free Shipping will be applied (leave empty if not required)"
+msgstr "Min order amount after which Free Shipping will be applied (leave empty if not required)"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "City"
+msgstr "City"
+
+msgid "State"
+msgstr "State"
+
+msgid "Country"
+msgstr "Country"
+
+msgid "Zip"
+msgstr "Zip"
+
+msgid "Opening Time"
+msgstr "Opening Time"
+
+msgid "Closing Time"
+msgstr "Closing Time"
+
+msgid "Latitude"
+msgstr "Latitude"
+
+msgid "Longitude"
+msgstr "Longitude"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Search Box"
+msgstr "Search Box"
+
+msgid "Pickup Location Name"
+msgstr "Pickup Location Name"
+
+msgid "Pickup zipcode"
+msgstr "Pickup zipcode"
+
+msgid "Pickup Point Settings"
+msgstr "Pickup Point Settings"
+
+msgid "Marker Image"
+msgstr "Marker Image"
+
+msgid "Upload marker image to be displayed on map."
+msgstr "Upload marker image to be displayed on map."
+
+msgid "Pickup Selection Type"
+msgstr "Pickup Selection Type"
+
+msgid "By Radio Button"
+msgstr "By Radio Button"
+
+msgid "By Dropdown"
+msgstr "By Dropdown"
+
+msgid "Show pickup point as dropdown list or radio button."
+msgstr "Show pickup point as dropdown list or radio button."
+
+msgid "Auto Select first location on checkout"
+msgstr "Auto Select first location on checkout"
+
+msgid "Enable"
+msgstr "Enable"
+
+msgid "Disable"
+msgstr "Disable"
+
+msgid "Whether to select first entry on load on checkout page or force user to select entry "
+msgstr "Whether to select first entry on load on checkout page or force user to select entry "
+
+msgid "Default Position In Map"
+msgstr "Default Position In Map"
+
+msgid "eg. Lat,Lang."
+msgstr "eg. Lat,Lang."
+
+msgid "Set default position of map."
+msgstr "Set default position of map."
+
+msgid "Pickup Date Formate"
+msgstr "Pickup Date Formate"
+
+msgid "Set default date format."
+msgstr "Set default date format."
+
+msgid "Map Display"
+msgstr "Map Display"
+
+msgid "Show"
+msgstr "Show"
+
+msgid "Hide"
+msgstr "Hide"
+
+msgid "Whether to show/hide map on checkout page."
+msgstr "Whether to show/hide map on checkout page."
+
+msgid "Admin Map Zoom"
+msgstr "Admin Map Zoom"
+
+msgid "Set default map zoom in admin map display."
+msgstr "Set default map zoom in admin map display."
+
+msgid "Checkout Map Zoom"
+msgstr "Checkout Map Zoom"
+
+msgid "Set default map zoom in checkout map display."
+msgstr "Set default map zoom in checkout map display."
+
+msgid "Shortcode Map Zoom"
+msgstr "Shortcode Map Zoom"
+
+msgid "Set default map zoom in Shortcode map display"
+msgstr "Set default map zoom in Shortcode map display"
+
+msgid "Map Position"
+msgstr "Map Position"
+
+msgid "Side by side to pickup details"
+msgstr "Side by side to pickup details"
+
+msgid "Above the pickup details "
+msgstr "Above the pickup details "
+
+msgid "Whether to show map side by side or above the pickup location (best for responsive) "
+msgstr "Whether to show map side by side or above the pickup location (best for responsive) "
+
+msgid "Shipping Field Display"
+msgstr "Shipping Field Display"
+
+msgid "whether to show/hide shipping fields. Please note that once it is hidden, it will not show for other shipping method also"
+msgstr "whether to show/hide shipping fields. Please note that once it is hidden, it will not show for other shipping method also"
+
+msgid "Billing Field Display"
+msgstr "Billing Field Display"
+
+msgid "Allows customers to checkout without creating an account."
+msgstr "Allows customers to checkout without creating an account."
+
+msgid "Show/Hide Pickup Time"
+msgstr "Show/Hide Pickup Time"
+
+msgid "Whether to show/hide pickup time on checkout page."
+msgstr "Whether to show/hide pickup time on checkout page."
+
+msgid "Show/Hide Pickup Date"
+msgstr "Show/Hide Pickup Date"
+
+msgid "Whether to show/hide pickup date on checkout page."
+msgstr "Whether to show/hide pickup date on checkout page."
+
+msgid "Show Pickup Location on order list page"
+msgstr "Show Pickup Location on order list page"
+
+msgid "Whether to show/hide pickup location information on order list page"
+msgstr "Whether to show/hide pickup location information on order list page"
+
+msgid "Send Pickup Info. in order emails"
+msgstr "Send Pickup Info. in order emails"
+
+msgid "Include the pickup information in WooCommerce order emails?"
+msgstr "Include the pickup information in WooCommerce order emails?"
+
+msgid "Send email to shop owners?"
+msgstr "Send email to shop owners?"
+
+msgid "Whether to send email to pickup location owners?"
+msgstr "Whether to send email to pickup location owners?"
+
+msgid "Timepicker Formate"
+msgstr "Timepicker Formate"
+
+msgid "12 Hours"
+msgstr "12 Hours"
+
+msgid "24 Hours"
+msgstr "24 Hours"
+
+msgid "Allows customers to change time formate."
+msgstr "Allows customers to change time formate."
+
+msgid "Wrong Date Selected Message"
+msgstr "Wrong Date Selected Message"
+
+msgid "Allows customers to change Wrong Date Message."
+msgstr "Allows customers to change Wrong Date Message."
+
+msgid "Wrong Time Selected Message"
+msgstr "Wrong Time Selected Message"
+
+msgid "Allows customers to change Wrong Time Message."
+msgstr "Allows customers to change Wrong Time Message."
+
+msgid "Min Time Criteria Message"
+msgstr "Min Time Criteria Message"
+
+msgid "Message to be displayed when pickup time is less than min time"
+msgstr "Message to be displayed when pickup time is less than min time"
+
+msgid "Max Time Criteria Message"
+msgstr "Max Time Criteria Message"
+
+msgid "Message to be displayed when pickup time is greater than max time"
+msgstr "Message to be displayed when pickup time is greater than max time"
+
+msgid "Pickup date text"
+msgstr "Pickup date text"
+
+msgid "Text to be appear on pickup date textbox placeholder"
+msgstr "Text to be appear on pickup date textbox placeholder"
+
+msgid "Pickup time text"
+msgstr "Pickup time text"
+
+msgid "Text to be appear on pickup time textbox placeholder"
+msgstr "Text to be appear on pickup time textbox placeholder"
+
+msgid "Show Pickup address"
+msgstr "Show Pickup address"
+
+msgid "Whether to show/hide pickup address information"
+msgstr "Whether to show/hide pickup address information"
+
+msgid "Show Pickup Branch Email"
+msgstr "Show Pickup Branch Email"
+
+msgid "Whether to show/hide pickup email information"
+msgstr "Whether to show/hide pickup email information"
+
+msgid "Show Pickup City Name"
+msgstr "Show Pickup City Name"
+
+msgid "Whether to show/hide pickup city information"
+msgstr "Whether to show/hide pickup city information"
+
+msgid "Show Pickup State Name"
+msgstr "Show Pickup State Name"
+
+msgid "Whether to show/hide pickup state information"
+msgstr "Whether to show/hide pickup state information"
+
+msgid "Show Pickup Country Name"
+msgstr "Show Pickup Country Name"
+
+msgid "Whether to show/hide pickup country information"
+msgstr "Whether to show/hide pickup country information"
+
+msgid "Show Pickup Zipcode Name"
+msgstr "Show Pickup Zipcode Name"
+
+msgid "Whether to show/hide pickup zipcode information"
+msgstr "Whether to show/hide pickup zipcode information"
+
+msgid "Load Pickup points later"
+msgstr "Load Pickup points later"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Whether to load pickup points later after loading of checkout page"
+msgstr "Whether to load pickup points later after loading of checkout page"
+
+msgid "Set Pickup Location as default shipping"
+msgstr "Set Pickup Location as default shipping"
+
+msgid "Whether to set default shipping as pickup location on checkout page"
+msgstr "Whether to set default shipping as pickup location on checkout page"
+
+msgid "Enable Radius Search"
+msgstr "Enable Radius Search"
+
+msgid "Whether to enable radius search (it works with dropdown only)"
+msgstr "Whether to enable radius search (it works with dropdown only)"
+
+msgid "Hide pickup shipping based on order amount"
+msgstr "Hide pickup shipping based on order amount"
+
+msgid "Hide pickup shipping untill order amount reaches this amount. Leave empty if not required. Please clear cache using wc->system status->tools"
+msgstr "Hide pickup shipping untill order amount reaches this amount. Leave empty if not required. Please clear cache using wc->system status->tools"
+
+msgid "Google map api key"
+msgstr "Google map api key"
+
+msgid "Please enter your google map api key."
+msgstr "Please enter your google map api key."
+
+msgid "Hide search box in map"
+msgstr "Hide search box in map"
+
+msgid "Whether to hide or show search box in map"
+msgstr "Whether to hide or show search box in map"
+
+msgid "Enable product location based pickups? "
+msgstr "Enable product location based pickups? "
+
+msgid "Whether to enable porduct location based pickup? If enabled, you can set product location in woo product pages. If no location specified for product in cart then it will show all locations"
+msgstr "Whether to enable porduct location based pickup? If enabled, you can set product location in woo product pages. If no location specified for product in cart then it will show all locations"
+
+msgid "Enable autosuggest dropdown(select2) in pickup location selection? "
+msgstr "Enable autosuggest dropdown(select2) in pickup location selection? "
+
+msgid "Whether to enable autosuggest dropdown(select2) on checkout page for pickup location selection? "
+msgstr "Whether to enable autosuggest dropdown(select2) on checkout page for pickup location selection? "
+
+msgid "Select user roles to allow pickup locations "
+msgstr "Select user roles to allow pickup locations "
+
+msgid "Select list of user roles that will allow pickup location. If no role selected, then it will show for all roles."
+msgstr "Select list of user roles that will allow pickup location. If no role selected, then it will show for all roles."
+
+msgid "Default Datepicker Language"
+msgstr "Default Datepicker Language"
+
+msgid "Allows customers to change timepicker default language."
+msgstr "Allows customers to change timepicker default language."
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Min Time"
+msgstr "Min Time"
+
+msgid "Min time (in hrs) before product can be delivered - leave empty if no time limit "
+msgstr "Min time (in hrs) before product can be delivered - leave empty if no time limit "
+
+msgid "Max Time"
+msgstr "Max Time"
+
+msgid "Max time (in hrs) after that product will not be available - leave empty if no time limit "
+msgstr "Max time (in hrs) after that product will not be available - leave empty if no time limit "
+
+msgid "Upload CSV"
+msgstr "Upload CSV"
+
+msgid "Upload pickup location csv file"
+msgstr "Upload pickup location csv file"
+
+msgid "Pickup Location CSV file"
+msgstr "Pickup Location CSV file"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Export CSV File"
+msgstr "Export CSV File"
+
+msgid "Export"
+msgstr "Export"
+
+msgid "Product"
+msgstr "Product"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "Radius:"
+msgstr "Radius:"
+
+msgid "kms"
+msgstr "kms"
+
+msgid "Select Pickup Point"
+msgstr "Select Pickup Point"
+
+msgid " To "
+msgstr " To "
+
+msgid "Select Pickup location"
+msgstr "Select Pickup location"
+
+msgid "pickup date"
+msgstr "pickup date"
+
+msgid "pickup time"
+msgstr "pickup time"
+
+msgid "Pick Up Point"
+msgstr "Pick Up Point"
+
+msgid "No Pickup Point Selected"
+msgstr "No Pickup Point Selected"
+
+msgid "Pickup Location address"
+msgstr "Pickup Location address"
+
+msgid "WooCommerce pickup location requires woocoomerce plugin to be installed before.."
+msgstr "WooCommerce pickup location requires woocoomerce plugin to be installed before.."
+
+msgid "Search Pickup Days"
+msgstr "Search Pickup Days"
+
+msgid "All Pickup Days"
+msgstr "All Pickup Days"
+
+msgid "Parent Pickup Days"
+msgstr "Parent Pickup Days"
+
+msgid "Parent Pickup Days:"
+msgstr "Parent Pickup Days:"
+
+msgid "Edit Pickup Days"
+msgstr "Edit Pickup Days"
+
+msgid "Update Pickup Days"
+msgstr "Update Pickup Days"
+
+msgid "Add New Pickup Days"
+msgstr "Add New Pickup Days"
+
+msgid "New Pickup Days Name"
+msgstr "New Pickup Days Name"
+
+msgid "Pickup Days"
+msgstr "Pickup Days"
+
+msgid "Add New Pickup Location"
+msgstr "Add New Pickup Location"
+
+msgid "Edit Pickup Location"
+msgstr "Edit Pickup Location"
+
+msgid "New Pickup Location"
+msgstr "New Pickup Location"
+
+msgid "All Pickup Locations"
+msgstr "All Pickup Locations"
+
+msgid "View Pickup Location"
+msgstr "View Pickup Location"
+
+msgid "Search Pickup Locations"
+msgstr "Search Pickup Locations"
+
+msgid "No Pickup Location found"
+msgstr "No Pickup Location found"
+
+msgid "No Pickup Location found in the Trash"
+msgstr "No Pickup Location found in the Trash"

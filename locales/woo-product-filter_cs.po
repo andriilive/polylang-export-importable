@@ -1,0 +1,1758 @@
+msgid ""
+msgstr ""
+"X-Domain: woo-product-filter\n"
+
+msgid "String"
+msgstr "String"
+
+msgid "Done"
+msgstr "Done"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Not selected"
+msgstr "Not selected"
+
+msgid "class"
+msgstr "class"
+
+msgid "id"
+msgstr "id"
+
+msgid "You have no permissions to view this page"
+msgstr "You have no permissions to view this page"
+
+msgid "Choose Icon"
+msgstr "Choose Icon"
+
+msgid ""
+"Move files for %s failed'), $module['code'])), ErrorsWpf::MOD_INSTALL);\n"
+"\t\t\t\t}\n"
+"\t\t\t} else {\n"
+"\t\t\t\t/* translators: %s: module name */\n"
+"\t\t\t\tErrorsWpf::push(esc_html(sprintf(__('%s is not plugin module'), $module['code'])), ErrorsWpf::MOD_INSTALL);\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t\treturn false;\n"
+"\t}\n"
+"\tprotected static function _runModuleInstall( $module, $action = 'install' ) {\n"
+"\t\t$moduleLocationDir = WPF_MODULES_DIR;\n"
+"\t\tif (!empty($module['ex_plug_dir'])) {\n"
+"\t\t\t$moduleLocationDir = UtilsWpf::getPluginDir( $module['ex_plug_dir'] );\n"
+"\t\t}\n"
+"\t\tif (is_dir($moduleLocationDir . $module['code'])) {\n"
+"\t\t\tif (!class_exists($module['code'] . strFirstUpWpf(WPF_CODE))) {\n"
+"\t\t\t\timportClassWpf($module['code'] . strFirstUpWpf(WPF_CODE), $moduleLocationDir . $module['code'] . DS . 'mod.php');\n"
+"\t\t\t}\n"
+"\t\t\t$moduleClass = toeGetClassNameWpf($module['code']);\n"
+"\t\t\t$moduleObj = new $moduleClass($module);\n"
+"\t\t\tif ($moduleObj) {\n"
+"\t\t\t\t$moduleObj->$action();\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t}\n"
+"\t/**\n"
+"\t * Check whether is or no module in given path\n"
+"\t *\n"
+"\t * @param string $path path to the module\n"
+"\t * @return bool true if it is module, else - false\n"
+"\t */\n"
+"\tpublic static function isModule( $path ) {\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\t/**\n"
+"\t * Move files to plugin modules directory\n"
+"\t *\n"
+"\t * @param string $code code for module\n"
+"\t * @param string $path path from what module will be moved\n"
+"\t * @return bool is success - true, else - false\n"
+"\t */\n"
+"\tpublic static function moveFiles( $code, $path ) {\n"
+"\t\tif (!is_dir(WPF_MODULES_DIR . $code)) {\n"
+"\t\t\tif (mkdir(WPF_MODULES_DIR . $code)) {\n"
+"\t\t\t\tUtilsWpf::copyDirectories($path, WPF_MODULES_DIR . $code);\n"
+"\t\t\t\treturn true;\n"
+"\t\t\t} else {\n"
+"\t\t\t\tErrorsWpf::push(esc_html__('Cannot create module directory. Try to set permission to ' . WPF_MODULES_DIR . ' directory 755 or 777"
+msgstr ""
+"Move files for %s failed'), $module['code'])), ErrorsWpf::MOD_INSTALL);\n"
+"\t\t\t\t}\n"
+"\t\t\t} else {\n"
+"\t\t\t\t/* translators: %s: module name */\n"
+"\t\t\t\tErrorsWpf::push(esc_html(sprintf(__('%s is not plugin module'), $module['code'])), ErrorsWpf::MOD_INSTALL);\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t\treturn false;\n"
+"\t}\n"
+"\tprotected static function _runModuleInstall( $module, $action = 'install' ) {\n"
+"\t\t$moduleLocationDir = WPF_MODULES_DIR;\n"
+"\t\tif (!empty($module['ex_plug_dir'])) {\n"
+"\t\t\t$moduleLocationDir = UtilsWpf::getPluginDir( $module['ex_plug_dir'] );\n"
+"\t\t}\n"
+"\t\tif (is_dir($moduleLocationDir . $module['code'])) {\n"
+"\t\t\tif (!class_exists($module['code'] . strFirstUpWpf(WPF_CODE))) {\n"
+"\t\t\t\timportClassWpf($module['code'] . strFirstUpWpf(WPF_CODE), $moduleLocationDir . $module['code'] . DS . 'mod.php');\n"
+"\t\t\t}\n"
+"\t\t\t$moduleClass = toeGetClassNameWpf($module['code']);\n"
+"\t\t\t$moduleObj = new $moduleClass($module);\n"
+"\t\t\tif ($moduleObj) {\n"
+"\t\t\t\t$moduleObj->$action();\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t}\n"
+"\t/**\n"
+"\t * Check whether is or no module in given path\n"
+"\t *\n"
+"\t * @param string $path path to the module\n"
+"\t * @return bool true if it is module, else - false\n"
+"\t */\n"
+"\tpublic static function isModule( $path ) {\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\t/**\n"
+"\t * Move files to plugin modules directory\n"
+"\t *\n"
+"\t * @param string $code code for module\n"
+"\t * @param string $path path from what module will be moved\n"
+"\t * @return bool is success - true, else - false\n"
+"\t */\n"
+"\tpublic static function moveFiles( $code, $path ) {\n"
+"\t\tif (!is_dir(WPF_MODULES_DIR . $code)) {\n"
+"\t\t\tif (mkdir(WPF_MODULES_DIR . $code)) {\n"
+"\t\t\t\tUtilsWpf::copyDirectories($path, WPF_MODULES_DIR . $code);\n"
+"\t\t\t\treturn true;\n"
+"\t\t\t} else {\n"
+"\t\t\t\tErrorsWpf::push(esc_html__('Cannot create module directory. Try to set permission to ' . WPF_MODULES_DIR . ' directory 755 or 777"
+
+msgid ""
+"Install %s failed'), $modDataArr['code'])), ErrorsWpf::MOD_INSTALL);\n"
+"\t\t\t\t\t}\n"
+"\t\t\t\t}\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t\tif (ErrorsWpf::haveErrors(ErrorsWpf::MOD_INSTALL)) {\n"
+"\t\t\tself::displayErrors(false);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\tupdate_option(WPF_CODE . '_full_installed', 1);\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\t/**\n"
+"\t * Public alias for _getCheckRegPlugs()\n"
+"\t * We will run this each time plugin start to check modules activation messages\n"
+"\t */\n"
+"\tpublic static function checkActivationMessages() {\n"
+"\n"
+"\t}\n"
+"\t/**\n"
+"\t * Deactivate module after deactivating external plugin\n"
+"\t */\n"
+"\tpublic static function deactivate() {\n"
+"\t\t$locations = self::_getPluginLocations();\n"
+"\t\t$modules = self::_getModulesFromXml($locations['xmlPath']);\n"
+"\n"
+"\t\tforeach ($modules as $modDataArr) {\n"
+"\t\t\tif (FrameWpf::_()->moduleActive($modDataArr['code'])) { //If module is active - then deacivate it\n"
+"\t\t\t\tif (FrameWpf::_()->getModule('options')->getModel('modules')->put(array(\n"
+"\t\t\t\t\t'id' => FrameWpf::_()->getModule($modDataArr['code'])->getID(),\n"
+"\t\t\t\t\t'active' => 0,\n"
+"\t\t\t\t))->error) {\n"
+"\t\t\t\t\tErrorsWpf::push(esc_html__('Error Deactivation module"
+msgstr ""
+"Install %s failed'), $modDataArr['code'])), ErrorsWpf::MOD_INSTALL);\n"
+"\t\t\t\t\t}\n"
+"\t\t\t\t}\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t\tif (ErrorsWpf::haveErrors(ErrorsWpf::MOD_INSTALL)) {\n"
+"\t\t\tself::displayErrors(false);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\tupdate_option(WPF_CODE . '_full_installed', 1);\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\t/**\n"
+"\t * Public alias for _getCheckRegPlugs()\n"
+"\t * We will run this each time plugin start to check modules activation messages\n"
+"\t */\n"
+"\tpublic static function checkActivationMessages() {\n"
+"\n"
+"\t}\n"
+"\t/**\n"
+"\t * Deactivate module after deactivating external plugin\n"
+"\t */\n"
+"\tpublic static function deactivate() {\n"
+"\t\t$locations = self::_getPluginLocations();\n"
+"\t\t$modules = self::_getModulesFromXml($locations['xmlPath']);\n"
+"\n"
+"\t\tforeach ($modules as $modDataArr) {\n"
+"\t\t\tif (FrameWpf::_()->moduleActive($modDataArr['code'])) { //If module is active - then deacivate it\n"
+"\t\t\t\tif (FrameWpf::_()->getModule('options')->getModel('modules')->put(array(\n"
+"\t\t\t\t\t'id' => FrameWpf::_()->getModule($modDataArr['code'])->getID(),\n"
+"\t\t\t\t\t'active' => 0,\n"
+"\t\t\t\t))->error) {\n"
+"\t\t\t\t\tErrorsWpf::push(esc_html__('Error Deactivation module"
+
+msgid "Cannot create module directory. Try to set permission to ' . WPF_MODULES_DIR . ' directory 755 or 777"
+msgstr "Cannot create module directory. Try to set permission to ' . WPF_MODULES_DIR . ' directory 755 or 777"
+
+msgid "No modules were found in XML file"
+msgstr "No modules were found in XML file"
+
+msgid "Invalid XML file"
+msgstr "Invalid XML file"
+
+msgid "No XML file were found"
+msgstr "No XML file were found"
+
+msgid "Error Deactivation module"
+msgstr "Error Deactivation module"
+
+msgid "Error Activating module"
+msgstr "Error Activating module"
+
+msgid "Database error detected"
+msgstr "Database error detected"
+
+msgid "Invalid ID"
+msgstr "Invalid ID"
+
+msgid "Empty or invalid ID"
+msgstr "Empty or invalid ID"
+
+msgid "Security check"
+msgstr "Security check"
+
+msgid "Nothing to update"
+msgstr "Nothing to update"
+
+msgid "Database error. Please contact your developer."
+msgstr "Database error. Please contact your developer."
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Active"
+msgstr "Active"
+
+msgid "Params"
+msgstr "Params"
+
+msgid "Code"
+msgstr "Code"
+
+msgid "External plugin directory"
+msgstr "External plugin directory"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "code"
+msgstr "code"
+
+msgid "visits"
+msgstr "visits"
+
+msgid "spent_time"
+msgstr "spent_time"
+
+msgid "modify_timestamp"
+msgstr "modify_timestamp"
+
+msgid ""
+"Invalid length for %1$s, max length is %2$s'), $field->label, $field->maxlen)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function _( $field ) {\n"
+"\t\treturn self::validate($field);\n"
+"\t}\n"
+"\tpublic static function getErrors() {\n"
+"\t\treturn self::$errors;\n"
+"\t}\n"
+"\tpublic static function numeric( $field ) {\n"
+"\t\tif (!is_numeric($field->value) && !empty($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Invalid numeric value for %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function int( $field ) {\n"
+"\t\treturn self::numeric($field);\n"
+"\t}\n"
+"\tpublic static function float( $field ) {\n"
+"\t\treturn self::numeric($field);\n"
+"\t}\n"
+"\tpublic static function double( $field ) {\n"
+"\t\treturn self::numeric($field);\n"
+"\t}\n"
+"\tprotected static function _notEmpty( $value ) {\n"
+"\t\tif (is_array($value)) {\n"
+"\t\t\tforeach ($value as $v) {\n"
+"\t\t\t\tif (self::_notEmpty($v)) {       //If at least 1 element of array are not empty - all array will be not empty\n"
+"\t\t\t\t\t$res = true;\n"
+"\t\t\t\t\tbreak;\n"
+"\t\t\t\t}\n"
+"\t\t\t}\n"
+"\t\t} else {\n"
+"\t\t\t$res = !empty($value);\n"
+"\t\t}\n"
+"\t\treturn $res;\n"
+"\t}\n"
+"\tpublic static function notEmpty( $field ) {\n"
+"\t\tif (!self::_notEmpty($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Please enter %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function selectNotEmpty( $field ) {\n"
+"\t\tif (empty($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Please select %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function email( $field ) {\n"
+"\t\tif (!is_email($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Invalid %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t} elseif (email_exists($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('%s is already registered'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function addError( $error, $key = '' ) {\n"
+"\t\tif ($key) {\n"
+"\t\t\tself::$errors[$key] = $error;\n"
+"\t\t} else {\n"
+"\t\t\tself::$errors[] = $error;\n"
+"\t\t}\n"
+"\t}\n"
+"\tpublic static function string( $field ) {\n"
+"\t\tif (preg_match('/([0-9].*)/', $field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Invalid %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function getProductValidationMethods() {\n"
+"\t\t$res = array();\n"
+"\t\t$all = get_class_methods('ValidatorWpf');\n"
+"\t\tforeach ($all as $m) {\n"
+"\t\t\tif (in_array($m, array('int"
+msgstr ""
+"Invalid length for %1$s, max length is %2$s'), $field->label, $field->maxlen)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function _( $field ) {\n"
+"\t\treturn self::validate($field);\n"
+"\t}\n"
+"\tpublic static function getErrors() {\n"
+"\t\treturn self::$errors;\n"
+"\t}\n"
+"\tpublic static function numeric( $field ) {\n"
+"\t\tif (!is_numeric($field->value) && !empty($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Invalid numeric value for %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function int( $field ) {\n"
+"\t\treturn self::numeric($field);\n"
+"\t}\n"
+"\tpublic static function float( $field ) {\n"
+"\t\treturn self::numeric($field);\n"
+"\t}\n"
+"\tpublic static function double( $field ) {\n"
+"\t\treturn self::numeric($field);\n"
+"\t}\n"
+"\tprotected static function _notEmpty( $value ) {\n"
+"\t\tif (is_array($value)) {\n"
+"\t\t\tforeach ($value as $v) {\n"
+"\t\t\t\tif (self::_notEmpty($v)) {       //If at least 1 element of array are not empty - all array will be not empty\n"
+"\t\t\t\t\t$res = true;\n"
+"\t\t\t\t\tbreak;\n"
+"\t\t\t\t}\n"
+"\t\t\t}\n"
+"\t\t} else {\n"
+"\t\t\t$res = !empty($value);\n"
+"\t\t}\n"
+"\t\treturn $res;\n"
+"\t}\n"
+"\tpublic static function notEmpty( $field ) {\n"
+"\t\tif (!self::_notEmpty($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Please enter %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function selectNotEmpty( $field ) {\n"
+"\t\tif (empty($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Please select %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function email( $field ) {\n"
+"\t\tif (!is_email($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Invalid %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t} elseif (email_exists($field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('%s is already registered'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function addError( $error, $key = '' ) {\n"
+"\t\tif ($key) {\n"
+"\t\t\tself::$errors[$key] = $error;\n"
+"\t\t} else {\n"
+"\t\t\tself::$errors[] = $error;\n"
+"\t\t}\n"
+"\t}\n"
+"\tpublic static function string( $field ) {\n"
+"\t\tif (preg_match('/([0-9].*)/', $field->value)) {\n"
+"\t\t\t/* translators: %s: label */\n"
+"\t\t\tself::addError(esc_html(sprintf(__('Invalid %s'), $field->label)), $field->name);\n"
+"\t\t\treturn false;\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"\tpublic static function getProductValidationMethods() {\n"
+"\t\t$res = array();\n"
+"\t\t$all = get_class_methods('ValidatorWpf');\n"
+"\t\tforeach ($all as $m) {\n"
+"\t\t\tif (in_array($m, array('int"
+
+msgid "Cool WordPress plugins from woobewoo.com developers. I tried %s - and this was what I need! #woobewoo.com"
+msgstr "Cool WordPress plugins from woobewoo.com developers. I tried %s - and this was what I need! #woobewoo.com"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid ""
+"Now check your email inbox / spam folders for test mail.'));\n"
+"\t\t} else {\n"
+"\t\t\t$res->pushError ($this->getModel()->getErrors());\n"
+"\t\t}\n"
+"\t\t$res->ajaxExec();\n"
+"\t}\n"
+"\tpublic function saveMailTestRes() {\n"
+"\t\t$res = new ResponseWpf();\n"
+"\t\t$result = (int) ReqWpf::getVar('result"
+msgstr ""
+"Now check your email inbox / spam folders for test mail.'));\n"
+"\t\t} else {\n"
+"\t\t\t$res->pushError ($this->getModel()->getErrors());\n"
+"\t\t}\n"
+"\t\t$res->ajaxExec();\n"
+"\t}\n"
+"\tpublic function saveMailTestRes() {\n"
+"\t\t$res = new ResponseWpf();\n"
+"\t\t$result = (int) ReqWpf::getVar('result"
+
+msgid "Cannot send email - problem with send server"
+msgstr "Cannot send email - problem with send server"
+
+msgid "Mail"
+msgstr "Mail"
+
+msgid "Mail function tested and work"
+msgstr "Mail function tested and work"
+
+msgid "Notify Email"
+msgstr "Notify Email"
+
+msgid "Email address used for all email notifications from plugin"
+msgstr "Email address used for all email notifications from plugin"
+
+msgid "Test email functionality"
+msgstr "Test email functionality"
+
+msgid "This is a test email for testing email functionality on your site, %s."
+msgstr "This is a test email for testing email functionality on your site, %s."
+
+msgid "Empty email address"
+msgstr "Empty email address"
+
+msgid "Turned On %s"
+msgstr "Turned On %s"
+
+msgid "Turned Off %s"
+msgstr "Turned Off %s"
+
+msgid ""
+"Send test email to'); ?>\n"
+"\t\t<?php HtmlWpf::text('test_email', array('value' => $this->testEmail)); ?>\n"
+"\t</label>\n"
+"\t<?php HtmlWpf::hidden('mod', array('value' => 'mail')); ?>\n"
+"\t<?php HtmlWpf::hidden('action', array('value' => 'testEmail')); ?>\n"
+"\t<button class=\"button button-primary\">\n"
+"\t\t<i class=\"fa fa-paper-plane\"></i>\n"
+"\t\t<?php esc_html_e('Send test"
+msgstr ""
+"Send test email to'); ?>\n"
+"\t\t<?php HtmlWpf::text('test_email', array('value' => $this->testEmail)); ?>\n"
+"\t</label>\n"
+"\t<?php HtmlWpf::hidden('mod', array('value' => 'mail')); ?>\n"
+"\t<?php HtmlWpf::hidden('action', array('value' => 'testEmail')); ?>\n"
+"\t<button class=\"button button-primary\">\n"
+"\t\t<i class=\"fa fa-paper-plane\"></i>\n"
+"\t\t<?php esc_html_e('Send test"
+
+msgid "This option allows you to check your server mail functionality"
+msgstr "This option allows you to check your server mail functionality"
+
+msgid "Did you receive test email?"
+msgstr "Did you receive test email?"
+
+msgid "Yes! It works!"
+msgstr "Yes! It works!"
+
+msgid "No, I need to contact my hosting provider with mail function issue."
+msgstr "No, I need to contact my hosting provider with mail function issue."
+
+msgid "Great! Mail function was tested and is working fine."
+msgstr "Great! Mail function was tested and is working fine."
+
+msgid "Bad, please contact your hosting provider and ask them to setup mail functionality on your server."
+msgstr "Bad, please contact your hosting provider and ask them to setup mail functionality on your server."
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Main Page"
+msgstr "Main Page"
+
+msgid "General"
+msgstr "General"
+
+msgid "Send usage statistics"
+msgstr "Send usage statistics"
+
+msgid "Send information about what plugin options you prefer to use, this will help us make our solution better for You."
+msgstr "Send information about what plugin options you prefer to use, this will help us make our solution better for You."
+
+msgid "Set number of displayed products"
+msgstr "Set number of displayed products"
+
+msgid "Set number of displayed products. Leave blank for the default value."
+msgstr "Set number of displayed products. Leave blank for the default value."
+
+msgid "Move Sidebar To Top For Mobile"
+msgstr "Move Sidebar To Top For Mobile"
+
+msgid "Turn on if you want the sidebar to appear above content on mobile devices."
+msgstr "Turn on if you want the sidebar to appear above content on mobile devices."
+
+msgid "Module Updated"
+msgstr "Module Updated"
+
+msgid "Module Update Failed"
+msgstr "Module Update Failed"
+
+msgid "Error module ID"
+msgstr "Error module ID"
+
+msgid "Empty data to save option"
+msgstr "Empty data to save option"
+
+msgid "Main page Go here!!!!"
+msgstr "Main page Go here!!!!"
+
+msgid "PRO option"
+msgstr "PRO option"
+
+msgid "Delete Plugin Data (options, setup data, database tables, etc.)"
+msgstr "Delete Plugin Data (options, setup data, database tables, etc.)"
+
+msgid "Information was saved. Thank you!"
+msgstr "Information was saved. Thank you!"
+
+msgid ""
+"Please don\\'t send contact requests so often - wait for response for your previous requests.'));\n"
+"\t\t\t$res->ajaxExec();\n"
+"\t\t}\n"
+"\t\t$data = ReqWpf::get('post');\n"
+"\t\t$fields = $this->getModule()->getContactFormFields();\n"
+"\t\tforeach ($fields as $fName => $fData) {\n"
+"\t\t\t$validate = isset($fData['validate']) ? $fData['validate'] : false;\n"
+"\t\t\t$data[ $fName ] = isset($data[ $fName ]) ? trim($data[ $fName ]) : '';\n"
+"\t\t\tif ($validate) {\n"
+"\t\t\t\t$error = '';\n"
+"\t\t\t\tforeach ($validate as $v) {\n"
+"\t\t\t\t\tif (!empty($error)) {\n"
+"\t\t\t\t\t\tbreak;\n"
+"\t\t\t\t\t}\n"
+"\t\t\t\t\tswitch ($v) {\n"
+"\t\t\t\t\t\tcase 'notEmpty':\n"
+"\t\t\t\t\t\t\tif (empty($data[ $fName ])) {\n"
+"\t\t\t\t\t\t\t\t/* translators: %s: label */\n"
+"\t\t\t\t\t\t\t\t$error = 'selectbox' == $fData['html'] ? esc_html__('Please select %s"
+msgstr ""
+"Please don\\'t send contact requests so often - wait for response for your previous requests.'));\n"
+"\t\t\t$res->ajaxExec();\n"
+"\t\t}\n"
+"\t\t$data = ReqWpf::get('post');\n"
+"\t\t$fields = $this->getModule()->getContactFormFields();\n"
+"\t\tforeach ($fields as $fName => $fData) {\n"
+"\t\t\t$validate = isset($fData['validate']) ? $fData['validate'] : false;\n"
+"\t\t\t$data[ $fName ] = isset($data[ $fName ]) ? trim($data[ $fName ]) : '';\n"
+"\t\t\tif ($validate) {\n"
+"\t\t\t\t$error = '';\n"
+"\t\t\t\tforeach ($validate as $v) {\n"
+"\t\t\t\t\tif (!empty($error)) {\n"
+"\t\t\t\t\t\tbreak;\n"
+"\t\t\t\t\t}\n"
+"\t\t\t\t\tswitch ($v) {\n"
+"\t\t\t\t\t\tcase 'notEmpty':\n"
+"\t\t\t\t\t\t\tif (empty($data[ $fName ])) {\n"
+"\t\t\t\t\t\t\t\t/* translators: %s: label */\n"
+"\t\t\t\t\t\t\t\t$error = 'selectbox' == $fData['html'] ? esc_html__('Please select %s"
+
+msgid "Please enter %s"
+msgstr "Please enter %s"
+
+msgid "Please enter valid email address"
+msgstr "Please enter valid email address"
+
+msgid "Thank you for Feedback!"
+msgstr "Thank you for Feedback!"
+
+msgid "Hey, I noticed you just use %s over a week – that’s awesome!"
+msgstr "Hey, I noticed you just use %s over a week – that’s awesome!"
+
+msgid "More then eleven days with our %s plugin - Congratulations!"
+msgstr "More then eleven days with our %s plugin - Congratulations!"
+
+msgid "Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help us spread the word and boost our motivation."
+msgstr "Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help us spread the word and boost our motivation."
+
+msgid "Ok, you deserve it"
+msgstr "Ok, you deserve it"
+
+msgid "Nope, maybe later"
+msgstr "Nope, maybe later"
+
+msgid "I already did"
+msgstr "I already did"
+
+msgid "On behalf of the entire %s company I would like to thank you for been with us, and I really hope that our software helped you."
+msgstr "On behalf of the entire %s company I would like to thank you for been with us, and I really hope that our software helped you."
+
+msgid "And today, if you want, - you can help us. This is really simple - you can just add small promo link to our site under your PopUps. This is small step for you, but a big help for us! Sure, if you don\\'t want - just skip this and continue enjoy our software!"
+msgstr "And today, if you want, - you can help us. This is really simple - you can just add small promo link to our site under your PopUps. This is small step for you, but a big help for us! Sure, if you don\\'t want - just skip this and continue enjoy our software!"
+
+msgid "Skip"
+msgstr "Skip"
+
+msgid "You can help us improve our plugin - by"
+msgstr "You can help us improve our plugin - by"
+
+msgid "enabling Usage Statistics"
+msgstr "enabling Usage Statistics"
+
+msgid "We will collect only our plugin usage statistic data - to understand Your needs and make our solution better for You."
+msgstr "We will collect only our plugin usage statistic data - to understand Your needs and make our solution better for You."
+
+msgid "Check out %s! Years of experience in WordPress plugins developers made those list unbreakable!"
+msgstr "Check out %s! Years of experience in WordPress plugins developers made those list unbreakable!"
+
+msgid "Constant Contact - PRO"
+msgstr "Constant Contact - PRO"
+
+msgid "Campaign Monitor - PRO"
+msgstr "Campaign Monitor - PRO"
+
+msgid "Vertical Response - PRO"
+msgstr "Vertical Response - PRO"
+
+msgid "SendGrid - PRO"
+msgstr "SendGrid - PRO"
+
+msgid "GetResponse - PRO"
+msgstr "GetResponse - PRO"
+
+msgid "iContact - PRO"
+msgstr "iContact - PRO"
+
+msgid "Active Campaign - PRO"
+msgstr "Active Campaign - PRO"
+
+msgid "Mailrelay - PRO"
+msgstr "Mailrelay - PRO"
+
+msgid "arpReach - PRO"
+msgstr "arpReach - PRO"
+
+msgid "SG Autorepondeur - PRO"
+msgstr "SG Autorepondeur - PRO"
+
+msgid "Benchmark - PRO"
+msgstr "Benchmark - PRO"
+
+msgid "InfusionSoft - PRO"
+msgstr "InfusionSoft - PRO"
+
+msgid "SalesForce - Web-to-Lead - PRO"
+msgstr "SalesForce - Web-to-Lead - PRO"
+
+msgid "ConvertKit - PRO"
+msgstr "ConvertKit - PRO"
+
+msgid "Emma - PRO"
+msgstr "Emma - PRO"
+
+msgid "SendinBlue - PRO"
+msgstr "SendinBlue - PRO"
+
+msgid "Vision6 - PRO"
+msgstr "Vision6 - PRO"
+
+msgid "Vtiger - PRO"
+msgstr "Vtiger - PRO"
+
+msgid "Your Mailing List Provider (Ymlp) - PRO"
+msgstr "Your Mailing List Provider (Ymlp) - PRO"
+
+msgid "4Dem.it - PRO"
+msgstr "4Dem.it - PRO"
+
+msgid "Testing"
+msgstr "Testing"
+
+msgid "Get PRO"
+msgstr "Get PRO"
+
+msgid "Login/Registration"
+msgstr "Login/Registration"
+
+msgid "Popup Location"
+msgstr "Popup Location"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Subject"
+msgstr "Subject"
+
+msgid "Topic"
+msgstr "Topic"
+
+msgid "Plugin options"
+msgstr "Plugin options"
+
+msgid "Report a bug"
+msgstr "Report a bug"
+
+msgid "Require a new functionality"
+msgstr "Require a new functionality"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Message"
+msgstr "Message"
+
+msgid ""
+"By default all subscribers add to the WordPress. \n"
+"\t\t\t\t\tTo find your subscribers go to Users tab on the left navigation menu of WordPress admin area. \n"
+"\t\t\t\t\tAlso available subscription to the Aweber, MailChimp, MailPoet %1$s. \n"
+"\t\t\t\t\tIf you want to add another subscription service - just %2$s and provide URL of the subscription service."
+msgstr ""
+"By default all subscribers add to the WordPress. \n"
+"\t\t\t\t\tTo find your subscribers go to Users tab on the left navigation menu of WordPress admin area. \n"
+"\t\t\t\t\tAlso available subscription to the Aweber, MailChimp, MailPoet %1$s. \n"
+"\t\t\t\t\tIf you want to add another subscription service - just %2$s and provide URL of the subscription service."
+
+msgid "and other"
+msgstr "and other"
+
+msgid "contact us"
+msgstr "contact us"
+
+msgid "If you setup you're PopUp properly, and it still doesn't show on the page - there are can be conflict with your WordPress theme or other plugins. %s with the URL of the webpage you add popup and screenshots / text of the error messages, if you have one - and we will help you resolve your issue."
+msgstr "If you setup you're PopUp properly, and it still doesn't show on the page - there are can be conflict with your WordPress theme or other plugins. %s with the URL of the webpage you add popup and screenshots / text of the error messages, if you have one - and we will help you resolve your issue."
+
+msgid "Contact us"
+msgstr "Contact us"
+
+msgid "Where's my subscribers?"
+msgstr "Where's my subscribers?"
+
+msgid "PopUp doesn't appear on the website"
+msgstr "PopUp doesn't appear on the website"
+
+msgid "There were some problems while trying to retrieve our news, but you can always check all list %s."
+msgstr "There were some problems while trying to retrieve our news, but you can always check all list %s."
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "On Exit from Site"
+msgstr "On Exit from Site"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Go"
+msgstr "Go"
+
+msgid "PRO"
+msgstr "PRO"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Get plugins bundle today and save over 80%"
+msgstr "Get plugins bundle today and save over 80%"
+
+msgid "Check It out"
+msgstr "Check It out"
+
+msgid "More info"
+msgstr "More info"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "If you have a moment, please share why you are deactivating %s"
+msgstr "If you have a moment, please share why you are deactivating %s"
+
+msgid "Your Feedback"
+msgstr "Your Feedback"
+
+msgid "Couldn\\'t get the plugin to work"
+msgstr "Couldn\\'t get the plugin to work"
+
+msgid "If you have a question, %s and will do our best to help you"
+msgstr "If you have a question, %s and will do our best to help you"
+
+msgid "I found a better plugin"
+msgstr "I found a better plugin"
+
+msgid "I no longer need the plugin"
+msgstr "I no longer need the plugin"
+
+msgid "It\\'s a temporary deactivation"
+msgstr "It\\'s a temporary deactivation"
+
+msgid "Skip & Deactivate"
+msgstr "Skip & Deactivate"
+
+msgid "Add New Filter"
+msgstr "Add New Filter"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Show All Filters"
+msgstr "Show All Filters"
+
+msgid "Select..."
+msgstr "Select..."
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Price range"
+msgstr "Price range"
+
+msgid "Sort by"
+msgstr "Sort by"
+
+msgid "Product categories"
+msgstr "Product categories"
+
+msgid "Product tags"
+msgstr "Product tags"
+
+msgid "Attribute"
+msgstr "Attribute"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Featured"
+msgstr "Featured"
+
+msgid "On sale"
+msgstr "On sale"
+
+msgid "Stock status"
+msgstr "Stock status"
+
+msgid "Rating"
+msgstr "Rating"
+
+msgid "Search by Text"
+msgstr "Search by Text"
+
+msgid "Perfect brands"
+msgstr "Perfect brands"
+
+msgid "Product brands"
+msgstr "Product brands"
+
+msgid "Vendors"
+msgstr "Vendors"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Popularity"
+msgstr "Popularity"
+
+msgid "Newness"
+msgstr "Newness"
+
+msgid "Price: low to high"
+msgstr "Price: low to high"
+
+msgid "Price: high to low"
+msgstr "Price: high to low"
+
+msgid "Random"
+msgstr "Random"
+
+msgid "Name A to Z"
+msgstr "Name A to Z"
+
+msgid "Name Z to A"
+msgstr "Name Z to A"
+
+msgid "In Stock"
+msgstr "In Stock"
+
+msgid "Out of Stock"
+msgstr "Out of Stock"
+
+msgid "On Backorder"
+msgstr "On Backorder"
+
+msgid "On Sale"
+msgstr "On Sale"
+
+msgid "Search ..."
+msgstr "Search ..."
+
+msgid "Delete selected"
+msgstr "Delete selected"
+
+msgid "You have no Filters for now."
+msgstr "You have no Filters for now."
+
+msgid "Create"
+msgstr "Create"
+
+msgid "your Filter"
+msgstr "your Filter"
+
+msgid "Using short code display the filter and products in the desired place of the template."
+msgstr "Using short code display the filter and products in the desired place of the template."
+
+msgid "Learn More"
+msgstr "Learn More"
+
+msgid "Filter name:"
+msgstr "Filter name:"
+
+msgid "Filter Shortcode"
+msgstr "Filter Shortcode"
+
+msgid "Filter PHP code"
+msgstr "Filter PHP code"
+
+msgid "Product Shortcode"
+msgstr "Product Shortcode"
+
+msgid "Product PHP code"
+msgstr "Product PHP code"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Filters"
+msgstr "Filters"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Design"
+msgstr "Design"
+
+msgid "Preview"
+msgstr "Preview"
+
+msgid "Show title label with open/close filter functionality. Be carefull when show it as close with \"Hide filter by title click\" filter oprionality. In such case users do not see filter content."
+msgstr "Show title label with open/close filter functionality. Be carefull when show it as close with \"Hide filter by title click\" filter oprionality. In such case users do not see filter content."
+
+msgid "Show title label"
+msgstr "Show title label"
+
+msgid "desktop"
+msgstr "desktop"
+
+msgid "mobile"
+msgstr "mobile"
+
+msgid "Choose tags for filter titles. Any settings you leave blank will default ."
+msgstr "Choose tags for filter titles. Any settings you leave blank will default ."
+
+msgid "Use Custom tags"
+msgstr "Use Custom tags"
+
+msgid "Filter header"
+msgstr "Filter header"
+
+msgid "1-st level title"
+msgstr "1-st level title"
+
+msgid "2-nd level title"
+msgstr "2-nd level title"
+
+msgid "3-rd level title"
+msgstr "3-rd level title"
+
+msgid "Set the filter width in pixels or percent ."
+msgstr "Set the filter width in pixels or percent ."
+
+msgid "Set the filter block height in pixels. If not filled, then the height is calculated automatically based on the content of the filter. Please note that if the value of the Maximum height in frontend of the filter is greater than the specified value, some data may be hidden ."
+msgstr "Set the filter block height in pixels. If not filled, then the height is calculated automatically based on the content of the filter. Please note that if the value of the Maximum height in frontend of the filter is greater than the specified value, some data may be hidden ."
+
+msgid "Choose custom styles for filter blocks. Any settings you leave blank will default ."
+msgstr "Choose custom styles for filter blocks. Any settings you leave blank will default ."
+
+msgid " Choose custom styles for filter titles. Any settings you leave blank will default ."
+msgstr " Choose custom styles for filter titles. Any settings you leave blank will default ."
+
+msgid " Choose custom styles for filter buttons. Any settings you leave blank will default ."
+msgstr " Choose custom styles for filter buttons. Any settings you leave blank will default ."
+
+msgid "Blocks"
+msgstr "Blocks"
+
+msgid "Titles"
+msgstr "Titles"
+
+msgid "Buttons"
+msgstr "Buttons"
+
+msgid "General styles"
+msgstr "General styles"
+
+msgid "Filter Width"
+msgstr "Filter Width"
+
+msgid "Filter Block Width"
+msgstr "Filter Block Width"
+
+msgid "Filter Block Height"
+msgstr "Filter Block Height"
+
+msgid "CSS editor"
+msgstr "CSS editor"
+
+msgid "JS editor"
+msgstr "JS editor"
+
+msgid "Use theme styles"
+msgstr "Use theme styles"
+
+msgid "Blocks Styling"
+msgstr "Blocks Styling"
+
+msgid "Use Custom Styles"
+msgstr "Use Custom Styles"
+
+msgid "Titles Styling"
+msgstr "Titles Styling"
+
+msgid "Buttons Styling"
+msgstr "Buttons Styling"
+
+msgid "Select filters to add"
+msgstr "Select filters to add"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "Already in the list"
+msgstr "Already in the list"
+
+msgid "Оnly one of"
+msgstr "Оnly one of"
+
+msgid "is available"
+msgstr "is available"
+
+msgid "From"
+msgstr "From"
+
+msgid "To"
+msgstr "To"
+
+msgid "Do not leave empty fields. Enter `i` if you want the value to be calculated automatically (for From field this will be the minimum price, for field To - the maximum price"
+msgstr "Do not leave empty fields. Enter `i` if you want the value to be calculated automatically (for From field this will be the minimum price, for field To - the maximum price"
+
+msgid " Select attribute to be displayed on site from the list ."
+msgstr " Select attribute to be displayed on site from the list ."
+
+msgid " Depending on whether you need one or several attributes to be available at the same time, show attributes list as checkbox or dropdown. <strong>Attention!</strong> Slider type work only with numeric titles of attributes ."
+msgstr " Depending on whether you need one or several attributes to be available at the same time, show attributes list as checkbox or dropdown. <strong>Attention!</strong> Slider type work only with numeric titles of attributes ."
+
+msgid " Attributes are displayed according to the order of their selection in the input fields  ."
+msgstr " Attributes are displayed according to the order of their selection in the input fields  ."
+
+msgid "By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url)."
+msgstr "By default if a value is selected in the filter, items without products will still be displayed (this was done on purpose so that you can quickly switch between items).If the option is enabled, empty elements will be hidden regardless of the filter activity (this also applies to loading via ajax and when reloading the page with the parameters specified in the url)."
+
+msgid " Show count display the number of products that have the appropriate parameter ."
+msgstr " Show count display the number of products that have the appropriate parameter ."
+
+msgid " Select attributes to be displayed on site from the list. If you want to select several attributes, hold the \"Shift\" button and click on names. Or you can hold \"Ctrl\" and click on names. Press \"Ctrl\" + \"a\" for checking all names ."
+msgstr " Select attributes to be displayed on site from the list. If you want to select several attributes, hold the \"Shift\" button and click on names. Or you can hold \"Ctrl\" and click on names. Press \"Ctrl\" + \"a\" for checking all names ."
+
+msgid " Selected attributes will be marked as default  ."
+msgstr " Selected attributes will be marked as default  ."
+
+msgid " Set attributes sorting by ascendance or descendance  ."
+msgstr " Set attributes sorting by ascendance or descendance  ."
+
+msgid " If checked, the entire list of attributes will always be visible, otherwise only available for filtered items  ."
+msgstr " If checked, the entire list of attributes will always be visible, otherwise only available for filtered items  ."
+
+msgid " Select a vertical or horizontal layout and set the count of columns  ."
+msgstr " Select a vertical or horizontal layout and set the count of columns  ."
+
+msgid " Set maximum displayed height in frontend  ."
+msgstr " Set maximum displayed height in frontend  ."
+
+msgid "Select attribute"
+msgstr "Select attribute"
+
+msgid "Show on frontend as"
+msgstr "Show on frontend as"
+
+msgid "Dropdown label"
+msgstr "Dropdown label"
+
+msgid "Show search for dropdown"
+msgstr "Show search for dropdown"
+
+msgid "Order by custom"
+msgstr "Order by custom"
+
+msgid "Hide attributes without products"
+msgstr "Hide attributes without products"
+
+msgid "Same behavior for active filter"
+msgstr "Same behavior for active filter"
+
+msgid "Show count"
+msgstr "Show count"
+
+msgid "Attributes"
+msgstr "Attributes"
+
+msgid "Make selected attributes as default"
+msgstr "Make selected attributes as default"
+
+msgid "Logic"
+msgstr "Logic"
+
+msgid "Sort as numbers"
+msgstr "Sort as numbers"
+
+msgid "Show search"
+msgstr "Show search"
+
+msgid "Always display all attributes"
+msgstr "Always display all attributes"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Columns"
+msgstr "Columns"
+
+msgid "Maximum height in frontend"
+msgstr "Maximum height in frontend"
+
+msgid " Define which role show users in the drop down  ."
+msgstr " Define which role show users in the drop down  ."
+
+msgid " Show your roles list as checkbox or dropdown  ."
+msgstr " Show your roles list as checkbox or dropdown  ."
+
+msgid " Dropdown first option text  ."
+msgstr " Dropdown first option text  ."
+
+msgid "Show search field in multiple dropdown box. "
+msgstr "Show search field in multiple dropdown box. "
+
+msgid " Show search display the bar for searching by author name in the filter ."
+msgstr " Show search display the bar for searching by author name in the filter ."
+
+msgid " Set maximum displayed height in frontend ."
+msgstr " Set maximum displayed height in frontend ."
+
+msgid "Roles"
+msgstr "Roles"
+
+msgid " Depending on whether you need one or several categories to be available at the same time, you may show your categories list as checkbox or dropdown . "
+msgstr " Depending on whether you need one or several categories to be available at the same time, you may show your categories list as checkbox or dropdown . "
+
+msgid " Show paternal and subsidiary categories (for checkbox list). If you display only some categories, make sure that the parent categories are selected ."
+msgstr " Show paternal and subsidiary categories (for checkbox list). If you display only some categories, make sure that the parent categories are selected ."
+
+msgid " Restrict filtering result only to child categories or only to parent if both of them selected in the same time ."
+msgstr " Restrict filtering result only to child categories or only to parent if both of them selected in the same time ."
+
+msgid "The level of child categories from which to start collapsing"
+msgstr "The level of child categories from which to start collapsing"
+
+msgid " If parent filter category was selected then extend filter result to child categories ."
+msgstr " If parent filter category was selected then extend filter result to child categories ."
+
+msgid " Dropdown first option text."
+msgstr " Dropdown first option text."
+
+msgid " Set categories sorting by ascendance or descendance."
+msgstr " Set categories sorting by ascendance or descendance."
+
+msgid " Categories are displayed according to the order of their selection in the input fields ."
+msgstr " Categories are displayed according to the order of their selection in the input fields ."
+
+msgid " Show count display the number of products that have the appropriate parameter (attribute, category, tag)."
+msgstr " Show count display the number of products that have the appropriate parameter (attribute, category, tag)."
+
+msgid " Count for parent category also her children count. <strong>Warning!</strong> If filtering will slow do uncheck this option ."
+msgstr " Count for parent category also her children count. <strong>Warning!</strong> If filtering will slow do uncheck this option ."
+
+msgid " Hide categories without products."
+msgstr " Hide categories without products."
+
+msgid " Select product categories to be displayed on site from the list. If you want to select several categories, hold the \"Shift\" button and click on category names. Or you can hold \"Ctrl\" and click on category names. Press \"Ctrl\" + \"a\" for checking all categories."
+msgstr " Select product categories to be displayed on site from the list. If you want to select several categories, hold the \"Shift\" button and click on category names. Or you can hold \"Ctrl\" and click on category names. Press \"Ctrl\" + \"a\" for checking all categories."
+
+msgid " Selected categories will be marked as default and hidden on frontend . "
+msgstr " Selected categories will be marked as default and hidden on frontend . "
+
+msgid " When the filter is clear, he will be restrict filtered results only by selected items. Be careful when using with other filters in block! . "
+msgstr " When the filter is clear, he will be restrict filtered results only by selected items. Be careful when using with other filters in block! . "
+
+msgid "Exclude category terms from filter by ids. Example input: 1,2,3 . "
+msgstr "Exclude category terms from filter by ids. Example input: 1,2,3 . "
+
+msgid "Show search display the bar for searching by category name in the filter . "
+msgstr "Show search display the bar for searching by category name in the filter . "
+
+msgid "If checked, the entire list of categories will always be visible, otherwise only available for filtered items. "
+msgstr "If checked, the entire list of categories will always be visible, otherwise only available for filtered items. "
+
+msgid "Select a vertical or horizontal layout and set the count of columns. "
+msgstr "Select a vertical or horizontal layout and set the count of columns. "
+
+msgid " Set maximum displayed height in frontend. "
+msgstr " Set maximum displayed height in frontend. "
+
+msgid "Show hierarchical"
+msgstr "Show hierarchical"
+
+msgid "Hide categories parent"
+msgstr "Hide categories parent"
+
+msgid "Collapsible"
+msgstr "Collapsible"
+
+msgid "Product selection hierarchically"
+msgstr "Product selection hierarchically"
+
+msgid "Collapse level"
+msgstr "Collapse level"
+
+msgid "Filter with children"
+msgstr "Filter with children"
+
+msgid "Count parents with children"
+msgstr "Count parents with children"
+
+msgid "Hide categories without products"
+msgstr "Hide categories without products"
+
+msgid "Include children"
+msgstr "Include children"
+
+msgid "Make selected categories as default"
+msgstr "Make selected categories as default"
+
+msgid "Restrict filtering results only to selected categories"
+msgstr "Restrict filtering results only to selected categories"
+
+msgid "Exclude terms ids"
+msgstr "Exclude terms ids"
+
+msgid "Hide child"
+msgstr "Hide child"
+
+msgid "Always display all categories"
+msgstr "Always display all categories"
+
+msgid "Custom title"
+msgstr "Custom title"
+
+msgid " Dropdown first option text. "
+msgstr " Dropdown first option text. "
+
+msgid " Select the sorting options available for site users (min two options). "
+msgstr " Select the sorting options available for site users (min two options). "
+
+msgid "Change stock status names. "
+msgstr "Change stock status names. "
+
+msgid "Change status names"
+msgstr "Change status names"
+
+msgid "Checkbox label"
+msgstr "Checkbox label"
+
+msgid "Hide brands parent"
+msgstr "Hide brands parent"
+
+msgid "Hide brands without products"
+msgstr "Hide brands without products"
+
+msgid "Make selected brands as default"
+msgstr "Make selected brands as default"
+
+msgid "Clear filter only to selected brands"
+msgstr "Clear filter only to selected brands"
+
+msgid "Always display all brands"
+msgstr "Always display all brands"
+
+msgid "Use for other filters"
+msgstr "Use for other filters"
+
+msgid "Select the price filter skin. "
+msgstr "Select the price filter skin. "
+
+msgid "Filter skin"
+msgstr "Filter skin"
+
+msgid "Show price input fields"
+msgstr "Show price input fields"
+
+msgid "Symbol position"
+msgstr "Symbol position"
+
+msgid "Show currency as"
+msgstr "Show currency as"
+
+msgid "Use text tooltip instead of input fields"
+msgstr "Use text tooltip instead of input fields"
+
+msgid "Depending on whether you need one or several categories to be available at the same time, show your categories list as checkbox or dropdown. "
+msgstr "Depending on whether you need one or several categories to be available at the same time, show your categories list as checkbox or dropdown. "
+
+msgid "If this option is enabled, set the price range settings automatically. "
+msgstr "If this option is enabled, set the price range settings automatically. "
+
+msgid "Set the value of prise increase step. The default value is set to 20. All the steps are equal. When setting the step, please note that the number of elements in the list should not exceed 100, otherwise the step setting will be reset and automatically calculated. "
+msgstr "Set the value of prise increase step. The default value is set to 20. All the steps are equal. When setting the step, please note that the number of elements in the list should not exceed 100, otherwise the step setting will be reset and automatically calculated. "
+
+msgid "If this option is enabled, press the \"Setup\" button and customize price range settings. Increase or decrease the number of steps and set different values for each step. "
+msgstr "If this option is enabled, press the \"Setup\" button and customize price range settings. Increase or decrease the number of steps and set different values for each step. "
+
+msgid "Use Under/Over label instead of minimum and maximum values. "
+msgstr "Use Under/Over label instead of minimum and maximum values. "
+
+msgid "This sets the number of decimal points shown in displayed prices. "
+msgstr "This sets the number of decimal points shown in displayed prices. "
+
+msgid "Set maximum displayed height in frontend. "
+msgstr "Set maximum displayed height in frontend. "
+
+msgid "Set range automatically"
+msgstr "Set range automatically"
+
+msgid "Step"
+msgstr "Step"
+
+msgid "Set range manually"
+msgstr "Set range manually"
+
+msgid "Setup"
+msgstr "Setup"
+
+msgid "Use Under/Over values"
+msgstr "Use Under/Over values"
+
+msgid "Use custom number of decimals"
+msgstr "Use custom number of decimals"
+
+msgid "Depending on whether you need one or several attributes to be available at the same time, show your attributes list as checkbox or dropdown. "
+msgstr "Depending on whether you need one or several attributes to be available at the same time, show your attributes list as checkbox or dropdown. "
+
+msgid "Dropdown first option text. "
+msgstr "Dropdown first option text. "
+
+msgid "Additional text for 1-4 rating filter. "
+msgstr "Additional text for 1-4 rating filter. "
+
+msgid "Additional text for 5-star rating filter. "
+msgstr "Additional text for 5-star rating filter. "
+
+msgid "Additional text for 1-4"
+msgstr "Additional text for 1-4"
+
+msgid "Additional text for 5"
+msgstr "Additional text for 5"
+
+msgid "You can choose to display the sorting by dropdown or radio buttons"
+msgstr "You can choose to display the sorting by dropdown or radio buttons"
+
+msgid "Select the sorting options available for site users (min two options). "
+msgstr "Select the sorting options available for site users (min two options). "
+
+msgid "Sort options"
+msgstr "Sort options"
+
+msgid "Depending on whether you need one or several tags to be available at the same time, show tags list as checkbox or dropdown. "
+msgstr "Depending on whether you need one or several tags to be available at the same time, show tags list as checkbox or dropdown. "
+
+msgid "Set tags sorting by ascendance or descendance. "
+msgstr "Set tags sorting by ascendance or descendance. "
+
+msgid "Tags are displayed according to the order of their selection in the input fields. "
+msgstr "Tags are displayed according to the order of their selection in the input fields. "
+
+msgid "Show count display the number of products that have the appropriate parameter. "
+msgstr "Show count display the number of products that have the appropriate parameter. "
+
+msgid "Hide tags without products. "
+msgstr "Hide tags without products. "
+
+msgid "Select product tags to be displayed on site from the list. If you want to select several tags, hold the \"Shift\" button and click on tag names. Or hold \"Ctrl\" and click on tag names. Press \"Ctrl\" + \"a\" for checking all tags. "
+msgstr "Select product tags to be displayed on site from the list. If you want to select several tags, hold the \"Shift\" button and click on tag names. Or hold \"Ctrl\" and click on tag names. Press \"Ctrl\" + \"a\" for checking all tags. "
+
+msgid "Selected tags will be marked as default and hidden on frontend. "
+msgstr "Selected tags will be marked as default and hidden on frontend. "
+
+msgid "Exclude tags terms from filter by ids. Example input: 1,2,3. "
+msgstr "Exclude tags terms from filter by ids. Example input: 1,2,3. "
+
+msgid "If checked, the entire list of tags will always be visible, otherwise only available for filtered items. "
+msgstr "If checked, the entire list of tags will always be visible, otherwise only available for filtered items. "
+
+msgid "Hide tags without products"
+msgstr "Hide tags without products"
+
+msgid "No tags"
+msgstr "No tags"
+
+msgid "Make selected tags as default"
+msgstr "Make selected tags as default"
+
+msgid "Always display all tags"
+msgstr "Always display all tags"
+
+msgid "Choose page for filter. "
+msgstr "Choose page for filter. "
+
+msgid "The filter will be displayed on all child categories"
+msgstr "The filter will be displayed on all child categories"
+
+msgid "You can select one of the available pages to redirect to it after selecting a filter"
+msgstr "You can select one of the available pages to redirect to it after selecting a filter"
+
+msgid "Choose where display filter. "
+msgstr "Choose where display filter. "
+
+msgid "Remove other woofilters on page except current filter. "
+msgstr "Remove other woofilters on page except current filter. "
+
+msgid "Set breakpoint for all options that depend on a mobile/desktop view. \"Show title label"
+msgstr "Set breakpoint for all options that depend on a mobile/desktop view. \"Show title label"
+
+msgid "Hide filter on shop and categories pages that displays only categories or subcategories without products. "
+msgstr "Hide filter on shop and categories pages that displays only categories or subcategories without products. "
+
+msgid "Set number of products per row. This number will only be shown after filter is applied! "
+msgstr "Set number of products per row. This number will only be shown after filter is applied! "
+
+msgid "This option enables Ajax search. Product filtering and displaying results in a browser will be run in the background without full page reload. "
+msgstr "This option enables Ajax search. Product filtering and displaying results in a browser will be run in the background without full page reload. "
+
+msgid "Enable this option when ajax filtering does not work as expected. For example, sorting does not work. Removes filters such as posts_orderby and pre_get_posts. "
+msgstr "Enable this option when ajax filtering does not work as expected. For example, sorting does not work. Removes filters such as posts_orderby and pre_get_posts. "
+
+msgid "Custom selector for loading a loader and updating the product list. The default product selector is `ul.products`. If the Filter after ajax filtering does not find the product block and cannot replace it with the filtered list of products, the page will reload. In this case, you need to specify the product block selector in this setting."
+msgstr "Custom selector for loading a loader and updating the product list. The default product selector is `ul.products`. If the Filter after ajax filtering does not find the product block and cannot replace it with the filtered list of products, the page will reload. In this case, you need to specify the product block selector in this setting."
+
+msgid "If there are several product shortcodes on the page, you can add a container selector that will limit the effect of this filter only inside it."
+msgstr "If there are several product shortcodes on the page, you can add a container selector that will limit the effect of this filter only inside it."
+
+msgid "If after ajax filtering there are differences in the styles of the list of products, pagination or count-block, then enable this option. Important: for correct operation, we recommend filling the Product container selector option."
+msgstr "If after ajax filtering there are differences in the styles of the list of products, pagination or count-block, then enable this option. Important: for correct operation, we recommend filling the Product container selector option."
+
+msgid "If \"Filtering button\" option was selected, the \"Filter\" button appears at the page. It allows users to set all necessary filter parameters before starting the filtering. If \"Auto filtering\" option was selected, filtering starts as soon as filter elements change and the data reloads automatically. "
+msgstr "If \"Filtering button\" option was selected, the \"Filter\" button appears at the page. It allows users to set all necessary filter parameters before starting the filtering. If \"Auto filtering\" option was selected, filtering starts as soon as filter elements change and the data reloads automatically. "
+
+msgid "If this option is enabled, the \"Clear\" button appears at the page. All filter presets will be removed after pressing the button. "
+msgstr "If this option is enabled, the \"Clear\" button appears at the page. All filter presets will be removed after pressing the button. "
+
+msgid "Select the position of filter buttons on the page. "
+msgstr "Select the position of filter buttons on the page. "
+
+msgid "Change the order of filter buttons on the page. "
+msgstr "Change the order of filter buttons on the page. "
+
+msgid "Search for a filtering results among all shop products on any shop pages. "
+msgstr "Search for a filtering results among all shop products on any shop pages. "
+
+msgid "If this option is enabled, the \"< clear\" links appears at the page next to the filter block titles. The presets of this filter block will be deleted after clicking on the link. "
+msgstr "If this option is enabled, the \"< clear\" links appears at the page next to the filter block titles. The presets of this filter block will be deleted after clicking on the link. "
+
+msgid "Automatically recount product by selected filters (If product category loading slowly - Disable this function). "
+msgstr "Automatically recount product by selected filters (If product category loading slowly - Disable this function). "
+
+msgid "Automatically change min/max price by selected filters (If product category loading slowly - Disable this function). "
+msgstr "Automatically change min/max price by selected filters (If product category loading slowly - Disable this function). "
+
+msgid "Automatically disabled parameters without products. Works only when options Show count and Always display all... are enabled. "
+msgstr "Automatically disabled parameters without products. Works only when options Show count and Always display all... are enabled. "
+
+msgid "Lets checked terms will be on the top. "
+msgstr "Lets checked terms will be on the top. "
+
+msgid "Input \"no products found\" text for category. "
+msgstr "Input \"no products found\" text for category. "
+
+msgid "For long vertical lists, \"Show more\" will be displayed. "
+msgstr "For long vertical lists, \"Show more\" will be displayed. "
+
+msgid "Selected parameters will be displayed in the top/bottom of the filter ."
+msgstr "Selected parameters will be displayed in the top/bottom of the filter ."
+
+msgid "When you click on the block open icon, all other open blocks will be automatically closed"
+msgstr "When you click on the block open icon, all other open blocks will be automatically closed"
+
+msgid "Be careful when deactivate it with filter titles shown as close, In such case users do not see filter content. "
+msgstr "Be careful when deactivate it with filter titles shown as close, In such case users do not see filter content. "
+
+msgid "Filtering of categories list on filter process. "
+msgstr "Filtering of categories list on filter process. "
+
+msgid "Filter products by different filter categories by logic and/or. "
+msgstr "Filter products by different filter categories by logic and/or. "
+
+msgid "Enable filter icon while filtering results are loading. "
+msgstr "Enable filter icon while filtering results are loading. "
+
+msgid "Main"
+msgstr "Main"
+
+msgid "Content"
+msgstr "Content"
+
+msgid "Loader"
+msgstr "Loader"
+
+msgid "Main settings"
+msgstr "Main settings"
+
+msgid "Display on pages"
+msgstr "Display on pages"
+
+msgid "Include child categories"
+msgstr "Include child categories"
+
+msgid "Redirect to url"
+msgstr "Redirect to url"
+
+msgid "Display filter on"
+msgstr "Display filter on"
+
+msgid "Force show only current filter on page"
+msgstr "Force show only current filter on page"
+
+msgid "Set mobile/desktop breakpoint"
+msgstr "Set mobile/desktop breakpoint"
+
+msgid "Hide filter on shop pages without products"
+msgstr "Hide filter on shop pages without products"
+
+msgid "Set number of products per row"
+msgstr "Set number of products per row"
+
+msgid "Enable Ajax"
+msgstr "Enable Ajax"
+
+msgid "Remove actions before filtering"
+msgstr "Remove actions before filtering"
+
+msgid "Product list / loader selector"
+msgstr "Product list / loader selector"
+
+msgid "Product container selector"
+msgstr "Product container selector"
+
+msgid "Force theme templates"
+msgstr "Force theme templates"
+
+msgid "Filter buttons"
+msgstr "Filter buttons"
+
+msgid "Filter activation type"
+msgstr "Filter activation type"
+
+msgid "Show Clear all button"
+msgstr "Show Clear all button"
+
+msgid "Reset all filters on page"
+msgstr "Reset all filters on page"
+
+msgid "Select Filter Buttons Position"
+msgstr "Select Filter Buttons Position"
+
+msgid "Select Filter Buttons Order"
+msgstr "Select Filter Buttons Order"
+
+msgid "Display Hide Filters button"
+msgstr "Display Hide Filters button"
+
+msgid "Filter content"
+msgstr "Filter content"
+
+msgid "Always filtering by all products"
+msgstr "Always filtering by all products"
+
+msgid "Show Clear block"
+msgstr "Show Clear block"
+
+msgid "Recount products by selected filter"
+msgstr "Recount products by selected filter"
+
+msgid "Recount min/max price by selected filter"
+msgstr "Recount min/max price by selected filter"
+
+msgid "Show parameters without products as disabled"
+msgstr "Show parameters without products as disabled"
+
+msgid "Sort by title after filtering"
+msgstr "Sort by title after filtering"
+
+msgid "Checked items to the top"
+msgstr "Checked items to the top"
+
+msgid "Set no products found text"
+msgstr "Set no products found text"
+
+msgid "Display \"Show more\""
+msgstr "Display \"Show more\""
+
+msgid "Display selected parameters of filters"
+msgstr "Display selected parameters of filters"
+
+msgid "If one filter block is open, other blocks are closed"
+msgstr "If one filter block is open, other blocks are closed"
+
+msgid "Hide filter by title click"
+msgstr "Hide filter by title click"
+
+msgid "Use filter titles as slugs for the filter clear buttons"
+msgstr "Use filter titles as slugs for the filter clear buttons"
+
+msgid "Filtering of categories list"
+msgstr "Filtering of categories list"
+
+msgid "Multiple categories logic"
+msgstr "Multiple categories logic"
+
+msgid "Filter loader"
+msgstr "Filter loader"
+
+msgid "Enable filter icon on load"
+msgstr "Enable filter icon on load"
+
+msgid "Filter Loader Icon"
+msgstr "Filter Loader Icon"
+
+msgid "Enable overlay"
+msgstr "Enable overlay"
+
+msgid "loader icon"
+msgstr "loader icon"
+
+msgid "loader word"
+msgstr "loader word"
+
+msgid "Price range filter is empty. Please setup filter correctly."
+msgstr "Price range filter is empty. Please setup filter correctly."
+
+msgid "Select all"
+msgstr "Select all"
+
+msgid "and up"
+msgstr "and up"
+
+msgid "5 only"
+msgstr "5 only"
+
+msgid "Woofilters"
+msgstr "Woofilters"
+
+msgid "Select Woofilter"
+msgstr "Select Woofilter"
+
+msgid "Select Filter"
+msgstr "Select Filter"
+
+msgid "Filter Name"
+msgstr "Filter Name"
+
+msgid "Enter product filter name"
+msgstr "Enter product filter name"
+
+msgid "Create Filter"
+msgstr "Create Filter"
+
+msgid "Displays Filters"
+msgstr "Displays Filters"
+
+msgid "Select filter"
+msgstr "Select filter"
+
+msgid "You have no filters"
+msgstr "You have no filters"

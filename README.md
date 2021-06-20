@@ -2,9 +2,7 @@
 
 Makes importabe `.mo` and `.po` files form `polylang-translations.csv` exported with **PolyLang**
 
-Easy import this files with **WPML** or place them in your `/languages` folder
-
-Tested on `php@8.0`
+Easy import these files with **WPML** or place them in your `/languages` folder. Tested on `php@8.0`
 
 ```shell
 # prepare: 
@@ -14,7 +12,7 @@ Tested on `php@8.0`
 git clone https://github.com/andriilive/polylang-export-importable-mo-po.git && composer install
 
 # run
-php -c localhost:3000
+php -c localhost:3000 && open http://localhost:3000
 ```
 
 ## CSV import example

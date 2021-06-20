@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"X-Domain: regenerate-thumbnails-advanced\n"
+
+msgid "String"
+msgstr "String"
+
+msgid ""
+"[Data]');\n"
+"        }\n"
+"        if (is_array($data) && count($data) > 0)\n"
+"        {\n"
+"          $dataType = $this->getDataType($data);\n"
+"          if ($dataType == 1)  // singular\n"
+"          {\n"
+"              $this->data[] = print_r($data, true);\n"
+"          }\n"
+"          if ($dataType == 2) //array\n"
+"          {\n"
+"            foreach($data as $index => $item)\n"
+"            {\n"
+"              if (is_object($item) || is_array($item))\n"
+"              {\n"
+"                $this->data[] = print_r($item, true);\n"
+"              }\n"
+"            }\n"
+"          }\n"
+"        } // if\n"
+"        elseif (! is_array($data)) // this leaves out empty default arrays\n"
+"        {\n"
+"           $this->data[] = print_r($data, true);\n"
+"        }\n"
+"    }\n"
+"\n"
+"    public function getData()\n"
+"    {\n"
+"      return array('time' => $this->time, 'level' => $this->level, 'message' => $this->message, 'data' => $this->data, 'caller' => $this->caller);\n"
+"    }\n"
+"\n"
+"    /** Test Data Array for possible values\n"
+"    *\n"
+"    * Data can be a collection of several debug vars, a single var, or just an normal array. Test if array has single types,\n"
+"    * which is a sign the array is not a collection.\n"
+"    */\n"
+"    protected function getDataType($data)\n"
+"    {\n"
+"        $single_type = array('integer"
+msgstr ""
+"[Data]');\n"
+"        }\n"
+"        if (is_array($data) && count($data) > 0)\n"
+"        {\n"
+"          $dataType = $this->getDataType($data);\n"
+"          if ($dataType == 1)  // singular\n"
+"          {\n"
+"              $this->data[] = print_r($data, true);\n"
+"          }\n"
+"          if ($dataType == 2) //array\n"
+"          {\n"
+"            foreach($data as $index => $item)\n"
+"            {\n"
+"              if (is_object($item) || is_array($item))\n"
+"              {\n"
+"                $this->data[] = print_r($item, true);\n"
+"              }\n"
+"            }\n"
+"          }\n"
+"        } // if\n"
+"        elseif (! is_array($data)) // this leaves out empty default arrays\n"
+"        {\n"
+"           $this->data[] = print_r($data, true);\n"
+"        }\n"
+"    }\n"
+"\n"
+"    public function getData()\n"
+"    {\n"
+"      return array('time' => $this->time, 'level' => $this->level, 'message' => $this->message, 'data' => $this->data, 'caller' => $this->caller);\n"
+"    }\n"
+"\n"
+"    /** Test Data Array for possible values\n"
+"    *\n"
+"    * Data can be a collection of several debug vars, a single var, or just an normal array. Test if array has single types,\n"
+"    * which is a sign the array is not a collection.\n"
+"    */\n"
+"    protected function getDataType($data)\n"
+"    {\n"
+"        $single_type = array('integer"
+
+msgid "See Details"
+msgstr "See Details"
+
+msgid "Hide Details"
+msgstr "Hide Details"
+
+msgid "Image thumbnails regenerated"
+msgstr "Image thumbnails regenerated"
+
+msgid "Unknown Error occured"
+msgstr "Unknown Error occured"
+
+msgid "Site error, Invalid Nonce"
+msgstr "Site error, Invalid Nonce"
+
+msgid "Preparing Images and Thumbnails"
+msgstr "Preparing Images and Thumbnails"
+
+msgid "Prepared %s items"
+msgstr "Prepared %s items"
+
+msgid "Preparing failed"
+msgstr "Preparing failed"
+
+msgid "No images found for this period and/or settings or none uploaded"
+msgstr "No images found for this period and/or settings or none uploaded"
+
+msgid "<b>%s</b> is missing or not an image file"
+msgstr "<b>%s</b> is missing or not an image file"
+
+msgid "<b>%s</b> skipped. MimeType is an image, but reports non-displayable"
+msgstr "<b>%s</b> skipped. MimeType is an image, but reports non-displayable"
+
+msgid "<b>%s</b> failed on metadata. Possible issue with image"
+msgstr "<b>%s</b> failed on metadata. Possible issue with image"
+
+msgid "Process stopped on request"
+msgstr "Process stopped on request"
+
+msgid "No"
+msgstr "No"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "Left top"
+msgstr "Left top"
+
+msgid "Left center"
+msgstr "Left center"
+
+msgid "Left bottom"
+msgstr "Left bottom"
+
+msgid "Center top"
+msgstr "Center top"
+
+msgid "Center center"
+msgstr "Center center"
+
+msgid "Center bottom"
+msgstr "Center bottom"
+
+msgid "Right top"
+msgstr "Right top"
+
+msgid "Right center"
+msgstr "Right center"
+
+msgid "Right bottom"
+msgstr "Right bottom"
+
+msgid "Don\\'t redo existing"
+msgstr "Don\\'t redo existing"
+
+msgid "Regenerate Thumbnails"
+msgstr "Regenerate Thumbnails"
+
+msgid "Incorrect nonce"
+msgstr "Incorrect nonce"
+
+msgid "No Attachment ID found, not regenerating"
+msgstr "No Attachment ID found, not regenerating"
+
+msgid "Are you sure you want to delete this image size?"
+msgstr "Are you sure you want to delete this image size?"
+
+msgid "This will stop the regeneration process. You want to stop?"
+msgstr "This will stop the regeneration process. You want to stop?"
+
+msgid "Interrupted process resumed"
+msgstr "Interrupted process resumed"
+
+msgid "New Process started"
+msgstr "New Process started"
+
+msgid "Process finished"
+msgstr "Process finished"
+
+msgid "A fatal error occured!"
+msgstr "A fatal error occured!"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Regenerate Thumbnails Advanced"
+msgstr "Regenerate Thumbnails Advanced"
+
+msgid "Regenerate Options"
+msgstr "Regenerate Options"
+
+msgid "ARE YOU CONCERNED WITH YOUR SITE SPEED? Allow ShortPixel specialists to find the solution for you."
+msgstr "ARE YOU CONCERNED WITH YOUR SITE SPEED? Allow ShortPixel specialists to find the solution for you."
+
+msgid "Find Out More"
+msgstr "Find Out More"
+
+msgid "Last Regenerated Image:"
+msgstr "Last Regenerated Image:"
+
+msgid "Pause Process"
+msgstr "Pause Process"
+
+msgid "Resume Process"
+msgstr "Resume Process"
+
+msgid "Stop Process"
+msgstr "Stop Process"
+
+msgid "Starting Process"
+msgstr "Starting Process"
+
+msgid "Please wait..."
+msgstr "Please wait..."
+
+msgid "Process is paused"
+msgstr "Process is paused"
+
+msgid "Click Resume Process to continue"
+msgstr "Click Resume Process to continue"
+
+msgid "Process is pausing, please wait"
+msgstr "Process is pausing, please wait"
+
+msgid "This can take a few seconds"
+msgstr "This can take a few seconds"
+
+msgid "Done!"
+msgstr "Done!"
+
+msgid "Regenerate Thumbnails Advanced is done with your task"
+msgstr "Regenerate Thumbnails Advanced is done with your task"
+
+msgid "Thumbnails successfully regenerated. <strong>Go to %s ShortPixel Bulk page %s to optimize the updated thumbnails.</strong>"
+msgstr "Thumbnails successfully regenerated. <strong>Go to %s ShortPixel Bulk page %s to optimize the updated thumbnails.</strong>"
+
+msgid "%s Activate ShortPixel %s to optimize your newly generated thumbnails."
+msgstr "%s Activate ShortPixel %s to optimize your newly generated thumbnails."
+
+msgid "Optimize your images with ShortPixel, get +50% credits!"
+msgstr "Optimize your images with ShortPixel, get +50% credits!"
+
+msgid "Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Regenerate Thumbnails Advanced user! Forever!"
+msgstr "Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Regenerate Thumbnails Advanced user! Forever!"
+
+msgid "More info"
+msgstr "More info"
+
+msgid "Regenerate period:"
+msgstr "Regenerate period:"
+
+msgid "All"
+msgstr "All"
+
+msgid "Past Day"
+msgstr "Past Day"
+
+msgid "Past Week"
+msgstr "Past Week"
+
+msgid "Past Month"
+msgstr "Past Month"
+
+msgid "Past 3 Months"
+msgstr "Past 3 Months"
+
+msgid "Past 6 Months"
+msgstr "Past 6 Months"
+
+msgid "Past Year"
+msgstr "Past Year"
+
+msgid "Advanced options"
+msgstr "Advanced options"
+
+msgid "Clean unknown metadata"
+msgstr "Clean unknown metadata"
+
+msgid "Clean old metadata not defined in system sizes. Use after removing plugins / themes with old definitions. Will not remove thumbnails from disk"
+msgstr "Clean old metadata not defined in system sizes. Use after removing plugins / themes with old definitions. Will not remove thumbnails from disk"
+
+msgid "Delete Unselected Thumbnails"
+msgstr "Delete Unselected Thumbnails"
+
+msgid "Delete thumbnails and metadata not selected in the settings. Will delete thumbnails from disk - be sure they are not in use.  "
+msgstr "Delete thumbnails and metadata not selected in the settings. Will delete thumbnails from disk - be sure they are not in use.  "
+
+msgid ""
+"Not selected thumbnails will be removed from your site. Check your settings if this is intentional.'); ?></p>\n"
+"\n"
+"      <p class='small'><?php _e('Regenerate Thumbnails Advanced will not prevent new media uploads from generating removed sizes"
+msgstr ""
+"Not selected thumbnails will be removed from your site. Check your settings if this is intentional.'); ?></p>\n"
+"\n"
+"      <p class='small'><?php _e('Regenerate Thumbnails Advanced will not prevent new media uploads from generating removed sizes"
+
+msgid "Remove non-existent images"
+msgstr "Remove non-existent images"
+
+msgid "If the main image does not exist, removes this image, thumbnails and metadata"
+msgstr "If the main image does not exist, removes this image, thumbnails and metadata"
+
+msgid "For removing images that are gone on disk, but still in media library"
+msgstr "For removing images that are gone on disk, but still in media library"
+
+msgid "Regenerate"
+msgstr "Regenerate"
+
+msgid "Save your settings first"
+msgstr "Save your settings first"
+
+msgid "Image Sizes"
+msgstr "Image Sizes"
+
+msgid "Add New Size"
+msgstr "Add New Size"
+
+msgid "Public Name"
+msgstr "Public Name"
+
+msgid "Max. Width"
+msgstr "Max. Width"
+
+msgid "Max. Height"
+msgstr "Max. Height"
+
+msgid "Cropping"
+msgstr "Cropping"
+
+msgid "Image Size Name"
+msgstr "Image Size Name"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Width"
+msgstr "Width"
+
+msgid "Height"
+msgstr "Height"
+
+msgid "Image Size name"
+msgstr "Image Size name"
+
+msgid "Regenerate these thumbnails:"
+msgstr "Regenerate these thumbnails:"
+
+msgid "Select All"
+msgstr "Select All"
+
+msgid "Deselect All"
+msgstr "Deselect All"
+
+msgid "Select the thumbnails you want to regenerate. "
+msgstr "Select the thumbnails you want to regenerate. "
+
+msgid "%s Don\\'t redo existing %s  - prevent regenerating images that already have these sizes as a thumbnail file. "
+msgstr "%s Don\\'t redo existing %s  - prevent regenerating images that already have these sizes as a thumbnail file. "
+
+msgid "Default JPEG Quality"
+msgstr "Default JPEG Quality"
+
+msgid "Save Settings"
+msgstr "Save Settings"
+
+msgid "Saving"
+msgstr "Saving"

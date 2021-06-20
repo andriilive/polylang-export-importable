@@ -1,0 +1,441 @@
+msgid ""
+msgstr ""
+"X-Domain: init\n"
+
+msgid "String"
+msgstr "String"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Premium Version"
+msgstr "Premium Version"
+
+msgid "was added to your cart"
+msgstr "was added to your cart"
+
+msgid "Added to your cart"
+msgstr "Added to your cart"
+
+msgid "View cart"
+msgstr "View cart"
+
+msgid "Continue shopping"
+msgstr "Continue shopping"
+
+msgid "YITH WooCommerce Added to Cart Popup is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Added to Cart Popup is enabled but not effective. It requires WooCommerce in order to work."
+
+msgid "You can\\'t activate the free version of YITH WooCommerce Added to Cart Popup while you are using the premium one."
+msgstr "You can\\'t activate the free version of YITH WooCommerce Added to Cart Popup while you are using the premium one."
+
+msgid "The changes you have made will be lost if you leave this page."
+msgstr "The changes you have made will be lost if you leave this page."
+
+msgid "Plugin Settings"
+msgstr "Plugin Settings"
+
+msgid "How to install premium version"
+msgstr "How to install premium version"
+
+msgid "If you continue with this action, you will reset all options in this page."
+msgstr "If you continue with this action, you will reset all options in this page."
+
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+msgid "The element you have entered already exists. Please, enter another name."
+msgstr "The element you have entered already exists. Please, enter another name."
+
+msgid "Settings saved"
+msgstr "Settings saved"
+
+msgid "Settings reset"
+msgstr "Settings reset"
+
+msgid "Element deleted correctly."
+msgstr "Element deleted correctly."
+
+msgid "Element updated correctly."
+msgstr "Element updated correctly."
+
+msgid "Database imported correctly."
+msgstr "Database imported correctly."
+
+msgid "An error has occurred during import. Please try again."
+msgstr "An error has occurred during import. Please try again."
+
+msgid "The added file is not valid."
+msgstr "The added file is not valid."
+
+msgid "Sorry, import is disabled."
+msgstr "Sorry, import is disabled."
+
+msgid "Sorting successful."
+msgstr "Sorting successful."
+
+msgid "We need your support"
+msgstr "We need your support"
+
+msgid "to keep updating and improving the plugin. Please,"
+msgstr "to keep updating and improving the plugin. Please,"
+
+msgid "help us by leaving a five-star rating"
+msgstr "help us by leaving a five-star rating"
+
+msgid ":) Thanks!"
+msgstr ":) Thanks!"
+
+msgid "Plugins Activated"
+msgstr "Plugins Activated"
+
+msgid "From now on, you can find all plugin options in YITH Plugins menu. Plugin customization settings will be available as a new entry in YITH Plugins menu."
+msgstr "From now on, you can find all plugin options in YITH Plugins menu. Plugin customization settings will be available as a new entry in YITH Plugins menu."
+
+msgid "Discover all our plugins available on: %1$s and %2$s"
+msgstr "Discover all our plugins available on: %1$s and %2$s"
+
+msgid "Plugins Upgraded"
+msgstr "Plugins Upgraded"
+
+msgid "From now on, you can find the option panel of YITH plugins in YITH Plugins menu. Every time one of our plugins is added, a new entry will be added to this menu. For example, after the update, plugin options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.) will be moved from previous location to YITH Plugins tab."
+msgstr "From now on, you can find the option panel of YITH plugins in YITH Plugins menu. Every time one of our plugins is added, a new entry will be added to this menu. For example, after the update, plugin options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.) will be moved from previous location to YITH Plugins tab."
+
+msgid "YITH Latest Updates"
+msgstr "YITH Latest Updates"
+
+msgid "Latest news from YITH Blog"
+msgstr "Latest news from YITH Blog"
+
+msgid "RSS Error:"
+msgstr "RSS Error:"
+
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "An error has occurred, which probably means the feed is down. Try again later."
+
+msgid "WordPress Version"
+msgstr "WordPress Version"
+
+msgid "WooCommerce Version"
+msgstr "WooCommerce Version"
+
+msgid "Available Memory"
+msgstr "Available Memory"
+
+msgid "PHP Version"
+msgstr "PHP Version"
+
+msgid "TLS Version"
+msgstr "TLS Version"
+
+msgid "WordPress Cron"
+msgstr "WordPress Cron"
+
+msgid "SimpleXML"
+msgstr "SimpleXML"
+
+msgid "MultiByte String"
+msgstr "MultiByte String"
+
+msgid "ImageMagick Version"
+msgstr "ImageMagick Version"
+
+msgid "GD Library"
+msgstr "GD Library"
+
+msgid "Iconv Module"
+msgstr "Iconv Module"
+
+msgid "OPCache Save Comments"
+msgstr "OPCache Save Comments"
+
+msgid "URL FOpen"
+msgstr "URL FOpen"
+
+msgid "System Status"
+msgstr "System Status"
+
+msgid "YITH Plugins"
+msgstr "YITH Plugins"
+
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+msgid "Warning!"
+msgstr "Warning!"
+
+msgid "The system check has detected some compatibility issues on your installation.%1$sClick here%2$s to know more"
+msgstr "The system check has detected some compatibility issues on your installation.%1$sClick here%2$s to know more"
+
+msgid "Enabled"
+msgstr "Enabled"
+
+msgid "Disabled"
+msgstr "Disabled"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "%1$s needs %2$s enabled"
+msgstr "%1$s needs %2$s enabled"
+
+msgid "%1$s needs at least %2$s of available memory"
+msgstr "%1$s needs at least %2$s of available memory"
+
+msgid "%1$s needs at least %2$s version"
+msgstr "%1$s needs at least %2$s version"
+
+msgid "Update it to the latest version in order to benefit of all new features and security updates."
+msgstr "Update it to the latest version in order to benefit of all new features and security updates."
+
+msgid "Contact your hosting company in order to update it."
+msgstr "Contact your hosting company in order to update it."
+
+msgid "Contact your hosting company in order to install it."
+msgstr "Contact your hosting company in order to install it."
+
+msgid "Remove %1$s from %2$s file"
+msgstr "Remove %1$s from %2$s file"
+
+msgid "Contact your hosting company in order to enable it."
+msgstr "Contact your hosting company in order to enable it."
+
+msgid "Read more %1$shere%2$s or contact your hosting company in order to increase it."
+msgstr "Read more %1$shere%2$s or contact your hosting company in order to increase it."
+
+msgid "For optimal functioning of our plugins, we suggest setting at least %s of available memory"
+msgstr "For optimal functioning of our plugins, we suggest setting at least %s of available memory"
+
+msgid "The system check cannot determine which %1$s version is installed because %2$s module is disabled. Ask your hosting company to enable it."
+msgstr "The system check cannot determine which %1$s version is installed because %2$s module is disabled. Ask your hosting company to enable it."
+
+msgid "The system check cannot determine which %1$s version is installed due to a connection issue between your site and our server."
+msgstr "The system check cannot determine which %1$s version is installed due to a connection issue between your site and our server."
+
+msgid "Search Customers"
+msgstr "Search Customers"
+
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+msgid "Search Posts"
+msgstr "Search Posts"
+
+msgid "Search Product"
+msgstr "Search Product"
+
+msgid "Search Categories"
+msgstr "Search Categories"
+
+msgid "Content of the tab. (HTML is supported)"
+msgstr "Content of the tab. (HTML is supported)"
+
+msgid "Close all"
+msgstr "Close all"
+
+msgid "Expand all"
+msgstr "Expand all"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Value"
+msgstr "Value"
+
+msgid "Add custom product tab"
+msgstr "Add custom product tab"
+
+msgid "Custom:"
+msgstr "Custom:"
+
+msgid "Preview:"
+msgstr "Preview:"
+
+msgid "Set Default"
+msgstr "Set Default"
+
+msgid "Add All"
+msgstr "Add All"
+
+msgid "Remove All"
+msgstr "Remove All"
+
+msgid "Left Sidebar"
+msgstr "Left Sidebar"
+
+msgid "Choose a sidebar"
+msgstr "Choose a sidebar"
+
+msgid "Right Sidebar"
+msgstr "Right Sidebar"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Save Changes"
+msgstr "Save Changes"
+
+msgid "Reset Defaults"
+msgstr "Reset Defaults"
+
+msgid "PHPInfo"
+msgstr "PHPInfo"
+
+msgid "Log Files"
+msgstr "Log Files"
+
+msgid "YITH System Information"
+msgstr "YITH System Information"
+
+msgid "WP debug.log file"
+msgstr "WP debug.log file"
+
+msgid "PHP error_log file"
+msgstr "PHP error_log file"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "The file size exceeds 8 megabytes so it must be downloaded"
+msgstr "The file size exceeds 8 megabytes so it must be downloaded"
+
+msgid "No Log file available. Enable the WordPress debug by adding this in the %s file of your installation"
+msgstr "No Log file available. Enable the WordPress debug by adding this in the %s file of your installation"
+
+msgid "Copy Code"
+msgstr "Copy Code"
+
+msgid "Site Info"
+msgstr "Site Info"
+
+msgid "Site URL"
+msgstr "Site URL"
+
+msgid "Output IP Address"
+msgstr "Output IP Address"
+
+msgid "Defined WP_CACHE"
+msgstr "Defined WP_CACHE"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "External object cache"
+msgstr "External object cache"
+
+msgid "Plugins Requirements"
+msgstr "Plugins Requirements"
+
+msgid "License"
+msgstr "License"
+
+msgid "General Options"
+msgstr "General Options"
+
+msgid "Show product image"
+msgstr "Show product image"
+
+msgid "Choose to show product image in the popup"
+msgstr "Choose to show product image in the popup"
+
+msgid "Show product price"
+msgstr "Show product price"
+
+msgid "Choose to show product price in the popup"
+msgstr "Choose to show product price in the popup"
+
+msgid "Show \"View Cart\" Button"
+msgstr "Show \"View Cart\" Button"
+
+msgid "Choose to show \"View Cart\" button in the popup"
+msgstr "Choose to show \"View Cart\" button in the popup"
+
+msgid "Show \"Continue Shopping\" Button"
+msgstr "Show \"Continue Shopping\" Button"
+
+msgid "Choose to show \"Continue Shopping\" button in the popup"
+msgstr "Choose to show \"Continue Shopping\" button in the popup"
+
+msgid "Button Background"
+msgstr "Button Background"
+
+msgid "Button Text"
+msgstr "Button Text"
+
+msgid "Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Added to Cart Popup%2$s to benefit from all features!"
+msgstr "Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Added to Cart Popup%2$s to benefit from all features!"
+
+msgid "UPGRADE"
+msgstr "UPGRADE"
+
+msgid "to the premium version"
+msgstr "to the premium version"
+
+msgid "Premium Features"
+msgstr "Premium Features"
+
+msgid "Shop or detail page?"
+msgstr "Shop or detail page?"
+
+msgid "Pick your choice and %1$sshow the popup%2$s just to users that add the product in the cart from the Shop page, or also to those who make the same action from the product detail page."
+msgstr "Pick your choice and %1$sshow the popup%2$s just to users that add the product in the cart from the Shop page, or also to those who make the same action from the product detail page."
+
+msgid "Popup content"
+msgstr "Popup content"
+
+msgid "What will you choose? %1$sThe list of the elements of the cart, or the information about the last product added?%2$s It\\'s up to you: choose what to show in the popup that will be opened once clicked on the \"Add to cart\" button.%3$s If you want to provide further details in addition to the cart total, you can show the amount of the %1$sshipping fees%2$s and %1$staxes%2$s. "
+msgstr "What will you choose? %1$sThe list of the elements of the cart, or the information about the last product added?%2$s It\\'s up to you: choose what to show in the popup that will be opened once clicked on the \"Add to cart\" button.%3$s If you want to provide further details in addition to the cart total, you can show the amount of the %1$sshipping fees%2$s and %1$staxes%2$s. "
+
+msgid "8 entrance animations"
+msgstr "8 entrance animations"
+
+msgid "Eight different styles for the opening of the popup in the pages of your shop.%3$sFrom the classic \"Fade\" effect, to the more dynamic \"3D Flip\": with %1$sYITH WooCommerce Added To Cart Popup%2$s you will satisfy also the most demanding users."
+msgstr "Eight different styles for the opening of the popup in the pages of your shop.%3$sFrom the classic \"Fade\" effect, to the more dynamic \"3D Flip\": with %1$sYITH WooCommerce Added To Cart Popup%2$s you will satisfy also the most demanding users."
+
+msgid "Popup style"
+msgstr "Popup style"
+
+msgid "The default color scheme of the popup can be totally different from the one of the pages in which it will be showed: but do not be afraid, you will not have to change manually the CSS code to have the perfect style.%3$sThanks to the %1$sadvanced option panel%2$s, you will be able to change the colors of all elements contained in the popup, in order to get to the result you want with few clicks."
+msgstr "The default color scheme of the popup can be totally different from the one of the pages in which it will be showed: but do not be afraid, you will not have to change manually the CSS code to have the perfect style.%3$sThanks to the %1$sadvanced option panel%2$s, you will be able to change the colors of all elements contained in the popup, in order to get to the result you want with few clicks."
+
+msgid "Suggested Products"
+msgstr "Suggested Products"
+
+msgid "%1$sA strategic and smart way to highlight%2$s a selection of products in the end of the popup. In this way, you will be able to encourage your users to know more about the products they could have not discovered otherwise.%3$sIf you don\\'t want to highlight particular products, this section could also be reserved to WooCommerce %1$s\"up-sell\"%2$s, %1$s\"cross-sell\"%2$s or %1$s\"related\"%2$s products."
+msgstr "%1$sA strategic and smart way to highlight%2$s a selection of products in the end of the popup. In this way, you will be able to encourage your users to know more about the products they could have not discovered otherwise.%3$sIf you don\\'t want to highlight particular products, this section could also be reserved to WooCommerce %1$s\"up-sell\"%2$s, %1$s\"cross-sell\"%2$s or %1$s\"related\"%2$s products."
+
+msgid "Mobile devices"
+msgstr "Mobile devices"
+
+msgid "Nowadays, the majority of the users that surf the web uses mobile devices. Be prepared and make your site compatible to every device.%3$sThe premium version of the plugin is %1$sperfectly accessible to every resolution%2$s, and it can be the winning weapon of your shop for all the smartphone and tablet lovers."
+msgstr "Nowadays, the majority of the users that surf the web uses mobile devices. Be prepared and make your site compatible to every device.%3$sThe premium version of the plugin is %1$sperfectly accessible to every resolution%2$s, and it can be the winning weapon of your shop for all the smartphone and tablet lovers."
+
+msgid "Product exclusion"
+msgstr "Product exclusion"
+
+msgid "Restrict the features of the plugin only to %1$sspecific products%2$s of the shop.%3$sSelect those on which you want to show the popup to your users, or choose the categories of the products you want to exclude from the plugin behavior."
+msgstr "Restrict the features of the plugin only to %1$sspecific products%2$s of the shop.%3$sSelect those on which you want to show the popup to your users, or choose the categories of the products you want to exclude from the plugin behavior."
+
+msgid "Add to cart"
+msgstr "Add to cart"
+
+msgid "User experience is essential on your site. It is well-known that an %1$seasy purchase process encourages%2$s the users to increase their cart."
+msgstr "User experience is essential on your site. It is well-known that an %1$seasy purchase process encourages%2$s the users to increase their cart."
+
+msgid "With the premium version of the plugin, you can give your users the possibility to add the %1$ssuggested products%2$s to the cart without abandoning the modal window.  "
+msgstr "With the premium version of the plugin, you can give your users the possibility to add the %1$ssuggested products%2$s to the cart without abandoning the modal window.  "
+
+msgid "Add a floating cart icon to your shop."
+msgstr "Add a floating cart icon to your shop."
+
+msgid "This way, your users can find the cart icon and check what\\'s in the cart at any time. Set up the position of the cart icon as it should appear on the screen and it will always appear there, even if you scroll the page. This way, your users will be able to see the counter of products added to the cart and what\\'s in it at any time!"
+msgstr "This way, your users can find the cart icon and check what\\'s in the cart at any time. Set up the position of the cart icon as it should appear on the screen and it will always appear there, even if you scroll the page. This way, your users will be able to see the counter of products added to the cart and what\\'s in it at any time!"

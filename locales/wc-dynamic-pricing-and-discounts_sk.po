@@ -1,0 +1,1783 @@
+msgid ""
+msgstr ""
+"X-Domain: wc-dynamic-pricing-and-discounts\n"
+
+msgid "String"
+msgstr "String"
+
+msgid "Any pricing rule applied"
+msgstr "Any pricing rule applied"
+
+msgid "Simple"
+msgstr "Simple"
+
+msgid "Simple discount"
+msgstr "Simple discount"
+
+msgid "Discount"
+msgstr "Discount"
+
+msgid "Simple fee"
+msgstr "Simple fee"
+
+msgid "Exclude products from all rules"
+msgstr "Exclude products from all rules"
+
+msgid "Restrict purchase of matched products"
+msgstr "Restrict purchase of matched products"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Buy x get x"
+msgstr "Buy x get x"
+
+msgid "Buy x get x - Repeating"
+msgstr "Buy x get x - Repeating"
+
+msgid "Buy x get y"
+msgstr "Buy x get y"
+
+msgid "Buy x get y - Repeating"
+msgstr "Buy x get y - Repeating"
+
+msgid "Buy / Get"
+msgstr "Buy / Get"
+
+msgid "Group of products"
+msgstr "Group of products"
+
+msgid "Group of products - Repeating"
+msgstr "Group of products - Repeating"
+
+msgid "Group"
+msgstr "Group"
+
+msgid "Simple adjustment"
+msgstr "Simple adjustment"
+
+msgid "Bulk pricing"
+msgstr "Bulk pricing"
+
+msgid "Tiered pricing"
+msgstr "Tiered pricing"
+
+msgid "Volume"
+msgstr "Volume"
+
+msgid "RightPress fixed cart discount"
+msgstr "RightPress fixed cart discount"
+
+msgid "Sorry, coupon \"%s\" is not valid when other discounts are applied to the cart."
+msgstr "Sorry, coupon \"%s\" is not valid when other discounts are applied to the cart."
+
+msgid "Fee"
+msgstr "Fee"
+
+msgid "Fixed discount per group"
+msgstr "Fixed discount per group"
+
+msgid "Fixed discount per item"
+msgstr "Fixed discount per item"
+
+msgid "Fixed discount"
+msgstr "Fixed discount"
+
+msgid "Fixed discount per cart item"
+msgstr "Fixed discount per cart item"
+
+msgid "Percentage discount per cart item"
+msgstr "Percentage discount per cart item"
+
+msgid "Discount Per Cart Item"
+msgstr "Discount Per Cart Item"
+
+msgid "Fixed discount per cart line"
+msgstr "Fixed discount per cart line"
+
+msgid "Discount Per Cart Line"
+msgstr "Discount Per Cart Line"
+
+msgid "Percentage discount"
+msgstr "Percentage discount"
+
+msgid "Fixed fee"
+msgstr "Fixed fee"
+
+msgid "Fixed fee per cart item"
+msgstr "Fixed fee per cart item"
+
+msgid "Percentage fee per cart item"
+msgstr "Percentage fee per cart item"
+
+msgid "Fee Per Cart Item"
+msgstr "Fee Per Cart Item"
+
+msgid "Fixed fee per cart line"
+msgstr "Fixed fee per cart line"
+
+msgid "Fee Per Cart Line"
+msgstr "Fee Per Cart Line"
+
+msgid "Percentage fee"
+msgstr "Percentage fee"
+
+msgid "Fixed price per group"
+msgstr "Fixed price per group"
+
+msgid "Fixed price per item"
+msgstr "Fixed price per item"
+
+msgid "Fixed price per range"
+msgstr "Fixed price per range"
+
+msgid "Fixed price"
+msgstr "Fixed price"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Cart Discount"
+msgstr "Cart Discount"
+
+msgid "Checkout Fee"
+msgstr "Checkout Fee"
+
+msgid "Pricing Rule"
+msgstr "Pricing Rule"
+
+msgid "No taxonomies enabled"
+msgstr "No taxonomies enabled"
+
+msgid "Select values"
+msgstr "Select values"
+
+msgid "No results found"
+msgstr "No results found"
+
+msgid "Buy %s get %s"
+msgstr "Buy %s get %s"
+
+msgid "Buy %s get %s - Repeating"
+msgstr "Buy %s get %s - Repeating"
+
+msgid "per item"
+msgstr "per item"
+
+msgid "per cart item"
+msgstr "per cart item"
+
+msgid "per cart line"
+msgstr "per cart line"
+
+msgid "per group"
+msgstr "per group"
+
+msgid "Error: Please fix this element."
+msgstr "Error: Please fix this element."
+
+msgid "Value is required."
+msgstr "Value is required."
+
+msgid "Value must be positive."
+msgstr "Value must be positive."
+
+msgid "Value must be greater than or equal to 1."
+msgstr "Value must be greater than or equal to 1."
+
+msgid "Value must be a whole number."
+msgstr "Value must be a whole number."
+
+msgid "At least one quantity range is required for this pricing rule."
+msgstr "At least one quantity range is required for this pricing rule."
+
+msgid "At least one product must be added to a group."
+msgstr "At least one product must be added to a group."
+
+msgid "At least one condition is required for this rule."
+msgstr "At least one condition is required for this rule."
+
+msgid "Closing quantity must not be lower than opening quantity."
+msgstr "Closing quantity must not be lower than opening quantity."
+
+msgid "Quantity range cannot be left open when adding subsequent quantity ranges."
+msgstr "Quantity range cannot be left open when adding subsequent quantity ranges."
+
+msgid "Quantity range must start with a higher value than previous quantity range."
+msgstr "Quantity range must start with a higher value than previous quantity range."
+
+msgid "Quantity ranges must not overlap."
+msgstr "Quantity ranges must not overlap."
+
+msgid "Rule must not contain conditions of non-existent type."
+msgstr "Rule must not contain conditions of non-existent type."
+
+msgid "Rule must not contain disabled conditions."
+msgstr "Rule must not contain disabled conditions."
+
+msgid "Adjustment"
+msgstr "Adjustment"
+
+msgid "Product Pricing"
+msgstr "Product Pricing"
+
+msgid "Product Pricing Settings"
+msgstr "Product Pricing Settings"
+
+msgid "Rule selection method"
+msgstr "Rule selection method"
+
+msgid "Apply All"
+msgstr "Apply All"
+
+msgid "Apply all applicable rules"
+msgstr "Apply all applicable rules"
+
+msgid "Apply One - Per Cart Item"
+msgstr "Apply One - Per Cart Item"
+
+msgid "Apply first applicable rule"
+msgstr "Apply first applicable rule"
+
+msgid "Apply rule for smaller price"
+msgstr "Apply rule for smaller price"
+
+msgid "Apply rule for bigger price"
+msgstr "Apply rule for bigger price"
+
+msgid "Disabled"
+msgstr "Disabled"
+
+msgid "All rules disabled"
+msgstr "All rules disabled"
+
+msgid "Total limit"
+msgstr "Total limit"
+
+msgid "No Limit"
+msgstr "No Limit"
+
+msgid "No discount limit"
+msgstr "No discount limit"
+
+msgid "Price Discount Limit"
+msgstr "Price Discount Limit"
+
+msgid "Price discount limit"
+msgstr "Price discount limit"
+
+msgid "Price discount limit %"
+msgstr "Price discount limit %"
+
+msgid "Total Discount Limit"
+msgstr "Total Discount Limit"
+
+msgid "Total discount limit"
+msgstr "Total discount limit"
+
+msgid "Total limit value"
+msgstr "Total limit value"
+
+msgid "Cart Discounts"
+msgstr "Cart Discounts"
+
+msgid "Cart Discounts Settings"
+msgstr "Cart Discounts Settings"
+
+msgid "Apply One"
+msgstr "Apply One"
+
+msgid "Apply bigger discount"
+msgstr "Apply bigger discount"
+
+msgid "Apply smaller discount"
+msgstr "Apply smaller discount"
+
+msgid "Total Limit"
+msgstr "Total Limit"
+
+msgid "Total discount limit %"
+msgstr "Total discount limit %"
+
+msgid "Checkout Fees"
+msgstr "Checkout Fees"
+
+msgid "Checkout Fees Settings"
+msgstr "Checkout Fees Settings"
+
+msgid "Apply bigger fee"
+msgstr "Apply bigger fee"
+
+msgid "Apply smaller fee"
+msgstr "Apply smaller fee"
+
+msgid "No fee limit"
+msgstr "No fee limit"
+
+msgid "Total fee limit"
+msgstr "Total fee limit"
+
+msgid "Total fee limit %"
+msgstr "Total fee limit %"
+
+msgid "Promotion"
+msgstr "Promotion"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "General"
+msgstr "General"
+
+msgid "Change display prices in shop"
+msgstr "Change display prices in shop"
+
+msgid "Do not change"
+msgstr "Do not change"
+
+msgid "Change - Include simple adjustments"
+msgstr "Change - Include simple adjustments"
+
+msgid "Change - Include all adjustment types"
+msgstr "Change - Include all adjustment types"
+
+msgid "This functionality may increase page load time. Rules with complex conditions may confuse customers when prices change unexpectedly."
+msgstr "This functionality may increase page load time. Rules with complex conditions may confuse customers when prices change unexpectedly."
+
+msgid "Base price for products on sale"
+msgstr "Base price for products on sale"
+
+msgid "Sale price"
+msgstr "Sale price"
+
+msgid "Regular price"
+msgstr "Regular price"
+
+msgid "Exclude products already on sale"
+msgstr "Exclude products already on sale"
+
+msgid "Affects products with a sale price set in product settings. Setting this to regular price may override price adjustments made by other plugins."
+msgstr "Affects products with a sale price set in product settings. Setting this to regular price may override price adjustments made by other plugins."
+
+msgid "Automatically add free product to cart"
+msgstr "Automatically add free product to cart"
+
+msgid "This only works with Buy X Get Y rules when all properties of a free product are known - specific product or specific variation must be selected."
+msgstr "This only works with Buy X Get Y rules when all properties of a free product are known - specific product or specific variation must be selected."
+
+msgid "Display regular price when discounting"
+msgstr "Display regular price when discounting"
+
+msgid "If multiple discounts are applicable"
+msgstr "If multiple discounts are applicable"
+
+msgid "Display all individual discounts"
+msgstr "Display all individual discounts"
+
+msgid "Combine to one total discount"
+msgstr "Combine to one total discount"
+
+msgid "Combined discount title"
+msgstr "Combined discount title"
+
+msgid "Apply with individual use coupons"
+msgstr "Apply with individual use coupons"
+
+msgid "Allow regular coupons with cart discounts"
+msgstr "Allow regular coupons with cart discounts"
+
+msgid "If multiple fees are applicable"
+msgstr "If multiple fees are applicable"
+
+msgid "Display all individual fees"
+msgstr "Display all individual fees"
+
+msgid "Combine to one total fee"
+msgstr "Combine to one total fee"
+
+msgid "If you choose to combine multiple fees to one fee and fees have different tax classes, they will be grouped by tax class and multiple combined fees will be displayed (one per tax class)."
+msgstr "If you choose to combine multiple fees to one fee and fees have different tax classes, they will be grouped by tax class and multiple combined fees will be displayed (one per tax class)."
+
+msgid "Combined fee title"
+msgstr "Combined fee title"
+
+msgid "Tax class"
+msgstr "Tax class"
+
+msgid "Not Taxable"
+msgstr "Not Taxable"
+
+msgid "Custom Taxonomy Conditions"
+msgstr "Custom Taxonomy Conditions"
+
+msgid "Enabled taxonomies"
+msgstr "Enabled taxonomies"
+
+msgid "Allows integration with 3rd party extensions that add custom product taxonomies, e.g. product brands."
+msgstr "Allows integration with 3rd party extensions that add custom product taxonomies, e.g. product brands."
+
+msgid "Import & Export"
+msgstr "Import & Export"
+
+msgid "Import settings"
+msgstr "Import settings"
+
+msgid "Warning! Importing settings will irrecoverably overwrite your existing settings, including any pricing rules, discounts and fees."
+msgstr "Warning! Importing settings will irrecoverably overwrite your existing settings, including any pricing rules, discounts and fees."
+
+msgid "Export settings"
+msgstr "Export settings"
+
+msgid "Click here to export"
+msgstr "Click here to export"
+
+msgid "Amounts in conditions include tax"
+msgstr "Amounts in conditions include tax"
+
+msgid "<strong>Warning!</strong> Combining discounts may result in unexpected tax calculation when percentage discounts are used and different tax rates apply to different cart items."
+msgstr "<strong>Warning!</strong> Combining discounts may result in unexpected tax calculation when percentage discounts are used and different tax rates apply to different cart items."
+
+msgid "Pricing & Discounts"
+msgstr "Pricing & Discounts"
+
+msgid "Unable to validate settings."
+msgstr "Unable to validate settings."
+
+msgid "Notification message must not be empty."
+msgstr "Notification message must not be empty."
+
+msgid "Settings updated."
+msgstr "Settings updated."
+
+msgid "Individual Products"
+msgstr "Individual Products"
+
+msgid "Each individual product"
+msgstr "Each individual product"
+
+msgid "Each individual variation"
+msgstr "Each individual variation"
+
+msgid "Each individual cart line item"
+msgstr "Each individual cart line item"
+
+msgid "All Matched Products"
+msgstr "All Matched Products"
+
+msgid "All matched product quantities split by category"
+msgstr "All matched product quantities split by category"
+
+msgid "All matched product quantities added up"
+msgstr "All matched product quantities added up"
+
+msgid "Quantities added up by category"
+msgstr "Quantities added up by category"
+
+msgid "All quantities added up"
+msgstr "All quantities added up"
+
+msgid "Each individual category"
+msgstr "Each individual category"
+
+msgid "Non-Exclusive"
+msgstr "Non-Exclusive"
+
+msgid "Apply with other applicable rules"
+msgstr "Apply with other applicable rules"
+
+msgid "Exclusive - Per Cart Item"
+msgstr "Exclusive - Per Cart Item"
+
+msgid "Exclusive"
+msgstr "Exclusive"
+
+msgid "Apply this rule and disregard other rules"
+msgstr "Apply this rule and disregard other rules"
+
+msgid "Apply if other rules are not applicable"
+msgstr "Apply if other rules are not applicable"
+
+msgid "Same Products"
+msgstr "Same Products"
+
+msgid "Same as at full price"
+msgstr "Same as at full price"
+
+msgid "Same as products at full price"
+msgstr "Same as products at full price"
+
+msgid "Other Products"
+msgstr "Other Products"
+
+msgid "Other products"
+msgstr "Other products"
+
+msgid "Other product variations"
+msgstr "Other product variations"
+
+msgid "Other products in categories"
+msgstr "Other products in categories"
+
+msgid "Other products with attributes"
+msgstr "Other products with attributes"
+
+msgid "Other products with tags"
+msgstr "Other products with tags"
+
+msgid "Settings were successfully imported."
+msgstr "Settings were successfully imported."
+
+msgid "Error: Uploaded configuration file is not valid."
+msgstr "Error: Uploaded configuration file is not valid."
+
+msgid "Cart Discount (deleted)"
+msgstr "Cart Discount (deleted)"
+
+msgid "Countdown Timer"
+msgstr "Countdown Timer"
+
+msgid "Displays a countdown timer for time restricted pricing rules."
+msgstr "Displays a countdown timer for time restricted pricing rules."
+
+msgid "Enable"
+msgstr "Enable"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "SALE ENDS IN"
+msgstr "SALE ENDS IN"
+
+msgid "Position"
+msgstr "Position"
+
+msgid "Add to cart - Before"
+msgstr "Add to cart - Before"
+
+msgid "Add to cart - After"
+msgstr "Add to cart - After"
+
+msgid "Product meta - Before"
+msgstr "Product meta - Before"
+
+msgid "Product meta - After"
+msgstr "Product meta - After"
+
+msgid "Product summary - Before"
+msgstr "Product summary - Before"
+
+msgid "Product summary - After"
+msgstr "Product summary - After"
+
+msgid "Time left less than"
+msgstr "Time left less than"
+
+msgid "No limit"
+msgstr "No limit"
+
+msgid "Minutes"
+msgstr "Minutes"
+
+msgid "5 minutes"
+msgstr "5 minutes"
+
+msgid "15 minutes"
+msgstr "15 minutes"
+
+msgid "30 minutes"
+msgstr "30 minutes"
+
+msgid "45 minutes"
+msgstr "45 minutes"
+
+msgid "Hours"
+msgstr "Hours"
+
+msgid "1 hour"
+msgstr "1 hour"
+
+msgid "2 hours"
+msgstr "2 hours"
+
+msgid "3 hours"
+msgstr "3 hours"
+
+msgid "6 hours"
+msgstr "6 hours"
+
+msgid "12 hours"
+msgstr "12 hours"
+
+msgid "Days"
+msgstr "Days"
+
+msgid "1 day"
+msgstr "1 day"
+
+msgid "2 days"
+msgstr "2 days"
+
+msgid "3 days"
+msgstr "3 days"
+
+msgid "4 days"
+msgstr "4 days"
+
+msgid "5 days"
+msgstr "5 days"
+
+msgid "6 days"
+msgstr "6 days"
+
+msgid "7 days"
+msgstr "7 days"
+
+msgid "14 days"
+msgstr "14 days"
+
+msgid "DAYS"
+msgstr "DAYS"
+
+msgid "HOURS"
+msgstr "HOURS"
+
+msgid "MINUTES"
+msgstr "MINUTES"
+
+msgid "SECONDS"
+msgstr "SECONDS"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Discount <strong>\"{{title}}\"</strong> has been applied to your cart."
+msgstr "Discount <strong>\"{{title}}\"</strong> has been applied to your cart."
+
+msgid "Macro {{title}} displays discount title.<br>Macro {{description}} displays public description."
+msgstr "Macro {{title}} displays discount title.<br>Macro {{description}} displays public description."
+
+msgid "Fee <strong>\"{{title}}\"</strong> has been applied to your cart."
+msgstr "Fee <strong>\"{{title}}\"</strong> has been applied to your cart."
+
+msgid "Macro {{title}} displays fee title.<br> Macro {{description}} displays public description."
+msgstr "Macro {{title}} displays fee title.<br> Macro {{description}} displays public description."
+
+msgid "Product discount has been applied to your cart."
+msgstr "Product discount has been applied to your cart."
+
+msgid "Macro {{description}} displays public description."
+msgstr "Macro {{description}} displays public description."
+
+msgid "Customer Notifications"
+msgstr "Customer Notifications"
+
+msgid "Displays a notification when pricing rule, cart discount or checkout fee is applied."
+msgstr "Displays a notification when pricing rule, cart discount or checkout fee is applied."
+
+msgid "You Saved"
+msgstr "You Saved"
+
+msgid "Displays a total amount saved by customer on cart and checkout pages."
+msgstr "Displays a total amount saved by customer on cart and checkout pages."
+
+msgid "Position in cart"
+msgstr "Position in cart"
+
+msgid "Positions"
+msgstr "Positions"
+
+msgid "Cart table - Before"
+msgstr "Cart table - Before"
+
+msgid "Cart table - After"
+msgstr "Cart table - After"
+
+msgid "Cart totals - Before"
+msgstr "Cart totals - Before"
+
+msgid "Cart totals - After"
+msgstr "Cart totals - After"
+
+msgid "Order total - Before"
+msgstr "Order total - Before"
+
+msgid "Order total - After"
+msgstr "Order total - After"
+
+msgid "Checkout button - Before"
+msgstr "Checkout button - Before"
+
+msgid "Checkout button - After"
+msgstr "Checkout button - After"
+
+msgid "Position in checkout"
+msgstr "Position in checkout"
+
+msgid "Checkout form - Before"
+msgstr "Checkout form - Before"
+
+msgid "Checkout form - After"
+msgstr "Checkout form - After"
+
+msgid "Payment details - Before"
+msgstr "Payment details - Before"
+
+msgid "Payment details - After"
+msgstr "Payment details - After"
+
+msgid "Discount amount threshold"
+msgstr "Discount amount threshold"
+
+msgid "0.01"
+msgstr "0.01"
+
+msgid "Include cart discounts and coupons"
+msgstr "Include cart discounts and coupons"
+
+msgid "Include tax"
+msgstr "Include tax"
+
+msgid "Upsell Notifications"
+msgstr "Upsell Notifications"
+
+msgid "Displays a notification when only one step is remaining to get a discount."
+msgstr "Displays a notification when only one step is remaining to get a discount."
+
+msgid "Enable upsell notifications"
+msgstr "Enable upsell notifications"
+
+msgid "Volume Pricing Table"
+msgstr "Volume Pricing Table"
+
+msgid "Displays a table with potential savings that come with higher quantities purchased."
+msgstr "Displays a table with potential savings that come with higher quantities purchased."
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Quantity discounts"
+msgstr "Quantity discounts"
+
+msgid "Page content - After"
+msgstr "Page content - After"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Inline"
+msgstr "Inline"
+
+msgid "Inline - Horizontal"
+msgstr "Inline - Horizontal"
+
+msgid "Inline - Vertical"
+msgstr "Inline - Vertical"
+
+msgid "Modal"
+msgstr "Modal"
+
+msgid "Modal - Horizontal"
+msgstr "Modal - Horizontal"
+
+msgid "Modal - Vertical"
+msgstr "Modal - Vertical"
+
+msgid "Value to display"
+msgstr "Value to display"
+
+msgid "Discounted price"
+msgstr "Discounted price"
+
+msgid "Discount amount"
+msgstr "Discount amount"
+
+msgid "Discount percentage"
+msgstr "Discount percentage"
+
+msgid "Undefined quantity handling"
+msgstr "Undefined quantity handling"
+
+msgid "Display missing range with regular price"
+msgstr "Display missing range with regular price"
+
+msgid "Do not display missing range"
+msgstr "Do not display missing range"
+
+msgid "Variable product handling"
+msgstr "Variable product handling"
+
+msgid "Display individual pricing tables"
+msgstr "Display individual pricing tables"
+
+msgid "Display one pricing table with all variations"
+msgstr "Display one pricing table with all variations"
+
+msgid "Your Price"
+msgstr "Your Price"
+
+msgid "Displays a dynamically updated price on a single product page. This price reflects all pricing adjustments that would be applicable if a specified quantity was added to cart."
+msgstr "Displays a dynamically updated price on a single product page. This price reflects all pricing adjustments that would be applicable if a specified quantity was added to cart."
+
+msgid "Display when product is not discounted"
+msgstr "Display when product is not discounted"
+
+msgid "Position on page"
+msgstr "Position on page"
+
+msgid "Add to cart button - Before"
+msgstr "Add to cart button - Before"
+
+msgid "Add to cart button - After"
+msgstr "Add to cart button - After"
+
+msgid "Add to cart form - Before"
+msgstr "Add to cart form - Before"
+
+msgid "Add to cart form - After"
+msgstr "Add to cart form - After"
+
+msgid "Your Price:"
+msgstr "Your Price:"
+
+msgid "Select user capabilities"
+msgstr "Select user capabilities"
+
+msgid "Select countries"
+msgstr "Select countries"
+
+msgid "Select coupons"
+msgstr "Select coupons"
+
+msgid "Select taxonomy terms"
+msgstr "Select taxonomy terms"
+
+msgid "Select payment methods"
+msgstr "Select payment methods"
+
+msgid "Select product attributes"
+msgstr "Select product attributes"
+
+msgid "Select product categories"
+msgstr "Select product categories"
+
+msgid "Select product tags"
+msgstr "Select product tags"
+
+msgid "Select product types"
+msgstr "Select product types"
+
+msgid "Select product variations"
+msgstr "Select product variations"
+
+msgid "Select products"
+msgstr "Select products"
+
+msgid "Select user roles"
+msgstr "Select user roles"
+
+msgid "Select shipping classes"
+msgstr "Select shipping classes"
+
+msgid "Select shipping methods"
+msgstr "Select shipping methods"
+
+msgid "Select shipping zones"
+msgstr "Select shipping zones"
+
+msgid "Select states"
+msgstr "Select states"
+
+msgid "Select customers"
+msgstr "Select customers"
+
+msgid "Select days of week"
+msgstr "Select days of week"
+
+msgid "(DELETED)"
+msgstr "(DELETED)"
+
+msgid "All time"
+msgstr "All time"
+
+msgid "all time"
+msgstr "all time"
+
+msgid "select date"
+msgstr "select date"
+
+msgid "select date and time"
+msgstr "select date and time"
+
+msgid "meta field key"
+msgstr "meta field key"
+
+msgid "e.g. 90210, 902**, 90200-90299, SW1A 1AA, NSW 2001"
+msgstr "e.g. 90210, 902**, 90200-90299, SW1A 1AA, NSW 2001"
+
+msgid "select time"
+msgstr "select time"
+
+msgid "value"
+msgstr "value"
+
+msgid "yes"
+msgstr "yes"
+
+msgid "no"
+msgstr "no"
+
+msgid "at least one of any"
+msgstr "at least one of any"
+
+msgid "at least one of selected"
+msgstr "at least one of selected"
+
+msgid "all of selected"
+msgstr "all of selected"
+
+msgid "only selected"
+msgstr "only selected"
+
+msgid "none of selected"
+msgstr "none of selected"
+
+msgid "none at all"
+msgstr "none at all"
+
+msgid "from"
+msgstr "from"
+
+msgid "to"
+msgstr "to"
+
+msgid "specific date"
+msgstr "specific date"
+
+msgid "is empty"
+msgstr "is empty"
+
+msgid "is not empty"
+msgstr "is not empty"
+
+msgid "contains"
+msgstr "contains"
+
+msgid "does not contain"
+msgstr "does not contain"
+
+msgid "begins with"
+msgstr "begins with"
+
+msgid "ends with"
+msgstr "ends with"
+
+msgid "equals"
+msgstr "equals"
+
+msgid "does not equal"
+msgstr "does not equal"
+
+msgid "less than"
+msgstr "less than"
+
+msgid "less or equal to"
+msgstr "less or equal to"
+
+msgid "more than"
+msgstr "more than"
+
+msgid "more or equal to"
+msgstr "more or equal to"
+
+msgid "is checked"
+msgstr "is checked"
+
+msgid "is not checked"
+msgstr "is not checked"
+
+msgid "in list"
+msgstr "in list"
+
+msgid "not in list"
+msgstr "not in list"
+
+msgid "at least"
+msgstr "at least"
+
+msgid "not more than"
+msgstr "not more than"
+
+msgid "within past"
+msgstr "within past"
+
+msgid "earlier than"
+msgstr "earlier than"
+
+msgid "matches"
+msgstr "matches"
+
+msgid "does not match"
+msgstr "does not match"
+
+msgid "Cart item count"
+msgstr "Cart item count"
+
+msgid "Coupons applied"
+msgstr "Coupons applied"
+
+msgid "Cart item quantity - Attributes"
+msgstr "Cart item quantity - Attributes"
+
+msgid "Cart item quantity - Categories"
+msgstr "Cart item quantity - Categories"
+
+msgid "Cart item quantity - Shipping classes"
+msgstr "Cart item quantity - Shipping classes"
+
+msgid "Cart item quantity - Tags"
+msgstr "Cart item quantity - Tags"
+
+msgid "Cart item quantity - Variations"
+msgstr "Cart item quantity - Variations"
+
+msgid "Cart item quantity - Products"
+msgstr "Cart item quantity - Products"
+
+msgid "Cart Items - Quantity"
+msgstr "Cart Items - Quantity"
+
+msgid "Cart item subtotal - Attributes"
+msgstr "Cart item subtotal - Attributes"
+
+msgid "Cart item subtotal - Categories"
+msgstr "Cart item subtotal - Categories"
+
+msgid "Cart item subtotal - Shipping classes"
+msgstr "Cart item subtotal - Shipping classes"
+
+msgid "Cart item subtotal - Tags"
+msgstr "Cart item subtotal - Tags"
+
+msgid "Cart item subtotal - Variations"
+msgstr "Cart item subtotal - Variations"
+
+msgid "Cart item subtotal - Products"
+msgstr "Cart item subtotal - Products"
+
+msgid "Cart Items - Subtotal"
+msgstr "Cart Items - Subtotal"
+
+msgid "Cart items - Attributes"
+msgstr "Cart items - Attributes"
+
+msgid "Cart items - Categories"
+msgstr "Cart items - Categories"
+
+msgid "Cart items - Shipping Classes"
+msgstr "Cart items - Shipping Classes"
+
+msgid "Cart items - Tags"
+msgstr "Cart items - Tags"
+
+msgid "Cart items - Variations"
+msgstr "Cart items - Variations"
+
+msgid "Cart items - Products"
+msgstr "Cart items - Products"
+
+msgid "Cart Items"
+msgstr "Cart Items"
+
+msgid "Cart total quantity"
+msgstr "Cart total quantity"
+
+msgid "Cart subtotal"
+msgstr "Cart subtotal"
+
+msgid "Cart total weight"
+msgstr "Cart total weight"
+
+msgid "Cart"
+msgstr "Cart"
+
+msgid "Payment method"
+msgstr "Payment method"
+
+msgid "Shipping method"
+msgstr "Shipping method"
+
+msgid "Checkout"
+msgstr "Checkout"
+
+msgid "Custom Taxonomy"
+msgstr "Custom Taxonomy"
+
+msgid "User capability"
+msgstr "User capability"
+
+msgid "Customer"
+msgstr "Customer"
+
+msgid "Is logged in"
+msgstr "Is logged in"
+
+msgid "User meta"
+msgstr "User meta"
+
+msgid "User role"
+msgstr "User role"
+
+msgid "Spent - Total"
+msgstr "Spent - Total"
+
+msgid "Spent - Average per order"
+msgstr "Spent - Average per order"
+
+msgid "Spent - Last order"
+msgstr "Spent - Last order"
+
+msgid "Last order"
+msgstr "Last order"
+
+msgid "Order count"
+msgstr "Order count"
+
+msgid "Customer review count"
+msgstr "Customer review count"
+
+msgid "Customer - Value"
+msgstr "Customer - Value"
+
+msgid "Order items - Attributes"
+msgstr "Order items - Attributes"
+
+msgid "Order items - Categories"
+msgstr "Order items - Categories"
+
+msgid "Order items - Tags"
+msgstr "Order items - Tags"
+
+msgid "Order items - Variations"
+msgstr "Order items - Variations"
+
+msgid "Order items - Products"
+msgstr "Order items - Products"
+
+msgid "Order Items"
+msgstr "Order Items"
+
+msgid "Shipping"
+msgstr "Shipping"
+
+msgid "Order total"
+msgstr "Order total"
+
+msgid "Order"
+msgstr "Order"
+
+msgid "Product attributes"
+msgstr "Product attributes"
+
+msgid "Product category"
+msgstr "Product category"
+
+msgid "Product"
+msgstr "Product"
+
+msgid "Product meta field"
+msgstr "Product meta field"
+
+msgid "Product is on sale"
+msgstr "Product is on sale"
+
+msgid "Product regular price"
+msgstr "Product regular price"
+
+msgid "Product shipping class"
+msgstr "Product shipping class"
+
+msgid "Product stock quantity"
+msgstr "Product stock quantity"
+
+msgid "Product type"
+msgstr "Product type"
+
+msgid "Product Property"
+msgstr "Product Property"
+
+msgid "Product tags"
+msgstr "Product tags"
+
+msgid "Product variation"
+msgstr "Product variation"
+
+msgid "Purchased - Attributes"
+msgstr "Purchased - Attributes"
+
+msgid "Purchased - Categories"
+msgstr "Purchased - Categories"
+
+msgid "Purchased - Tags"
+msgstr "Purchased - Tags"
+
+msgid "Purchased - Variations"
+msgstr "Purchased - Variations"
+
+msgid "Purchased - Products"
+msgstr "Purchased - Products"
+
+msgid "Quantity purchased - Attributes"
+msgstr "Quantity purchased - Attributes"
+
+msgid "Quantity purchased - Categories"
+msgstr "Quantity purchased - Categories"
+
+msgid "Quantity purchased - Tags"
+msgstr "Quantity purchased - Tags"
+
+msgid "Quantity purchased - Variations"
+msgstr "Quantity purchased - Variations"
+
+msgid "Quantity purchased - Products"
+msgstr "Quantity purchased - Products"
+
+msgid "Purchase History - Quantity"
+msgstr "Purchase History - Quantity"
+
+msgid "Value purchased - Attributes"
+msgstr "Value purchased - Attributes"
+
+msgid "Value purchased - Categories"
+msgstr "Value purchased - Categories"
+
+msgid "Value purchased - Tags"
+msgstr "Value purchased - Tags"
+
+msgid "Value purchased - Variations"
+msgstr "Value purchased - Variations"
+
+msgid "Value purchased - Products"
+msgstr "Value purchased - Products"
+
+msgid "Purchase History - Value"
+msgstr "Purchase History - Value"
+
+msgid "Purchase History"
+msgstr "Purchase History"
+
+msgid "Shipping country"
+msgstr "Shipping country"
+
+msgid "Shipping postcode"
+msgstr "Shipping postcode"
+
+msgid "Shipping state"
+msgstr "Shipping state"
+
+msgid "Shipping zone"
+msgstr "Shipping zone"
+
+msgid "Shipping Address"
+msgstr "Shipping Address"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Date & time"
+msgstr "Date & time"
+
+msgid "Time"
+msgstr "Time"
+
+msgid "Days of week"
+msgstr "Days of week"
+
+msgid "Date & Time"
+msgstr "Date & Time"
+
+msgid "Current"
+msgstr "Current"
+
+msgid "current day"
+msgstr "current day"
+
+msgid "current week"
+msgstr "current week"
+
+msgid "current month"
+msgstr "current month"
+
+msgid "current year"
+msgstr "current year"
+
+msgid "Weeks"
+msgstr "Weeks"
+
+msgid "Months"
+msgstr "Months"
+
+msgid "Years"
+msgstr "Years"
+
+msgid "day"
+msgstr "day"
+
+msgid "week"
+msgstr "week"
+
+msgid "month"
+msgstr "month"
+
+msgid "year"
+msgstr "year"
+
+msgid "days"
+msgstr "days"
+
+msgid "weeks"
+msgstr "weeks"
+
+msgid "months"
+msgstr "months"
+
+msgid "years"
+msgstr "years"
+
+msgid "This product is a subscription"
+msgstr "This product is a subscription"
+
+msgid "Contains at least one subscription"
+msgstr "Contains at least one subscription"
+
+msgid "Any %s"
+msgstr "Any %s"
+
+msgid "Other locations"
+msgstr "Other locations"
+
+msgid "All zones"
+msgstr "All zones"
+
+msgid "Standard Rate"
+msgstr "Standard Rate"
+
+msgid ""
+"%1$s was called incorrectly. %2$s. Since version %3$s.'), $function, $message, $version));\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * Stable asort\n"
+"     *\n"
+"     * Adapted from https://github.com/vanderlee/PHP-stable-sort-functions/\n"
+"     *\n"
+"     * @access public\n"
+"     * @param array $array\n"
+"     * @param string $sort_flags\n"
+"     * @return array\n"
+"     */\n"
+"    public static function stable_asort(&$array, $sort_flags = SORT_REGULAR)\n"
+"    {\n"
+"        $index = 0;\n"
+"\n"
+"        foreach ($array as &$item) {\n"
+"            $item = array($index++, $item);\n"
+"        }\n"
+"\n"
+"        $result = uasort($array, function($a, $b) use($sort_flags) {\n"
+"\n"
+"            if ($a[1] == $b[1]) {\n"
+"                return $a[0] - $b[0];\n"
+"            }\n"
+"\n"
+"            $set = array(-1 => $a[1], 1 => $b[1]);\n"
+"            asort($set, $sort_flags);\n"
+"            reset($set);\n"
+"            return key($set);\n"
+"        });\n"
+"\n"
+"        foreach ($array as &$item) {\n"
+"            $item = $item[1];\n"
+"        }\n"
+"\n"
+"        return $result;\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * Stable uasort\n"
+"     *\n"
+"     * Adapted from https://github.com/vanderlee/PHP-stable-sort-functions/\n"
+"     *\n"
+"     * @access public\n"
+"     * @param array $array\n"
+"     * @param callable $value_compare_func\n"
+"     * @param array $params\n"
+"     * @return array\n"
+"     */\n"
+"    public static function stable_uasort(&$array, $value_compare_func, $params = array())\n"
+"    {\n"
+"        $index = 0;\n"
+"\n"
+"        foreach ($array as &$item) {\n"
+"            $item = array($index++, $item);\n"
+"        }\n"
+"\n"
+"        $result = @uasort($array, function($a, $b) use($value_compare_func, $params) {\n"
+"            $result = call_user_func($value_compare_func, $a[1], $b[1], $params);\n"
+"            return $result == 0 ? $a[0] - $b[0] : $result;\n"
+"        });\n"
+"\n"
+"        foreach ($array as &$item) {\n"
+"            $item = $item[1];\n"
+"        }\n"
+"\n"
+"        return $result;\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * Get WooCommerce main product id (i.e. parent id in case of product variation)\n"
+"     *\n"
+"     * @access public\n"
+"     * @param object|int $product\n"
+"     * @return int\n"
+"     */\n"
+"    public static function get_wc_product_absolute_id($product)\n"
+"    {\n"
+"        // Load product object\n"
+"        if (!is_a($product, 'WC_Product')) {\n"
+"            $product = wc_get_product($product);\n"
+"        }\n"
+"\n"
+"        // Return appropriate id\n"
+"        return $product->is_type('variation') ? $product->get_parent_id() : $product->get_id();\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * Normalize string decimal\n"
+"     *\n"
+"     * Safely changes '12.345,67' to '12345.67'\n"
+"     *\n"
+"     * @access public\n"
+"     * @param string $number\n"
+"     * @return string\n"
+"     */\n"
+"    public static function normalize_string_decimal($number)\n"
+"    {\n"
+"        return preg_replace('/\\.(?=.*\\.)/"
+msgstr ""
+"%1$s was called incorrectly. %2$s. Since version %3$s.'), $function, $message, $version));\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * Stable asort\n"
+"     *\n"
+"     * Adapted from https://github.com/vanderlee/PHP-stable-sort-functions/\n"
+"     *\n"
+"     * @access public\n"
+"     * @param array $array\n"
+"     * @param string $sort_flags\n"
+"     * @return array\n"
+"     */\n"
+"    public static function stable_asort(&$array, $sort_flags = SORT_REGULAR)\n"
+"    {\n"
+"        $index = 0;\n"
+"\n"
+"        foreach ($array as &$item) {\n"
+"            $item = array($index++, $item);\n"
+"        }\n"
+"\n"
+"        $result = uasort($array, function($a, $b) use($sort_flags) {\n"
+"\n"
+"            if ($a[1] == $b[1]) {\n"
+"                return $a[0] - $b[0];\n"
+"            }\n"
+"\n"
+"            $set = array(-1 => $a[1], 1 => $b[1]);\n"
+"            asort($set, $sort_flags);\n"
+"            reset($set);\n"
+"            return key($set);\n"
+"        });\n"
+"\n"
+"        foreach ($array as &$item) {\n"
+"            $item = $item[1];\n"
+"        }\n"
+"\n"
+"        return $result;\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * Stable uasort\n"
+"     *\n"
+"     * Adapted from https://github.com/vanderlee/PHP-stable-sort-functions/\n"
+"     *\n"
+"     * @access public\n"
+"     * @param array $array\n"
+"     * @param callable $value_compare_func\n"
+"     * @param array $params\n"
+"     * @return array\n"
+"     */\n"
+"    public static function stable_uasort(&$array, $value_compare_func, $params = array())\n"
+"    {\n"
+"        $index = 0;\n"
+"\n"
+"        foreach ($array as &$item) {\n"
+"            $item = array($index++, $item);\n"
+"        }\n"
+"\n"
+"        $result = @uasort($array, function($a, $b) use($value_compare_func, $params) {\n"
+"            $result = call_user_func($value_compare_func, $a[1], $b[1], $params);\n"
+"            return $result == 0 ? $a[0] - $b[0] : $result;\n"
+"        });\n"
+"\n"
+"        foreach ($array as &$item) {\n"
+"            $item = $item[1];\n"
+"        }\n"
+"\n"
+"        return $result;\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * Get WooCommerce main product id (i.e. parent id in case of product variation)\n"
+"     *\n"
+"     * @access public\n"
+"     * @param object|int $product\n"
+"     * @return int\n"
+"     */\n"
+"    public static function get_wc_product_absolute_id($product)\n"
+"    {\n"
+"        // Load product object\n"
+"        if (!is_a($product, 'WC_Product')) {\n"
+"            $product = wc_get_product($product);\n"
+"        }\n"
+"\n"
+"        // Return appropriate id\n"
+"        return $product->is_type('variation') ? $product->get_parent_id() : $product->get_id();\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * Normalize string decimal\n"
+"     *\n"
+"     * Safely changes '12.345,67' to '12345.67'\n"
+"     *\n"
+"     * @access public\n"
+"     * @param string $number\n"
+"     * @return string\n"
+"     */\n"
+"    public static function normalize_string_decimal($number)\n"
+"    {\n"
+"        return preg_replace('/\\.(?=.*\\.)/"
+
+msgid "Value must be greater than or equal to {{value}}."
+msgstr "Value must be greater than or equal to {{value}}."
+
+msgid "Warning! Importing settings will irrecoverably overwrite your existing settings."
+msgstr "Warning! Importing settings will irrecoverably overwrite your existing settings."
+
+msgid "Error: Uploaded settings file is invalid. It might be corrupted or truncated."
+msgstr "Error: Uploaded settings file is invalid. It might be corrupted or truncated."
+
+msgid "Error: Uploaded file contains settings for a different plugin. Please check your file and try again."
+msgstr "Error: Uploaded file contains settings for a different plugin. Please check your file and try again."
+
+msgid "Error: There was an error processing uploaded settings file. Please try again."
+msgstr "Error: There was an error processing uploaded settings file. Please try again."
+
+msgid "<strong>User Interface Loading</strong>"
+msgstr "<strong>User Interface Loading</strong>"
+
+msgid "This plugin uses a JavaScript-driven user interface. If this notice does not disappear within a few seconds, you should check Console for any JavaScript errors or get in touch with <a href=\"%s\">RightPress Support</a>."
+msgstr "This plugin uses a JavaScript-driven user interface. If this notice does not disappear within a few seconds, you should check Console for any JavaScript errors or get in touch with <a href=\"%s\">RightPress Support</a>."
+
+msgid "An unexpected error occurred."
+msgstr "An unexpected error occurred."
+
+msgid "Automatic Update Setup"
+msgstr "Automatic Update Setup"
+
+msgid "There is a new version of <strong>%s</strong> available. To enable automatic updates, enter your CodeCanyon Purchase Code below."
+msgstr "There is a new version of <strong>%s</strong> available. To enable automatic updates, enter your CodeCanyon Purchase Code below."
+
+msgid "<strong>%s</strong> supports automatic updates. To receive them, enter your CodeCanyon Purchase Code below."
+msgstr "<strong>%s</strong> supports automatic updates. To receive them, enter your CodeCanyon Purchase Code below."
+
+msgid "Purchase Code"
+msgstr "Purchase Code"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Where do I find my Purchase Code?"
+msgstr "Where do I find my Purchase Code?"
+
+msgid "Do not remind me again"
+msgstr "Do not remind me again"
+
+msgid "Hide This Notice"
+msgstr "Hide This Notice"
+
+msgid "Purchase Code format is invalid."
+msgstr "Purchase Code format is invalid."
+
+msgid "Unable to verify Purchase Code right now. Please try again later."
+msgstr "Unable to verify Purchase Code right now. Please try again later."
+
+msgid "Purchase Code is not valid."
+msgstr "Purchase Code is not valid."
+
+msgid "Purchase Code belongs to another product."
+msgstr "Purchase Code belongs to another product."
+
+msgid "Enter your Envato Purchase Code to enable automatic updates."
+msgstr "Enter your Envato Purchase Code to enable automatic updates."
+
+msgid "Purchase Code has been successfully updated."
+msgstr "Purchase Code has been successfully updated."
+
+msgid "Purchase Code has been successfully reset."
+msgstr "Purchase Code has been successfully reset."
+
+msgid "Please fix it and try again."
+msgstr "Please fix it and try again."
+
+msgid "Please change it and try again."
+msgstr "Please change it and try again."
+
+msgid "You must enter your Purchase Code <a class=\"rightpress_up_pc_%s\" href=\"#\">here</a> to enable automatic updates. <a href=\"%s\">Where do I find my Purchase Code?</a>"
+msgstr "You must enter your Purchase Code <a class=\"rightpress_up_pc_%s\" href=\"#\">here</a> to enable automatic updates. <a href=\"%s\">Where do I find my Purchase Code?</a>"
+
+msgid "RightPress no longer serves automatic updates as your <a href=\"%s\">support subscription</a> has expired. You can <a href=\"%s\">renew</a> your support subscription or use <a href=\"%s\">other methods</a> to keep this plugin updated."
+msgstr "RightPress no longer serves automatic updates as your <a href=\"%s\">support subscription</a> has expired. You can <a href=\"%s\">renew</a> your support subscription or use <a href=\"%s\">other methods</a> to keep this plugin updated."
+
+msgid "<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires PHP %s or later. Please update PHP on your server to use this plugin."
+msgstr "<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires PHP %s or later. Please update PHP on your server to use this plugin."
+
+msgid "If you have any questions, please contact %s."
+msgstr "If you have any questions, please contact %s."
+
+msgid "RightPress Support"
+msgstr "RightPress Support"
+
+msgid "<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WordPress version %s or later. Please update WordPress to use this plugin."
+msgstr "<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WordPress version %s or later. Please update WordPress to use this plugin."
+
+msgid "<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WooCommerce to be active. You can download WooCommerce %s."
+msgstr "<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WooCommerce to be active. You can download WooCommerce %s."
+
+msgid "here"
+msgstr "here"
+
+msgid "<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WooCommerce version %s or later. Please update WooCommerce to use this plugin."
+msgstr "<strong>WooCommerce Dynamic Pricing & Discounts</strong> requires WooCommerce version %s or later. Please update WooCommerce to use this plugin."
+
+msgid "Support"
+msgstr "Support"
+
+msgid "This plugin uses a JavaScript-driven user interface. If this notice does not disappear in a few seconds, you should check Console for any JavaScript errors or get in touch with <a href=\"%s\">RightPress Support</a>."
+msgstr "This plugin uses a JavaScript-driven user interface. If this notice does not disappear in a few seconds, you should check Console for any JavaScript errors or get in touch with <a href=\"%s\">RightPress Support</a>."
+
+msgid "Note: User interface load time depends on a number of entries. Load time will increase by a fraction with each additional entry."
+msgstr "Note: User interface load time depends on a number of entries. Load time will increase by a fraction with each additional entry."
+
+msgid "No rules configured."
+msgstr "No rules configured."
+
+msgid "Add Rule"
+msgstr "Add Rule"
+
+msgid "Method"
+msgstr "Method"
+
+msgid "Public"
+msgstr "Public"
+
+msgid "Quantities Based On"
+msgstr "Quantities Based On"
+
+msgid "Note"
+msgstr "Note"
+
+msgid "Private"
+msgstr "Private"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Quantities & Discount"
+msgstr "Quantities & Discount"
+
+msgid "Quantity"
+msgstr "Quantity"
+
+msgid "Buy"
+msgstr "Buy"
+
+msgid "At Full Price"
+msgstr "At Full Price"
+
+msgid "Get"
+msgstr "Get"
+
+msgid "Discounted"
+msgstr "Discounted"
+
+msgid "Quantity Ranges"
+msgstr "Quantity Ranges"
+
+msgid "Add Range"
+msgstr "Add Range"
+
+msgid "Product Group"
+msgstr "Product Group"
+
+msgid "Add Product"
+msgstr "Add Product"
+
+msgid "Items"
+msgstr "Items"
+
+msgid "Products"
+msgstr "Products"
+
+msgid "Products - Buy"
+msgstr "Products - Buy"
+
+msgid "Products - Get"
+msgstr "Products - Get"
+
+msgid "Conditions"
+msgstr "Conditions"
+
+msgid "Add Condition"
+msgstr "Add Condition"
+
+msgid "Applies to all products."
+msgstr "Applies to all products."
+
+msgid "Applies to all items."
+msgstr "Applies to all items."
+
+msgid "Applies in all cases."
+msgstr "Applies in all cases."
+
+msgid "Condition type was disabled. Enable it or delete this placeholder after reviewing your settings."
+msgstr "Condition type was disabled. Enable it or delete this placeholder after reviewing your settings."
+
+msgid "Custom taxonomy condition was disabled. Enable it or delete this placeholder after reviewing your settings."
+msgstr "Custom taxonomy condition was disabled. Enable it or delete this placeholder after reviewing your settings."
+
+msgid "Condition type no longer exists. Delete this placeholder after reviewing your settings."
+msgstr "Condition type no longer exists. Delete this placeholder after reviewing your settings."
+
+msgid "Custom taxonomy no longer exists. Delete this placeholder after reviewing your settings."
+msgstr "Custom taxonomy no longer exists. Delete this placeholder after reviewing your settings."
+
+msgid "No quantity ranges."
+msgstr "No quantity ranges."
+
+msgid "From"
+msgstr "From"
+
+msgid "To - No limit"
+msgstr "To - No limit"
+
+msgid "No products in group."
+msgstr "No products in group."

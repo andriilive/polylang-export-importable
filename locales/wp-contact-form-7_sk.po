@@ -1,0 +1,1056 @@
+msgid ""
+msgstr ""
+"X-Domain: wp-contact-form-7\n"
+
+msgid "String"
+msgstr "String"
+
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Edit Contact Form"
+msgstr "Edit Contact Form"
+
+msgid "Contact Forms"
+msgstr "Contact Forms"
+
+msgid "Add New Contact Form"
+msgstr "Add New Contact Form"
+
+msgid "Add New"
+msgstr "Add New"
+
+msgid "Integration with Other Services"
+msgstr "Integration with Other Services"
+
+msgid "Integration"
+msgstr "Integration"
+
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "The changes you made will be lost if you navigate away from this page."
+
+msgid "How to resolve?"
+msgstr "How to resolve?"
+
+msgid "1 configuration error detected"
+msgstr "1 configuration error detected"
+
+msgid "%d configuration errors detected"
+msgstr "%d configuration errors detected"
+
+msgid "1 configuration error detected in this tab panel"
+msgstr "1 configuration error detected in this tab panel"
+
+msgid "%d configuration errors detected in this tab panel"
+msgstr "%d configuration errors detected in this tab panel"
+
+msgid "(configuration error)"
+msgstr "(configuration error)"
+
+msgid "You are not allowed to edit this item."
+msgstr "You are not allowed to edit this item."
+
+msgid "You are not allowed to delete this item."
+msgstr "You are not allowed to delete this item."
+
+msgid "Error in deleting."
+msgstr "Error in deleting."
+
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Search results for &#8220;%s&#8221;"
+
+msgid "Search Contact Forms"
+msgstr "Search Contact Forms"
+
+msgid "Contact form created."
+msgstr "Contact form created."
+
+msgid "Contact form saved."
+msgstr "Contact form saved."
+
+msgid "Contact form deleted."
+msgstr "Contact form deleted."
+
+msgid "There was an error saving the contact form."
+msgstr "There was an error saving the contact form."
+
+msgid "Configuration validation completed. No invalid contact form was found."
+msgstr "Configuration validation completed. No invalid contact form was found."
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "<strong>Contact Form 7 %1$s requires WordPress %2$s or higher.</strong> Please <a href=\"%3$s\">update WordPress</a> first."
+msgstr "<strong>Contact Form 7 %1$s requires WordPress %2$s or higher.</strong> Please <a href=\"%3$s\">update WordPress</a> first."
+
+msgid "You are not allowed to edit this contact form."
+msgstr "You are not allowed to edit this contact form."
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Enter title here"
+msgstr "Enter title here"
+
+msgid "Copy this shortcode and paste it into your post, page, or text widget content:"
+msgstr "Copy this shortcode and paste it into your post, page, or text widget content:"
+
+msgid "You can also use this old-style shortcode:"
+msgstr "You can also use this old-style shortcode:"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Duplicate"
+msgstr "Duplicate"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "You are about to delete this contact form.\\n  'Cancel' to stop, 'OK' to delete."
+msgstr "You are about to delete this contact form.\\n  'Cancel' to stop, 'OK' to delete."
+
+msgid "Do you need help?"
+msgstr "Do you need help?"
+
+msgid "Here are some available options to help solve your problems."
+msgstr "Here are some available options to help solve your problems."
+
+msgid "%1$s and %2$s"
+msgstr "%1$s and %2$s"
+
+msgid "https://contactform7.com/faq/"
+msgstr "https://contactform7.com/faq/"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "https://contactform7.com/docs/"
+msgstr "https://contactform7.com/docs/"
+
+msgid "docs"
+msgstr "docs"
+
+msgid "https://wordpress.org/support/plugin/contact-form-7/"
+msgstr "https://wordpress.org/support/plugin/contact-form-7/"
+
+msgid "Support forums"
+msgstr "Support forums"
+
+msgid "https://contactform7.com/custom-development/"
+msgstr "https://contactform7.com/custom-development/"
+
+msgid "Professional services"
+msgstr "Professional services"
+
+msgid "%1$s %2$s keys switch panels"
+msgstr "%1$s %2$s keys switch panels"
+
+msgid "(left and right arrow)"
+msgstr "(left and right arrow)"
+
+msgid "Form"
+msgstr "Form"
+
+msgid "Mail"
+msgstr "Mail"
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "Additional Settings (%d)"
+msgstr "Additional Settings (%d)"
+
+msgid "Additional Settings"
+msgstr "Additional Settings"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Edit &#8220;%s&#8221;"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+msgid "g:i a"
+msgstr "g:i a"
+
+msgid "Validate Contact Form 7 Configuration"
+msgstr "Validate Contact Form 7 Configuration"
+
+msgid "Misconfiguration leads to mail delivery failure or other troubles. Validate your contact forms now."
+msgstr "Misconfiguration leads to mail delivery failure or other troubles. Validate your contact forms now."
+
+msgid "You are not allowed to validate configuration."
+msgstr "You are not allowed to validate configuration."
+
+msgid "Validate Configuration"
+msgstr "Validate Configuration"
+
+msgid "https://contactform7.com/configuration-validator-faq/"
+msgstr "https://contactform7.com/configuration-validator-faq/"
+
+msgid "FAQ about Configuration Validator"
+msgstr "FAQ about Configuration Validator"
+
+msgid "https://contactform7.com/editing-form-template/"
+msgstr "https://contactform7.com/editing-form-template/"
+
+msgid "Editing form template"
+msgstr "Editing form template"
+
+msgid "You can edit the form template here. For details, see %s."
+msgstr "You can edit the form template here. For details, see %s."
+
+msgid "Mail (2)"
+msgstr "Mail (2)"
+
+msgid "Use Mail (2)"
+msgstr "Use Mail (2)"
+
+msgid "Mail (2) is an additional mail template often used as an autoresponder."
+msgstr "Mail (2) is an additional mail template often used as an autoresponder."
+
+msgid "https://contactform7.com/setting-up-mail/"
+msgstr "https://contactform7.com/setting-up-mail/"
+
+msgid "Setting up mail"
+msgstr "Setting up mail"
+
+msgid "You can edit the mail template here. For details, see %s."
+msgstr "You can edit the mail template here. For details, see %s."
+
+msgid "In the following fields, you can use these mail-tags:"
+msgstr "In the following fields, you can use these mail-tags:"
+
+msgid "To"
+msgstr "To"
+
+msgid "From"
+msgstr "From"
+
+msgid "Subject"
+msgstr "Subject"
+
+msgid "Additional headers"
+msgstr "Additional headers"
+
+msgid "Message body"
+msgstr "Message body"
+
+msgid "Exclude lines with blank mail-tags from output"
+msgstr "Exclude lines with blank mail-tags from output"
+
+msgid "Use HTML content type"
+msgstr "Use HTML content type"
+
+msgid "File attachments"
+msgstr "File attachments"
+
+msgid "https://contactform7.com/editing-messages/"
+msgstr "https://contactform7.com/editing-messages/"
+
+msgid "Editing messages"
+msgstr "Editing messages"
+
+msgid "You can edit messages used in various situations here. For details, see %s."
+msgstr "You can edit messages used in various situations here. For details, see %s."
+
+msgid "https://contactform7.com/additional-settings/"
+msgstr "https://contactform7.com/additional-settings/"
+
+msgid "Additional settings"
+msgstr "Additional settings"
+
+msgid "You can add customization code snippets here. For details, see %s."
+msgstr "You can add customization code snippets here. For details, see %s."
+
+msgid "Overview"
+msgstr "Overview"
+
+msgid "Available Actions"
+msgstr "Available Actions"
+
+msgid "Form-tags"
+msgstr "Form-tags"
+
+msgid "Mail-tags"
+msgstr "Mail-tags"
+
+msgid "On this screen, you can manage contact forms provided by Contact Form 7. You can manage an unlimited number of contact forms. Each contact form has a unique ID and Contact Form 7 shortcode ([contact-form-7 ...]). To insert a contact form into a post or a text widget, insert the shortcode into the target."
+msgstr "On this screen, you can manage contact forms provided by Contact Form 7. You can manage an unlimited number of contact forms. Each contact form has a unique ID and Contact Form 7 shortcode ([contact-form-7 ...]). To insert a contact form into a post or a text widget, insert the shortcode into the target."
+
+msgid "Hovering over a row in the contact forms list will display action links that allow you to manage your contact form. You can perform the following actions:"
+msgstr "Hovering over a row in the contact forms list will display action links that allow you to manage your contact form. You can perform the following actions:"
+
+msgid "<strong>Edit</strong> - Navigates to the editing screen for that contact form. You can also reach that screen by clicking on the contact form title."
+msgstr "<strong>Edit</strong> - Navigates to the editing screen for that contact form. You can also reach that screen by clicking on the contact form title."
+
+msgid "<strong>Duplicate</strong> - Clones that contact form. A cloned contact form inherits all content from the original, but has a different ID."
+msgstr "<strong>Duplicate</strong> - Clones that contact form. A cloned contact form inherits all content from the original, but has a different ID."
+
+msgid "On this screen, you can edit a contact form. A contact form is comprised of the following components:"
+msgstr "On this screen, you can edit a contact form. A contact form is comprised of the following components:"
+
+msgid "<strong>Title</strong> is the title of a contact form. This title is only used for labeling a contact form, and can be edited."
+msgstr "<strong>Title</strong> is the title of a contact form. This title is only used for labeling a contact form, and can be edited."
+
+msgid "<strong>Form</strong> is a content of HTML form. You can use arbitrary HTML, which is allowed inside a form element. You can also use Contact Form 7&#8217;s form-tags here."
+msgstr "<strong>Form</strong> is a content of HTML form. You can use arbitrary HTML, which is allowed inside a form element. You can also use Contact Form 7&#8217;s form-tags here."
+
+msgid "<strong>Mail</strong> manages a mail template (headers and message body) that this contact form will send when users submit it. You can use Contact Form 7&#8217;s mail-tags here."
+msgstr "<strong>Mail</strong> manages a mail template (headers and message body) that this contact form will send when users submit it. You can use Contact Form 7&#8217;s mail-tags here."
+
+msgid "<strong>Mail (2)</strong> is an additional mail template that works similar to Mail. Mail (2) is different in that it is sent only when Mail has been sent successfully."
+msgstr "<strong>Mail (2)</strong> is an additional mail template that works similar to Mail. Mail (2) is different in that it is sent only when Mail has been sent successfully."
+
+msgid "In <strong>Messages</strong>, you can edit various types of messages used for this contact form. These messages are relatively short messages, like a validation error message you see when you leave a required field blank."
+msgstr "In <strong>Messages</strong>, you can edit various types of messages used for this contact form. These messages are relatively short messages, like a validation error message you see when you leave a required field blank."
+
+msgid "<strong>Additional Settings</strong> provides a place where you can customize the behavior of this contact form by adding code snippets."
+msgstr "<strong>Additional Settings</strong> provides a place where you can customize the behavior of this contact form by adding code snippets."
+
+msgid "A form-tag is a short code enclosed in square brackets used in a form content. A form-tag generally represents an input field, and its components can be separated into four parts: type, name, options, and values. Contact Form 7 supports several types of form-tags including text fields, number fields, date fields, checkboxes, radio buttons, menus, file-uploading fields, CAPTCHAs, and quiz fields."
+msgstr "A form-tag is a short code enclosed in square brackets used in a form content. A form-tag generally represents an input field, and its components can be separated into four parts: type, name, options, and values. Contact Form 7 supports several types of form-tags including text fields, number fields, date fields, checkboxes, radio buttons, menus, file-uploading fields, CAPTCHAs, and quiz fields."
+
+msgid "While form-tags have a comparatively complex syntax, you don&#8217;t need to know the syntax to add form-tags because you can use the straightforward tag generator (<strong>Generate Tag</strong> button on this screen)."
+msgstr "While form-tags have a comparatively complex syntax, you don&#8217;t need to know the syntax to add form-tags because you can use the straightforward tag generator (<strong>Generate Tag</strong> button on this screen)."
+
+msgid "A mail-tag is also a short code enclosed in square brackets that you can use in every Mail and Mail (2) field. A mail-tag represents a user input value through an input field of a corresponding form-tag."
+msgstr "A mail-tag is also a short code enclosed in square brackets that you can use in every Mail and Mail (2) field. A mail-tag represents a user input value through an input field of a corresponding form-tag."
+
+msgid "There are also special mail-tags that have specific names, but don&#8217;t have corresponding form-tags. They are used to represent meta information of form submissions like the submitter&#8217;s IP address or the URL of the page."
+msgstr "There are also special mail-tags that have specific names, but don&#8217;t have corresponding form-tags. They are used to represent meta information of form submissions like the submitter&#8217;s IP address or the URL of the page."
+
+msgid "On this screen, you can manage services that are available through Contact Form 7. Using API will allow you to collaborate with any services that are available."
+msgstr "On this screen, you can manage services that are available through Contact Form 7. Using API will allow you to collaborate with any services that are available."
+
+msgid "You may need to first sign up for an account with the service that you plan to use. When you do so, you would need to authorize Contact Form 7 to access the service with your account."
+msgstr "You may need to first sign up for an account with the service that you plan to use. When you do so, you would need to authorize Contact Form 7 to access the service with your account."
+
+msgid "Any information you provide will not be shared with service providers without your authorization."
+msgstr "Any information you provide will not be shared with service providers without your authorization."
+
+msgid "For more information:"
+msgstr "For more information:"
+
+msgid "Docs"
+msgstr "Docs"
+
+msgid "https://contactform7.com/support/"
+msgstr "https://contactform7.com/support/"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Form-tag Generator: %s"
+msgstr "Form-tag Generator: %s"
+
+msgid "Dismiss"
+msgstr "Dismiss"
+
+msgid "Getting spammed? You have protection."
+msgstr "Getting spammed? You have protection."
+
+msgid "Spammers target everything; your contact forms aren&#8217;t an exception. Before you get spammed, protect your contact forms with the powerful anti-spam features Contact Form 7 provides."
+msgstr "Spammers target everything; your contact forms aren&#8217;t an exception. Before you get spammed, protect your contact forms with the powerful anti-spam features Contact Form 7 provides."
+
+msgid "Contact Form 7 supports spam-filtering with %1$s. Intelligent %2$s blocks annoying spambots. Plus, using %3$s, you can block messages containing specified keywords or those sent from specified IP addresses."
+msgstr "Contact Form 7 supports spam-filtering with %1$s. Intelligent %2$s blocks annoying spambots. Plus, using %3$s, you can block messages containing specified keywords or those sent from specified IP addresses."
+
+msgid "https://contactform7.com/spam-filtering-with-akismet/"
+msgstr "https://contactform7.com/spam-filtering-with-akismet/"
+
+msgid "Akismet"
+msgstr "Akismet"
+
+msgid "https://contactform7.com/recaptcha/"
+msgstr "https://contactform7.com/recaptcha/"
+
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+msgid "https://contactform7.com/comment-blacklist/"
+msgstr "https://contactform7.com/comment-blacklist/"
+
+msgid "disallowed list"
+msgstr "disallowed list"
+
+msgid "Contact Form 7 needs your support."
+msgstr "Contact Form 7 needs your support."
+
+msgid "It is hard to continue development and support for this plugin without contributions from users like you."
+msgstr "It is hard to continue development and support for this plugin without contributions from users like you."
+
+msgid "If you enjoy using Contact Form 7 and find it useful, please consider %s."
+msgstr "If you enjoy using Contact Form 7 and find it useful, please consider %s."
+
+msgid "https://contactform7.com/donate/"
+msgstr "https://contactform7.com/donate/"
+
+msgid "making a donation"
+msgstr "making a donation"
+
+msgid "Your donation will help encourage and support the plugin&#8217;s continued development and better user support."
+msgstr "Your donation will help encourage and support the plugin&#8217;s continued development and better user support."
+
+msgid "Before you cry over spilt mail&#8230;"
+msgstr "Before you cry over spilt mail&#8230;"
+
+msgid "Contact Form 7 doesn&#8217;t store submitted messages anywhere. Therefore, you may lose important messages forever if your mail server has issues or you make a mistake in mail configuration."
+msgstr "Contact Form 7 doesn&#8217;t store submitted messages anywhere. Therefore, you may lose important messages forever if your mail server has issues or you make a mistake in mail configuration."
+
+msgid "Install a message storage plugin before this happens to you. %s saves all messages through contact forms into the database. Flamingo is a free WordPress plugin created by the same author as Contact Form 7."
+msgstr "Install a message storage plugin before this happens to you. %s saves all messages through contact forms into the database. Flamingo is a free WordPress plugin created by the same author as Contact Form 7."
+
+msgid "https://contactform7.com/save-submitted-messages-with-flamingo/"
+msgstr "https://contactform7.com/save-submitted-messages-with-flamingo/"
+
+msgid "Flamingo"
+msgstr "Flamingo"
+
+msgid "https://contactform7.com/configuration-errors/"
+msgstr "https://contactform7.com/configuration-errors/"
+
+msgid "There is a possible empty field."
+msgstr "There is a possible empty field."
+
+msgid "Invalid mailbox syntax is used."
+msgstr "Invalid mailbox syntax is used."
+
+msgid "Sender email address does not belong to the site domain."
+msgstr "Sender email address does not belong to the site domain."
+
+msgid "HTML tags are used in a message."
+msgstr "HTML tags are used in a message."
+
+msgid "Multiple form controls are in a single label element."
+msgstr "Multiple form controls are in a single label element."
+
+msgid "There are invalid mail header fields."
+msgstr "There are invalid mail header fields."
+
+msgid "Deprecated settings are used."
+msgstr "Deprecated settings are used."
+
+msgid "Unavailable names (%names%) are used for form controls."
+msgstr "Unavailable names (%names%) are used for form controls."
+
+msgid "Unavailable HTML elements are used in the form template."
+msgstr "Unavailable HTML elements are used in the form template."
+
+msgid "Invalid mailbox syntax is used in the %name% field."
+msgstr "Invalid mailbox syntax is used in the %name% field."
+
+msgid "The total size of attachment files is too large."
+msgstr "The total size of attachment files is too large."
+
+msgid "Attachment file does not exist at %path%."
+msgstr "Attachment file does not exist at %path%."
+
+msgid "It is not allowed to use files outside the wp-content directory."
+msgstr "It is not allowed to use files outside the wp-content directory."
+
+msgid "Not Found"
+msgstr "Not Found"
+
+msgid "(optional)"
+msgstr "(optional)"
+
+msgid "Your name"
+msgstr "Your name"
+
+msgid "Your email"
+msgstr "Your email"
+
+msgid "Your message"
+msgstr "Your message"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "From: %s"
+msgstr "From: %s"
+
+msgid "Subject: %s"
+msgstr "Subject: %s"
+
+msgid "Message Body:"
+msgstr "Message Body:"
+
+msgid "This e-mail was sent from a contact form on %1$s (%2$s)"
+msgstr "This e-mail was sent from a contact form on %1$s (%2$s)"
+
+msgid "Sender's message was sent successfully"
+msgstr "Sender's message was sent successfully"
+
+msgid "Thank you for your message. It has been sent."
+msgstr "Thank you for your message. It has been sent."
+
+msgid "Sender's message failed to send"
+msgstr "Sender's message failed to send"
+
+msgid "There was an error trying to send your message. Please try again later."
+msgstr "There was an error trying to send your message. Please try again later."
+
+msgid "Validation errors occurred"
+msgstr "Validation errors occurred"
+
+msgid "One or more fields have an error. Please check and try again."
+msgstr "One or more fields have an error. Please check and try again."
+
+msgid "Submission was referred to as spam"
+msgstr "Submission was referred to as spam"
+
+msgid "There are terms that the sender must accept"
+msgstr "There are terms that the sender must accept"
+
+msgid "You must accept the terms and conditions before sending your message."
+msgstr "You must accept the terms and conditions before sending your message."
+
+msgid "There is a field that the sender must fill in"
+msgstr "There is a field that the sender must fill in"
+
+msgid "The field is required."
+msgstr "The field is required."
+
+msgid "There is a field with input that is longer than the maximum allowed length"
+msgstr "There is a field with input that is longer than the maximum allowed length"
+
+msgid "The field is too long."
+msgstr "The field is too long."
+
+msgid "There is a field with input that is shorter than the minimum allowed length"
+msgstr "There is a field with input that is shorter than the minimum allowed length"
+
+msgid "The field is too short."
+msgstr "The field is too short."
+
+msgid "Contact Form"
+msgstr "Contact Form"
+
+msgid "Untitled"
+msgstr "Untitled"
+
+msgid "<code>%1$s</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>%2$s</code> method instead."
+msgstr "<code>%1$s</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>%2$s</code> method instead."
+
+msgid "This contact form is available only for logged in users."
+msgstr "This contact form is available only for logged in users."
+
+msgid "%1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead."
+msgstr "%1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead."
+
+msgid "(This message was added in Contact Form 7 version %s.)"
+msgstr "(This message was added in Contact Form 7 version %s.)"
+
+msgid "%1$s was called incorrectly. %2$s %3$s"
+msgstr "%1$s was called incorrectly. %2$s %3$s"
+
+msgid "HTTP Response: %1$s %2$s %3$s from %4$s"
+msgstr "HTTP Response: %1$s %2$s %3$s from %4$s"
+
+msgid "You are not allowed to access contact forms."
+msgstr "You are not allowed to access contact forms."
+
+msgid "You are not allowed to create a contact form."
+msgstr "You are not allowed to create a contact form."
+
+msgid "You are not allowed to access the requested contact form."
+msgstr "You are not allowed to access the requested contact form."
+
+msgid "Cannot create existing contact form."
+msgstr "Cannot create existing contact form."
+
+msgid "The requested contact form was not found."
+msgstr "The requested contact form was not found."
+
+msgid "There was an error deleting the contact form."
+msgstr "There was an error deleting the contact form."
+
+msgid "The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class."
+msgstr "The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class."
+
+msgid "Sending mail has been aborted."
+msgstr "Sending mail has been aborted."
+
+msgid "User-Agent string is unnaturally short."
+msgstr "User-Agent string is unnaturally short."
+
+msgid "Submitted nonce is invalid."
+msgstr "Submitted nonce is invalid."
+
+msgid "Contact form %d"
+msgstr "Contact form %d"
+
+msgid "Consented"
+msgstr "Consented"
+
+msgid "Not consented"
+msgstr "Not consented"
+
+msgid "acceptance"
+msgstr "acceptance"
+
+msgid "Generate a form-tag for an acceptance checkbox. For more details, see %s."
+msgstr "Generate a form-tag for an acceptance checkbox. For more details, see %s."
+
+msgid "https://contactform7.com/acceptance-checkbox/"
+msgstr "https://contactform7.com/acceptance-checkbox/"
+
+msgid "Acceptance checkbox"
+msgstr "Acceptance checkbox"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Condition"
+msgstr "Condition"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Make this checkbox optional"
+msgstr "Make this checkbox optional"
+
+msgid "Id attribute"
+msgstr "Id attribute"
+
+msgid "Class attribute"
+msgstr "Class attribute"
+
+msgid "Insert Tag"
+msgstr "Insert Tag"
+
+msgid "Akismet returns a spam response."
+msgstr "Akismet returns a spam response."
+
+msgid "checkboxes"
+msgstr "checkboxes"
+
+msgid "radio buttons"
+msgstr "radio buttons"
+
+msgid "Generate a form-tag for a group of checkboxes. For more details, see %s."
+msgstr "Generate a form-tag for a group of checkboxes. For more details, see %s."
+
+msgid "Generate a form-tag for a group of radio buttons. For more details, see %s."
+msgstr "Generate a form-tag for a group of radio buttons. For more details, see %s."
+
+msgid "https://contactform7.com/checkboxes-radio-buttons-and-menus/"
+msgstr "https://contactform7.com/checkboxes-radio-buttons-and-menus/"
+
+msgid "Checkboxes, radio buttons and menus"
+msgstr "Checkboxes, radio buttons and menus"
+
+msgid "Field type"
+msgstr "Field type"
+
+msgid "Required field"
+msgstr "Required field"
+
+msgid "One option per line."
+msgstr "One option per line."
+
+msgid "Put a label first, a checkbox last"
+msgstr "Put a label first, a checkbox last"
+
+msgid "Wrap each item with label element"
+msgstr "Wrap each item with label element"
+
+msgid "Make checkboxes exclusive"
+msgstr "Make checkboxes exclusive"
+
+msgid "To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+msgstr "To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+
+msgid "Email marketing"
+msgstr "Email marketing"
+
+msgid "Constant Contact"
+msgstr "Constant Contact"
+
+msgid "Connection established."
+msgstr "Connection established."
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Failed to establish connection. Please double-check your configuration."
+msgstr "Failed to establish connection. Please double-check your configuration."
+
+msgid "Configuration updated."
+msgstr "Configuration updated."
+
+msgid "The Constant Contact integration module allows you to send contact data collected through your contact forms to the Constant Contact API. You can create reliable email subscription services in a few easy steps. For details, see %s."
+msgstr "The Constant Contact integration module allows you to send contact data collected through your contact forms to the Constant Contact API. You can create reliable email subscription services in a few easy steps. For details, see %s."
+
+msgid "https://contactform7.com/constant-contact-integration/"
+msgstr "https://contactform7.com/constant-contact-integration/"
+
+msgid "Constant Contact integration"
+msgstr "Constant Contact integration"
+
+msgid "This site is connected to the Constant Contact API."
+msgstr "This site is connected to the Constant Contact API."
+
+msgid "Setup Integration"
+msgstr "Setup Integration"
+
+msgid "API Key"
+msgstr "API Key"
+
+msgid "App Secret"
+msgstr "App Secret"
+
+msgid "Redirect URI"
+msgstr "Redirect URI"
+
+msgid "Set this URL as the redirect URI."
+msgstr "Set this URL as the redirect URI."
+
+msgid "Connect to the Constant Contact API"
+msgstr "Connect to the Constant Contact API"
+
+msgid "Select lists to which newly added contacts are to belong."
+msgstr "Select lists to which newly added contacts are to belong."
+
+msgid "Date format that the sender entered is invalid"
+msgstr "Date format that the sender entered is invalid"
+
+msgid "The date format is incorrect."
+msgstr "The date format is incorrect."
+
+msgid "Date is earlier than minimum limit"
+msgstr "Date is earlier than minimum limit"
+
+msgid "The date is before the earliest one allowed."
+msgstr "The date is before the earliest one allowed."
+
+msgid "Date is later than maximum limit"
+msgstr "Date is later than maximum limit"
+
+msgid "The date is after the latest one allowed."
+msgstr "The date is after the latest one allowed."
+
+msgid "date"
+msgstr "date"
+
+msgid "Generate a form-tag for a date input field. For more details, see %s."
+msgstr "Generate a form-tag for a date input field. For more details, see %s."
+
+msgid "https://contactform7.com/date-field/"
+msgstr "https://contactform7.com/date-field/"
+
+msgid "Date field"
+msgstr "Date field"
+
+msgid "Default value"
+msgstr "Default value"
+
+msgid "Use this text as the placeholder of the field"
+msgstr "Use this text as the placeholder of the field"
+
+msgid "Range"
+msgstr "Range"
+
+msgid "Min"
+msgstr "Min"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Disallowed words are used."
+msgstr "Disallowed words are used."
+
+msgid "Disallowed words (%s) are used."
+msgstr "Disallowed words (%s) are used."
+
+msgid "Uploading a file fails for any reason"
+msgstr "Uploading a file fails for any reason"
+
+msgid "There was an unknown error uploading the file."
+msgstr "There was an unknown error uploading the file."
+
+msgid "Uploaded file is not allowed for file type"
+msgstr "Uploaded file is not allowed for file type"
+
+msgid "You are not allowed to upload files of this type."
+msgstr "You are not allowed to upload files of this type."
+
+msgid "Uploaded file is too large"
+msgstr "Uploaded file is too large"
+
+msgid "The file is too big."
+msgstr "The file is too big."
+
+msgid "Uploading a file fails for PHP error"
+msgstr "Uploading a file fails for PHP error"
+
+msgid "There was an error uploading the file."
+msgstr "There was an error uploading the file."
+
+msgid "file"
+msgstr "file"
+
+msgid "Generate a form-tag for a file uploading field. For more details, see %s."
+msgstr "Generate a form-tag for a file uploading field. For more details, see %s."
+
+msgid "https://contactform7.com/file-uploading-and-attachment/"
+msgstr "https://contactform7.com/file-uploading-and-attachment/"
+
+msgid "File uploading and attachment"
+msgstr "File uploading and attachment"
+
+msgid "File size limit (bytes)"
+msgstr "File size limit (bytes)"
+
+msgid "Acceptable file types"
+msgstr "Acceptable file types"
+
+msgid "To attach the file uploaded through this field to mail, you need to insert the corresponding mail-tag (%s) into the File Attachments field on the Mail tab."
+msgstr "To attach the file uploaded through this field to mail, you need to insert the corresponding mail-tag (%s) into the File Attachments field on the Mail tab."
+
+msgid "This contact form contains file uploading fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+msgstr "This contact form contains file uploading fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+
+msgid "Number format that the sender entered is invalid"
+msgstr "Number format that the sender entered is invalid"
+
+msgid "The number format is invalid."
+msgstr "The number format is invalid."
+
+msgid "Number is smaller than minimum limit"
+msgstr "Number is smaller than minimum limit"
+
+msgid "The number is smaller than the minimum allowed."
+msgstr "The number is smaller than the minimum allowed."
+
+msgid "Number is larger than maximum limit"
+msgstr "Number is larger than maximum limit"
+
+msgid "The number is larger than the maximum allowed."
+msgstr "The number is larger than the maximum allowed."
+
+msgid "number"
+msgstr "number"
+
+msgid "Generate a form-tag for a field for numeric value input. For more details, see %s."
+msgstr "Generate a form-tag for a field for numeric value input. For more details, see %s."
+
+msgid "https://contactform7.com/number-fields/"
+msgstr "https://contactform7.com/number-fields/"
+
+msgid "Number fields"
+msgstr "Number fields"
+
+msgid "Spinbox"
+msgstr "Spinbox"
+
+msgid "Slider"
+msgstr "Slider"
+
+msgid "Sender doesn't enter the correct answer to the quiz"
+msgstr "Sender doesn't enter the correct answer to the quiz"
+
+msgid "The answer to the quiz is incorrect."
+msgstr "The answer to the quiz is incorrect."
+
+msgid "quiz"
+msgstr "quiz"
+
+msgid "Generate a form-tag for a question-answer pair. For more details, see %s."
+msgstr "Generate a form-tag for a question-answer pair. For more details, see %s."
+
+msgid "https://contactform7.com/quiz/"
+msgstr "https://contactform7.com/quiz/"
+
+msgid "Quiz"
+msgstr "Quiz"
+
+msgid "Questions and answers"
+msgstr "Questions and answers"
+
+msgid "One pipe-separated question-answer pair (e.g. The capital of Brazil?|Rio) per line."
+msgstr "One pipe-separated question-answer pair (e.g. The capital of Brazil?|Rio) per line."
+
+msgid "To use CAPTCHA, you need %s plugin installed."
+msgstr "To use CAPTCHA, you need %s plugin installed."
+
+msgid "The code that sender entered does not match the CAPTCHA"
+msgstr "The code that sender entered does not match the CAPTCHA"
+
+msgid "Your entered code is incorrect."
+msgstr "Your entered code is incorrect."
+
+msgid "CAPTCHA (Really Simple CAPTCHA)"
+msgstr "CAPTCHA (Really Simple CAPTCHA)"
+
+msgid "To use CAPTCHA, you first need to install and activate %s plugin."
+msgstr "To use CAPTCHA, you first need to install and activate %s plugin."
+
+msgid "Generate form-tags for a CAPTCHA image and corresponding response input field. For more details, see %s."
+msgstr "Generate form-tags for a CAPTCHA image and corresponding response input field. For more details, see %s."
+
+msgid "https://contactform7.com/captcha/"
+msgstr "https://contactform7.com/captcha/"
+
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+msgid "Image settings"
+msgstr "Image settings"
+
+msgid "Input field settings"
+msgstr "Input field settings"
+
+msgid "This contact form contains CAPTCHA fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+msgstr "This contact form contains CAPTCHA fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+
+msgid "This contact form contains CAPTCHA fields, but the necessary libraries (GD and FreeType) are not available on your server."
+msgstr "This contact form contains CAPTCHA fields, but the necessary libraries (GD and FreeType) are not available on your server."
+
+msgid "reCAPTCHA response token is empty."
+msgstr "reCAPTCHA response token is empty."
+
+msgid "reCAPTCHA score (%1$.2f) is lower than the threshold (%2$.2f)."
+msgstr "reCAPTCHA score (%1$.2f) is lower than the threshold (%2$.2f)."
+
+msgid "API keys for reCAPTCHA v3 are different from those for v2; keys for v2 don&#8217;t work with the v3 API. You need to register your sites again to get new keys for v3. For details, see %s."
+msgstr "API keys for reCAPTCHA v3 are different from those for v2; keys for v2 don&#8217;t work with the v3 API. You need to register your sites again to get new keys for v3. For details, see %s."
+
+msgid "reCAPTCHA (v3)"
+msgstr "reCAPTCHA (v3)"
+
+msgid "Invalid key values."
+msgstr "Invalid key values."
+
+msgid "Settings saved."
+msgstr "Settings saved."
+
+msgid "reCAPTCHA protects you against spam and other types of automated abuse. With Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive form submissions by spam bots. For details, see %s."
+msgstr "reCAPTCHA protects you against spam and other types of automated abuse. With Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive form submissions by spam bots. For details, see %s."
+
+msgid "reCAPTCHA is active on this site."
+msgstr "reCAPTCHA is active on this site."
+
+msgid "Site Key"
+msgstr "Site Key"
+
+msgid "Secret Key"
+msgstr "Secret Key"
+
+msgid "Save Changes"
+msgstr "Save Changes"
+
+msgid "drop-down menu"
+msgstr "drop-down menu"
+
+msgid "Generate a form-tag for a drop-down menu. For more details, see %s."
+msgstr "Generate a form-tag for a drop-down menu. For more details, see %s."
+
+msgid "Allow multiple selections"
+msgstr "Allow multiple selections"
+
+msgid "Insert a blank item as the first option"
+msgstr "Insert a blank item as the first option"
+
+msgid "Send"
+msgstr "Send"
+
+msgid "submit"
+msgstr "submit"
+
+msgid "Generate a form-tag for a submit button. For more details, see %s."
+msgstr "Generate a form-tag for a submit button. For more details, see %s."
+
+msgid "https://contactform7.com/submit-button/"
+msgstr "https://contactform7.com/submit-button/"
+
+msgid "Submit button"
+msgstr "Submit button"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Email address that the sender entered is invalid"
+msgstr "Email address that the sender entered is invalid"
+
+msgid "The e-mail address entered is invalid."
+msgstr "The e-mail address entered is invalid."
+
+msgid "URL that the sender entered is invalid"
+msgstr "URL that the sender entered is invalid"
+
+msgid "The URL is invalid."
+msgstr "The URL is invalid."
+
+msgid "Telephone number that the sender entered is invalid"
+msgstr "Telephone number that the sender entered is invalid"
+
+msgid "The telephone number is invalid."
+msgstr "The telephone number is invalid."
+
+msgid "text"
+msgstr "text"
+
+msgid "email"
+msgstr "email"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "tel"
+msgstr "tel"
+
+msgid "Generate a form-tag for a single-line plain text input field. For more details, see %s."
+msgstr "Generate a form-tag for a single-line plain text input field. For more details, see %s."
+
+msgid "Generate a form-tag for a single-line email address input field. For more details, see %s."
+msgstr "Generate a form-tag for a single-line email address input field. For more details, see %s."
+
+msgid "Generate a form-tag for a single-line URL input field. For more details, see %s."
+msgstr "Generate a form-tag for a single-line URL input field. For more details, see %s."
+
+msgid "Generate a form-tag for a single-line telephone number input field. For more details, see %s."
+msgstr "Generate a form-tag for a single-line telephone number input field. For more details, see %s."
+
+msgid "https://contactform7.com/text-fields/"
+msgstr "https://contactform7.com/text-fields/"
+
+msgid "Text fields"
+msgstr "Text fields"
+
+msgid "This field requires author's name"
+msgstr "This field requires author's name"
+
+msgid "This field requires author's email address"
+msgstr "This field requires author's email address"
+
+msgid "This field requires author's URL"
+msgstr "This field requires author's URL"
+
+msgid "text area"
+msgstr "text area"
+
+msgid "Generate a form-tag for a multi-line text input field. For more details, see %s."
+msgstr "Generate a form-tag for a multi-line text input field. For more details, see %s."

@@ -1,0 +1,1104 @@
+msgid ""
+msgstr ""
+"X-Domain: woocommerce-gutenberg-products-block\n"
+
+msgid "String"
+msgstr "String"
+
+msgid "Script with handle %s had a dependency on itself which has been removed. This is an indicator that your JS code has a circular dependency that can cause bugs."
+msgstr "Script with handle %s had a dependency on itself which has been removed. This is an indicator that your JS code has a circular dependency that can cause bugs."
+
+msgid "Sale"
+msgstr "Sale"
+
+msgid "Product on sale"
+msgstr "Product on sale"
+
+msgid "Credit card"
+msgstr "Credit card"
+
+msgid "List of categories"
+msgstr "List of categories"
+
+msgid "List of categories with their product counts"
+msgstr "List of categories with their product counts"
+
+msgid "Select a category"
+msgstr "Select a category"
+
+msgid "Go to category"
+msgstr "Go to category"
+
+msgid "%d product"
+msgstr "%d product"
+
+msgid "%d products"
+msgstr "%d products"
+
+msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+msgstr "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+
+msgid "New account"
+msgstr "New account"
+
+msgid "Customer \"new account\" emails are sent to the customer when a customer signs up via checkout or account blocks."
+msgstr "Customer \"new account\" emails are sent to the customer when a customer signs up via checkout or account blocks."
+
+msgid "Your {site_title} account has been created!"
+msgstr "Your {site_title} account has been created!"
+
+msgid "Welcome to {site_title}"
+msgstr "Welcome to {site_title}"
+
+msgid "We look forward to seeing you soon."
+msgstr "We look forward to seeing you soon."
+
+msgid "Extension data registered by %s"
+msgstr "Extension data registered by %s"
+
+msgid "WooCommerce %1$s table creation failed. Does the %2$s user have CREATE privileges on the %3$s database?"
+msgstr "WooCommerce %1$s table creation failed. Does the %2$s user have CREATE privileges on the %3$s database?"
+
+msgid "Credit / Debit Card"
+msgstr "Credit / Debit Card"
+
+msgid "Visa"
+msgstr "Visa"
+
+msgid "American Express"
+msgstr "American Express"
+
+msgid "Mastercard"
+msgstr "Mastercard"
+
+msgid "Discover"
+msgstr "Discover"
+
+msgid "JCB"
+msgstr "JCB"
+
+msgid "Diners"
+msgstr "Diners"
+
+msgid "Payment method \"%s\" is already registered."
+msgstr "Payment method \"%s\" is already registered."
+
+msgid "Payment method \"%s\" is not registered."
+msgstr "Payment method \"%s\" is not registered."
+
+msgid "Missing the X-WC-Store-API-Nonce header. This endpoint requires a valid nonce."
+msgstr "Missing the X-WC-Store-API-Nonce header. This endpoint requires a valid nonce."
+
+msgid "X-WC-Store-API-Nonce is invalid."
+msgstr "X-WC-Store-API-Nonce is invalid."
+
+msgid "Method not implemented"
+msgstr "Method not implemented"
+
+msgid "Scope under which the request is made; determines fields present in response."
+msgstr "Scope under which the request is made; determines fields present in response."
+
+msgid "Current page of the collection."
+msgstr "Current page of the collection."
+
+msgid "Maximum number of items to be returned in result set. Defaults to no limit if left blank."
+msgstr "Maximum number of items to be returned in result set. Defaults to no limit if left blank."
+
+msgid "Limit results to those matching a string."
+msgstr "Limit results to those matching a string."
+
+msgid "Ensure result set excludes specific IDs."
+msgstr "Ensure result set excludes specific IDs."
+
+msgid "Limit result set to specific ids."
+msgstr "Limit result set to specific ids."
+
+msgid "Sort ascending or descending."
+msgstr "Sort ascending or descending."
+
+msgid "Sort by term property."
+msgstr "Sort by term property."
+
+msgid "If true, empty terms will not be returned."
+msgstr "If true, empty terms will not be returned."
+
+msgid "The cart item product or variation ID."
+msgstr "The cart item product or variation ID."
+
+msgid "Quantity of this item in the cart."
+msgstr "Quantity of this item in the cart."
+
+msgid "Chosen attributes (for variations)."
+msgstr "Chosen attributes (for variations)."
+
+msgid "Variation attribute name."
+msgstr "Variation attribute name."
+
+msgid "Variation attribute value."
+msgstr "Variation attribute value."
+
+msgid "Cannot create an existing cart item."
+msgstr "Cannot create an existing cart item."
+
+msgid "Unique identifier for the coupon within the cart."
+msgstr "Unique identifier for the coupon within the cart."
+
+msgid "Coupons are disabled."
+msgstr "Coupons are disabled."
+
+msgid "Coupon does not exist in the cart."
+msgstr "Coupon does not exist in the cart."
+
+msgid "Unique identifier for the item within the cart."
+msgstr "Unique identifier for the item within the cart."
+
+msgid "Cart item does not exist."
+msgstr "Cart item does not exist."
+
+msgid "Invalid coupon code."
+msgstr "Invalid coupon code."
+
+msgid "Coupon cannot be removed because it is not already applied to the cart."
+msgstr "Coupon cannot be removed because it is not already applied to the cart."
+
+msgid "Unique identifier (key) for the cart item."
+msgstr "Unique identifier (key) for the cart item."
+
+msgid "Cart item no longer exists or is invalid."
+msgstr "Cart item no longer exists or is invalid."
+
+msgid "The ID of the package being shipped."
+msgstr "The ID of the package being shipped."
+
+msgid "The chosen rate ID for the package."
+msgstr "The chosen rate ID for the package."
+
+msgid "Shipping is disabled."
+msgstr "Shipping is disabled."
+
+msgid "Invalid Package ID."
+msgstr "Invalid Package ID."
+
+msgid "Billing address."
+msgstr "Billing address."
+
+msgid "Shipping address."
+msgstr "Shipping address."
+
+msgid "Unique identifier (key) for the cart item to update."
+msgstr "Unique identifier (key) for the cart item to update."
+
+msgid "New quantity of the item in the cart."
+msgstr "New quantity of the item in the cart."
+
+msgid "Data to pass through to the payment method when processing payment."
+msgstr "Data to pass through to the payment method when processing payment."
+
+msgid "Unable to create order"
+msgstr "Unable to create order"
+
+msgid "Invalid payment result received from payment method."
+msgstr "Invalid payment result received from payment method."
+
+msgid "No payment method provided."
+msgstr "No payment method provided."
+
+msgid "This payment gateway is not available."
+msgstr "This payment gateway is not available."
+
+msgid "Please provide a valid email address."
+msgstr "Please provide a valid email address."
+
+msgid "An account is already registered with your email address. Please log in before proceeding."
+msgstr "An account is already registered with your email address. Please log in before proceeding."
+
+msgid "Unique identifier for the attribute."
+msgstr "Unique identifier for the attribute."
+
+msgid "Attribute does not exist."
+msgstr "Attribute does not exist."
+
+msgid "Unique identifier for the resource."
+msgstr "Unique identifier for the resource."
+
+msgid "Invalid attribute ID."
+msgstr "Invalid attribute ID."
+
+msgid "Invalid category ID."
+msgstr "Invalid category ID."
+
+msgid "If true, calculates the minimum and maximum product prices for the collection."
+msgstr "If true, calculates the minimum and maximum product prices for the collection."
+
+msgid "If requested, calculates attribute term counts for products in the collection."
+msgstr "If requested, calculates attribute term counts for products in the collection."
+
+msgid "Taxonomy name."
+msgstr "Taxonomy name."
+
+msgid "Query type being performed which may affect counts. Valid values include \"and\" and \"or\"."
+msgstr "Query type being performed which may affect counts. Valid values include \"and\" and \"or\"."
+
+msgid "If true, calculates rating counts for products in the collection."
+msgstr "If true, calculates rating counts for products in the collection."
+
+msgid "Offset the result set by a specific number of items."
+msgstr "Offset the result set by a specific number of items."
+
+msgid "Order sort attribute ascending or descending."
+msgstr "Order sort attribute ascending or descending."
+
+msgid "Sort collection by object attribute."
+msgstr "Sort collection by object attribute."
+
+msgid "Limit result set to reviews from specific category IDs."
+msgstr "Limit result set to reviews from specific category IDs."
+
+msgid "Limit result set to reviews from specific product IDs."
+msgstr "Limit result set to reviews from specific product IDs."
+
+msgid "Limit response to resources created after a given ISO8601 compliant date."
+msgstr "Limit response to resources created after a given ISO8601 compliant date."
+
+msgid "Limit response to resources created before a given ISO8601 compliant date."
+msgstr "Limit response to resources created before a given ISO8601 compliant date."
+
+msgid "When limiting response using after/before, which date column to compare against."
+msgstr "When limiting response using after/before, which date column to compare against."
+
+msgid "Limit result set to those of particular parent IDs."
+msgstr "Limit result set to those of particular parent IDs."
+
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "Limit result set to all items except those of a particular parent ID."
+
+msgid "Limit result set to products assigned a specific type."
+msgstr "Limit result set to products assigned a specific type."
+
+msgid "Limit result set to products with specific SKU(s). Use commas to separate."
+msgstr "Limit result set to products with specific SKU(s). Use commas to separate."
+
+msgid "Limit result set to featured products."
+msgstr "Limit result set to featured products."
+
+msgid "Limit result set to products assigned a specific category ID."
+msgstr "Limit result set to products assigned a specific category ID."
+
+msgid "Operator to compare product category terms."
+msgstr "Operator to compare product category terms."
+
+msgid "Limit result set to products assigned a specific tag ID."
+msgstr "Limit result set to products assigned a specific tag ID."
+
+msgid "Operator to compare product tags."
+msgstr "Operator to compare product tags."
+
+msgid "Limit result set to products on sale."
+msgstr "Limit result set to products on sale."
+
+msgid "Limit result set to products based on a minimum price, provided using the smallest unit of the currency."
+msgstr "Limit result set to products based on a minimum price, provided using the smallest unit of the currency."
+
+msgid "Limit result set to products based on a maximum price, provided using the smallest unit of the currency."
+msgstr "Limit result set to products based on a maximum price, provided using the smallest unit of the currency."
+
+msgid "Limit result set to products with specified stock status."
+msgstr "Limit result set to products with specified stock status."
+
+msgid "Limit result set to products with selected global attributes."
+msgstr "Limit result set to products with selected global attributes."
+
+msgid "Attribute taxonomy name."
+msgstr "Attribute taxonomy name."
+
+msgid "List of attribute term IDs."
+msgstr "List of attribute term IDs."
+
+msgid "List of attribute slug(s). If a term ID is provided, this will be ignored."
+msgstr "List of attribute slug(s). If a term ID is provided, this will be ignored."
+
+msgid "Operator to compare product attribute terms."
+msgstr "Operator to compare product attribute terms."
+
+msgid "The logical relationship between attributes when filtering across multiple at once."
+msgstr "The logical relationship between attributes when filtering across multiple at once."
+
+msgid "Determines if hidden or visible catalog products are shown."
+msgstr "Determines if hidden or visible catalog products are shown."
+
+msgid "Limit result set to products with a certain average rating."
+msgstr "Limit result set to products with a certain average rating."
+
+msgid "Invalid product ID."
+msgstr "Invalid product ID."
+
+msgid "First name"
+msgstr "First name"
+
+msgid "Last name"
+msgstr "Last name"
+
+msgid "Company"
+msgstr "Company"
+
+msgid "Address"
+msgstr "Address"
+
+msgid "Apartment, suite, etc."
+msgstr "Apartment, suite, etc."
+
+msgid "City"
+msgstr "City"
+
+msgid "State/County code, or name of the state, county, province, or district."
+msgstr "State/County code, or name of the state, county, province, or district."
+
+msgid "Postal code"
+msgstr "Postal code"
+
+msgid "Country/Region code in ISO 3166-1 alpha-2 format."
+msgstr "Country/Region code in ISO 3166-1 alpha-2 format."
+
+msgid "Country is required"
+msgstr "Country is required"
+
+msgid "Invalid country code provided. Must be one of: %s"
+msgstr "Invalid country code provided. Must be one of: %s"
+
+msgid "The provided state is not valid. Must be one of: %s"
+msgstr "The provided state is not valid. Must be one of: %s"
+
+msgid "The provided postcode / ZIP is not valid"
+msgstr "The provided postcode / ZIP is not valid"
+
+msgid "Extensions data."
+msgstr "Extensions data."
+
+msgid "Currency code (in ISO format) for returned prices."
+msgstr "Currency code (in ISO format) for returned prices."
+
+msgid "Currency symbol for the currency which can be used to format returned prices."
+msgstr "Currency symbol for the currency which can be used to format returned prices."
+
+msgid "Currency minor unit (number of digits after the decimal separator) for returned prices."
+msgstr "Currency minor unit (number of digits after the decimal separator) for returned prices."
+
+msgid "Decimal separator for the currency which can be used to format returned prices."
+msgstr "Decimal separator for the currency which can be used to format returned prices."
+
+msgid "Thousand separator for the currency which can be used to format returned prices."
+msgstr "Thousand separator for the currency which can be used to format returned prices."
+
+msgid "Price prefix for the currency which can be used to format returned prices."
+msgstr "Price prefix for the currency which can be used to format returned prices."
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Phone"
+msgstr "Phone"
+
+msgid "The provided email address is not valid"
+msgstr "The provided email address is not valid"
+
+msgid "The provided phone number is not valid"
+msgstr "The provided phone number is not valid"
+
+msgid "%1$s requires an instance of %2$s or %3$s for the address"
+msgstr "%1$s requires an instance of %2$s or %3$s for the address"
+
+msgid "The coupon\\'s unique code."
+msgstr "The coupon\\'s unique code."
+
+msgid "The discount type for the coupon (e.g. percentage or fixed amount)"
+msgstr "The discount type for the coupon (e.g. percentage or fixed amount)"
+
+msgid "Total amounts provided using the smallest unit of the currency."
+msgstr "Total amounts provided using the smallest unit of the currency."
+
+msgid "Total discount applied by this coupon."
+msgstr "Total discount applied by this coupon."
+
+msgid "Total tax removed due to discount applied by this coupon."
+msgstr "Total tax removed due to discount applied by this coupon."
+
+msgid "Unique identifier for the fee within the cart."
+msgstr "Unique identifier for the fee within the cart."
+
+msgid "Fee name."
+msgstr "Fee name."
+
+msgid "Fee total amounts provided using the smallest unit of the currency."
+msgstr "Fee total amounts provided using the smallest unit of the currency."
+
+msgid "Total amount for this fee."
+msgstr "Total amount for this fee."
+
+msgid "Total tax amount for this fee."
+msgstr "Total tax amount for this fee."
+
+msgid "The maximum quantity than can be added to the cart at once."
+msgstr "The maximum quantity than can be added to the cart at once."
+
+msgid "Product name."
+msgstr "Product name."
+
+msgid "Product short description in HTML format."
+msgstr "Product short description in HTML format."
+
+msgid "Product full description in HTML format."
+msgstr "Product full description in HTML format."
+
+msgid "Stock keeping unit, if applicable."
+msgstr "Stock keeping unit, if applicable."
+
+msgid "Quantity left in stock if stock is low, or null if not applicable."
+msgstr "Quantity left in stock if stock is low, or null if not applicable."
+
+msgid "True if backorders are allowed past stock availability."
+msgstr "True if backorders are allowed past stock availability."
+
+msgid "True if the product is on backorder."
+msgstr "True if the product is on backorder."
+
+msgid "If true, only one item of this product is allowed for purchase in a single order."
+msgstr "If true, only one item of this product is allowed for purchase in a single order."
+
+msgid "Product URL."
+msgstr "Product URL."
+
+msgid "List of images."
+msgstr "List of images."
+
+msgid "Metadata related to the cart item"
+msgstr "Metadata related to the cart item"
+
+msgid "Name of the metadata."
+msgstr "Name of the metadata."
+
+msgid "Value of the metadata."
+msgstr "Value of the metadata."
+
+msgid "Optionally, how the metadata value should be displayed to the user."
+msgstr "Optionally, how the metadata value should be displayed to the user."
+
+msgid "Price data for the product in the current line item, including or excluding taxes based on the \"display prices during cart and checkout\" setting. Provided using the smallest unit of the currency."
+msgstr "Price data for the product in the current line item, including or excluding taxes based on the \"display prices during cart and checkout\" setting. Provided using the smallest unit of the currency."
+
+msgid "Current product price."
+msgstr "Current product price."
+
+msgid "Regular product price."
+msgstr "Regular product price."
+
+msgid "Sale product price, if applicable."
+msgstr "Sale product price, if applicable."
+
+msgid "Price range, if applicable."
+msgstr "Price range, if applicable."
+
+msgid "Price amount."
+msgstr "Price amount."
+
+msgid "Raw unrounded product prices used in calculations. Provided using a higher unit of precision than the currency."
+msgstr "Raw unrounded product prices used in calculations. Provided using a higher unit of precision than the currency."
+
+msgid "Decimal precision of the returned prices."
+msgstr "Decimal precision of the returned prices."
+
+msgid "Item total amounts provided using the smallest unit of the currency."
+msgstr "Item total amounts provided using the smallest unit of the currency."
+
+msgid "Line subtotal (the price of the product before coupon discounts have been applied)."
+msgstr "Line subtotal (the price of the product before coupon discounts have been applied)."
+
+msgid "Line subtotal tax."
+msgstr "Line subtotal tax."
+
+msgid "Line total (the price of the product after coupon discounts have been applied)."
+msgstr "Line total (the price of the product after coupon discounts have been applied)."
+
+msgid "Line total tax."
+msgstr "Line total tax."
+
+msgid "Whether the product is visible in the catalog"
+msgstr "Whether the product is visible in the catalog"
+
+msgid "List of applied cart coupons."
+msgstr "List of applied cart coupons."
+
+msgid "List of available shipping rates for the cart."
+msgstr "List of available shipping rates for the cart."
+
+msgid "Current set shipping address for the customer."
+msgstr "Current set shipping address for the customer."
+
+msgid "Current set billing address for the customer."
+msgstr "Current set billing address for the customer."
+
+msgid "List of cart items."
+msgstr "List of cart items."
+
+msgid "Number of items in the cart."
+msgstr "Number of items in the cart."
+
+msgid "Total weight (in grams) of all products in the cart."
+msgstr "Total weight (in grams) of all products in the cart."
+
+msgid "True if the cart needs payment. False for carts with only free products and no shipping costs."
+msgstr "True if the cart needs payment. False for carts with only free products and no shipping costs."
+
+msgid "True if the cart needs shipping. False for carts with only digital goods or stores with no shipping methods set-up."
+msgstr "True if the cart needs shipping. False for carts with only digital goods or stores with no shipping methods set-up."
+
+msgid "True if the cart meets the criteria for showing shipping costs, and rates have been calculated and included in the totals."
+msgstr "True if the cart meets the criteria for showing shipping costs, and rates have been calculated and included in the totals."
+
+msgid "List of cart fees."
+msgstr "List of cart fees."
+
+msgid "Cart total amounts provided using the smallest unit of the currency."
+msgstr "Cart total amounts provided using the smallest unit of the currency."
+
+msgid "Total price of items in the cart."
+msgstr "Total price of items in the cart."
+
+msgid "Total tax on items in the cart."
+msgstr "Total tax on items in the cart."
+
+msgid "Total price of any applied fees."
+msgstr "Total price of any applied fees."
+
+msgid "Total tax on fees."
+msgstr "Total tax on fees."
+
+msgid "Total discount from applied coupons."
+msgstr "Total discount from applied coupons."
+
+msgid "Total tax removed due to discount from applied coupons."
+msgstr "Total tax removed due to discount from applied coupons."
+
+msgid "Total price of shipping. If shipping has not been calculated, a null response will be sent."
+msgstr "Total price of shipping. If shipping has not been calculated, a null response will be sent."
+
+msgid "Total tax on shipping. If shipping has not been calculated, a null response will be sent."
+msgstr "Total tax on shipping. If shipping has not been calculated, a null response will be sent."
+
+msgid "Total price the customer will pay."
+msgstr "Total price the customer will pay."
+
+msgid "Total tax applied to items and shipping."
+msgstr "Total tax applied to items and shipping."
+
+msgid "Lines of taxes applied to items and shipping."
+msgstr "Lines of taxes applied to items and shipping."
+
+msgid "The name of the tax."
+msgstr "The name of the tax."
+
+msgid "The amount of tax charged."
+msgstr "The amount of tax charged."
+
+msgid "List of cart item errors, for example, items in the cart which are out of stock."
+msgstr "List of cart item errors, for example, items in the cart which are out of stock."
+
+msgid "List of required payment gateway features to process the order."
+msgstr "List of required payment gateway features to process the order."
+
+msgid "The ID of the package the shipping rates belong to."
+msgstr "The ID of the package the shipping rates belong to."
+
+msgid "Name of the package."
+msgstr "Name of the package."
+
+msgid "Shipping destination address."
+msgstr "Shipping destination address."
+
+msgid "First line of the address being shipped to."
+msgstr "First line of the address being shipped to."
+
+msgid "Second line of the address being shipped to."
+msgstr "Second line of the address being shipped to."
+
+msgid "City of the address being shipped to."
+msgstr "City of the address being shipped to."
+
+msgid "ISO code, or name, for the state, province, or district of the address being shipped to."
+msgstr "ISO code, or name, for the state, province, or district of the address being shipped to."
+
+msgid "Zip or Postcode of the address being shipped to."
+msgstr "Zip or Postcode of the address being shipped to."
+
+msgid "ISO code for the country of the address being shipped to."
+msgstr "ISO code for the country of the address being shipped to."
+
+msgid "List of cart items the returned shipping rates apply to."
+msgstr "List of cart items the returned shipping rates apply to."
+
+msgid "Name of the item."
+msgstr "Name of the item."
+
+msgid "Quantity of the item in the current package."
+msgstr "Quantity of the item in the current package."
+
+msgid "List of shipping rates."
+msgstr "List of shipping rates."
+
+msgid "ID of the shipping rate."
+msgstr "ID of the shipping rate."
+
+msgid "Name of the shipping rate, e.g. Express shipping."
+msgstr "Name of the shipping rate, e.g. Express shipping."
+
+msgid "Description of the shipping rate, e.g. Dispatched via USPS."
+msgstr "Description of the shipping rate, e.g. Dispatched via USPS."
+
+msgid "Delivery time estimate text, e.g. 3-5 business days."
+msgstr "Delivery time estimate text, e.g. 3-5 business days."
+
+msgid "Price of this shipping rate using the smallest unit of the currency."
+msgstr "Price of this shipping rate using the smallest unit of the currency."
+
+msgid "Taxes applied to this shipping rate using the smallest unit of the currency."
+msgstr "Taxes applied to this shipping rate using the smallest unit of the currency."
+
+msgid "ID of the shipping method that provided the rate."
+msgstr "ID of the shipping method that provided the rate."
+
+msgid "Instance ID of the shipping method that provided the rate."
+msgstr "Instance ID of the shipping method that provided the rate."
+
+msgid "Meta data attached to the shipping rate."
+msgstr "Meta data attached to the shipping rate."
+
+msgid "Meta key."
+msgstr "Meta key."
+
+msgid "Meta value."
+msgstr "Meta value."
+
+msgid "True if this is the rate currently selected by the customer for the cart."
+msgstr "True if this is the rate currently selected by the customer for the cart."
+
+msgid "The order ID to process during checkout."
+msgstr "The order ID to process during checkout."
+
+msgid "Order status. Payment providers will update this value after payment."
+msgstr "Order status. Payment providers will update this value after payment."
+
+msgid "Order key used to check validity or protect access to certain order data."
+msgstr "Order key used to check validity or protect access to certain order data."
+
+msgid "Note added to the order by the customer during checkout."
+msgstr "Note added to the order by the customer during checkout."
+
+msgid "Customer ID if registered. Will return 0 for guests."
+msgstr "Customer ID if registered. Will return 0 for guests."
+
+msgid "The ID of the payment method being used to process the payment."
+msgstr "The ID of the payment method being used to process the payment."
+
+msgid "Whether to create a new user account as part of order processing."
+msgstr "Whether to create a new user account as part of order processing."
+
+msgid "Result of payment processing, or false if not yet processed."
+msgstr "Result of payment processing, or false if not yet processed."
+
+msgid "Status of the payment returned by the gateway. One of success, pending, failure, error."
+msgstr "Status of the payment returned by the gateway. One of success, pending, failure, error."
+
+msgid "An array of data being returned from the payment gateway."
+msgstr "An array of data being returned from the payment gateway."
+
+msgid "A URL to redirect the customer after checkout. This could be, for example, a link to the payment processors website."
+msgstr "A URL to redirect the customer after checkout. This could be, for example, a link to the payment processors website."
+
+msgid "Error code"
+msgstr "Error code"
+
+msgid "Error message"
+msgstr "Error message"
+
+msgid "Image ID."
+msgstr "Image ID."
+
+msgid "Full size image URL."
+msgstr "Full size image URL."
+
+msgid "Thumbnail URL."
+msgstr "Thumbnail URL."
+
+msgid "Thumbnail srcset for responsive images."
+msgstr "Thumbnail srcset for responsive images."
+
+msgid "Thumbnail sizes for responsive images."
+msgstr "Thumbnail sizes for responsive images."
+
+msgid "Image name."
+msgstr "Image name."
+
+msgid "Image alternative text."
+msgstr "Image alternative text."
+
+msgid "The coupons unique code."
+msgstr "The coupons unique code."
+
+msgid "Attribute name."
+msgstr "Attribute name."
+
+msgid "The attribute taxonomy name."
+msgstr "The attribute taxonomy name."
+
+msgid "Attribute type."
+msgstr "Attribute type."
+
+msgid "How terms in this attribute are sorted by default."
+msgstr "How terms in this attribute are sorted by default."
+
+msgid "If this attribute has term archive pages."
+msgstr "If this attribute has term archive pages."
+
+msgid "Number of terms in the attribute taxonomy."
+msgstr "Number of terms in the attribute taxonomy."
+
+msgid "Category image."
+msgstr "Category image."
+
+msgid "Number of reviews for products in this category."
+msgstr "Number of reviews for products in this category."
+
+msgid "Category URL."
+msgstr "Category URL."
+
+msgid "Min and max prices found in collection of products, provided using the smallest unit of the currency."
+msgstr "Min and max prices found in collection of products, provided using the smallest unit of the currency."
+
+msgid "Min price found in collection of products."
+msgstr "Min price found in collection of products."
+
+msgid "Max price found in collection of products."
+msgstr "Max price found in collection of products."
+
+msgid "Returns number of products within attribute terms."
+msgstr "Returns number of products within attribute terms."
+
+msgid "Term ID"
+msgstr "Term ID"
+
+msgid "Number of products."
+msgstr "Number of products."
+
+msgid "Returns number of products with each average rating."
+msgstr "Returns number of products with each average rating."
+
+msgid "Average rating"
+msgstr "Average rating"
+
+msgid "The date the review was created, in the site's timezone."
+msgstr "The date the review was created, in the site's timezone."
+
+msgid "The date the review was created, in the site's timezone in human-readable format."
+msgstr "The date the review was created, in the site's timezone in human-readable format."
+
+msgid "The date the review was created, as GMT."
+msgstr "The date the review was created, as GMT."
+
+msgid "Unique identifier for the product that the review belongs to."
+msgstr "Unique identifier for the product that the review belongs to."
+
+msgid "Name of the product that the review belongs to."
+msgstr "Name of the product that the review belongs to."
+
+msgid "Permalink of the product that the review belongs to."
+msgstr "Permalink of the product that the review belongs to."
+
+msgid "Image of the product that the review belongs to."
+msgstr "Image of the product that the review belongs to."
+
+msgid "Reviewer name."
+msgstr "Reviewer name."
+
+msgid "The content of the review."
+msgstr "The content of the review."
+
+msgid "Review rating (0 to 5)."
+msgstr "Review rating (0 to 5)."
+
+msgid "Shows if the reviewer bought the product or not."
+msgstr "Shows if the reviewer bought the product or not."
+
+msgid "Avatar URL with image size of %d pixels."
+msgstr "Avatar URL with image size of %d pixels."
+
+msgid "Avatar URLs for the object reviewer."
+msgstr "Avatar URLs for the object reviewer."
+
+msgid "ID of the parent product, if applicable."
+msgstr "ID of the parent product, if applicable."
+
+msgid "Product type."
+msgstr "Product type."
+
+msgid "Product variation attributes, if applicable."
+msgstr "Product variation attributes, if applicable."
+
+msgid "Is the product on sale?"
+msgstr "Is the product on sale?"
+
+msgid "Unique identifier."
+msgstr "Unique identifier."
+
+msgid "Price data provided using the smallest unit of the currency."
+msgstr "Price data provided using the smallest unit of the currency."
+
+msgid "Price string formatted as HTML."
+msgstr "Price string formatted as HTML."
+
+msgid "Reviews average rating."
+msgstr "Reviews average rating."
+
+msgid "Amount of reviews that the product has."
+msgstr "Amount of reviews that the product has."
+
+msgid "List of categories, if applicable."
+msgstr "List of categories, if applicable."
+
+msgid "Category ID"
+msgstr "Category ID"
+
+msgid "Category name"
+msgstr "Category name"
+
+msgid "Category slug"
+msgstr "Category slug"
+
+msgid "Category link"
+msgstr "Category link"
+
+msgid "List of tags, if applicable."
+msgstr "List of tags, if applicable."
+
+msgid "Tag ID"
+msgstr "Tag ID"
+
+msgid "Tag name"
+msgstr "Tag name"
+
+msgid "Tag slug"
+msgstr "Tag slug"
+
+msgid "Tag link"
+msgstr "Tag link"
+
+msgid "List of attributes assigned to the product/variation that are visible or used for variations."
+msgstr "List of attributes assigned to the product/variation that are visible or used for variations."
+
+msgid "The attribute ID, or 0 if the attribute is not taxonomy based."
+msgstr "The attribute ID, or 0 if the attribute is not taxonomy based."
+
+msgid "The attribute name."
+msgstr "The attribute name."
+
+msgid "The attribute taxonomy, or null if the attribute is not taxonomy based."
+msgstr "The attribute taxonomy, or null if the attribute is not taxonomy based."
+
+msgid "True if this attribute is used by product variations."
+msgstr "True if this attribute is used by product variations."
+
+msgid "List of assigned attribute terms."
+msgstr "List of assigned attribute terms."
+
+msgid "The term ID, or 0 if the attribute is not a global attribute."
+msgstr "The term ID, or 0 if the attribute is not a global attribute."
+
+msgid "The term name."
+msgstr "The term name."
+
+msgid "The term slug."
+msgstr "The term slug."
+
+msgid "List of variation IDs, if applicable."
+msgstr "List of variation IDs, if applicable."
+
+msgid "List of variation attributes."
+msgstr "List of variation attributes."
+
+msgid "The assigned attribute."
+msgstr "The assigned attribute."
+
+msgid "Does the product have additional options before it can be added to the cart?"
+msgstr "Does the product have additional options before it can be added to the cart?"
+
+msgid "Is the product purchasable?"
+msgstr "Is the product purchasable?"
+
+msgid "Is the product in stock?"
+msgstr "Is the product in stock?"
+
+msgid "Is the product stock backordered? This will also return false if backorder notifications are turned off."
+msgstr "Is the product stock backordered? This will also return false if backorder notifications are turned off."
+
+msgid "Add to cart button parameters."
+msgstr "Add to cart button parameters."
+
+msgid "Button text."
+msgstr "Button text."
+
+msgid "Button description."
+msgstr "Button description."
+
+msgid "Add to cart URL."
+msgstr "Add to cart URL."
+
+msgid "Term name."
+msgstr "Term name."
+
+msgid "String based identifier for the term."
+msgstr "String based identifier for the term."
+
+msgid "Term description."
+msgstr "Term description."
+
+msgid "Parent term ID, if applicable."
+msgstr "Parent term ID, if applicable."
+
+msgid "Number of objects (posts of any type) assigned to the term."
+msgstr "Number of objects (posts of any type) assigned to the term."
+
+msgid "You cannot add another \"%s\" to your cart."
+msgstr "You cannot add another \"%s\" to your cart."
+
+msgid "Cart item is invalid."
+msgstr "Cart item is invalid."
+
+msgid "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
+msgstr "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
+
+msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
+
+msgid "%s is out of stock and cannot be purchased. Please remove it from your cart."
+msgstr "%s is out of stock and cannot be purchased. Please remove it from your cart."
+
+msgid "%s are out of stock and cannot be purchased. Please remove them from your cart."
+msgstr "%s are out of stock and cannot be purchased. Please remove them from your cart."
+
+msgid "%s cannot be purchased.  Please remove it from your cart."
+msgstr "%s cannot be purchased.  Please remove it from your cart."
+
+msgid "%s cannot be purchased. Please remove them from your cart."
+msgstr "%s cannot be purchased. Please remove them from your cart."
+
+msgid "There are too many %s in the cart. Only 1 can be purchased. Please reduce the quantity in your cart."
+msgstr "There are too many %s in the cart. Only 1 can be purchased. Please reduce the quantity in your cart."
+
+msgid "There are too many %s in the cart. Only 1 of each can be purchased. Please reduce the quantities in your cart."
+msgstr "There are too many %s in the cart. Only 1 of each can be purchased. Please reduce the quantities in your cart."
+
+msgid "There is not enough %s in stock. Please reduce the quantity in your cart."
+msgstr "There is not enough %s in stock. Please reduce the quantity in your cart."
+
+msgid "There are not enough %s in stock. Please reduce the quantities in your cart."
+msgstr "There are not enough %s in stock. Please reduce the quantities in your cart."
+
+msgid "There was an error with an item in your cart."
+msgstr "There was an error with an item in your cart."
+
+msgid "Unable to retrieve cart."
+msgstr "Unable to retrieve cart."
+
+msgid "\"%s\" is an invalid coupon code."
+msgstr "\"%s\" is an invalid coupon code."
+
+msgid "Coupon code \"%s\" has already been applied."
+msgstr "Coupon code \"%s\" has already been applied."
+
+msgid "\"%s\" has already been applied and cannot be used in conjunction with other coupons."
+msgstr "\"%s\" has already been applied and cannot be used in conjunction with other coupons."
+
+msgid "The \"%1$s\" coupon has been removed from your cart: %2$s"
+msgstr "The \"%1$s\" coupon has been removed from your cart: %2$s"
+
+msgid "This product cannot be added to the cart."
+msgstr "This product cannot be added to the cart."
+
+msgid "&quot;%s&quot; is not available for purchase."
+msgstr "&quot;%s&quot; is not available for purchase."
+
+msgid "Invalid value posted for %1$s. Allowed values: %2$s"
+msgstr "Invalid value posted for %1$s. Allowed values: %2$s"
+
+msgid "Missing variation data for variable product."
+msgstr "Missing variation data for variable product."
+
+msgid "No matching variation found."
+msgstr "No matching variation found."
+
+msgid "%s is a required field"
+msgstr "%s is a required field"
+
+msgid "%s are required fields"
+msgstr "%s are required fields"
+
+msgid "Cannot create order from empty cart."
+msgstr "Cannot create order from empty cart."
+
+msgid "Invalid coupons were removed from the cart: \"%s\""
+msgstr "Invalid coupons were removed from the cart: \"%s\""
+
+msgid "A valid email address is required"
+msgstr "A valid email address is required"
+
+msgid "The provided email address (%s) is not valid—please provide a valid email address"
+msgstr "The provided email address (%s) is not valid—please provide a valid email address"
+
+msgid "Sorry, we do not ship orders to the provided country (%s)"
+msgstr "Sorry, we do not ship orders to the provided country (%s)"
+
+msgid "Sorry, we do not allow orders from the provided country (%s)"
+msgstr "Sorry, we do not allow orders from the provided country (%s)"
+
+msgid "There was a problem with the provided %s:"
+msgstr "There was a problem with the provided %s:"
+
+msgid "shipping address"
+msgstr "shipping address"
+
+msgid "billing address"
+msgstr "billing address"
+
+msgid "Country/Region"
+msgstr "Country/Region"
+
+msgid "State/County"
+msgstr "State/County"
+
+msgid "%s is required"
+msgstr "%s is required"
+
+msgid "%1$s and %2$s"
+msgstr "%1$s and %2$s"
+
+msgid "Hello %s,"
+msgstr "Hello %s,"
+
+msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+msgstr "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+
+msgid "Click here to set your new password."
+msgstr "Click here to set your new password."
+
+msgid "Hi %s,"
+msgstr "Hi %s,"
+
+msgid "To set your password, visit the following address: "
+msgstr "To set your password, visit the following address: "
+
+msgid "WooCommerce Blocks requires a more recent version of WordPress and has been paused. Please update WordPress to continue enjoying WooCommerce Blocks."
+msgstr "WooCommerce Blocks requires a more recent version of WordPress and has been paused. Please update WordPress to continue enjoying WooCommerce Blocks."
+
+msgid "WooCommerce Blocks development mode requires the %1$s constant to be defined and true in your %2$s file. Otherwise you are loading the blocks package from WooCommerce core."
+msgstr "WooCommerce Blocks development mode requires the %1$s constant to be defined and true in your %2$s file. Otherwise you are loading the blocks package from WooCommerce core."
+
+msgid "Your installation of the WooCommerce Blocks feature plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Your installation of the WooCommerce Blocks feature plugin is incomplete. Please run %1$s within the %2$s directory."
