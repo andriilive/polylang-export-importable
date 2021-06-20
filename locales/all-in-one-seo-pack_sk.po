@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"X-Domain: all-in-one-seo-pack\n"
+
+msgid "String"
+msgstr "String"
+
+msgid "All in One SEO Pack for WooCommerce"
+msgstr "All in One SEO Pack for WooCommerce"
+
+msgid "All in One SEO Pack"
+msgstr "All in One SEO Pack"
+
+msgid "Plugin News - by Visser Labs"
+msgstr "Plugin News - by Visser Labs"
+
+msgid "Connection failed. Please check your network settings."
+msgstr "Connection failed. Please check your network settings."
+
+msgid "To enter All in One SEO Pack details you must install and activate the <a href=\"%s\" target=\"_blank\">All in One SEO Pack</a> (via WordPres Extend) Plugin."
+msgstr "To enter All in One SEO Pack details you must install and activate the <a href=\"%s\" target=\"_blank\">All in One SEO Pack</a> (via WordPres Extend) Plugin."
+
+msgid "Use this form to enter All in One SEO Pack details for this Product."
+msgstr "Use this form to enter All in One SEO Pack details for this Product."
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Most search engines use a maximum of 60 chars for the title."
+msgstr "Most search engines use a maximum of 60 chars for the title."
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Most search engines use a maximum of 160 chars for the description."
+msgstr "Most search engines use a maximum of 160 chars for the description."
+
+msgid "Keywords"
+msgstr "Keywords"
+
+msgid "Keywords are comma separated. For instance: clothes, mens, shirts, t-shirt, etc."
+msgstr "Keywords are comma separated. For instance: clothes, mens, shirts, t-shirt, etc."
+
+msgid "Title atrributes"
+msgstr "Title atrributes"
+
+msgid "Menu label"
+msgstr "Menu label"
+
+msgid "Disable Product"
+msgstr "Disable Product"
+
+msgid "Disable on this Product."
+msgstr "Disable on this Product."

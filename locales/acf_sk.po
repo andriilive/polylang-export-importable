@@ -1,0 +1,1855 @@
+msgid ""
+msgstr ""
+"X-Domain: acf\n"
+
+msgid "String"
+msgstr "String"
+
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+msgid "Field Groups"
+msgstr "Field Groups"
+
+msgid "Field Group"
+msgstr "Field Group"
+
+msgid "Add New"
+msgstr "Add New"
+
+msgid "Add New Field Group"
+msgstr "Add New Field Group"
+
+msgid "Edit Field Group"
+msgstr "Edit Field Group"
+
+msgid "New Field Group"
+msgstr "New Field Group"
+
+msgid "View Field Group"
+msgstr "View Field Group"
+
+msgid "Search Field Groups"
+msgstr "Search Field Groups"
+
+msgid "No Field Groups found"
+msgstr "No Field Groups found"
+
+msgid "No Field Groups found in Trash"
+msgstr "No Field Groups found in Trash"
+
+msgid "Fields"
+msgstr "Fields"
+
+msgid "Field"
+msgstr "Field"
+
+msgid "Add New Field"
+msgstr "Add New Field"
+
+msgid "Edit Field"
+msgstr "Edit Field"
+
+msgid "New Field"
+msgstr "New Field"
+
+msgid "View Field"
+msgstr "View Field"
+
+msgid "Search Fields"
+msgstr "Search Fields"
+
+msgid "No Fields found"
+msgstr "No Fields found"
+
+msgid "No Fields found in Trash"
+msgstr "No Fields found in Trash"
+
+msgid "(no label)"
+msgstr "(no label)"
+
+msgid "copy"
+msgstr "copy"
+
+msgid "Posts"
+msgstr "Posts"
+
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+msgid "Attachments"
+msgstr "Attachments"
+
+msgid "Comments"
+msgstr "Comments"
+
+msgid "Widgets"
+msgstr "Widgets"
+
+msgid "Menus"
+msgstr "Menus"
+
+msgid "Menu items"
+msgstr "Menu items"
+
+msgid "Users"
+msgstr "Users"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Blocks"
+msgstr "Blocks"
+
+msgid "Field group updated."
+msgstr "Field group updated."
+
+msgid "Field group deleted."
+msgstr "Field group deleted."
+
+msgid "Field group published."
+msgstr "Field group published."
+
+msgid "Field group saved."
+msgstr "Field group saved."
+
+msgid "Field group submitted."
+msgstr "Field group submitted."
+
+msgid "Field group scheduled for."
+msgstr "Field group scheduled for."
+
+msgid "Field group draft updated."
+msgstr "Field group draft updated."
+
+msgid "The string \"field_\" may not be used at the start of a field name"
+msgstr "The string \"field_\" may not be used at the start of a field name"
+
+msgid "This field cannot be moved until its changes have been saved"
+msgstr "This field cannot be moved until its changes have been saved"
+
+msgid "Field group title is required"
+msgstr "Field group title is required"
+
+msgid "Move to trash. Are you sure?"
+msgstr "Move to trash. Are you sure?"
+
+msgid "No toggle fields available"
+msgstr "No toggle fields available"
+
+msgid "Move Custom Field"
+msgstr "Move Custom Field"
+
+msgid "Checked"
+msgstr "Checked"
+
+msgid "(this field)"
+msgstr "(this field)"
+
+msgid "or"
+msgstr "or"
+
+msgid "Null"
+msgstr "Null"
+
+msgid "Has any value"
+msgstr "Has any value"
+
+msgid "Has no value"
+msgstr "Has no value"
+
+msgid "Value is equal to"
+msgstr "Value is equal to"
+
+msgid "Value is not equal to"
+msgstr "Value is not equal to"
+
+msgid "Value matches pattern"
+msgstr "Value matches pattern"
+
+msgid "Value contains"
+msgstr "Value contains"
+
+msgid "Value is greater than"
+msgstr "Value is greater than"
+
+msgid "Value is less than"
+msgstr "Value is less than"
+
+msgid "Selection is greater than"
+msgstr "Selection is greater than"
+
+msgid "Selection is less than"
+msgstr "Selection is less than"
+
+msgid "Location"
+msgstr "Location"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Field Keys"
+msgstr "Field Keys"
+
+msgid "Active"
+msgstr "Active"
+
+msgid "Inactive"
+msgstr "Inactive"
+
+msgid "Move Complete."
+msgstr "Move Complete."
+
+msgid "The %s field can now be found in the %s field group"
+msgstr "The %s field can now be found in the %s field group"
+
+msgid "Close Window"
+msgstr "Close Window"
+
+msgid "Please select the destination for this field"
+msgstr "Please select the destination for this field"
+
+msgid "Move Field"
+msgstr "Move Field"
+
+msgid "Review local JSON changes"
+msgstr "Review local JSON changes"
+
+msgid "Loading diff"
+msgstr "Loading diff"
+
+msgid "Sync changes"
+msgstr "Sync changes"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Key"
+msgstr "Key"
+
+msgid "Local JSON"
+msgstr "Local JSON"
+
+msgid "Various"
+msgstr "Various"
+
+msgid "Located in theme: %s"
+msgstr "Located in theme: %s"
+
+msgid "Located in plugin: %s"
+msgstr "Located in plugin: %s"
+
+msgid "Located in: %s"
+msgstr "Located in: %s"
+
+msgid "Sync available"
+msgstr "Sync available"
+
+msgid "Sync"
+msgstr "Sync"
+
+msgid "Review changes"
+msgstr "Review changes"
+
+msgid "Import"
+msgstr "Import"
+
+msgid "Saved"
+msgstr "Saved"
+
+msgid "Awaiting save"
+msgstr "Awaiting save"
+
+msgid "Duplicate"
+msgstr "Duplicate"
+
+msgid ""
+"Review local JSON changes'),\n"
+"\t\t\tcontent: '<p class=\"acf-modal-feedback\"><i class=\"acf-loading\"></i> ' + acf.__('Loading diff') + '</p>',\n"
+"\t\t\ttoolbar: '<a href=\"' + props.href + '\" class=\"button button-primary button-sync-changes disabled\">' + acf.__('Sync changes') + '</a>',\n"
+"\t\t});\n"
+"\t\t\n"
+"\t\t// Call AJAX.\n"
+"\t\tvar xhr = $.ajax({\n"
+"\t\t\turl: acf.get('ajaxurl'),\n"
+"\t\t\tmethod: 'POST',\n"
+"\t\t\tdataType: 'json',\n"
+"\t\t\tdata: acf.prepareForAjax({\n"
+"\t\t\t\taction:\t'acf/ajax/local_json_diff',\n"
+"\t\t\t\tid: props.id\n"
+"\t\t\t})\n"
+"\t\t})\n"
+"\t\t.done(function( data, textStatus, jqXHR ) {\n"
+"\t\t\tmodal.content( data.html );\n"
+"\t\t\tmodal.$('.button-sync-changes').removeClass('disabled');\n"
+"\t\t})\n"
+"\t\t.fail(function( jqXHR, textStatus, errorThrown ) {\n"
+"\t\t\tif( error = acf.getXhrError(jqXHR) ) {\n"
+"\t\t\t\tmodal.content( '<p class=\"acf-modal-feedback error\">' + error + '</p>' );\n"
+"\t\t\t}\n"
+"\t\t});\n"
+"\t}\n"
+"\t\n"
+"\t// Add event listener.\n"
+"\t$(document).on('click"
+msgstr ""
+"Review local JSON changes'),\n"
+"\t\t\tcontent: '<p class=\"acf-modal-feedback\"><i class=\"acf-loading\"></i> ' + acf.__('Loading diff') + '</p>',\n"
+"\t\t\ttoolbar: '<a href=\"' + props.href + '\" class=\"button button-primary button-sync-changes disabled\">' + acf.__('Sync changes') + '</a>',\n"
+"\t\t});\n"
+"\t\t\n"
+"\t\t// Call AJAX.\n"
+"\t\tvar xhr = $.ajax({\n"
+"\t\t\turl: acf.get('ajaxurl'),\n"
+"\t\t\tmethod: 'POST',\n"
+"\t\t\tdataType: 'json',\n"
+"\t\t\tdata: acf.prepareForAjax({\n"
+"\t\t\t\taction:\t'acf/ajax/local_json_diff',\n"
+"\t\t\t\tid: props.id\n"
+"\t\t\t})\n"
+"\t\t})\n"
+"\t\t.done(function( data, textStatus, jqXHR ) {\n"
+"\t\t\tmodal.content( data.html );\n"
+"\t\t\tmodal.$('.button-sync-changes').removeClass('disabled');\n"
+"\t\t})\n"
+"\t\t.fail(function( jqXHR, textStatus, errorThrown ) {\n"
+"\t\t\tif( error = acf.getXhrError(jqXHR) ) {\n"
+"\t\t\t\tmodal.content( '<p class=\"acf-modal-feedback error\">' + error + '</p>' );\n"
+"\t\t\t}\n"
+"\t\t});\n"
+"\t}\n"
+"\t\n"
+"\t// Add event listener.\n"
+"\t$(document).on('click"
+
+msgid "Select %s"
+msgstr "Select %s"
+
+msgid "Field group duplicated."
+msgstr "Field group duplicated."
+
+msgid "Field group synchronised."
+msgstr "Field group synchronised."
+
+msgid "%s field groups duplicated."
+msgstr "%s field groups duplicated."
+
+msgid "%s field groups synchronised."
+msgstr "%s field groups synchronised."
+
+msgid "Tools"
+msgstr "Tools"
+
+msgid "Upgrade Database"
+msgstr "Upgrade Database"
+
+msgid "Review sites & upgrade"
+msgstr "Review sites & upgrade"
+
+msgid "Custom Fields"
+msgstr "Custom Fields"
+
+msgid "Overview"
+msgstr "Overview"
+
+msgid "The Advanced Custom Fields plugin provides a visual form builder to customize WordPress edit screens with extra fields, and an intuitive API to display custom field values in any theme template file."
+msgstr "The Advanced Custom Fields plugin provides a visual form builder to customize WordPress edit screens with extra fields, and an intuitive API to display custom field values in any theme template file."
+
+msgid "Before creating your first Field Group, we recommend first reading our <a href=\"%s\" target=\"_blank\">Getting started</a> guide to familiarize yourself with the plugin\\'s philosophy and best practises."
+msgstr "Before creating your first Field Group, we recommend first reading our <a href=\"%s\" target=\"_blank\">Getting started</a> guide to familiarize yourself with the plugin\\'s philosophy and best practises."
+
+msgid "Please use the Help & Support tab to get in touch should you find yourself requiring assistance."
+msgstr "Please use the Help & Support tab to get in touch should you find yourself requiring assistance."
+
+msgid "Help & Support"
+msgstr "Help & Support"
+
+msgid "We are fanatical about support, and want you to get the best out of your website with ACF. If you run into any difficulties, there are several places you can find help:"
+msgstr "We are fanatical about support, and want you to get the best out of your website with ACF. If you run into any difficulties, there are several places you can find help:"
+
+msgid "<a href=\"%s\" target=\"_blank\">Documentation</a>. Our extensive documentation contains references and guides for most situations you may encounter."
+msgstr "<a href=\"%s\" target=\"_blank\">Documentation</a>. Our extensive documentation contains references and guides for most situations you may encounter."
+
+msgid "<a href=\"%s\" target=\"_blank\">Discussions</a>. We have an active and friendly community on our Community Forums who may be able to help you figure out the ‘how-tos’ of the ACF world."
+msgstr "<a href=\"%s\" target=\"_blank\">Discussions</a>. We have an active and friendly community on our Community Forums who may be able to help you figure out the ‘how-tos’ of the ACF world."
+
+msgid "<a href=\"%s\" target=\"_blank\">Help Desk</a>. The support professionals on our Help Desk will assist with your more in depth, technical challenges."
+msgstr "<a href=\"%s\" target=\"_blank\">Help Desk</a>. The support professionals on our Help Desk will assist with your more in depth, technical challenges."
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Version %s"
+msgstr "Version %s"
+
+msgid "View details"
+msgstr "View details"
+
+msgid "Visit website"
+msgstr "Visit website"
+
+msgid "and"
+msgstr "and"
+
+msgid "Export Field Groups"
+msgstr "Export Field Groups"
+
+msgid "Generate PHP"
+msgstr "Generate PHP"
+
+msgid "No field groups selected"
+msgstr "No field groups selected"
+
+msgid "Select Field Groups"
+msgstr "Select Field Groups"
+
+msgid "Empty settings"
+msgstr "Empty settings"
+
+msgid "Include all settings"
+msgstr "Include all settings"
+
+msgid "Ignore empty settings"
+msgstr "Ignore empty settings"
+
+msgid "Select the field groups you would like to export and then select your export method. Use the download button to export to a .json file which you can then import to another ACF installation. Use the generate button to export to PHP code which you can place in your theme."
+msgstr "Select the field groups you would like to export and then select your export method. Use the download button to export to a .json file which you can then import to another ACF installation. Use the generate button to export to PHP code which you can place in your theme."
+
+msgid "Export File"
+msgstr "Export File"
+
+msgid "The following code can be used to register a local version of the selected field group(s). A local field group can provide many benefits such as faster load times, version control & dynamic fields/settings. Simply copy and paste the following code to your theme's functions.php file or include it within an external file."
+msgstr "The following code can be used to register a local version of the selected field group(s). A local field group can provide many benefits such as faster load times, version control & dynamic fields/settings. Simply copy and paste the following code to your theme's functions.php file or include it within an external file."
+
+msgid "Copy to clipboard"
+msgstr "Copy to clipboard"
+
+msgid "Copied"
+msgstr "Copied"
+
+msgid "Exported 1 field group."
+msgstr "Exported 1 field group."
+
+msgid "Exported %s field groups."
+msgstr "Exported %s field groups."
+
+msgid "Import Field Groups"
+msgstr "Import Field Groups"
+
+msgid "Select the Advanced Custom Fields JSON file you would like to import. When you click the import button below, ACF will import the field groups."
+msgstr "Select the Advanced Custom Fields JSON file you would like to import. When you click the import button below, ACF will import the field groups."
+
+msgid "Select File"
+msgstr "Select File"
+
+msgid "Import File"
+msgstr "Import File"
+
+msgid "No file selected"
+msgstr "No file selected"
+
+msgid "Error uploading file. Please try again"
+msgstr "Error uploading file. Please try again"
+
+msgid "Incorrect file type"
+msgstr "Incorrect file type"
+
+msgid "Import file empty"
+msgstr "Import file empty"
+
+msgid "Imported 1 field group"
+msgstr "Imported 1 field group"
+
+msgid "Imported %s field groups"
+msgstr "Imported %s field groups"
+
+msgid "Conditional Logic"
+msgstr "Conditional Logic"
+
+msgid "Show this field if"
+msgstr "Show this field if"
+
+msgid "Add rule group"
+msgstr "Add rule group"
+
+msgid "Drag to reorder"
+msgstr "Drag to reorder"
+
+msgid "Edit field"
+msgstr "Edit field"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Duplicate field"
+msgstr "Duplicate field"
+
+msgid "Move field to another group"
+msgstr "Move field to another group"
+
+msgid "Move"
+msgstr "Move"
+
+msgid "Delete field"
+msgstr "Delete field"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Field Label"
+msgstr "Field Label"
+
+msgid "This is the name which will appear on the EDIT page"
+msgstr "This is the name which will appear on the EDIT page"
+
+msgid "Field Name"
+msgstr "Field Name"
+
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr "Single word, no spaces. Underscores and dashes allowed"
+
+msgid "Field Type"
+msgstr "Field Type"
+
+msgid "Instructions"
+msgstr "Instructions"
+
+msgid "Instructions for authors. Shown when submitting data"
+msgstr "Instructions for authors. Shown when submitting data"
+
+msgid "Required?"
+msgstr "Required?"
+
+msgid "Wrapper Attributes"
+msgstr "Wrapper Attributes"
+
+msgid "width"
+msgstr "width"
+
+msgid "class"
+msgstr "class"
+
+msgid "id"
+msgstr "id"
+
+msgid "Close Field"
+msgstr "Close Field"
+
+msgid "Order"
+msgstr "Order"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "No fields. Click the <strong>+ Add Field</strong> button to create your first field."
+msgstr "No fields. Click the <strong>+ Add Field</strong> button to create your first field."
+
+msgid "+ Add Field"
+msgstr "+ Add Field"
+
+msgid "Rules"
+msgstr "Rules"
+
+msgid "Create a set of rules to determine which edit screens will use these advanced custom fields"
+msgstr "Create a set of rules to determine which edit screens will use these advanced custom fields"
+
+msgid "Style"
+msgstr "Style"
+
+msgid "Standard (WP metabox)"
+msgstr "Standard (WP metabox)"
+
+msgid "Seamless (no metabox)"
+msgstr "Seamless (no metabox)"
+
+msgid "Position"
+msgstr "Position"
+
+msgid "High (after title)"
+msgstr "High (after title)"
+
+msgid "Normal (after content)"
+msgstr "Normal (after content)"
+
+msgid "Side"
+msgstr "Side"
+
+msgid "Label placement"
+msgstr "Label placement"
+
+msgid "Top aligned"
+msgstr "Top aligned"
+
+msgid "Left aligned"
+msgstr "Left aligned"
+
+msgid "Instruction placement"
+msgstr "Instruction placement"
+
+msgid "Below labels"
+msgstr "Below labels"
+
+msgid "Below fields"
+msgstr "Below fields"
+
+msgid "Order No."
+msgstr "Order No."
+
+msgid "Field groups with a lower order will appear first"
+msgstr "Field groups with a lower order will appear first"
+
+msgid "Shown in field group list"
+msgstr "Shown in field group list"
+
+msgid "Permalink"
+msgstr "Permalink"
+
+msgid "Content Editor"
+msgstr "Content Editor"
+
+msgid "Excerpt"
+msgstr "Excerpt"
+
+msgid "Discussion"
+msgstr "Discussion"
+
+msgid "Revisions"
+msgstr "Revisions"
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Format"
+msgstr "Format"
+
+msgid "Page Attributes"
+msgstr "Page Attributes"
+
+msgid "Featured Image"
+msgstr "Featured Image"
+
+msgid "Categories"
+msgstr "Categories"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Send Trackbacks"
+msgstr "Send Trackbacks"
+
+msgid "Hide on screen"
+msgstr "Hide on screen"
+
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen."
+msgstr "<b>Select</b> items to <b>hide</b> them from the edit screen."
+
+msgid "If multiple field groups appear on an edit screen, the first field group's options will be used (the one with the lowest order number)"
+msgstr "If multiple field groups appear on an edit screen, the first field group's options will be used (the one with the lowest order number)"
+
+msgid "The following sites require a DB upgrade. Check the ones you want to update and then click %s."
+msgstr "The following sites require a DB upgrade. Check the ones you want to update and then click %s."
+
+msgid "Upgrade Sites"
+msgstr "Upgrade Sites"
+
+msgid "Site"
+msgstr "Site"
+
+msgid "Site requires database upgrade from %s to %s"
+msgstr "Site requires database upgrade from %s to %s"
+
+msgid "Site is up to date"
+msgstr "Site is up to date"
+
+msgid "Database Upgrade complete. <a href=\"%s\">Return to network dashboard</a>"
+msgstr "Database Upgrade complete. <a href=\"%s\">Return to network dashboard</a>"
+
+msgid "Please select at least one site to upgrade."
+msgstr "Please select at least one site to upgrade."
+
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+
+msgid "Upgrading data to version %s"
+msgstr "Upgrading data to version %s"
+
+msgid "Upgrade complete."
+msgstr "Upgrade complete."
+
+msgid "Upgrade failed."
+msgstr "Upgrade failed."
+
+msgid "Reading upgrade tasks..."
+msgstr "Reading upgrade tasks..."
+
+msgid "Database upgrade complete. <a href=\"%s\">See what\\'s new</a>"
+msgstr "Database upgrade complete. <a href=\"%s\">See what\\'s new</a>"
+
+msgid "No updates available."
+msgstr "No updates available."
+
+msgid "Back to all tools"
+msgstr "Back to all tools"
+
+msgid "Show this field group if"
+msgstr "Show this field group if"
+
+msgid "Repeater"
+msgstr "Repeater"
+
+msgid "Flexible Content"
+msgstr "Flexible Content"
+
+msgid "Gallery"
+msgstr "Gallery"
+
+msgid "Options Page"
+msgstr "Options Page"
+
+msgid "Database Upgrade Required"
+msgstr "Database Upgrade Required"
+
+msgid "Thank you for updating to %s v%s!"
+msgstr "Thank you for updating to %s v%s!"
+
+msgid "This version contains improvements to your database and requires an upgrade."
+msgstr "This version contains improvements to your database and requires an upgrade."
+
+msgid "Please also check all premium add-ons (%s) are updated to the latest version."
+msgstr "Please also check all premium add-ons (%s) are updated to the latest version."
+
+msgid "Invalid field group parameter(s)."
+msgstr "Invalid field group parameter(s)."
+
+msgid "Invalid field group ID."
+msgstr "Invalid field group ID."
+
+msgid "Sorry, this field group is unavailable for diff comparison."
+msgstr "Sorry, this field group is unavailable for diff comparison."
+
+msgid "Last updated: %s"
+msgstr "Last updated: %s"
+
+msgid "Original field group"
+msgstr "Original field group"
+
+msgid "JSON field group (newer)"
+msgstr "JSON field group (newer)"
+
+msgid "Invalid nonce."
+msgstr "Invalid nonce."
+
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Large"
+msgstr "Large"
+
+msgid "Full Size"
+msgstr "Full Size"
+
+msgid "(no title)"
+msgstr "(no title)"
+
+msgid "Parent"
+msgstr "Parent"
+
+msgid "Image width must be at least %dpx."
+msgstr "Image width must be at least %dpx."
+
+msgid "Image width must not exceed %dpx."
+msgstr "Image width must not exceed %dpx."
+
+msgid "Image height must be at least %dpx."
+msgstr "Image height must be at least %dpx."
+
+msgid "Image height must not exceed %dpx."
+msgstr "Image height must not exceed %dpx."
+
+msgid "File size must be at least %s."
+msgstr "File size must be at least %s."
+
+msgid "File size must not exceed %s."
+msgstr "File size must not exceed %s."
+
+msgid "File type must be %s."
+msgstr "File type must be %s."
+
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "The changes you made will be lost if you navigate away from this page"
+msgstr "The changes you made will be lost if you navigate away from this page"
+
+msgid "Validation successful"
+msgstr "Validation successful"
+
+msgid "Validation failed"
+msgstr "Validation failed"
+
+msgid "1 field requires attention"
+msgstr "1 field requires attention"
+
+msgid "%d fields require attention"
+msgstr "%d fields require attention"
+
+msgid "Edit field group"
+msgstr "Edit field group"
+
+msgid "Accordion"
+msgstr "Accordion"
+
+msgid "Accordions help you organize fields into panels that open and close."
+msgstr "Accordions help you organize fields into panels that open and close."
+
+msgid "All fields following this accordion (or until another accordion is defined) will be grouped together."
+msgstr "All fields following this accordion (or until another accordion is defined) will be grouped together."
+
+msgid "Open"
+msgstr "Open"
+
+msgid "Display this accordion as open on page load."
+msgstr "Display this accordion as open on page load."
+
+msgid "Multi-expand"
+msgstr "Multi-expand"
+
+msgid "Allow this accordion to open without closing others."
+msgstr "Allow this accordion to open without closing others."
+
+msgid "Endpoint"
+msgstr "Endpoint"
+
+msgid "Define an endpoint for the previous accordion to stop. This accordion will not be visible."
+msgstr "Define an endpoint for the previous accordion to stop. This accordion will not be visible."
+
+msgid "Button Group"
+msgstr "Button Group"
+
+msgid "Choices"
+msgstr "Choices"
+
+msgid "Enter each choice on a new line."
+msgstr "Enter each choice on a new line."
+
+msgid "For more control, you may specify both a value and label like this:"
+msgstr "For more control, you may specify both a value and label like this:"
+
+msgid "red : Red"
+msgstr "red : Red"
+
+msgid "Allow Null?"
+msgstr "Allow Null?"
+
+msgid "Default Value"
+msgstr "Default Value"
+
+msgid "Appears when creating a new post"
+msgstr "Appears when creating a new post"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgid "Vertical"
+msgstr "Vertical"
+
+msgid "Return Value"
+msgstr "Return Value"
+
+msgid "Specify the returned value on front end"
+msgstr "Specify the returned value on front end"
+
+msgid "Value"
+msgstr "Value"
+
+msgid "Both (Array)"
+msgstr "Both (Array)"
+
+msgid "Checkbox"
+msgstr "Checkbox"
+
+msgid "Toggle All"
+msgstr "Toggle All"
+
+msgid "Allow Custom"
+msgstr "Allow Custom"
+
+msgid "Allow 'custom' values to be added"
+msgstr "Allow 'custom' values to be added"
+
+msgid "Save Custom"
+msgstr "Save Custom"
+
+msgid "Save 'custom' values to the field's choices"
+msgstr "Save 'custom' values to the field's choices"
+
+msgid "Enter each default value on a new line"
+msgstr "Enter each default value on a new line"
+
+msgid "Toggle"
+msgstr "Toggle"
+
+msgid "Prepend an extra checkbox to toggle all choices"
+msgstr "Prepend an extra checkbox to toggle all choices"
+
+msgid "Color Picker"
+msgstr "Color Picker"
+
+msgid ""
+"Clear' ),\n"
+"\t\t\t\t\t'clearAriaLabel'   => __( 'Clear color' ),\n"
+"\t\t\t\t\t'defaultString'    => __( 'Default' ),\n"
+"\t\t\t\t\t'defaultAriaLabel' => __( 'Select default color' ),\n"
+"\t\t\t\t\t'pick'             => __( 'Select Color' ),\n"
+"\t\t\t\t\t'defaultLabel'     => __( 'Color value' ),\n"
+"\t\t\t\t));\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t}\n"
+"\t\t\n"
+"\t\t// Enqueue.\n"
+"\t\twp_enqueue_style( 'wp-color-picker' );\n"
+"\t\twp_enqueue_script( 'wp-color-picker' );\t\t\t\n"
+"\t}\n"
+"\t\n"
+"\t\n"
+"\t/*\n"
+"\t*  render_field()\n"
+"\t*\n"
+"\t*  Create the HTML interface for your field\n"
+"\t*\n"
+"\t*  @param\t$field - an array holding all the field's data\n"
+"\t*\n"
+"\t*  @type\taction\n"
+"\t*  @since\t3.6\n"
+"\t*  @date\t23/01/13\n"
+"\t*/\n"
+"\t\n"
+"\tfunction render_field( $field ) {\n"
+"\t\t\n"
+"\t\t// vars\n"
+"\t\t$text_input = acf_get_sub_array( $field, array('id"
+msgstr ""
+"Clear' ),\n"
+"\t\t\t\t\t'clearAriaLabel'   => __( 'Clear color' ),\n"
+"\t\t\t\t\t'defaultString'    => __( 'Default' ),\n"
+"\t\t\t\t\t'defaultAriaLabel' => __( 'Select default color' ),\n"
+"\t\t\t\t\t'pick'             => __( 'Select Color' ),\n"
+"\t\t\t\t\t'defaultLabel'     => __( 'Color value' ),\n"
+"\t\t\t\t));\n"
+"\t\t\t}\n"
+"\t\t\t\n"
+"\t\t}\n"
+"\t\t\n"
+"\t\t// Enqueue.\n"
+"\t\twp_enqueue_style( 'wp-color-picker' );\n"
+"\t\twp_enqueue_script( 'wp-color-picker' );\t\t\t\n"
+"\t}\n"
+"\t\n"
+"\t\n"
+"\t/*\n"
+"\t*  render_field()\n"
+"\t*\n"
+"\t*  Create the HTML interface for your field\n"
+"\t*\n"
+"\t*  @param\t$field - an array holding all the field's data\n"
+"\t*\n"
+"\t*  @type\taction\n"
+"\t*  @since\t3.6\n"
+"\t*  @date\t23/01/13\n"
+"\t*/\n"
+"\t\n"
+"\tfunction render_field( $field ) {\n"
+"\t\t\n"
+"\t\t// vars\n"
+"\t\t$text_input = acf_get_sub_array( $field, array('id"
+
+msgid "Date Picker"
+msgstr "Date Picker"
+
+msgid "Display Format"
+msgstr "Display Format"
+
+msgid "The format displayed when editing a post"
+msgstr "The format displayed when editing a post"
+
+msgid "Custom:"
+msgstr "Custom:"
+
+msgid "Save Format"
+msgstr "Save Format"
+
+msgid "The format used when saving a value"
+msgstr "The format used when saving a value"
+
+msgid "Return Format"
+msgstr "Return Format"
+
+msgid "The format returned via template functions"
+msgstr "The format returned via template functions"
+
+msgid "Week Starts On"
+msgstr "Week Starts On"
+
+msgid "Date Time Picker"
+msgstr "Date Time Picker"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Placeholder Text"
+msgstr "Placeholder Text"
+
+msgid "Appears within the input"
+msgstr "Appears within the input"
+
+msgid "Prepend"
+msgstr "Prepend"
+
+msgid "Appears before the input"
+msgstr "Appears before the input"
+
+msgid "Append"
+msgstr "Append"
+
+msgid "Appears after the input"
+msgstr "Appears after the input"
+
+msgid "'%s' is not a valid email address"
+msgstr "'%s' is not a valid email address"
+
+msgid "File"
+msgstr "File"
+
+msgid "Edit File"
+msgstr "Edit File"
+
+msgid "Update File"
+msgstr "Update File"
+
+msgid "File name"
+msgstr "File name"
+
+msgid "File size"
+msgstr "File size"
+
+msgid "Add File"
+msgstr "Add File"
+
+msgid "File Array"
+msgstr "File Array"
+
+msgid "File URL"
+msgstr "File URL"
+
+msgid "File ID"
+msgstr "File ID"
+
+msgid "Library"
+msgstr "Library"
+
+msgid "Limit the media library choice"
+msgstr "Limit the media library choice"
+
+msgid "All"
+msgstr "All"
+
+msgid "Uploaded to post"
+msgstr "Uploaded to post"
+
+msgid "Minimum"
+msgstr "Minimum"
+
+msgid "Restrict which files can be uploaded"
+msgstr "Restrict which files can be uploaded"
+
+msgid "Maximum"
+msgstr "Maximum"
+
+msgid "Allowed file types"
+msgstr "Allowed file types"
+
+msgid "Comma separated list. Leave blank for all types"
+msgstr "Comma separated list. Leave blank for all types"
+
+msgid "Google Map"
+msgstr "Google Map"
+
+msgid "Sorry, this browser does not support geolocation"
+msgstr "Sorry, this browser does not support geolocation"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Clear location"
+msgstr "Clear location"
+
+msgid "Find current location"
+msgstr "Find current location"
+
+msgid "Search for address..."
+msgstr "Search for address..."
+
+msgid "Center"
+msgstr "Center"
+
+msgid "Center the initial map"
+msgstr "Center the initial map"
+
+msgid "Zoom"
+msgstr "Zoom"
+
+msgid "Set the initial zoom level"
+msgstr "Set the initial zoom level"
+
+msgid "Height"
+msgstr "Height"
+
+msgid "Customize the map height"
+msgstr "Customize the map height"
+
+msgid "Group"
+msgstr "Group"
+
+msgid "Sub Fields"
+msgstr "Sub Fields"
+
+msgid "Specify the style used to render the selected fields"
+msgstr "Specify the style used to render the selected fields"
+
+msgid "Block"
+msgstr "Block"
+
+msgid "Table"
+msgstr "Table"
+
+msgid "Row"
+msgstr "Row"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Select Image"
+msgstr "Select Image"
+
+msgid "Edit Image"
+msgstr "Edit Image"
+
+msgid "Update Image"
+msgstr "Update Image"
+
+msgid "All images"
+msgstr "All images"
+
+msgid "No image selected"
+msgstr "No image selected"
+
+msgid "Add Image"
+msgstr "Add Image"
+
+msgid "Image Array"
+msgstr "Image Array"
+
+msgid "Image URL"
+msgstr "Image URL"
+
+msgid "Image ID"
+msgstr "Image ID"
+
+msgid "Preview Size"
+msgstr "Preview Size"
+
+msgid "Restrict which images can be uploaded"
+msgstr "Restrict which images can be uploaded"
+
+msgid "Width"
+msgstr "Width"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Select Link"
+msgstr "Select Link"
+
+msgid "Opens in a new window/tab"
+msgstr "Opens in a new window/tab"
+
+msgid "Link Array"
+msgstr "Link Array"
+
+msgid "Link URL"
+msgstr "Link URL"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "New Lines"
+msgstr "New Lines"
+
+msgid "Controls how new lines are rendered"
+msgstr "Controls how new lines are rendered"
+
+msgid "Automatically add paragraphs"
+msgstr "Automatically add paragraphs"
+
+msgid "Automatically add &lt;br&gt;"
+msgstr "Automatically add &lt;br&gt;"
+
+msgid "No Formatting"
+msgstr "No Formatting"
+
+msgid "Escape HTML"
+msgstr "Escape HTML"
+
+msgid "Allow HTML markup to display as visible text instead of rendering"
+msgstr "Allow HTML markup to display as visible text instead of rendering"
+
+msgid "Number"
+msgstr "Number"
+
+msgid "Minimum Value"
+msgstr "Minimum Value"
+
+msgid "Maximum Value"
+msgstr "Maximum Value"
+
+msgid "Step Size"
+msgstr "Step Size"
+
+msgid "Value must be a number"
+msgstr "Value must be a number"
+
+msgid "Value must be equal to or higher than %d"
+msgstr "Value must be equal to or higher than %d"
+
+msgid "Value must be equal to or lower than %d"
+msgstr "Value must be equal to or lower than %d"
+
+msgid "oEmbed"
+msgstr "oEmbed"
+
+msgid "Error."
+msgstr "Error."
+
+msgid "No embed found for the given URL."
+msgstr "No embed found for the given URL."
+
+msgid "Enter URL"
+msgstr "Enter URL"
+
+msgid "Embed Size"
+msgstr "Embed Size"
+
+msgid "Page Link"
+msgstr "Page Link"
+
+msgid "Archives"
+msgstr "Archives"
+
+msgid "Filter by Post Type"
+msgstr "Filter by Post Type"
+
+msgid "All post types"
+msgstr "All post types"
+
+msgid "Filter by Taxonomy"
+msgstr "Filter by Taxonomy"
+
+msgid "All taxonomies"
+msgstr "All taxonomies"
+
+msgid "Allow Archives URLs"
+msgstr "Allow Archives URLs"
+
+msgid "Select multiple values?"
+msgstr "Select multiple values?"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Post Object"
+msgstr "Post Object"
+
+msgid "Post ID"
+msgstr "Post ID"
+
+msgid "Radio Button"
+msgstr "Radio Button"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Add 'other' choice to allow for custom values"
+msgstr "Add 'other' choice to allow for custom values"
+
+msgid "Save Other"
+msgstr "Save Other"
+
+msgid "Save 'other' values to the field's choices"
+msgstr "Save 'other' values to the field's choices"
+
+msgid "Range"
+msgstr "Range"
+
+msgid "Relationship"
+msgstr "Relationship"
+
+msgid "Minimum values reached ( {min} values )"
+msgstr "Minimum values reached ( {min} values )"
+
+msgid "Maximum values reached ( {max} values )"
+msgstr "Maximum values reached ( {max} values )"
+
+msgid "Loading"
+msgstr "Loading"
+
+msgid "No matches found"
+msgstr "No matches found"
+
+msgid "Select post type"
+msgstr "Select post type"
+
+msgid "Select taxonomy"
+msgstr "Select taxonomy"
+
+msgid "Search..."
+msgstr "Search..."
+
+msgid "Filters"
+msgstr "Filters"
+
+msgid "Post Type"
+msgstr "Post Type"
+
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+msgid "Elements"
+msgstr "Elements"
+
+msgid "Selected elements will be displayed in each result"
+msgstr "Selected elements will be displayed in each result"
+
+msgid "Minimum posts"
+msgstr "Minimum posts"
+
+msgid "Maximum posts"
+msgstr "Maximum posts"
+
+msgid "%s requires at least %s selection"
+msgstr "%s requires at least %s selection"
+
+msgid "%s requires at least %s selections"
+msgstr "%s requires at least %s selections"
+
+msgid "Stylised UI"
+msgstr "Stylised UI"
+
+msgid "Use AJAX to lazy load choices?"
+msgstr "Use AJAX to lazy load choices?"
+
+msgid "Specify the value returned"
+msgstr "Specify the value returned"
+
+msgid "Separator"
+msgstr "Separator"
+
+msgid "Tab"
+msgstr "Tab"
+
+msgid "Use \"Tab Fields\" to better organize your edit screen by grouping fields together."
+msgstr "Use \"Tab Fields\" to better organize your edit screen by grouping fields together."
+
+msgid "All fields following this \"tab field\" (or until another \"tab field\" is defined) will be grouped together using this field\\'s label as the tab heading."
+msgstr "All fields following this \"tab field\" (or until another \"tab field\" is defined) will be grouped together using this field\\'s label as the tab heading."
+
+msgid "Placement"
+msgstr "Placement"
+
+msgid "Define an endpoint for the previous tabs to stop. This will start a new group of tabs."
+msgstr "Define an endpoint for the previous tabs to stop. This will start a new group of tabs."
+
+msgid "Select the taxonomy to be displayed"
+msgstr "Select the taxonomy to be displayed"
+
+msgid "Appearance"
+msgstr "Appearance"
+
+msgid "Select the appearance of this field"
+msgstr "Select the appearance of this field"
+
+msgid "Multiple Values"
+msgstr "Multiple Values"
+
+msgid "Multi Select"
+msgstr "Multi Select"
+
+msgid "Single Value"
+msgstr "Single Value"
+
+msgid "Radio Buttons"
+msgstr "Radio Buttons"
+
+msgid "Create Terms"
+msgstr "Create Terms"
+
+msgid "Allow new terms to be created whilst editing"
+msgstr "Allow new terms to be created whilst editing"
+
+msgid "Save Terms"
+msgstr "Save Terms"
+
+msgid "Connect selected terms to the post"
+msgstr "Connect selected terms to the post"
+
+msgid "Load Terms"
+msgstr "Load Terms"
+
+msgid "Load value from posts terms"
+msgstr "Load value from posts terms"
+
+msgid "Term Object"
+msgstr "Term Object"
+
+msgid "Term ID"
+msgstr "Term ID"
+
+msgid "User unable to add new %s"
+msgstr "User unable to add new %s"
+
+msgid "%s already exists"
+msgstr "%s already exists"
+
+msgid "%s added"
+msgstr "%s added"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Character Limit"
+msgstr "Character Limit"
+
+msgid "Leave blank for no limit"
+msgstr "Leave blank for no limit"
+
+msgid "Value must not exceed %d characters"
+msgstr "Value must not exceed %d characters"
+
+msgid "Text Area"
+msgstr "Text Area"
+
+msgid "Rows"
+msgstr "Rows"
+
+msgid "Sets the textarea height"
+msgstr "Sets the textarea height"
+
+msgid "Time Picker"
+msgstr "Time Picker"
+
+msgid "True / False"
+msgstr "True / False"
+
+msgid "Displays text alongside the checkbox"
+msgstr "Displays text alongside the checkbox"
+
+msgid "On Text"
+msgstr "On Text"
+
+msgid "Text shown when active"
+msgstr "Text shown when active"
+
+msgid "Off Text"
+msgstr "Off Text"
+
+msgid "Text shown when inactive"
+msgstr "Text shown when inactive"
+
+msgid "Url"
+msgstr "Url"
+
+msgid "Value must be a valid URL"
+msgstr "Value must be a valid URL"
+
+msgid "User"
+msgstr "User"
+
+msgid "Filter by role"
+msgstr "Filter by role"
+
+msgid "All user roles"
+msgstr "All user roles"
+
+msgid "User Array"
+msgstr "User Array"
+
+msgid "User Object"
+msgstr "User Object"
+
+msgid "User ID"
+msgstr "User ID"
+
+msgid "Error loading field."
+msgstr "Error loading field."
+
+msgid "Wysiwyg Editor"
+msgstr "Wysiwyg Editor"
+
+msgid "Visual"
+msgstr "Visual"
+
+msgid "Click to initialize TinyMCE"
+msgstr "Click to initialize TinyMCE"
+
+msgid "Tabs"
+msgstr "Tabs"
+
+msgid "Visual & Text"
+msgstr "Visual & Text"
+
+msgid "Visual Only"
+msgstr "Visual Only"
+
+msgid "Text Only"
+msgstr "Text Only"
+
+msgid "Toolbar"
+msgstr "Toolbar"
+
+msgid "Show Media Upload Buttons?"
+msgstr "Show Media Upload Buttons?"
+
+msgid "Delay initialization?"
+msgstr "Delay initialization?"
+
+msgid "TinyMCE will not be initialized until field is clicked"
+msgstr "TinyMCE will not be initialized until field is clicked"
+
+msgid "Field type does not exist"
+msgstr "Field type does not exist"
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "Basic"
+msgstr "Basic"
+
+msgid "Content"
+msgstr "Content"
+
+msgid "Choice"
+msgstr "Choice"
+
+msgid "Relational"
+msgstr "Relational"
+
+msgid "jQuery"
+msgstr "jQuery"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Validate Email"
+msgstr "Validate Email"
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Post updated"
+msgstr "Post updated"
+
+msgid "Spam Detected"
+msgstr "Spam Detected"
+
+msgid "<strong>ERROR</strong>: %s"
+msgstr "<strong>ERROR</strong>: %s"
+
+msgid "The ACF_Locations class should not be accessed directly."
+msgstr "The ACF_Locations class should not be accessed directly."
+
+msgid "is equal to"
+msgstr "is equal to"
+
+msgid "is not equal to"
+msgstr "is not equal to"
+
+msgid "Attachment"
+msgstr "Attachment"
+
+msgid "All %s formats"
+msgstr "All %s formats"
+
+msgid "Comment"
+msgstr "Comment"
+
+msgid "Current User Role"
+msgstr "Current User Role"
+
+msgid "Super Admin"
+msgstr "Super Admin"
+
+msgid "Current User"
+msgstr "Current User"
+
+msgid "Logged in"
+msgstr "Logged in"
+
+msgid "Viewing front end"
+msgstr "Viewing front end"
+
+msgid "Viewing back end"
+msgstr "Viewing back end"
+
+msgid "Menu Item"
+msgstr "Menu Item"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Menu Locations"
+msgstr "Menu Locations"
+
+msgid "Page Parent"
+msgstr "Page Parent"
+
+msgid "Page Template"
+msgstr "Page Template"
+
+msgid "Default Template"
+msgstr "Default Template"
+
+msgid "Page Type"
+msgstr "Page Type"
+
+msgid "Front Page"
+msgstr "Front Page"
+
+msgid "Posts Page"
+msgstr "Posts Page"
+
+msgid "Top Level Page (no parent)"
+msgstr "Top Level Page (no parent)"
+
+msgid "Parent Page (has children)"
+msgstr "Parent Page (has children)"
+
+msgid "Child Page (has parent)"
+msgstr "Child Page (has parent)"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "Post Category"
+msgstr "Post Category"
+
+msgid "Post Format"
+msgstr "Post Format"
+
+msgid "Post Status"
+msgstr "Post Status"
+
+msgid "Post Taxonomy"
+msgstr "Post Taxonomy"
+
+msgid "Post Template"
+msgstr "Post Template"
+
+msgid "Post"
+msgstr "Post"
+
+msgid "User Form"
+msgstr "User Form"
+
+msgid "Add / Edit"
+msgstr "Add / Edit"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "User Role"
+msgstr "User Role"
+
+msgid "Widget"
+msgstr "Widget"
+
+msgid "Class \"%s\" does not exist."
+msgstr "Class \"%s\" does not exist."
+
+msgid ""
+"Location type \"%s\" is already registered.' ), $name );\n"
+"\t\t_doing_it_wrong( __FUNCTION__, $message, '5.9.0' );\n"
+"\t\treturn false;\n"
+"\t}\n"
+"\t\n"
+"\t// Add to store.\n"
+"\t$store->set( $name, $location_type );\n"
+"\t\n"
+"\t/**\n"
+"\t * Fires after a location type is registered.\n"
+"\t *\n"
+"\t * @date\t8/4/20\n"
+"\t * @since\t5.9.0\n"
+"\t *\n"
+"\t * @param\tstring $name The location type name.\n"
+"\t * @param\tACF_Location $location_type The location type instance.\n"
+"\t */\n"
+"\tdo_action( 'acf/registered_location_type', $name, $location_type );\n"
+"\t\n"
+"\t// Return location type instance.\n"
+"\treturn $location_type;\n"
+"}\n"
+"\n"
+"/**\n"
+" * Returns an array of all registered location types.\n"
+" *\n"
+" * @date\t8/4/20\n"
+" * @since\t5.9.0\n"
+" *\n"
+" * @param\tvoid\n"
+" * @return\tarray\n"
+" */\n"
+"function acf_get_location_types() {\n"
+"\treturn acf_get_store( 'location-types' )->get();\n"
+"}\n"
+"\n"
+"/**\n"
+" * Returns a location type for the given name.\n"
+" *\n"
+" * @date\t18/2/19\n"
+" * @since\t5.7.12\n"
+" *\n"
+" * @param\tstring $name The location type name.\n"
+" * @return\t(ACF_Location|null)\n"
+" */\n"
+"function acf_get_location_type( $name ) {\n"
+"\treturn acf_get_store( 'location-types' )->get( $name );\n"
+"}\n"
+"\n"
+"/**\n"
+" * Returns a grouped array of all location rule types.\n"
+" *\n"
+" * @date\t8/4/20\n"
+" * @since\t5.9.0\n"
+" *\n"
+" * @param\tvoid\n"
+" * @return\tarray\n"
+" */\n"
+"function acf_get_location_rule_types() {\n"
+"\t$types = array();\n"
+"\t\n"
+"\t// Default categories.\n"
+"\t$categories = array(\n"
+"\t\t'post'\t\t=> __('Post"
+msgstr ""
+"Location type \"%s\" is already registered.' ), $name );\n"
+"\t\t_doing_it_wrong( __FUNCTION__, $message, '5.9.0' );\n"
+"\t\treturn false;\n"
+"\t}\n"
+"\t\n"
+"\t// Add to store.\n"
+"\t$store->set( $name, $location_type );\n"
+"\t\n"
+"\t/**\n"
+"\t * Fires after a location type is registered.\n"
+"\t *\n"
+"\t * @date\t8/4/20\n"
+"\t * @since\t5.9.0\n"
+"\t *\n"
+"\t * @param\tstring $name The location type name.\n"
+"\t * @param\tACF_Location $location_type The location type instance.\n"
+"\t */\n"
+"\tdo_action( 'acf/registered_location_type', $name, $location_type );\n"
+"\t\n"
+"\t// Return location type instance.\n"
+"\treturn $location_type;\n"
+"}\n"
+"\n"
+"/**\n"
+" * Returns an array of all registered location types.\n"
+" *\n"
+" * @date\t8/4/20\n"
+" * @since\t5.9.0\n"
+" *\n"
+" * @param\tvoid\n"
+" * @return\tarray\n"
+" */\n"
+"function acf_get_location_types() {\n"
+"\treturn acf_get_store( 'location-types' )->get();\n"
+"}\n"
+"\n"
+"/**\n"
+" * Returns a location type for the given name.\n"
+" *\n"
+" * @date\t18/2/19\n"
+" * @since\t5.7.12\n"
+" *\n"
+" * @param\tstring $name The location type name.\n"
+" * @return\t(ACF_Location|null)\n"
+" */\n"
+"function acf_get_location_type( $name ) {\n"
+"\treturn acf_get_store( 'location-types' )->get( $name );\n"
+"}\n"
+"\n"
+"/**\n"
+" * Returns a grouped array of all location rule types.\n"
+" *\n"
+" * @date\t8/4/20\n"
+" * @since\t5.9.0\n"
+" *\n"
+" * @param\tvoid\n"
+" * @return\tarray\n"
+" */\n"
+"function acf_get_location_rule_types() {\n"
+"\t$types = array();\n"
+"\t\n"
+"\t// Default categories.\n"
+"\t$categories = array(\n"
+"\t\t'post'\t\t=> __('Post"
+
+msgid "Forms"
+msgstr "Forms"
+
+msgid "Uploaded to this post"
+msgstr "Uploaded to this post"
+
+msgid "Expand Details"
+msgstr "Expand Details"
+
+msgid "Collapse Details"
+msgstr "Collapse Details"
+
+msgid "Restricted"
+msgstr "Restricted"
+
+msgid "%s value is required"
+msgstr "%s value is required"
