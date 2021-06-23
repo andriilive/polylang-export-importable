@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"X-Domain: lazy-blocks\n"
+
+msgid "Documentation"
+msgstr "Documentation"
+
+msgid "PRO Survey"
+msgstr "PRO Survey"
+
+msgid "Lazy Blocks"
+msgstr "Lazy Blocks"
+
+msgid "Blocks"
+msgstr "Blocks"
+
+msgid "Block"
+msgstr "Block"
+
+msgid "Duplicate “%1$s”"
+msgstr "Duplicate “%1$s”"
+
+msgid "Duplicate"
+msgstr "Duplicate"
+
+msgid "Export “%1$s”"
+msgstr "Export “%1$s”"
+
+msgid "Export"
+msgstr "Export"
+
+msgid "Icon"
+msgstr "Icon"
+
+msgid "Category"
+msgstr "Category"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Basic"
+msgstr "Basic"
+
+msgid "Content"
+msgstr "Content"
+
+msgid "Choice"
+msgstr "Choice"
+
+msgid "Advanced"
+msgstr "Advanced"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Example block that helps you to get started with Lazy Blocks plugin"
+msgstr "Example block that helps you to get started with Lazy Blocks plugin"
+
+msgid "Sorry, you are not allowed to read Gutenberg blocks of this post."
+msgstr "Sorry, you are not allowed to read Gutenberg blocks of this post."
+
+msgid "Sorry, you are not allowed to read Gutenberg blocks as this user."
+msgstr "Sorry, you are not allowed to read Gutenberg blocks as this user."
+
+msgid "Sorry, you are not allowed to read Gutenberg blocks data."
+msgstr "Sorry, you are not allowed to read Gutenberg blocks data."
+
+msgid "Sorry, you are not allowed to read Gutenberg blocks data as this user."
+msgstr "Sorry, you are not allowed to read Gutenberg blocks data as this user."
+
+msgid "Invalid block."
+msgstr "Invalid block."
+
+msgid "Render callback is not specified."
+msgstr "Render callback is not specified."
+
+msgid "Templates"
+msgstr "Templates"
+
+msgid "Template"
+msgstr "Template"
+
+msgid "Export / Import"
+msgstr "Export / Import"
+
+msgid "No file selected"
+msgstr "No file selected"
+
+msgid "Error uploading file. Please try again"
+msgstr "Error uploading file. Please try again"
+
+msgid "Incorrect file type"
+msgstr "Incorrect file type"
+
+msgid "Import file empty"
+msgstr "Import file empty"
+
+msgid "Template for post type \\'%s\\' already exists."
+msgstr "Template for post type \\'%s\\' already exists."
+
+msgid "Added new block \\'%s\\'."
+msgstr "Added new block \\'%s\\'."
+
+msgid "Imported %s block"
+msgstr "Imported %s block"
+
+msgid "Imported %s template"
+msgstr "Imported %s template"
+
+msgid "Imported %s blocks"
+msgstr "Imported %s blocks"
+
+msgid "Imported %s templates"
+msgstr "Imported %s templates"
+
+msgid "Checkbox"
+msgstr "Checkbox"
+
+msgid "Classic Editor (WYSIWYG)"
+msgstr "Classic Editor (WYSIWYG)"
+
+msgid "Code Editor"
+msgstr "Code Editor"
+
+msgid "Color Picker"
+msgstr "Color Picker"
+
+msgid "Date Time Picker"
+msgstr "Date Time Picker"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "File"
+msgstr "File"
+
+msgid "Gallery"
+msgstr "Galerie"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Inner Blocks"
+msgstr "Inner Blocks"
+
+msgid "Number"
+msgstr "Number"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Radio"
+msgstr "Radio"
+
+msgid "Range"
+msgstr "Range"
+
+msgid "Repeater"
+msgstr "Repeater"
+
+msgid "Rich Text (WYSIWYG)"
+msgstr "Rich Text (WYSIWYG)"
+
+msgid "Select"
+msgstr "Select"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Text Area"
+msgstr "Text Area"
+
+msgid "Toggle"
+msgstr "Toggle"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Template file <code>%1$s</code> not found."
+msgstr "Template file <code>%1$s</code> not found."

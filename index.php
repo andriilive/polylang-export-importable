@@ -13,7 +13,7 @@ use Gettext\Translations;
 use Gettext\Generator\MoGenerator;
 use Gettext\Generator\PoGenerator;
 
-const LANGS = ['cs', 'sk'];
+const LANGS = ['cs_CZ', 'sk_SK'];
 
 $src = 'src/*.csv';
 $files = glob($src);
@@ -28,9 +28,12 @@ foreach ( $files as $file) {
     $records = $reader->getRecords();
 
     foreach ($records as $offset => $record) {
-        $translation = Translation::create(null, $record[0]);
-        $translation->translate($record[0]);
-        $translations->add($translation);
+
+        if ($offset > 0 ) {
+            $translation = Translation::create(null, $record[0]);
+            $translation->translate($record[2]);
+            $translations->add($translation);
+        }
     }
 
     //Load a PO file

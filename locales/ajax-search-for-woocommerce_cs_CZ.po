@@ -1,0 +1,988 @@
+msgid ""
+msgstr ""
+"X-Domain: ajax-search-for-woocommerce\n"
+
+msgid "<b>AJAX Search for WooCommerce</b>: You need PHP version at least 5.3 to run this plugin. You are currently using PHP version "
+msgstr "<b>AJAX Search for WooCommerce</b>: You need PHP version at least 5.3 to run this plugin. You are currently using PHP version "
+
+msgid "<b>AJAX Search for WooCommerce</b>:<br /> Your PHP version <b><i>%s</i></b> will not longer supported in the next plugin releases."
+msgstr "<b>AJAX Search for WooCommerce</b>:<br /> Your PHP version <b><i>%s</i></b> will not longer supported in the next plugin releases."
+
+msgid " You have to update your PHP version to least 5.5 (recommended 7.2 or greater)."
+msgstr " You have to update your PHP version to least 5.5 (recommended 7.2 or greater)."
+
+msgid "If you cannot upgrade your PHP version yourself, you can send an email to your host."
+msgstr "If you cannot upgrade your PHP version yourself, you can send an email to your host."
+
+msgid "If you do not upgrade the php version, the next plugin release will not work!"
+msgstr "If you do not upgrade the php version, the next plugin release will not work!"
+
+msgid "Remind me again in week."
+msgstr "Remind me again in week."
+
+msgid "<b>AJAX Search for WooCommerce</b> is enabled but not effective. It requires %s in order to work."
+msgstr "<b>AJAX Search for WooCommerce</b> is enabled but not effective. It requires %s in order to work."
+
+msgid "Yes - I'm in!"
+msgstr "Yes - I'm in!"
+
+msgid "Not today"
+msgstr "Not today"
+
+msgid "Replace %s search bar"
+msgstr "Replace %s search bar"
+
+msgid "%s Theme"
+msgstr "%s Theme"
+
+msgid "Replace"
+msgstr "Replace"
+
+msgid "Replace all %s search bars with the Ajax Search for WooCommerce."
+msgstr "Replace all %s search bars with the Ajax Search for WooCommerce."
+
+msgid "Alternative ways to embed a search bar"
+msgstr "Alternative ways to embed a search bar"
+
+msgid "Ajax Search for WooCommerce"
+msgstr "Ajax Search for WooCommerce"
+
+msgid "AJAX search bar"
+msgstr "AJAX search bar"
+
+msgid "Hey %s, it's Damian Góra from %s. You have used this free plugin for some time now, and I hope you like it!"
+msgstr "Hey %s, it's Damian Góra from %s. You have used this free plugin for some time now, and I hope you like it!"
+
+msgid "I have spent countless hours developing it, and it would mean a lot to me if you %ssupport it with a quick review on WordPress.org.%s"
+msgstr "I have spent countless hours developing it, and it would mean a lot to me if you %ssupport it with a quick review on WordPress.org.%s"
+
+msgid "Review %s"
+msgstr "Review %s"
+
+msgid "No thanks"
+msgstr "No thanks"
+
+msgid "Speed up search! (even 10x faster) - users love it!"
+msgstr "Speed up search! (even 10x faster) - users love it!"
+
+msgid "New modern search engine based on bm25 ranking algorithm"
+msgstr "New modern search engine based on bm25 ranking algorithm"
+
+msgid "Fuzzy search"
+msgstr "Fuzzy search"
+
+msgid "Search in attributes and variation products SKUs (option)"
+msgstr "Search in attributes and variation products SKUs (option)"
+
+msgid "Individual customization of the search form (simple CSS improvements)"
+msgstr "Individual customization of the search form (simple CSS improvements)"
+
+msgid "Individual tips and support by Damian Góra - the author of the plugin"
+msgstr "Individual tips and support by Damian Góra - the author of the plugin"
+
+msgid "Ajax Search for WooCommerce PRO - Upgrade Now"
+msgstr "Ajax Search for WooCommerce PRO - Upgrade Now"
+
+msgid "Update now and increase your sales. You will receive 14-day satisfaction guarantee.  A return on investment will come very quickly."
+msgstr "Update now and increase your sales. You will receive 14-day satisfaction guarantee.  A return on investment will come very quickly."
+
+msgid "and more..."
+msgstr "and more..."
+
+msgid "See a comparison of all free and premium features!"
+msgstr "See a comparison of all free and premium features!"
+
+msgid "You can upgrade without leaving the admin panel by clicking below."
+msgstr "You can upgrade without leaving the admin panel by clicking below."
+
+msgid "Free updates and email support included."
+msgstr "Free updates and email support included."
+
+msgid "Upgrade Now"
+msgstr "Upgrade Now"
+
+msgid "Read More"
+msgstr "Read More"
+
+msgid ""
+"Regenerate WooCommerce images' ) . '</a>';\n"
+"\t\t\t\t$pluginLink = '<a target=\"_blank\" href=\"https://wordpress.org/plugins/regenerate-thumbnails/\">Regenerate Thumbnails</a>';\n"
+"\t\t\t\tprintf( __( '<b>AJAX Search for WooCommerce</b>: It is recommended to generate a special small image size for existing products to ensure a better user experience. This is a one-time action. <br /><br />You can do it by clicking %s or use external plugin e.g. %s."
+msgstr ""
+"Regenerate WooCommerce images' ) . '</a>';\n"
+"\t\t\t\t$pluginLink = '<a target=\"_blank\" href=\"https://wordpress.org/plugins/regenerate-thumbnails/\">Regenerate Thumbnails</a>';\n"
+"\t\t\t\tprintf( __( '<b>AJAX Search for WooCommerce</b>: It is recommended to generate a special small image size for existing products to ensure a better user experience. This is a one-time action. <br /><br />You can do it by clicking %s or use external plugin e.g. %s."
+
+msgid ""
+"Choose File' ) );\n"
+"        $html = sprintf(\n"
+"            '<input type=\"text\" class=\"%1$s-text %2$surl\" id=\"%3$s[%4$s]\" name=\"%3$s[%4$s]\" value=\"%5$s\"/>',\n"
+"            $size,\n"
+"            $this->prefix,\n"
+"            $this->name,\n"
+"            $args['id'],\n"
+"            $value\n"
+"        );\n"
+"        $html .= '<input type=\"button\" class=\"button ' . $this->prefix . 'browse\" value=\"' . $label . '\" />';\n"
+"        $html .= $this->get_field_description( $args );\n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays a password field for a settings field\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_password( $args )\n"
+"    {\n"
+"        $value = esc_attr( $this->get_option( $args['id'], $args['std'] ) );\n"
+"        $size = ( isset( $args['size'] ) && !is_null( $args['size'] ) ? $args['size'] : 'regular' );\n"
+"        $html = sprintf(\n"
+"            '<input type=\"password\" class=\"%1$s-text\" id=\"%2$s[%3$s]\" name=\"%2$s[%3$s]\" value=\"%4$s\"/>',\n"
+"            $size,\n"
+"            $this->name,\n"
+"            $args['id'],\n"
+"            $value\n"
+"        );\n"
+"        $html .= $this->get_field_description( $args );\n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays a color picker field for a settings field\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_color( $args )\n"
+"    {\n"
+"        $value = esc_attr( $this->get_option( $args['id'], $args['std'] ) );\n"
+"        $size = ( isset( $args['size'] ) && !is_null( $args['size'] ) ? $args['size'] : 'regular' );\n"
+"        $html = sprintf(\n"
+"            '<input type=\"text\" class=\"%1$s-text wp-color-picker-field\" id=\"%2$s[%3$s]\" name=\"%2$s[%3$s]\" value=\"%4$s\" data-default-color=\"%5$s\" />',\n"
+"            $size,\n"
+"            $this->name,\n"
+"            $args['id'],\n"
+"            $value,\n"
+"            $args['std']\n"
+"        );\n"
+"        $html .= $this->get_field_description( $args );\n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays a color picker field for a settings field\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_desc( $args )\n"
+"    {\n"
+"        $html = '';\n"
+"        \n"
+"        if ( isset( $args['desc'] ) && !empty($args['desc']) ) {\n"
+"            $html .= '<div class=\"dgwt-wcas-settings-info\">';\n"
+"            $html .= $args['desc'];\n"
+"            $html .= '</div>';\n"
+"        }\n"
+"        \n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays a color picker field for a settings field\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_datepicker( $args )\n"
+"    {\n"
+"        $value = esc_attr( $this->get_option( $args['id'], $args['std'] ) );\n"
+"        $size = ( isset( $args['size'] ) && !is_null( $args['size'] ) ? $args['size'] : 'regular' );\n"
+"        $html = sprintf(\n"
+"            '<input type=\"text\" class=\"%1$s-text dgwt-datepicker-field\" id=\"%2$s[%3$s]\" name=\"%2$s[%3$s]\" value=\"%4$s\" />',\n"
+"            $size,\n"
+"            $this->name,\n"
+"            $args['id'],\n"
+"            $value\n"
+"        );\n"
+"        $html .= $this->get_field_description( $args );\n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays filters rules in settings\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_filters_rules_plug( $args )\n"
+"    {\n"
+"        ob_start();\n"
+"        ?>\n"
+"\t\t<div id=\"dgwt-wcas-settings-filters-rules\">\n"
+"\t\t\t<div>\n"
+"\t\t\t\t<p><?php \n"
+"        _e( 'No rules"
+msgstr ""
+"Choose File' ) );\n"
+"        $html = sprintf(\n"
+"            '<input type=\"text\" class=\"%1$s-text %2$surl\" id=\"%3$s[%4$s]\" name=\"%3$s[%4$s]\" value=\"%5$s\"/>',\n"
+"            $size,\n"
+"            $this->prefix,\n"
+"            $this->name,\n"
+"            $args['id'],\n"
+"            $value\n"
+"        );\n"
+"        $html .= '<input type=\"button\" class=\"button ' . $this->prefix . 'browse\" value=\"' . $label . '\" />';\n"
+"        $html .= $this->get_field_description( $args );\n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays a password field for a settings field\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_password( $args )\n"
+"    {\n"
+"        $value = esc_attr( $this->get_option( $args['id'], $args['std'] ) );\n"
+"        $size = ( isset( $args['size'] ) && !is_null( $args['size'] ) ? $args['size'] : 'regular' );\n"
+"        $html = sprintf(\n"
+"            '<input type=\"password\" class=\"%1$s-text\" id=\"%2$s[%3$s]\" name=\"%2$s[%3$s]\" value=\"%4$s\"/>',\n"
+"            $size,\n"
+"            $this->name,\n"
+"            $args['id'],\n"
+"            $value\n"
+"        );\n"
+"        $html .= $this->get_field_description( $args );\n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays a color picker field for a settings field\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_color( $args )\n"
+"    {\n"
+"        $value = esc_attr( $this->get_option( $args['id'], $args['std'] ) );\n"
+"        $size = ( isset( $args['size'] ) && !is_null( $args['size'] ) ? $args['size'] : 'regular' );\n"
+"        $html = sprintf(\n"
+"            '<input type=\"text\" class=\"%1$s-text wp-color-picker-field\" id=\"%2$s[%3$s]\" name=\"%2$s[%3$s]\" value=\"%4$s\" data-default-color=\"%5$s\" />',\n"
+"            $size,\n"
+"            $this->name,\n"
+"            $args['id'],\n"
+"            $value,\n"
+"            $args['std']\n"
+"        );\n"
+"        $html .= $this->get_field_description( $args );\n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays a color picker field for a settings field\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_desc( $args )\n"
+"    {\n"
+"        $html = '';\n"
+"        \n"
+"        if ( isset( $args['desc'] ) && !empty($args['desc']) ) {\n"
+"            $html .= '<div class=\"dgwt-wcas-settings-info\">';\n"
+"            $html .= $args['desc'];\n"
+"            $html .= '</div>';\n"
+"        }\n"
+"        \n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays a color picker field for a settings field\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_datepicker( $args )\n"
+"    {\n"
+"        $value = esc_attr( $this->get_option( $args['id'], $args['std'] ) );\n"
+"        $size = ( isset( $args['size'] ) && !is_null( $args['size'] ) ? $args['size'] : 'regular' );\n"
+"        $html = sprintf(\n"
+"            '<input type=\"text\" class=\"%1$s-text dgwt-datepicker-field\" id=\"%2$s[%3$s]\" name=\"%2$s[%3$s]\" value=\"%4$s\" />',\n"
+"            $size,\n"
+"            $this->name,\n"
+"            $args['id'],\n"
+"            $value\n"
+"        );\n"
+"        $html .= $this->get_field_description( $args );\n"
+"        echo  $html ;\n"
+"    }\n"
+"    \n"
+"    /**\n"
+"     * Displays filters rules in settings\n"
+"     *\n"
+"     * @param array $args settings field args\n"
+"     */\n"
+"    function callback_filters_rules_plug( $args )\n"
+"    {\n"
+"        ob_start();\n"
+"        ?>\n"
+"\t\t<div id=\"dgwt-wcas-settings-filters-rules\">\n"
+"\t\t\t<div>\n"
+"\t\t\t\t<p><?php \n"
+"        _e( 'No rules"
+
+msgid "Add new rule"
+msgstr "Add new rule"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Showcase"
+msgstr "Showcase"
+
+msgid "Troubleshooting"
+msgstr "Troubleshooting"
+
+msgid "You are using one or more incompatible plugins"
+msgstr "You are using one or more incompatible plugins"
+
+msgid "You use the %s plugin. The Ajax Search for WooCommerce does not support this plugin."
+msgstr "You use the %s plugin. The Ajax Search for WooCommerce does not support this plugin."
+
+msgid "Your site can perform loopback requests"
+msgstr "Your site can perform loopback requests"
+
+msgid "Your site could not complete a loopback request"
+msgstr "Your site could not complete a loopback request"
+
+msgid "This issue may affect the search results page and e.g. display all products every time"
+msgstr "This issue may affect the search results page and e.g. display all products every time"
+
+msgid "Solutions:"
+msgstr "Solutions:"
+
+msgid "Do you have a Basic Auth?"
+msgstr "Do you have a Basic Auth?"
+
+msgid "If yes, you have to add to your <code>wp-config.php</code> file following constants. Remember to replace <code>your-username</code> and <code>your-password</code> with your values."
+msgstr "If yes, you have to add to your <code>wp-config.php</code> file following constants. Remember to replace <code>your-username</code> and <code>your-password</code> with your values."
+
+msgid "Is your website publicly available only for whitelisted IPs?"
+msgstr "Is your website publicly available only for whitelisted IPs?"
+
+msgid "If yes, add you server IP to whitelist IPs. That’s all."
+msgstr "If yes, add you server IP to whitelist IPs. That’s all."
+
+msgid "One or more required PHP extensions are missing on your server"
+msgstr "One or more required PHP extensions are missing on your server"
+
+msgid "Required PHP extension: %s"
+msgstr "Required PHP extension: %s"
+
+msgid "WordPress version"
+msgstr "WordPress version"
+
+msgid "Great! Our plugin works great with this version of WordPress."
+msgstr "Great! Our plugin works great with this version of WordPress."
+
+msgid "Install the latest version of WordPress for our plugin to work as best it can!"
+msgstr "Install the latest version of WordPress for our plugin to work as best it can!"
+
+msgid "Redirect to the cart page after successful addition"
+msgstr "Redirect to the cart page after successful addition"
+
+msgid "Enable AJAX add to cart buttons on archives"
+msgstr "Enable AJAX add to cart buttons on archives"
+
+msgid "Incorrect \"Add to cart\" behaviour in WooCommerce settings"
+msgstr "Incorrect \"Add to cart\" behaviour in WooCommerce settings"
+
+msgid "Solution"
+msgstr "Solution"
+
+msgid "Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">Products (tab)</a></code> and check option <code>%s</code> and uncheck option <code>%s</code>."
+msgstr "Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">Products (tab)</a></code> and check option <code>%s</code> and uncheck option <code>%s</code>."
+
+msgid "Your settings should looks like the picture below:"
+msgstr "Your settings should looks like the picture below:"
+
+msgid "Incompatible \"Searching by Text\" extension from WOOF - WooCommerce Products Filter plugin is active"
+msgstr "Incompatible \"Searching by Text\" extension from WOOF - WooCommerce Products Filter plugin is active"
+
+msgid "Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">Products Filter (tab)</a> -> Extensions (tab)</code>, uncheck <code>Searching by Text</code> extension and save changes."
+msgstr "Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">Products Filter (tab)</a> -> Extensions (tab)</code>, uncheck <code>Searching by Text</code> extension and save changes."
+
+msgid "Extensions should looks like the picture below:"
+msgstr "Extensions should looks like the picture below:"
+
+msgid "PHP extensions"
+msgstr "PHP extensions"
+
+msgid "Incompatible plugins"
+msgstr "Incompatible plugins"
+
+msgid "Incompatible \"Searching by Text\" extension in WOOF - WooCommerce Products Filter"
+msgstr "Incompatible \"Searching by Text\" extension in WOOF - WooCommerce Products Filter"
+
+msgid "Loopback request"
+msgstr "Loopback request"
+
+msgid "Server environment"
+msgstr "Server environment"
+
+msgid "AJAX Search bar"
+msgstr "AJAX Search bar"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Search icon color"
+msgstr "Search icon color"
+
+msgid "Add AJAX search bar as a menu item."
+msgstr "Add AJAX search bar as a menu item."
+
+msgid "AJAX search bar will be displayed here."
+msgstr "AJAX search bar will be displayed here."
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Search bar only"
+msgstr "Search bar only"
+
+msgid "Search icon"
+msgstr "Search icon"
+
+msgid "Icon on mobile, search bar on desktop"
+msgstr "Icon on mobile, search bar on desktop"
+
+msgid "Search bar"
+msgstr "Search bar"
+
+msgid "Add to menu"
+msgstr "Add to menu"
+
+msgid "Pro"
+msgstr "Pro"
+
+msgid "Category"
+msgstr "Category"
+
+msgid ""
+"Tag' ),\n"
+"            'brand'              => __( 'Brand"
+msgstr ""
+"Tag' ),\n"
+"            'brand'              => __( 'Brand"
+
+msgid ""
+"Post' ),\n"
+"            'page'               => __( 'Page' ),\n"
+"            'vendor'             => __( 'Vendor"
+msgstr ""
+"Post' ),\n"
+"            'page'               => __( 'Page' ),\n"
+"            'vendor'             => __( 'Vendor"
+
+msgid "Categories"
+msgstr "Categories"
+
+msgid ""
+"Tags' ),\n"
+"            'product_plu'        => __( 'Products"
+msgstr ""
+"Tags' ),\n"
+"            'product_plu'        => __( 'Products"
+
+msgid "Brands"
+msgstr "Výrobci vín"
+
+msgid ""
+"Posts' ),\n"
+"            'page_plu'           => __( 'Pages' ),\n"
+"            'vendor_plu'         => __( 'Vendors"
+msgstr ""
+"Posts' ),\n"
+"            'page_plu'           => __( 'Pages' ),\n"
+"            'vendor_plu'         => __( 'Vendors"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "Sale"
+msgstr "Sale"
+
+msgid "Sold by:"
+msgstr "Sold by:"
+
+msgid "Featured"
+msgstr "Featured"
+
+msgid "continue reading"
+msgstr "continue reading"
+
+msgid "No results"
+msgstr "Žádné výsledky"
+
+msgid "See all products..."
+msgstr "See all products..."
+
+msgid "Search for products..."
+msgstr "Hledat"
+
+msgid "based on the plugin %s"
+msgstr "based on the plugin %s"
+
+msgid "Search in brands"
+msgstr "Search in brands"
+
+msgid "Show brands"
+msgstr "Show brands"
+
+msgid "Replace all %s search bars with the Ajax Search for WooCommerce.<br><span style=\"color: red;\">Note: We currently only support the header type: \"Header 10\".</span>"
+msgstr "Replace all %s search bars with the Ajax Search for WooCommerce.<br><span style=\"color: red;\">Note: We currently only support the header type: \"Header 10\".</span>"
+
+msgid "Replace Flatsome search bar"
+msgstr "Replace Flatsome search bar"
+
+msgid "Flatsome Theme"
+msgstr "Flatsome Theme"
+
+msgid "Replace all Flatsome search bars with the Ajax Search for WooCommerce."
+msgstr "Replace all Flatsome search bars with the Ajax Search for WooCommerce."
+
+msgid "Here is <a href=\"%s\" target=\"_blank\">article</a> about how to do it using Impreza child-theme."
+msgstr "Here is <a href=\"%s\" target=\"_blank\">article</a> about how to do it using Impreza child-theme."
+
+msgid "Replace Impreza search bar"
+msgstr "Replace Impreza search bar"
+
+msgid "Impreza Theme"
+msgstr "Impreza Theme"
+
+msgid "To replace the search bar you have to enable \"Predictive Search\" option in the Shopkeeper settings."
+msgstr "To replace the search bar you have to enable \"Predictive Search\" option in the Shopkeeper settings."
+
+msgid "Go to <code>Appearance -> <a target=\"_blank\" href=\"%s\">Customize</a> -> Header -> Search</code> and enable <code>Predictive Search</code>"
+msgstr "Go to <code>Appearance -> <a target=\"_blank\" href=\"%s\">Customize</a> -> Header -> Search</code> and enable <code>Predictive Search</code>"
+
+msgid "Warning!"
+msgstr "Warning!"
+
+msgid "Replace Storefront search bar"
+msgstr "Replace Storefront search bar"
+
+msgid "Storefront Theme"
+msgstr "Storefront Theme"
+
+msgid "Replace the Storefront default product search to the Ajax Search for WooCommerce form."
+msgstr "Replace the Storefront default product search to the Ajax Search for WooCommerce form."
+
+msgid "Replace a search bar in TheGem "
+msgstr "Replace a search bar in TheGem "
+
+msgid "TheGem Theme"
+msgstr "TheGem Theme"
+
+msgid "Replace the TheGem default search"
+msgstr "Replace the TheGem default search"
+
+msgid "Starting"
+msgstr "Starting"
+
+msgid "Autocomplete"
+msgstr "Autocomplete"
+
+msgid "Search config"
+msgstr "Search config"
+
+msgid "Indexer"
+msgstr "Indexer"
+
+msgid "Increase sales"
+msgstr "Increase sales"
+
+msgid "by simple tricks"
+msgstr "by simple tricks"
+
+msgid "How to add search bar in your theme?"
+msgstr "How to add search bar in your theme?"
+
+msgid "How to add?"
+msgstr "How to add?"
+
+msgid "Basic"
+msgstr "Basic"
+
+msgid "Minimum characters"
+msgstr "Minimum characters"
+
+msgid "Min characters to show autocomplete"
+msgstr "Min characters to show autocomplete"
+
+msgid "Max form width"
+msgstr "Max form width"
+
+msgid "To set 100% width leave blank"
+msgstr "To set 100% width leave blank"
+
+msgid "Show submit button"
+msgstr "Show submit button"
+
+msgid "Submit label"
+msgstr "Submit label"
+
+msgid "To display the magnifier icon leave this field empty."
+msgstr "To display the magnifier icon leave this field empty."
+
+msgid "Search"
+msgstr "Hledat"
+
+msgid "Search input placeholder"
+msgstr "Search input placeholder"
+
+msgid "Layout (beta)"
+msgstr "Layout (beta)"
+
+msgid "Overlay on mobile"
+msgstr "Overlay on mobile"
+
+msgid "The search will open in overlay on mobile"
+msgstr "The search will open in overlay on mobile"
+
+msgid "Mobile breakpoint"
+msgstr "Mobile breakpoint"
+
+msgid "px"
+msgstr "px"
+
+msgid "Colors"
+msgstr "Colors"
+
+msgid "Search input background"
+msgstr "Search input background"
+
+msgid "Search input text"
+msgstr "Search input text"
+
+msgid "Search input border"
+msgstr "Search input border"
+
+msgid "Search submit background"
+msgstr "Search submit background"
+
+msgid "Search submit text"
+msgstr "Search submit text"
+
+msgid "Preloader"
+msgstr "Preloader"
+
+msgid "Show preloader"
+msgstr "Show preloader"
+
+msgid "Upload preloader image"
+msgstr "Upload preloader image"
+
+msgid "Limit"
+msgstr "Limit"
+
+msgid "Maximum number of suggestions"
+msgstr "Maximum number of suggestions"
+
+msgid "Group results"
+msgstr "Group results"
+
+msgid "Products"
+msgstr "Products"
+
+msgid "Show product image"
+msgstr "Show product image"
+
+msgid "Show price"
+msgstr "Show price"
+
+msgid "Show product description"
+msgstr "Show product description"
+
+msgid "Show SKU"
+msgstr "Show SKU"
+
+msgid "More results label"
+msgstr "More results label"
+
+msgid "Non-Products in autocomplete"
+msgstr "Non-Products in autocomplete"
+
+msgid "Show categories"
+msgstr "Show categories"
+
+msgid "Show tags"
+msgstr "Show tags"
+
+msgid "Show posts"
+msgstr "Show posts"
+
+msgid "Show pages"
+msgstr "Show pages"
+
+msgid "Details panel"
+msgstr "Details panel"
+
+msgid "Show Details panel"
+msgstr "Show Details panel"
+
+msgid "The Details panel is an additional container for extended information. The details are changed dynamically when a user mouse over one of the suggestions."
+msgstr "The Details panel is an additional container for extended information. The details are changed dynamically when a user mouse over one of the suggestions."
+
+msgid "Suggestions colors"
+msgstr "Suggestions colors"
+
+msgid "Suggestion background"
+msgstr "Suggestion background"
+
+msgid "Suggestion selected"
+msgstr "Suggestion selected"
+
+msgid "Text color"
+msgstr "Text color"
+
+msgid "Highlight color"
+msgstr "Highlight color"
+
+msgid "Border color"
+msgstr "Border color"
+
+msgid "Products search scope"
+msgstr "Products search scope"
+
+msgid "Search in description"
+msgstr "Search in description"
+
+msgid "Search in short description"
+msgstr "Search in short description"
+
+msgid "Search in SKU"
+msgstr "Search in SKU"
+
+msgid "Searching also in variable products SKU"
+msgstr "Searching also in variable products SKU"
+
+msgid "Searching in variable products SKU is available only in <a target=\"_blank\" href=\"%s\">the pro version</a>."
+msgstr "Searching in variable products SKU is available only in <a target=\"_blank\" href=\"%s\">the pro version</a>."
+
+msgid "Search in attributes"
+msgstr "Search in attributes"
+
+msgid "Search in categories"
+msgstr "Search in categories"
+
+msgid "Search in tags"
+msgstr "Search in tags"
+
+msgid "Search in custom fields"
+msgstr "Search in custom fields"
+
+msgid "Exclude 'out of stock' products"
+msgstr "Exclude 'out of stock' products"
+
+msgid "Fuzziness"
+msgstr "Fuzziness"
+
+msgid "Synonyms"
+msgstr "Synonyms"
+
+msgid "Synonyms feature allows your users to find more relevant results. If your products have alternative names and users often misspelling them, consider adding synonyms."
+msgstr "Synonyms feature allows your users to find more relevant results. If your products have alternative names and users often misspelling them, consider adding synonyms."
+
+msgid "Synonyms should be separated by a comma. Each new synonyms group in the new line. You can use a phrase instead of a single word. <br /> <br />Sample list:<br /> <br /><span class=\"dgwt-wcas-synonyms-sample\">sofa, couch, davenport, divan, settee<br />big, grand, great, large, outsize</span>"
+msgstr "Synonyms should be separated by a comma. Each new synonyms group in the new line. You can use a phrase instead of a single word. <br /> <br />Sample list:<br /> <br /><span class=\"dgwt-wcas-synonyms-sample\">sofa, couch, davenport, divan, settee<br />big, grand, great, large, outsize</span>"
+
+msgid "Exclude products"
+msgstr "Exclude products"
+
+msgid "Filters"
+msgstr "Filters"
+
+msgid "Exclude from search all products that match conditions"
+msgstr "Exclude from search all products that match conditions"
+
+msgid "Pro features"
+msgstr "Pro features"
+
+msgid "Speed up search!"
+msgstr "Speed up search!"
+
+msgid "Scheduling Indexing"
+msgstr "Scheduling Indexing"
+
+msgid "Enable Scheduler"
+msgstr "Enable Scheduler"
+
+msgid "I most cases you don't need to use the scheduler because The search index is updating when you edit products. If you use import tools or custom code to refresh prices or bulk add/edit products, the indexing scheduler will be helpful."
+msgstr "I most cases you don't need to use the scheduler because The search index is updating when you edit products. If you use import tools or custom code to refresh prices or bulk add/edit products, the indexing scheduler will be helpful."
+
+msgid "Interval"
+msgstr "Interval"
+
+msgid "Daily"
+msgstr "Daily"
+
+msgid "Weekly"
+msgstr "Weekly"
+
+msgid "What time to rebuild the index?"
+msgstr "What time to rebuild the index?"
+
+msgid "Increases sales conversions"
+msgstr "Increases sales conversions"
+
+msgid "Returns suggestions based on likely relevance even though a search keyword may not exactly match. E.g if you type \"ipho<b>m</b>e\" you get the same results as for \"iphone\""
+msgstr "Returns suggestions based on likely relevance even though a search keyword may not exactly match. E.g if you type \"ipho<b>m</b>e\" you get the same results as for \"iphone\""
+
+msgid "Fuzzy matching"
+msgstr "Fuzzy matching"
+
+msgid "-- Disabled"
+msgstr "-- Disabled"
+
+msgid "Soft"
+msgstr "Soft"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Hard"
+msgstr "Hard"
+
+msgid "Index status"
+msgstr "Index status"
+
+msgid "child theme of <b>%s</b>"
+msgstr "child theme of <b>%s</b>"
+
+msgid "You use <b>%s</b> theme%s. Fantastic!"
+msgstr "You use <b>%s</b> theme%s. Fantastic!"
+
+msgid "We support this theme and you can easily replace all default search bars."
+msgstr "We support this theme and you can easily replace all default search bars."
+
+msgid "If users can’t find the product they’re searching for, they can’t buy it. Help your customers to find the right products even <span>10x faster</span>."
+msgstr "If users can’t find the product they’re searching for, they can’t buy it. Help your customers to find the right products even <span>10x faster</span>."
+
+msgid "Update now and boosts your sales. You will receive <b>14-day satisfaction guarantee</b>.  A return on investment will come very quickly."
+msgstr "Update now and boosts your sales. You will receive <b>14-day satisfaction guarantee</b>.  A return on investment will come very quickly."
+
+msgid "<b>New Ultra-Fast Search Engine</b> – works very fast even with 100,000+ products "
+msgstr "<b>New Ultra-Fast Search Engine</b> – works very fast even with 100,000+ products "
+
+msgid "Professional and fast <b>help with embedding</b> or <b>replacing</b> the search bar in your theme"
+msgstr "Professional and fast <b>help with embedding</b> or <b>replacing</b> the search bar in your theme"
+
+msgid "Search by variation product SKU"
+msgstr "Search by variation product SKU"
+
+msgid "Search in brands (WooCommerce Brands or YITH WooCommerce Brands)"
+msgstr "Search in brands (WooCommerce Brands or YITH WooCommerce Brands)"
+
+msgid "Search for posts and pages"
+msgstr "Search for posts and pages"
+
+msgid "Individual customization of the search bar (simple CSS improvements)"
+msgstr "Individual customization of the search bar (simple CSS improvements)"
+
+msgid "And more..."
+msgstr "And more..."
+
+msgid "Upgrade Now!"
+msgstr "Upgrade Now!"
+
+msgid "There are four easy ways to display the search bar in your theme"
+msgstr "There are four easy ways to display the search bar in your theme"
+
+msgid "As a menu item - go to %s and add menu item \"AJAX Search bar\". Done!"
+msgstr "As a menu item - go to %s and add menu item \"AJAX Search bar\". Done!"
+
+msgid "Menu Screen"
+msgstr "Menu Screen"
+
+msgid "Using a shortcode - %s"
+msgstr "Using a shortcode - %s"
+
+msgid "As a widget - go to %s and choose \"AJAX Search bar\""
+msgstr "As a widget - go to %s and choose \"AJAX Search bar\""
+
+msgid "Widgets Screen"
+msgstr "Widgets Screen"
+
+msgid "By PHP - %s"
+msgstr "By PHP - %s"
+
+msgid "Are there any difficulties? <b>We will do it for you!</b> We offer free of charge search bar implementation for Pro users. <a target=\"_blank\" href=\"%s\">Become one now!</a>"
+msgstr "Are there any difficulties? <b>We will do it for you!</b> We offer free of charge search bar implementation for Pro users. <a target=\"_blank\" href=\"%s\">Become one now!</a>"
+
+msgid "The search index does not exist yet. Build it now."
+msgstr "The search index does not exist yet. Build it now."
+
+msgid "Build index"
+msgstr "Build index"
+
+msgid "Show details"
+msgstr "Show details"
+
+msgid "Preview"
+msgstr "Preview"
+
+msgid "Products search"
+msgstr "Products search"
+
+msgid "Sample brand <strong>name</strong>"
+msgstr "Sample brand <strong>name</strong>"
+
+msgid "Sample category <strong>name</strong>"
+msgstr "Sample category <strong>name</strong>"
+
+msgid "Sample tag <strong>name</strong>"
+msgstr "Sample tag <strong>name</strong>"
+
+msgid "Sample post <strong>name</strong>"
+msgstr "Sample post <strong>name</strong>"
+
+msgid "Sample page <strong>name</strong>"
+msgstr "Sample page <strong>name</strong>"
+
+msgid "Sample product <strong>name</strong>"
+msgstr "Sample product <strong>name</strong>"
+
+msgid "Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit. Quisque gravida lacus nec diam porttitor pharetra. Nulla facilisi. Proin pharetra imperdiet neque, non varius."
+msgstr "Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit. Quisque gravida lacus nec diam porttitor pharetra. Nulla facilisi. Proin pharetra imperdiet neque, non varius."
+
+msgid "Sample product name"
+msgstr "Sample product name"
+
+msgid "Add to cart"
+msgstr "Koupit"
+
+msgid "AJAX Search for WooCommerce (PRO) Settings"
+msgstr "AJAX Search for WooCommerce (PRO) Settings"
+
+msgid "AJAX Search for WooCommerce Settings"
+msgstr "AJAX Search for WooCommerce Settings"
+
+msgid "Show advanced settings"
+msgstr "Show advanced settings"
+
+msgid "Processing asynchronous tests..."
+msgstr "Processing asynchronous tests..."
+
+msgid "Great! We have not detected any problems that could affect the correct functioning of our plugin."
+msgstr "Great! We have not detected any problems that could affect the correct functioning of our plugin."
+
+msgid "Check status again"
+msgstr "Check status again"
+
+msgid "Hit enter to search or ESC to close"
+msgstr "Hit enter to search or ESC to close"
+
+msgid "AJAX (live) search form for WooCommerce"
+msgstr "AJAX (live) search form for WooCommerce"
+
+msgid "Title"
+msgstr "Title"

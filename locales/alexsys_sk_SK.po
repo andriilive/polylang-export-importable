@@ -1,0 +1,1029 @@
+msgid ""
+msgstr ""
+"X-Domain: alexsys\n"
+
+msgid "Oops! Stránka nenalezena."
+msgstr "Oops! Stránka nenalezena."
+
+msgid "Regions"
+msgstr "Vinařské oblasti"
+
+msgid "Brands"
+msgstr "Výrobci vín"
+
+msgid "Wine Type"
+msgstr "Typ vína"
+
+msgid "Grapes"
+msgstr "Odrůda"
+
+msgid "Gallery"
+msgstr "Galerie"
+
+msgid "Shopping Cart"
+msgstr "Shopping Cart"
+
+msgid "Product name"
+msgstr "Product name"
+
+msgid "Qty"
+msgstr "Qty"
+
+msgid "Price"
+msgstr "Cena"
+
+msgid "Are you sure you want to delete the item?"
+msgstr "Are you sure you want to delete the item?"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Total with DPH"
+msgstr "Total with DPH"
+
+msgid "Are you sure you want to empty the cart?"
+msgstr "Are you sure you want to empty the cart?"
+
+msgid "Empty Cart"
+msgstr "Empty Cart"
+
+msgid "You have no items in your shopping cart"
+msgstr "You have no items in your shopping cart"
+
+msgid "Kontakty"
+msgstr "Kontakty"
+
+msgid "Adresa"
+msgstr "Adresa"
+
+msgid "NAVIGOVAT"
+msgstr "NAVIGOVAT"
+
+msgid "Sociální sítě"
+msgstr "Sociální sítě"
+
+msgid "Wine Encyclopedia"
+msgstr "Vinařská encyklopedie"
+
+msgid "recommended with"
+msgstr "Doporučeno k"
+
+msgid "resetovat filtr"
+msgstr "resetovat filtr"
+
+msgid "Vinařské oblasti"
+msgstr "Vinařské oblasti"
+
+msgid "Item Archives"
+msgstr "Item Archives"
+
+msgid "Parent Item:"
+msgstr "Parent Item:"
+
+msgid "All Items"
+msgstr "All Items"
+
+msgid "Add New Item"
+msgstr "Add New Item"
+
+msgid "Add New"
+msgstr "Add New"
+
+msgid "New Item"
+msgstr "New Item"
+
+msgid "Edit Item"
+msgstr "Edit Item"
+
+msgid "Update Item"
+msgstr "Update Item"
+
+msgid "View Item"
+msgstr "View Item"
+
+msgid "Search Item"
+msgstr "Search Item"
+
+msgid "Not found"
+msgstr "Not found"
+
+msgid "Not found in Trash"
+msgstr "Not found in Trash"
+
+msgid "Featured Image"
+msgstr "Featured Image"
+
+msgid "Set featured image"
+msgstr "Set featured image"
+
+msgid "Remove featured image"
+msgstr "Remove featured image"
+
+msgid "Use as featured image"
+msgstr "Use as featured image"
+
+msgid "Insert into item"
+msgstr "Insert into item"
+
+msgid "Uploaded to this item"
+msgstr "Uploaded to this item"
+
+msgid "Items list"
+msgstr "Items list"
+
+msgid "Items list navigation"
+msgstr "Items list navigation"
+
+msgid "Filter items list"
+msgstr "Filter items list"
+
+msgid "Výrobci vín"
+msgstr "Výrobci vín"
+
+msgid "Odrůda"
+msgstr "Odrůda"
+
+msgid "Navigation Menu"
+msgstr "Navigation Menu"
+
+msgid "Search"
+msgstr "Hledat"
+
+msgid "odhlásit se"
+msgstr "odhlásit se"
+
+msgid "Login"
+msgstr "Přihlásit se"
+
+msgid "Košík"
+msgstr "Košík"
+
+msgid "Vstupujete na stránky s prodejem alkoholu. Prosím potvrďte, že Vám již bylo 18 let"
+msgstr "Vstupujete na stránky s prodejem alkoholu. Prosím potvrďte, že Vám již bylo 18 let"
+
+msgid "ANO"
+msgstr "ANO"
+
+msgid "NE"
+msgstr "NE"
+
+msgid "Search results"
+msgstr "Vyhledávání"
+
+msgid "Nothing found"
+msgstr "Nalezeny žádné stránky."
+
+msgid "Best Selling products"
+msgstr "Nejprodávanější výrobky"
+
+msgid "Our local shops"
+msgstr "Naše prodejní místa"
+
+msgid "View all"
+msgstr "Všechny prodejny"
+
+msgid "Portugal Wine regions"
+msgstr "Vinařské oblasti"
+
+msgid "Newest Wines"
+msgstr "Novinky"
+
+msgid "View all wines"
+msgstr "Kompletní nabídka vín"
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "Vína z vinařství"
+msgstr "Vína z vinařství"
+
+msgid "More"
+msgstr "Více"
+
+msgid "Products with this grapes"
+msgstr "Vína obsahující tuto odrůdu"
+
+msgid "Products from the region"
+msgstr "Nabídka vín z oblasti"
+
+msgid "Track your order"
+msgstr ""
+
+msgid "Please enter a valid order ID"
+msgstr "Please enter a valid order ID"
+
+msgid "Please enter a valid order email"
+msgstr "Please enter a valid order email"
+
+msgid "Sorry, we could not find that order ID in our database."
+msgstr "Sorry, we could not find that order ID in our database."
+
+msgid "%s would like to connect to your store"
+msgstr "%s would like to connect to your store"
+
+msgid "This will give \"%s\" <strong>%s</strong> access which will allow it to:"
+msgstr "This will give \"%s\" <strong>%s</strong> access which will allow it to:"
+
+msgid "Logged in as %s"
+msgstr "Logged in as %s"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Approve"
+msgstr "Approve"
+
+msgid "Deny"
+msgstr "Deny"
+
+msgid "To connect to %1$s you need to be logged in. Log in to your store below, or %2$scancel and return to %1$s%3$s"
+msgstr "To connect to %1$s you need to be logged in. Log in to your store below, or %2$scancel and return to %1$s%3$s"
+
+msgid "Username or email address"
+msgstr "Username or email address"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Application Authentication Request"
+msgstr "Application Authentication Request"
+
+msgid "Your cart is currently empty."
+msgstr "Your cart is currently empty."
+
+msgid "Return To Shop"
+msgstr "Return To Shop"
+
+msgid "Shipping #%d"
+msgstr "Shipping #%d"
+
+msgid "Shipping"
+msgstr "Shipping"
+
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr "Please use the shipping calculator to see available shipping methods."
+
+msgid "Please continue to the checkout and enter your full address to see if there are any available shipping methods."
+msgstr "Please continue to the checkout and enter your full address to see if there are any available shipping methods."
+
+msgid "Please fill in your details to see available shipping methods."
+msgstr "Please fill in your details to see available shipping methods."
+
+msgid "There are no shipping methods available. Please double check your address, or contact us if you need any help."
+msgstr "There are no shipping methods available. Please double check your address, or contact us if you need any help."
+
+msgid "User Discount"
+msgstr "Klientská Sleva"
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid " (taxes estimated for %s)"
+msgstr " (taxes estimated for %s)"
+
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+
+msgid "Cart Totals"
+msgstr "Cart Totals"
+
+msgid "Produkt"
+msgstr "Produkt"
+
+msgid "Množství"
+msgstr "Množství"
+
+msgid "Cena za kus"
+msgstr "Cena za kus"
+
+msgid "Cena za litr"
+msgstr "Cena za litr"
+
+msgid "Celkem"
+msgstr "Celkem"
+
+msgid "Remove this item"
+msgstr "Remove this item"
+
+msgid "Available on backorder"
+msgstr "Available on backorder"
+
+msgid "Coupon"
+msgstr "Coupon"
+
+msgid "Coupon code"
+msgstr "Coupon code"
+
+msgid "Apply Coupon"
+msgstr "Apply Coupon"
+
+msgid "Update Cart"
+msgstr "Update Cart"
+
+msgid "You may be interested in&hellip;"
+msgstr "You may be interested in&hellip;"
+
+msgid "No products in the cart."
+msgstr "No products in the cart."
+
+msgid "View Cart"
+msgstr "View Cart"
+
+msgid "Checkout"
+msgstr "Checkout"
+
+msgid "Proceed to Checkout"
+msgstr "Proceed to Checkout"
+
+msgid "Calculate Shipping"
+msgstr "Calculate Shipping"
+
+msgid "Select a country&hellip;"
+msgstr "Select a country&hellip;"
+
+msgid "Select a state&hellip;"
+msgstr "Select a state&hellip;"
+
+msgid "Update Totals"
+msgstr "Update Totals"
+
+msgid "There are some issues with the items in your cart (shown above). Please go back to the cart page and resolve these issues before checking out."
+msgstr "There are some issues with the items in your cart (shown above). Please go back to the cart page and resolve these issues before checking out."
+
+msgid "Return To Cart"
+msgstr "Return To Cart"
+
+msgid "Billing &amp; Shipping"
+msgstr "Billing &amp; Shipping"
+
+msgid "Billing Details"
+msgstr "Billing Details"
+
+msgid "Create an account?"
+msgstr "Create an account?"
+
+msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+msgstr "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+
+msgid "You must be logged in to checkout."
+msgstr "You must be logged in to checkout."
+
+msgid "Your order"
+msgstr "Your order"
+
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+
+msgid "I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; conditions</a>"
+msgstr "I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; conditions</a>"
+
+msgid "Have a coupon?"
+msgstr "Have a coupon?"
+
+msgid "Click here to enter your code"
+msgstr "Click here to enter your code"
+
+msgid "Returning customer?"
+msgstr "Returning customer?"
+
+msgid "Click here to login"
+msgstr "Click here to login"
+
+msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
+msgstr "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
+
+msgid "Product"
+msgstr "Product"
+
+msgid "Totals"
+msgstr "Totals"
+
+msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+
+msgid "Pay for order"
+msgstr "Pay for order"
+
+msgid "Ship to a different address?"
+msgstr "Ship to a different address?"
+
+msgid "Additional Information"
+msgstr "Additional Information"
+
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Please fill in your details above to see available payment methods."
+
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+
+msgid "Chybný formát (príklad \"29"
+msgstr "Chybný formát (príklad \"29"
+
+msgid "Požadovaný minimální věk 18 let"
+msgstr "Požadovaný minimální věk 18 let"
+
+msgid "Odebírat novinky e-mailem "
+msgstr "Odebírat novinky e-mailem"
+
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+
+msgid "Please attempt your purchase again or go to your account page."
+msgstr "Please attempt your purchase again or go to your account page."
+
+msgid "Please attempt your purchase again."
+msgstr "Please attempt your purchase again."
+
+msgid "Pay"
+msgstr "Pay"
+
+msgid "My Account"
+msgstr "My Account"
+
+msgid "Thank you. Your order has been received."
+msgstr "Thank you. Your order has been received."
+
+msgid "Order Number:"
+msgstr "Order Number:"
+
+msgid "Date:"
+msgstr "Date:"
+
+msgid "Total:"
+msgstr "Total:"
+
+msgid "Payment Method:"
+msgstr "Payment Method:"
+
+msgid "Product is temporarily out of stock"
+msgstr "Zboží je dočasně vyprodáno"
+
+msgid "Charakteristika"
+msgstr "Charakteristika"
+
+msgid "Teplota podávání"
+msgstr "Teplota podávání"
+
+msgid "Cena s DPH bez slevy"
+msgstr "Cena s DPH bez slevy"
+
+msgid "Cena s DPH"
+msgstr "Cena s DPH"
+
+msgid "Cena bez DPH"
+msgstr "Cena bez DPH"
+
+msgid "za litr s DPH"
+msgstr "za litr s DPH"
+
+msgid "Do košíku"
+msgstr "Do košíku"
+
+msgid "Ocenění"
+msgstr "Ocenění"
+
+msgid "Sdílet"
+msgstr "Sdílet"
+
+msgid "Podrobné informace"
+msgstr "Podrobné informace"
+
+msgid "Hodnocení a komentáře"
+msgstr "Hodnocení a komentáře"
+
+msgid "Původ vína"
+msgstr "Původ vína"
+
+msgid "Země původu"
+msgstr "Země původu"
+
+msgid "Portugalská vína"
+msgstr "Portugalská vína"
+
+msgid "Vinařství"
+msgstr "Vinařství"
+
+msgid "Vinařská oblast"
+msgstr "Vinařská oblast"
+
+msgid "Vlastnosti vína"
+msgstr "Vlastnosti vína"
+
+msgid "Typ"
+msgstr "Typ"
+
+msgid "Ročník"
+msgstr "Ročník"
+
+msgid "Klasifikace"
+msgstr "Klasifikace"
+
+msgid "Obsah alkoholu"
+msgstr "Obsah alkoholu"
+
+msgid "Obsah cukru"
+msgstr "Obsah cukru"
+
+msgid "Kyseliny"
+msgstr "Kyseliny"
+
+msgid "Objem"
+msgstr "Objem"
+
+msgid "pH"
+msgstr "pH"
+
+msgid "Vinař"
+msgstr "Vinař"
+
+msgid "Konzumace"
+msgstr "Konzumace"
+
+msgid "Intenzita"
+msgstr "Intenzita"
+
+msgid "Kategorie, třída"
+msgstr "Kategorie, třída"
+
+msgid "Limited Edition"
+msgstr "Limited Edition"
+
+msgid "Winemaking Proccess"
+msgstr "Výroba vína"
+
+msgid "Oak aging"
+msgstr "Vyzrávání vína"
+
+msgid "Archivace"
+msgstr "Archivace"
+
+msgid "Druh vína"
+msgstr "Druh vína"
+
+msgid "Počet v kartonu"
+msgstr "Počet v kartonu"
+
+msgid "Složení"
+msgstr "Složení"
+
+msgid "The order #%d from %s has been cancelled. The order was as follows:"
+msgstr "The order #%d from %s has been cancelled. The order was as follows:"
+
+msgid "Order: %s"
+msgstr "Order: %s"
+
+msgid "Quantity"
+msgstr "Quantity"
+
+msgid "You have received an order from %s. The order is as follows:"
+msgstr "You have received an order from %s. The order is as follows:"
+
+msgid "Order #%s"
+msgstr "Order #%s"
+
+msgid "Hi there. Your recent order on %s has been completed. Your order details are shown below for your reference:"
+msgstr "Hi there. Your recent order on %s has been completed. Your order details are shown below for your reference:"
+
+msgid "An order has been created for you on %s. To pay for this order please use the following link: %s"
+msgstr "An order has been created for you on %s. To pay for this order please use the following link: %s"
+
+msgid "pay"
+msgstr "pay"
+
+msgid "Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr "Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr "Your password has been automatically generated: <strong>%s</strong>"
+
+msgid "You can access your account area to view your orders and change your password here: %s."
+msgstr "You can access your account area to view your orders and change your password here: %s."
+
+msgid "Hello, a note has just been added to your order:"
+msgstr "Hello, a note has just been added to your order:"
+
+msgid "For your reference, your order details are shown below."
+msgstr "For your reference, your order details are shown below."
+
+msgid "Your order has been received and is now being processed. Your order details are shown below for your reference:"
+msgstr "Your order has been received and is now being processed. Your order details are shown below for your reference:"
+
+msgid "Hi there. Your order on %s has been partially refunded."
+msgstr "Hi there. Your order on %s has been partially refunded."
+
+msgid "Hi there. Your order on %s has been refunded."
+msgstr "Hi there. Your order on %s has been refunded."
+
+msgid "Amount Refunded"
+msgstr "Amount Refunded"
+
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Someone requested that the password be reset for the following account:"
+
+msgid "Username: %s"
+msgstr "Username: %s"
+
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "If this was a mistake, just ignore this email and nothing will happen."
+
+msgid "To reset your password, visit the following address:"
+msgstr "To reset your password, visit the following address:"
+
+msgid "Click here to reset your password"
+msgstr "Click here to reset your password"
+
+msgid "Billing address"
+msgstr "Billing address"
+
+msgid "Shipping address"
+msgstr "Shipping address"
+
+msgid "Order number: %s"
+msgstr "Order number: %s"
+
+msgid "jS F Y"
+msgstr "jS F Y"
+
+msgid "View order: %s"
+msgstr "View order: %s"
+
+msgid "You have received an order from %s."
+msgstr "You have received an order from %s."
+
+msgid "Your password is <strong>%s</strong>."
+msgstr "Your password is <strong>%s</strong>."
+
+msgid "Hi there. Your order on %s has been refunded. Your order details are shown below for your reference:"
+msgstr "Hi there. Your order on %s has been refunded. Your order details are shown below for your reference:"
+
+msgid "Quantity: %s"
+msgstr "Quantity: %s"
+
+msgid "Cost: %s"
+msgstr "Cost: %s"
+
+msgid "Download %d"
+msgstr "Download %d"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Username or email"
+msgstr "Username or email"
+
+msgid "Remember me"
+msgstr "Remember me"
+
+msgid "Lost your password?"
+msgstr "Lost your password?"
+
+msgid "No products were found matching your selection."
+msgstr "No products were found matching your selection."
+
+msgid "Showing the single result"
+msgstr "Showing the single result"
+
+msgid "Showing all %d results"
+msgstr "Showing all %d results"
+
+msgid "Sale!"
+msgstr "Sale!"
+
+msgid "Recommended with"
+msgstr "Doporučeno k"
+
+msgid "Fish"
+msgstr "Ryba"
+
+msgid "Red Meat"
+msgstr "Červené maso"
+
+msgid "White Meat"
+msgstr "Bílé maso"
+
+msgid "Cheese"
+msgstr "Sýry"
+
+msgid "Seafood"
+msgstr "Mořské plody"
+
+msgid "Salad"
+msgstr "Salát"
+
+msgid "Aperitif"
+msgstr "Aperitiv"
+
+msgid "Chocolate"
+msgstr "Čokoláda"
+
+msgid "Dessert"
+msgstr "Dezert"
+
+msgid "Sushi"
+msgstr "Sushi"
+
+msgid "Macaroni"
+msgstr "Macaroni"
+
+msgid "Pizza"
+msgstr "Pizza"
+
+msgid "Sorry, it seems that there are no payment methods which support adding a new payment method. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr "Sorry, it seems that there are no payment methods which support adding a new payment method. Please contact us if you require assistance or wish to make alternate arrangements."
+
+msgid "First name"
+msgstr "First name"
+
+msgid "Last name"
+msgstr "Last name"
+
+msgid "Email address"
+msgstr "Email address"
+
+msgid "Váš věk"
+msgstr "Váš věk"
+
+msgid "Password Change"
+msgstr "Password Change"
+
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr "Current Password (leave blank to leave unchanged)"
+
+msgid "New Password (leave blank to leave unchanged)"
+msgstr "New Password (leave blank to leave unchanged)"
+
+msgid "Confirm New Password"
+msgstr "Confirm New Password"
+
+msgid "Billing Address"
+msgstr "Billing Address"
+
+msgid "Shipping Address"
+msgstr "Shipping Address"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Anti-spam"
+msgstr "Anti-spam"
+
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+
+msgid "Enter a new password below."
+msgstr "Enter a new password below."
+
+msgid "New password"
+msgstr "New password"
+
+msgid "Re-enter new password"
+msgstr "Re-enter new password"
+
+msgid "Reset Password"
+msgstr "Reset Password"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Hello <strong>%1$s</strong>."
+msgstr "Hello <strong>%1$s</strong>."
+
+msgid "From your account dashboard you can view your recent orders, manage your shipping and billing addresses and <a href=\"%s\">edit your password and account details</a>."
+msgstr "From your account dashboard you can view your recent orders, manage your shipping and billing addresses and <a href=\"%s\">edit your password and account details</a>."
+
+msgid "My Addresses"
+msgstr "My Addresses"
+
+msgid "My Address"
+msgstr "My Address"
+
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "The following addresses will be used on the checkout page by default."
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "You have not set up this type of address yet."
+msgstr "You have not set up this type of address yet."
+
+msgid "Available Downloads"
+msgstr "Available Downloads"
+
+msgid "%s download remaining"
+msgstr "%s download remaining"
+
+msgid "%s downloads remaining"
+msgstr "%s downloads remaining"
+
+msgid "Recent Orders"
+msgstr "Recent Orders"
+
+msgid "Order"
+msgstr "Order"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "View"
+msgstr "View"
+
+msgid "%s for %s item"
+msgstr "%s for %s item"
+
+msgid "%s for %s items"
+msgstr "%s for %s items"
+
+msgid "Sledování zásilky"
+msgstr "Sledování zásilky"
+
+msgid "Order #<mark class=\"order-number\">%s</mark> was placed on <mark class=\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</mark>."
+msgstr "Order #<mark class=\"order-number\">%s</mark> was placed on <mark class=\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</mark>."
+
+msgid "Order Updates"
+msgstr "Order Updates"
+
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+msgid "To track your order please enter your Order ID in the box below and press the \"Track\" button. This was given to you on your receipt and in the confirmation email you should have received."
+msgstr "To track your order please enter your Order ID in the box below and press the \"Track\" button. This was given to you on your receipt and in the confirmation email you should have received."
+
+msgid "Order ID"
+msgstr "Order ID"
+
+msgid "Billing Email"
+msgstr "Billing Email"
+
+msgid "Order Again"
+msgstr "Order Again"
+
+msgid "Customer Details"
+msgstr "Customer Details"
+
+msgid "Note:"
+msgstr "Note:"
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Telephone:"
+msgstr "Telephone:"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Order Details"
+msgstr "Order Details"
+
+msgid "Order #%s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr "Order #%s which was made %s has the status &ldquo;%s&rdquo;"
+
+msgid "ago"
+msgstr "ago"
+
+msgid "and was completed"
+msgstr "and was completed"
+
+msgid " ago"
+msgstr " ago"
+
+msgid "Search for:"
+msgstr "Search for:"
+
+msgid "This product is currently out of stock and unavailable."
+msgstr "This product is currently out of stock and unavailable."
+
+msgid "Clear selection"
+msgstr "Clear selection"
+
+msgid "SKU:"
+msgstr "SKU:"
+
+msgid "Category:"
+msgstr "Category:"
+
+msgid "Tag:"
+msgstr "Tag:"
+
+msgid "Categories:"
+msgstr "Categories:"
+
+msgid "Tags:"
+msgstr "Tags:"
+
+msgid "Weight"
+msgstr "Weight"
+
+msgid "Dimensions"
+msgstr "Dimensions"
+
+msgid "Placeholder"
+msgstr "Placeholder"
+
+msgid "Rated %s out of 5"
+msgstr "Rated %s out of 5"
+
+msgid "out of %s5%s"
+msgstr "out of %s5%s"
+
+msgid "based on %s customer rating"
+msgstr "based on %s customer rating"
+
+msgid "%s customer review"
+msgstr "%s customer review"
+
+msgid "based on %s customer ratings"
+msgstr "based on %s customer ratings"
+
+msgid "%s customer reviews"
+msgstr "%s customer reviews"
+
+msgid "Related Products"
+msgstr "Related Products"
+
+msgid "Rated %d out of 5"
+msgstr "Rated %d out of 5"
+
+msgid "out of 5"
+msgstr "out of 5"
+
+msgid "Your comment is awaiting approval"
+msgstr "Your comment is awaiting approval"
+
+msgid "verified owner"
+msgstr "verified owner"
+
+msgid "Product Description"
+msgstr "Product Description"
+
+msgid "You may also like&hellip;"
+msgstr "You may also like&hellip;"
+
+msgid "Reviews"
+msgstr "Reviews"
+
+msgid "There are no reviews yet."
+msgstr "There are no reviews yet."
+
+msgid "Add a review"
+msgstr "Add a review"
+
+msgid "Be the first to review"
+msgstr "Be the first to review"
+
+msgid "Leave a Reply to %s"
+msgstr "Leave a Reply to %s"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "You must be <a href=\"%s\">logged in</a> to post a review."
+
+msgid "Your Rating"
+msgstr "Your Rating"
+
+msgid "Rate&hellip;"
+msgstr "Rate&hellip;"
+
+msgid "Perfect"
+msgstr "Perfect"
+
+msgid "Good"
+msgstr "Good"
+
+msgid "Average"
+msgstr "Average"
+
+msgid "Not that bad"
+msgstr "Not that bad"
+
+msgid "Very Poor"
+msgstr "Very Poor"
+
+msgid "Your Review"
+msgstr "Your Review"
+
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr "Only logged in customers who have purchased this product may leave a review."
+
+msgid "%s review for %s"
+msgstr "%s review for %s"
+
+msgid "%s reviews for %s"
+msgstr "%s reviews for %s"

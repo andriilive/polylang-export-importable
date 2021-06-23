@@ -1,0 +1,1293 @@
+msgid ""
+msgstr ""
+"X-Domain: custom-post-type-ui\n"
+
+msgid "If you have sought support for Custom Post Type UI on the forums, you may be requested to send the information below to the plugin developer. Simply insert the email they provided in the input field at the bottom and click the \"Send debug info\" button. Only the data below will be sent to them."
+msgstr "If you have sought support for Custom Post Type UI on the forums, you may be requested to send the information below to the plugin developer. Simply insert the email they provided in the input field at the bottom and click the \"Send debug info\" button. Only the data below will be sent to them."
+
+msgid "Custom Post Type UI debug information for %s"
+msgstr "Custom Post Type UI debug information for %s"
+
+msgid "Custom Post Types"
+msgstr "Custom Post Types"
+
+msgid "CPT UI"
+msgstr "CPT UI"
+
+msgid "Add/Edit Post Types"
+msgstr "Add/Edit Post Types"
+
+msgid "Add/Edit Taxonomies"
+msgstr "Add/Edit Taxonomies"
+
+msgid "Registered Types and Taxes"
+msgstr "Registered Types and Taxes"
+
+msgid "Registered Types/Taxes"
+msgstr "Registered Types/Taxes"
+
+msgid "Custom Post Type UI Tools"
+msgstr "Custom Post Type UI Tools"
+
+msgid "Tools"
+msgstr "Tools"
+
+msgid "Help/Support"
+msgstr "Help/Support"
+
+msgid "About CPT UI"
+msgstr "About CPT UI"
+
+msgid "%s has been successfully added"
+msgstr "%s has been successfully added"
+
+msgid "%s has failed to be added"
+msgstr "%s has failed to be added"
+
+msgid "%s has been successfully updated"
+msgstr "%s has been successfully updated"
+
+msgid "%s has failed to be updated"
+msgstr "%s has failed to be updated"
+
+msgid "%s has been successfully deleted"
+msgstr "%s has been successfully deleted"
+
+msgid "%s has failed to be deleted"
+msgstr "%s has failed to be deleted"
+
+msgid "%s has been successfully imported"
+msgstr "%s has been successfully imported"
+
+msgid "%s has failed to be imported"
+msgstr "%s has failed to be imported"
+
+msgid "Add new %s"
+msgstr "Add new %s"
+
+msgid "Edit %s"
+msgstr "Edit %s"
+
+msgid "New %s"
+msgstr "New %s"
+
+msgid "View %s"
+msgstr "View %s"
+
+msgid "All %s"
+msgstr "All %s"
+
+msgid "Search %s"
+msgstr "Search %s"
+
+msgid "No %s found."
+msgstr "No %s found."
+
+msgid "No %s found in trash."
+msgstr "No %s found in trash."
+
+msgid "Popular %s"
+msgstr "Popular %s"
+
+msgid "Parent %s"
+msgstr "Parent %s"
+
+msgid "Parent %s:"
+msgstr "Parent %s:"
+
+msgid "Update %s"
+msgstr "Update %s"
+
+msgid "New %s name"
+msgstr "New %s name"
+
+msgid "Separate %s with commas"
+msgstr "Separate %s with commas"
+
+msgid "Add or remove %s"
+msgstr "Add or remove %s"
+
+msgid "Choose from the most used %s"
+msgstr "Choose from the most used %s"
+
+msgid "Custom Post Type UI"
+msgstr "Custom Post Type UI"
+
+msgid "Thank you for choosing Custom Post Type UI! We hope that your experience with our plugin makes creating post types and taxonomies and organizing your content quick and easy."
+msgstr "Thank you for choosing Custom Post Type UI! We hope that your experience with our plugin makes creating post types and taxonomies and organizing your content quick and easy."
+
+msgid "What's new in version %s"
+msgstr "What's new in version %s"
+
+msgid "Ability to set a default term for a custom taxonomy."
+msgstr "Ability to set a default term for a custom taxonomy."
+
+msgid "WordPress 5.5 added the ability to set a default term to your custom taxonomy, and now you do not have to worry about extra coding for that with Custom Post Type UI."
+msgstr "WordPress 5.5 added the ability to set a default term to your custom taxonomy, and now you do not have to worry about extra coding for that with Custom Post Type UI."
+
+msgid "Removed forced underscores for post type slugs."
+msgstr "Removed forced underscores for post type slugs."
+
+msgid "Post types are actually able to have dashes in their slug/name value, so we have removed the forcing of underscores for them. Taxonomies do still need underscores, until told otherwise."
+msgstr "Post types are actually able to have dashes in their slug/name value, so we have removed the forcing of underscores for them. Taxonomies do still need underscores, until told otherwise."
+
+msgid "More from %s"
+msgstr "More from %s"
+
+msgid "Content types registered with Custom Post Type UI."
+msgstr "Content types registered with Custom Post Type UI."
+
+msgid "Add New Post Type"
+msgstr "Add New Post Type"
+
+msgid "Add New Taxonomy"
+msgstr "Add New Taxonomy"
+
+msgid "Post Types"
+msgstr "Post Types"
+
+msgid "Custom Post Type UI registered post types count total: %d"
+msgstr "Custom Post Type UI registered post types count total: %d"
+
+msgid "Post Type"
+msgstr "Post Type"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Supports"
+msgstr "Supports"
+
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+msgid "Labels"
+msgstr "Labels"
+
+msgid "Template Hierarchy"
+msgstr "Template Hierarchy"
+
+msgid "Edit %1$s (%2$s)"
+msgstr "Edit %1$s (%2$s)"
+
+msgid "Get code"
+msgstr "Get code"
+
+msgid "View frontend archive"
+msgstr "View frontend archive"
+
+msgid "No associated taxonomies"
+msgstr "No associated taxonomies"
+
+msgid "No custom labels to display"
+msgstr "No custom labels to display"
+
+msgid "Archives file name examples."
+msgstr "Archives file name examples."
+
+msgid "Single Posts file name examples."
+msgstr "Single Posts file name examples."
+
+msgid "*Replace \"post_slug\" with the slug of the actual post slug."
+msgstr "*Replace \"post_slug\" with the slug of the actual post slug."
+
+msgid "Template hierarchy Theme Handbook"
+msgstr "Template hierarchy Theme Handbook"
+
+msgid "Custom Post Type UI registered taxonomies count total: %d"
+msgstr "Custom Post Type UI registered taxonomies count total: %d"
+
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+msgid "*Replace \"term_slug\" with the slug of the actual taxonomy term."
+msgstr "*Replace \"term_slug\" with the slug of the actual taxonomy term."
+
+msgid "No post types registered for display. Visit %s to get started."
+msgstr "No post types registered for display. Visit %s to get started."
+
+msgid "No taxonomies registered for display. Visit %s to get started."
+msgstr "No taxonomies registered for display. Visit %s to get started."
+
+msgid "Edit Post Types"
+msgstr "Edit Post Types"
+
+msgid "View Post Types"
+msgstr "View Post Types"
+
+msgid "Import/Export Post Types"
+msgstr "Import/Export Post Types"
+
+msgid "Select"
+msgstr "Select"
+
+msgid "Save Post Type"
+msgstr "Save Post Type"
+
+msgid "Delete Post Type"
+msgstr "Delete Post Type"
+
+msgid "Add Post Type"
+msgstr "Add Post Type"
+
+msgid "(WP Core)"
+msgstr "(WP Core)"
+
+msgid "Please provide a post type to delete"
+msgstr "Please provide a post type to delete"
+
+msgid "Please provide a post type name"
+msgstr "Please provide a post type name"
+
+msgid "Are you sure you want to delete this? Deleting will NOT remove created content."
+msgstr "Are you sure you want to delete this? Deleting will NOT remove created content."
+
+msgid "Select: "
+msgstr "Select: "
+
+msgid "Basic settings"
+msgstr "Basic settings"
+
+msgid "Toggle panel: Basic settings"
+msgstr "Toggle panel: Basic settings"
+
+msgid "Post Type Slug"
+msgstr "Post Type Slug"
+
+msgid "Slug has changed"
+msgstr "Slug has changed"
+
+msgid "Slug already exists"
+msgstr "Slug already exists"
+
+msgid "The post type name/slug. Used for various queries for post type content."
+msgstr "The post type name/slug. Used for various queries for post type content."
+
+msgid "Slugs should only contain alphanumeric, latin characters. Underscores should be used in place of spaces. Set \"Custom Rewrite Slug\" field to make slug use dashes for URLs."
+msgstr "Slugs should only contain alphanumeric, latin characters. Underscores should be used in place of spaces. Set \"Custom Rewrite Slug\" field to make slug use dashes for URLs."
+
+msgid "DO NOT EDIT the post type slug unless also planning to migrate posts. Changing the slug registers a new post type entry."
+msgstr "DO NOT EDIT the post type slug unless also planning to migrate posts. Changing the slug registers a new post type entry."
+
+msgid "Migrate posts to newly renamed post type?"
+msgstr "Migrate posts to newly renamed post type?"
+
+msgid "Plural Label"
+msgstr "Plural Label"
+
+msgid "(e.g. Movies)"
+msgstr "(e.g. Movies)"
+
+msgid "Used for the post type admin menu item."
+msgstr "Used for the post type admin menu item."
+
+msgid "Singular Label"
+msgstr "Singular Label"
+
+msgid "(e.g. Movie)"
+msgstr "(e.g. Movie)"
+
+msgid "Used when a singular label is needed."
+msgstr "Used when a singular label is needed."
+
+msgid "Populate additional labels based on chosen labels."
+msgstr "Populate additional labels based on chosen labels."
+
+msgid "Populate missing labels based on chosen labels."
+msgstr "Populate missing labels based on chosen labels."
+
+msgid "Auto-populate labels"
+msgstr "Auto-populate labels"
+
+msgid "Additional labels"
+msgstr "Additional labels"
+
+msgid "Post Type Description"
+msgstr "Post Type Description"
+
+msgid "Perhaps describe what your custom post type is used for?"
+msgstr "Perhaps describe what your custom post type is used for?"
+
+msgid "Menu Name"
+msgstr "Menu Name"
+
+msgid "Custom admin menu name for your custom post type."
+msgstr "Custom admin menu name for your custom post type."
+
+msgid "(e.g. My Movies)"
+msgstr "(e.g. My Movies)"
+
+msgid "All Items"
+msgstr "All Items"
+
+msgid "Used in the post type admin submenu."
+msgstr "Used in the post type admin submenu."
+
+msgid "(e.g. All Movies)"
+msgstr "(e.g. All Movies)"
+
+msgid "Add New"
+msgstr "Add New"
+
+msgid "(e.g. Add New)"
+msgstr "(e.g. Add New)"
+
+msgid "Add New Item"
+msgstr "Add New Item"
+
+msgid "Used at the top of the post editor screen for a new post type post."
+msgstr "Used at the top of the post editor screen for a new post type post."
+
+msgid "(e.g. Add New Movie)"
+msgstr "(e.g. Add New Movie)"
+
+msgid "Edit Item"
+msgstr "Edit Item"
+
+msgid "Used at the top of the post editor screen for an existing post type post."
+msgstr "Used at the top of the post editor screen for an existing post type post."
+
+msgid "(e.g. Edit Movie)"
+msgstr "(e.g. Edit Movie)"
+
+msgid "New Item"
+msgstr "New Item"
+
+msgid "Post type label. Used in the admin menu for displaying post types."
+msgstr "Post type label. Used in the admin menu for displaying post types."
+
+msgid "(e.g. New Movie)"
+msgstr "(e.g. New Movie)"
+
+msgid "View Item"
+msgstr "View Item"
+
+msgid "Used in the admin bar when viewing editor screen for a published post in the post type."
+msgstr "Used in the admin bar when viewing editor screen for a published post in the post type."
+
+msgid "(e.g. View Movie)"
+msgstr "(e.g. View Movie)"
+
+msgid "View Items"
+msgstr "View Items"
+
+msgid "(e.g. View Movies)"
+msgstr "(e.g. View Movies)"
+
+msgid "Search Item"
+msgstr "Search Item"
+
+msgid "Used as the text for the search button on post type list screen."
+msgstr "Used as the text for the search button on post type list screen."
+
+msgid "(e.g. Search Movies)"
+msgstr "(e.g. Search Movies)"
+
+msgid "Not Found"
+msgstr "Not Found"
+
+msgid "Used when there are no posts to display on the post type list screen."
+msgstr "Used when there are no posts to display on the post type list screen."
+
+msgid "(e.g. No Movies found)"
+msgstr "(e.g. No Movies found)"
+
+msgid "Not Found in Trash"
+msgstr "Not Found in Trash"
+
+msgid "Used when there are no posts to display on the post type list trash screen."
+msgstr "Used when there are no posts to display on the post type list trash screen."
+
+msgid "(e.g. No Movies found in Trash)"
+msgstr "(e.g. No Movies found in Trash)"
+
+msgid "Parent"
+msgstr "Parent"
+
+msgid "Used for hierarchical types that need a colon."
+msgstr "Used for hierarchical types that need a colon."
+
+msgid "(e.g. Parent Movie:)"
+msgstr "(e.g. Parent Movie:)"
+
+msgid "Featured Image"
+msgstr "Featured Image"
+
+msgid "Used as the \"Featured Image\" phrase for the post type."
+msgstr "Used as the \"Featured Image\" phrase for the post type."
+
+msgid "(e.g. Featured image for this movie)"
+msgstr "(e.g. Featured image for this movie)"
+
+msgid "Set Featured Image"
+msgstr "Set Featured Image"
+
+msgid "Used as the \"Set featured image\" phrase for the post type."
+msgstr "Used as the \"Set featured image\" phrase for the post type."
+
+msgid "(e.g. Set featured image for this movie)"
+msgstr "(e.g. Set featured image for this movie)"
+
+msgid "Remove Featured Image"
+msgstr "Remove Featured Image"
+
+msgid "Used as the \"Remove featured image\" phrase for the post type."
+msgstr "Used as the \"Remove featured image\" phrase for the post type."
+
+msgid "(e.g. Remove featured image for this movie)"
+msgstr "(e.g. Remove featured image for this movie)"
+
+msgid "Use Featured Image"
+msgstr "Use Featured Image"
+
+msgid "Used as the \"Use as featured image\" phrase for the post type."
+msgstr "Used as the \"Use as featured image\" phrase for the post type."
+
+msgid "(e.g. Use as featured image for this movie)"
+msgstr "(e.g. Use as featured image for this movie)"
+
+msgid "Archives"
+msgstr "Archives"
+
+msgid "Post type archive label used in nav menus."
+msgstr "Post type archive label used in nav menus."
+
+msgid "(e.g. Movie archives)"
+msgstr "(e.g. Movie archives)"
+
+msgid "Insert into item"
+msgstr "Insert into item"
+
+msgid "Used as the \"Insert into post\" or \"Insert into page\" phrase for the post type."
+msgstr "Used as the \"Insert into post\" or \"Insert into page\" phrase for the post type."
+
+msgid "(e.g. Insert into movie)"
+msgstr "(e.g. Insert into movie)"
+
+msgid "Uploaded to this Item"
+msgstr "Uploaded to this Item"
+
+msgid "Used as the \"Uploaded to this post\" or \"Uploaded to this page\" phrase for the post type."
+msgstr "Used as the \"Uploaded to this post\" or \"Uploaded to this page\" phrase for the post type."
+
+msgid "(e.g. Uploaded to this movie)"
+msgstr "(e.g. Uploaded to this movie)"
+
+msgid "Filter Items List"
+msgstr "Filter Items List"
+
+msgid "Screen reader text for the filter links heading on the post type listing screen."
+msgstr "Screen reader text for the filter links heading on the post type listing screen."
+
+msgid "(e.g. Filter movies list)"
+msgstr "(e.g. Filter movies list)"
+
+msgid "Items List Navigation"
+msgstr "Items List Navigation"
+
+msgid "Screen reader text for the pagination heading on the post type listing screen."
+msgstr "Screen reader text for the pagination heading on the post type listing screen."
+
+msgid "(e.g. Movies list navigation)"
+msgstr "(e.g. Movies list navigation)"
+
+msgid "Items List"
+msgstr "Items List"
+
+msgid "Screen reader text for the items list heading on the post type listing screen."
+msgstr "Screen reader text for the items list heading on the post type listing screen."
+
+msgid "(e.g. Movies list)"
+msgstr "(e.g. Movies list)"
+
+msgid "Attributes"
+msgstr "Attributes"
+
+msgid "Used for the title of the post attributes meta box."
+msgstr "Used for the title of the post attributes meta box."
+
+msgid "(e.g. Movies Attributes)"
+msgstr "(e.g. Movies Attributes)"
+
+msgid "\"New\" menu in admin bar"
+msgstr "\"New\" menu in admin bar"
+
+msgid "Used in New in Admin menu bar. Default \"singular name\" label."
+msgstr "Used in New in Admin menu bar. Default \"singular name\" label."
+
+msgid "Item Published"
+msgstr "Item Published"
+
+msgid "Used in the editor notice after publishing a post. Default \"Post published.\" / \"Page published.\""
+msgstr "Used in the editor notice after publishing a post. Default \"Post published.\" / \"Page published.\""
+
+msgid "(e.g. Movie published)"
+msgstr "(e.g. Movie published)"
+
+msgid "Item Published Privately"
+msgstr "Item Published Privately"
+
+msgid "Used in the editor notice after publishing a private post. Default \"Post published privately.\" / \"Page published privately.\""
+msgstr "Used in the editor notice after publishing a private post. Default \"Post published privately.\" / \"Page published privately.\""
+
+msgid "(e.g. Movie published privately.)"
+msgstr "(e.g. Movie published privately.)"
+
+msgid "Item Reverted To Draft"
+msgstr "Item Reverted To Draft"
+
+msgid "Used in the editor notice after reverting a post to draft. Default \"Post reverted to draft.\" / \"Page reverted to draft.\""
+msgstr "Used in the editor notice after reverting a post to draft. Default \"Post reverted to draft.\" / \"Page reverted to draft.\""
+
+msgid "(e.g. Movie reverted to draft)"
+msgstr "(e.g. Movie reverted to draft)"
+
+msgid "Item Scheduled"
+msgstr "Item Scheduled"
+
+msgid "Used in the editor notice after scheduling a post to be published at a later date. Default \"Post scheduled.\" / \"Page scheduled.\""
+msgstr "Used in the editor notice after scheduling a post to be published at a later date. Default \"Post scheduled.\" / \"Page scheduled.\""
+
+msgid "(e.g. Movie scheduled)"
+msgstr "(e.g. Movie scheduled)"
+
+msgid "Item Updated"
+msgstr "Item Updated"
+
+msgid "Used in the editor notice after updating a post. Default \"Post updated.\" / \"Page updated.\""
+msgstr "Used in the editor notice after updating a post. Default \"Post updated.\" / \"Page updated.\""
+
+msgid "(e.g. Movie updated)"
+msgstr "(e.g. Movie updated)"
+
+msgid "Public"
+msgstr "Public"
+
+msgid "(Custom Post Type UI default: true) Whether or not posts of this type should be shown in the admin UI and is publicly queryable."
+msgstr "(Custom Post Type UI default: true) Whether or not posts of this type should be shown in the admin UI and is publicly queryable."
+
+msgid "Publicly Queryable"
+msgstr "Publicly Queryable"
+
+msgid "(default: true) Whether or not queries can be performed on the front end as part of parse_request()"
+msgstr "(default: true) Whether or not queries can be performed on the front end as part of parse_request()"
+
+msgid "Show UI"
+msgstr "Show UI"
+
+msgid "(default: true) Whether or not to generate a default UI for managing this post type."
+msgstr "(default: true) Whether or not to generate a default UI for managing this post type."
+
+msgid "Show in Nav Menus"
+msgstr "Show in Nav Menus"
+
+msgid "(Custom Post Type UI default: true) Whether or not this post type is available for selection in navigation menus."
+msgstr "(Custom Post Type UI default: true) Whether or not this post type is available for selection in navigation menus."
+
+msgid "Delete with user"
+msgstr "Delete with user"
+
+msgid "(CPTUI default: false) Whether to delete posts of this type when deleting a user."
+msgstr "(CPTUI default: false) Whether to delete posts of this type when deleting a user."
+
+msgid "Show in REST API"
+msgstr "Show in REST API"
+
+msgid "(Custom Post Type UI default: true) Whether or not to show this post type data in the WP REST API."
+msgstr "(Custom Post Type UI default: true) Whether or not to show this post type data in the WP REST API."
+
+msgid "REST API base slug"
+msgstr "REST API base slug"
+
+msgid "REST API controller class"
+msgstr "REST API controller class"
+
+msgid "Has Archive"
+msgstr "Has Archive"
+
+msgid "If left blank, the archive slug will default to the post type slug."
+msgstr "If left blank, the archive slug will default to the post type slug."
+
+msgid "(default: false) Whether or not the post type will have a post type archive URL."
+msgstr "(default: false) Whether or not the post type will have a post type archive URL."
+
+msgid "Exclude From Search"
+msgstr "Exclude From Search"
+
+msgid "(default: false) Whether or not to exclude posts with this post type from front end search results."
+msgstr "(default: false) Whether or not to exclude posts with this post type from front end search results."
+
+msgid "Capability Type"
+msgstr "Capability Type"
+
+msgid "The post type to use for checking read, edit, and delete capabilities. A comma-separated second value can be used for plural version."
+msgstr "The post type to use for checking read, edit, and delete capabilities. A comma-separated second value can be used for plural version."
+
+msgid "Hierarchical"
+msgstr "Hierarchical"
+
+msgid "(default: false) Whether or not the post type can have parent-child relationships."
+msgstr "(default: false) Whether or not the post type can have parent-child relationships."
+
+msgid "Rewrite"
+msgstr "Rewrite"
+
+msgid "(default: true) Whether or not WordPress should use rewrites for this post type."
+msgstr "(default: true) Whether or not WordPress should use rewrites for this post type."
+
+msgid "Custom Rewrite Slug"
+msgstr "Custom Rewrite Slug"
+
+msgid "Custom post type slug to use instead of the default."
+msgstr "Custom post type slug to use instead of the default."
+
+msgid "With Front"
+msgstr "With Front"
+
+msgid "(default: true) Should the permalink structure be prepended with the front base. (example: if your permalink structure is /blog/, then your links will be: false->/news/, true->/blog/news/)."
+msgstr "(default: true) Should the permalink structure be prepended with the front base. (example: if your permalink structure is /blog/, then your links will be: false->/news/, true->/blog/news/)."
+
+msgid "Query Var"
+msgstr "Query Var"
+
+msgid "(default: true) Sets the query_var key for this post type."
+msgstr "(default: true) Sets the query_var key for this post type."
+
+msgid "Custom Query Var Slug"
+msgstr "Custom Query Var Slug"
+
+msgid "Custom query var slug to use instead of the default."
+msgstr "Custom query var slug to use instead of the default."
+
+msgid "Menu Position"
+msgstr "Menu Position"
+
+msgid "See %s in the \"menu_position\" section. Range of 5-100"
+msgstr "See %s in the \"menu_position\" section. Range of 5-100"
+
+msgid "Available options"
+msgstr "Available options"
+
+msgid "The position in the menu order the post type should appear. show_in_menu must be true."
+msgstr "The position in the menu order the post type should appear. show_in_menu must be true."
+
+msgid "Show in Menu"
+msgstr "Show in Menu"
+
+msgid "\"Show UI\" must be \"true\". If an existing top level page such as \"tools.php\" is indicated for second input, post type will be sub menu of that."
+msgstr "\"Show UI\" must be \"true\". If an existing top level page such as \"tools.php\" is indicated for second input, post type will be sub menu of that."
+
+msgid "(default: true) Whether or not to show the post type in the admin menu and where to show that menu."
+msgstr "(default: true) Whether or not to show the post type in the admin menu and where to show that menu."
+
+msgid "Menu Icon"
+msgstr "Menu Icon"
+
+msgid "Image URL or %sDashicon class name%s to use for icon. Custom image should be 20px by 20px."
+msgstr "Image URL or %sDashicon class name%s to use for icon. Custom image should be 20px by 20px."
+
+msgid "Add support for various available post editor features on the right. A checked value means the post type feature is supported."
+msgstr "Add support for various available post editor features on the right. A checked value means the post type feature is supported."
+
+msgid "Use the \"None\" option to explicitly set \"supports\" to false."
+msgstr "Use the \"None\" option to explicitly set \"supports\" to false."
+
+msgid "Post type options"
+msgstr "Post type options"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Editor"
+msgstr "Editor"
+
+msgid "Excerpt"
+msgstr "Excerpt"
+
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+msgid "Custom Fields"
+msgstr "Custom Fields"
+
+msgid "Comments"
+msgstr "Comments"
+
+msgid "Revisions"
+msgstr "Revisions"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Page Attributes"
+msgstr "Page Attributes"
+
+msgid "Post Formats"
+msgstr "Post Formats"
+
+msgid "None"
+msgstr "None"
+
+msgid "Custom \"Supports\""
+msgstr "Custom \"Supports\""
+
+msgid "Use this input to register custom \"supports\" values, separated by commas. Learn about this at %s"
+msgstr "Use this input to register custom \"supports\" values, separated by commas. Learn about this at %s"
+
+msgid "Add support for available registered taxonomies."
+msgstr "Add support for available registered taxonomies."
+
+msgid "Taxonomy options"
+msgstr "Taxonomy options"
+
+msgid "Custom Post Type UI Support"
+msgstr "Custom Post Type UI Support"
+
+msgid "Please note that %s this plugin will not handle display %s of registered post types or taxonomies in your current theme. It simply registers them for you. To display your data, check out %s. %s to see some examples that are available with Custom Post Type UI Extended. If all else fails, visit us on the %s"
+msgstr "Please note that %s this plugin will not handle display %s of registered post types or taxonomies in your current theme. It simply registers them for you. To display your data, check out %s. %s to see some examples that are available with Custom Post Type UI Extended. If all else fails, visit us on the %s"
+
+msgid "CPTUI Extended"
+msgstr "CPTUI Extended"
+
+msgid "View our Layouts page"
+msgstr "View our Layouts page"
+
+msgid "Support Forums"
+msgstr "Support Forums"
+
+msgid "Pluginize"
+msgstr "Pluginize"
+
+msgid "What is Pluginize?"
+msgstr "What is Pluginize?"
+
+msgid "Pluginize is a marketplace of plugins by WebDevStudios."
+msgstr "Pluginize is a marketplace of plugins by WebDevStudios."
+
+msgid "What does Pluginize offer?"
+msgstr "What does Pluginize offer?"
+
+msgid "Pluginize offers both free and paid WordPress plugins."
+msgstr "Pluginize offers both free and paid WordPress plugins."
+
+msgid "Will these ad spots ever show third-party data?"
+msgstr "Will these ad spots ever show third-party data?"
+
+msgid "No. These spots are intended for and will only be used for other available WebDevStudios products and services."
+msgstr "No. These spots are intended for and will only be used for other available WebDevStudios products and services."
+
+msgid "How can I remove the ads that suddenly started showing up?"
+msgstr "How can I remove the ads that suddenly started showing up?"
+
+msgid "You can have them automatically removed from display via a purchased copy of %s."
+msgstr "You can have them automatically removed from display via a purchased copy of %s."
+
+msgid "Are these ad spots tracking my personal information in any way?"
+msgstr "Are these ad spots tracking my personal information in any way?"
+
+msgid "No, there is no data being sent out from your site with these. The only way anything is tracked is via UTM parameters for WebDevStudios\\'s analytics so we can get an idea of where traffic is coming from. Those are only tracked if you actually click on an ad spot."
+msgstr "No, there is no data being sent out from your site with these. The only way anything is tracked is via UTM parameters for WebDevStudios\\'s analytics so we can get an idea of where traffic is coming from. Those are only tracked if you actually click on an ad spot."
+
+msgid "Do I still need Custom Post Type UI if I purchase and install Custom Post Type UI Extended?"
+msgstr "Do I still need Custom Post Type UI if I purchase and install Custom Post Type UI Extended?"
+
+msgid "Yes you will. The Custom Post Type UI Extended is not a replacement of the free version with added extra features. It acts based on the data made available through Custom Post Type UI"
+msgstr "Yes you will. The Custom Post Type UI Extended is not a replacement of the free version with added extra features. It acts based on the data made available through Custom Post Type UI"
+
+msgid "Does Custom Post Type UI Extended require multisite?"
+msgstr "Does Custom Post Type UI Extended require multisite?"
+
+msgid "No it does not. The Shortcode builder is not multisite dependent and will work with either setup."
+msgstr "No it does not. The Shortcode builder is not multisite dependent and will work with either setup."
+
+msgid "General"
+msgstr "General"
+
+msgid "I have post types with spaces in their slug and can not successfully delete them. How can I fix that?"
+msgstr "I have post types with spaces in their slug and can not successfully delete them. How can I fix that?"
+
+msgid "Visit the Import/Export page and copy the export code into the import side on the left. Replace the space with an underscore and then click \"Import\". You should be able to delete the individual post types afterwards."
+msgstr "Visit the Import/Export page and copy the export code into the import side on the left. Replace the space with an underscore and then click \"Import\". You should be able to delete the individual post types afterwards."
+
+msgid "I changed my custom post type name and now I can not get to my posts. How do I get them back?"
+msgstr "I changed my custom post type name and now I can not get to my posts. How do I get them back?"
+
+msgid "You can either change the custom post type name back to the original name or try the Post Type Switcher plugin"
+msgstr "You can either change the custom post type name back to the original name or try the Post Type Switcher plugin"
+
+msgid "I changed my custom post type or taxonomy slug and now I have duplicates shown. How do I remove the duplicate?"
+msgstr "I changed my custom post type or taxonomy slug and now I have duplicates shown. How do I remove the duplicate?"
+
+msgid "Renaming the slug for a post type or taxonomy creates a new entry in our saved option which gets registered as its own post type or taxonomy. Since the settings will be mirrored from the previous slug, you will just need to delete the previous version\\'s entry."
+msgstr "Renaming the slug for a post type or taxonomy creates a new entry in our saved option which gets registered as its own post type or taxonomy. Since the settings will be mirrored from the previous slug, you will just need to delete the previous version\\'s entry."
+
+msgid "I have added post thumbnail and/or post format support to my post type, but those do not appear when adding a post type post."
+msgstr "I have added post thumbnail and/or post format support to my post type, but those do not appear when adding a post type post."
+
+msgid "Make sure your theme has post \"post-thumbnails\" theme support enabled."
+msgstr "Make sure your theme has post \"post-thumbnails\" theme support enabled."
+
+msgid "Do you have any recommendations for an alternative to Visual Composer?"
+msgstr "Do you have any recommendations for an alternative to Visual Composer?"
+
+msgid "We recommend using VelocityPage."
+msgstr "We recommend using VelocityPage."
+
+msgid "Is there any way to get Custom Post Type UI-registered post types working with Visual Composer Media Grid?"
+msgstr "Is there any way to get Custom Post Type UI-registered post types working with Visual Composer Media Grid?"
+
+msgid "Please see the solution from the following forum support thread."
+msgstr "Please see the solution from the following forum support thread."
+
+msgid "Why can I not use dashes in post type or taxonomy slugs?"
+msgstr "Why can I not use dashes in post type or taxonomy slugs?"
+
+msgid "Custom Post Type UI tries to make smart choices for our users, and forcing underscores is one of them. Please see the tutorial at the following URL for how to get dashes in your permalink urls while continuing to use underscores for the actual slug."
+msgstr "Custom Post Type UI tries to make smart choices for our users, and forcing underscores is one of them. Please see the tutorial at the following URL for how to get dashes in your permalink urls while continuing to use underscores for the actual slug."
+
+msgid "Front-end Display"
+msgstr "Front-end Display"
+
+msgid "What template files should I edit to alter my post type display?"
+msgstr "What template files should I edit to alter my post type display?"
+
+msgid "Please visit the %sTemplate Hierarchy%s page on the WordPress codex for details about available templates."
+msgstr "Please visit the %sTemplate Hierarchy%s page on the WordPress codex for details about available templates."
+
+msgid "How do I display my custom post type on my site?"
+msgstr "How do I display my custom post type on my site?"
+
+msgid "We encourage checking out %s for easily displaying post type content wherever you can utilize a shortcode. If you prefer to handle on your own, you will need to utilize the %s class to handle display in custom locations. If you have set the post type to have archives, the archive url should be something like \"http://www.mysite.com/post-type-slug\""
+msgstr "We encourage checking out %s for easily displaying post type content wherever you can utilize a shortcode. If you prefer to handle on your own, you will need to utilize the %s class to handle display in custom locations. If you have set the post type to have archives, the archive url should be something like \"http://www.mysite.com/post-type-slug\""
+
+msgid "I have added categories and tags to my custom post type, but they do not appear in the archives."
+msgstr "I have added categories and tags to my custom post type, but they do not appear in the archives."
+
+msgid "You will need to add your newly created post type to the types that the category and tag archives query for. You can see a tutorial on how to do that at %s"
+msgstr "You will need to add your newly created post type to the types that the category and tag archives query for. You can see a tutorial on how to do that at %s"
+
+msgid "How do I add custom post type support for custom templates selection like pages have?"
+msgstr "How do I add custom post type support for custom templates selection like pages have?"
+
+msgid "Please visit the %sPost Type Templates in 4.7%s post on the Make WordPress Core blog for details about setting templates for multiple post types."
+msgstr "Please visit the %sPost Type Templates in 4.7%s post on the Make WordPress Core blog for details about setting templates for multiple post types."
+
+msgid "Advanced"
+msgstr "Advanced"
+
+msgid "How do I add custom metaboxes to my post type?"
+msgstr "How do I add custom metaboxes to my post type?"
+
+msgid "We recommend checking out %s, the latest iteration of \"Custom Metaboxes and Fields for WordPress\". Both are maintained by WebDevStudios."
+msgstr "We recommend checking out %s, the latest iteration of \"Custom Metaboxes and Fields for WordPress\". Both are maintained by WebDevStudios."
+
+msgid "How do I add a newly registered taxonomy to a post type that already exists?"
+msgstr "How do I add a newly registered taxonomy to a post type that already exists?"
+
+msgid "Check out the %s function for documentation and usage examples."
+msgstr "Check out the %s function for documentation and usage examples."
+
+msgid "Post relationships?"
+msgstr "Post relationships?"
+
+msgid "%s has an excellent %spost%s introducing users to the %sPosts 2 Posts%s plugin that should be a good start."
+msgstr "%s has an excellent %spost%s introducing users to the %sPosts 2 Posts%s plugin that should be a good start."
+
+msgid "Is there any function reference list?"
+msgstr "Is there any function reference list?"
+
+msgid "%s has compiled a nice list of functions used by our plugin. Note not all will be useful as they are attached to hooks."
+msgstr "%s has compiled a nice list of functions used by our plugin. Note not all will be useful as they are attached to hooks."
+
+msgid "How do I filter the \"enter title here\" text in the post editor screen?"
+msgstr "How do I filter the \"enter title here\" text in the post editor screen?"
+
+msgid "Change text inside the post/page editor title field. Should be able to adapt as necessary."
+msgstr "Change text inside the post/page editor title field. Should be able to adapt as necessary."
+
+msgid "Any help with customizing capabilities?"
+msgstr "Any help with customizing capabilities?"
+
+msgid "We recommend %s for some extended customization and addition of extra fields regarding roles and capabilities."
+msgstr "We recommend %s for some extended customization and addition of extra fields regarding roles and capabilities."
+
+msgid "Delete Taxonomy"
+msgstr "Delete Taxonomy"
+
+msgid "Please select a post type to associate with."
+msgstr "Please select a post type to associate with."
+
+msgid "Edit Taxonomies"
+msgstr "Edit Taxonomies"
+
+msgid "View Taxonomies"
+msgstr "View Taxonomies"
+
+msgid "Import/Export Taxonomies"
+msgstr "Import/Export Taxonomies"
+
+msgid "Taxonomy Slug"
+msgstr "Taxonomy Slug"
+
+msgid "DO NOT EDIT the taxonomy slug unless also planning to migrate terms. Changing the slug registers a new taxonomy entry."
+msgstr "DO NOT EDIT the taxonomy slug unless also planning to migrate terms. Changing the slug registers a new taxonomy entry."
+
+msgid "Migrate terms to newly renamed taxonomy?"
+msgstr "Migrate terms to newly renamed taxonomy?"
+
+msgid "(e.g. Actors)"
+msgstr "(e.g. Actors)"
+
+msgid "(e.g. Actor)"
+msgstr "(e.g. Actor)"
+
+msgid "Attach to Post Type"
+msgstr "Attach to Post Type"
+
+msgid "Add support for available registered post types. At least one is required. Only public post types listed by default."
+msgstr "Add support for available registered post types. At least one is required. Only public post types listed by default."
+
+msgid "Toggle panel: Additional labels"
+msgstr "Toggle panel: Additional labels"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Custom admin menu name for your taxonomy."
+msgstr "Custom admin menu name for your taxonomy."
+
+msgid "Used as tab text when showing all terms for hierarchical taxonomy while editing post."
+msgstr "Used as tab text when showing all terms for hierarchical taxonomy while editing post."
+
+msgid "Used at the top of the term editor screen for an existing taxonomy term."
+msgstr "Used at the top of the term editor screen for an existing taxonomy term."
+
+msgid "Used in the admin bar when viewing editor screen for an existing taxonomy term."
+msgstr "Used in the admin bar when viewing editor screen for an existing taxonomy term."
+
+msgid "Update Item Name"
+msgstr "Update Item Name"
+
+msgid "Custom taxonomy label. Used in the admin menu for displaying taxonomies."
+msgstr "Custom taxonomy label. Used in the admin menu for displaying taxonomies."
+
+msgid "Used at the top of the term editor screen and button text for a new taxonomy term."
+msgstr "Used at the top of the term editor screen and button text for a new taxonomy term."
+
+msgid "New Item Name"
+msgstr "New Item Name"
+
+msgid "Parent Item"
+msgstr "Parent Item"
+
+msgid "Parent Item Colon"
+msgstr "Parent Item Colon"
+
+msgid "Search Items"
+msgstr "Search Items"
+
+msgid "Popular Items"
+msgstr "Popular Items"
+
+msgid "Separate Items with Commas"
+msgstr "Separate Items with Commas"
+
+msgid "Add or Remove Items"
+msgstr "Add or Remove Items"
+
+msgid "Choose From Most Used"
+msgstr "Choose From Most Used"
+
+msgid "Not found"
+msgstr "Not found"
+
+msgid "(e.g. No actors)"
+msgstr "(e.g. No actors)"
+
+msgid "No terms"
+msgstr "No terms"
+
+msgid "(e.g. Actors list navigation)"
+msgstr "(e.g. Actors list navigation)"
+
+msgid "(e.g. Actors list)"
+msgstr "(e.g. Actors list)"
+
+msgid "(e.g. No actors found)"
+msgstr "(e.g. No actors found)"
+
+msgid "(e.g. &larr; Back to actors"
+msgstr "(e.g. &larr; Back to actors"
+
+msgid "Back to Items"
+msgstr "Back to Items"
+
+msgid "Toggle panel: Settings"
+msgstr "Toggle panel: Settings"
+
+msgid "(default: true) Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
+msgstr "(default: true) Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
+
+msgid "Public Queryable"
+msgstr "Public Queryable"
+
+msgid "(default: value of \"public\" setting) Whether or not the taxonomy should be publicly queryable."
+msgstr "(default: value of \"public\" setting) Whether or not the taxonomy should be publicly queryable."
+
+msgid "(default: false) Whether the taxonomy can have parent-child relationships."
+msgstr "(default: false) Whether the taxonomy can have parent-child relationships."
+
+msgid "(default: true) Whether to generate a default UI for managing this custom taxonomy."
+msgstr "(default: true) Whether to generate a default UI for managing this custom taxonomy."
+
+msgid "Show in menu"
+msgstr "Show in menu"
+
+msgid "(default: value of show_ui) Whether to show the taxonomy in the admin menu."
+msgstr "(default: value of show_ui) Whether to show the taxonomy in the admin menu."
+
+msgid "Show in nav menus"
+msgstr "Show in nav menus"
+
+msgid "(default: value of public) Whether to make the taxonomy available for selection in navigation menus."
+msgstr "(default: value of public) Whether to make the taxonomy available for selection in navigation menus."
+
+msgid "(default: true) Sets the query_var key for this taxonomy."
+msgstr "(default: true) Sets the query_var key for this taxonomy."
+
+msgid "Custom Query Var String"
+msgstr "Custom Query Var String"
+
+msgid "Sets a custom query_var slug for this taxonomy."
+msgstr "Sets a custom query_var slug for this taxonomy."
+
+msgid "(default: true) Whether or not WordPress should use rewrites for this taxonomy."
+msgstr "(default: true) Whether or not WordPress should use rewrites for this taxonomy."
+
+msgid "Custom taxonomy rewrite slug."
+msgstr "Custom taxonomy rewrite slug."
+
+msgid "Rewrite With Front"
+msgstr "Rewrite With Front"
+
+msgid "(default: true) Should the permastruct be prepended with the front base."
+msgstr "(default: true) Should the permastruct be prepended with the front base."
+
+msgid "Rewrite Hierarchical"
+msgstr "Rewrite Hierarchical"
+
+msgid "(default: false) Should the permastruct allow hierarchical urls."
+msgstr "(default: false) Should the permastruct allow hierarchical urls."
+
+msgid "Show Admin Column"
+msgstr "Show Admin Column"
+
+msgid "(default: false) Whether to allow automatic creation of taxonomy columns on associated post-types."
+msgstr "(default: false) Whether to allow automatic creation of taxonomy columns on associated post-types."
+
+msgid "(Custom Post Type UI default: true) Whether to show this taxonomy data in the WP REST API."
+msgstr "(Custom Post Type UI default: true) Whether to show this taxonomy data in the WP REST API."
+
+msgid "Show in quick/bulk edit panel."
+msgstr "Show in quick/bulk edit panel."
+
+msgid "(default: false) Whether to show the taxonomy in the quick/bulk edit panel."
+msgstr "(default: false) Whether to show the taxonomy in the quick/bulk edit panel."
+
+msgid "Metabox callback"
+msgstr "Metabox callback"
+
+msgid "Sets a callback function name for the meta box display. Hierarchical default: post_categories_meta_box, non-hierarchical default: post_tags_meta_box. To remove the metabox completely, use \"false\"."
+msgstr "Sets a callback function name for the meta box display. Hierarchical default: post_categories_meta_box, non-hierarchical default: post_tags_meta_box. To remove the metabox completely, use \"false\"."
+
+msgid "Default Term"
+msgstr "Default Term"
+
+msgid "Set a default term for the taxonomy. Able to set a name, slug, and description. Only a name is required if setting a default, others are optional. Set values in the following order, separated by comma. Example: name, slug, description"
+msgstr "Set a default term for the taxonomy. Able to set a name, slug, and description. Only a name is required if setting a default, others are optional. Set values in the following order, separated by comma. Example: name, slug, description"
+
+msgid "Please provide a taxonomy to delete"
+msgstr "Please provide a taxonomy to delete"
+
+msgid "Please provide a taxonomy name"
+msgstr "Please provide a taxonomy name"
+
+msgid "Get Code"
+msgstr "Get Code"
+
+msgid "Debug Info"
+msgstr "Debug Info"
+
+msgid "<?php echo esc_html( $taxonomy['label'] ); ?>"
+msgstr "<?php echo esc_html( $taxonomy['label'] ); ?>"
+
+msgid "<?php echo esc_html( $taxonomy['singular_label'] ); ?>"
+msgstr "<?php echo esc_html( $taxonomy['singular_label'] ); ?>"
+
+msgid "' . esc_html( $label ) . '"
+msgstr "' . esc_html( $label ) . '"
+
+msgid "<?php echo $taxonomy['label']; ?>"
+msgstr "<?php echo $taxonomy['label']; ?>"
+
+msgid "<?php echo $post_type['label']; ?>"
+msgstr "<?php echo $post_type['label']; ?>"
+
+msgid "<?php echo $post_type['singular_label']; ?>"
+msgstr "<?php echo $post_type['singular_label']; ?>"
+
+msgid "' . $label . '"
+msgstr "' . $label . '"
+
+msgid "Send debug info"
+msgstr "Send debug info"
+
+msgid "No taxonomies to display at this time"
+msgstr "No taxonomies to display at this time"
+
+msgid "No post types to display at this time"
+msgstr "No post types to display at this time"
+
+msgid "If you are wanting to migrate registered post types or taxonomies from this site to another, that will also use Custom Post Type UI, use the import and export functionality. If you are moving away from Custom Post Type UI, use the information in the \"Get Code\" tab."
+msgstr "If you are wanting to migrate registered post types or taxonomies from this site to another, that will also use Custom Post Type UI, use the import and export functionality. If you are moving away from Custom Post Type UI, use the information in the \"Get Code\" tab."
+
+msgid "NOTE"
+msgstr "NOTE"
+
+msgid "This will not export the associated posts or taxonomy terms, just the settings."
+msgstr "This will not export the associated posts or taxonomy terms, just the settings."
+
+msgid "Import Post Types"
+msgstr "Import Post Types"
+
+msgid "Note:"
+msgstr "Note:"
+
+msgid "Importing will overwrite previous registered settings."
+msgstr "Importing will overwrite previous registered settings."
+
+msgid "To import post types from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+msgstr "To import post types from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+
+msgid "Export Post Types settings"
+msgstr "Export Post Types settings"
+
+msgid "No post types registered yet."
+msgstr "No post types registered yet."
+
+msgid "Use the content above to import current post types into a different WordPress site. You can also use this to simply back up your post type settings."
+msgstr "Use the content above to import current post types into a different WordPress site. You can also use this to simply back up your post type settings."
+
+msgid "Import Taxonomies"
+msgstr "Import Taxonomies"
+
+msgid "To import taxonomies from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+msgstr "To import taxonomies from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+
+msgid "Export Taxonomies settings"
+msgstr "Export Taxonomies settings"
+
+msgid "No taxonomies registered yet."
+msgstr "No taxonomies registered yet."
+
+msgid "Use the content above to import current taxonomies into a different WordPress site. You can also use this to simply back up your taxonomy settings."
+msgstr "Use the content above to import current taxonomies into a different WordPress site. You can also use this to simply back up your taxonomy settings."
+
+msgid "Get Post Type and Taxonomy Code"
+msgstr "Get Post Type and Taxonomy Code"
+
+msgid "All Custom Post Type UI Post Types"
+msgstr "All Custom Post Type UI Post Types"
+
+msgid "All of the selectable code snippets below are useful if you wish to migrate away from Custom Post Type UI and retain your existing registered post types or taxonomies."
+msgstr "All of the selectable code snippets below are useful if you wish to migrate away from Custom Post Type UI and retain your existing registered post types or taxonomies."
+
+msgid "Copy/paste the code below into your functions.php file."
+msgstr "Copy/paste the code below into your functions.php file."
+
+msgid "%s Post Type"
+msgstr "%s Post Type"
+
+msgid "All Custom Post Type UI Taxonomies"
+msgstr "All Custom Post Type UI Taxonomies"
+
+msgid "%s Taxonomy"
+msgstr "%s Taxonomy"
+
+msgid "Please provide an email address to send debug information to: "
+msgstr "Please provide an email address to send debug information to: "
+
+msgid "About"
+msgstr "About"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "%s version %s by %s"
+msgstr "%s version %s by %s"
+
+msgid "Support forums"
+msgstr "Support forums"
+
+msgid "Review %s"
+msgstr "Review %s"
+
+msgid "Follow on Twitter:"
+msgstr "Follow on Twitter:"
+
+msgid "Remove these ads?"
+msgstr "Remove these ads?"
+
+msgid "Object"
+msgstr "Object"
+
+msgid "Successfully imported data."
+msgstr "Successfully imported data."
+
+msgid "Invalid data provided"
+msgstr "Invalid data provided"
+
+msgid "Nonce failed verification"
+msgstr "Nonce failed verification"
+
+msgid "Please choose a different post type name. %s is already registered."
+msgstr "Please choose a different post type name. %s is already registered."
+
+msgid "Please choose a different taxonomy name. %s is already registered."
+msgstr "Please choose a different taxonomy name. %s is already registered."
+
+msgid "Please provide a post type to attach to."
+msgstr "Please provide a post type to attach to."
+
+msgid "Please choose a different post type name. %s matches an existing page slug, which can cause conflicts."
+msgstr "Please choose a different post type name. %s matches an existing page slug, which can cause conflicts."
+
+msgid "Please do not use quotes in post type/taxonomy names or rewrite slugs"
+msgstr "Please do not use quotes in post type/taxonomy names or rewrite slugs"
+
+msgid "Please provide whether you are importing post types or taxonomies"
+msgstr "Please provide whether you are importing post types or taxonomies"
+
+msgid "Please provide a path to the file holding your CPTUI JSON data."
+msgstr "Please provide a path to the file holding your CPTUI JSON data."
+
+msgid "No JSON data found"
+msgstr "No JSON data found"
+
+msgid "An error on import occurred"
+msgstr "An error on import occurred"
+
+msgid "Imported %s successfully"
+msgstr "Imported %s successfully"
+
+msgid "Please provide whether you are exporting your post types or taxonomies"
+msgstr "Please provide whether you are exporting your post types or taxonomies"
+
+msgid "Please provide a path to export your data to."
+msgstr "Please provide a path to export your data to."
+
+msgid "Error saving data."
+msgstr "Error saving data."
+
+msgid "Successfully saved data to file."
+msgstr "Successfully saved data to file."

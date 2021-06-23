@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"X-Domain: woocommerce-google-analytics-integration\n"
+
+msgid "Google Analytics &amp; WooCommerce"
+msgstr "Google Analytics &amp; WooCommerce"
+
+msgid "<a href=\"%s\">Connect WooCommerce to Google Analytics</a> to finish setting up this integration."
+msgstr "<a href=\"%s\">Connect WooCommerce to Google Analytics</a> to finish setting up this integration."
+
+msgid "Dismiss this notice."
+msgstr "Dismiss this notice."
+
+msgid "(Dismiss)"
+msgstr "(Dismiss)"
+
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+msgid "Google Analytics is a free service offered by Google that generates detailed statistics about the visitors to a website."
+msgstr "Google Analytics is a free service offered by Google that generates detailed statistics about the visitors to a website."
+
+msgid "Google Analytics Tracking ID"
+msgstr "Google Analytics Tracking ID"
+
+msgid "Log into your Google Analytics account to find your ID. e.g. <code>G-XXXXX</code> or <code>UA-XXXXX-X</code>"
+msgstr "Log into your Google Analytics account to find your ID. e.g. <code>G-XXXXX</code> or <code>UA-XXXXX-X</code>"
+
+msgid "Set Domain Name"
+msgstr "Set Domain Name"
+
+msgid "(Optional) Sets the <code>_setDomainName</code> variable. <a href=\"%s\" target=\"_blank\">See here for more information</a>."
+msgstr "(Optional) Sets the <code>_setDomainName</code> variable. <a href=\"%s\" target=\"_blank\">See here for more information</a>."
+
+msgid "Tracking Options"
+msgstr "Tracking Options"
+
+msgid "Use Global Site Tag"
+msgstr "Use Global Site Tag"
+
+msgid "The Global Site Tag provides streamlined tagging across Google’s site measurement, conversion tracking, and remarketing products. This must be enabled to use a Google Analytics 4 Measurement ID (e.g., <code>G-XXXXX</code>). <a href=\"%s\" target=\"_blank\">See here for more information</a>."
+msgstr "The Global Site Tag provides streamlined tagging across Google’s site measurement, conversion tracking, and remarketing products. This must be enabled to use a Google Analytics 4 Measurement ID (e.g., <code>G-XXXXX</code>). <a href=\"%s\" target=\"_blank\">See here for more information</a>."
+
+msgid "Enable Universal Analytics"
+msgstr "Enable Universal Analytics"
+
+msgid "Uses Universal Analytics instead of Classic Google Analytics. If you have <strong>not</strong> previously used Google Analytics on this site, check this box. Otherwise, %sfollow step 1 of the Universal Analytics upgrade guide.%s Enabling this setting will take care of step 2. %sRead more about Universal Analytics%s. Universal Analytics or Global Site Tag must be enabled to enable enhanced eCommerce."
+msgstr "Uses Universal Analytics instead of Classic Google Analytics. If you have <strong>not</strong> previously used Google Analytics on this site, check this box. Otherwise, %sfollow step 1 of the Universal Analytics upgrade guide.%s Enabling this setting will take care of step 2. %sRead more about Universal Analytics%s. Universal Analytics or Global Site Tag must be enabled to enable enhanced eCommerce."
+
+msgid "Enable Standard Tracking"
+msgstr "Enable Standard Tracking"
+
+msgid "This tracks session data such as demographics, system, etc. You don\\'t need to enable this if you are using a 3rd party Google analytics plugin."
+msgstr "This tracks session data such as demographics, system, etc. You don\\'t need to enable this if you are using a 3rd party Google analytics plugin."
+
+msgid "\"Display Advertising\" Support"
+msgstr "\"Display Advertising\" Support"
+
+msgid "Set the Google Analytics code to support Display Advertising. %sRead more about Display Advertising%s."
+msgstr "Set the Google Analytics code to support Display Advertising. %sRead more about Display Advertising%s."
+
+msgid "Use Enhanced Link Attribution"
+msgstr "Use Enhanced Link Attribution"
+
+msgid "Set the Google Analytics code to support Enhanced Link Attribution. %sRead more about Enhanced Link Attribution%s."
+msgstr "Set the Google Analytics code to support Enhanced Link Attribution. %sRead more about Enhanced Link Attribution%s."
+
+msgid "Anonymize IP addresses"
+msgstr "Anonymize IP addresses"
+
+msgid "Enabling this option is mandatory in certain countries due to national privacy laws. %sRead more about IP Anonymization%s."
+msgstr "Enabling this option is mandatory in certain countries due to national privacy laws. %sRead more about IP Anonymization%s."
+
+msgid "Track 404 (Not found) Errors"
+msgstr "Track 404 (Not found) Errors"
+
+msgid "Enable this to find broken or dead links. An \"Event\" with category \"Error\" and action \"404 Not Found\" will be created in Google Analytics for each incoming pageview to a non-existing page. By setting up a \"Custom Goal\" for these events within Google Analytics you can find out where broken links originated from (the referrer). %sRead how to set up a goal%s."
+msgstr "Enable this to find broken or dead links. An \"Event\" with category \"Error\" and action \"404 Not Found\" will be created in Google Analytics for each incoming pageview to a non-existing page. By setting up a \"Custom Goal\" for these events within Google Analytics you can find out where broken links originated from (the referrer). %sRead how to set up a goal%s."
+
+msgid "Purchase Transactions"
+msgstr "Purchase Transactions"
+
+msgid "This requires a payment gateway that redirects to the thank you/order received page after payment. Orders paid with gateways which do not do this will not be tracked."
+msgstr "This requires a payment gateway that redirects to the thank you/order received page after payment. Orders paid with gateways which do not do this will not be tracked."
+
+msgid "Add to Cart Events"
+msgstr "Add to Cart Events"
+
+msgid "Enhanced eCommerce"
+msgstr "Enhanced eCommerce"
+
+msgid "Enable Enhanced eCommerce "
+msgstr "Enable Enhanced eCommerce "
+
+msgid "Enhanced eCommerce allows you to measure more user interactions with your store, including: product impressions, product detail views, starting the checkout process, adding cart items, and removing cart items. Universal Analytics or Global Site Tag must be enabled for Enhanced eCommerce to work. If using Universal Analytics, turn on Enhanced eCommerce in your Google Analytics dashboard before enabling this setting. <a href=\"%s\" target=\"_blank\">See here for more information</a>."
+msgstr "Enhanced eCommerce allows you to measure more user interactions with your store, including: product impressions, product detail views, starting the checkout process, adding cart items, and removing cart items. Universal Analytics or Global Site Tag must be enabled for Enhanced eCommerce to work. If using Universal Analytics, turn on Enhanced eCommerce in your Google Analytics dashboard before enabling this setting. <a href=\"%s\" target=\"_blank\">See here for more information</a>."
+
+msgid "Remove from Cart Events"
+msgstr "Remove from Cart Events"
+
+msgid "Product Impressions from Listing Pages"
+msgstr "Product Impressions from Listing Pages"
+
+msgid "Product Clicks from Listing Pages"
+msgstr "Product Clicks from Listing Pages"
+
+msgid "Product Detail Views"
+msgstr "Product Detail Views"
+
+msgid "Checkout Process Initiated"
+msgstr "Checkout Process Initiated"
+
+msgid "Please allow Google Analytics 24 hours to start displaying results."
+msgstr "Please allow Google Analytics 24 hours to start displaying results."
+
+msgid "Please note, for transaction tracking to work properly, you will need to use a payment gateway that redirects the customer back to a WooCommerce order received/thank you page."
+msgstr "Please note, for transaction tracking to work properly, you will need to use a payment gateway that redirects the customer back to a WooCommerce order received/thank you page."
+
+msgid "Products"
+msgstr "Products"
+
+msgid "Add to Cart"
+msgstr "Add to Cart"
+
+msgid "ID:"
+msgstr "ID:"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "WooCommerce Google Analytics depends on the last version of %s to work!"
+msgstr "WooCommerce Google Analytics depends on the last version of %s to work!"
+
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+msgid "Add advanced tracking for your sales funnel, coupons and more. [<a href=\"%s\" target=\"_blank\">Learn more</a> &gt;]"
+msgstr "Add advanced tracking for your sales funnel, coupons and more. [<a href=\"%s\" target=\"_blank\">Learn more</a> &gt;]"
+
+msgid "Get detailed insights into your sales with Google Analytics Pro"
+msgstr "Get detailed insights into your sales with Google Analytics Pro"
